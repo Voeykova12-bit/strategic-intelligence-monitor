@@ -42,5 +42,7 @@ jobs:
           git add data/news.json docs/data/news.json
           if ! git diff --cached --quiet; then
             git commit -m "data: refresh strategic intelligence"
-            git push
+            git fetch origin main
+            git rebase origin/main
+            git push origin HEAD:main
           fi
