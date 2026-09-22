@@ -233,7 +233,8 @@ def make_items(raw_items,src,clients):
         if not relevant: continue
         bonus=max(0,min(.7,(float(src.get("reliability_score",3))-3)*.25))+max(0,min(.5,(int(src.get("priority",3))-3)*.2))
         score=round(min(5,value+bonus),1); uid=hashlib.sha1(f"{url}|{title_key(title)}".encode("utf-8")).hexdigest()[:18]
-        metrics=extract_metrics(combined)\n        out.append({"id":uid,"title":title,"url":url,"source":src.get("name","Source"),"published_at":published,"summary":summary,"categories":cats,"primary_category":cats[0],"topics":topics,"brands":brands,"score":score,"relevance_reasons":reasons,"why_it_matters":why_it_matters(cats,brands,future,reasons),"client_matches":cm,"market_scope":detect_scope(combined),"future_horizon":future,"metrics":metrics})
+        metrics=extract_metrics(combined)
+        out.append({"id":uid,"title":title,"url":url,"source":src.get("name","Source"),"published_at":published,"summary":summary,"categories":cats,"primary_category":cats[0],"topics":topics,"brands":brands,"score":score,"relevance_reasons":reasons,"why_it_matters":why_it_matters(cats,brands,future,reasons),"client_matches":cm,"market_scope":detect_scope(combined),"future_horizon":future,"metrics":metrics})
     return out
 
 def fetch_rss(src,clients):
@@ -289,7 +290,8 @@ def requalify(item,clients,active_sources,cutoff):
     combined=f"{item.get('title','')}. {item.get('summary','')}"; cats,topics,brands=classify(combined)
     future=planning_horizon(combined); cm=client_matches(combined,clients); relevant,value,reasons=strategic_filter(combined,cats,topics,brands,cm,future)
     if not relevant: return None
-    metrics=extract_metrics(combined)\n    item.update({"categories":cats,"primary_category":cats[0],"topics":topics,"brands":brands,"score":round(min(5,max(float(item.get("score",0) or 0),value)),1),"relevance_reasons":reasons,"why_it_matters":why_it_matters(cats,brands,future,reasons),"client_matches":cm,"future_horizon":future,"metrics":metrics})
+    metrics=extract_metrics(combined)
+    item.update({"categories":cats,"primary_category":cats[0],"topics":topics,"brands":brands,"score":round(min(5,max(float(item.get("score",0) or 0),value)),1),"relevance_reasons":reasons,"why_it_matters":why_it_matters(cats,brands,future,reasons),"client_matches":cm,"future_horizon":future,"metrics":metrics})
     return item
 
 def main():
