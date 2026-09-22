@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-22T14:33:07.341788+00:00",
+  "updated_at": "2026-09-22T14:40:11.099160+00:00",
   "source_count": 10,
-  "item_count": 255,
+  "item_count": 257,
   "retention_days": 550,
   "core_categories": [
     "Retail",
@@ -26,11 +26,11 @@
   "source_stats": [
     {
       "source": "Retail.ru — новости",
-      "added": 30
+      "added": 0
     },
     {
       "source": "Retail.ru — статьи",
-      "added": 30
+      "added": 0
     },
     {
       "source": "Банки.ру — новости",
@@ -38,35 +38,56 @@
     },
     {
       "source": "РБК — бизнес и экономика",
-      "added": 13
+      "added": 0
     },
     {
       "source": "Коммерсантъ — новости",
-      "added": 33
+      "added": 0
     },
     {
       "source": "Ведомости — новости",
-      "added": 17
+      "added": 0
     },
     {
       "source": "Sostav — маркетинг и бренды",
-      "added": 24
+      "added": 0
     },
     {
       "source": "CNews — бизнес и технологии",
-      "added": 25
+      "added": 0
     },
     {
       "source": "ТАСС — экономика и компании",
-      "added": 27
+      "added": 2
     },
     {
       "source": "Finam — компании и рынки",
-      "added": 56
+      "added": 0
     }
   ],
   "errors": [],
   "items": [
+    {
+      "id": "eb2165c13b6c6bda1b",
+      "title": "Краснодарца осудили за ложное сообщение о минировании отделения банка в Адыгее",
+      "url": "https://tass.ru/proisshestviya/28140043",
+      "source": "ТАСС — экономика и компании",
+      "published_at": "2026-09-22T14:35:40+00:00",
+      "summary": "Мужчину приговорили к трем годам трем месяцам лишения свободы с отбыванием в колонии-поселении",
+      "categories": [
+        "Banks"
+      ],
+      "primary_category": "Banks",
+      "topics": [
+        "Market Development"
+      ],
+      "brands": [],
+      "score": 2.2,
+      "why_it_matters": "Может влиять на банковские офферы, клиентское поведение, лояльность и коммуникационную активность. Тема: Market Development.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": []
+    },
     {
       "id": "2e26221bf6211a40cc",
       "title": "ЦБ сообщил об оттоке средств физлиц из банков в августе",
@@ -392,6 +413,28 @@
     {
       "id": "99ad71d4efdf0c9160",
       "title": "ЦБ: требования банков к компаниям выросли за август на 1,3%",
+      "url": "https://tass.ru/ekonomika/28139967",
+      "source": "ТАСС — экономика и компании",
+      "published_at": "2026-09-22T14:02:35+00:00",
+      "summary": "Они составили 112,2 трлн рублей",
+      "categories": [
+        "Banks",
+        "Finance"
+      ],
+      "primary_category": "Banks",
+      "topics": [
+        "Market Development"
+      ],
+      "brands": [],
+      "score": 2.3,
+      "why_it_matters": "Может влиять на банковские офферы, клиентское поведение, лояльность и коммуникационную активность. Тема: Market Development.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": []
+    },
+    {
+      "id": "90108554de9d838223",
+      "title": "Требования банков к компаниям выросли за август на 1,3%",
       "url": "https://tass.ru/ekonomika/28139967",
       "source": "ТАСС — экономика и компании",
       "published_at": "2026-09-22T14:02:35+00:00",
