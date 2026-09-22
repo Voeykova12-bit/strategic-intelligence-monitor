@@ -8,277 +8,253 @@ import time
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 from pathlib import Path
-from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
+from urllib.parse import parse_qsl, urlencode, urljoin, urlsplit, urlunsplit
 from urllib.request import Request, urlopen
 
 import feedparser
 import yaml
+from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA_PATH = ROOT / "data" / "news.json"
 SOURCES_PATH = ROOT / "config" / "sources.yaml"
 CLIENTS_PATH = ROOT / "config" / "clients.yaml"
-USER_AGENT = "StrategicIntelligenceMonitor/2.0 (+GitHub Pages agency research)"
+USER_AGENT = "StrategicIntelligenceMonitor/3.0 (+agency strategy research)"
 MAX_ITEMS = 5000
 RETENTION_DAYS = 550
-CORE_CATEGORIES = ["Retail", "Banks", "Finance", "FMCG"]
+
+CATEGORY_LABELS = {
+    "Retail": "Ритейл",
+    "DeliveryEcom": "E-commerce & доставка",
+    "BanksFintech": "Банки & финтех",
+    "FinanceEconomy": "Финансы & экономика",
+    "FMCG": "FMCG",
+    "Automotive": "Авто",
+    "RealEstate": "Недвижимость",
+    "TelecomTech": "Телеком & технологии",
+    "MediaAdvertising": "Медиа & реклама",
+}
 
 CATEGORY_KEYWORDS = {
-    "Retail": ["ритейл", "рознич", "магазин", "торговая сеть", "торговых сет", "супермаркет", "дискаунтер", "маркетплейс", "e-commerce", "ecommerce", "онлайн-торгов", "доставка", "пвз", "x5", "пятёроч", "пятероч", "перекрёст", "чижик", "магнит", "лента", "вкусвилл", "ozon", "wildberries", "ашан", "лемана про"],
-    "Banks": ["банк", "банков", "кредит", "вклад", "депозит", "ипотек", "карта", "эквайр", "альфа-банк", "альфа банк", "сбер", "втб", "т-банк", "тинькофф"],
-    "Finance": ["финанс", "центробанк", "центральный банк", "ключевая ставка", "ставк", "инфляц", "рубл", "валют", "курс доллар", "бирж", "облигац", "инвести", "финрын", "платеж", "платёж", "рассроч", "bnpl", "акци", "дивиденд", "капитал"],
-    "FMCG": ["fmcg", "продукт", "напит", "еда", "готовая еда", "food", "молоч", "мяс", "кофе", "чай", "снек", "кондитер", "космет", "бытовая хим", "товары повседнев", "производитель продуктов", "бакале", "заморож", "напитки"],
+    "Retail": ["ритейл","рознич","магазин","торговая сеть","супермаркет","гипермаркет","дискаунтер","x5","пятёроч","пятероч","перекрёст","перекрест","чижик","магнит","лента","вкусвилл","fix price","metro","ашан","окей","o'key"],
+    "DeliveryEcom": ["маркетплейс","e-commerce","ecommerce","онлайн-торгов","доставка","e-grocery","пвз","курьер","даркстор","dark store","last mile","последняя миля","самовывоз","ozon","wildberries","самокат","купер","яндекс лавка","яндекс маркет"],
+    "BanksFintech": ["банк","банков","кредит","вклад","депозит","ипотек","карта","эквайр","кэшбэк","кешбэк","финтех","платеж","платёж","рассроч","bnpl","альфа-банк","альфа банк","сбер","втб","т-банк","тинькофф","газпромбанк","совкомбанк","псб","мкб","озон банк","яндекс банк"],
+    "FinanceEconomy": ["финанс","центробанк","центральный банк","ключевая ставка","инфляц","рубл","валют","курс доллара","бирж","облигац","инвести","финрын","дивиденд","капитал","денежно-кредит","ввп","экономик","доходы населения","потребительские расходы"],
+    "FMCG": ["fmcg","товары повседнев","производитель продуктов","производитель напит","продуктовый бренд","молочн","мясн","напитк","кофе","чай","снек","кондитер","бакале","заморож","косметик","бытовая хим","готовая еда","private label","собственная торговая марка","стм","pepsico","nestle","unilever","mars","mondelez","черкизово","мираторг","русагро","эфко"],
+    "Automotive": ["авторынок","автомобил","автобизнес","автодилер","дилерская сеть","легковых автомобил","кроссовер","автокредит","автолизинг","автопроизвод","lada","haval","chery","geely","changan","jetour","tank","tenet","москвич","автоваз","exeed","omoda","gac"],
+    "RealEstate": ["недвижим","новострой","жиль","квартир","девелоп","застройщик","ипотек","офисная недвиж","коммерческая недвиж","складская недвиж","арендные ставки","строительств жилья","жилой комплекс"],
+    "TelecomTech": ["телеком","оператор связи","мобильная связь","интернет-провайдер","мтс","мегафон","билайн","t2","ростелеком","цифровизац","искусственн","нейросет"," ии "," ai ","adtech","martech","облачн","дата-центр","software","saas"],
+    "MediaAdvertising": ["рекламный рынок","рынок рекламы","медиарынок","рекламные бюджеты","медиаинвести","наружная реклама","digital-реклама","интернет-реклама","телевизионная реклама","рекламное агентство","медиагруппа","рекламная платформа","programmatic","retail media","ритейл медиа","ритейл-медиа"],
 }
 
 TOPIC_KEYWORDS = {
-    "Consumer": ["потребител", "покупател", "спрос", "поведен", "лояльност", "аудитор"],
-    "Pricing": ["цена", "цены", "подорож", "дешев", "скидк", "тариф", "инфляц"],
-    "Promotion": ["промо", "акци", "скидк", "кэшбэк", "кешбэк"],
-    "Advertising": ["реклам", "кампан", "медиаразмещ", "ролик"],
-    "Branding": ["бренд", "ребрендинг", "позиционирован", "айдентик"],
-    "Retail Media": ["retail media", "ритейл медиа", "ритейл-медиа"],
-    "Product Launch": ["запустил", "запускает", "запуск", "новый продукт", "новый сервис", "представил"],
-    "Expansion": ["открыл", "открыла", "открытие", "расшир", "новые магазины", "новые точки"],
-    "Research": ["исследован", "опрос", "аналитик", "данные показали", "по данным"],
-    "Partnership": ["партнер", "партнёр", "коллаборац", "сотрудничеств"],
-    "Technology": ["искусственн", "нейросет", " ии ", " ai ", "технолог", "автоматизац"],
-    "Regulation": ["закон", "регулирован", "цб ", "фас ", "минфин", "маркировк", "налог"],
-    "M&A / Investment": ["слияни", "поглощ", "приобрел", "приобрёл", "сделк", "инвести", "раунд"],
-    "Financial Results": ["выручк", "прибыл", "ebitda", "оборот", "финансовые результаты"],
+    "Рынок и продажи": ["рынок","продаж","доля рынка","оборот","выручк","темп роста","динамика рынка","снижение рынка"],
+    "Потребитель": ["потребител","покупател","спрос","поведен","предпочт","частота покуп","средний чек","трафик","лояльност","аудитор"],
+    "Цены и промо": ["цена","цены","подорож","дешев","скидк","тариф","инфляц","промо"],
+    "Доставка": ["доставка","e-grocery","экспресс-достав","last mile","последняя миля","курьер","даркстор","dark store","самовывоз"],
+    "Форматы и экспансия": ["открыл","открыла","открытие","расшир","новые магазины","новые точки","новый формат","география сети","дилерская сеть"],
+    "Ассортимент и СТМ": ["ассортимент","стм","собственная торговая марка","private label","готовая еда","категорийный"],
+    "Маркетинг и медиа": ["реклам","кампан","медиаразмещ","маркетинг","бренд","ребрендинг","позиционирован","спонсор","коллаборац"],
+    "Лояльность и CRM": ["лояльност","программа лояльности","кэшбэк","кешбэк","crm","персонализац"],
+    "Digital и технологии": ["искусственн","нейросет"," ии "," ai ","технолог","автоматизац","цифровизац","приложен","финтех"],
+    "Регулирование": ["закон","регулирован","цб ","фас ","минфин","маркировк","налог","требован"],
+    "M&A и инвестиции": ["слияни","поглощ","приобрел","приобрёл","сделк","инвести","раунд","капвлож"],
+    "Финрезультаты": ["выручк","прибыл","ebitda","оборот","финансовые результаты","рентабельност"],
+    "Запуск продукта/сервиса": ["запустил","запускает","запуск","новый продукт","новый сервис","представил"],
+    "Исследования и прогнозы": ["исследован","опрос","аналитик","по данным","прогноз","ожидает рынок","оценил рынок"],
 }
 
-KNOWN_BRANDS = [
-    "X5", "Пятёрочка", "Пятерочка", "Перекрёсток", "Перекресток", "Чижик", "Магнит", "Лента", "ВкусВилл", "Ozon", "Wildberries",
-    "Альфа-Банк", "Сбер", "ВТБ", "Т-Банк", "Яндекс", "VK", "МТС", "МегаФон", "Балтика", "PepsiCo", "Nestle", "Unilever", "Mars", "Mondelez"
-]
+STRATEGIC_TERMS = ["рынок","доля рынка","продаж","выручк","прибыл","ebitda","оборот","инвести","сделк","слияни","поглощ","стратег","развити","расшир","формат","открыт","закрыт","доставка","e-grocery","логист","маркетплейс","онлайн-торг","средний чек","трафик","спрос","потребител","покупател","предпочт","лояльност","ассортимент","стм","private label","цена","инфляц","ключевая ставка","кредит","вклад","платеж","рассроч","регулирован","закон","маркировк","реклам","маркетинг","бренд","ребренд","позиционирован","медиа","кампан","партнер","партнёр","спонсор","исследован","опрос","прогноз","новый сервис","новый продукт","цифровизац","автоматизац","искусственн","нейросет","дилер","ипотек","девелоп","арендн","ввод жилья","производств"]
 
-FOREIGN_MARKERS = ["сша", "америк", "евросоюз", "европ", "китай", "китайск", "индия", "турц", "оаэ", "британи", "германи", "франци", "итал", "испан", "япони", "коре", "global", "worldwide", "международн"]
-RUSSIA_MARKERS = ["россия", "россий", " рф ", "москв", "петербург", "рубл", "цб росс", "x5", "пятёроч", "чижик", "альфа-банк"]
+NOISE_TERMS = ["кишечн","отравлен","сальмонел","ботулиз","бактери","инфекц","санитарн","малина","клубника","арбуз","дыня","рецепт","как приготовить","польза продукта","вред продукта","врач рассказал","диетолог","нутрициолог","калорий","похуден","здоровье","симптом","лечение","дтп","авария","пожар","ограб","краж","задержан","уголовн","гороскоп","погода","ваканс"]
+BUSINESS_OVERRIDE_TERMS = ["отзыв продук","приостанов","штраф","иск","репутац","продаж","выручк","закрыт","сеть","бренд","фас","суд","регулирован","массов","рынок","производитель","ритейлер"]
+MAJOR_PLAYERS = ["x5","пятёрочка","пятерочка","перекрёсток","перекресток","чижик","магнит","лента","вкусвилл","ozon","wildberries","fix price","metro","ашан","окей","самокат","купер","яндекс лавка","яндекс маркет","альфа-банк","альфа банк","сбер","втб","т-банк","газпромбанк","совкомбанк","псб","мкб","haval","chery","geely","changan","jetour","tank","tenet","лада","автоваз","москвич","пик","самолет","самолёт","лср","эталон","а101","donstroy","sminex","мтс","мегафон","билайн","t2","ростелеком","pepsico","nestle","unilever","mars","mondelez","черкизово","мираторг","русагро","эфко"]
+KNOWN_BRANDS = ["X5","Пятёрочка","Пятерочка","Перекрёсток","Перекресток","Чижик","Магнит","Лента","ВкусВилл","Ozon","Wildberries","Fix Price","METRO","Ашан","О'КЕЙ","Самокат","Купер","Яндекс Лавка","Яндекс Маркет","Альфа-Банк","Сбер","ВТБ","Т-Банк","Газпромбанк","Совкомбанк","ПСБ","МКБ","Haval","Chery","Geely","Changan","Jetour","TANK","TENET","LADA","АвтоВАЗ","Москвич","ПИК","Самолет","Самолёт","ЛСР","Эталон","А101","Donstroy","Sminex","МТС","МегаФон","Билайн","T2","Ростелеком","PepsiCo","Nestle","Unilever","Mars","Mondelez","Черкизово","Мираторг","Русагро","ЭФКО","Черноголовка"]
+
+FOREIGN_MARKERS = ["сша","америк","евросоюз","европ","китай","китайск","индия","турц","оаэ","британи","германи","франци","итал","испан","япони","коре","global","worldwide","международн"]
+RUSSIA_MARKERS = ["россия","россий"," рф ","москв","петербург","рубл","цб росс","x5","пятёроч","чижик","альфа-банк"]
 FUTURE_RE = re.compile(r"\b(2027|2028|2029|2030|2031|2032|2033|2034|2035)\b")
-FUTURE_WORDS = ["планирует", "планируют", "планируется", "намерен", "намерена", "к 2027", "до 2030", "в следующем году", "прогнозирует", "прогноз"]
+FUTURE_WORDS = ["планирует","планируют","планируется","намерен","намерена","к 2027","до 2030","в следующем году","прогнозирует","прогноз"]
 
-
-def canonicalize(url: str) -> str:
+def canonicalize(url):
     try:
-        parts = urlsplit(url.strip())
-        query = [(k, v) for k, v in parse_qsl(parts.query, keep_blank_values=True) if not k.lower().startswith("utm_") and k.lower() not in {"gclid", "yclid", "fbclid", "from", "ref"}]
-        return urlunsplit((parts.scheme.lower() or "https", parts.netloc.lower(), parts.path.rstrip("/") or "/", urlencode(sorted(query)), ""))
+        parts=urlsplit(url.strip()); q=[(k,v) for k,v in parse_qsl(parts.query,keep_blank_values=True) if not k.lower().startswith("utm_") and k.lower() not in {"gclid","yclid","fbclid","from","ref"}]
+        return urlunsplit((parts.scheme.lower() or "https",parts.netloc.lower(),parts.path.rstrip("/") or "/",urlencode(sorted(q)),""))
+    except Exception: return url
+
+def clean_text(value):
+    value=html.unescape(value or ""); value=re.sub(r"<[^>]+>"," ",value); return re.sub(r"\s+"," ",value).strip()
+
+def compact_summary(value,limit=360):
+    text=clean_text(value)
+    if len(text)<=limit: return text
+    cut=text[:limit]; pos=max(cut.rfind(". "),cut.rfind("! "),cut.rfind("? "))
+    return (cut[:pos+1] if pos>150 else cut.rstrip())+"…"
+
+def parse_date_value(raw):
+    if not raw: return datetime.now(timezone.utc).isoformat()
+    try: dt=parsedate_to_datetime(raw)
     except Exception:
-        return url
+        try: dt=datetime.fromisoformat(str(raw).replace("Z","+00:00"))
+        except Exception: return datetime.now(timezone.utc).isoformat()
+    if dt.tzinfo is None: dt=dt.replace(tzinfo=timezone.utc)
+    return dt.astimezone(timezone.utc).isoformat()
 
+def classify(text,hint=None):
+    low=f" {text.lower()} "; cats=[k for k,words in CATEGORY_KEYWORDS.items() if any(w in low for w in words)]
+    if hint and hint not in cats: cats.insert(0,hint)
+    topics=[k for k,words in TOPIC_KEYWORDS.items() if any(w in low for w in words)]
+    brands=[b for b in KNOWN_BRANDS if b.lower() in low]
+    return cats[:4],(topics or ["Бизнес-изменения"])[:6],list(dict.fromkeys(brands))[:12]
 
-def clean_text(value: str | None) -> str:
-    value = html.unescape(value or "")
-    value = re.sub(r"<[^>]+>", " ", value)
-    return re.sub(r"\s+", " ", value).strip()
+def detect_scope(text):
+    low=f" {text.lower()} "; ru=sum(1 for m in RUSSIA_MARKERS if m in low); foreign=sum(1 for m in FOREIGN_MARKERS if m in low)
+    return "Global" if foreign>ru else "Russia"
 
+def planning_horizon(text):
+    low=text.lower(); years=FUTURE_RE.findall(text)
+    return list(dict.fromkeys(years)) or (["future"] if any(x in low for x in FUTURE_WORDS) else [])
 
-def compact_summary(value: str, limit: int = 360) -> str:
-    text = clean_text(value)
-    if len(text) <= limit:
-        return text
-    cut = text[:limit]
-    pos = max(cut.rfind(". "), cut.rfind("! "), cut.rfind("? "))
-    return (cut[:pos + 1] if pos > 150 else cut.rstrip()) + "…"
+def load_clients():
+    return (yaml.safe_load(CLIENTS_PATH.read_text(encoding="utf-8")) or {}).get("clients",[])
 
-
-def parse_date(entry) -> str:
-    raw = entry.get("published") or entry.get("updated") or ""
-    try:
-        dt = parsedate_to_datetime(raw)
-        if dt.tzinfo is None:
-            dt = dt.replace(tzinfo=timezone.utc)
-        return dt.astimezone(timezone.utc).isoformat()
-    except Exception:
-        return datetime.now(timezone.utc).isoformat()
-
-
-def classify(text: str, source_name: str) -> tuple[list[str], list[str], list[str]]:
-    low = f" {text.lower()} "
-    categories = [name for name, words in CATEGORY_KEYWORDS.items() if any(w in low for w in words)]
-    if source_name.startswith("Retail.ru") and "Retail" not in categories:
-        categories.append("Retail")
-    if source_name.startswith("Банки.ру"):
-        if "Banks" not in categories:
-            categories.append("Banks")
-        if "Finance" not in categories:
-            categories.append("Finance")
-    topics = [name for name, words in TOPIC_KEYWORDS.items() if any(w in low for w in words)]
-    brands = [brand for brand in KNOWN_BRANDS if brand.lower() in low]
-    return categories[:4], (topics or ["Market Development"])[:6], list(dict.fromkeys(brands))[:10]
-
-
-def detect_scope(text: str) -> str:
-    low = f" {text.lower()} "
-    ru = sum(1 for m in RUSSIA_MARKERS if m in low)
-    foreign = sum(1 for m in FOREIGN_MARKERS if m in low)
-    return "Global" if foreign > ru else "Russia"
-
-
-def planning_horizon(text: str) -> list[str]:
-    low = text.lower()
-    years = FUTURE_RE.findall(text)
-    if years or any(x in low for x in FUTURE_WORDS):
-        return list(dict.fromkeys(years)) or ["future"]
-    return []
-
-
-def strategic_score(text: str, categories: list[str], topics: list[str], brands: list[str], priority: int, reliability: float, future: list[str]) -> float:
-    low = text.lower()
-    high = ["запуск", "инвести", "слияни", "поглощ", "партнер", "партнёр", "ребренд", "исследован", "продаж", "доля рынка", "цена", "выручк", "прибыл", "регулирован", "маркировк"]
-    score = 1.7 + min(1.3, sum(1 for x in high if x in low) * 0.24)
-    score += min(0.55, len(topics) * 0.10) + min(0.45, len(brands) * 0.12)
-    score += max(0, min(0.45, (priority - 3) * 0.15)) + max(0, min(0.35, (reliability - 3) * 0.14))
-    if len(categories) > 1:
-        score += 0.15
-    if future:
-        score += 0.25
-    return round(max(1.0, min(5.0, score)), 1)
-
-
-def why_it_matters(categories: list[str], topics: list[str], brands: list[str], future: list[str]) -> str:
-    cat = categories[0] if categories else "рынка"
-    topic = ", ".join(topics[:2])
-    base = {
-        "Retail": "Может влиять на конкурентную динамику сетей, ассортимент, цены, промо и покупательское поведение.",
-        "Banks": "Может влиять на банковские офферы, клиентское поведение, лояльность и коммуникационную активность.",
-        "Finance": "Меняет финансовый контекст для потребителей и бизнеса: стоимость денег, спрос, инвестиции или платежное поведение.",
-        "FMCG": "Может влиять на спрос, цены, продуктовый портфель, дистрибуцию и коммуникацию FMCG-брендов.",
-    }.get(cat, "Может менять конкурентный и потребительский контекст категории.")
-    if brands:
-        base += f" В материале фигурируют: {', '.join(brands[:3])}."
-    if future:
-        base += f" Есть ориентир на будущий период: {', '.join(future)}."
-    return f"{base} Тема: {topic}."
-
-
-def load_clients() -> list[dict]:
-    return (yaml.safe_load(CLIENTS_PATH.read_text(encoding="utf-8")) or {}).get("clients", [])
-
-
-def client_matches(text: str, clients: list[dict]) -> dict:
-    low = text.lower()
-    out = {}
+def client_matches(text,clients):
+    low=text.lower(); out={}
     for c in clients:
-        matched = [term for term in c.get("brands", []) if term.lower() in low]
-        if matched:
-            out[c["slug"]] = {"name": c["name"], "score": round(min(5.0, 2.5 + len(matched) * 0.5), 1), "matches": matched[:6]}
+        matched=[term for term in c.get("brands",[]) if term.lower() in low]
+        if matched: out[c["slug"]]={"name":c["name"],"score":round(min(5.0,3.0+len(matched)*0.4),1),"matches":matched[:6]}
     return out
 
+def strategic_filter(text,categories,topics,brands,client_hits,future):
+    low=f" {text.lower()} "; strategic_hits=sum(1 for t in STRATEGIC_TERMS if t in low); major_hits=sum(1 for t in MAJOR_PLAYERS if t in low)
+    noise=[t for t in NOISE_TERMS if t in low]; override=any(t in low for t in BUSINESS_OVERRIDE_TERMS)
+    has_number=bool(re.search(r"\b\d+(?:[.,]\d+)?\s*(?:%|млн|млрд|трлн|руб|₽|долл|магазин|точк|клиент|автомоб|квартир)",low))
+    high={"Рынок и продажи","Потребитель","Доставка","Финрезультаты","M&A и инвестиции","Регулирование","Маркетинг и медиа","Форматы и экспансия","Исследования и прогнозы","Лояльность и CRM","Цены и промо"}
+    value=min(3.0,strategic_hits*0.42)+min(1.25,major_hits*0.38)+min(0.9,len(set(topics)&high)*0.24)+(0.55 if has_number else 0)+(1.0 if client_hits else 0)+(0.4 if future else 0)+(0.2 if len(categories)>1 else 0)
+    if noise and not override: value-=3.2
+    elif noise: value-=0.8
+    reasons=[]
+    if "Рынок и продажи" in topics or "Финрезультаты" in topics: reasons.append("рынок / бизнес")
+    if "Потребитель" in topics: reasons.append("потребитель")
+    if "Доставка" in topics: reasons.append("доставка")
+    if "Маркетинг и медиа" in topics: reasons.append("маркетинг")
+    if "Регулирование" in topics: reasons.append("регулирование")
+    if "M&A и инвестиции" in topics: reasons.append("инвестиции / M&A")
+    if client_hits: reasons.append("клиент")
+    if major_hits: reasons.append("крупный игрок")
+    if future: reasons.append("будущий горизонт")
+    if has_number: reasons.append("есть данные")
+    return bool(categories) and value>=2.15,round(max(0,min(5,value)),1),list(dict.fromkeys(reasons))[:5]
 
-def title_key(title: str) -> str:
-    s = re.sub(r"[^a-zа-яё0-9 ]+", " ", title.lower())
-    return " ".join(s.split())[:180]
+def why_it_matters(categories,brands,future,reasons):
+    cat=categories[0] if categories else ""
+    base={
+      "Retail":"Показывает изменение в бизнесе ритейла: формате, продажах, ценах, ассортименте или конкурентной динамике.",
+      "DeliveryEcom":"Помогает отслеживать рынок e-commerce и доставки: модели сервиса, игроков, логистику и поведение покупателей.",
+      "BanksFintech":"Может менять банковские офферы, финтех-сервисы, клиентское поведение и коммуникационную конкуренцию.",
+      "FinanceEconomy":"Задает макроконтекст для спроса, потребительских расходов и бизнес-планирования.",
+      "FMCG":"Показывает сдвиги в спросе, портфелях брендов, ценах, дистрибуции и потребительских привычках.",
+      "Automotive":"Важен для понимания продаж, цен, модельного ряда, дилерской сети и конкурентной динамики авторынка.",
+      "RealEstate":"Отражает динамику спроса, цен, ипотеки, девелопмента и коммерческой недвижимости.",
+      "TelecomTech":"Показывает изменения в цифровых сервисах, телеком-рынке и технологиях, влияющих на потребителей и маркетинг.",
+      "MediaAdvertising":"Помогает видеть изменения рекламного и медиарынка, бюджетов, каналов и рекламных технологий."
+    }.get(cat,"Материал влияет на рыночный или конкурентный контекст.")
+    if brands: base+=f" В фокусе: {', '.join(brands[:3])}."
+    if future: base+=f" Горизонт: {', '.join(future)}."
+    if reasons: base+=f" Отобрано как: {', '.join(reasons[:3])}."
+    return base
 
+def title_key(title):
+    return " ".join(re.sub(r"[^a-zа-яё0-9 ]+"," ",title.lower()).split())[:180]
 
-def fetch_source(src: dict, clients: list[dict]) -> list[dict]:
-    if src.get("type") != "rss" or not src.get("enabled", True) or not src.get("accessible_without_vpn_ru", False):
-        return []
-    req = Request(src["url"], headers={"User-Agent": USER_AGENT, "Accept": "application/rss+xml, application/xml, text/xml, */*"})
-    with urlopen(req, timeout=30) as response:
-        raw = response.read()
-    feed = feedparser.parse(raw)
-    result = []
-    for entry in feed.entries[:100]:
-        title = clean_text(entry.get("title"))
-        url = canonicalize(entry.get("link", ""))
-        summary_raw = entry.get("summary") or entry.get("description") or ""
-        summary = compact_summary(summary_raw)
-        if not title or not url:
-            continue
-        combined = f"{title}. {clean_text(summary_raw)}"
-        categories, topics, brands = classify(combined, src.get("name", ""))
-        if not categories:
-            continue
-        future = planning_horizon(combined)
-        score = strategic_score(combined, categories, topics, brands, int(src.get("priority", 3)), float(src.get("reliability_score", 3)), future)
-        uid = hashlib.sha1(f"{url}|{title_key(title)}".encode("utf-8")).hexdigest()[:18]
-        result.append({
-            "id": uid,
-            "title": title,
-            "url": url,
-            "source": src.get("name", "Source"),
-            "published_at": parse_date(entry),
-            "summary": summary,
-            "categories": categories,
-            "primary_category": categories[0],
-            "topics": topics,
-            "brands": brands,
-            "score": score,
-            "why_it_matters": why_it_matters(categories, topics, brands, future),
-            "client_matches": client_matches(combined, clients),
-            "market_scope": detect_scope(combined),
-            "future_horizon": future,
-        })
-    return result
+def make_items(raw_items,src,clients):
+    out=[]; hint=src.get("category_hint")
+    for title,url,summary,published in raw_items:
+        combined=f"{title}. {summary}"; cats,topics,brands=classify(combined,hint)
+        if not cats: continue
+        future=planning_horizon(combined); cm=client_matches(combined,clients); relevant,value,reasons=strategic_filter(combined,cats,topics,brands,cm,future)
+        if not relevant: continue
+        bonus=max(0,min(.7,(float(src.get("reliability_score",3))-3)*.25))+max(0,min(.5,(int(src.get("priority",3))-3)*.2))
+        score=round(min(5,value+bonus),1); uid=hashlib.sha1(f"{url}|{title_key(title)}".encode("utf-8")).hexdigest()[:18]
+        out.append({"id":uid,"title":title,"url":url,"source":src.get("name","Source"),"published_at":published,"summary":summary,"categories":cats,"primary_category":cats[0],"topics":topics,"brands":brands,"score":score,"relevance_reasons":reasons,"why_it_matters":why_it_matters(cats,brands,future,reasons),"client_matches":cm,"market_scope":detect_scope(combined),"future_horizon":future})
+    return out
 
+def fetch_rss(src,clients):
+    req=Request(src["url"],headers={"User-Agent":USER_AGENT,"Accept":"application/rss+xml, application/xml, text/xml, */*"})
+    with urlopen(req,timeout=30) as r: raw=r.read()
+    feed=feedparser.parse(raw); rows=[]
+    for e in feed.entries[:100]:
+        title=clean_text(e.get("title")); url=canonicalize(e.get("link","")); summary=compact_summary(e.get("summary") or e.get("description") or "")
+        if title and url: rows.append((title,url,summary,parse_date_value(e.get("published") or e.get("updated"))))
+    return make_items(rows,src,clients)
+
+def detail_meta(url):
+    req=Request(url,headers={"User-Agent":USER_AGENT,"Accept":"text/html,*/*"})
+    with urlopen(req,timeout=20) as r: page=r.read()
+    soup=BeautifulSoup(page,"html.parser"); desc=""; published=""
+    for attrs in ({"property":"og:description"},{"name":"description"}):
+        tag=soup.find("meta",attrs=attrs)
+        if tag and tag.get("content"): desc=clean_text(tag.get("content")); break
+    for attrs in ({"property":"article:published_time"},{"name":"article:published_time"}):
+        tag=soup.find("meta",attrs=attrs)
+        if tag and tag.get("content"): published=tag.get("content"); break
+    return compact_summary(desc),parse_date_value(published)
+
+def fetch_html(src,clients):
+    req=Request(src["url"],headers={"User-Agent":USER_AGENT,"Accept":"text/html,*/*"})
+    with urlopen(req,timeout=30) as r: page=r.read()
+    soup=BeautifulSoup(page,"html.parser"); domain=urlsplit(src["url"]).netloc.lower(); seen=set(); rows=[]
+    for a in soup.find_all("a",href=True):
+        title=clean_text(a.get_text(" ",strip=True)); href=urljoin(src["url"],a.get("href")); p=urlsplit(href)
+        if p.netloc.lower()!=domain or len(title)<28 or href in seen: continue
+        if domain.endswith("autostat.ru") and "/news/" not in p.path: continue
+        if domain.endswith("rbc.ru") and "/news/" not in p.path: continue
+        seen.add(href)
+        try: summary,published=detail_meta(href)
+        except Exception: summary,published="",datetime.now(timezone.utc).isoformat()
+        rows.append((title,canonicalize(href),summary,published))
+        if len(rows)>=28: break
+        time.sleep(.05)
+    return make_items(rows,src,clients)
+
+def requalify(item,clients,active_sources,cutoff):
+    try:
+        dt=datetime.fromisoformat((item.get("published_at") or "").replace("Z","+00:00"))
+        if dt.tzinfo is None: dt=dt.replace(tzinfo=timezone.utc)
+    except Exception: return None
+    if dt<cutoff or item.get("source") not in active_sources: return None
+    combined=f"{item.get('title','')}. {item.get('summary','')}"; cats,topics,brands=classify(combined)
+    future=planning_horizon(combined); cm=client_matches(combined,clients); relevant,value,reasons=strategic_filter(combined,cats,topics,brands,cm,future)
+    if not relevant: return None
+    item.update({"categories":cats,"primary_category":cats[0],"topics":topics,"brands":brands,"score":round(min(5,max(float(item.get("score",0) or 0),value)),1),"relevance_reasons":reasons,"why_it_matters":why_it_matters(cats,brands,future,reasons),"client_matches":cm,"future_horizon":future})
+    return item
 
 def main():
-    sources = (yaml.safe_load(SOURCES_PATH.read_text(encoding="utf-8")) or {}).get("sources", [])
-    sources = [s for s in sources if s.get("accessible_without_vpn_ru", False)]
-    clients = load_clients()
-    active_sources = {s["name"] for s in sources}
-    cutoff = datetime.now(timezone.utc) - timedelta(days=RETENTION_DAYS)
-
-    previous = []
-    if DATA_PATH.exists():
-        try:
-            previous = json.loads(DATA_PATH.read_text(encoding="utf-8")).get("items", [])
-        except Exception:
-            previous = []
-
-    by_id = {}
-    title_seen = {}
-    for item in previous:
-        try:
-            published = datetime.fromisoformat(item.get("published_at", "").replace("Z", "+00:00"))
-        except Exception:
-            continue
-        if item.get("source") not in active_sources or published < cutoff or not item.get("categories"):
-            continue
-        by_id[item["id"]] = item
-        title_seen[title_key(item.get("title", ""))] = item["id"]
-
-    errors = []
-    source_stats = []
+    sources=(yaml.safe_load(SOURCES_PATH.read_text(encoding="utf-8")) or {}).get("sources",[])
+    sources=[s for s in sources if s.get("accessible_without_vpn_ru",False)]
+    clients=load_clients(); active={s["name"] for s in sources}; cutoff=datetime.now(timezone.utc)-timedelta(days=RETENTION_DAYS)
+    try: previous=json.loads(DATA_PATH.read_text(encoding="utf-8")).get("items",[]) if DATA_PATH.exists() else []
+    except Exception: previous=[]
+    by_id={}; title_seen={}
+    for raw in previous:
+        item=requalify(raw,clients,active,cutoff)
+        if item: by_id[item["id"]]=item; title_seen[title_key(item.get("title",""))]=item["id"]
+    errors=[]; stats=[]
     for src in sources:
-        count = 0
+        added=0
         try:
-            for item in fetch_source(src, clients):
-                key = title_key(item["title"])
-                old_id = title_seen.get(key)
+            items=fetch_rss(src,clients) if src.get("type")=="rss" else fetch_html(src,clients)
+            for item in items:
+                key=title_key(item["title"]); old_id=title_seen.get(key)
                 if old_id and old_id in by_id:
-                    old = by_id[old_id]
-                    if item["score"] > old.get("score", 0):
-                        by_id.pop(old_id, None)
-                    else:
-                        continue
-                by_id[item["id"]] = item
-                title_seen[key] = item["id"]
-                count += 1
-        except Exception as exc:
-            errors.append({"source": src.get("name"), "error": str(exc)[:220]})
-        source_stats.append({"source": src.get("name"), "added": count})
-        time.sleep(0.12)
+                    if item["score"]<=float(by_id[old_id].get("score",0) or 0): continue
+                    by_id.pop(old_id,None)
+                by_id[item["id"]]=item; title_seen[key]=item["id"]; added+=1
+        except Exception as exc: errors.append({"source":src.get("name"),"error":str(exc)[:240]})
+        stats.append({"source":src.get("name"),"added":added}); time.sleep(.12)
+    items=list(by_id.values()); items.sort(key=lambda x:(float(x.get("score",0) or 0),x.get("published_at") or ""),reverse=True); items=items[:MAX_ITEMS]
+    payload={"updated_at":datetime.now(timezone.utc).isoformat(),"source_count":len(sources),"item_count":len(items),"retention_days":RETENTION_DAYS,"categories":[{"id":k,"label":v} for k,v in CATEGORY_LABELS.items()],"clients":[{"slug":c["slug"],"name":c["name"]} for c in clients],"source_stats":stats,"errors":errors,"items":items}
+    DATA_PATH.parent.mkdir(parents=True,exist_ok=True); DATA_PATH.write_text(json.dumps(payload,ensure_ascii=False,indent=2),encoding="utf-8")
+    print(f"Updated {len(items)} strategically relevant items from {len(sources)} sources; errors={len(errors)}")
 
-    items = list(by_id.values())
-    items.sort(key=lambda x: x.get("published_at") or "", reverse=True)
-    items = items[:MAX_ITEMS]
-    payload = {
-        "updated_at": datetime.now(timezone.utc).isoformat(),
-        "source_count": len(sources),
-        "item_count": len(items),
-        "retention_days": RETENTION_DAYS,
-        "core_categories": CORE_CATEGORIES,
-        "clients": [{"slug": c["slug"], "name": c["name"]} for c in clients],
-        "source_stats": source_stats,
-        "errors": errors,
-        "items": items,
-    }
-    DATA_PATH.parent.mkdir(parents=True, exist_ok=True)
-    DATA_PATH.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"Updated {len(items)} relevant items from {len(sources)} Russia-accessible sources; errors={len(errors)}")
-
-
-if __name__ == "__main__":
-    main()
+if __name__=="__main__": main()

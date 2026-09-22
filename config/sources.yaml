@@ -37,7 +37,7 @@ sources:
     reliability_score: 4.5
     priority: 5
     accessible_without_vpn_ru: true
-    topics: [business, finance, banking, retail, fmcg]
+    topics: [business, finance, banking, retail, fmcg, auto, real-estate]
 
   - name: Коммерсантъ — новости
     type: rss
@@ -47,7 +47,7 @@ sources:
     reliability_score: 4.6
     priority: 5
     accessible_without_vpn_ru: true
-    topics: [business, finance, banking, retail, consumer]
+    topics: [business, finance, banking, retail, consumer, auto, real-estate]
 
   - name: Ведомости — новости
     type: rss
@@ -57,7 +57,7 @@ sources:
     reliability_score: 4.5
     priority: 4
     accessible_without_vpn_ru: true
-    topics: [business, finance, banking, retail, companies]
+    topics: [business, finance, banking, retail, companies, auto, real-estate]
 
   - name: Sostav — маркетинг и бренды
     type: rss
@@ -67,7 +67,7 @@ sources:
     reliability_score: 4.2
     priority: 4
     accessible_without_vpn_ru: true
-    topics: [marketing, advertising, brands, retail, fmcg, banking]
+    topics: [marketing, advertising, brands, retail, fmcg, banking, media]
 
   - name: CNews — бизнес и технологии
     type: rss
@@ -77,7 +77,7 @@ sources:
     reliability_score: 4.1
     priority: 3
     accessible_without_vpn_ru: true
-    topics: [technology, retail, banking, fintech, ecommerce]
+    topics: [technology, telecom, retail, banking, fintech, ecommerce]
 
   - name: ТАСС — экономика и компании
     type: rss
@@ -87,7 +87,7 @@ sources:
     reliability_score: 4.5
     priority: 4
     accessible_without_vpn_ru: true
-    topics: [economy, finance, banking, retail, fmcg, companies]
+    topics: [economy, finance, banking, retail, fmcg, companies, auto, real-estate]
 
   - name: Finam — компании и рынки
     type: rss
@@ -98,3 +98,25 @@ sources:
     priority: 3
     accessible_without_vpn_ru: true
     topics: [finance, companies, markets, investment]
+
+  - name: АВТОСТАТ — авторынок
+    type: html
+    url: "https://www.autostat.ru/news/"
+    language: ru
+    country: RU
+    reliability_score: 4.8
+    priority: 5
+    accessible_without_vpn_ru: true
+    category_hint: Automotive
+    topics: [automotive, sales, prices, dealers, production, forecasts]
+
+  - name: РБК Недвижимость — рынок недвижимости
+    type: html
+    url: "https://realty.rbc.ru/"
+    language: ru
+    country: RU
+    reliability_score: 4.5
+    priority: 5
+    accessible_without_vpn_ru: true
+    category_hint: RealEstate
+    topics: [real-estate, housing, commercial-real-estate, mortgage, prices, developers]
