@@ -1,14 +1,21 @@
 clients:
-  - slug: moskvich
-    name: Москвич
-    industry: Automotive
-    brands: [Москвич]
-    competitors: [Haval, Chery, Geely, Changan, Jetour, TENET, TANK]
-    track: [launches, pricing, sales, advertising, sponsorship, partnerships, dealerships, financing, models, media campaigns]
-
-  - slug: baltika-zero
-    name: Балтика 0
-    industry: Food & Beverage
-    brands: [Балтика 0, Балтика]
+  - slug: x5
+    name: X5
+    industry: Retail
+    brands: [X5, X5 Group, X5 Retail Group, Пятёрочка, Пятерочка, Перекрёсток, Перекресток, X5 Медиа, X5 Media, X5 Клуб]
     competitors: []
-    track: [advertising, product launch, promotion, consumer trends, sponsorship, retail]
+    track: [retail, grocery, pricing, promotions, loyalty, private label, ready food, delivery, ecommerce, retail media, advertising, consumer trends]
+
+  - slug: chizhik
+    name: Чижик
+    industry: Retail
+    brands: [Чижик]
+    competitors: []
+    track: [retail, discount, pricing, promotions, private label, assortment, openings, advertising, consumer trends]
+
+  - slug: alfa-bank
+    name: Альфа-Банк
+    industry: Banking
+    brands: [Альфа-Банк, Альфа Банк, Alfa Bank, Альфа]
+    competitors: []
+    track: [banking, cards, deposits, credit, fintech, payments, loyalty, advertising, sponsorship, partnerships, digital products]
