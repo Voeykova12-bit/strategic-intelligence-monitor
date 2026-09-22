@@ -155,6 +155,54 @@ def strategic_filter(text,categories,topics,brands,client_hits,future):
     relevant=bool(categories) and bool(passes_value) and not (noise and not override)
     return relevant,round(max(0,min(5,value)),1),list(dict.fromkeys(reasons))[:5]
 
+def metric_type_for(context):
+    low=context.lower()
+    rules=[
+      ("Доля рынка",["доля рынка","доля продаж","занимает около","занимает более"]),
+      ("Выручка / оборот",["выручк","оборот","gmv","доход"]),
+      ("Продажи",["продаж","продано","реализ","реализац","регистрац"]),
+      ("Спрос",["спрос","потреблен","покупател","потребител"]),
+      ("Средний чек",["средний чек","чек вырос","чек сниз"]),
+      ("Цены",["цена","цены","подорож","удешев","инфляц"]),
+      ("Трафик",["трафик","посещаем","визит"]),
+      ("Клиенты",["клиент","пользовател","аудитор"]),
+      ("Сеть / точки",["магазин","торговых точ","точек","пвз","отделени","офис"]),
+      ("Кредитование",["кредит","ипотек","портфель","выдач"]),
+      ("Инвестиции",["инвести","капвлож","влож"]),
+    ]
+    for label,words in rules:
+        if any(w in low for w in words):
+            return label
+    return "Рыночная метрика"
+
+def extract_metrics(text):
+    clean=clean_text(text)
+    patterns=[
+      re.compile(r"\b\d+(?:[.,]\d+)?\s*%",re.I),
+      re.compile(r"\b\d+(?:[.,]\d+)?\s*(?:трлн|млрд|млн)\s*(?:₽|руб(?:\.|лей|ля)?|долл(?:\.|аров)?|\$)",re.I),
+      re.compile(r"\b\d[\d\s]*(?:[.,]\d+)?\s*(?:автомобил(?:ей|я)?|машин(?:ы|а)?|магазин(?:ов|а)?|точ(?:ек|ки)|заказ(?:ов|а)?|клиент(?:ов|а)?|квартир(?:ы)?|м²|кв\.?\s*м)",re.I),
+    ]
+    found=[]
+    seen=set()
+    for pat in patterns:
+        for m in pat.finditer(clean):
+            value=re.sub(r"\s+"," ",m.group(0)).strip()
+            key=value.lower()
+            if key in seen:
+                continue
+            start=max(0,m.start()-100); end=min(len(clean),m.end()+120)
+            context=clean[start:end]
+            sent_start=max(clean.rfind(".",0,m.start()),clean.rfind("!",0,m.start()),clean.rfind("?",0,m.start()))
+            sent_end=min([x for x in [clean.find(".",m.end()),clean.find("!",m.end()),clean.find("?",m.end())] if x!=-1] or [min(len(clean),m.end()+140)])
+            snippet=clean[sent_start+1:sent_end+1].strip()
+            if len(snippet)>190:
+                snippet=snippet[:187].rstrip()+"…"
+            found.append({"type":metric_type_for(context),"value":value,"context":snippet})
+            seen.add(key)
+            if len(found)>=6:
+                return found
+    return found
+
 def why_it_matters(categories,brands,future,reasons):
     cat=categories[0] if categories else ""
     base={
@@ -185,7 +233,7 @@ def make_items(raw_items,src,clients):
         if not relevant: continue
         bonus=max(0,min(.7,(float(src.get("reliability_score",3))-3)*.25))+max(0,min(.5,(int(src.get("priority",3))-3)*.2))
         score=round(min(5,value+bonus),1); uid=hashlib.sha1(f"{url}|{title_key(title)}".encode("utf-8")).hexdigest()[:18]
-        out.append({"id":uid,"title":title,"url":url,"source":src.get("name","Source"),"published_at":published,"summary":summary,"categories":cats,"primary_category":cats[0],"topics":topics,"brands":brands,"score":score,"relevance_reasons":reasons,"why_it_matters":why_it_matters(cats,brands,future,reasons),"client_matches":cm,"market_scope":detect_scope(combined),"future_horizon":future})
+        metrics=extract_metrics(combined)\n        out.append({"id":uid,"title":title,"url":url,"source":src.get("name","Source"),"published_at":published,"summary":summary,"categories":cats,"primary_category":cats[0],"topics":topics,"brands":brands,"score":score,"relevance_reasons":reasons,"why_it_matters":why_it_matters(cats,brands,future,reasons),"client_matches":cm,"market_scope":detect_scope(combined),"future_horizon":future,"metrics":metrics})
     return out
 
 def fetch_rss(src,clients):
@@ -241,7 +289,7 @@ def requalify(item,clients,active_sources,cutoff):
     combined=f"{item.get('title','')}. {item.get('summary','')}"; cats,topics,brands=classify(combined)
     future=planning_horizon(combined); cm=client_matches(combined,clients); relevant,value,reasons=strategic_filter(combined,cats,topics,brands,cm,future)
     if not relevant: return None
-    item.update({"categories":cats,"primary_category":cats[0],"topics":topics,"brands":brands,"score":round(min(5,max(float(item.get("score",0) or 0),value)),1),"relevance_reasons":reasons,"why_it_matters":why_it_matters(cats,brands,future,reasons),"client_matches":cm,"future_horizon":future})
+    metrics=extract_metrics(combined)\n    item.update({"categories":cats,"primary_category":cats[0],"topics":topics,"brands":brands,"score":round(min(5,max(float(item.get("score",0) or 0),value)),1),"relevance_reasons":reasons,"why_it_matters":why_it_matters(cats,brands,future,reasons),"client_matches":cm,"future_horizon":future,"metrics":metrics})
     return item
 
 def main():
