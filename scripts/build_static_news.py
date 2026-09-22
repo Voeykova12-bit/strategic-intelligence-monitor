@@ -39,7 +39,7 @@ CATEGORY_KEYWORDS = {
     "Retail": ["ритейл","рознич","магазин","торговая сеть","супермаркет","гипермаркет","дискаунтер","x5","пятёроч","пятероч","перекрёст","перекрест","чижик","магнит","лента","вкусвилл","fix price","metro","ашан","окей","o'key"],
     "DeliveryEcom": ["маркетплейс","e-commerce","ecommerce","онлайн-торгов","доставка","e-grocery","пвз","курьер","даркстор","dark store","last mile","последняя миля","самовывоз","ozon","wildberries","самокат","купер","яндекс лавка","яндекс маркет"],
     "BanksFintech": ["банк","банков","кредит","вклад","депозит","ипотек","карта","эквайр","кэшбэк","кешбэк","финтех","платеж","платёж","рассроч","bnpl","альфа-банк","альфа банк","сбер","втб","т-банк","тинькофф","газпромбанк","совкомбанк","псб","мкб","озон банк","яндекс банк"],
-    "FinanceEconomy": ["финанс","центробанк","центральный банк","ключевая ставка","инфляц","рубл","валют","курс доллара","бирж","облигац","инвести","финрын","дивиденд","капитал","денежно-кредит","ввп","экономик","доходы населения","потребительские расходы"],
+    "FinanceEconomy": ["финансовый рынок","финансовые рынки","финансовый сектор","финансовая система","центробанк","центральный банк","ключевая ставка","инфляц","рубл","валют","курс доллара","бирж","облигац","финрын","дивиденд","денежно-кредит","ввп","макроэконом","доходы населения","потребительские расходы"],
     "FMCG": ["fmcg","товары повседнев","производитель продуктов","производитель напит","продуктовый бренд","молочн","мясн","напитк","кофе","чай","снек","кондитер","бакале","заморож","косметик","бытовая хим","готовая еда","private label","собственная торговая марка","стм","pepsico","nestle","unilever","mars","mondelez","черкизово","мираторг","русагро","эфко"],
     "Automotive": ["авторынок","автомобил","автобизнес","автодилер","дилерская сеть","легковых автомобил","кроссовер","автокредит","автолизинг","автопроизвод","lada","haval","chery","geely","changan","jetour","tank","tenet","москвич","автоваз","exeed","omoda","gac"],
     "RealEstate": ["недвижим","новострой","жиль","квартир","девелоп","застройщик","ипотек","офисная недвиж","коммерческая недвиж","складская недвиж","арендные ставки","строительств жилья","жилой комплекс"],
@@ -104,7 +104,7 @@ def classify(text,hint=None):
     low=f" {text.lower()} "; cats=[k for k,words in CATEGORY_KEYWORDS.items() if any(w in low for w in words)]
     if hint and hint not in cats: cats.insert(0,hint)
     topics=[k for k,words in TOPIC_KEYWORDS.items() if any(w in low for w in words)]
-    brands=[b for b in KNOWN_BRANDS if b.lower() in low]
+    brands=[b for b in KNOWN_BRANDS if contains_term(low,b)]
     return cats[:4],(topics or ["Бизнес-изменения"])[:6],list(dict.fromkeys(brands))[:12]
 
 def detect_scope(text):
@@ -121,12 +121,12 @@ def load_clients():
 def client_matches(text,clients):
     low=text.lower(); out={}
     for c in clients:
-        matched=[term for term in c.get("brands",[]) if term.lower() in low]
+        matched=[term for term in c.get("brands",[]) if contains_term(low,term)]
         if matched: out[c["slug"]]={"name":c["name"],"score":round(min(5.0,3.0+len(matched)*0.4),1),"matches":matched[:6]}
     return out
 
 def strategic_filter(text,categories,topics,brands,client_hits,future):
-    low=f" {text.lower()} "; strategic_hits=sum(1 for t in STRATEGIC_TERMS if t in low); major_hits=sum(1 for t in MAJOR_PLAYERS if t in low)
+    low=f" {text.lower()} "; strategic_hits=sum(1 for t in STRATEGIC_TERMS if contains_term(low,t)); major_hits=sum(1 for t in MAJOR_PLAYERS if contains_term(low,t))
     noise=[t for t in NOISE_TERMS if t in low]; override=any(t in low for t in BUSINESS_OVERRIDE_TERMS)
     has_number=bool(re.search(r"\b\d+(?:[.,]\d+)?\s*(?:%|млн|млрд|трлн|руб|₽|долл|магазин|точк|клиент|автомоб|квартир)",low))
     high={"Рынок и продажи","Потребитель","Доставка","Финрезультаты","M&A и инвестиции","Регулирование","Маркетинг и медиа","Форматы и экспансия","Исследования и прогнозы","Лояльность и CRM","Цены и промо"}
@@ -144,7 +144,10 @@ def strategic_filter(text,categories,topics,brands,client_hits,future):
     if major_hits: reasons.append("крупный игрок")
     if future: reasons.append("будущий горизонт")
     if has_number: reasons.append("есть данные")
-    return bool(categories) and value>=2.15,round(max(0,min(5,value)),1),list(dict.fromkeys(reasons))[:5]
+    high_count=len(set(topics)&high)
+    passes_value=client_hits or (major_hits and high_count>=1) or strategic_hits>=2 or high_count>=2 or (future and strategic_hits>=1) or (has_number and strategic_hits>=1 and high_count>=1)
+    relevant=bool(categories) and bool(passes_value) and not (noise and not override)
+    return relevant,round(max(0,min(5,value)),1),list(dict.fromkeys(reasons))[:5]
 
 def why_it_matters(categories,brands,future,reasons):
     cat=categories[0] if categories else ""
@@ -205,7 +208,13 @@ def fetch_html(src,clients):
     with urlopen(req,timeout=30) as r: page=r.read()
     soup=BeautifulSoup(page,"html.parser"); domain=urlsplit(src["url"]).netloc.lower(); seen=set(); rows=[]
     for a in soup.find_all("a",href=True):
-        title=clean_text(a.get_text(" ",strip=True)); href=urljoin(src["url"],a.get("href")); p=urlsplit(href)
+        heading=a.find(["h1","h2","h3","h4"])
+        title=clean_text(heading.get_text(" ",strip=True) if heading else a.get_text(" ",strip=True))
+        href=urljoin(src["url"],a.get("href")); p=urlsplit(href)
+        if domain.endswith("autostat.ru"):
+            title=re.sub(r"^(?:сегодня|вчера|\\d{1,2}\\s+[а-яё]+)\\s*,?\\s*\\d{1,2}:\\d{2}\\s*","",title,flags=re.I)
+        if len(title)>190:
+            cut=title[:190]; pos=cut.rfind(". "); title=(cut[:pos] if pos>60 else cut).strip()
         if p.netloc.lower()!=domain or len(title)<28 or href in seen: continue
         if domain.endswith("autostat.ru") and "/news/" not in p.path: continue
         if domain.endswith("rbc.ru") and "/news/" not in p.path: continue
