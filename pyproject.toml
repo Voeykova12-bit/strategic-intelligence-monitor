@@ -1,0 +1,9 @@
+[project]
+name = "strategic-intelligence-monitor"
+version = "0.1.0"
+description = "Strategic news intelligence platform for advertising agency teams"
+requires-python = ">=3.12"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

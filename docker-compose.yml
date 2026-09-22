@@ -1,0 +1,56 @@
+services:
+  postgres:
+    image: pgvector/pgvector:pg16
+    environment:
+      POSTGRES_DB: strategic
+      POSTGRES_USER: strategic
+      POSTGRES_PASSWORD: strategic
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U strategic -d strategic"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+
+  redis:
+    image: redis:7-alpine
+    command: redis-server --appendonly yes
+    volumes:
+      - redis_data:/data
+
+  api:
+    build: .
+    env_file: .env
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_started
+    ports:
+      - "8000:8000"
+    command: uvicorn app.main:app --host 0.0.0.0 --port 8000
+
+  worker:
+    build: .
+    env_file: .env
+    depends_on: [api, redis]
+    command: celery -A app.workers.celery_app.celery_app worker --loglevel=INFO
+
+  beat:
+    build: .
+    env_file: .env
+    depends_on: [worker]
+    command: celery -A app.workers.celery_app.celery_app beat --loglevel=INFO
+
+  dashboard:
+    build: .
+    env_file: .env
+    depends_on: [api]
+    ports:
+      - "8501:8501"
+    command: streamlit run dashboard/app.py --server.address=0.0.0.0 --server.port=8501
+
+volumes:
+  postgres_data:
+  redis_data:
