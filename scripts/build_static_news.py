@@ -100,10 +100,16 @@ def parse_date_value(raw):
     if dt.tzinfo is None: dt=dt.replace(tzinfo=timezone.utc)
     return dt.astimezone(timezone.utc).isoformat()
 
+def contains_term(low, term):
+    term=str(term).lower()
+    if re.fullmatch(r"[a-zа-яё0-9-]+", term) and (len(term) <= 4 or term in {"x5","t2","ai","ии","vk"}):
+        return bool(re.search(r"(?<![a-zа-яё0-9])"+re.escape(term)+r"(?![a-zа-яё0-9])", low))
+    return term in low
+
 def classify(text,hint=None):
-    low=f" {text.lower()} "; cats=[k for k,words in CATEGORY_KEYWORDS.items() if any(w in low for w in words)]
+    low=f" {text.lower()} "; cats=[k for k,words in CATEGORY_KEYWORDS.items() if any(contains_term(low,w) for w in words)]
     if hint and hint not in cats: cats.insert(0,hint)
-    topics=[k for k,words in TOPIC_KEYWORDS.items() if any(w in low for w in words)]
+    topics=[k for k,words in TOPIC_KEYWORDS.items() if any(contains_term(low,w) for w in words)]
     brands=[b for b in KNOWN_BRANDS if contains_term(low,b)]
     return cats[:4],(topics or ["Бизнес-изменения"])[:6],list(dict.fromkeys(brands))[:12]
 
