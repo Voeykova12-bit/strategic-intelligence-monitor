@@ -113,15 +113,22 @@ def main():
     if OUT.exists():
         try:old={x.get("id"):x for x in json.loads(OUT.read_text(encoding="utf-8")).get("metrics",[])}
         except Exception:old={}
-    builders=[cbr_rates,cbr_inflation,latest_auto,latest_mortgage,ad_market,ecommerce]
+    builders=[
+        ("key-rate",cbr_rates),("inflation",cbr_inflation),("auto-sales",latest_auto),
+        ("mortgage",latest_mortgage),("ad-market",ad_market),("ecommerce",ecommerce)
+    ]
     rows=[];errors=[]
-    for fn in builders:
+    for metric_id,fn in builders:
         try:
             item=fn()
-            if item:rows.append(item)
-            elif fn.__name__ in old:rows.append(old[fn.__name__])
+            if item:
+                rows.append(item)
+            elif metric_id in old:
+                rows.append(old[metric_id])
         except Exception as e:
-            errors.append({"metric":fn.__name__,"error":str(e)[:180]})
+            errors.append({"metric":metric_id,"error":str(e)[:180]})
+            if metric_id in old:
+                rows.append(old[metric_id])
     payload={"updated_at":datetime.now(timezone.utc).isoformat(),"metric_count":len(rows),"metrics":rows,"errors":errors}
     OUT.parent.mkdir(parents=True,exist_ok=True)
     OUT.write_text(json.dumps(payload,ensure_ascii=False,indent=2),encoding="utf-8")
