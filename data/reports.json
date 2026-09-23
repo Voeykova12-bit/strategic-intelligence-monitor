@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-23T12:52:01.420364+00:00",
-  "report_count": 26,
+  "updated_at": "2026-09-23T12:58:37.421365+00:00",
+  "report_count": 34,
   "categories": [
     "Ритейл",
     "Авто",
@@ -9,6 +9,21 @@
     "Финансы"
   ],
   "reports": [
+    {
+      "id": "finance-rosstat-jan-jul-2026",
+      "category": "Финансы",
+      "title": "Социально-экономическое положение России — январь–июль 2026",
+      "organization": "Росстат",
+      "date": "2026-09-02",
+      "description": "Последний на 23 сентября 2026 года комплексный доклад Росстата о состоянии экономики и социальной сферы.",
+      "url": "https://rosstat.gov.ru/compendium/document/50801",
+      "kind": "external_report",
+      "access": "public",
+      "curated": true,
+      "status": "browser_only",
+      "http_status": null,
+      "checked_at": "2026-09-23T12:58:37.421365+00:00"
+    },
     {
       "id": "finance-cbr-trends-sep-2026",
       "category": "Финансы",
@@ -19,9 +34,10 @@
       "url": "https://cbr.ru/press/event/?id=32813",
       "kind": "external_report",
       "access": "public",
+      "curated": true,
       "status": "ok",
       "http_status": 200,
-      "checked_at": "2026-09-23T12:52:01.420364+00:00"
+      "checked_at": "2026-09-23T12:58:37.421365+00:00"
     },
     {
       "id": "finance-cbr-macro-bulletin",
@@ -33,9 +49,10 @@
       "url": "https://cbr.ru/ec_research/mb/",
       "kind": "external_report",
       "access": "public",
+      "curated": true,
       "status": "ok",
       "http_status": 200,
-      "checked_at": "2026-09-23T12:52:01.420364+00:00"
+      "checked_at": "2026-09-23T12:58:37.421365+00:00"
     },
     {
       "id": "auto-bf-warc-retailmedia-20260820",
@@ -52,7 +69,7 @@
       "strategic_relevance_score": 90,
       "status": "ok",
       "http_status": 200,
-      "checked_at": "2026-09-23T12:52:01.420364+00:00"
+      "checked_at": "2026-09-23T12:58:37.421365+00:00"
     },
     {
       "id": "auto-bf-adindex-eretail-20260721",
@@ -69,7 +86,7 @@
       "strategic_relevance_score": 94,
       "status": "ok",
       "http_status": 200,
-      "checked_at": "2026-09-23T12:52:01.420364+00:00"
+      "checked_at": "2026-09-23T12:58:37.421365+00:00"
     },
     {
       "id": "finance-akar-market-2025",
@@ -81,9 +98,10 @@
       "url": "https://akarussia.ru/news/obem-rynka-marketingovyh-kommunikacij-v-2025-godu/",
       "kind": "external_report",
       "access": "public",
+      "curated": true,
       "status": "ok",
       "http_status": 200,
-      "checked_at": "2026-09-23T12:52:01.420364+00:00"
+      "checked_at": "2026-09-23T12:58:37.421365+00:00"
     },
     {
       "id": "auto-bf-adindex-trends-20251216",
@@ -100,7 +118,7 @@
       "strategic_relevance_score": 88,
       "status": "ok",
       "http_status": 200,
-      "checked_at": "2026-09-23T12:52:01.420364+00:00"
+      "checked_at": "2026-09-23T12:58:37.421365+00:00"
     },
     {
       "id": "auto-bf-romir-adinvest-20251030",
@@ -117,7 +135,7 @@
       "strategic_relevance_score": 90,
       "status": "ok",
       "http_status": 200,
-      "checked_at": "2026-09-23T12:52:01.420364+00:00"
+      "checked_at": "2026-09-23T12:58:37.421365+00:00"
     },
     {
       "id": "auto-bf-adindex-retailmedia-20250925",
@@ -134,7 +152,7 @@
       "strategic_relevance_score": 92,
       "status": "ok",
       "http_status": 200,
-      "checked_at": "2026-09-23T12:52:01.420364+00:00"
+      "checked_at": "2026-09-23T12:58:37.421365+00:00"
     },
     {
       "id": "auto-c0a9aa2c5e4252cffe",
@@ -151,7 +169,7 @@
       "strategic_relevance_score": 92,
       "status": "ok",
       "http_status": 200,
-      "checked_at": "2026-09-23T12:52:01.420364+00:00"
+      "checked_at": "2026-09-23T12:58:37.421365+00:00"
     },
     {
       "id": "retail-di-egrocery-aug-2026",
@@ -163,9 +181,10 @@
       "url": "https://datainsight.ru/eGrocery_aug_2026",
       "kind": "external_report",
       "access": "public",
+      "curated": true,
       "status": "ok",
       "http_status": 200,
-      "checked_at": "2026-09-23T12:52:01.420364+00:00"
+      "checked_at": "2026-09-23T12:58:37.421365+00:00"
     },
     {
       "id": "retail-niq-ai-discovery-2026",
@@ -177,9 +196,10 @@
       "url": "https://nielseniq.com/global/en/news-center/2026/74-of-shoppers-use-ai-for-discovery-niq-showcases-what-that-means-for-the-consumer-purchase-journey-in-new-report/",
       "kind": "external_report",
       "access": "public",
+      "curated": true,
       "status": "ok",
       "http_status": 200,
-      "checked_at": "2026-09-23T12:52:01.420364+00:00"
+      "checked_at": "2026-09-23T12:58:37.421365+00:00"
     },
     {
       "id": "retail-di-agentic-2026",
@@ -191,9 +211,10 @@
       "url": "https://datainsight.ru/agentic-commerce2026",
       "kind": "external_report",
       "access": "public",
+      "curated": true,
       "status": "ok",
       "http_status": 200,
-      "checked_at": "2026-09-23T12:52:01.420364+00:00"
+      "checked_at": "2026-09-23T12:58:37.421365+00:00"
     },
     {
       "id": "retail-di-trends-autumn-2026",
@@ -205,9 +226,10 @@
       "url": "https://datainsight.ru/trendsofretail2026",
       "kind": "external_report",
       "access": "public",
+      "curated": true,
       "status": "ok",
       "http_status": 200,
-      "checked_at": "2026-09-23T12:52:01.420364+00:00"
+      "checked_at": "2026-09-23T12:58:37.421365+00:00"
     },
     {
       "id": "auto-bf-di-onlineimport-20260623",
@@ -224,7 +246,7 @@
       "strategic_relevance_score": 96,
       "status": "ok",
       "http_status": 200,
-      "checked_at": "2026-09-23T12:52:01.420364+00:00"
+      "checked_at": "2026-09-23T12:58:37.421365+00:00"
     },
     {
       "id": "retail-adindex-rm-2026",
@@ -236,9 +258,10 @@
       "url": "https://adindex.ru/news/researches/2026/06/4/345596.phtml",
       "kind": "external_report",
       "access": "public",
+      "curated": true,
       "status": "ok",
       "http_status": 200,
-      "checked_at": "2026-09-23T12:52:01.420364+00:00"
+      "checked_at": "2026-09-23T12:58:37.421365+00:00"
     },
     {
       "id": "retail-di-ecommerce-2026",
@@ -252,11 +275,12 @@
       "kind": "local_pdf",
       "access": "public",
       "archive": true,
+      "curated": true,
       "status": "ok",
       "http_status": 200,
-      "checked_at": "2026-09-23T12:52:01.420364+00:00",
+      "checked_at": "2026-09-23T12:58:37.421365+00:00",
       "local_path": "reports/retail-di-ecommerce-2026.pdf",
-      "archived_at": "2026-09-23T12:52:06.932336+00:00"
+      "archived_at": "2026-09-23T12:58:41.961550+00:00"
     },
     {
       "id": "auto-bf-di-ecom-20260331",
@@ -273,7 +297,56 @@
       "strategic_relevance_score": 100,
       "status": "ok",
       "http_status": 200,
-      "checked_at": "2026-09-23T12:52:01.420364+00:00"
+      "checked_at": "2026-09-23T12:58:37.421365+00:00"
+    },
+    {
+      "id": "auto-bf-x5-guidance-20260320",
+      "category": "Ритейл",
+      "title": "X5 представила прогнозы и ориентиры на 2026 год",
+      "organization": "X5",
+      "date": "2026-03-20",
+      "description": "X5 подвела итоги 2025 года и представила стратегические ориентиры на 2026 год; доля компании на рынке продуктового ритейла по итогам 2025 года достигла 16,6%, в e-grocery — 18,6%.",
+      "url": "https://www.x5.ru/ru/news/x5-predstavila-prognozy-i-orientiry-na-2026-god/",
+      "landing_url": "https://www.x5.ru/ru/news/x5-predstavila-prognozy-i-orientiry-na-2026-god/",
+      "kind": "external_report",
+      "access": "public",
+      "source_item_id": "bf-x5-guidance-20260320",
+      "strategic_relevance_score": 98,
+      "status": "ok",
+      "http_status": 200,
+      "checked_at": "2026-09-23T12:58:37.421365+00:00"
+    },
+    {
+      "id": "auto-bf-retail-hard-discount-20260319",
+      "category": "Ритейл",
+      "title": "Infoline: рост оборота жестких дискаунтеров в РФ замедлится до 9,4% к 2029 году",
+      "organization": "Retail.ru / INFOLine",
+      "date": "2026-03-19",
+      "description": "INFOLine прогнозирует замедление роста оборота жестких дискаунтеров к 2029 году; формат продолжает развиваться, но конкуренция и темпы роста меняются.",
+      "url": "https://www.retail.ru/news/infoline-rost-oborota-zhestkikh-diskaunterov-v-rf-zamedlitsya-do-9-4-k-2029-godu-19-marta-2026-275701/",
+      "landing_url": "https://www.retail.ru/news/infoline-rost-oborota-zhestkikh-diskaunterov-v-rf-zamedlitsya-do-9-4-k-2029-godu-19-marta-2026-275701/",
+      "kind": "external_report",
+      "access": "public",
+      "source_item_id": "bf-retail-hard-discount-20260319",
+      "strategic_relevance_score": 90,
+      "status": "ok",
+      "http_status": 200,
+      "checked_at": "2026-09-23T12:58:37.421365+00:00"
+    },
+    {
+      "id": "realestate-rosstat-2026",
+      "category": "Недвижимость",
+      "title": "Социально-экономическое положение России — январь–июль 2026",
+      "organization": "Росстат",
+      "date": "2026-09-02",
+      "description": "Официальный доклад Росстата; включает строительство, жилье, доходы, торговлю, производство и другие макропоказатели.",
+      "url": "https://rosstat.gov.ru/compendium/document/50801",
+      "kind": "external_report",
+      "access": "public",
+      "curated": true,
+      "status": "browser_only",
+      "http_status": null,
+      "checked_at": "2026-09-23T12:58:37.421365+00:00"
     },
     {
       "id": "realestate-cbr-projectfinance-q2-2026",
@@ -285,9 +358,10 @@
       "url": "https://www.cbr.ru/press/event/?id=32801",
       "kind": "external_report",
       "access": "public",
+      "curated": true,
       "status": "ok",
       "http_status": 200,
-      "checked_at": "2026-09-23T12:52:01.420364+00:00"
+      "checked_at": "2026-09-23T12:58:37.421365+00:00"
     },
     {
       "id": "realestate-cbr-mortgage-jul-2026",
@@ -299,9 +373,10 @@
       "url": "https://www.cbr.ru/statistics/bank_sector/mortgage/Indicator_mortgage/0726/",
       "kind": "external_report",
       "access": "public",
+      "curated": true,
       "status": "ok",
       "http_status": 200,
-      "checked_at": "2026-09-23T12:52:01.420364+00:00"
+      "checked_at": "2026-09-23T12:58:37.421365+00:00"
     },
     {
       "id": "realestate-cbr-mortgage-jun-2026",
@@ -313,9 +388,10 @@
       "url": "https://www.cbr.ru/statistics/bank_sector/mortgage/Indicator_mortgage/0626/",
       "kind": "external_report",
       "access": "public",
+      "curated": true,
       "status": "ok",
       "http_status": 200,
-      "checked_at": "2026-09-23T12:52:01.420364+00:00"
+      "checked_at": "2026-09-23T12:58:37.421365+00:00"
     },
     {
       "id": "auto-bf-cbr-mortgage-202510",
@@ -332,7 +408,7 @@
       "strategic_relevance_score": 100,
       "status": "ok",
       "http_status": 200,
-      "checked_at": "2026-09-23T12:52:01.420364+00:00"
+      "checked_at": "2026-09-23T12:58:37.421365+00:00"
     },
     {
       "id": "auto-37b73d084a02213b31",
@@ -349,7 +425,7 @@
       "strategic_relevance_score": 82,
       "status": "ok",
       "http_status": 200,
-      "checked_at": "2026-09-23T12:52:01.420364+00:00"
+      "checked_at": "2026-09-23T12:58:37.421365+00:00"
     },
     {
       "id": "banks-cbr-sector-aug-2026",
@@ -363,11 +439,12 @@
       "kind": "local_pdf",
       "access": "public",
       "archive": true,
+      "curated": true,
       "status": "ok",
       "http_status": 200,
-      "checked_at": "2026-09-23T12:52:01.420364+00:00",
+      "checked_at": "2026-09-23T12:58:37.421365+00:00",
       "local_path": "reports/banks-cbr-sector-aug-2026.pdf",
-      "archived_at": "2026-09-23T12:52:25.623686+00:00"
+      "archived_at": "2026-09-23T12:58:52.360009+00:00"
     },
     {
       "id": "banks-cbr-bank-sector-hub",
@@ -379,9 +456,10 @@
       "url": "https://www.cbr.ru/analytics/bank_sector/develop/",
       "kind": "external_report",
       "access": "public",
+      "curated": true,
       "status": "ok",
       "http_status": 200,
-      "checked_at": "2026-09-23T12:52:01.420364+00:00"
+      "checked_at": "2026-09-23T12:58:37.421365+00:00"
     },
     {
       "id": "banks-cbr-mortgage-nov-2025",
@@ -393,9 +471,70 @@
       "url": "https://www.cbr.ru/statistics/bank_sector/mortgage/Indicator_mortgage/1125/",
       "kind": "external_report",
       "access": "public",
+      "curated": true,
       "status": "ok",
       "http_status": 200,
-      "checked_at": "2026-09-23T12:52:01.420364+00:00"
+      "checked_at": "2026-09-23T12:58:37.421365+00:00"
+    },
+    {
+      "id": "auto-press-2026",
+      "category": "Авто",
+      "title": "Оперативные данные по рынку новых автомобилей — 2026",
+      "organization": "АВТОСТАТ",
+      "date": "2026-09-22",
+      "description": "Архив официальных пресс-релизов АВТОСТАТ с ежемесячными продажами новых автомобилей и рыночной динамикой.",
+      "url": "https://www.autostat.ru/press-releases/archive/2026/",
+      "kind": "external_report",
+      "access": "public",
+      "curated": true,
+      "status": "ok",
+      "http_status": 200,
+      "checked_at": "2026-09-23T12:58:37.421365+00:00"
+    },
+    {
+      "id": "auto-sales-aug-2026",
+      "category": "Авто",
+      "title": "Продажи новых легковых автомобилей в России в августе 2026 года",
+      "organization": "АВТОСТАТ",
+      "date": "2026-09-04",
+      "description": "Оперативный обзор рынка: 114,3 тыс. новых легковых автомобилей в августе 2026 года, динамика −6,5% год к году, марки и модели-лидеры.",
+      "url": "https://www.autostat.ru/press-releases/63032/",
+      "kind": "external_report",
+      "access": "public",
+      "curated": true,
+      "status": "ok",
+      "http_status": 200,
+      "checked_at": "2026-09-23T12:58:37.421365+00:00"
+    },
+    {
+      "id": "auto-local-assembly-2026",
+      "category": "Авто",
+      "title": "Доля автомобилей локальной сборки в РФ",
+      "organization": "АВТОСТАТ",
+      "date": "2026-08-07",
+      "description": "Инфографика и данные о доле локально произведенных автомобилей в продажах новых легковых машин в I полугодии 2026 года.",
+      "url": "https://www.autostat.ru/infographics/62878/",
+      "kind": "external_report",
+      "access": "public",
+      "curated": true,
+      "status": "ok",
+      "http_status": 200,
+      "checked_at": "2026-09-23T12:58:37.421365+00:00"
+    },
+    {
+      "id": "auto-forauto-2026",
+      "category": "Авто",
+      "title": "ForAuto 2026: автомобильный рынок России — тренды и прогнозы",
+      "organization": "АВТОСТАТ",
+      "date": "2026-02-27",
+      "description": "Итоги профильного форума с данными по 2025 году и прогнозами по сегментам авторынка на 2026 год.",
+      "url": "https://forauto.autostat.ru/",
+      "kind": "external_report",
+      "access": "public",
+      "curated": true,
+      "status": "ok",
+      "http_status": 200,
+      "checked_at": "2026-09-23T12:58:37.421365+00:00"
     },
     {
       "id": "auto-autostat-2025-results",
@@ -407,9 +546,10 @@
       "url": "https://m.autostat.ru/research/product/579/",
       "kind": "paid_report",
       "access": "paid",
-      "status": "unverified",
-      "http_status": null,
-      "checked_at": "2026-09-23T12:52:01.420364+00:00"
+      "curated": true,
+      "status": "ok",
+      "http_status": 200,
+      "checked_at": "2026-09-23T12:58:37.421365+00:00"
     }
   ],
   "archive_errors": []

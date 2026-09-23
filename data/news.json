@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-23T12:52:01.323949+00:00",
-  "source_count": 24,
-  "item_count": 172,
+  "updated_at": "2026-09-23T12:58:37.317535+00:00",
+  "source_count": 27,
+  "item_count": 176,
   "retention_days": 365,
   "categories": [
     {
@@ -66,7 +66,7 @@
   "source_stats": [
     {
       "source": "Retail.ru — новости",
-      "added": 1
+      "added": 0
     },
     {
       "source": "Retail.ru — статьи",
@@ -98,7 +98,7 @@
     },
     {
       "source": "ТАСС — экономика и компании",
-      "added": 3
+      "added": 0
     },
     {
       "source": "Finam — компании и рынки",
@@ -106,7 +106,7 @@
     },
     {
       "source": "АВТОСТАТ — авторынок",
-      "added": 0
+      "added": 1
     },
     {
       "source": "РБК Недвижимость — рынок недвижимости",
@@ -158,10 +158,6 @@
     }
   ],
   "errors": [
-    {
-      "source": "АВТОСТАТ — авторынок",
-      "error": "HTTP Error 403: Forbidden"
-    },
     {
       "source": "Росстат — новости статистики",
       "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
@@ -535,7 +531,7 @@
       "url": "https://nielseniq.com/global/en/news-center/2026/74-of-shoppers-use-ai-for-discovery-niq-showcases-what-that-means-for-the-consumer-purchase-journey-in-new-report/",
       "source": "NielsenIQ — global research",
       "published_at": "2026-08-27T09:00:00+00:00",
-      "summary": "NIQ и World Data Lab сообщают, что почти три четверти покупателей используют AI для поиска товаров; глобальный retail media рынок достиг 184 млрд долларов.",
+      "summary": "NIQ и World Data Lab: почти 75% покупателей используют AI для product discovery; retail media достиг $184 млрд, а social commerce все сильнее влияет на путь к покупке.",
       "categories": [
         "Consumer",
         "TechnologyAI",
@@ -568,6 +564,46 @@
           "type": "Рыночная метрика",
           "value": "184 млрд долл.",
           "context": "Оценка глобального рынка retail media."
+        }
+      ],
+      "curated_backfill": true
+    },
+    {
+      "id": "bf-x5-guidance-20260320",
+      "title": "X5 представила прогнозы и ориентиры на 2026 год",
+      "url": "https://www.x5.ru/ru/news/x5-predstavila-prognozy-i-orientiry-na-2026-god/",
+      "source": "X5 — официальный пресс-центр",
+      "published_at": "2026-03-20T09:00:00+00:00",
+      "summary": "X5 подвела итоги 2025 года и представила стратегические ориентиры на 2026 год; доля компании на рынке продуктового ритейла по итогам 2025 года достигла 16,6%, в e-grocery — 18,6%.",
+      "categories": [
+        "Retail",
+        "DeliveryEcom"
+      ],
+      "primary_category": "Retail",
+      "topics": [
+        "Рынок и продажи",
+        "Исследования и прогнозы",
+        "Форматы и экспансия"
+      ],
+      "score": 4.9,
+      "strategic_relevance_score": 98,
+      "market_scope": "Russia",
+      "future_signal": true,
+      "future_horizon": [
+        "2026"
+      ],
+      "content_type": "research",
+      "source_quality": 5,
+      "metrics": [
+        {
+          "type": "Доля рынка",
+          "value": "16,6%",
+          "context": "Доля X5 на российском рынке продовольственного ритейла по итогам 2025 года."
+        },
+        {
+          "type": "Доля рынка",
+          "value": "18,6%",
+          "context": "Доля X5 в e-grocery по итогам 2025 года."
         }
       ],
       "curated_backfill": true
@@ -699,7 +735,7 @@
         "2029"
       ],
       "content_type": "research",
-      "source_quality": 4.5,
+      "source_quality": 4.7,
       "metrics": [
         {
           "type": "Рыночная метрика",
@@ -877,6 +913,40 @@
       ]
     },
     {
+      "id": "bf-chizhik-consumption-20260904",
+      "title": "«Чижик»: это первый год, когда мы столкнулись со снижением прироста потребления",
+      "url": "https://www.retail.ru/articles/ilya-yakubson-chizhik-eto-pervyy-god-kogda-my-stolknulis-so-snizheniem-prirosta-potrebleniya/",
+      "source": "Retail.ru / Чижик",
+      "published_at": "2026-09-04T05:00:00+00:00",
+      "summary": "По данным ICMR, жесткие дискаунтеры в 2025 году сформировали 9% оборота FMCG-рынка; «Чижик» отмечает в 2026 году замедление прироста потребления и усиление конкуренции.",
+      "categories": [
+        "Retail",
+        "FMCG",
+        "Consumer"
+      ],
+      "primary_category": "Retail",
+      "topics": [
+        "Рынок и продажи",
+        "Потребитель",
+        "Форматы и экспансия"
+      ],
+      "score": 4.6,
+      "strategic_relevance_score": 92,
+      "market_scope": "Russia",
+      "future_signal": false,
+      "future_horizon": [],
+      "content_type": "news",
+      "source_quality": 4.5,
+      "metrics": [
+        {
+          "type": "Доля рынка",
+          "value": "9%",
+          "context": "Доля жестких дискаунтеров в обороте FMCG-рынка в 2025 году по данным ICMR."
+        }
+      ],
+      "curated_backfill": true
+    },
+    {
       "id": "bf-adindex-retailmedia-20250925",
       "title": "Рынок Retail Media может вырасти на 73% в 2025 году",
       "url": "https://adindex.ru/news/tendencies/2025/09/25/337379.phtml",
@@ -1026,6 +1096,41 @@
       "curated_backfill": true
     },
     {
+      "id": "bf-retail-hard-discount-20260319",
+      "title": "Infoline: рост оборота жестких дискаунтеров в РФ замедлится до 9,4% к 2029 году",
+      "url": "https://www.retail.ru/news/infoline-rost-oborota-zhestkikh-diskaunterov-v-rf-zamedlitsya-do-9-4-k-2029-godu-19-marta-2026-275701/",
+      "source": "Retail.ru / INFOLine",
+      "published_at": "2026-03-19T09:00:00+00:00",
+      "summary": "INFOLine прогнозирует замедление роста оборота жестких дискаунтеров к 2029 году; формат продолжает развиваться, но конкуренция и темпы роста меняются.",
+      "categories": [
+        "Retail",
+        "FMCG"
+      ],
+      "primary_category": "Retail",
+      "topics": [
+        "Рынок и продажи",
+        "Форматы и экспансия",
+        "Исследования и прогнозы"
+      ],
+      "score": 4.5,
+      "strategic_relevance_score": 90,
+      "market_scope": "Russia",
+      "future_signal": true,
+      "future_horizon": [
+        "2029"
+      ],
+      "content_type": "research",
+      "source_quality": 4.5,
+      "metrics": [
+        {
+          "type": "Прогноз",
+          "value": "9,4%",
+          "context": "Прогноз темпа роста оборота жестких дискаунтеров к 2029 году."
+        }
+      ],
+      "curated_backfill": true
+    },
+    {
       "id": "bf-romir-adinvest-20251030",
       "title": "Бизнес планирует увеличить инвестиции в рекламу",
       "url": "https://romir.ru/feed/snizhenie-kliuchevoi-stavki-78-menedzherov-planiruiut-uvelichit-investitsii-v-reklamu",
@@ -1078,12 +1183,19 @@
       "source_quality": 4.8,
       "metrics": [
         {
-          "type": "Доля рынка",
+          "type": "Продажи",
           "value": "63%",
-          "context": "Доля автомобилей, собранных в РФ, в продажах новых легковых автомобилей в I полугодии 2026 года."
+          "context": "По итогам первого полугодия 2026 года на автомобили локальной сборки пришлось 63% продаж новых легковых автомобилей в России."
         }
       ],
-      "curated_backfill": true
+      "curated_backfill": true,
+      "brands": [],
+      "relevance_reasons": [
+        "рынок / бизнес",
+        "есть данные"
+      ],
+      "why_it_matters": "Важен для понимания продаж, цен, модельного ряда, дилерской сети и конкурентной динамики авторынка. Отобрано как: рынок / бизнес, есть данные.",
+      "client_matches": {}
     },
     {
       "id": "bf-adindex-trends-20251216",
@@ -2492,6 +2604,36 @@
       "source_quality": 4.0
     },
     {
+      "id": "3028def6a1d7b42227",
+      "title": "В России стартовали продажи пикапа JAC T9 в новой версии Урбан+",
+      "url": "https://www.autostat.ru/news/63145",
+      "source": "АВТОСТАТ — авторынок",
+      "published_at": "2026-09-23T12:56:25.049652+00:00",
+      "summary": "На российский рынок вышла новая версия пикапа JAC T9 под названием Урбан+. В стандартное оснащение модели в этой комплектации вошел расширенный пакет зимних опций, который включает в себя обогрев р...",
+      "categories": [
+        "Automotive"
+      ],
+      "primary_category": "Automotive",
+      "topics": [
+        "Рынок и продажи",
+        "Форматы и экспансия"
+      ],
+      "brands": [],
+      "score": 2.5,
+      "strategic_relevance_score": 50,
+      "relevance_reasons": [
+        "рынок / бизнес"
+      ],
+      "why_it_matters": "Важен для понимания продаж, цен, модельного ряда, дилерской сети и конкурентной динамики авторынка. Отобрано как: рынок / бизнес.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [],
+      "source_quality": 4.8
+    },
+    {
       "id": "7fbd3b1be1a5f87b82",
       "title": "\"Автоваз\" прогнозирует снижение темпов экспорта в этом году",
       "url": "https://tass.ru/ekonomika/28142565",
@@ -3155,7 +3297,7 @@
       "title": "Москва стала первой по росту цен на вторичное жилье среди мегаполисов Эксклюзив",
       "url": "https://realty.rbc.ru/news/6a9f02469a7947655798c900",
       "source": "РБК Недвижимость — рынок недвижимости",
-      "published_at": "2026-09-23T12:50:12.449438+00:00",
+      "published_at": "2026-09-23T12:57:02.426401+00:00",
       "summary": "В августе 2026 года Москва заняла первое место среди городов-миллионников по росту цен на вторичное жилье. Эксперты связывают это с перетеканием спроса с первичного рынка на рынок готового жилья",
       "categories": [
         "RealEstate"
