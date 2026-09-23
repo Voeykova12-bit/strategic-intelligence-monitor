@@ -1,0 +1,112 @@
+{
+  "updated_at": "2026-09-23T12:52:49.322719+00:00",
+  "metric_count": 5,
+  "metrics": [
+    {
+      "id": "key-rate",
+      "label": "Ключевая ставка ЦБ",
+      "value": "14.00%",
+      "period": "23.09.2026",
+      "source": "Банк России",
+      "source_url": "https://www.cbr.ru/hd_base/KeyRate/",
+      "change": "",
+      "history": [
+        {
+          "period": "16.09.2026",
+          "value": 14.0
+        },
+        {
+          "period": "17.09.2026",
+          "value": 14.0
+        },
+        {
+          "period": "18.09.2026",
+          "value": 14.0
+        },
+        {
+          "period": "21.09.2026",
+          "value": 14.0
+        },
+        {
+          "period": "22.09.2026",
+          "value": 14.0
+        },
+        {
+          "period": "23.09.2026",
+          "value": 14.0
+        }
+      ],
+      "note": "официальная ставка"
+    },
+    {
+      "id": "inflation",
+      "label": "Инфляция",
+      "value": "6.33%",
+      "period": "08.2026",
+      "source": "Банк России / Росстат",
+      "source_url": "https://www.cbr.ru/hd_base/infl/",
+      "change": "",
+      "history": [
+        {
+          "period": "03.2026",
+          "value": 5.86
+        },
+        {
+          "period": "04.2026",
+          "value": 5.58
+        },
+        {
+          "period": "05.2026",
+          "value": 5.31
+        },
+        {
+          "period": "06.2026",
+          "value": 6.02
+        },
+        {
+          "period": "07.2026",
+          "value": 5.98
+        },
+        {
+          "period": "08.2026",
+          "value": 6.33
+        }
+      ],
+      "note": "год к году"
+    },
+    {
+      "id": "mortgage",
+      "label": "Выдачи ипотеки",
+      "value": "363.4 млрд ₽",
+      "period": "07.2026",
+      "source": "Банк России",
+      "source_url": "https://www.cbr.ru/statistics/bank_sector/mortgage/Indicator_mortgage/0726/",
+      "change": "",
+      "history": [],
+      "note": "ИЖК, объем выдач"
+    },
+    {
+      "id": "ad-market",
+      "label": "Рекламный рынок РФ",
+      "value": "980 млрд ₽",
+      "period": "2025",
+      "source": "АКАР",
+      "source_url": "https://akarussia.ru/news/obem-rynka-marketingovyh-kommunikacij-v-2025-godu/",
+      "change": "+8.5% г/г",
+      "history": [],
+      "note": "объем рекламы по оценке АКАР"
+    },
+    {
+      "id": "ecommerce",
+      "label": "E-commerce РФ",
+      "value": "13.4 трлн ₽",
+      "period": "2025",
+      "source": "Data Insight",
+      "source_url": "https://datainsight.ru/DI_eCommerce_2026",
+      "change": "+19% г/г",
+      "history": [],
+      "note": "розничная интернет-торговля; прогноз 2026 >15 трлн ₽"
+    }
+  ],
+  "errors": []
+}
