@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-23T09:25:50.676773+00:00",
+  "updated_at": "2026-09-23T09:39:42.289067+00:00",
   "source_count": 17,
-  "item_count": 166,
+  "item_count": 169,
   "retention_days": 550,
   "categories": [
     {
@@ -58,7 +58,7 @@
   "source_stats": [
     {
       "source": "Retail.ru — новости",
-      "added": 1
+      "added": 0
     },
     {
       "source": "Retail.ru — статьи",
@@ -70,15 +70,15 @@
     },
     {
       "source": "РБК — бизнес и экономика",
-      "added": 1
+      "added": 0
     },
     {
       "source": "Коммерсантъ — новости",
-      "added": 3
+      "added": 0
     },
     {
       "source": "Ведомости — новости",
-      "added": 1
+      "added": 0
     },
     {
       "source": "Sostav — маркетинг и бренды",
@@ -86,23 +86,23 @@
     },
     {
       "source": "CNews — бизнес и технологии",
-      "added": 11
+      "added": 1
     },
     {
       "source": "ТАСС — экономика и компании",
-      "added": 4
-    },
-    {
-      "source": "Finam — компании и рынки",
-      "added": 2
-    },
-    {
-      "source": "АВТОСТАТ — авторынок",
       "added": 0
     },
     {
-      "source": "РБК Недвижимость — рынок недвижимости",
+      "source": "Finam — компании и рынки",
+      "added": 0
+    },
+    {
+      "source": "АВТОСТАТ — авторынок",
       "added": 2
+    },
+    {
+      "source": "РБК Недвижимость — рынок недвижимости",
+      "added": 1
     },
     {
       "source": "Банк России — новости",
@@ -138,10 +138,6 @@
     }
   ],
   "errors": [
-    {
-      "source": "АВТОСТАТ — авторынок",
-      "error": "HTTP Error 403: Forbidden"
-    },
     {
       "source": "Росстат — новости статистики",
       "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
@@ -348,7 +344,7 @@
       "title": "Бизнес планирует увеличить инвестиции в рекламу Крупный и средний бизнес готовится увеличить рекламные бюджеты, предвидя оживление деловой активности 30 октября 2025",
       "url": "https://romir.ru/feed/snizhenie-kliuchevoi-stavki-78-menedzherov-planiruiut-uvelichit-investitsii-v-reklamu",
       "source": "РОМИР — аналитика",
-      "published_at": "2026-09-23T09:25:48.927162+00:00",
+      "published_at": "2026-09-23T09:39:39.615740+00:00",
       "summary": "",
       "categories": [
         "Retail",
@@ -401,7 +397,7 @@
       "title": "Индекс потребительской уверенности в ноябре 2025 По итогам ноября 2025 индекс потребительской уверенности зафиксировался на отметке +3 п.п. 25 декабря 2025",
       "url": "https://romir.ru/feed/iv-indeks-potrebitelskoi-uverennosti-v-noiabre-2025",
       "source": "РОМИР — аналитика",
-      "published_at": "2026-09-23T09:25:48.937832+00:00",
+      "published_at": "2026-09-23T09:39:39.622232+00:00",
       "summary": "",
       "categories": [
         "Retail"
@@ -423,7 +419,7 @@
       "title": "ИИ перестал быть экспериментом – технологии меняют стратегию рекламных инвестиций 19 февраля 2026",
       "url": "https://romir.ru/feed/ii-perestal-byt-eksperimentom-tekhnologii-meniaiut-strategiiu-reklamnykh-investitsii",
       "source": "РОМИР — аналитика",
-      "published_at": "2026-09-23T09:25:48.925915+00:00",
+      "published_at": "2026-09-23T09:39:39.615004+00:00",
       "summary": "",
       "categories": [
         "Retail",
@@ -500,7 +496,7 @@
       "title": "достиг рынок наружной рекламы в Q1 2026, показав динамику 11% к году",
       "url": "https://adindex.ru/news/ad_budjet/2026/06/23/346145.phtml",
       "source": "AdIndex — реклама и медиа",
-      "published_at": "2026-09-23T09:25:50.674981+00:00",
+      "published_at": "2026-09-23T09:39:42.288050+00:00",
       "summary": "",
       "categories": [
         "MediaAdvertising"
@@ -529,7 +525,7 @@
       "title": "Как меняется рынок кофе и вкусы покупателей 17 апреля 2026",
       "url": "https://romir.ru/feed/kak-meniaetsia-rynok-kofe-i-vkusy-pokupatelei",
       "source": "РОМИР — аналитика",
-      "published_at": "2026-09-23T09:25:48.936578+00:00",
+      "published_at": "2026-09-23T09:39:39.621475+00:00",
       "summary": "",
       "categories": [
         "Retail"
@@ -552,7 +548,7 @@
       "title": "Рынок HoReca в России приближается к пределу роста 16 апреля 2026",
       "url": "https://romir.ru/feed/rynok-horeca-v-rossii-priblizhaetsia-k-predelu-rosta",
       "source": "РОМИР — аналитика",
-      "published_at": "2026-09-23T09:25:48.931090+00:00",
+      "published_at": "2026-09-23T09:39:39.618113+00:00",
       "summary": "",
       "categories": [
         "Retail",
@@ -576,7 +572,7 @@
       "title": "День рождения автомобиля в России: как меняется рынок и поведение покупателей 18 апреля 2026",
       "url": "https://romir.ru/feed/den-rozhdeniia-avtomobilia-v-rossii-kak-meniaetsia-rynok-i-povedenie-pokupatelei",
       "source": "РОМИР — аналитика",
-      "published_at": "2026-09-23T09:25:48.930974+00:00",
+      "published_at": "2026-09-23T09:39:39.618051+00:00",
       "summary": "",
       "categories": [
         "Retail",
@@ -600,7 +596,7 @@
       "title": "В России растет спрос на уходовую косметику 27 октября 2025",
       "url": "https://romir.ru/feed/v-rossii-rastet-spros-na-ukhodovuiu-kosmetiku",
       "source": "РОМИР — аналитика",
-      "published_at": "2026-09-23T09:25:48.927275+00:00",
+      "published_at": "2026-09-23T09:39:39.615803+00:00",
       "summary": "",
       "categories": [
         "Retail",
@@ -624,7 +620,7 @@
       "title": "Отказ от лишнего: как меняются потребительские стратегии 14 апреля 2026",
       "url": "https://romir.ru/feed/otkaz-ot-lishnego-kak-meniaiutsia-potrebitelskie-strategii",
       "source": "РОМИР — аналитика",
-      "published_at": "2026-09-23T09:25:48.925199+00:00",
+      "published_at": "2026-09-23T09:39:39.614578+00:00",
       "summary": "",
       "categories": [
         "Retail",
@@ -648,7 +644,7 @@
       "title": "Рынок пиццы в России 23 апреля 2026",
       "url": "https://romir.ru/feed/rynok-pitstsy-v-rossii",
       "source": "РОМИР — аналитика",
-      "published_at": "2026-09-23T09:25:48.924802+00:00",
+      "published_at": "2026-09-23T09:39:39.614352+00:00",
       "summary": "",
       "categories": [
         "Retail",
@@ -956,7 +952,7 @@
       "title": "Потребительский интерес к покупке новых автомобилей вырос на 30% 25 сентября 2025",
       "url": "https://romir.ru/feed/potrebitelskii-interes-k-pokupke-novykh-avtomobilei-vyros-na-30",
       "source": "РОМИР — аналитика",
-      "published_at": "2026-09-23T09:25:48.939196+00:00",
+      "published_at": "2026-09-23T09:39:39.623046+00:00",
       "summary": "",
       "categories": [
         "Retail",
@@ -985,7 +981,7 @@
       "title": "Недельные расходы: +23 рубля 8017 рублей потратила в среднем на продукты питания и товары повседневного спроса среднестатистическая российская семья на неделе с 22 по 28 сентября 1 октября 2025",
       "url": "https://romir.ru/feed/nedelnye-raskhody-23-rublia",
       "source": "РОМИР — аналитика",
-      "published_at": "2026-09-23T09:25:48.939058+00:00",
+      "published_at": "2026-09-23T09:39:39.622974+00:00",
       "summary": "",
       "categories": [
         "Retail",
@@ -1008,7 +1004,7 @@
       "title": "Каждый четвертый потребитель выбирает безалкогольное пиво 6 октября 2025",
       "url": "https://romir.ru/feed/kazhdyi-chetvertyi-potrebitel-vybiraet-bezalkogolnoe-pivo",
       "source": "РОМИР — аналитика",
-      "published_at": "2026-09-23T09:25:48.938961+00:00",
+      "published_at": "2026-09-23T09:39:39.622911+00:00",
       "summary": "",
       "categories": [
         "Retail"
@@ -1030,7 +1026,7 @@
       "title": "Недельные расходы: +3 рубля 8020 рублей потратила в среднем на продукты питания и товары повседневного спроса среднестатистическая российская семья на неделе с 29 сентября по 5 октября 8 октября 2025",
       "url": "https://romir.ru/feed/nedelnye-raskhody-3-rublia",
       "source": "РОМИР — аналитика",
-      "published_at": "2026-09-23T09:25:48.938846+00:00",
+      "published_at": "2026-09-23T09:39:39.622832+00:00",
       "summary": "",
       "categories": [
         "Retail",
@@ -1053,7 +1049,7 @@
       "title": "Ежемесячные траты российских домохозяйств 42 376 р. потратила на продукты питания и товары повседневного спроса среднестатистическая российская семья в ноябре 2025 года 25 декабря 2025",
       "url": "https://romir.ru/feed/ezhemesiachnye-traty-rossiiskikh-domokhoziaistv",
       "source": "РОМИР — аналитика",
-      "published_at": "2026-09-23T09:25:48.937947+00:00",
+      "published_at": "2026-09-23T09:39:39.622307+00:00",
       "summary": "",
       "categories": [
         "Retail",
@@ -1076,7 +1072,7 @@
       "title": "Доход определяет бренд: как распределяется спрос на автомобили 27 марта 2026",
       "url": "https://romir.ru/feed/dokhod-opredeliaet-brend-kak-raspredeliaetsia-spros-na-avtomobili",
       "source": "РОМИР — аналитика",
-      "published_at": "2026-09-23T09:25:48.936881+00:00",
+      "published_at": "2026-09-23T09:39:39.621657+00:00",
       "summary": "",
       "categories": [
         "Retail",
@@ -1099,7 +1095,7 @@
       "title": "Как РОМИР измеряет поведение человека: ценности и потребительский выбор 8 мая 2026",
       "url": "https://romir.ru/feed/kak-romir-izmeriaet-povedenie-cheloveka-tsennosti-i-potrebitelskii-vybor",
       "source": "РОМИР — аналитика",
-      "published_at": "2026-09-23T09:25:48.935926+00:00",
+      "published_at": "2026-09-23T09:39:39.621098+00:00",
       "summary": "",
       "categories": [
         "Retail"
@@ -1121,7 +1117,7 @@
       "title": "Недельные расходы: -365 рублей 7994 рубля потратила в среднем на продукты питания и товары повседневного спроса среднестатистическая российская семья на неделе с 15 по 21 сентября 24 сентября 2025",
       "url": "https://romir.ru/feed/nedelnye-raskhody-365-rublei",
       "source": "РОМИР — аналитика",
-      "published_at": "2026-09-23T09:25:48.933534+00:00",
+      "published_at": "2026-09-23T09:39:39.619631+00:00",
       "summary": "",
       "categories": [
         "Retail",
@@ -1144,7 +1140,7 @@
       "title": "В Потребительской Панели РОМИР появилась аналитика миссий покупки 16 октября 2025",
       "url": "https://romir.ru/feed/v-potrebitelskoi-paneli-romir-poiavilas-analitika-missii-pokupki",
       "source": "РОМИР — аналитика",
-      "published_at": "2026-09-23T09:25:48.933163+00:00",
+      "published_at": "2026-09-23T09:39:39.619403+00:00",
       "summary": "",
       "categories": [
         "Retail"
@@ -1166,7 +1162,7 @@
       "title": "Средний чек в 2025 году Согласно данным Потребительской панели РОМИР, средний чек российского жителя в 2025 году составил 965 руб. 26 января 2026",
       "url": "https://romir.ru/feed/srednii-chek-v-2025-godu",
       "source": "РОМИР — аналитика",
-      "published_at": "2026-09-23T09:25:48.932031+00:00",
+      "published_at": "2026-09-23T09:39:39.618683+00:00",
       "summary": "",
       "categories": [
         "Retail"
@@ -1188,7 +1184,7 @@
       "title": "Потребительское поведение россиян становится более рациональным 21 мая 2026",
       "url": "https://romir.ru/feed/potrebitelskoe-povedenie-rossiian-stanovitsia-bolee-ratsionalnym",
       "source": "РОМИР — аналитика",
-      "published_at": "2026-09-23T09:25:48.929901+00:00",
+      "published_at": "2026-09-23T09:39:39.617375+00:00",
       "summary": "",
       "categories": [
         "Retail"
@@ -1210,7 +1206,7 @@
       "title": "Топ-10 сетевых игроков по продаже горячего кофе во втором квартале 2025 года 24 сентября 2025",
       "url": "https://romir.ru/feed/top-10-setevykh-igrokov-po-prodazhe-goriachego-kofe-vo-vtorom-kvartale-2025-goda",
       "source": "РОМИР — аналитика",
-      "published_at": "2026-09-23T09:25:48.927756+00:00",
+      "published_at": "2026-09-23T09:39:39.616113+00:00",
       "summary": "",
       "categories": [
         "Retail"
@@ -1232,7 +1228,7 @@
       "title": "Индекс потребительской уверенности. Итоги 2025 года Индекс покупательской уверенности остается в «зеленой зоне», но демонстрирует снижение 26 января 2026",
       "url": "https://romir.ru/feed/iii-indeks-potrebitelskoi-uverennosti-itogi-2025-goda",
       "source": "РОМИР — аналитика",
-      "published_at": "2026-09-23T09:25:48.926197+00:00",
+      "published_at": "2026-09-23T09:39:39.615161+00:00",
       "summary": "",
       "categories": [
         "Retail"
@@ -1254,7 +1250,7 @@
       "title": "Мясо против сладкого: как распределился спрос на блины 17 февраля 2026",
       "url": "https://romir.ru/feed/miaso-protiv-sladkogo-kak-raspredelilsia-spros-na-bliny",
       "source": "РОМИР — аналитика",
-      "published_at": "2026-09-23T09:25:48.926012+00:00",
+      "published_at": "2026-09-23T09:39:39.615065+00:00",
       "summary": "",
       "categories": [
         "Retail"
@@ -1276,7 +1272,7 @@
       "title": "Где живет чек: кто на самом деле кормит рынок HoReCa 27 февраля 2026",
       "url": "https://romir.ru/feed/gde-zhivet-chek-kto-na-samom-dele-kormit-rynok-horeca",
       "source": "РОМИР — аналитика",
-      "published_at": "2026-09-23T09:25:48.925824+00:00",
+      "published_at": "2026-09-23T09:39:39.614946+00:00",
       "summary": "",
       "categories": [
         "Retail"
@@ -1298,7 +1294,7 @@
       "title": "Потребительские настроения остаются сдержанными 20 марта 2026",
       "url": "https://romir.ru/feed/potrebitelskie-nastroeniia-ostaiutsia-sderzhannymi",
       "source": "РОМИР — аналитика",
-      "published_at": "2026-09-23T09:25:48.925521+00:00",
+      "published_at": "2026-09-23T09:39:39.614764+00:00",
       "summary": "",
       "categories": [
         "Retail"
@@ -1320,7 +1316,7 @@
       "title": "Огурцы: повседневный спрос с растущей конкуренцией каналов 8 апреля 2026",
       "url": "https://romir.ru/feed/ogurtsy-povsednevnyi-spros-s-rastushchei-konkurentsiei-kanalov",
       "source": "РОМИР — аналитика",
-      "published_at": "2026-09-23T09:25:48.925297+00:00",
+      "published_at": "2026-09-23T09:39:39.614633+00:00",
       "summary": "",
       "categories": [
         "Retail"
@@ -1342,7 +1338,7 @@
       "title": "Потребительская уверенность в марте 15 апреля 2026",
       "url": "https://romir.ru/feed/potrebitelskaia-uverennost-v-marte",
       "source": "РОМИР — аналитика",
-      "published_at": "2026-09-23T09:25:48.925103+00:00",
+      "published_at": "2026-09-23T09:39:39.614525+00:00",
       "summary": "",
       "categories": [
         "Retail"
@@ -1364,7 +1360,7 @@
       "title": "Больше, чем просто топливо: как меняются ценности потребителей АЗС в 2026 году 5 мая 2026",
       "url": "https://romir.ru/feed/bolshe-chem-prosto-toplivo-kak-meniaiutsia-tsennosti-potrebitelei-azs-v-2026-godu",
       "source": "РОМИР — аналитика",
-      "published_at": "2026-09-23T09:25:48.924436+00:00",
+      "published_at": "2026-09-23T09:39:39.614132+00:00",
       "summary": "",
       "categories": [
         "Retail"
@@ -1386,7 +1382,7 @@
       "title": "Магазины у дома стали лидерами омниканального спроса 8 мая 2026",
       "url": "https://romir.ru/feed/magaziny-u-doma-stali-liderami-omnikanalnogo-sprosa",
       "source": "РОМИР — аналитика",
-      "published_at": "2026-09-23T09:25:48.924259+00:00",
+      "published_at": "2026-09-23T09:39:39.614027+00:00",
       "summary": "",
       "categories": [
         "Retail"
@@ -1408,7 +1404,7 @@
       "title": "Потребительская уверенность растет 24 июня 2026",
       "url": "https://romir.ru/feed/potrebitelskaia-uverennost-rastet",
       "source": "РОМИР — аналитика",
-      "published_at": "2026-09-23T09:25:48.922864+00:00",
+      "published_at": "2026-09-23T09:39:39.613210+00:00",
       "summary": "",
       "categories": [
         "Retail"
@@ -1896,6 +1892,32 @@
       "metrics": []
     },
     {
+      "id": "3028def6a1d7b42227",
+      "title": "В России стартовали продажи пикапа JAC T9 в новой версии Урбан+",
+      "url": "https://www.autostat.ru/news/63145",
+      "source": "АВТОСТАТ — авторынок",
+      "published_at": "2026-09-23T09:38:08.385374+00:00",
+      "summary": "На российский рынок вышла новая версия пикапа JAC T9 под названием Урбан+. В стандартное оснащение модели в этой комплектации вошел расширенный пакет зимних опций, который включает в себя обогрев р...",
+      "categories": [
+        "Automotive"
+      ],
+      "primary_category": "Automotive",
+      "topics": [
+        "Рынок и продажи",
+        "Форматы и экспансия"
+      ],
+      "brands": [],
+      "score": 2.5,
+      "relevance_reasons": [
+        "рынок / бизнес"
+      ],
+      "why_it_matters": "Важен для понимания продаж, цен, модельного ряда, дилерской сети и конкурентной динамики авторынка. Отобрано как: рынок / бизнес.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "metrics": []
+    },
+    {
       "id": "7fbd3b1be1a5f87b82",
       "title": "\"Автоваз\" прогнозирует снижение темпов экспорта в этом году",
       "url": "https://tass.ru/ekonomika/28142565",
@@ -2375,7 +2397,7 @@
       "title": "Москва стала первой по росту цен на вторичное жилье среди мегаполисов Эксклюзив",
       "url": "https://realty.rbc.ru/news/6a9f02469a7947655798c900",
       "source": "РБК Недвижимость — рынок недвижимости",
-      "published_at": "2026-09-23T09:25:06.544629+00:00",
+      "published_at": "2026-09-23T09:38:51.922254+00:00",
       "summary": "В августе 2026 года Москва заняла первое место среди городов-миллионников по росту цен на вторичное жилье. Эксперты связывают это с перетеканием спроса с первичного рынка на рынок готового жилья",
       "categories": [
         "RealEstate"
@@ -2626,6 +2648,34 @@
       "client_matches": {},
       "market_scope": "Russia",
       "future_horizon": [],
+      "metrics": []
+    },
+    {
+      "id": "71497913edc4f790cf",
+      "title": "ESTEO представит три новинки в 2027 году",
+      "url": "https://www.autostat.ru/news/63141",
+      "source": "АВТОСТАТ — авторынок",
+      "published_at": "2026-09-23T09:38:05.370143+00:00",
+      "summary": "Премиальный бренд ESTEO в 2027 году продолжит формировать один из наиболее широких модельных рядов на рынке автомобилей на новых источниках энергии (NEV). Об этом агентству «АВТОСТАТ» с...",
+      "categories": [
+        "Automotive"
+      ],
+      "primary_category": "Automotive",
+      "topics": [
+        "Маркетинг и медиа"
+      ],
+      "brands": [],
+      "score": 2.0,
+      "relevance_reasons": [
+        "маркетинг",
+        "будущий горизонт"
+      ],
+      "why_it_matters": "Важен для понимания продаж, цен, модельного ряда, дилерской сети и конкурентной динамики авторынка. Горизонт: 2027. Отобрано как: маркетинг, будущий горизонт.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [
+        "2027"
+      ],
       "metrics": []
     },
     {
@@ -3041,6 +3091,41 @@
         "2027"
       ],
       "metrics": []
+    },
+    {
+      "id": "d3aea79481d54413f5",
+      "title": "Тюменские компании стали на 10% больше инвестировать в резервное копирование данных",
+      "url": "https://www.cnews.ru/news/line/2026-09-23_tyumenskie_kompanii_stali",
+      "source": "CNews — бизнес и технологии",
+      "published_at": "2026-09-23T09:22:00+00:00",
+      "summary": "МТС проанализировала потребление услуг резервного копирования российскими компаниями во II квартале 2026 г. В Тюменской...",
+      "categories": [
+        "TelecomTech"
+      ],
+      "primary_category": "TelecomTech",
+      "topics": [
+        "M&A и инвестиции"
+      ],
+      "brands": [
+        "МТС"
+      ],
+      "score": 1.9,
+      "relevance_reasons": [
+        "инвестиции / M&A",
+        "крупный игрок",
+        "есть данные"
+      ],
+      "why_it_matters": "Показывает изменения в цифровых сервисах, телеком-рынке и технологиях, влияющих на потребителей и маркетинг. В фокусе: МТС. Отобрано как: инвестиции / M&A, крупный игрок, есть данные.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "metrics": [
+        {
+          "type": "Спрос",
+          "value": "10%",
+          "context": "Тюменские компании стали на 10% больше инвестировать в резервное копирование данных."
+        }
+      ]
     },
     {
       "id": "6bb53b6f1a41ec20d1",
