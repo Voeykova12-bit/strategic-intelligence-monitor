@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-23T12:18:43.575485+00:00",
-  "source_count": 17,
-  "item_count": 176,
+  "updated_at": "2026-09-23T12:25:13.132309+00:00",
+  "source_count": 18,
+  "item_count": 198,
   "retention_days": 365,
   "categories": [
     {
@@ -70,7 +70,7 @@
     },
     {
       "source": "Retail.ru — статьи",
-      "added": 2
+      "added": 0
     },
     {
       "source": "Банки.ру — новости",
@@ -78,39 +78,39 @@
     },
     {
       "source": "РБК — бизнес и экономика",
-      "added": 3
+      "added": 1
     },
     {
       "source": "Коммерсантъ — новости",
-      "added": 4
-    },
-    {
-      "source": "Ведомости — новости",
-      "added": 1
-    },
-    {
-      "source": "Sostav — маркетинг и бренды",
-      "added": 5
-    },
-    {
-      "source": "CNews — бизнес и технологии",
-      "added": 4
-    },
-    {
-      "source": "ТАСС — экономика и компании",
-      "added": 1
-    },
-    {
-      "source": "Finam — компании и рынки",
-      "added": 4
-    },
-    {
-      "source": "АВТОСТАТ — авторынок",
       "added": 0
     },
     {
+      "source": "Ведомости — новости",
+      "added": 0
+    },
+    {
+      "source": "Sostav — маркетинг и бренды",
+      "added": 0
+    },
+    {
+      "source": "CNews — бизнес и технологии",
+      "added": 0
+    },
+    {
+      "source": "ТАСС — экономика и компании",
+      "added": 0
+    },
+    {
+      "source": "Finam — компании и рынки",
+      "added": 0
+    },
+    {
+      "source": "АВТОСТАТ — авторынок",
+      "added": 2
+    },
+    {
       "source": "РБК Недвижимость — рынок недвижимости",
-      "added": 5
+      "added": 1
     },
     {
       "source": "Банк России — новости",
@@ -143,16 +143,36 @@
     {
       "source": "AdIndex — реклама и медиа",
       "added": 1
+    },
+    {
+      "source": "АКАР — рынок рекламы",
+      "added": 19
+    },
+    {
+      "source": "New Retail — отраслевые новости",
+      "added": 0
+    },
+    {
+      "source": "Mediascope — исследования",
+      "added": 0
     }
   ],
   "errors": [
     {
-      "source": "АВТОСТАТ — авторынок",
-      "error": "HTTP Error 403: Forbidden"
-    },
-    {
       "source": "Росстат — новости статистики",
       "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+    },
+    {
+      "source": "Data Insight — исследования",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "source": "Минэкономразвития — новости",
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "source": "ФАС России — новости",
+      "error": "<urlopen error timed out>"
     }
   ],
   "items": [
@@ -167,7 +187,7 @@
         "Retail",
         "BanksFintech",
         "FinanceEconomy",
-        "TelecomTech"
+        "TechnologyAI"
       ],
       "primary_category": "Retail",
       "topics": [
@@ -178,6 +198,7 @@
       ],
       "brands": [],
       "score": 4.6,
+      "strategic_relevance_score": 92,
       "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
       "market_scope": "Russia",
       "metrics": [
@@ -208,7 +229,12 @@
         }
       ],
       "image_url": "",
-      "source_quality": 5.0
+      "source_quality": 5.0,
+      "content_type": "news",
+      "future_signal": true,
+      "future_horizon": [
+        "future"
+      ]
     },
     {
       "id": "c0a9aa2c5e4252cffe",
@@ -221,7 +247,7 @@
         "Retail",
         "BanksFintech",
         "FinanceEconomy",
-        "TelecomTech"
+        "TechnologyAI"
       ],
       "primary_category": "Retail",
       "topics": [
@@ -233,6 +259,7 @@
       ],
       "brands": [],
       "score": 4.6,
+      "strategic_relevance_score": 92,
       "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы. Есть исследовательская или прогнозная база.",
       "market_scope": "Russia",
       "metrics": [
@@ -263,7 +290,12 @@
         }
       ],
       "image_url": "",
-      "source_quality": 5.0
+      "source_quality": 5.0,
+      "content_type": "research",
+      "future_signal": true,
+      "future_horizon": [
+        "future"
+      ]
     },
     {
       "id": "e64697b875418a320f",
@@ -314,6 +346,7 @@
       "categories": [
         "Retail",
         "FMCG",
+        "Consumer",
         "MediaAdvertising"
       ],
       "primary_category": "Retail",
@@ -324,11 +357,15 @@
       ],
       "brands": [],
       "score": 4.2,
+      "strategic_relevance_score": 84,
       "why_it_matters": "Международный сигнал, который может повлиять на маркетинг, потребление или бизнес-модели и быть релевантен российскому рынку.",
       "market_scope": "Global",
       "metrics": [],
       "image_url": "",
-      "source_quality": 4.3
+      "source_quality": 4.3,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": []
     },
     {
       "id": "37b73d084a02213b31",
@@ -394,7 +431,8 @@
       "categories": [
         "BanksFintech",
         "FinanceEconomy",
-        "TelecomTech"
+        "TechnologyAI",
+        "Consumer"
       ],
       "primary_category": "BanksFintech",
       "topics": [
@@ -403,22 +441,377 @@
       ],
       "brands": [],
       "score": 3.8,
+      "strategic_relevance_score": 76,
       "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
       "market_scope": "Russia",
       "metrics": [],
       "image_url": "",
-      "source_quality": 5.0
+      "source_quality": 5.0,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": []
+    },
+    {
+      "id": "1a79f33bce0369177a",
+      "title": "Объем рынка рекламы в средствах ее распространения в январе-сентябре 2023 года",
+      "url": "https://akarussia.ru/volumes/obem-rynka-reklamy-v-sredstvah-ee-rasprostranenija-v-janvare-sentjabre-2023-goda-2/",
+      "source": "АКАР — рынок рекламы",
+      "published_at": "2026-09-23T12:24:19.951308+00:00",
+      "summary": "",
+      "categories": [
+        "MediaAdvertising"
+      ],
+      "primary_category": "MediaAdvertising",
+      "topics": [
+        "Потребитель",
+        "Маркетинг и медиа"
+      ],
+      "brands": [],
+      "score": 3.6,
+      "strategic_relevance_score": 72,
+      "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
+      "market_scope": "Russia",
+      "metrics": [],
+      "image_url": "",
+      "source_quality": 4.9,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": []
+    },
+    {
+      "id": "1dc7a52954939953f4",
+      "title": "Объем рынка рекламы в средствах ее распространения за 2023 год",
+      "url": "https://akarussia.ru/volumes/obem-rynka-reklamy-v-sredstvah-ee-rasprostranenija-v-janvare-sentjabre-2023-goda/",
+      "source": "АКАР — рынок рекламы",
+      "published_at": "2026-09-23T12:24:19.951162+00:00",
+      "summary": "",
+      "categories": [
+        "MediaAdvertising"
+      ],
+      "primary_category": "MediaAdvertising",
+      "topics": [
+        "Потребитель",
+        "Маркетинг и медиа"
+      ],
+      "brands": [],
+      "score": 3.6,
+      "strategic_relevance_score": 72,
+      "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
+      "market_scope": "Russia",
+      "metrics": [],
+      "image_url": "",
+      "source_quality": 4.9,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": []
+    },
+    {
+      "id": "98bd2e6a5b266cad17",
+      "title": "Объёмы рекламы в средствах её распространения: итоги 9 месяцев (январь-сентябрь) 2023 года",
+      "url": "https://akarussia.ru/volumes/objomy-reklamy-v-sredstvah-ejo-rasprostranenija-itogi-9-mesjacev-janvar-sentjabr-2023-goda/",
+      "source": "АКАР — рынок рекламы",
+      "published_at": "2026-09-23T12:24:19.951041+00:00",
+      "summary": "",
+      "categories": [
+        "MediaAdvertising"
+      ],
+      "primary_category": "MediaAdvertising",
+      "topics": [
+        "Потребитель",
+        "Маркетинг и медиа"
+      ],
+      "brands": [],
+      "score": 3.6,
+      "strategic_relevance_score": 72,
+      "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
+      "market_scope": "Russia",
+      "metrics": [],
+      "image_url": "",
+      "source_quality": 4.9,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": []
+    },
+    {
+      "id": "97e80a8ca213b5836c",
+      "title": "Объем рекламного рынка в средствах ее распространения в январе-марте 2024 года",
+      "url": "https://akarussia.ru/volumes/obem-rynka-reklamy-v-sredstvah-ee-rasprostranenija-v-janvare-marte-2024-goda/",
+      "source": "АКАР — рынок рекламы",
+      "published_at": "2026-09-23T12:24:19.950696+00:00",
+      "summary": "",
+      "categories": [
+        "MediaAdvertising"
+      ],
+      "primary_category": "MediaAdvertising",
+      "topics": [
+        "Потребитель",
+        "Маркетинг и медиа"
+      ],
+      "brands": [],
+      "score": 3.6,
+      "strategic_relevance_score": 72,
+      "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
+      "market_scope": "Russia",
+      "metrics": [],
+      "image_url": "",
+      "source_quality": 4.9,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": []
+    },
+    {
+      "id": "05f13d1e3c15236dcd",
+      "title": "Объем рынка рекламы в средствах ее распространения в январе-марте 2024 года",
+      "url": "https://akarussia.ru/volumes/obem-rynka-reklamy-v-sredstvah-ee-rasprostranenija-v-janvare-marte-2024-goda-2/",
+      "source": "АКАР — рынок рекламы",
+      "published_at": "2026-09-23T12:24:19.950577+00:00",
+      "summary": "",
+      "categories": [
+        "MediaAdvertising"
+      ],
+      "primary_category": "MediaAdvertising",
+      "topics": [
+        "Потребитель",
+        "Маркетинг и медиа"
+      ],
+      "brands": [],
+      "score": 3.6,
+      "strategic_relevance_score": 72,
+      "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
+      "market_scope": "Russia",
+      "metrics": [],
+      "image_url": "",
+      "source_quality": 4.9,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": []
+    },
+    {
+      "id": "fc15eb8d378e5608fa",
+      "title": "Объем рекламного рынка в средствах ее распространения в январе-июне 2024 года",
+      "url": "https://akarussia.ru/volumes/obem-rynka-reklamy-v-sredstvah-ee-rasprostranenija-v-janvare-ijune-2024-goda/",
+      "source": "АКАР — рынок рекламы",
+      "published_at": "2026-09-23T12:24:19.950328+00:00",
+      "summary": "",
+      "categories": [
+        "MediaAdvertising"
+      ],
+      "primary_category": "MediaAdvertising",
+      "topics": [
+        "Потребитель",
+        "Маркетинг и медиа"
+      ],
+      "brands": [],
+      "score": 3.6,
+      "strategic_relevance_score": 72,
+      "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
+      "market_scope": "Russia",
+      "metrics": [],
+      "image_url": "",
+      "source_quality": 4.9,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": []
+    },
+    {
+      "id": "d7fd368a670a05c31a",
+      "title": "Объёмы рекламы в средствах её распространения. Итоги первого полугодия 2024 года в Санкт-Петербурге",
+      "url": "https://akarussia.ru/volumes/objomy-reklamy-v-sredstvah-ejo-rasprostranenija-itogi-pervogo-polugodija-2024-goda-v-sankt-peterburge/",
+      "source": "АКАР — рынок рекламы",
+      "published_at": "2026-09-23T12:24:19.950175+00:00",
+      "summary": "",
+      "categories": [
+        "MediaAdvertising"
+      ],
+      "primary_category": "MediaAdvertising",
+      "topics": [
+        "Потребитель",
+        "Маркетинг и медиа"
+      ],
+      "brands": [],
+      "score": 3.6,
+      "strategic_relevance_score": 72,
+      "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
+      "market_scope": "Russia",
+      "metrics": [],
+      "image_url": "",
+      "source_quality": 4.9,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": []
+    },
+    {
+      "id": "03b5cd77c71eae1650",
+      "title": "Объем рынка рекламы в средствах ее распространения в январе-сентябре 2024 года в Санкт-Петербурге",
+      "url": "https://akarussia.ru/volumes/obem-rynka-reklamy-v-sredstvah-ee-rasprostranenija-v-janvare-sentjabrja-2024-goda-v-sankt-peterburge/",
+      "source": "АКАР — рынок рекламы",
+      "published_at": "2026-09-23T12:24:19.950049+00:00",
+      "summary": "",
+      "categories": [
+        "MediaAdvertising"
+      ],
+      "primary_category": "MediaAdvertising",
+      "topics": [
+        "Потребитель",
+        "Маркетинг и медиа"
+      ],
+      "brands": [],
+      "score": 3.6,
+      "strategic_relevance_score": 72,
+      "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
+      "market_scope": "Russia",
+      "metrics": [],
+      "image_url": "",
+      "source_quality": 4.9,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": []
+    },
+    {
+      "id": "2b6d879760cc7e0402",
+      "title": "Объем рынка рекламы в средствах ее распространения в январе-сентябре 2024 года",
+      "url": "https://akarussia.ru/volumes/obem-rynka-reklamy-v-sredstvah-ee-rasprostranenija-v-janvare-sentjabrja-2024-goda/",
+      "source": "АКАР — рынок рекламы",
+      "published_at": "2026-09-23T12:24:19.949928+00:00",
+      "summary": "",
+      "categories": [
+        "MediaAdvertising"
+      ],
+      "primary_category": "MediaAdvertising",
+      "topics": [
+        "Потребитель",
+        "Маркетинг и медиа"
+      ],
+      "brands": [],
+      "score": 3.6,
+      "strategic_relevance_score": 72,
+      "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
+      "market_scope": "Russia",
+      "metrics": [],
+      "image_url": "",
+      "source_quality": 4.9,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": []
+    },
+    {
+      "id": "83b4b11a33f7769373",
+      "title": "Объем рынка рекламы в средствах ее распространения в январе-марте 2025 года без учета Out-of-Home",
+      "url": "https://akarussia.ru/volumes/obem-rynka-reklamy-v-sredstvah-ee-rasprostranenija-v-janvare-marte-2025-goda-bez-ucheta-out-of-home/",
+      "source": "АКАР — рынок рекламы",
+      "published_at": "2026-09-23T12:24:19.949596+00:00",
+      "summary": "",
+      "categories": [
+        "MediaAdvertising"
+      ],
+      "primary_category": "MediaAdvertising",
+      "topics": [
+        "Потребитель",
+        "Маркетинг и медиа"
+      ],
+      "brands": [],
+      "score": 3.6,
+      "strategic_relevance_score": 72,
+      "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
+      "market_scope": "Russia",
+      "metrics": [],
+      "image_url": "",
+      "source_quality": 4.9,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": []
+    },
+    {
+      "id": "633869b7de897f5dc0",
+      "title": "ОБЪЕМ РЫНКА РЕКЛАМЫ В СРЕДСТВАХ ЕЕ РАСПРОСТРАНЕНИЯ В ЯНВАРЕ-ИЮНЕ 2025 ГОДА",
+      "url": "https://akarussia.ru/volumes/obem-rynka-reklamy-v-sredstvah-ee-rasprostranenija-v-janvare-ijune-2025-goda/",
+      "source": "АКАР — рынок рекламы",
+      "published_at": "2026-09-23T12:24:19.949311+00:00",
+      "summary": "",
+      "categories": [
+        "MediaAdvertising"
+      ],
+      "primary_category": "MediaAdvertising",
+      "topics": [
+        "Потребитель",
+        "Маркетинг и медиа"
+      ],
+      "brands": [],
+      "score": 3.6,
+      "strategic_relevance_score": 72,
+      "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
+      "market_scope": "Russia",
+      "metrics": [],
+      "image_url": "",
+      "source_quality": 4.9,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": []
+    },
+    {
+      "id": "f4c443087ca8d93ce4",
+      "title": "ОБЪЕМ РЫНКА РЕКЛАМЫ В СРЕДСТВАХ ЕЕ РАСПРОСТРАНЕНИЯ В ЯНВАРЕ-СЕНТЯБРЕ 2025 ГОДА",
+      "url": "https://akarussia.ru/volumes/7874/",
+      "source": "АКАР — рынок рекламы",
+      "published_at": "2026-09-23T12:24:19.949159+00:00",
+      "summary": "",
+      "categories": [
+        "MediaAdvertising"
+      ],
+      "primary_category": "MediaAdvertising",
+      "topics": [
+        "Потребитель",
+        "Маркетинг и медиа"
+      ],
+      "brands": [],
+      "score": 3.6,
+      "strategic_relevance_score": 72,
+      "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
+      "market_scope": "Russia",
+      "metrics": [],
+      "image_url": "",
+      "source_quality": 4.9,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": []
+    },
+    {
+      "id": "0724259a2f0b4f8d8b",
+      "title": "ОБЪЕМ РЫНКА РЕКЛАМЫ В СРЕДСТВАХ ЕЕ РАСПРОСТРАНЕНИЯ В ЯНВАРЕ-МАРТЕ 2026 ГОДА",
+      "url": "https://akarussia.ru/volumes/obem-rossijskogo-reklamnogo-rynka-v-janvare-marte-2026-goda-prevysil-220-mlrd-rublej/",
+      "source": "АКАР — рынок рекламы",
+      "published_at": "2026-09-23T12:24:19.948861+00:00",
+      "summary": "",
+      "categories": [
+        "MediaAdvertising"
+      ],
+      "primary_category": "MediaAdvertising",
+      "topics": [
+        "Потребитель",
+        "Маркетинг и медиа"
+      ],
+      "brands": [],
+      "score": 3.6,
+      "strategic_relevance_score": 72,
+      "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
+      "market_scope": "Russia",
+      "metrics": [],
+      "image_url": "",
+      "source_quality": 4.9,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": []
     },
     {
       "id": "4080443a0a36b7955c",
       "title": "Бизнес планирует увеличить инвестиции в рекламу Крупный и средний бизнес готовится увеличить рекламные бюджеты, предвидя оживление деловой активности 30 октября 2025",
       "url": "https://romir.ru/feed/snizhenie-kliuchevoi-stavki-78-menedzherov-planiruiut-uvelichit-investitsii-v-reklamu",
       "source": "РОМИР — аналитика",
-      "published_at": "2026-09-23T12:18:40.850512+00:00",
+      "published_at": "2026-09-23T12:24:16.755825+00:00",
       "summary": "",
       "categories": [
         "Retail",
-        "TelecomTech",
+        "TechnologyAI",
         "MediaAdvertising"
       ],
       "primary_category": "Retail",
@@ -429,11 +822,17 @@
       ],
       "brands": [],
       "score": 3.6,
+      "strategic_relevance_score": 72,
       "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
       "market_scope": "Russia",
       "metrics": [],
       "image_url": "",
-      "source_quality": 4.8
+      "source_quality": 4.8,
+      "content_type": "company_plan",
+      "future_signal": true,
+      "future_horizon": [
+        "future"
+      ]
     },
     {
       "id": "46152fdcb6754e4967",
@@ -445,7 +844,7 @@
       "categories": [
         "BanksFintech",
         "FinanceEconomy",
-        "TelecomTech"
+        "TechnologyAI"
       ],
       "primary_category": "BanksFintech",
       "topics": [
@@ -456,21 +855,26 @@
       ],
       "brands": [],
       "score": 3.6,
+      "strategic_relevance_score": 72,
       "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
       "market_scope": "Russia",
       "metrics": [],
       "image_url": "",
-      "source_quality": 5.0
+      "source_quality": 5.0,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": []
     },
     {
       "id": "979578f63a6ce36f5b",
       "title": "Индекс потребительской уверенности в ноябре 2025 По итогам ноября 2025 индекс потребительской уверенности зафиксировался на отметке +3 п.п. 25 декабря 2025",
       "url": "https://romir.ru/feed/iv-indeks-potrebitelskoi-uverennosti-v-noiabre-2025",
       "source": "РОМИР — аналитика",
-      "published_at": "2026-09-23T12:18:40.860390+00:00",
+      "published_at": "2026-09-23T12:24:16.767463+00:00",
       "summary": "",
       "categories": [
-        "Retail"
+        "Retail",
+        "Consumer"
       ],
       "primary_category": "Retail",
       "topics": [
@@ -478,22 +882,26 @@
       ],
       "brands": [],
       "score": 3.5,
+      "strategic_relevance_score": 70,
       "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
       "market_scope": "Russia",
       "metrics": [],
       "image_url": "",
-      "source_quality": 4.8
+      "source_quality": 4.8,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": []
     },
     {
       "id": "e9ff8c49cb3b0cb5ed",
       "title": "ИИ перестал быть экспериментом – технологии меняют стратегию рекламных инвестиций 19 февраля 2026",
       "url": "https://romir.ru/feed/ii-perestal-byt-eksperimentom-tekhnologii-meniaiut-strategiiu-reklamnykh-investitsii",
       "source": "РОМИР — аналитика",
-      "published_at": "2026-09-23T12:18:40.849357+00:00",
+      "published_at": "2026-09-23T12:24:16.754465+00:00",
       "summary": "",
       "categories": [
         "Retail",
-        "TelecomTech",
+        "TechnologyAI",
         "MediaAdvertising"
       ],
       "primary_category": "Retail",
@@ -504,11 +912,15 @@
       ],
       "brands": [],
       "score": 3.5,
+      "strategic_relevance_score": 70,
       "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
       "market_scope": "Russia",
       "metrics": [],
       "image_url": "",
-      "source_quality": 4.8
+      "source_quality": 4.8,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": []
     },
     {
       "id": "ac4855048742282631",
@@ -526,11 +938,17 @@
       ],
       "brands": [],
       "score": 3.5,
+      "strategic_relevance_score": 70,
       "why_it_matters": "Международный сигнал, который может повлиять на маркетинг, потребление или бизнес-модели и быть релевантен российскому рынку.",
       "market_scope": "Global",
       "metrics": [],
       "image_url": "https://imgproxy.divecdn.com/CE-p2WafmJd29QXqXB9iObjztEDsf5tf1CvvtQTR2yM/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9Pbi1taWFtaV9zdG9yZV9UNlJFV0JGLnBuZw==.webp",
-      "source_quality": 4.5
+      "source_quality": 4.5,
+      "content_type": "forecast",
+      "future_signal": true,
+      "future_horizon": [
+        "future"
+      ]
     },
     {
       "id": "7819f5c076c3157bd6",
@@ -549,6 +967,7 @@
       ],
       "brands": [],
       "score": 3.5,
+      "strategic_relevance_score": 70,
       "why_it_matters": "Международный сигнал, который может повлиять на маркетинг, потребление или бизнес-модели и быть релевантен российскому рынку.",
       "market_scope": "Global",
       "metrics": [
@@ -559,14 +978,45 @@
         }
       ],
       "image_url": "https://imgproxy.divecdn.com/yRtZuPw1KFsgNIWZPay2uKVztZbNN7pB5SMO28wsMiA/g:nowe:0:0/c:1280:723/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9qY3BfYmVhdXR5Xy1fMV8xLmpwZWc=.webp",
-      "source_quality": 4.5
+      "source_quality": 4.5,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": []
+    },
+    {
+      "id": "ca8dc77d1af1c2b410",
+      "title": "Эксперты Северо-Западного представительства Ассоциации коммуникационных агентств России (АКАР Северо-Запад) подвели итоги первого квартала 2025 года на рекламном рынке Санкт-Петербурга.",
+      "url": "https://akarussia.ru/volumes/jeksperty-severo-zapadnogo-predstavitelstva-associacii-kommunikacionnyh-agentstv-rossii-akar-severo-zapad-podveli-itogi-pervogo-kvartala-2025-goda-na-reklamnom-rynke-sankt-peterburga/",
+      "source": "АКАР — рынок рекламы",
+      "published_at": "2026-09-23T12:24:19.949442+00:00",
+      "summary": "",
+      "categories": [
+        "TechnologyAI",
+        "MediaAdvertising"
+      ],
+      "primary_category": "TechnologyAI",
+      "topics": [
+        "Маркетинг и медиа",
+        "Digital и технологии"
+      ],
+      "brands": [],
+      "score": 3.4,
+      "strategic_relevance_score": 68,
+      "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
+      "market_scope": "Russia",
+      "metrics": [],
+      "image_url": "",
+      "source_quality": 4.9,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": []
     },
     {
       "id": "43271adb5cc73c11c0",
       "title": "достиг рынок наружной рекламы в Q1 2026, показав динамику 11% к году",
       "url": "https://adindex.ru/news/ad_budjet/2026/06/23/346145.phtml",
       "source": "AdIndex — реклама и медиа",
-      "published_at": "2026-09-23T12:18:43.573934+00:00",
+      "published_at": "2026-09-23T12:24:18.400394+00:00",
       "summary": "",
       "categories": [
         "MediaAdvertising"
@@ -578,6 +1028,7 @@
       ],
       "brands": [],
       "score": 3.4,
+      "strategic_relevance_score": 68,
       "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
       "market_scope": "Russia",
       "metrics": [
@@ -588,17 +1039,21 @@
         }
       ],
       "image_url": "",
-      "source_quality": 4.5
+      "source_quality": 4.5,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": []
     },
     {
       "id": "89971d857e9f83822c",
       "title": "Как меняется рынок кофе и вкусы покупателей 17 апреля 2026",
       "url": "https://romir.ru/feed/kak-meniaetsia-rynok-kofe-i-vkusy-pokupatelei",
       "source": "РОМИР — аналитика",
-      "published_at": "2026-09-23T12:18:40.859194+00:00",
+      "published_at": "2026-09-23T12:24:16.766096+00:00",
       "summary": "",
       "categories": [
-        "Retail"
+        "Retail",
+        "Consumer"
       ],
       "primary_category": "Retail",
       "topics": [
@@ -607,22 +1062,26 @@
       ],
       "brands": [],
       "score": 3.4,
+      "strategic_relevance_score": 68,
       "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
       "market_scope": "Russia",
       "metrics": [],
       "image_url": "",
-      "source_quality": 4.8
+      "source_quality": 4.8,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": []
     },
     {
       "id": "980cd5fcb6ad6c0d08",
       "title": "Рынок HoReca в России приближается к пределу роста 16 апреля 2026",
       "url": "https://romir.ru/feed/rynok-horeca-v-rossii-priblizhaetsia-k-predelu-rosta",
       "source": "РОМИР — аналитика",
-      "published_at": "2026-09-23T12:18:40.854114+00:00",
+      "published_at": "2026-09-23T12:24:16.760143+00:00",
       "summary": "",
       "categories": [
         "Retail",
-        "TelecomTech"
+        "TechnologyAI"
       ],
       "primary_category": "Retail",
       "topics": [
@@ -631,22 +1090,27 @@
       ],
       "brands": [],
       "score": 3.4,
+      "strategic_relevance_score": 68,
       "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
       "market_scope": "Russia",
       "metrics": [],
       "image_url": "",
-      "source_quality": 4.8
+      "source_quality": 4.8,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": []
     },
     {
       "id": "26e322327671915841",
       "title": "День рождения автомобиля в России: как меняется рынок и поведение покупателей 18 апреля 2026",
       "url": "https://romir.ru/feed/den-rozhdeniia-avtomobilia-v-rossii-kak-meniaetsia-rynok-i-povedenie-pokupatelei",
       "source": "РОМИР — аналитика",
-      "published_at": "2026-09-23T12:18:40.854022+00:00",
+      "published_at": "2026-09-23T12:24:16.760029+00:00",
       "summary": "",
       "categories": [
         "Retail",
-        "Automotive"
+        "Automotive",
+        "Consumer"
       ],
       "primary_category": "Retail",
       "topics": [
@@ -655,22 +1119,26 @@
       ],
       "brands": [],
       "score": 3.4,
+      "strategic_relevance_score": 68,
       "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
       "market_scope": "Russia",
       "metrics": [],
       "image_url": "",
-      "source_quality": 4.8
+      "source_quality": 4.8,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": []
     },
     {
       "id": "7d93dc5c3a4ff1f9c8",
       "title": "В России растет спрос на уходовую косметику 27 октября 2025",
       "url": "https://romir.ru/feed/v-rossii-rastet-spros-na-ukhodovuiu-kosmetiku",
       "source": "РОМИР — аналитика",
-      "published_at": "2026-09-23T12:18:40.850613+00:00",
+      "published_at": "2026-09-23T12:24:16.755947+00:00",
       "summary": "",
       "categories": [
         "Retail",
-        "TelecomTech"
+        "TechnologyAI"
       ],
       "primary_category": "Retail",
       "topics": [
@@ -679,22 +1147,27 @@
       ],
       "brands": [],
       "score": 3.4,
+      "strategic_relevance_score": 68,
       "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
       "market_scope": "Russia",
       "metrics": [],
       "image_url": "",
-      "source_quality": 4.8
+      "source_quality": 4.8,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": []
     },
     {
       "id": "780ef6c65072f25ad4",
       "title": "Отказ от лишнего: как меняются потребительские стратегии 14 апреля 2026",
       "url": "https://romir.ru/feed/otkaz-ot-lishnego-kak-meniaiutsia-potrebitelskie-strategii",
       "source": "РОМИР — аналитика",
-      "published_at": "2026-09-23T12:18:40.848684+00:00",
+      "published_at": "2026-09-23T12:24:16.753658+00:00",
       "summary": "",
       "categories": [
         "Retail",
-        "TelecomTech"
+        "TechnologyAI",
+        "Consumer"
       ],
       "primary_category": "Retail",
       "topics": [
@@ -703,22 +1176,26 @@
       ],
       "brands": [],
       "score": 3.4,
+      "strategic_relevance_score": 68,
       "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
       "market_scope": "Russia",
       "metrics": [],
       "image_url": "",
-      "source_quality": 4.8
+      "source_quality": 4.8,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": []
     },
     {
       "id": "b1c074fe30cde52f5b",
       "title": "Рынок пиццы в России 23 апреля 2026",
       "url": "https://romir.ru/feed/rynok-pitstsy-v-rossii",
       "source": "РОМИР — аналитика",
-      "published_at": "2026-09-23T12:18:40.848340+00:00",
+      "published_at": "2026-09-23T12:24:16.753230+00:00",
       "summary": "",
       "categories": [
         "Retail",
-        "TelecomTech"
+        "TechnologyAI"
       ],
       "primary_category": "Retail",
       "topics": [
@@ -727,11 +1204,15 @@
       ],
       "brands": [],
       "score": 3.4,
+      "strategic_relevance_score": 68,
       "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
       "market_scope": "Russia",
       "metrics": [],
       "image_url": "",
-      "source_quality": 4.8
+      "source_quality": 4.8,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": []
     },
     {
       "id": "8c1ad5943ce4f4b049",
@@ -784,11 +1265,15 @@
       ],
       "brands": [],
       "score": 3.4,
+      "strategic_relevance_score": 68,
       "why_it_matters": "Международный сигнал, который может повлиять на маркетинг, потребление или бизнес-модели и быть релевантен российскому рынку.",
       "market_scope": "Global",
       "metrics": [],
       "image_url": "https://imgproxy.divecdn.com/vGNZSdNE0ljkPH94wE7sqqyjWwwAc6bCq1cphxWuxDY/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9jaGlsaXMtcXVlc28uanBn.webp",
-      "source_quality": 4.5
+      "source_quality": 4.5,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": []
     },
     {
       "id": "9feefcb3ba47c0ee6d",
@@ -800,7 +1285,7 @@
       "categories": [
         "BanksFintech",
         "FMCG",
-        "TelecomTech"
+        "TechnologyAI"
       ],
       "primary_category": "BanksFintech",
       "topics": [
@@ -811,6 +1296,7 @@
       ],
       "brands": [],
       "score": 3.4,
+      "strategic_relevance_score": 68,
       "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
       "market_scope": "Russia",
       "metrics": [
@@ -841,7 +1327,10 @@
         }
       ],
       "image_url": "",
-      "source_quality": 5.0
+      "source_quality": 5.0,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": []
     },
     {
       "id": "62fb81ad9c4e67e730",
@@ -860,11 +1349,15 @@
       ],
       "brands": [],
       "score": 3.4,
+      "strategic_relevance_score": 68,
       "why_it_matters": "Международный сигнал, который может повлиять на маркетинг, потребление или бизнес-модели и быть релевантен российскому рынку.",
       "market_scope": "Global",
       "metrics": [],
       "image_url": "https://imgproxy.divecdn.com/oiMtvT7dLol9nGrcysKPAcm_BgM3Ekf-GpZyBNn9G2g/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9jYW1wYXJpX3Byb2R1Y3RfMTQwMS5qcGc=.webp",
-      "source_quality": 4.5
+      "source_quality": 4.5,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": []
     },
     {
       "id": "1bffa8658bdbda3ff6",
@@ -874,10 +1367,11 @@
       "published_at": "2026-09-18T12:00:00+00:00",
       "summary": "Over half of consumers report that they prefer creator-informed artificial intelligence recommendations, according to recent IAB findings.",
       "categories": [
-        "TelecomTech",
+        "TechnologyAI",
+        "Consumer",
         "MediaAdvertising"
       ],
-      "primary_category": "TelecomTech",
+      "primary_category": "TechnologyAI",
       "topics": [
         "Потребитель",
         "Маркетинг и медиа",
@@ -886,11 +1380,15 @@
       ],
       "brands": [],
       "score": 3.4,
+      "strategic_relevance_score": 68,
       "why_it_matters": "Международный сигнал, который может повлиять на маркетинг, потребление или бизнес-модели и быть релевантен российскому рынку. Есть исследовательская или прогнозная база.",
       "market_scope": "Global",
       "metrics": [],
       "image_url": "https://imgproxy.divecdn.com/qa_Kd5o4B63ZO1CgSeDmPM9OV1ZRVS7Ln8of10DcDTc/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0xMzgzOTMxOTE3LmpwZw==.webp",
-      "source_quality": 4.5
+      "source_quality": 4.5,
+      "content_type": "research",
+      "future_signal": false,
+      "future_horizon": []
     },
     {
       "id": "81847daf069a356be6",
@@ -902,7 +1400,7 @@
       "categories": [
         "BanksFintech",
         "FMCG",
-        "TelecomTech"
+        "TechnologyAI"
       ],
       "primary_category": "BanksFintech",
       "topics": [
@@ -913,6 +1411,7 @@
       ],
       "brands": [],
       "score": 3.4,
+      "strategic_relevance_score": 68,
       "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
       "market_scope": "Russia",
       "metrics": [
@@ -943,7 +1442,10 @@
         }
       ],
       "image_url": "",
-      "source_quality": 5.0
+      "source_quality": 5.0,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": []
     },
     {
       "id": "7e6a7810fec1e5ed06",
@@ -955,7 +1457,7 @@
       "categories": [
         "BanksFintech",
         "FMCG",
-        "TelecomTech"
+        "TechnologyAI"
       ],
       "primary_category": "BanksFintech",
       "topics": [
@@ -966,6 +1468,7 @@
       ],
       "brands": [],
       "score": 3.4,
+      "strategic_relevance_score": 68,
       "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
       "market_scope": "Russia",
       "metrics": [
@@ -996,7 +1499,10 @@
         }
       ],
       "image_url": "",
-      "source_quality": 5.0
+      "source_quality": 5.0,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": []
     },
     {
       "id": "6d6b17588b99a316d1",
@@ -1008,7 +1514,7 @@
       "categories": [
         "BanksFintech",
         "FMCG",
-        "TelecomTech"
+        "TechnologyAI"
       ],
       "primary_category": "BanksFintech",
       "topics": [
@@ -1019,6 +1525,7 @@
       ],
       "brands": [],
       "score": 3.4,
+      "strategic_relevance_score": 68,
       "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
       "market_scope": "Russia",
       "metrics": [
@@ -1049,18 +1556,152 @@
         }
       ],
       "image_url": "",
-      "source_quality": 5.0
+      "source_quality": 5.0,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": []
+    },
+    {
+      "id": "9f3458d477dd93d9cf",
+      "title": "Объем рынка маркетинговых коммуникаций за 2023 год",
+      "url": "https://akarussia.ru/volumes/obem-rynka-marketingovyh-kommunikacij-v-2023-godu/",
+      "source": "АКАР — рынок рекламы",
+      "published_at": "2026-09-23T12:24:19.950927+00:00",
+      "summary": "",
+      "categories": [
+        "MediaAdvertising"
+      ],
+      "primary_category": "MediaAdvertising",
+      "topics": [
+        "Маркетинг и медиа"
+      ],
+      "brands": [],
+      "score": 3.3,
+      "strategic_relevance_score": 66,
+      "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
+      "market_scope": "Russia",
+      "metrics": [],
+      "image_url": "",
+      "source_quality": 4.9,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": []
+    },
+    {
+      "id": "935fe3054be99eb506",
+      "title": "Итоги 2023 года на рекламном рынке Санкт-Петербурга",
+      "url": "https://akarussia.ru/volumes/itogi-2023-goda-na-reklamnom-rynke-sankt-peterburga/",
+      "source": "АКАР — рынок рекламы",
+      "published_at": "2026-09-23T12:24:19.950815+00:00",
+      "summary": "",
+      "categories": [
+        "MediaAdvertising"
+      ],
+      "primary_category": "MediaAdvertising",
+      "topics": [
+        "Маркетинг и медиа"
+      ],
+      "brands": [],
+      "score": 3.3,
+      "strategic_relevance_score": 66,
+      "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
+      "market_scope": "Russia",
+      "metrics": [],
+      "image_url": "",
+      "source_quality": 4.9,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": []
+    },
+    {
+      "id": "d04c7a1f363aed13da",
+      "title": "Итоги первого квартала 2024 года на рекламном рынке Санкт-Петербурга",
+      "url": "https://akarussia.ru/volumes/itogi-pervogo-kvartala-2024-goda-na-reklamnom-rynke-sankt-peterburga/",
+      "source": "АКАР — рынок рекламы",
+      "published_at": "2026-09-23T12:24:19.950457+00:00",
+      "summary": "",
+      "categories": [
+        "MediaAdvertising"
+      ],
+      "primary_category": "MediaAdvertising",
+      "topics": [
+        "Маркетинг и медиа"
+      ],
+      "brands": [],
+      "score": 3.3,
+      "strategic_relevance_score": 66,
+      "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
+      "market_scope": "Russia",
+      "metrics": [],
+      "image_url": "",
+      "source_quality": 4.9,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": []
+    },
+    {
+      "id": "b8b49a986731d1fd4d",
+      "title": "Объем рынка маркетинговых коммуникаций в 2024 году",
+      "url": "https://akarussia.ru/volumes/obem-rynka-marketingovyh-kommunikacij-v-2024-godu/",
+      "source": "АКАР — рынок рекламы",
+      "published_at": "2026-09-23T12:24:19.949813+00:00",
+      "summary": "",
+      "categories": [
+        "MediaAdvertising"
+      ],
+      "primary_category": "MediaAdvertising",
+      "topics": [
+        "Маркетинг и медиа"
+      ],
+      "brands": [],
+      "score": 3.3,
+      "strategic_relevance_score": 66,
+      "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
+      "market_scope": "Russia",
+      "metrics": [],
+      "image_url": "",
+      "source_quality": 4.9,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": []
+    },
+    {
+      "id": "bf1377c27e0a49943c",
+      "title": "ОБЪЕМ РЫНКА МАРКЕТИНГОВЫХ КОММУНИКАЦИЙ В 2025 ГОДУ",
+      "url": "https://akarussia.ru/volumes/obem-rynka-marketingovyh-kommunikacij-v-2025-godu/",
+      "source": "АКАР — рынок рекламы",
+      "published_at": "2026-09-23T12:24:19.949034+00:00",
+      "summary": "",
+      "categories": [
+        "MediaAdvertising"
+      ],
+      "primary_category": "MediaAdvertising",
+      "topics": [
+        "Маркетинг и медиа"
+      ],
+      "brands": [],
+      "score": 3.3,
+      "strategic_relevance_score": 66,
+      "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
+      "market_scope": "Russia",
+      "metrics": [],
+      "image_url": "",
+      "source_quality": 4.9,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": []
     },
     {
       "id": "20d88beb852511593c",
       "title": "Потребительский интерес к покупке новых автомобилей вырос на 30% 25 сентября 2025",
       "url": "https://romir.ru/feed/potrebitelskii-interes-k-pokupke-novykh-avtomobilei-vyros-na-30",
       "source": "РОМИР — аналитика",
-      "published_at": "2026-09-23T12:18:40.861666+00:00",
+      "published_at": "2026-09-23T12:24:16.768974+00:00",
       "summary": "",
       "categories": [
         "Retail",
-        "Automotive"
+        "Automotive",
+        "Consumer"
       ],
       "primary_category": "Retail",
       "topics": [
@@ -1068,6 +1709,7 @@
       ],
       "brands": [],
       "score": 3.3,
+      "strategic_relevance_score": 66,
       "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
       "market_scope": "Russia",
       "metrics": [
@@ -1078,14 +1720,17 @@
         }
       ],
       "image_url": "",
-      "source_quality": 4.8
+      "source_quality": 4.8,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": []
     },
     {
       "id": "7a38ec4e4dc9ae8ff3",
       "title": "Недельные расходы: +23 рубля 8017 рублей потратила в среднем на продукты питания и товары повседневного спроса среднестатистическая российская семья на неделе с 22 по 28 сентября 1 октября 2025",
       "url": "https://romir.ru/feed/nedelnye-raskhody-23-rublia",
       "source": "РОМИР — аналитика",
-      "published_at": "2026-09-23T12:18:40.861559+00:00",
+      "published_at": "2026-09-23T12:24:16.768838+00:00",
       "summary": "",
       "categories": [
         "Retail",
@@ -1097,21 +1742,26 @@
       ],
       "brands": [],
       "score": 3.3,
+      "strategic_relevance_score": 66,
       "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
       "market_scope": "Russia",
       "metrics": [],
       "image_url": "",
-      "source_quality": 4.8
+      "source_quality": 4.8,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": []
     },
     {
       "id": "618e75e4c8755d47ae",
       "title": "Каждый четвертый потребитель выбирает безалкогольное пиво 6 октября 2025",
       "url": "https://romir.ru/feed/kazhdyi-chetvertyi-potrebitel-vybiraet-bezalkogolnoe-pivo",
       "source": "РОМИР — аналитика",
-      "published_at": "2026-09-23T12:18:40.861466+00:00",
+      "published_at": "2026-09-23T12:24:16.768727+00:00",
       "summary": "",
       "categories": [
-        "Retail"
+        "Retail",
+        "Consumer"
       ],
       "primary_category": "Retail",
       "topics": [
@@ -1119,18 +1769,22 @@
       ],
       "brands": [],
       "score": 3.3,
+      "strategic_relevance_score": 66,
       "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
       "market_scope": "Russia",
       "metrics": [],
       "image_url": "",
-      "source_quality": 4.8
+      "source_quality": 4.8,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": []
     },
     {
       "id": "aad58a394952a1e666",
       "title": "Недельные расходы: +3 рубля 8020 рублей потратила в среднем на продукты питания и товары повседневного спроса среднестатистическая российская семья на неделе с 29 сентября по 5 октября 8 октября 2025",
       "url": "https://romir.ru/feed/nedelnye-raskhody-3-rublia",
       "source": "РОМИР — аналитика",
-      "published_at": "2026-09-23T12:18:40.861357+00:00",
+      "published_at": "2026-09-23T12:24:16.768593+00:00",
       "summary": "",
       "categories": [
         "Retail",
@@ -1142,22 +1796,27 @@
       ],
       "brands": [],
       "score": 3.3,
+      "strategic_relevance_score": 66,
       "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
       "market_scope": "Russia",
       "metrics": [],
       "image_url": "",
-      "source_quality": 4.8
+      "source_quality": 4.8,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": []
     },
     {
       "id": "d0a798ac0a3905a3e3",
       "title": "Ежемесячные траты российских домохозяйств 42 376 р. потратила на продукты питания и товары повседневного спроса среднестатистическая российская семья в ноябре 2025 года 25 декабря 2025",
       "url": "https://romir.ru/feed/ezhemesiachnye-traty-rossiiskikh-domokhoziaistv",
       "source": "РОМИР — аналитика",
-      "published_at": "2026-09-23T12:18:40.860506+00:00",
+      "published_at": "2026-09-23T12:24:16.767596+00:00",
       "summary": "",
       "categories": [
         "Retail",
-        "FMCG"
+        "FMCG",
+        "Consumer"
       ],
       "primary_category": "Retail",
       "topics": [
@@ -1165,18 +1824,22 @@
       ],
       "brands": [],
       "score": 3.3,
+      "strategic_relevance_score": 66,
       "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
       "market_scope": "Russia",
       "metrics": [],
       "image_url": "",
-      "source_quality": 4.8
+      "source_quality": 4.8,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": []
     },
     {
       "id": "63c58d5a7c0dad5ea3",
       "title": "Доход определяет бренд: как распределяется спрос на автомобили 27 марта 2026",
       "url": "https://romir.ru/feed/dokhod-opredeliaet-brend-kak-raspredeliaetsia-spros-na-avtomobili",
       "source": "РОМИР — аналитика",
-      "published_at": "2026-09-23T12:18:40.859485+00:00",
+      "published_at": "2026-09-23T12:24:16.766453+00:00",
       "summary": "",
       "categories": [
         "Retail",
@@ -1188,21 +1851,26 @@
       ],
       "brands": [],
       "score": 3.3,
+      "strategic_relevance_score": 66,
       "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
       "market_scope": "Russia",
       "metrics": [],
       "image_url": "",
-      "source_quality": 4.8
+      "source_quality": 4.8,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": []
     },
     {
       "id": "0ea91cc0565e9c8941",
       "title": "Как РОМИР измеряет поведение человека: ценности и потребительский выбор 8 мая 2026",
       "url": "https://romir.ru/feed/kak-romir-izmeriaet-povedenie-cheloveka-tsennosti-i-potrebitelskii-vybor",
       "source": "РОМИР — аналитика",
-      "published_at": "2026-09-23T12:18:40.858604+00:00",
+      "published_at": "2026-09-23T12:24:16.765409+00:00",
       "summary": "",
       "categories": [
-        "Retail"
+        "Retail",
+        "Consumer"
       ],
       "primary_category": "Retail",
       "topics": [
@@ -1210,18 +1878,22 @@
       ],
       "brands": [],
       "score": 3.3,
+      "strategic_relevance_score": 66,
       "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
       "market_scope": "Russia",
       "metrics": [],
       "image_url": "",
-      "source_quality": 4.8
+      "source_quality": 4.8,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": []
     },
     {
       "id": "4e306e662b88c2caf1",
       "title": "Недельные расходы: -365 рублей 7994 рубля потратила в среднем на продукты питания и товары повседневного спроса среднестатистическая российская семья на неделе с 15 по 21 сентября 24 сентября 2025",
       "url": "https://romir.ru/feed/nedelnye-raskhody-365-rublei",
       "source": "РОМИР — аналитика",
-      "published_at": "2026-09-23T12:18:40.856375+00:00",
+      "published_at": "2026-09-23T12:24:16.762796+00:00",
       "summary": "",
       "categories": [
         "Retail",
@@ -1233,21 +1905,26 @@
       ],
       "brands": [],
       "score": 3.3,
+      "strategic_relevance_score": 66,
       "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
       "market_scope": "Russia",
       "metrics": [],
       "image_url": "",
-      "source_quality": 4.8
+      "source_quality": 4.8,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": []
     },
     {
       "id": "8307e384904e15a4fc",
       "title": "В Потребительской Панели РОМИР появилась аналитика миссий покупки 16 октября 2025",
       "url": "https://romir.ru/feed/v-potrebitelskoi-paneli-romir-poiavilas-analitika-missii-pokupki",
       "source": "РОМИР — аналитика",
-      "published_at": "2026-09-23T12:18:40.856023+00:00",
+      "published_at": "2026-09-23T12:24:16.762396+00:00",
       "summary": "",
       "categories": [
-        "Retail"
+        "Retail",
+        "Consumer"
       ],
       "primary_category": "Retail",
       "topics": [
@@ -1255,21 +1932,26 @@
       ],
       "brands": [],
       "score": 3.3,
+      "strategic_relevance_score": 66,
       "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
       "market_scope": "Russia",
       "metrics": [],
       "image_url": "",
-      "source_quality": 4.8
+      "source_quality": 4.8,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": []
     },
     {
       "id": "25142ab1dc8699dec0",
       "title": "Средний чек в 2025 году Согласно данным Потребительской панели РОМИР, средний чек российского жителя в 2025 году составил 965 руб. 26 января 2026",
       "url": "https://romir.ru/feed/srednii-chek-v-2025-godu",
       "source": "РОМИР — аналитика",
-      "published_at": "2026-09-23T12:18:40.854996+00:00",
+      "published_at": "2026-09-23T12:24:16.761166+00:00",
       "summary": "",
       "categories": [
-        "Retail"
+        "Retail",
+        "Consumer"
       ],
       "primary_category": "Retail",
       "topics": [
@@ -1277,21 +1959,26 @@
       ],
       "brands": [],
       "score": 3.3,
+      "strategic_relevance_score": 66,
       "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
       "market_scope": "Russia",
       "metrics": [],
       "image_url": "",
-      "source_quality": 4.8
+      "source_quality": 4.8,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": []
     },
     {
       "id": "7a9b9bb9517c6b9028",
       "title": "Потребительское поведение россиян становится более рациональным 21 мая 2026",
       "url": "https://romir.ru/feed/potrebitelskoe-povedenie-rossiian-stanovitsia-bolee-ratsionalnym",
       "source": "РОМИР — аналитика",
-      "published_at": "2026-09-23T12:18:40.853022+00:00",
+      "published_at": "2026-09-23T12:24:16.758869+00:00",
       "summary": "",
       "categories": [
-        "Retail"
+        "Retail",
+        "Consumer"
       ],
       "primary_category": "Retail",
       "topics": [
@@ -1299,18 +1986,22 @@
       ],
       "brands": [],
       "score": 3.3,
+      "strategic_relevance_score": 66,
       "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
       "market_scope": "Russia",
       "metrics": [],
       "image_url": "",
-      "source_quality": 4.8
+      "source_quality": 4.8,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": []
     },
     {
       "id": "6f23e2a52c66deac4b",
       "title": "Топ-10 сетевых игроков по продаже горячего кофе во втором квартале 2025 года 24 сентября 2025",
       "url": "https://romir.ru/feed/top-10-setevykh-igrokov-po-prodazhe-goriachego-kofe-vo-vtorom-kvartale-2025-goda",
       "source": "РОМИР — аналитика",
-      "published_at": "2026-09-23T12:18:40.851064+00:00",
+      "published_at": "2026-09-23T12:24:16.756526+00:00",
       "summary": "",
       "categories": [
         "Retail"
@@ -1321,21 +2012,26 @@
       ],
       "brands": [],
       "score": 3.3,
+      "strategic_relevance_score": 66,
       "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
       "market_scope": "Russia",
       "metrics": [],
       "image_url": "",
-      "source_quality": 4.8
+      "source_quality": 4.8,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": []
     },
     {
       "id": "d7891cf8297f0516cd",
       "title": "Индекс потребительской уверенности. Итоги 2025 года Индекс покупательской уверенности остается в «зеленой зоне», но демонстрирует снижение 26 января 2026",
       "url": "https://romir.ru/feed/iii-indeks-potrebitelskoi-uverennosti-itogi-2025-goda",
       "source": "РОМИР — аналитика",
-      "published_at": "2026-09-23T12:18:40.849595+00:00",
+      "published_at": "2026-09-23T12:24:16.754758+00:00",
       "summary": "",
       "categories": [
-        "Retail"
+        "Retail",
+        "Consumer"
       ],
       "primary_category": "Retail",
       "topics": [
@@ -1343,18 +2039,22 @@
       ],
       "brands": [],
       "score": 3.3,
+      "strategic_relevance_score": 66,
       "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
       "market_scope": "Russia",
       "metrics": [],
       "image_url": "",
-      "source_quality": 4.8
+      "source_quality": 4.8,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": []
     },
     {
       "id": "3b4ac85883524d60b8",
       "title": "Мясо против сладкого: как распределился спрос на блины 17 февраля 2026",
       "url": "https://romir.ru/feed/miaso-protiv-sladkogo-kak-raspredelilsia-spros-na-bliny",
       "source": "РОМИР — аналитика",
-      "published_at": "2026-09-23T12:18:40.849447+00:00",
+      "published_at": "2026-09-23T12:24:16.754578+00:00",
       "summary": "",
       "categories": [
         "Retail"
@@ -1365,18 +2065,22 @@
       ],
       "brands": [],
       "score": 3.3,
+      "strategic_relevance_score": 66,
       "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
       "market_scope": "Russia",
       "metrics": [],
       "image_url": "",
-      "source_quality": 4.8
+      "source_quality": 4.8,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": []
     },
     {
       "id": "e7ca4732749cdc0693",
       "title": "Где живет чек: кто на самом деле кормит рынок HoReCa 27 февраля 2026",
       "url": "https://romir.ru/feed/gde-zhivet-chek-kto-na-samom-dele-kormit-rynok-horeca",
       "source": "РОМИР — аналитика",
-      "published_at": "2026-09-23T12:18:40.849259+00:00",
+      "published_at": "2026-09-23T12:24:16.754356+00:00",
       "summary": "",
       "categories": [
         "Retail"
@@ -1387,21 +2091,26 @@
       ],
       "brands": [],
       "score": 3.3,
+      "strategic_relevance_score": 66,
       "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
       "market_scope": "Russia",
       "metrics": [],
       "image_url": "",
-      "source_quality": 4.8
+      "source_quality": 4.8,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": []
     },
     {
       "id": "8af97b3dd248f8770a",
       "title": "Потребительские настроения остаются сдержанными 20 марта 2026",
       "url": "https://romir.ru/feed/potrebitelskie-nastroeniia-ostaiutsia-sderzhannymi",
       "source": "РОМИР — аналитика",
-      "published_at": "2026-09-23T12:18:40.848984+00:00",
+      "published_at": "2026-09-23T12:24:16.754011+00:00",
       "summary": "",
       "categories": [
-        "Retail"
+        "Retail",
+        "Consumer"
       ],
       "primary_category": "Retail",
       "topics": [
@@ -1409,18 +2118,22 @@
       ],
       "brands": [],
       "score": 3.3,
+      "strategic_relevance_score": 66,
       "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
       "market_scope": "Russia",
       "metrics": [],
       "image_url": "",
-      "source_quality": 4.8
+      "source_quality": 4.8,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": []
     },
     {
       "id": "25a8210658d9f59857",
       "title": "Огурцы: повседневный спрос с растущей конкуренцией каналов 8 апреля 2026",
       "url": "https://romir.ru/feed/ogurtsy-povsednevnyi-spros-s-rastushchei-konkurentsiei-kanalov",
       "source": "РОМИР — аналитика",
-      "published_at": "2026-09-23T12:18:40.848776+00:00",
+      "published_at": "2026-09-23T12:24:16.753763+00:00",
       "summary": "",
       "categories": [
         "Retail"
@@ -1431,21 +2144,26 @@
       ],
       "brands": [],
       "score": 3.3,
+      "strategic_relevance_score": 66,
       "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
       "market_scope": "Russia",
       "metrics": [],
       "image_url": "",
-      "source_quality": 4.8
+      "source_quality": 4.8,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": []
     },
     {
       "id": "fb4adc9b1515793fd3",
       "title": "Потребительская уверенность в марте 15 апреля 2026",
       "url": "https://romir.ru/feed/potrebitelskaia-uverennost-v-marte",
       "source": "РОМИР — аналитика",
-      "published_at": "2026-09-23T12:18:40.848605+00:00",
+      "published_at": "2026-09-23T12:24:16.753556+00:00",
       "summary": "",
       "categories": [
-        "Retail"
+        "Retail",
+        "Consumer"
       ],
       "primary_category": "Retail",
       "topics": [
@@ -1453,21 +2171,26 @@
       ],
       "brands": [],
       "score": 3.3,
+      "strategic_relevance_score": 66,
       "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
       "market_scope": "Russia",
       "metrics": [],
       "image_url": "",
-      "source_quality": 4.8
+      "source_quality": 4.8,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": []
     },
     {
       "id": "317ba2ec98d2880577",
       "title": "Больше, чем просто топливо: как меняются ценности потребителей АЗС в 2026 году 5 мая 2026",
       "url": "https://romir.ru/feed/bolshe-chem-prosto-toplivo-kak-meniaiutsia-tsennosti-potrebitelei-azs-v-2026-godu",
       "source": "РОМИР — аналитика",
-      "published_at": "2026-09-23T12:18:40.847987+00:00",
+      "published_at": "2026-09-23T12:24:16.752815+00:00",
       "summary": "",
       "categories": [
-        "Retail"
+        "Retail",
+        "Consumer"
       ],
       "primary_category": "Retail",
       "topics": [
@@ -1475,18 +2198,22 @@
       ],
       "brands": [],
       "score": 3.3,
+      "strategic_relevance_score": 66,
       "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
       "market_scope": "Russia",
       "metrics": [],
       "image_url": "",
-      "source_quality": 4.8
+      "source_quality": 4.8,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": []
     },
     {
       "id": "f7245046d6eb06f726",
       "title": "Магазины у дома стали лидерами омниканального спроса 8 мая 2026",
       "url": "https://romir.ru/feed/magaziny-u-doma-stali-liderami-omnikanalnogo-sprosa",
       "source": "РОМИР — аналитика",
-      "published_at": "2026-09-23T12:18:40.847830+00:00",
+      "published_at": "2026-09-23T12:24:16.752622+00:00",
       "summary": "",
       "categories": [
         "Retail"
@@ -1497,21 +2224,26 @@
       ],
       "brands": [],
       "score": 3.3,
+      "strategic_relevance_score": 66,
       "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
       "market_scope": "Russia",
       "metrics": [],
       "image_url": "",
-      "source_quality": 4.8
+      "source_quality": 4.8,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": []
     },
     {
       "id": "7c51caf15544ddd0b9",
       "title": "Потребительская уверенность растет 24 июня 2026",
       "url": "https://romir.ru/feed/potrebitelskaia-uverennost-rastet",
       "source": "РОМИР — аналитика",
-      "published_at": "2026-09-23T12:18:40.846590+00:00",
+      "published_at": "2026-09-23T12:24:16.751111+00:00",
       "summary": "",
       "categories": [
-        "Retail"
+        "Retail",
+        "Consumer"
       ],
       "primary_category": "Retail",
       "topics": [
@@ -1519,11 +2251,15 @@
       ],
       "brands": [],
       "score": 3.3,
+      "strategic_relevance_score": 66,
       "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
       "market_scope": "Russia",
       "metrics": [],
       "image_url": "",
-      "source_quality": 4.8
+      "source_quality": 4.8,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": []
     },
     {
       "id": "81b4a5bf0e55ff2e0a",
@@ -1534,7 +2270,7 @@
       "summary": "Банк России 22 сентября 2026 года выпускает в обращение памятные монеты «Золотая антилопа» серии «Российская (советская) мультипликация»: – серебряную номиналом 3 рубля (каталожный № 5111-0539), – из стали с никелевым покрытием номиналом 25 рублей (каталожный № 5715-0005), – из медно-никелевого сплава с цветным покрытием номиналом 25 рублей (каталожный № 5015-0084). Мультфильм «Золотая антилопа» был снят в 1954 году ",
       "categories": [
         "BanksFintech",
-        "TelecomTech"
+        "TechnologyAI"
       ],
       "primary_category": "BanksFintech",
       "topics": [
@@ -1543,11 +2279,15 @@
       ],
       "brands": [],
       "score": 3.3,
+      "strategic_relevance_score": 66,
       "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
       "market_scope": "Russia",
       "metrics": [],
       "image_url": "/legacy/PhotoStore/img/5111-0539.png",
-      "source_quality": 5.0
+      "source_quality": 5.0,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": []
     },
     {
       "id": "6079dab9cf2a07703d",
@@ -1558,7 +2298,7 @@
       "summary": "Банк России 8 сентября 2026 года выпускает в обращение памятную серебряную монету номиналом 2 рубля «Скульптор С.Д. Эрьзя, к 150-летию со дня рождения» серии «Выдающиеся личности России» (каталожный № 5110-0200). Степан Эрьзя (Нефедов) – выдающийся российский скульптор. Он родился в 1876 году в крестьянской семье, которая происходит из этнической группы эрзя в составе мордовских народов. Своим псевдонимом мастер подч",
       "categories": [
         "BanksFintech",
-        "TelecomTech"
+        "TechnologyAI"
       ],
       "primary_category": "BanksFintech",
       "topics": [
@@ -1567,11 +2307,15 @@
       ],
       "brands": [],
       "score": 3.3,
+      "strategic_relevance_score": 66,
       "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
       "market_scope": "Russia",
       "metrics": [],
       "image_url": "/legacy/PhotoStore/img/5110-0200.png",
-      "source_quality": 5.0
+      "source_quality": 5.0,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": []
     },
     {
       "id": "db3b6ccc53fa0827a6",
@@ -1582,7 +2326,8 @@
       "summary": "Совет директоров Банка России 25 августа 2026 года принял решение включить в Ломбардный список следующие ценные бумаги: биржевые облигации с ипотечным покрытием Общества с ограниченной ответственностью «ДОМ.РФ Ипотечный агент», имеющие регистрационные номера выпусков 4B02-63-00307-R-001P, 4B02-64-00307-R-001P, 4B02-65-00307-R-001P, 4B02-66-00307-R-001P; биржевые облигации акционерного общества «Атомный энергопромышле",
       "categories": [
         "BanksFintech",
-        "TelecomTech"
+        "Telecom",
+        "TechnologyAI"
       ],
       "primary_category": "BanksFintech",
       "topics": [
@@ -1591,11 +2336,15 @@
       ],
       "brands": [],
       "score": 3.3,
+      "strategic_relevance_score": 66,
       "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
       "market_scope": "Russia",
       "metrics": [],
       "image_url": "",
-      "source_quality": 5.0
+      "source_quality": 5.0,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": []
     },
     {
       "id": "f2f756239e713cf807",
@@ -2211,7 +2960,7 @@
       "metrics": [],
       "strategic_relevance_score": 52,
       "future_signal": true,
-      "content_type": "forecast",
+      "content_type": "news",
       "source_quality": 4.0
     },
     {
@@ -2244,6 +2993,36 @@
       "future_signal": false,
       "content_type": "news",
       "source_quality": 4.0
+    },
+    {
+      "id": "3028def6a1d7b42227",
+      "title": "В России стартовали продажи пикапа JAC T9 в новой версии Урбан+",
+      "url": "https://www.autostat.ru/news/63145",
+      "source": "АВТОСТАТ — авторынок",
+      "published_at": "2026-09-23T12:22:58.902249+00:00",
+      "summary": "На российский рынок вышла новая версия пикапа JAC T9 под названием Урбан+. В стандартное оснащение модели в этой комплектации вошел расширенный пакет зимних опций, который включает в себя обогрев р...",
+      "categories": [
+        "Automotive"
+      ],
+      "primary_category": "Automotive",
+      "topics": [
+        "Рынок и продажи",
+        "Форматы и экспансия"
+      ],
+      "brands": [],
+      "score": 2.5,
+      "strategic_relevance_score": 50,
+      "relevance_reasons": [
+        "рынок / бизнес"
+      ],
+      "why_it_matters": "Важен для понимания продаж, цен, модельного ряда, дилерской сети и конкурентной динамики авторынка. Отобрано как: рынок / бизнес.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [],
+      "source_quality": 4.8
     },
     {
       "id": "7fbd3b1be1a5f87b82",
@@ -2479,9 +3258,11 @@
       "why_it_matters": "Может менять банковские офферы, финтех-сервисы, клиентское поведение и коммуникационную конкуренцию. Отобрано как: регулирование, есть данные.",
       "client_matches": {},
       "market_scope": "Russia",
-      "future_horizon": [],
-      "future_signal": false,
-      "content_type": "news",
+      "future_horizon": [
+        "future"
+      ],
+      "future_signal": true,
+      "content_type": "forecast",
       "metrics": [
         {
           "type": "Рыночная метрика",
@@ -2701,7 +3482,9 @@
       "why_it_matters": "Может менять банковские офферы, финтех-сервисы, клиентское поведение и коммуникационную конкуренцию. Отобрано как: есть данные.",
       "client_matches": {},
       "market_scope": "Russia",
-      "future_horizon": [],
+      "future_horizon": [
+        "future"
+      ],
       "metrics": [
         {
           "type": "Кредитование",
@@ -2715,8 +3498,8 @@
         }
       ],
       "strategic_relevance_score": 44,
-      "future_signal": false,
-      "content_type": "news",
+      "future_signal": true,
+      "content_type": "forecast",
       "source_quality": 4.0
     },
     {
@@ -2783,9 +3566,11 @@
       "why_it_matters": "Материал влияет на рыночный или конкурентный контекст. Отобрано как: регулирование, есть данные.",
       "client_matches": {},
       "market_scope": "Russia",
-      "future_horizon": [],
-      "future_signal": false,
-      "content_type": "news",
+      "future_horizon": [
+        "future"
+      ],
+      "future_signal": true,
+      "content_type": "forecast",
       "metrics": [
         {
           "type": "Рыночная метрика",
@@ -2831,7 +3616,7 @@
       ],
       "strategic_relevance_score": 44,
       "future_signal": true,
-      "content_type": "forecast",
+      "content_type": "news",
       "source_quality": 4.0
     },
     {
@@ -2870,7 +3655,7 @@
       "title": "Москва стала первой по росту цен на вторичное жилье среди мегаполисов Эксклюзив",
       "url": "https://realty.rbc.ru/news/6a9f02469a7947655798c900",
       "source": "РБК Недвижимость — рынок недвижимости",
-      "published_at": "2026-09-23T12:17:56.776602+00:00",
+      "published_at": "2026-09-23T12:23:37.055403+00:00",
       "summary": "В августе 2026 года Москва заняла первое место среди городов-миллионников по росту цен на вторичное жилье. Эксперты связывают это с перетеканием спроса с первичного рынка на рынок готового жилья",
       "categories": [
         "RealEstate"
@@ -3159,6 +3944,36 @@
       "source_quality": 4.0
     },
     {
+      "id": "0d4604aea5f9152386",
+      "title": "Покупатель билетов на Канье Уэста предъявил иск на более чем ₽1 млн",
+      "url": "https://www.rbc.ru/rbcfreenews/6ab3c26076754a9d70b0c697",
+      "source": "РБК — бизнес и экономика",
+      "published_at": "2026-09-23T12:19:51+00:00",
+      "summary": "В Преображенский районный суд Москвы поступил иск покупателя билетов на концерт рэпера Канье Уэста в Санкт-Петербурге.",
+      "categories": [
+        "Consumer"
+      ],
+      "primary_category": "Consumer",
+      "topics": [
+        "Потребитель"
+      ],
+      "brands": [],
+      "score": 2.0,
+      "strategic_relevance_score": 40,
+      "relevance_reasons": [
+        "потребитель",
+        "есть данные"
+      ],
+      "why_it_matters": "Материал влияет на рыночный или конкурентный контекст. Отобрано как: потребитель, есть данные.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [],
+      "source_quality": 4.5
+    },
+    {
       "id": "71497913edc4f790cf",
       "title": "ESTEO представит три новинки в 2027 году",
       "url": "https://www.autostat.ru/news/63141",
@@ -3187,7 +4002,7 @@
       "metrics": [],
       "strategic_relevance_score": 40,
       "future_signal": true,
-      "content_type": "forecast",
+      "content_type": "news",
       "source_quality": 4.0
     },
     {
@@ -4102,7 +4917,9 @@
       "why_it_matters": "Задает макроконтекст для спроса, потребительских расходов и бизнес-планирования. Отобрано как: есть данные.",
       "client_matches": {},
       "market_scope": "Russia",
-      "future_horizon": [],
+      "future_horizon": [
+        "future"
+      ],
       "metrics": [
         {
           "type": "Цены",
@@ -4111,8 +4928,8 @@
         }
       ],
       "strategic_relevance_score": 36,
-      "future_signal": false,
-      "content_type": "news",
+      "future_signal": true,
+      "content_type": "forecast",
       "source_quality": 4.0
     },
     {
@@ -4231,11 +5048,13 @@
       "why_it_matters": "Помогает видеть изменения рекламного и медиарынка, бюджетов, каналов и рекламных технологий. Отобрано как: рынок / бизнес, маркетинг.",
       "client_matches": {},
       "market_scope": "Russia",
-      "future_horizon": [],
+      "future_horizon": [
+        "future"
+      ],
       "metrics": [],
       "strategic_relevance_score": 36,
-      "future_signal": false,
-      "content_type": "news",
+      "future_signal": true,
+      "content_type": "forecast",
       "source_quality": 4.0
     },
     {
@@ -4500,6 +5319,37 @@
       "source_quality": 4.0
     },
     {
+      "id": "7206f3db118f63e4eb",
+      "title": "Серийное производство туристических автобусов КАМАЗ намечено на 2027 год",
+      "url": "https://www.autostat.ru/news/63149",
+      "source": "АВТОСТАТ — авторынок",
+      "published_at": "2026-09-23T12:22:53.113437+00:00",
+      "summary": "Отечественный автопроизводитель КАМАЗ планирует начать серийный выпуск туристических автобусов в 2027 году. Об этом сообщает ТАСС со ссылкой на генерального директора предприятия Сергея Когогина. П...",
+      "categories": [
+        "Automotive"
+      ],
+      "primary_category": "Automotive",
+      "topics": [
+        "Бизнес-изменения"
+      ],
+      "brands": [],
+      "score": 1.6,
+      "strategic_relevance_score": 32,
+      "relevance_reasons": [
+        "будущий горизонт"
+      ],
+      "why_it_matters": "Важен для понимания продаж, цен, модельного ряда, дилерской сети и конкурентной динамики авторынка. Горизонт: 2027. Отобрано как: будущий горизонт.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [
+        "2027"
+      ],
+      "future_signal": true,
+      "content_type": "company_plan",
+      "metrics": [],
+      "source_quality": 4.8
+    },
+    {
       "id": "2a31b5c5be77f19419",
       "title": "Инновации в промышленности в контексте технологического суверенитета (экспресс-информация ИСИЭЗ НИУ ВШЭ)",
       "url": "https://www.cnews.ru/news/line/2026-09-23_innovatsii_v_promyshlennosti",
@@ -4588,7 +5438,7 @@
       "metrics": [],
       "strategic_relevance_score": 32,
       "future_signal": true,
-      "content_type": "forecast",
+      "content_type": "news",
       "source_quality": 4.0
     },
     {
@@ -5312,7 +6162,9 @@
       "why_it_matters": "Задает макроконтекст для спроса, потребительских расходов и бизнес-планирования. Отобрано как: есть данные.",
       "client_matches": {},
       "market_scope": "Russia",
-      "future_horizon": [],
+      "future_horizon": [
+        "future"
+      ],
       "metrics": [
         {
           "type": "Цены",
@@ -5326,8 +6178,8 @@
         }
       ],
       "strategic_relevance_score": 28,
-      "future_signal": false,
-      "content_type": "news",
+      "future_signal": true,
+      "content_type": "forecast",
       "source_quality": 4.0
     },
     {
@@ -5522,10 +6374,12 @@
       "why_it_matters": "Задает макроконтекст для спроса, потребительских расходов и бизнес-планирования.",
       "client_matches": {},
       "market_scope": "Russia",
-      "future_horizon": [],
+      "future_horizon": [
+        "future"
+      ],
       "metrics": [],
       "strategic_relevance_score": 28,
-      "future_signal": false,
+      "future_signal": true,
       "content_type": "research",
       "source_quality": 4.0
     },
