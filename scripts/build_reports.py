@@ -138,6 +138,8 @@ def archive_pdf(report: dict) -> tuple[bool, str]:
 
 def main() -> None:
     curated = json.loads(CONFIG.read_text(encoding="utf-8")).get("reports", [])
+    for report in curated:
+        report["curated"] = True
     try:
         news = json.loads(NEWS.read_text(encoding="utf-8"))
     except Exception:
@@ -150,6 +152,8 @@ def main() -> None:
 
     for report in reports:
         status, http_status = check_url(report.get("url", ""))
+        if report.get("curated") and status != "ok":
+            status = "browser_only"
         report["status"] = status
         report["http_status"] = http_status
         report["checked_at"] = checked_at
@@ -157,7 +161,7 @@ def main() -> None:
         if report.get("archive") and not ok and err:
             archive_errors.append({"id": report.get("id"), "error": err})
 
-    reports = [r for r in reports if r.get("status") == "ok" or r.get("access") == "paid"]
+    reports = [r for r in reports if r.get("status") in {"ok", "browser_only"} or r.get("access") == "paid"]
     reports.sort(key=lambda r: (r.get("category", ""), r.get("date", "")), reverse=True)
     payload = {
         "updated_at": checked_at,
