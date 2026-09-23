@@ -11,7 +11,8 @@ import feedparser
 from bs4 import BeautifulSoup
 
 ROOT=Path(__file__).resolve().parents[1]
-DATA=ROOT/"data"/"news.json"\nBACKFILL=ROOT/"config"/"backfill.json"
+DATA=ROOT/"data"/"news.json"
+BACKFILL=ROOT/"config"/"backfill.json"
 UA="StrategyRadar/1.0 (+market intelligence dashboard)"
 
 SOURCES=[
@@ -175,7 +176,10 @@ def html_items(src):
         if "adindex.ru" in dom and "/news/" not in path:continue
         if "rosstat.gov.ru" in dom and any(x in path for x in ["/folder/","/central-news","/statistics"]):continue
         seen.add(url)
-        item=make(src,title,url,"",date_from_title(title) or datetime.now(timezone.utc).isoformat(),"")
+        parent_text=clean(a.parent.get_text(" ",strip=True)) if a.parent else ""
+        published=date_from_title(title) or date_from_title(parent_text)
+        if not published:continue
+        item=make(src,title,url,"",published,"")
         if item:out.append(item)
         if len(out)>=30:break
     return out
@@ -198,7 +202,8 @@ def main():
             try:d=datetime.fromisoformat(x.get("published_at","").replace("Z","+00:00"))
             except Exception:continue
             if d.tzinfo is None:d=d.replace(tzinfo=timezone.utc)
-            if d>=cutoff:
+            if d>=cutoff and (x.get("url") or "").startswith("http") and int(x.get("strategic_relevance_score",0) or 0)>=80:
+                x["curated_backfill"]=True
                 by.setdefault(x["id"],x)
     stats=list(payload.get("source_stats",[]));errors=list(payload.get("errors",[]))
     for src in SOURCES:
