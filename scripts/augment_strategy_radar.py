@@ -23,7 +23,13 @@ SOURCES=[
  {"name":"Modern Retail","kind":"rss","url":"https://www.modernretail.co/feed/","country":"US","hint":"Retail","quality":4.3},
  {"name":"РОМИР — аналитика","kind":"html","url":"https://romir.ru/feed/analytics","country":"RU","hint":"Retail","quality":4.8},
  {"name":"Росстат — новости статистики","kind":"html","url":"https://rosstat.gov.ru/central-news","country":"RU","hint":"FinanceEconomy","quality":5.0},
- {"name":"AdIndex — реклама и медиа","kind":"html","url":"https://adindex.ru/news/","country":"RU","hint":"MediaAdvertising","quality":4.5},
+ {"name":"AdIndex — реклама и медиа","kind":"html","url":"https://adindex.ru/news/","country":"RU","hint":"MediaAdvertising","quality":4.5,"path_contains":["/news/"]},
+ {"name":"АКАР — рынок рекламы","kind":"html","url":"https://akarussia.ru/volumes/","country":"RU","hint":"MediaAdvertising","quality":4.9,"path_contains":["/news/","/volumes/"]},
+ {"name":"Data Insight — исследования","kind":"html","url":"https://datainsight.ru/DI_publications","country":"RU","hint":"Retail","quality":4.8,"path_contains":["/DI_","/trend","/agentic","/ecosystem","/egrocery","/top-100","/onlineimport","/whoiswho"]},
+ {"name":"New Retail — отраслевые новости","kind":"html","url":"https://new-retail.ru/novosti/","country":"RU","hint":"Retail","quality":4.2,"path_contains":["/novosti/"]},
+ {"name":"Минэкономразвития — новости","kind":"html","url":"https://economy.gov.ru/material/news/","country":"RU","hint":"FinanceEconomy","quality":5.0,"path_contains":["/material/news/"]},
+ {"name":"ФАС России — новости","kind":"html","url":"https://fas.gov.ru/news","country":"RU","hint":"FinanceEconomy","quality":5.0,"path_contains":["/news/"]},
+ {"name":"Mediascope — исследования","kind":"html","url":"https://mediascope.net/news/","country":"RU","hint":"MediaAdvertising","quality":4.8,"path_contains":["/news/"]},
 ]
 
 KEY={
@@ -34,7 +40,9 @@ KEY={
  "FMCG":["fmcg","напит","продукт","consumer goods","beverage","food brand"],
  "Automotive":["авторынок","автомобил","car sales","automotive","automaker","dealer"],
  "RealEstate":["недвижим","жиль","девелоп","real estate","housing","property","developer"],
- "TelecomTech":["телеком","технолог","ии ","нейросет","technology","tech","artificial intelligence","generative ai","software","platform"],
+ "Telecom":["телеком","оператор связи","мобильн связь","сотов","5g","4g","мтс","мегафон","билайн","t2","telecom","mobile operator"],
+ "TechnologyAI":["искусственн интеллект","нейросет","ии ","generative ai","artificial intelligence","machine learning","ai ","martech","adtech","technology","software","platform"],
+ "Consumer":["потребител","покупател","домохозяйств","потребительск спрос","потребительск настро","consumer","shopper","spending","consumer confidence"],
  "MediaAdvertising":["реклам","маркетинг","retail media","advertising","marketing","ad spend","creator","influencer","media"]
 }
 TOPICS={
@@ -118,6 +126,17 @@ def image_from_entry(e,raw=""):
     m=re.search(r'<img[^>]+src=["\']([^"\']+)',raw or "",re.I)
     return m.group(1) if m else ""
 
+FUTURE_WORDS=["прогноз","ожида","планирует","намерен","будет ","к 2027","к 2028","к 2029","к 2030","forecast","outlook","plans to","will ","expected to","by 2027","by 2028","by 2029","by 2030"]
+
+def content_type(text,tops):
+    low=text.lower(); future=any(x in low for x in FUTURE_WORDS)
+    if any(x in low for x in ["исследование","исследовани","отчет","отчёт","доклад","survey","research","report","study"]) or "Исследования и прогнозы" in tops:
+        return "research",future
+    if future and any(x in low for x in ["планирует","намерен","запустит","откроет","расширит","инвестирует","plans to","will launch","will open","will invest"]):
+        return "company_plan",True
+    if future:return "forecast",True
+    return "news",False
+
 def make(src,title,url,summary,published,image=""):
     text=f"{title}. {summary}"; low=text.lower()
     if any(n in low for n in NOISE):return None
@@ -130,7 +149,8 @@ def make(src,title,url,summary,published,image=""):
     uid=hashlib.sha1((url+"|"+title.lower()).encode()).hexdigest()[:18]
     why="Международный сигнал, который может повлиять на маркетинг, потребление или бизнес-модели и быть релевантен российскому рынку." if scope=="Global" else "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы."
     if "Исследования и прогнозы" in tops:why+=" Есть исследовательская или прогнозная база."
-    return {"id":uid,"title":clean(title),"url":url,"source":src["name"],"published_at":published,"summary":clean(summary)[:420],"categories":cats,"primary_category":cats[0],"topics":tops,"brands":[],"score":round(score,1),"why_it_matters":why,"market_scope":scope,"metrics":extract_metrics(text),"image_url":image,"source_quality":src["quality"]}
+    ctype,future_signal=content_type(text,tops)
+    return {"id":uid,"title":clean(title),"url":url,"source":src["name"],"published_at":published,"summary":clean(summary)[:420],"categories":cats,"primary_category":cats[0],"topics":tops,"brands":[],"score":round(score,1),"strategic_relevance_score":int(round(score*20)),"why_it_matters":why,"market_scope":scope,"metrics":extract_metrics(text),"image_url":image,"source_quality":src["quality"],"content_type":ctype,"future_signal":future_signal,"future_horizon":["future"] if future_signal else []}
 
 def rss(src):
     raw=urlopen(Request(src["url"],headers={"User-Agent":UA}),timeout=25).read()
@@ -149,6 +169,8 @@ def html_items(src):
         title=clean(a.get_text(" ",strip=True));url=urljoin(src["url"],a["href"]);p=urlsplit(url)
         if p.netloc.lower()!=dom or url in seen or len(title)<30 or len(title)>200:continue
         path=p.path.lower()
+        required=src.get("path_contains") or []
+        if required and not any(token.lower() in path for token in required):continue
         if "romir.ru" in dom and "/feed/" not in path:continue
         if "adindex.ru" in dom and "/news/" not in path:continue
         if "rosstat.gov.ru" in dom and any(x in path for x in ["/folder/","/central-news","/statistics"]):continue
@@ -176,6 +198,16 @@ def main():
         except Exception as e:
             errors.append({"source":src["name"],"error":str(e)[:220]})
     items=list(by.values())
+    for x in items:
+        txt=f"{x.get('title','')}. {x.get('summary','')}"
+        tops=x.get("topics") or []
+        ctype,future_signal=content_type(txt,tops)
+        x["content_type"]=ctype
+        x["future_signal"]=future_signal or bool(x.get("future_horizon"))
+        if x["future_signal"] and not x.get("future_horizon"):x["future_horizon"]=["future"]
+        sc=float(x.get("score",0) or 0)
+        x["strategic_relevance_score"]=int(round(sc*20))
+        if "source_quality" not in x:x["source_quality"]=4.2
     items.sort(key=lambda x:(float(x.get("score",0)),x.get("published_at","")),reverse=True)
     payload["items"]=items[:2200]
     payload["item_count"]=len(payload["items"])
