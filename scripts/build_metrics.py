@@ -66,7 +66,10 @@ def latest_auto():
             if mm:
                 ch=""
                 if yoy:ch=("−" if yoy.group(2).lower()=="меньше" else "+")+yoy.group(1).replace(",",".")+"% г/г"
-                return metric("auto-sales","Продажи новых автомобилей",mm.group(1).replace(",",".")+" тыс.",title.replace("Продажи новых легковых автомобилей в России в ","").replace(" года",""),"АВТОСТАТ",url,change=ch,note="новые легковые автомобили")
+                month_match=re.search(r"в\\s+(январе|феврале|марте|апреле|мае|июне|июле|августе|сентябре|октябре|ноябре|декабре)\\s+(20\\d{2})",txt,re.I)
+                month_names={"январе":"январь","феврале":"февраль","марте":"март","апреле":"апрель","мае":"май","июне":"июнь","июле":"июль","августе":"август","сентябре":"сентябрь","октябре":"октябрь","ноябре":"ноябрь","декабре":"декабрь"}
+                period=(month_names.get(month_match.group(1).lower(),month_match.group(1))+" "+month_match.group(2)) if month_match else f"{m:02d}.{year}"
+                return metric("auto-sales","Продажи новых автомобилей",mm.group(1).replace(",",".")+" тыс.",period,"АВТОСТАТ",url,change=ch,note="новые легковые автомобили")
     return None
 
 def latest_mortgage():
