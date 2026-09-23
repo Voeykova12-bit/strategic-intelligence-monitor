@@ -4,13 +4,13 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Strategy Radar</title>
-<meta name="description" content="Strategy Radar — новости, тренды, рынки и исследования для стратегической работы.">
+<meta name="description" content="Strategy Radar — рабочая панель стратега: важные новости, тренды, рынки и исследования.">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <div class="app">
   <aside class="side">
-    <div class="brand"><span class="brandmark"><i></i><i></i><i></i><i></i></span><b>Strategy Radar</b></div>
+    <div class="brand"><span class="brandmark"></span><b>Strategy Radar</b></div>
     <nav id="nav">
       <button class="active" data-view="home"><span>⌂</span>Главная</button>
       <button data-view="news"><span>▤</span>Новости</button>
@@ -22,22 +22,57 @@
     <div class="quote">Лучшие стратегические решения начинаются с более широкого взгляда на рынок.<small>Strategy Radar</small></div>
   </aside>
 
-  <div class="work">
+  <section class="workspace">
     <header class="top">
       <div class="search"><span>⌕</span><input id="search" placeholder="Поиск по новостям, рынкам и трендам…"></div>
-      <div class="actions">
-        <button class="date">▣ <span id="dateRange">Последние 30 дней</span>⌄</button>
-        <div class="langs"><button id="ru" class="active">RU</button><button id="en">EN</button></div>
+      <div class="topActions">
+        <button class="date">▣ <span>Последние 30 дней</span>⌄</button>
+        <div class="langs"><button class="active">RU</button><button>EN</button></div>
         <button class="bell">♧<i></i></button>
-        <div class="profile"><span class="avatar">SR</span><div><b>Strategy Radar</b><small>Стратегический отдел</small></div>⌄</div>
+        <div class="avatar">SR</div>
+        <div class="profile"><b>Strategy Radar</b><small>Стратегический отдел</small></div>
       </div>
     </header>
 
     <main>
-      <div class="pagehead"><div><h1 id="title">Панель мониторинга рынков</h1><p id="subtitle">Актуальные новости, тренды и исследования для стратегических решений</p></div><small id="fresh">Обновление данных…</small></div>
-      <div id="content"></div>
+      <div class="pagehead">
+        <div><h1 id="pageTitle">Панель мониторинга рынков</h1><p id="pageSubtitle">Актуальные новости, тренды и исследования для стратегических решений</p></div>
+        <small id="fresh">Обновление данных…</small>
+      </div>
+
+      <section class="view active" id="view-home">
+        <section class="panel metricsPanel">
+          <div class="panelHead"><h2>Ключевые цифры</h2></div>
+          <div class="metricGrid" id="metricGrid"></div>
+        </section>
+
+        <section class="panel">
+          <div class="panelHead"><h2>Главное на сегодня</h2><button data-go="news">Все новости →</button></div>
+          <div class="newsGrid" id="topNews"></div>
+        </section>
+
+        <section class="panel">
+          <div class="panelHead"><h2>Новые тренды</h2><button data-go="trends">Все тренды →</button></div>
+          <div class="trendCols">
+            <div class="trendBox"><div class="trendHead ru">🇷🇺 Россия</div><div id="ruTrends"></div></div>
+            <div class="trendBox"><div class="trendHead world">🌐 Мир</div><div id="globalTrends"></div></div>
+          </div>
+        </section>
+
+        <section class="panel">
+          <div class="panelHead"><h2>Превью вкладки Отчеты</h2><button data-go="reports">Перейти в раздел →</button></div>
+          <div class="reportTabs" id="previewTabs"></div>
+          <div class="reportRow" id="previewReports"></div>
+        </section>
+      </section>
+
+      <section class="view" id="view-news"><div class="subPanel"><div class="filters"><select id="newsCategory"><option value="">Все рынки</option></select><select id="newsPeriod"><option value="7">7 дней</option><option value="30" selected>30 дней</option><option value="90">3 месяца</option></select></div><div id="newsList" class="articleList"></div></div></section>
+      <section class="view" id="view-trends"><section class="panel"><div class="panelHead"><h2>Тренды, подтвержденные источниками</h2></div><div class="trendCols"><div class="trendBox"><div class="trendHead ru">🇷🇺 Россия</div><div id="ruTrendsFull"></div></div><div class="trendBox"><div class="trendHead world">🌐 Мир</div><div id="globalTrendsFull"></div></div></div></section></section>
+      <section class="view" id="view-markets"><div class="marketGrid" id="marketGrid"></div></section>
+      <section class="view" id="view-reports"><section class="panel reportsPanel"><div class="panelHead"><h2>Исследования и отчеты</h2></div><div class="reportTabs left" id="reportTabs"></div><div class="reportLibrary" id="reportLibrary"></div></section></section>
+      <section class="view" id="view-favorites"><div class="subPanel"><div id="favoritesList" class="articleList"></div></div></section>
     </main>
-  </div>
+  </section>
 </div>
 <script src="app.js"></script>
 </body>
