@@ -1,1 +1,44 @@
-<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Strategic Intelligence Monitor</title><link rel="stylesheet" href="styles.css"></head><body><div class="shell"><aside><div class="brand"><span class="pulse"></span><div><strong>STRATEGIC</strong><small>INTELLIGENCE MONITOR</small></div></div><nav id="nav"><button data-view="markets" class="active" id="navMarkets">Рынки и цифры</button><button data-view="news" id="navNews">Все новости</button><button data-view="clients" id="navClients">Клиенты</button></nav><div class="asideFoot"><span id="footLine1">Только стратегически релевантные материалы</span><br><span id="footLine2">Источники ориентированы на доступ без VPN в РФ</span><br><span id="updatedSide">—</span></div></aside><main><header><div><div class="eyebrow">AGENCY STRATEGY DESK</div><h1 id="pageTitle">Рынки и цифры</h1></div><div class="headerRight"><div class="langToggle"><button id="langRu" class="active">RU</button><button id="langEn">EN</button></div><div class="status"><span class="dot"></span><span>MONITORING ACTIVE</span></div></div></header><section class="toolbar"><input id="search"><select id="category"></select><select id="focus"></select><select id="period"></select></section><section id="context" class="context"></section><section id="content"></section></main></div><script src="app.js"></script></body></html>
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Strategy Radar</title>
+<meta name="description" content="Strategy Radar — новости, тренды, рынки и исследования для стратегической работы.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="app">
+  <aside class="side">
+    <div class="brand"><span class="brandmark"><i></i><i></i><i></i><i></i></span><b>Strategy Radar</b></div>
+    <nav id="nav">
+      <button class="active" data-view="home"><span>⌂</span>Главная</button>
+      <button data-view="news"><span>▤</span>Новости</button>
+      <button data-view="trends"><span>↗</span>Тренды</button>
+      <button data-view="markets"><span>▥</span>Рынки</button>
+      <button data-view="reports"><span>▧</span>Отчеты</button>
+      <button data-view="favorites"><span>☆</span>Избранное</button>
+    </nav>
+    <div class="quote">Лучшие стратегические решения начинаются с более широкого взгляда на рынок.<small>Strategy Radar</small></div>
+  </aside>
+
+  <div class="work">
+    <header class="top">
+      <div class="search"><span>⌕</span><input id="search" placeholder="Поиск по новостям, рынкам и трендам…"></div>
+      <div class="actions">
+        <button class="date">▣ <span id="dateRange">Последние 30 дней</span>⌄</button>
+        <div class="langs"><button id="ru" class="active">RU</button><button id="en">EN</button></div>
+        <button class="bell">♧<i></i></button>
+        <div class="profile"><span class="avatar">SR</span><div><b>Strategy Radar</b><small>Стратегический отдел</small></div>⌄</div>
+      </div>
+    </header>
+
+    <main>
+      <div class="pagehead"><div><h1 id="title">Панель мониторинга рынков</h1><p id="subtitle">Актуальные новости, тренды и исследования для стратегических решений</p></div><small id="fresh">Обновление данных…</small></div>
+      <div id="content"></div>
+    </main>
+  </div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
