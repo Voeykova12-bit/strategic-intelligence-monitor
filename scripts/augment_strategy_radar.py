@@ -11,7 +11,7 @@ import feedparser
 from bs4 import BeautifulSoup
 
 ROOT=Path(__file__).resolve().parents[1]
-DATA=ROOT/"data"/"news.json"
+DATA=ROOT/"data"/"news.json"\nBACKFILL=ROOT/"config"/"backfill.json"
 UA="StrategyRadar/1.0 (+market intelligence dashboard)"
 
 SOURCES=[
@@ -189,6 +189,17 @@ def main():
         except Exception:continue
         if d.tzinfo is None:d=d.replace(tzinfo=timezone.utc)
         if d>=cutoff:by[x["id"]]=x
+    if BACKFILL.exists():
+        try:
+            seeded=json.loads(BACKFILL.read_text(encoding="utf-8")).get("items",[])
+        except Exception:
+            seeded=[]
+        for x in seeded:
+            try:d=datetime.fromisoformat(x.get("published_at","").replace("Z","+00:00"))
+            except Exception:continue
+            if d.tzinfo is None:d=d.replace(tzinfo=timezone.utc)
+            if d>=cutoff:
+                by.setdefault(x["id"],x)
     stats=list(payload.get("source_stats",[]));errors=list(payload.get("errors",[]))
     for src in SOURCES:
         try:
