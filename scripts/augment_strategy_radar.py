@@ -65,6 +65,14 @@ def parse_dt(v):
     if d.tzinfo is None:d=d.replace(tzinfo=timezone.utc)
     return d.astimezone(timezone.utc).isoformat()
 
+MONTHS_RU={"января":1,"февраля":2,"марта":3,"апреля":4,"мая":5,"июня":6,"июля":7,"августа":8,"сентября":9,"октября":10,"ноября":11,"декабря":12}
+
+def date_from_title(title):
+    m=re.search(r"\\b(\\d{1,2})\\s+(января|февраля|марта|апреля|мая|июня|июля|августа|сентября|октября|ноября|декабря)\\s+(20\\d{2})\\b",title.lower())
+    if not m:return None
+    try:return datetime(int(m.group(3)),MONTHS_RU[m.group(2)],int(m.group(1)),12,0,tzinfo=timezone.utc).isoformat()
+    except Exception:return None
+
 def classify(text,hint):
     low=" "+text.lower()+" "
     cats=[c for c,ks in KEY.items() if any(k in low for k in ks)]
@@ -145,7 +153,7 @@ def html_items(src):
         if "adindex.ru" in dom and "/news/" not in path:continue
         if "rosstat.gov.ru" in dom and any(x in path for x in ["/folder/","/central-news","/statistics"]):continue
         seen.add(url)
-        item=make(src,title,url,"",datetime.now(timezone.utc).isoformat(),"")
+        item=make(src,title,url,"",date_from_title(title) or datetime.now(timezone.utc).isoformat(),"")
         if item:out.append(item)
         if len(out)>=30:break
     return out
