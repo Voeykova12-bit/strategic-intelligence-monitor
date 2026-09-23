@@ -35,11 +35,14 @@ jobs:
         run: python scripts/augment_strategy_radar.py
       - name: Build verified reports library
         run: python scripts/build_reports.py
+      - name: Build key market metrics
+        run: python scripts/build_metrics.py
       - name: Stage generated snapshot
         run: |
           mkdir -p /tmp/strategy-radar docs/data
           cp data/news.json /tmp/strategy-radar/news.json
           cp data/reports.json /tmp/strategy-radar/reports.json
+          cp data/metrics.json /tmp/strategy-radar/metrics.json
       - name: Save refreshed archive safely
         run: |
           git config user.name "strategy-radar-bot"
@@ -51,7 +54,9 @@ jobs:
           cp /tmp/strategy-radar/news.json docs/data/news.json
           cp /tmp/strategy-radar/reports.json data/reports.json
           cp /tmp/strategy-radar/reports.json docs/data/reports.json
-          git add data/news.json docs/data/news.json data/reports.json docs/data/reports.json
+          cp /tmp/strategy-radar/metrics.json data/metrics.json
+          cp /tmp/strategy-radar/metrics.json docs/data/metrics.json
+          git add data/news.json docs/data/news.json data/reports.json docs/data/reports.json data/metrics.json docs/data/metrics.json
           if ! git diff --cached --quiet; then
             git commit -m "data: refresh Strategy Radar"
             if ! git push origin HEAD:main; then
@@ -62,7 +67,9 @@ jobs:
               cp /tmp/strategy-radar/news.json docs/data/news.json
               cp /tmp/strategy-radar/reports.json data/reports.json
               cp /tmp/strategy-radar/reports.json docs/data/reports.json
-              git add data/news.json docs/data/news.json data/reports.json docs/data/reports.json
+              cp /tmp/strategy-radar/metrics.json data/metrics.json
+              cp /tmp/strategy-radar/metrics.json docs/data/metrics.json
+              git add data/news.json docs/data/news.json data/reports.json docs/data/reports.json data/metrics.json docs/data/metrics.json
               git commit -m "data: refresh Strategy Radar"
               git push origin HEAD:main
             fi
