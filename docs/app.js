@@ -27,30 +27,7 @@ reportsTitle:"Reports",reportsSub:"Specific research and industry reports for 20
 favTitle:"Saved",favSub:"Saved materials for later work"}
 };
 
-var FALLBACK_ITEMS=[
-{id:"fb-rate",title:"Банк России сохранил ключевую ставку на уровне 14,00% годовых",url:"https://cbr.ru/press/pr?file=11092026_133000key.htm",source:"Банк России",published_at:"2026-09-11T10:30:00+00:00",summary:"Регулятор сохранил ставку 14,00% и отметил усиление текущего ценового давления.",categories:["FinanceEconomy","BanksFintech"],primary_category:"FinanceEconomy",topics:["Регулирование","Цены и промо","Исследования и прогнозы"],score:5,strategic_relevance_score:100,source_quality:5,market_scope:"Russia",content_type:"forecast",future_signal:true,future_horizon:["2027"],metrics:[{type:"Ставка",value:"14.00%"}],why_it_matters:"Стоимость денег остается важным ограничением для потребительского спроса, кредитования и инвестиционной активности."},
-{id:"fb-auto",title:"Продажи новых легковых автомобилей в России в августе 2026 года",url:"https://www.autostat.ru/press-releases/63032/",source:"АВТОСТАТ",published_at:"2026-09-04T04:30:00+00:00",summary:"В августе реализовано 114,3 тыс. новых легковых автомобилей, на 6,5% меньше год к году.",categories:["Automotive"],primary_category:"Automotive",topics:["Рынок и продажи"],score:4.9,strategic_relevance_score:98,source_quality:4.8,market_scope:"Russia",content_type:"news",future_signal:false,metrics:[{type:"Продажи",value:"114.3 тыс."}],why_it_matters:"Показывает актуальный масштаб и динамику российского авторынка."},
-{id:"fb-banks",title:"О развитии банковского сектора Российской Федерации в августе 2026 года",url:"https://www.cbr.ru/Collection/Collection/File/62385/razv_bs_26_08.pdf",source:"Банк России",published_at:"2026-09-22T14:00:00+00:00",summary:"Ипотечные выдачи выросли до 381 млрд ₽; чистая прибыль банковского сектора составила 440 млрд ₽.",categories:["BanksFintech","FinanceEconomy","RealEstate"],primary_category:"BanksFintech",topics:["Рынок и продажи","Исследования и прогнозы"],score:5,strategic_relevance_score:100,source_quality:5,market_scope:"Russia",content_type:"research",future_signal:false,metrics:[{type:"Кредитование",value:"381 млрд ₽"}],why_it_matters:"Свежий официальный срез кредитования и финансового состояния банков."},
-{id:"fb-egrocery",title:"eGrocery бюллетень — август 2026",url:"https://datainsight.ru/eGrocery_aug_2026",source:"Data Insight",published_at:"2026-09-09T09:00:00+00:00",summary:"Свежий бюллетень по российскому рынку онлайн-продаж продуктов.",categories:["DeliveryEcom","Retail","FMCG"],primary_category:"DeliveryEcom",topics:["Рынок и продажи","Исследования и прогнозы"],score:4.8,strategic_relevance_score:96,source_quality:4.8,market_scope:"Russia",content_type:"research",future_signal:true,future_horizon:["2026"],metrics:[],why_it_matters:"Помогает отслеживать динамику e-grocery и изменение поведения покупателей."},
-{id:"fb-cbrtrend",title:"О чем говорят тренды: временные факторы влияют на рост цен и ВВП",url:"https://cbr.ru/press/event/?id=32813",source:"Банк России",published_at:"2026-09-01T09:00:00+00:00",summary:"Банк России ожидает возвращение инфляции к цели 4% в 2027 году.",categories:["FinanceEconomy","Consumer"],primary_category:"FinanceEconomy",topics:["Исследования и прогнозы","Потребитель","Цены и промо"],score:5,strategic_relevance_score:100,source_quality:5,market_scope:"Russia",content_type:"research",future_signal:true,future_horizon:["2027"],metrics:[{type:"Инфляция",value:"4%"}],why_it_matters:"Официальный ориентир для сценариев спроса, цен и медиабюджетов."},
-{id:"fb-niq",title:"74% of shoppers use AI for product discovery",url:"https://nielseniq.com/global/en/news-center/2026/74-of-shoppers-use-ai-for-discovery-niq-showcases-what-that-means-for-the-consumer-purchase-journey-in-new-report/",source:"NielsenIQ",published_at:"2026-08-27T09:00:00+00:00",summary:"NIQ reports that nearly three quarters of shoppers use AI for product discovery; retail media is a $184bn global market.",categories:["Consumer","TechnologyAI","MediaAdvertising","Retail"],primary_category:"Consumer",topics:["Потребитель","Digital и технологии","Маркетинг и медиа","Исследования и прогнозы"],score:4.9,strategic_relevance_score:98,source_quality:4.9,market_scope:"Global",content_type:"research",future_signal:true,future_horizon:["future"],metrics:[{type:"Потребитель",value:"74%"}],why_it_matters:"AI increasingly shapes discovery and consideration before consumers reach a retailer or brand site."}
-];
-var FALLBACK_METRICS=[
-{id:"key-rate",label:"Ключевая ставка ЦБ",value:"14.00%",period:"23.09.2026",source:"Банк России",source_url:"https://www.cbr.ru/hd_base/KeyRate/",note:"официальная ставка",history:[{value:14.5},{value:14.25},{value:14}]},
-{id:"inflation",label:"Инфляция",value:"6.33%",period:"08.2026",source:"Банк России / Росстат",source_url:"https://www.cbr.ru/hd_base/infl/",note:"год к году",history:[{value:5.31},{value:6.02},{value:5.98},{value:6.33}]},
-{id:"auto-sales",label:"Продажи новых автомобилей",value:"114.3 тыс.",period:"август 2026",source:"АВТОСТАТ",source_url:"https://www.autostat.ru/press-releases/63032/",change:"−6.5% г/г",note:"новые легковые автомобили"},
-{id:"mortgage",label:"Ипотечные выдачи",value:"381 млрд ₽",period:"август 2026",source:"Банк России",source_url:"https://www.cbr.ru/Collection/Collection/File/62385/razv_bs_26_08.pdf",note:"официальный обзор банковского сектора"},
-{id:"ad-market",label:"Рекламный рынок РФ",value:"981.6 млрд ₽",period:"2025",source:"АКАР",source_url:"https://akarussia.ru/news/obem-rynka-marketingovyh-kommunikacij-v-2025-godu/",change:"+8.5% г/г",note:"объем рекламы"},
-{id:"ecommerce",label:"E-commerce РФ",value:"13.4 трлн ₽",period:"2025",source:"Data Insight",source_url:"https://datainsight.ru/DI_eCommerce_2026",change:"+19% г/г",note:"прогноз 2026 >15 трлн ₽"}
-];
-var FALLBACK_REPORTS=[
-{id:"r1",category:"Ритейл",title:"Интернет-торговля в России 2026",organization:"Data Insight",date:"2026-03-31",description:"Ключевые цифры российского eCommerce и прогноз на 2026–2027 годы.",url:"https://datainsight.ru/sites/default/files/DI_eCommerce_2026.pdf",kind:"external_pdf",access:"public"},
-{id:"r2",category:"Авто",title:"Рынок новых легковых автомобилей в России. Итоги 2025 года",organization:"АВТОСТАТ",date:"2026-01-30",description:"Продажи, цены, структура и перспективы рынка.",url:"https://m.autostat.ru/research/product/579/",kind:"paid_report",access:"paid"},
-{id:"r3",category:"Недвижимость",title:"Обзор рынка ипотечного жилищного кредитования — июль 2026",organization:"Банк России",date:"2026-08-28",description:"Официальные данные по портфелю и выдачам ИЖК.",url:"https://www.cbr.ru/statistics/bank_sector/mortgage/Indicator_mortgage/0726/",kind:"external_report",access:"public"},
-{id:"r4",category:"Банки",title:"О развитии банковского сектора РФ — август 2026",organization:"Банк России",date:"2026-09-22",description:"Кредитование, ипотека, финансовый результат и качество активов.",url:"https://www.cbr.ru/Collection/Collection/File/62385/razv_bs_26_08.pdf",kind:"external_pdf",access:"public"},
-{id:"r5",category:"Финансы",title:"Социально-экономическое положение России — январь–июль 2026",organization:"Росстат",date:"2026-09-02",description:"Комплексный официальный доклад о состоянии экономики и социальной сферы.",url:"https://rosstat.gov.ru/compendium/document/50801",kind:"external_report",access:"public"}
-];
-
+var FALLBACK_BUNDLE=window.STRATEGY_RADAR_FALLBACK||{news:{items:[]},reports:{reports:[]},metrics:{metrics:[]}};
 var TREND={
 ru:[
 {n:"Рост retail media",k:["retail media","ритейл-медиа","retail-media"],i:"▥",d:"Ритейлеры и маркетплейсы превращают собственные данные и инвентарь в самостоятельный рекламный канал.",why:"Меняет медиамикс FMCG и retail-брендов и усиливает связку медиа с продажами."},
@@ -148,11 +125,11 @@ function reportTabs(){
  $("#previewTabs").innerHTML=html;$("#reportTabs").innerHTML=html;
  $$("[data-report]").forEach(function(b){b.onclick=function(){currentReport=b.getAttribute("data-report");renderReports()}})
 }
-function reportBadge(r){if(r.kind==="external_pdf")return"Внешний PDF ↗";if(r.kind==="paid_report")return"Платный отчет ↗";return"Внешний отчет ↗"}
+function reportBadge(r){if(r.kind==="local_pdf")return"PDF внутри Strategy Radar";if(r.kind==="external_pdf")return"Внешний PDF ↗";if(r.kind==="paid_report")return"Платный отчет ↗";return"Внешний отчет ↗"}
 function reportCard(r,big){
- var badge=reportBadge(r),ico=r.kind==="external_pdf"?"PDF":r.kind==="paid_report"?"PRO":"DOC";
- if(big)return'<a class="reportBig" href="'+esc(r.url)+'" target="_blank" rel="noopener"><div class="pdf '+(r.kind==="paid_report"?"paid":"")+'">'+ico+'</div><div><div class="reportMeta">'+esc(r.organization||"")+" · "+fmt(r.date,true)+'</div><h3>'+esc(r.title)+'</h3><p>'+esc(r.description||"")+'</p><span class="reportBadge">'+esc(badge)+'</span></div></a>';
- return'<a class="reportCard" href="'+esc(r.url)+'" target="_blank" rel="noopener"><div class="pdf '+(r.kind==="paid_report"?"paid":"")+'">'+ico+'</div><div><strong>'+esc(r.title)+'</strong><small>'+esc(r.organization||"")+" · "+fmt(r.date,true)+'</small><span class="reportBadge">'+esc(badge)+'</span></div></a>'
+ var badge=reportBadge(r),ico=(r.kind==="external_pdf"||r.kind==="local_pdf")?"PDF":r.kind==="paid_report"?"PRO":"DOC",href=r.kind==="local_pdf"?(r.local_path||r.url):r.url;
+ if(big)return'<a class="reportBig" href="'+esc(href)+'" target="_blank" rel="noopener"><div class="pdf '+(r.kind==="paid_report"?"paid":"")+'">'+ico+'</div><div><div class="reportMeta">'+esc(r.organization||"")+" · "+fmt(r.date,true)+'</div><h3>'+esc(r.title)+'</h3><p>'+esc(r.description||"")+'</p><span class="reportBadge">'+esc(badge)+'</span></div></a>';
+ return'<a class="reportCard" href="'+esc(href)+'" target="_blank" rel="noopener"><div class="pdf '+(r.kind==="paid_report"?"paid":"")+'">'+ico+'</div><div><strong>'+esc(r.title)+'</strong><small>'+esc(r.organization||"")+" · "+fmt(r.date,true)+'</small><span class="reportBadge">'+esc(badge)+'</span></div></a>'
 }
 function renderReports(){
  reportTabs();
@@ -225,15 +202,15 @@ $("#search").addEventListener("input",function(){if(currentView!=="news"&&$("#se
 async function getJSON(url){var r=await fetch(url+"?v="+Date.now(),{cache:"no-store"});if(!r.ok)throw new Error(url+" HTTP "+r.status);return r.json()}
 async function load(){
  var errs=[];
- try{DB=await getJSON("data/news.json")}catch(e){errs.push("news");DB={items:FALLBACK_ITEMS,updated_at:"2026-09-23T12:00:00+00:00",source_count:6};usingFallback=true}
- try{REPORTDB=await getJSON("data/reports.json")}catch(e){errs.push("reports");REPORTDB={reports:FALLBACK_REPORTS,categories:["Ритейл","Авто","Недвижимость","Банки","Финансы"],report_count:FALLBACK_REPORTS.length,updated_at:"2026-09-23T12:00:00+00:00"};usingFallback=true}
- try{METRICDB=await getJSON("data/metrics.json")}catch(e){errs.push("metrics");METRICDB={metrics:FALLBACK_METRICS,updated_at:"2026-09-23T12:00:00+00:00"};usingFallback=true}
- if(!DB.items||!DB.items.length){DB.items=FALLBACK_ITEMS;usingFallback=true}
- if(!REPORTDB.reports||!REPORTDB.reports.length){REPORTDB.reports=FALLBACK_REPORTS;REPORTDB.categories=["Ритейл","Авто","Недвижимость","Банки","Финансы"];usingFallback=true}
- if(!METRICDB.metrics||!METRICDB.metrics.length){METRICDB.metrics=FALLBACK_METRICS;usingFallback=true}
+ try{DB=await getJSON("data/news.json")}catch(e){errs.push("news");DB=FALLBACK_BUNDLE.news||{items:[]};usingFallback=true}
+ try{REPORTDB=await getJSON("data/reports.json")}catch(e){errs.push("reports");REPORTDB=FALLBACK_BUNDLE.reports||{reports:[],categories:["Ритейл","Авто","Недвижимость","Банки","Финансы"]};usingFallback=true}
+ try{METRICDB=await getJSON("data/metrics.json")}catch(e){errs.push("metrics");METRICDB=FALLBACK_BUNDLE.metrics||{metrics:[]};usingFallback=true}
+ if(!DB.items||!DB.items.length){DB=(FALLBACK_BUNDLE.news||{items:[]});usingFallback=true}
+ if(!REPORTDB.reports||!REPORTDB.reports.length){REPORTDB=(FALLBACK_BUNDLE.reports||{reports:[],categories:["Ритейл","Авто","Недвижимость","Банки","Финансы"]});usingFallback=true}
+ if(!METRICDB.metrics||!METRICDB.metrics.length){METRICDB=(FALLBACK_BUNDLE.metrics||{metrics:[]});usingFallback=true}
  var uniqueSources=new Set(DB.items.map(function(x){return x.source})).size;
  $("#fresh").textContent="Обновлено "+fmt(DB.updated_at||new Date(),true)+" · "+uniqueSources+" источников";
- if(usingFallback){$("#offlineBanner").hidden=false;$("#offlineBanner").textContent="Используется сохраненный проверенный снимок данных: один из онлайн-файлов временно недоступен."}
+ if(usingFallback){$("#offlineBanner").hidden=false;$("#offlineBanner").textContent="Онлайн-данные временно недоступны. Показан последний успешно собранный снимок Strategy Radar."}
  fillFilters();renderMetrics();renderTop();renderTrends();renderOutlook();renderReports();renderNews();renderMarkets();renderFavorites();applyLang()
 }
 load();
