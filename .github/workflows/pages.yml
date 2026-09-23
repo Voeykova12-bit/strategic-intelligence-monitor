@@ -19,58 +19,86 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 1
+
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+
       - name: Install collector dependencies
         run: pip install feedparser PyYAML beautifulsoup4
+
       - name: Collect market intelligence
         run: python scripts/build_static_news.py
+
       - name: Add official, research and global sources
         run: python scripts/augment_strategy_radar.py
+
       - name: Build verified reports library
         run: python scripts/build_reports.py
+
       - name: Build key market metrics
         run: python scripts/build_metrics.py
+
+      - name: Build last-known-good browser snapshot
+        run: python scripts/build_fallback_bundle.py
+
       - name: Stage generated snapshot
         run: |
-          mkdir -p /tmp/strategy-radar docs/data
+          mkdir -p /tmp/strategy-radar/docs-reports
           cp data/news.json /tmp/strategy-radar/news.json
           cp data/reports.json /tmp/strategy-radar/reports.json
           cp data/metrics.json /tmp/strategy-radar/metrics.json
+          cp docs/fallback-data.js /tmp/strategy-radar/fallback-data.js
+          if [ -d docs/reports ]; then
+            cp -a docs/reports/. /tmp/strategy-radar/docs-reports/
+          fi
+
       - name: Save refreshed archive safely
         run: |
+          set -e
           git config user.name "strategy-radar-bot"
           git config user.email "actions@users.noreply.github.com"
-          git fetch origin main
-          git reset --hard origin/main
-          mkdir -p data docs/data
-          cp /tmp/strategy-radar/news.json data/news.json
-          cp /tmp/strategy-radar/news.json docs/data/news.json
-          cp /tmp/strategy-radar/reports.json data/reports.json
-          cp /tmp/strategy-radar/reports.json docs/data/reports.json
-          cp /tmp/strategy-radar/metrics.json data/metrics.json
-          cp /tmp/strategy-radar/metrics.json docs/data/metrics.json
-          git add data/news.json docs/data/news.json data/reports.json docs/data/reports.json data/metrics.json docs/data/metrics.json
-          if ! git diff --cached --quiet; then
-            git commit -m "data: refresh Strategy Radar"
-            if ! git push origin HEAD:main; then
-              git fetch origin main
-              git reset --hard origin/main
-              mkdir -p data docs/data
-              cp /tmp/strategy-radar/news.json data/news.json
-              cp /tmp/strategy-radar/news.json docs/data/news.json
-              cp /tmp/strategy-radar/reports.json data/reports.json
-              cp /tmp/strategy-radar/reports.json docs/data/reports.json
-              cp /tmp/strategy-radar/metrics.json data/metrics.json
-              cp /tmp/strategy-radar/metrics.json docs/data/metrics.json
-              git add data/news.json docs/data/news.json data/reports.json docs/data/reports.json data/metrics.json docs/data/metrics.json
-              git commit -m "data: refresh Strategy Radar"
-              git push origin HEAD:main
+
+          restore_snapshot() {
+            mkdir -p data docs/data docs/reports
+            cp /tmp/strategy-radar/news.json data/news.json
+            cp /tmp/strategy-radar/news.json docs/data/news.json
+            cp /tmp/strategy-radar/reports.json data/reports.json
+            cp /tmp/strategy-radar/reports.json docs/data/reports.json
+            cp /tmp/strategy-radar/metrics.json data/metrics.json
+            cp /tmp/strategy-radar/metrics.json docs/data/metrics.json
+            cp /tmp/strategy-radar/fallback-data.js docs/fallback-data.js
+            if [ -d /tmp/strategy-radar/docs-reports ]; then
+              cp -a /tmp/strategy-radar/docs-reports/. docs/reports/
             fi
-          fi
+          }
+
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git reset --hard origin/main
+            restore_snapshot
+            git add data/news.json docs/data/news.json                     data/reports.json docs/data/reports.json                     data/metrics.json docs/data/metrics.json                     docs/fallback-data.js docs/reports
+
+            if git diff --cached --quiet; then
+              echo "No data changes"
+              exit 0
+            fi
+
+            git commit -m "data: refresh Strategy Radar"
+
+            if git push origin HEAD:main; then
+              echo "Refresh pushed successfully"
+              exit 0
+            fi
+
+            echo "Push race detected, retrying ($attempt/3)"
+            sleep $((attempt * 3))
+          done
+
+          echo "Unable to push refreshed snapshot after 3 attempts"
+          exit 1
