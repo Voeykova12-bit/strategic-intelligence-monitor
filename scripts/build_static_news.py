@@ -21,7 +21,7 @@ SOURCES_PATH = ROOT / "config" / "sources.yaml"
 CLIENTS_PATH = ROOT / "config" / "clients.yaml"
 USER_AGENT = "StrategicIntelligenceMonitor/3.0 (+agency strategy research)"
 MAX_ITEMS = 5000
-RETENTION_DAYS = 550
+RETENTION_DAYS = 365
 
 CATEGORY_LABELS = {
     "Retail": "Ритейл",
@@ -31,7 +31,9 @@ CATEGORY_LABELS = {
     "FMCG": "FMCG",
     "Automotive": "Авто",
     "RealEstate": "Недвижимость",
-    "TelecomTech": "Телеком & технологии",
+    "Telecom": "Телеком",
+    "TechnologyAI": "Технологии & AI",
+    "Consumer": "Потребитель",
     "MediaAdvertising": "Медиа & реклама",
 }
 
@@ -43,7 +45,9 @@ CATEGORY_KEYWORDS = {
     "FMCG": ["fmcg","товары повседнев","производитель продуктов","производитель напит","продуктовый бренд","молочн","мясн","напитк","кофе","чай","снек","кондитер","бакале","заморож","косметик","бытовая хим","готовая еда","private label","собственная торговая марка","стм","pepsico","nestle","unilever","mars","mondelez","черкизово","мираторг","русагро","эфко"],
     "Automotive": ["авторынок","автомобил","автобизнес","автодилер","дилерская сеть","легковых автомобил","кроссовер","автокредит","автолизинг","автопроизвод","lada","haval","chery","geely","changan","jetour","tank","tenet","москвич","автоваз","exeed","omoda","gac"],
     "RealEstate": ["недвижим","новострой","жиль","квартир","девелоп","застройщик","ипотек","офисная недвиж","коммерческая недвиж","складская недвиж","арендные ставки","строительств жилья","жилой комплекс"],
-    "TelecomTech": ["телеком","оператор связи","мобильная связь","интернет-провайдер","мтс","мегафон","билайн","t2","ростелеком","цифровизац","искусственн","нейросет"," ии "," ai ","adtech","martech","облачн","дата-центр","software","saas"],
+    "Telecom": ["телеком","оператор связи","мобильн связь","сотов","5g","4g","мтс","мегафон","билайн","t2","telecom","mobile operator"],
+    "TechnologyAI": ["искусственн интеллект","нейросет","генеративн","generative ai","artificial intelligence","machine learning","ai ","martech","adtech","технолог","software","platform"],
+    "Consumer": ["потребител","покупател","домохозяйств","потребительск спрос","потребительск настро","consumer","shopper","spending","consumer confidence"],
     "MediaAdvertising": ["рекламный рынок","рынок рекламы","медиарынок","рекламные бюджеты","медиаинвести","наружная реклама","digital-реклама","интернет-реклама","телевизионная реклама","рекламное агентство","медиагруппа","рекламная платформа","programmatic","retail media","ритейл медиа","ритейл-медиа"],
 }
 
@@ -120,6 +124,16 @@ def detect_scope(text):
 def planning_horizon(text):
     low=text.lower(); years=FUTURE_RE.findall(text)
     return list(dict.fromkeys(years)) or (["future"] if any(x in low for x in FUTURE_WORDS) else [])
+
+def content_type_for(text,future,topics):
+    low=text.lower()
+    if any(x in low for x in ["исследование","исследовани","отчет","отчёт","доклад","обзор рынка","survey","research","report","study"]) or "Исследования и прогнозы" in topics:
+        return "research"
+    if future:
+        if any(x in low for x in ["планирует","намерен","запустит","откроет","расширит","инвестирует","будет инвестировать","plans to","will launch","will open","will invest","to expand"]):
+            return "company_plan"
+        return "forecast"
+    return "news"
 
 def load_clients():
     return (yaml.safe_load(CLIENTS_PATH.read_text(encoding="utf-8")) or {}).get("clients",[])
@@ -234,7 +248,7 @@ def make_items(raw_items,src,clients):
         bonus=max(0,min(.7,(float(src.get("reliability_score",3))-3)*.25))+max(0,min(.5,(int(src.get("priority",3))-3)*.2))
         score=round(min(5,value+bonus),1); uid=hashlib.sha1(f"{url}|{title_key(title)}".encode("utf-8")).hexdigest()[:18]
         metrics=extract_metrics(combined)
-        out.append({"id":uid,"title":title,"url":url,"source":src.get("name","Source"),"published_at":published,"summary":summary,"categories":cats,"primary_category":cats[0],"topics":topics,"brands":brands,"score":score,"relevance_reasons":reasons,"why_it_matters":why_it_matters(cats,brands,future,reasons),"client_matches":cm,"market_scope":detect_scope(combined),"future_horizon":future,"metrics":metrics})
+        out.append({"id":uid,"title":title,"url":url,"source":src.get("name","Source"),"published_at":published,"summary":summary,"categories":cats,"primary_category":cats[0],"topics":topics,"brands":brands,"score":score,"strategic_relevance_score":int(round(score*20)),"relevance_reasons":reasons,"why_it_matters":why_it_matters(cats,brands,future,reasons),"client_matches":cm,"market_scope":detect_scope(combined),"future_horizon":future,"future_signal":bool(future),"content_type":content_type_for(combined,future,topics),"metrics":metrics,"source_quality":float(src.get("reliability_score",3))})
     return out
 
 def fetch_rss(src,clients):
@@ -271,6 +285,10 @@ def fetch_html(src,clients):
         if len(title)>190:
             cut=title[:190]; pos=cut.rfind(". "); title=(cut[:pos] if pos>60 else cut).strip()
         if p.netloc.lower()!=domain or len(title)<28 or href in seen: continue
+        required=src.get("path_contains") or []
+        excluded=src.get("path_excludes") or []
+        if required and not any(token.lower() in p.path.lower() for token in required): continue
+        if excluded and any(token.lower() in p.path.lower() for token in excluded): continue
         if domain.endswith("autostat.ru") and "/news/" not in p.path: continue
         if domain.endswith("rbc.ru") and "/news/" not in p.path: continue
         seen.add(href)
@@ -291,7 +309,9 @@ def requalify(item,clients,active_sources,cutoff):
     future=planning_horizon(combined); cm=client_matches(combined,clients); relevant,value,reasons=strategic_filter(combined,cats,topics,brands,cm,future)
     if not relevant: return None
     metrics=extract_metrics(combined)
-    item.update({"categories":cats,"primary_category":cats[0],"topics":topics,"brands":brands,"score":round(min(5,max(float(item.get("score",0) or 0),value)),1),"relevance_reasons":reasons,"why_it_matters":why_it_matters(cats,brands,future,reasons),"client_matches":cm,"future_horizon":future,"metrics":metrics})
+    new_score=round(min(5,max(float(item.get("score",0) or 0),value)),1)
+    item.update({"categories":cats,"primary_category":cats[0],"topics":topics,"brands":brands,"score":new_score,"strategic_relevance_score":int(round(new_score*20)),"relevance_reasons":reasons,"why_it_matters":why_it_matters(cats,brands,future,reasons),"client_matches":cm,"future_horizon":future,"future_signal":bool(future),"content_type":content_type_for(combined,future,topics),"metrics":metrics})
+    if "source_quality" not in item: item["source_quality"]=4.0
     return item
 
 def main():
