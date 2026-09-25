@@ -1,126 +1,60 @@
 <!doctype html>
 <html lang="ru">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Strategy Radar</title>
-<meta name="description" content="Strategy Radar — новости, тренды, ключевые цифры и исследования для работы стратега.">
-<link rel="stylesheet" href="styles.css">
-<link rel="stylesheet" href="premium.css">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Strategy Radar — Market Intelligence</title>
+<meta name="description" content="Главные события, действия брендов и подтвержденные тренды для рекламной стратегии.">
+<link rel="stylesheet" href="styles.css?v=4"><link rel="stylesheet" href="premium.css?v=4">
+<link rel="icon" href="assets/radar.svg" type="image/svg+xml">
 </head>
 <body>
 <a class="skipLink" href="#main">К содержимому</a>
 <div class="app">
-  <aside class="side">
-    <div class="brand"><span class="brandmark"></span><b>Strategy Radar</b></div>
-    <div class="navCaption">WORKSPACE</div><nav id="nav" aria-label="Разделы">
-      <button class="active" data-view="home"><span>⌂</span><em data-t="navHome">Главная</em></button>
-      <button data-view="news"><span>▤</span><em data-t="navNews">Новости</em></button>
-      <button data-view="trends"><span>↗</span><em data-t="navTrends">Тренды</em></button>
-      <button data-view="markets"><span>▥</span><em data-t="navMarkets">Рынки</em></button>
-      <button data-view="reports"><span>▧</span><em data-t="navReports">Отчеты</em></button>
-      <button data-view="favorites"><span>☆</span><em data-t="navFav">Избранное</em></button>
-    </nav>
-    <div class="quote">Лучшие стратегические решения начинаются с более широкого взгляда на рынок.<small>Strategy Radar</small></div>
-  </aside>
-
-  <section class="workspace">
-    <header class="top">
-      <div class="search"><span>⌕</span><input id="search" placeholder="Найти новость, компанию или рынок…" aria-label="Поиск новостей"></div>
-      <div class="topActions">
-        <select id="globalPeriod" class="topSelect" aria-label="Период">
-          <option value="7">7 дней</option><option value="30">30 дней</option>
-          <option value="90">3 месяца</option>
-          <option value="180">6 месяцев</option>
-          <option value="365" selected>12 месяцев</option>
-        </select>
-        <div class="langs"><button id="langRu" class="active">RU</button><button id="langEn">EN</button></div>
-      </div>
-    </header>
-
-    <main id="main">
-      <div id="offlineBanner" class="offlineBanner" hidden></div>
-      <div class="pagehead">
-        <div><span class="eyebrow">Strategy Radar / Market Intelligence</span><h1 id="pageTitle">Панель мониторинга рынков</h1><p id="pageSubtitle">Актуальные новости, тренды и исследования для стратегических решений</p></div>
-        <small id="fresh">Обновление данных…</small>
-      </div>
-
-      <section class="view active" id="view-home">
-        <section class="panel metricsPanel">
-          <div class="panelHead"><div><h2>Ключевые цифры</h2><small>Последние доступные данные из первичных и профильных источников</small></div></div>
-          <div class="metricGrid" id="metricGrid"></div>
-        </section>
-
-        <section class="panel">
-          <div class="panelHead"><div><h2>Главное на сегодня</h2><small id="topWindowLabel">Самые свежие значимые события</small></div><button data-go="news">Все новости →</button></div>
-          <div class="newsGrid" id="topNews"></div>
-        </section>
-
-        <section class="panel">
-          <div class="panelHead"><div><h2>Новые тренды</h2><small>Темы с несколькими независимыми источниками или первичным исследованием</small></div><button data-go="trends">Все тренды →</button></div>
-          <div class="trendCols">
-            <div class="trendBox"><div class="trendHead ru">🇷🇺 Россия</div><div id="ruTrends"></div></div>
-            <div class="trendBox"><div class="trendHead world">🌐 Мир</div><div id="globalTrends"></div></div>
-          </div>
-        </section>
-
-        <section class="panel outlookPanel">
-          <div class="panelHead"><div><h2>Что впереди</h2><small>Прогнозы и заявленные планы — только из источников</small></div><button id="outlookAll">Все прогнозы →</button></div>
-          <div class="outlookGrid" id="outlookGrid"></div>
-        </section>
-
-        <section class="panel">
-          <div class="panelHead"><div><h2>Последние исследования</h2><small>Исследования, отраслевые обзоры и первичные данные</small></div><button data-go="reports">Перейти в раздел →</button></div>
-          <div class="reportTabs" id="previewTabs"></div>
-          <div class="reportRow" id="previewReports"></div>
-        </section>
-      </section>
-
-      <section class="view" id="view-news">
-        <section class="subPanel">
-          <div class="filters six">
-            <select id="newsPeriod" aria-label="Период новостей"><option value="7">7 дней</option><option value="30">30 дней</option><option value="90">3 месяца</option><option value="180">6 месяцев</option><option value="365" selected>12 месяцев</option></select>
-            <select id="newsCategory" aria-label="Рынок"><option value="">Все рынки</option></select>
-            <select id="newsScope" aria-label="География"><option value="">Россия + мир</option><option value="Russia">Россия</option><option value="Global">Зарубежные</option></select>
-            <select id="newsSource" aria-label="Источник"><option value="">Все источники</option></select>
-            <select id="newsType" aria-label="Тип материала"><option value="">Все типы</option><option value="news">Новости</option><option value="research">Исследования</option><option value="outlook">Прогнозы и планы</option><option value="forecast">Прогнозы</option><option value="company_plan">Планы компаний</option></select>
-            <select id="newsSort" aria-label="Сортировка"><option value="relevance">По значимости</option><option value="date">По дате</option></select>
-          </div>
-          <div class="resultMeta" id="newsMeta"></div>
-          <div id="newsList" class="articleList"></div><button id="loadMore" class="loadMore" hidden>Показать еще</button>
-        </section>
-      </section>
-
-      <section class="view" id="view-trends">
-        <section class="panel">
-          <div class="panelHead"><div><h2>Тренды, подтвержденные источниками</h2><small>Основание: минимум два независимых источника либо один сильный исследовательский/официальный источник с данными</small></div></div>
-          <div class="trendCols full">
-            <div class="trendBox"><div class="trendHead ru">🇷🇺 Россия</div><div id="ruTrendsFull"></div></div>
-            <div class="trendBox"><div class="trendHead world">🌐 Мир</div><div id="globalTrendsFull"></div></div>
-          </div>
-        </section>
-      </section>
-
-      <section class="view" id="view-markets">
-        <div class="marketNav" id="marketNav"></div>
-        <div id="marketDetail"></div>
-      </section>
-
-      <section class="view" id="view-reports">
-        <section class="panel reportsPanel">
-          <div class="panelHead"><div><h2>Исследования и отчеты</h2><small id="reportStatus">Проверенные конкретные публикации за 2025–2026 годы</small></div></div>
-          <div class="reportTabs left" id="reportTabs"></div>
-          <div class="reportLibrary" id="reportLibrary"></div>
-        </section>
-      </section>
-
-      <section class="view" id="view-favorites">
-        <section class="subPanel"><div id="favoritesList" class="articleList"></div></section>
-      </section>
-    </main>
-  </section>
+ <aside class="side" id="sidebar">
+  <a class="brand" href="#home" aria-label="Strategy Radar — главная"><img src="assets/radar.svg" width="52" height="52" alt=""><span><b>Strategy Radar</b><small>MARKET INTELLIGENCE</small></span></a>
+  <nav id="nav" aria-label="Разделы">
+   <a class="active" href="#home" data-view="home"><i data-icon="home"></i><span>Главная</span></a>
+   <a href="#news" data-view="news"><i data-icon="news"></i><span>Новости</span></a>
+   <a href="#social" data-view="social"><i data-icon="social"></i><span>Соцсети</span><small class="newBadge">NEW</small></a>
+   <a href="#trends" data-view="trends"><i data-icon="trends"></i><span>Тренды</span></a>
+   <a href="#markets" data-view="markets"><i data-icon="markets"></i><span>Рынки</span></a>
+   <a href="#reports" data-view="reports"><i data-icon="report"></i><span>Отчеты</span></a>
+   <a href="#favorites" data-view="favorites"><i data-icon="star"></i><span>Избранное</span></a>
+  </nav>
+  <button class="sideFoot textButton" data-dialog="schedule"><i data-icon="calendar"></i>Обзор каждую среду</button>
+ </aside>
+ <div class="workspace">
+  <header class="top"><button class="mobileMenu iconButton" id="mobileMenu" aria-label="Открыть меню" aria-expanded="false"><i data-icon="menu"></i></button><span id="breadcrumb">Обзор / Россия</span><div class="topEnd"><time id="today"></time><button class="updateStatus" id="fresh" data-dialog="sources">Загрузка данных…</button></div></header>
+  <main id="main" tabindex="-1">
+   <div id="offlineBanner" class="notice" hidden role="status"></div>
+   <div class="pagehead"><div><span class="eyebrow">STRATEGY RADAR · MARKET INTELLIGENCE</span><h1 id="pageTitle">Главное за неделю</h1><p id="pageSubtitle">Россия · Только значимые события</p></div><div id="pageActions"></div></div>
+   <section class="view active" id="view-home" aria-label="Главная">
+    <div class="homeHero"><article class="focusCard" id="focusCard"><div class="skeleton" style="height:200px"></div></article><section class="pulsePanel" aria-labelledby="pulseTitle"><h2 id="pulseTitle">Пульс повестки</h2><p class="subtle">Доля значимых событий по категориям</p><div id="pulseChart"></div><div class="pulseFoot"><span>Активность повестки, не рост рынка</span><button class="textButton" data-dialog="pulse">Как считаем ↗</button></div></section></div>
+    <div class="sectionHead"><h2 id="homeNewsTitle">Три события, которые стоит знать</h2><button class="textButton" data-go="news" data-mode="year">Все новости <i data-icon="arrow"></i></button></div><div class="newsGrid" id="topNews"></div>
+    <div class="homeLower"><section><div class="sectionHead"><h2>Бренды в соцсетях</h2><div class="miniTabs" id="homePlatforms"><button data-home-platform="vk">ВК</button><button class="active" data-home-platform="telegram">Telegram</button></div></div><div id="homeSocial"></div></section><section><div class="sectionHead"><h2>Видео по делу</h2><button class="textButton" data-dialog="videos">Все видео <i data-icon="arrow"></i></button></div><div id="homeVideo"></div></section></div>
+    <section class="marketContext" aria-label="Контекст рынка"><small>Контекст рынка · Последние доступные данные</small><div class="metricGrid" id="metricGrid"></div></section>
+   </section>
+   <section class="view" id="view-news" aria-label="Новости">
+    <div class="newsControls"><label class="search"><i data-icon="search"></i><input id="search" type="search" placeholder="Найти событие, бренд или тему" aria-label="Поиск новостей"></label><div class="segmented" id="newsModes"><button data-mode="edition" class="active">Выпуск среды</button><button data-mode="year">Все новости года</button></div><div class="archiveLinks"><button class="textButton" data-dialog="editions">Прошлые выпуски</button><button class="textButton" data-dialog="archive">Архив</button></div></div>
+    <div class="categoryBar" id="newsCategories"></div>
+    <div class="newsLayout"><div><div class="editionBanner" id="editionBanner"></div><div id="newsMeta" class="resultMeta" role="status"></div><div id="newsList" class="articleList"></div><button class="loadMore" id="loadMore" hidden>Показать еще</button></div><aside class="newsRail"><section class="railContents"><h2 id="railTitle">В этом выпуске</h2><div id="newsContents"></div></section><section class="selectionCard"><h2>Как отбираем</h2><div><i data-icon="trends"></i><p><b>Влияние на рынок</b><span>Что меняется для потребителя, отрасли и брендов.</span></p></div><div><i data-icon="bulb"></i><p><b>Новизна события</b><span>Новые решения, запуски и значимые изменения.</span></p></div><div><i data-icon="report"></i><p><b>Подтвержденные факты</b><span>Проверяем происхождение данных и первоисточники.</span></p></div><button class="textButton" data-dialog="selection">Правила отбора →</button></section><section class="quietNote"><i data-icon="tag"></i><div><b>Когда мало событий</b><p>Период расширяется до 30 дней. Это отмечается в выпуске.</p></div></section></aside></div>
+    <footer class="viewFooter">Новые материалы собираются ежедневно · Выпуск — по средам, 09:00 МСК</footer>
+   </section>
+   <section class="view" id="view-social" aria-label="Соцсети">
+    <div class="socialControls"><label class="search"><i data-icon="search"></i><input id="socialSearch" type="search" placeholder="Найти бренд или событие" aria-label="Поиск в соцсетях"></label><button class="outlineButton" data-dialog="accounts">Реестр аккаунтов ↗</button></div>
+    <div class="socialFilterRow"><div class="segmented" id="socialPlatforms"><button class="active" data-platform="">Все платформы</button><button data-platform="vk">ВК</button><button data-platform="telegram">Telegram</button></div><div class="categoryBar" id="socialCategories"></div></div>
+    <div id="socialCoverage" class="coverageHint"></div><div class="socialLayout"><div id="socialFeature"></div><div class="socialRail"><section class="socialOther"><h2>Что меняется у брендов</h2><div id="socialOther"></div></section><section class="socialVideo"><h2>Видео по делу</h2><div id="socialVideo"></div></section></div></div>
+    <div class="socialStatement"><i data-icon="info"></i><div>Публикация бренда подтверждает действие, но не доказывает эффективность.<small id="socialFresh"></small></div><button class="textButton" data-dialog="accounts">Как проверяем аккаунты →</button></div><div id="socialList" class="socialList"></div><button id="moreSocial" class="loadMore" hidden>Еще события брендов</button>
+   </section>
+   <section class="view" id="view-trends" aria-label="Тренды">
+    <div class="trendControls"><div class="segmented" id="trendScopes"><button class="active" data-scope="Russia">Россия</button><button data-scope="Global">Мир</button></div><div class="categoryBar" id="trendCategories"></div></div><div class="trendLayout"><div id="trendCards" class="trendCards"></div><div id="trendDetail" class="trendDetail"></div></div>
+   </section>
+   <section class="view" id="view-markets" aria-label="Рынки"><div class="categoryBar" id="marketNav"></div><div id="marketDetail"></div></section>
+   <section class="view" id="view-reports" aria-label="Отчеты"><section class="panel reportsPanel"><div class="panelHead"><div><h2>Исследования и отчеты</h2><small id="reportStatus"></small></div></div><div class="reportTabs left" id="reportTabs"></div><div class="reportLibrary" id="reportLibrary"></div></section></section>
+   <section class="view" id="view-favorites" aria-label="Избранное"><div id="favoritesList" class="articleList"></div></section>
+  </main>
+ </div>
 </div>
-<script src="fallback-data.js"></script>
-<script src="app.js"></script>
-</body>
-</html>
+<dialog id="detailDialog" aria-labelledby="dialogTitle"><div class="dialogHeader"><h2 id="dialogTitle"></h2><button id="closeDialog" class="iconButton" aria-label="Закрыть"><i data-icon="close"></i></button></div><div id="dialogBody"></div></dialog>
+<script src="fallback-data.js?v=4"></script><script src="radar.js?v=4"></script>
+</body></html>

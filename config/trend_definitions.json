@@ -1,0 +1,189 @@
+[
+  {
+    "id": "ru-commerce-media",
+    "scope": "Russia",
+    "title": "Реклама ближе к моменту выбора",
+    "subtitle": "Ритейл-медиа и точность аудитории",
+    "claim": "Площадки расширяют рекламные инструменты рядом с покупкой. Опросы дают сигнал о роли такой рекламы в выборе, но не доказывают прирост продаж.",
+    "categories": [
+      "Retail",
+      "MediaAdvertising",
+      "DeliveryEcom"
+    ],
+    "themes": [
+      "retail_media",
+      "ad_market"
+    ],
+    "icon": "cart",
+    "stage": "emerging",
+    "editorial_reviewed": true,
+    "limitation": "Опрос покупателей и запуск рекламного инструмента описывают разные стороны выбора. Они не доказывают устойчивый рост эффективности. Нужны сопоставимые результаты кампаний.",
+    "interpretation": "Выделить тесты для рекламы в e-commerce и связать их с единым измерением охвата, затрат и дополнительных продаж.",
+    "evidence": [
+      {
+        "url": "https://adindex.ru/news/tendencies/2026/07/21/347393.phtml",
+        "origin_id": "easycommerce-forecast-2026",
+        "origin_label": "Easy Commerce",
+        "milestone": "Прогноз рынка",
+        "support": "Прогноз темпов роста retail media, июль 2026.",
+        "supports_claim": false
+      },
+      {
+        "url": "https://adindex.ru/news/researches/2026/09/21/349032.phtml",
+        "origin_id": "easycommerce-choice-2026",
+        "origin_label": "Easy Commerce",
+        "milestone": "Роль в выборе",
+        "support": "47% опрошенных говорят о помощи рекламы в выборе.",
+        "supports_claim": true
+      },
+      {
+        "url": "https://t.me/mtsofficial/4780",
+        "origin_id": "brand:mts",
+        "origin_label": "МТС · первичный пост",
+        "milestone": "Новый инструмент",
+        "support": "Бренд описывает конструктор сегментов для рекламы.",
+        "supports_claim": true
+      }
+    ]
+  },
+  {
+    "id": "ru-discount-competition",
+    "scope": "Russia",
+    "title": "Цена требует нового обоснования",
+    "subtitle": "Дискаунтеры: конкуренция и темп роста",
+    "claim": "Дискаунтеры сохраняют роль в FMCG, но ранние сигналы указывают на более сложные условия роста.",
+    "categories": [
+      "Retail",
+      "FMCG",
+      "Consumer"
+    ],
+    "themes": [
+      "retail",
+      "consumer"
+    ],
+    "icon": "bag",
+    "stage": "emerging",
+    "editorial_reviewed": true,
+    "limitation": "Один прогноз и свидетельство одного ритейлера не подтверждают устойчивую динамику всего рынка. Нужны сопоставимые результаты нескольких сетей.",
+    "interpretation": "Проверить ценностное предложение: какую пользу бренд дает сверх низкой цены, и какие товары удерживают частоту покупки.",
+    "evidence": [
+      {
+        "url": "https://retail.ru/news/infoline-rost-oborota-zhestkikh-diskaunterov-v-rf-zamedlitsya-do-9-4-k-2029-godu-19-marta-2026-275701",
+        "origin_id": "infoline-discount-2026",
+        "origin_label": "INFOLine",
+        "milestone": "Оценка и прогноз",
+        "support": "Рост оборота в 2025 году — 19,6%; дальнейшее замедление — прогноз.",
+        "supports_claim": true
+      },
+      {
+        "url": "https://retail.ru/articles/ilya-yakubson-chizhik-eto-pervyy-god-kogda-my-stolknulis-so-snizheniem-prirosta-potrebleniya",
+        "origin_id": "brand:chizhik",
+        "origin_label": "Чижик · интервью",
+        "milestone": "Сигнал от ритейлера",
+        "support": "Руководитель сообщает о снижении прироста потребления в 2026 году.",
+        "supports_claim": true
+      }
+    ]
+  },
+  {
+    "id": "ru-agentic-commerce",
+    "scope": "Russia",
+    "title": "ИИ становится посредником выбора",
+    "subtitle": "Агентная коммерция: ранняя гипотеза",
+    "claim": "Data Insight рассматривает сценарий передачи части онлайн-покупок ИИ-агентам в России.",
+    "categories": [
+      "TechnologyAI",
+      "DeliveryEcom",
+      "Consumer"
+    ],
+    "themes": [
+      "ai_choice"
+    ],
+    "icon": "ai",
+    "stage": "emerging",
+    "editorial_reviewed": true,
+    "limitation": "Это сценарный прогноз одной исследовательской компании. Он не измеряет сегодняшнюю долю агентных покупок.",
+    "interpretation": "Подготовить доступные и структурированные данные о товарах. Проверить сценарий на малом тесте, прежде чем менять бюджет.",
+    "evidence": [
+      {
+        "url": "https://datainsight.ru/agentic-commerce2026",
+        "origin_id": "datainsight-agentic-2026",
+        "origin_label": "Data Insight",
+        "milestone": "Сценарный прогноз",
+        "support": "2–4% e-commerce к 2028–2029 годам — прогноз, не текущая доля.",
+        "supports_claim": true
+      }
+    ]
+  },
+  {
+    "id": "world-ai-discovery",
+    "scope": "Global",
+    "title": "ИИ входит в поиск товаров",
+    "subtitle": "Новый слой между брендом и покупателем",
+    "claim": "NIQ описывает использование ИИ в поиске товаров. Это сигнал изменения пути выбора, требующий проверки по рынкам и аудиториям.",
+    "categories": [
+      "TechnologyAI",
+      "Consumer",
+      "Retail"
+    ],
+    "themes": [
+      "ai_choice",
+      "consumer"
+    ],
+    "icon": "ai",
+    "stage": "emerging",
+    "editorial_reviewed": true,
+    "limitation": "Один отчет NIQ и World Data Lab — одно основание. Показатель 74% относится к исследуемой аудитории и не переносится на население России.",
+    "interpretation": "Проверить видимость и точность описания бренда в новых поисковых сценариях.",
+    "russia_implication": "Проверить использование доступных ИИ-сервисов именно целевой аудиторией бренда и качество их ответов о продукте.",
+    "evidence": [
+      {
+        "url": "https://nielseniq.com/global/en/news-center/2026/74-of-shoppers-use-ai-for-discovery-niq-showcases-what-that-means-for-the-consumer-purchase-journey-in-new-report",
+        "origin_id": "niq-worlddatalab-2026",
+        "origin_label": "NIQ + World Data Lab",
+        "milestone": "Исследовательский сигнал",
+        "support": "74% участников исследования используют ИИ для поиска товаров.",
+        "supports_claim": true
+      }
+    ]
+  },
+  {
+    "id": "world-retail-media-quality",
+    "scope": "Global",
+    "title": "Ритейл-медиа: внимание к качеству",
+    "subtitle": "Рост размещений и вопрос эффективности",
+    "claim": "Рост рекламных расходов на торговых площадках сопровождается вопросами к качеству контакта и запоминаемости.",
+    "categories": [
+      "MediaAdvertising",
+      "Retail"
+    ],
+    "themes": [
+      "retail_media",
+      "ad_market"
+    ],
+    "icon": "target",
+    "stage": "emerging",
+    "editorial_reviewed": true,
+    "limitation": "Прогноз расходов WARC не измеряет эффективность. Данные Ipsos в пересказе требуют проверки выборки и методики перед применением.",
+    "interpretation": "Оценивать не только объем инвентаря, но и качество креатива, частоту и дополнительный результат.",
+    "russia_implication": "Отдельно проверить локальные форматы и измеримость контакта. Не переносить зарубежные показатели эффективности напрямую.",
+    "evidence": [
+      {
+        "url": "https://adindex.ru/news/researches/2026/08/20/348156.phtml",
+        "origin_id": "warc-commerce-media-2026",
+        "origin_label": "WARC · пересказ AdIndex",
+        "milestone": "Размер рынка",
+        "support": "Прогноз мировых расходов на retail media в 2026 году.",
+        "supports_claim": false
+      },
+      {
+        "url": "https://nielseniq.com/global/en/news-center/2026/74-of-shoppers-use-ai-for-discovery-niq-showcases-what-that-means-for-the-consumer-purchase-journey-in-new-report",
+        "origin_id": "niq-worlddatalab-2026",
+        "origin_label": "NIQ + World Data Lab",
+        "milestone": "Путь к покупке",
+        "support": "Исследование роли retail media в выборе.",
+        "supports_claim": false
+      }
+    ]
+  }
+]

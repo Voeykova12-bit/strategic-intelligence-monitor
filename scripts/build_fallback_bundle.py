@@ -20,9 +20,12 @@ def main():
     news = read(NEWS, {"items": []})
     reports = read(REPORTS, {"reports": []})
     metrics = read(METRICS, {"metrics": []})
+    intelligence = read(ROOT/'data/intelligence.json', {'events': []})
     if not news.get('items') or not reports.get('reports') or not metrics.get('metrics'):
         raise ValueError('Refusing to overwrite last-known-good snapshot with empty data')
-    for name, data in [('news',news),('reports',reports),('metrics',metrics)]:
+    if not intelligence.get('events'):
+        raise ValueError('Refusing to publish an empty intelligence archive')
+    for name, data in [('news',news),('reports',reports),('metrics',metrics),('intelligence',intelligence)]:
         target = ROOT / 'docs' / 'data' / (name + '.json')
         target.parent.mkdir(parents=True, exist_ok=True)
         target.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding='utf-8')
@@ -44,6 +47,7 @@ def main():
         },
         "reports": reports,
         "metrics": metrics,
+        "intelligence": intelligence,
     }
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(

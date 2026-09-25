@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-25T10:18:20.903815+00:00",
+  "updated_at": "2026-09-25T10:21:46.523530+00:00",
   "source_count": 42,
-  "item_count": 388,
+  "item_count": 389,
   "retention_days": 365,
   "categories": [
     {
@@ -114,7 +114,7 @@
     },
     {
       "source": "АВТОСТАТ — авторынок",
-      "added": 0
+      "added": 1
     },
     {
       "source": "РБК Недвижимость — рынок недвижимости",
@@ -157,8 +157,8 @@
     },
     {
       "source": "Росстат — новости статистики",
-      "added": 0,
-      "status": "error"
+      "added": 2,
+      "status": "ok"
     },
     {
       "source": "AdIndex — реклама и медиа",
@@ -183,7 +183,7 @@
     {
       "source": "Минэкономразвития — новости",
       "added": 0,
-      "status": "error"
+      "status": "no_dated_items"
     },
     {
       "source": "ФАС России — новости",
@@ -197,7 +197,7 @@
     },
     {
       "source": "РБК Тренды",
-      "added": 2,
+      "added": 1,
       "status": "ok"
     },
     {
@@ -263,7 +263,7 @@
     {
       "source": "PROfashion",
       "added": 0,
-      "status": "error"
+      "status": "no_dated_items"
     },
     {
       "source": "Fashion Consulting Group — Telegram",
@@ -278,24 +278,8 @@
   ],
   "errors": [
     {
-      "source": "АВТОСТАТ — авторынок",
-      "error": "HTTP Error 403: Forbidden"
-    },
-    {
-      "source": "Росстат — новости статистики",
-      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
-    },
-    {
-      "source": "Минэкономразвития — новости",
-      "error": "<urlopen error timed out>"
-    },
-    {
       "source": "ФАС России — новости",
-      "error": "<urlopen error timed out>"
-    },
-    {
-      "source": "PROfashion",
-      "error": "<urlopen error timed out>"
+      "error": "HTTP Error 500: Internal Server Error"
     }
   ],
   "items": [
@@ -7848,6 +7832,45 @@
       "metrics": [],
       "source_quality": 4.2,
       "publisher_id": "sostav.ru"
+    },
+    {
+      "id": "5b953da020d2e23ec4",
+      "title": "Рынок пикапов с пробегом в августе показал незначительный рост",
+      "url": "https://autostat.ru/news/63166",
+      "source": "АВТОСТАТ — авторынок",
+      "published_at": "2026-09-25T00:00:00+00:00",
+      "summary": "Согласно данным агентства «АВТОСТАТ», в августе 2026 года россияне приобрели 3 092 подержанных пикапа. Это всего лишь на 0,7% больше, чем в том же месяце прошлого года (3 073 шт.).",
+      "categories": [
+        "Automotive"
+      ],
+      "primary_category": "Automotive",
+      "topics": [
+        "Рынок и продажи",
+        "M&A и инвестиции"
+      ],
+      "brands": [],
+      "score": 2.2,
+      "strategic_relevance_score": 44,
+      "relevance_reasons": [
+        "рынок / бизнес",
+        "инвестиции / M&A",
+        "есть данные"
+      ],
+      "why_it_matters": "Важен для понимания продаж, цен, модельного ряда, дилерской сети и конкурентной динамики авторынка. Отобрано как: рынок / бизнес, инвестиции / M&A, есть данные.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [
+        {
+          "type": "Рыночная метрика",
+          "value": "0,7%",
+          "context": "Это всего лишь на 0,7% больше, чем в том же месяце прошлого года (3 073 шт."
+        }
+      ],
+      "source_quality": 4.8,
+      "publisher_id": "autostat.ru"
     },
     {
       "id": "692b37170529db07b5",
