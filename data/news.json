@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-25T10:21:46.523530+00:00",
+  "updated_at": "2026-09-25T11:01:08.207235+00:00",
   "source_count": 42,
-  "item_count": 389,
+  "item_count": 394,
   "retention_days": 365,
   "categories": [
     {
@@ -74,7 +74,7 @@
   "source_stats": [
     {
       "source": "Retail.ru — новости",
-      "added": 1
+      "added": 0
     },
     {
       "source": "Retail.ru — статьи",
@@ -86,11 +86,11 @@
     },
     {
       "source": "РБК — бизнес и экономика",
-      "added": 1
+      "added": 2
     },
     {
       "source": "Коммерсантъ — новости",
-      "added": 1
+      "added": 0
     },
     {
       "source": "Ведомости — новости",
@@ -102,11 +102,11 @@
     },
     {
       "source": "CNews — бизнес и технологии",
-      "added": 2
+      "added": 0
     },
     {
       "source": "ТАСС — экономика и компании",
-      "added": 0
+      "added": 2
     },
     {
       "source": "Finam — компании и рынки",
@@ -114,7 +114,7 @@
     },
     {
       "source": "АВТОСТАТ — авторынок",
-      "added": 1
+      "added": 0
     },
     {
       "source": "РБК Недвижимость — рынок недвижимости",
@@ -157,8 +157,8 @@
     },
     {
       "source": "Росстат — новости статистики",
-      "added": 2,
-      "status": "ok"
+      "added": 0,
+      "status": "error"
     },
     {
       "source": "AdIndex — реклама и медиа",
@@ -183,7 +183,7 @@
     {
       "source": "Минэкономразвития — новости",
       "added": 0,
-      "status": "no_dated_items"
+      "status": "error"
     },
     {
       "source": "ФАС России — новости",
@@ -197,7 +197,7 @@
     },
     {
       "source": "РБК Тренды",
-      "added": 1,
+      "added": 2,
       "status": "ok"
     },
     {
@@ -263,7 +263,7 @@
     {
       "source": "PROfashion",
       "added": 0,
-      "status": "no_dated_items"
+      "status": "error"
     },
     {
       "source": "Fashion Consulting Group — Telegram",
@@ -278,8 +278,24 @@
   ],
   "errors": [
     {
+      "source": "АВТОСТАТ — авторынок",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "Росстат — новости статистики",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+    },
+    {
+      "source": "Минэкономразвития — новости",
+      "error": "<urlopen error timed out>"
+    },
+    {
       "source": "ФАС России — новости",
-      "error": "HTTP Error 500: Internal Server Error"
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "source": "PROfashion",
+      "error": "<urlopen error timed out>"
     }
   ],
   "items": [
@@ -3161,6 +3177,38 @@
       "publisher_id": "infoline.spb.ru"
     },
     {
+      "id": "d2dd6e6a25a3138195",
+      "title": "OpenAI расширила платформу ChatGPT Ads до Юго-Восточной Азии и Тайваня",
+      "url": "https://adindex.ru/news/digital/2026/09/25/349269.phtml",
+      "source": "AdIndex — реклама и медиа",
+      "published_at": "2026-09-25T10:35:04+00:00",
+      "summary": "Новости Бизнес СМИ AdIndex из рубрики Диджитал — OpenAI расширила платформу ChatGPT Ads до Юго-Восточной Азии и Тайваня — Рекламная площадка стала доступна в семи новых странах, общее число рынков превысило 60",
+      "categories": [
+        "MediaAdvertising",
+        "TechnologyAI"
+      ],
+      "primary_category": "MediaAdvertising",
+      "topics": [
+        "Форматы и экспансия",
+        "Маркетинг и медиа",
+        "Digital и технологии"
+      ],
+      "brands": [],
+      "score": 3.8,
+      "strategic_relevance_score": 76,
+      "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
+      "market_scope": "Russia",
+      "metrics": [],
+      "image_url": "",
+      "source_quality": 4.5,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": [],
+      "pdf_urls": [],
+      "research_primary": false,
+      "publisher_id": "adindex.ru"
+    },
+    {
       "id": "e8254f20395e18c0cf",
       "title": "Медиабизнес столкнется с замедлением роста и начнет менять стратегии в 2027 году",
       "url": "https://adindex.ru/news/tendencies/2026/09/25/349267.phtml",
@@ -4702,6 +4750,45 @@
       "publisher_id": "irn.ru"
     },
     {
+      "id": "b1ad411e255efc577b",
+      "title": "78% покупателей приобретают косметику онлайн | New Retail",
+      "url": "https://new-retail.ru/novosti/retail/78_pokupateley_priobretayut_ukhodovuyu_kosmetiku_onlayn",
+      "source": "New Retail — отраслевые новости",
+      "published_at": "2026-09-24T21:00:00+00:00",
+      "summary": "Категория «Красота» на маркетплейсах растет быстрее всего рынка электронной коммерции. Лидером в категории остается Wildberries.",
+      "categories": [
+        "Retail",
+        "DeliveryEcom",
+        "TechnologyAI",
+        "Consumer"
+      ],
+      "primary_category": "Retail",
+      "topics": [
+        "Потребитель",
+        "Digital и технологии"
+      ],
+      "brands": [],
+      "score": 3.4,
+      "strategic_relevance_score": 68,
+      "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
+      "market_scope": "Russia",
+      "metrics": [
+        {
+          "type": "Рыночная метрика",
+          "value": "78%",
+          "context": "78% покупателей приобретают косметику онлайн | New Retail. Категория «Красота» на маркетплейсах растет быстрее вс"
+        }
+      ],
+      "image_url": "",
+      "source_quality": 4.2,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": [],
+      "pdf_urls": [],
+      "research_primary": false,
+      "publisher_id": "new-retail.ru"
+    },
+    {
       "id": "eb6cd9cd5e197d60b5",
       "title": "Продажи картофельных чипсов в первом полугодии выросли на 9% | New Retail",
       "url": "https://new-retail.ru/novosti/retail/prodazhi_kartofelnykh_chipsov_v_pervom_polugodii_vyrosli_na_9",
@@ -5369,43 +5456,6 @@
       "future_signal": false,
       "future_horizon": [],
       "publisher_id": "modernretail.co"
-    },
-    {
-      "id": "b1ad411e255efc577b",
-      "title": "78% покупателей приобретают косметику онлайн | New Retail",
-      "url": "https://new-retail.ru/novosti/retail/78_pokupateley_priobretayut_ukhodovuyu_kosmetiku_onlayn",
-      "source": "New Retail — отраслевые новости",
-      "published_at": "2026-09-24T21:00:00+00:00",
-      "summary": "Категория «Красота» на маркетплейсах растет быстрее всего рынка электронной коммерции.",
-      "categories": [
-        "Retail",
-        "DeliveryEcom",
-        "Consumer"
-      ],
-      "primary_category": "Retail",
-      "topics": [
-        "Потребитель"
-      ],
-      "brands": [],
-      "score": 3.3,
-      "strategic_relevance_score": 66,
-      "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
-      "market_scope": "Russia",
-      "metrics": [
-        {
-          "type": "Рыночная метрика",
-          "value": "78%",
-          "context": "78% покупателей приобретают косметику онлайн | New Retail. Категория «Красота» на маркетплейсах растет быстрее вс"
-        }
-      ],
-      "image_url": "",
-      "source_quality": 4.2,
-      "content_type": "news",
-      "future_signal": false,
-      "future_horizon": [],
-      "pdf_urls": [],
-      "research_primary": false,
-      "publisher_id": "new-retail.ru"
     },
     {
       "id": "e9315db84c6baad9e8",
@@ -7699,6 +7749,41 @@
       "publisher_id": "sostav.ru"
     },
     {
+      "id": "08165c685e9cc8f552",
+      "title": "«АвтоВАЗ» запустил производство нового кроссовера Lada Azimut",
+      "url": "https://rbc.ru/business/12/12/2025/693c30329a7947bb5651568c",
+      "source": "РБК — бизнес и экономика",
+      "published_at": "2026-09-25T10:53:22+00:00",
+      "summary": "«АвтоВАЗ» запустил производство нового кроссовера Lada Azimut в Тольятти. Продажи этих автомобилей начнутся в конце этого года",
+      "categories": [
+        "Automotive"
+      ],
+      "primary_category": "Automotive",
+      "topics": [
+        "Рынок и продажи",
+        "Запуск продукта/сервиса"
+      ],
+      "brands": [
+        "LADA",
+        "АвтоВАЗ"
+      ],
+      "score": 2.3,
+      "strategic_relevance_score": 46,
+      "relevance_reasons": [
+        "рынок / бизнес",
+        "крупный игрок"
+      ],
+      "why_it_matters": "Важен для понимания продаж, цен, модельного ряда, дилерской сети и конкурентной динамики авторынка. В фокусе: LADA, АвтоВАЗ. Отобрано как: рынок / бизнес, крупный игрок.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [],
+      "source_quality": 4.5,
+      "publisher_id": "rbc.ru"
+    },
+    {
       "id": "ea5773cd1ef401f25f",
       "title": "Онлайн-продажи косметики на маркетплейсах выросли на 42%",
       "url": "https://sostav.ru/publication/onlajn-prodazhi-kosmetiki-na-marketplejsakh-vyrosli-na-42-87221.html",
@@ -7832,45 +7917,6 @@
       "metrics": [],
       "source_quality": 4.2,
       "publisher_id": "sostav.ru"
-    },
-    {
-      "id": "5b953da020d2e23ec4",
-      "title": "Рынок пикапов с пробегом в августе показал незначительный рост",
-      "url": "https://autostat.ru/news/63166",
-      "source": "АВТОСТАТ — авторынок",
-      "published_at": "2026-09-25T00:00:00+00:00",
-      "summary": "Согласно данным агентства «АВТОСТАТ», в августе 2026 года россияне приобрели 3 092 подержанных пикапа. Это всего лишь на 0,7% больше, чем в том же месяце прошлого года (3 073 шт.).",
-      "categories": [
-        "Automotive"
-      ],
-      "primary_category": "Automotive",
-      "topics": [
-        "Рынок и продажи",
-        "M&A и инвестиции"
-      ],
-      "brands": [],
-      "score": 2.2,
-      "strategic_relevance_score": 44,
-      "relevance_reasons": [
-        "рынок / бизнес",
-        "инвестиции / M&A",
-        "есть данные"
-      ],
-      "why_it_matters": "Важен для понимания продаж, цен, модельного ряда, дилерской сети и конкурентной динамики авторынка. Отобрано как: рынок / бизнес, инвестиции / M&A, есть данные.",
-      "client_matches": {},
-      "market_scope": "Russia",
-      "future_horizon": [],
-      "future_signal": false,
-      "content_type": "news",
-      "metrics": [
-        {
-          "type": "Рыночная метрика",
-          "value": "0,7%",
-          "context": "Это всего лишь на 0,7% больше, чем в том же месяце прошлого года (3 073 шт."
-        }
-      ],
-      "source_quality": 4.8,
-      "publisher_id": "autostat.ru"
     },
     {
       "id": "692b37170529db07b5",
@@ -8526,6 +8572,38 @@
       "publisher_id": "sostav.ru"
     },
     {
+      "id": "d02593e8f3672ff794",
+      "title": "Эксперты оценили сценарии возобновления инвестцикла в новом макропрогнозе МЭР",
+      "url": "https://tass.ru/ekonomika/28150977",
+      "source": "ТАСС — экономика и компании",
+      "published_at": "2026-09-25T10:21:43+00:00",
+      "summary": "Обновленный прогноз социально-экономического развития России на 2026 год носит сдержанный и умеренно консервативный характер, считает руководитель направления анализа и прогнозирования развития отраслей реального сектора Центра макроэкономического анализа и краткосрочного прогнозирования Владимир Сальников",
+      "categories": [
+        "FinanceEconomy"
+      ],
+      "primary_category": "FinanceEconomy",
+      "topics": [
+        "Исследования и прогнозы"
+      ],
+      "brands": [],
+      "score": 2.1,
+      "strategic_relevance_score": 42,
+      "relevance_reasons": [
+        "будущий горизонт"
+      ],
+      "why_it_matters": "Задает макроконтекст для спроса, потребительских расходов и бизнес-планирования. Горизонт: future. Отобрано как: будущий горизонт.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [
+        "future"
+      ],
+      "future_signal": true,
+      "content_type": "forecast",
+      "metrics": [],
+      "source_quality": 4.5,
+      "publisher_id": "tass.ru"
+    },
+    {
       "id": "9c3a39972e140da82b",
       "title": "С 15 октября операторы могут начать блокировать звонки банков без маркировки",
       "url": "https://kommersant.ru/doc/8974700",
@@ -9106,6 +9184,40 @@
       "content_type": "news",
       "source_quality": 4.0,
       "publisher_id": "retail.ru"
+    },
+    {
+      "id": "855ecccec01739f682",
+      "title": "Операторы допустили блокировку звонков банков без маркировки с 15 октября",
+      "url": "https://rbc.ru/politics/26/06/2026/6a3ea24e9a79477c633f3010",
+      "source": "РБК — бизнес и экономика",
+      "published_at": "2026-09-25T09:52:52+00:00",
+      "summary": "Компания МТС готова с 15 октября блокировать немаркированные звонки банков, сообщили РБК в пресс-службе оператора.",
+      "categories": [
+        "BanksFintech",
+        "Telecom"
+      ],
+      "primary_category": "BanksFintech",
+      "topics": [
+        "Регулирование"
+      ],
+      "brands": [
+        "МТС"
+      ],
+      "score": 2.0,
+      "strategic_relevance_score": 40,
+      "relevance_reasons": [
+        "регулирование",
+        "крупный игрок"
+      ],
+      "why_it_matters": "Может менять банковские офферы, финтех-сервисы, клиентское поведение и коммуникационную конкуренцию. В фокусе: МТС. Отобрано как: регулирование, крупный игрок.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [],
+      "source_quality": 4.5,
+      "publisher_id": "rbc.ru"
     },
     {
       "id": "e345ff81d3d856b86b",
@@ -10455,6 +10567,38 @@
       "content_type": "forecast",
       "source_quality": 4.0,
       "publisher_id": "finam.ru"
+    },
+    {
+      "id": "497af55b45df42e4ee",
+      "title": "СДЭК начал производить продукты питания под своим брендом",
+      "url": "https://sostav.ru/publication/sdek-nachal-proizvodit-produkty-pitaniya-pod-svoim-brendom-87239.html",
+      "source": "Sostav — маркетинг и бренды",
+      "published_at": "2026-09-25T10:40:00+00:00",
+      "summary": "В продаже появились злаковые батончики, кофе в зернах и дрип-пакетах",
+      "categories": [
+        "FMCG"
+      ],
+      "primary_category": "FMCG",
+      "topics": [
+        "Рынок и продажи",
+        "Маркетинг и медиа"
+      ],
+      "brands": [],
+      "score": 1.8,
+      "strategic_relevance_score": 36,
+      "relevance_reasons": [
+        "рынок / бизнес",
+        "маркетинг"
+      ],
+      "why_it_matters": "Показывает сдвиги в спросе, портфелях брендов, ценах, дистрибуции и потребительских привычках. Отобрано как: рынок / бизнес, маркетинг.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [],
+      "source_quality": 4.2,
+      "publisher_id": "sostav.ru"
     },
     {
       "id": "41100e8f1f028e236c",
@@ -13673,6 +13817,40 @@
       "content_type": "news",
       "source_quality": 4.0,
       "publisher_id": "cnews.ru"
+    },
+    {
+      "id": "067ecaea565b3851d8",
+      "title": "Путин поздравил \"Автоваз\" с началом серийного выпуска Lada Azimut",
+      "url": "https://tass.ru/ekonomika/28151435",
+      "source": "ТАСС — экономика и компании",
+      "published_at": "2026-09-25T10:23:01+00:00",
+      "summary": "Президент РФ рассчитывает, что предприятие, ориентируясь на передовой отраслевой опыт и современные требования к качеству, надежности, безопасности автомобилей, продолжит пополнять линейку своей продукции",
+      "categories": [
+        "Automotive"
+      ],
+      "primary_category": "Automotive",
+      "topics": [
+        "Регулирование"
+      ],
+      "brands": [
+        "LADA",
+        "АвтоВАЗ"
+      ],
+      "score": 1.2,
+      "strategic_relevance_score": 24,
+      "relevance_reasons": [
+        "регулирование",
+        "крупный игрок"
+      ],
+      "why_it_matters": "Важен для понимания продаж, цен, модельного ряда, дилерской сети и конкурентной динамики авторынка. В фокусе: LADA, АвтоВАЗ. Отобрано как: регулирование, крупный игрок.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [],
+      "source_quality": 4.5,
+      "publisher_id": "tass.ru"
     },
     {
       "id": "57dce8b049e6625eac",
