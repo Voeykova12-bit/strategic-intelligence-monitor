@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-09-25T08:53:35.277784+00:00",
-  "report_count": 42,
+  "report_count": 39,
   "categories": [
     "Ритейл",
     "Авто",
@@ -370,40 +370,6 @@
       "archived_at": "2026-09-25T08:53:40.193635+00:00"
     },
     {
-      "id": "retail-di-ecommerce-2026",
-      "category": "Ритейл",
-      "title": "Интернет-торговля в России 2026",
-      "organization": "Data Insight",
-      "date": "2026-03-31",
-      "description": "Ежегодный отчет о российском eCommerce: 13,4 трлн ₽ в 2025 году, структура заказов, маркетплейсы и прогноз на 2026–2027 годы.",
-      "url": "https://datainsight.ru/sites/default/files/DI_eCommerce_2026.pdf",
-      "landing_url": "https://datainsight.ru/DI_eCommerce_2026",
-      "kind": "local_pdf",
-      "access": "public",
-      "archive": true,
-      "curated": true,
-      "status": "ok",
-      "http_status": 200,
-      "checked_at": "2026-09-25T08:53:35.277784+00:00",
-      "local_path": "reports/retail-di-ecommerce-2026.pdf",
-      "archived_at": "2026-09-25T08:54:25.324507+00:00"
-    },
-    {
-      "id": "realestate-rosstat-2026",
-      "category": "Недвижимость",
-      "title": "Социально-экономическое положение России — январь–июль 2026",
-      "organization": "Росстат",
-      "date": "2026-09-02",
-      "description": "Официальный доклад Росстата; включает строительство, жилье, доходы, торговлю, производство и другие макропоказатели.",
-      "url": "https://rosstat.gov.ru/compendium/document/50801",
-      "kind": "external_report",
-      "access": "public",
-      "curated": true,
-      "status": "browser_only",
-      "http_status": null,
-      "checked_at": "2026-09-25T08:53:35.277784+00:00"
-    },
-    {
       "id": "realestate-cbr-projectfinance-q2-2026",
       "category": "Недвижимость",
       "title": "Проектное финансирование строительства жилья — II квартал 2026",
@@ -483,21 +449,6 @@
       "checked_at": "2026-09-25T08:53:35.277784+00:00",
       "local_path": "reports/banks-cbr-sector-aug-2026.pdf",
       "archived_at": "2026-09-25T08:53:54.624473+00:00"
-    },
-    {
-      "id": "banks-cbr-bank-sector-hub",
-      "category": "Банки",
-      "title": "Развитие банковского сектора Российской Федерации",
-      "organization": "Банк России",
-      "date": "2026-09-22",
-      "description": "Коллекция ежемесячных аналитических материалов Банка России по банковскому сектору.",
-      "url": "https://www.cbr.ru/analytics/bank_sector/develop/",
-      "kind": "external_report",
-      "access": "public",
-      "curated": true,
-      "status": "ok",
-      "http_status": 200,
-      "checked_at": "2026-09-25T08:53:35.277784+00:00"
     },
     {
       "id": "auto-94021e79446c4f5ec8",
