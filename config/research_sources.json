@@ -1,0 +1,187 @@
+{
+  "origin": "Ресурсы для рисеча 2.docx",
+  "sources": [
+    {
+      "name": "РБК Тренды",
+      "url": "https://trends.rbc.ru/trends/",
+      "hint": "Consumer",
+      "quality": 4.5,
+      "path_contains": [
+        "/trends/"
+      ]
+    },
+    {
+      "name": "ФармМедПром",
+      "url": "https://pharmmedprom.ru/",
+      "hint": "Pharma",
+      "quality": 4.2,
+      "path_contains": [
+        "/news/",
+        "/novosti/",
+        "/issledovaniya/"
+      ]
+    },
+    {
+      "name": "Фармацевтический вестник",
+      "url": "https://pharmvestnik.ru/",
+      "hint": "Pharma",
+      "quality": 4.5,
+      "path_contains": [
+        "/content/news/",
+        "/content/articles/"
+      ]
+    },
+    {
+      "name": "DSM Group",
+      "url": "https://dsm.ru/news/",
+      "hint": "Pharma",
+      "quality": 4.8,
+      "research_primary": true,
+      "path_contains": [
+        "/news/"
+      ]
+    },
+    {
+      "name": "РБК Исследования рынков",
+      "url": "https://marketing.rbc.ru/articles/",
+      "hint": "Consumer",
+      "quality": 4.6,
+      "path_contains": [
+        "/articles/"
+      ]
+    },
+    {
+      "name": "Retailer.ru",
+      "url": "https://retailer.ru/feed/",
+      "hint": "Retail",
+      "quality": 4.3,
+      "kind": "rss"
+    },
+    {
+      "name": "INFOLine",
+      "url": "https://infoline.spb.ru/news/",
+      "hint": "Retail",
+      "quality": 4.8,
+      "research_primary": true,
+      "path_contains": [
+        "/news/"
+      ]
+    },
+    {
+      "name": "Frank RG",
+      "url": "https://frankrg.com/",
+      "hint": "BanksFintech",
+      "quality": 4.8,
+      "research_primary": true,
+      "path_contains": [
+        "/news/"
+      ],
+      "path_regex": false
+    },
+    {
+      "name": "Сравни",
+      "url": "https://www.sravni.ru/mag/rubrika/novosti/",
+      "hint": "BanksFintech",
+      "quality": 4.2,
+      "path_contains": [
+        "/text/",
+        "/mag/"
+      ]
+    },
+    {
+      "name": "ИРН",
+      "url": "https://www.irn.ru/news/",
+      "hint": "RealEstate",
+      "quality": 4.5,
+      "path_contains": [
+        "/news/"
+      ]
+    },
+    {
+      "name": "ЕРЗ.РФ",
+      "url": "https://erzrf.ru/news",
+      "hint": "RealEstate",
+      "quality": 4.5,
+      "path_contains": [
+        "/news/"
+      ]
+    },
+    {
+      "name": "Левада-Центр",
+      "url": "https://www.levada.ru/feed/",
+      "kind": "rss",
+      "hint": "Consumer",
+      "quality": 4.7,
+      "research_primary": true,
+      "consumer_only": true,
+      "path_contains": [
+        "/20"
+      ]
+    },
+    {
+      "name": "ВЦИОМ",
+      "url": "https://wciom.ru/analytical-reviews",
+      "hint": "Consumer",
+      "quality": 4.7,
+      "research_primary": true,
+      "consumer_only": true,
+      "path_contains": [
+        "/analytical-reviews/analiticheskii-obzor/"
+      ]
+    },
+    {
+      "name": "PROfashion",
+      "url": "https://profashion.ru/business/",
+      "hint": "Fashion",
+      "quality": 4.4,
+      "path_contains": [
+        "/business/"
+      ]
+    },
+    {
+      "name": "Fashion Consulting Group — Telegram",
+      "url": "https://t.me/s/fcgchannel",
+      "hint": "Fashion",
+      "quality": 3.3,
+      "kind": "telegram",
+      "supplementary": true
+    }
+  ],
+  "existing_coverage": [
+    {
+      "url": "https://www.kommersant.ru/theme/1151",
+      "via": "Коммерсантъ — новости",
+      "rule": "Pharma keywords in existing RSS; no duplicate collector"
+    },
+    {
+      "url": "https://new-retail.ru/",
+      "via": "New Retail — отраслевые новости"
+    },
+    {
+      "url": "https://datainsight.ru/",
+      "via": "Data Insight — исследования"
+    },
+    {
+      "url": "https://www.banki.ru/",
+      "via": "Банки.ру — новости"
+    },
+    {
+      "url": "https://realty.rbc.ru/",
+      "via": "РБК Недвижимость — рынок недвижимости"
+    },
+    {
+      "url": "https://romir.ru/",
+      "via": "РОМИР — аналитика"
+    },
+    {
+      "url": "https://cbr.ru/ec_research/",
+      "via": "Банк России — исследования",
+      "rule": "Additional research section, same publisher_id as existing CBR feeds"
+    },
+    {
+      "url": "https://www.rbc.ru/economics/",
+      "via": "РБК — бизнес и экономика",
+      "rule": "Existing RSS finance classification"
+    }
+  ]
+}

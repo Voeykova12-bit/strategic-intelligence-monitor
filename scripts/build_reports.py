@@ -5,6 +5,7 @@ import re
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 from urllib.request import Request, urlopen
+from source_utils import canonical_url
 
 ROOT = Path(__file__).resolve().parents[1]
 CONFIG = ROOT / "config" / "reports.json"
@@ -15,6 +16,7 @@ UA = "StrategyRadar/1.0 (+research library)"
 MAX_ARCHIVE_BYTES = 40 * 1024 * 1024
 
 CATEGORY_MAP = {
+    "Pharma": "Фарма", "Fashion": "Мода",
     "Retail": "Ритейл", "DeliveryEcom": "Ритейл", "FMCG": "Ритейл", "Consumer": "Ритейл",
     "Automotive": "Авто", "RealEstate": "Недвижимость",
     "BanksFintech": "Банки", "FinanceEconomy": "Финансы", "MediaAdvertising": "Финансы",
@@ -47,6 +49,8 @@ def specific_url(url: str) -> bool:
     return len(path.strip("/")) >= 4
 
 def category_for(item: dict) -> str | None:
+    if item.get('primary_category') in CATEGORY_MAP:
+        return CATEGORY_MAP[item['primary_category']]
     for c in item.get("categories") or []:
         if c in CATEGORY_MAP:
             return CATEGORY_MAP[c]
@@ -68,12 +72,12 @@ def auto_reports(news: dict, known_urls: set[str]) -> list[dict]:
         quality = float(item.get("source_quality", 4.0) or 4.0)
         ctype = item.get("content_type")
         topics = item.get("topics") or []
-        if ctype != "research" and "Исследования и прогнозы" not in topics:
+        if ctype != "research":
             continue
         if score < 82 or quality < 4.2:
             continue
         url = item.get("url") or ""
-        if url in known_urls or not specific_url(url):
+        if canonical_url(url) in known_urls or not specific_url(url):
             continue
         category = category_for(item)
         if not category:
@@ -88,14 +92,14 @@ def auto_reports(news: dict, known_urls: set[str]) -> list[dict]:
             "organization": (item.get("source") or "Источник").split("—")[0].strip(),
             "date": published.date().isoformat(),
             "description": (item.get("summary") or item.get("why_it_matters") or "").strip()[:340],
-            "url": url,
+            "url": (item.get("pdf_urls") or [url])[0],
             "landing_url": url,
-            "kind": "external_pdf" if url.lower().split("?")[0].endswith(".pdf") else "external_report",
+            "kind": "external_pdf" if item.get("pdf_urls") or url.lower().split("?")[0].endswith(".pdf") else "external_report",
             "access": "public",
             "source_item_id": item.get("id"),
             "strategic_relevance_score": score,
         })
-        known_urls.add(url)
+        known_urls.add(canonical_url(url))
     candidates.sort(key=lambda x: (x.get("strategic_relevance_score", 0), x.get("date", "")), reverse=True)
     per_category, selected = {}, []
     for r in candidates:
@@ -126,7 +130,7 @@ def archive_pdf(report: dict) -> tuple[bool, str]:
             data = r.read(MAX_ARCHIVE_BYTES + 1)
             if len(data) > MAX_ARCHIVE_BYTES:
                 return False, "too_large"
-            if not data.startswith(b"%PDF") and "pdf" not in content_type:
+            if not data.startswith(b"%PDF"):
                 return False, "not_pdf"
             path.write_bytes(data)
         report["local_path"] = "reports/" + name
@@ -145,7 +149,20 @@ def main() -> None:
     except Exception:
         news = {"items": []}
 
-    known = {r.get("url", "") for r in curated}
+    known = {canonical_url(r.get("url", "")) for r in curated}
+    # Retain prior records when a source is temporarily unavailable.
+    previous = json.loads(OUTPUT.read_text(encoding="utf-8")) if OUTPUT.exists() else {"reports": []}
+    current_items = {x['id']: x for x in news.get('items', [])}
+    for r in previous.get("reports", []):
+        current = current_items.get(r.get('source_item_id'))
+        if current and current.get('content_type') != 'research':
+            continue
+        if current:
+            r['category'] = category_for(current) or r['category']
+        key = canonical_url(r.get("landing_url") or r.get("url", ""))
+        if key not in known:
+            curated.append(r)
+            known.add(key)
     reports = list(curated) + auto_reports(news, known)
     checked_at = datetime.now(timezone.utc).isoformat()
     archive_errors = []
@@ -161,12 +178,12 @@ def main() -> None:
         if report.get("archive") and not ok and err:
             archive_errors.append({"id": report.get("id"), "error": err})
 
-    reports = [r for r in reports if r.get("status") in {"ok", "browser_only"} or r.get("access") == "paid"]
+    # Unverified links remain explicitly marked, without erasing the library.
     reports.sort(key=lambda r: (r.get("category", ""), r.get("date", "")), reverse=True)
     payload = {
         "updated_at": checked_at,
         "report_count": len(reports),
-        "categories": ["Ритейл", "Авто", "Недвижимость", "Банки", "Финансы"],
+        "categories": ["Ритейл", "Авто", "Недвижимость", "Банки", "Финансы", "Фарма", "Мода"],
         "reports": reports,
         "archive_errors": archive_errors,
     }

@@ -20,6 +20,12 @@ def main():
     news = read(NEWS, {"items": []})
     reports = read(REPORTS, {"reports": []})
     metrics = read(METRICS, {"metrics": []})
+    if not news.get('items') or not reports.get('reports') or not metrics.get('metrics'):
+        raise ValueError('Refusing to overwrite last-known-good snapshot with empty data')
+    for name, data in [('news',news),('reports',reports),('metrics',metrics)]:
+        target = ROOT / 'docs' / 'data' / (name + '.json')
+        target.parent.mkdir(parents=True, exist_ok=True)
+        target.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding='utf-8')
 
     items = list(news.get("items", []))
     items.sort(key=lambda x: (

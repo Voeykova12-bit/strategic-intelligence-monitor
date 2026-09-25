@@ -1,14 +1,33 @@
 {
-  "updated_at": "2026-09-24T10:07:30.889572+00:00",
-  "report_count": 34,
+  "updated_at": "2026-09-25T08:47:20.410005+00:00",
+  "report_count": 42,
   "categories": [
     "Ритейл",
     "Авто",
     "Недвижимость",
     "Банки",
-    "Финансы"
+    "Финансы",
+    "Фарма",
+    "Мода"
   ],
   "reports": [
+    {
+      "id": "auto-d7e6933a5e804465ad",
+      "category": "Финансы",
+      "title": "Реклама помогает сделать выбор 47% покупателей в российском e-commerce",
+      "organization": "AdIndex",
+      "date": "2026-09-25",
+      "description": "Новости Бизнес СМИ AdIndex из рубрики Исследования — Реклама помогает сделать выбор 47% покупателей в российском e-commerce — Новости рекламы, кейсы продвижения, видеоинтервью, экспертиза, рейтинги, аналитика и тренды промо; весь деловой мир маркетинга в одном медиа.",
+      "url": "https://adindex.ru/news/researches/2026/09/21/349032.phtml",
+      "landing_url": "https://adindex.ru/news/researches/2026/09/21/349032.phtml",
+      "kind": "external_report",
+      "access": "public",
+      "source_item_id": "d7e6933a5e804465ad",
+      "strategic_relevance_score": 82,
+      "status": "ok",
+      "http_status": 200,
+      "checked_at": "2026-09-25T08:47:20.410005+00:00"
+    },
     {
       "id": "finance-rosstat-jan-jul-2026",
       "category": "Финансы",
@@ -20,9 +39,9 @@
       "kind": "external_report",
       "access": "public",
       "curated": true,
-      "status": "browser_only",
-      "http_status": null,
-      "checked_at": "2026-09-24T10:07:30.889572+00:00"
+      "status": "ok",
+      "http_status": 200,
+      "checked_at": "2026-09-25T08:47:20.410005+00:00"
     },
     {
       "id": "finance-cbr-trends-sep-2026",
@@ -37,7 +56,7 @@
       "curated": true,
       "status": "ok",
       "http_status": 200,
-      "checked_at": "2026-09-24T10:07:30.889572+00:00"
+      "checked_at": "2026-09-25T08:47:20.410005+00:00"
     },
     {
       "id": "finance-cbr-macro-bulletin",
@@ -52,41 +71,7 @@
       "curated": true,
       "status": "ok",
       "http_status": 200,
-      "checked_at": "2026-09-24T10:07:30.889572+00:00"
-    },
-    {
-      "id": "auto-bf-warc-retailmedia-20260820",
-      "category": "Финансы",
-      "title": "Эффективность рекламы в ретейл-медиа снизилась на фоне роста глобального рынка",
-      "organization": "AdIndex / WARC Media",
-      "date": "2026-08-20",
-      "description": "По данным WARC Media, глобальные расходы на retail media в 2026 году превысят 200 млрд долларов; рост инвентаря усиливает давление на эффективность кампаний.",
-      "url": "https://adindex.ru/news/researches/2026/08/20/348156.phtml",
-      "landing_url": "https://adindex.ru/news/researches/2026/08/20/348156.phtml",
-      "kind": "external_report",
-      "access": "public",
-      "source_item_id": "bf-warc-retailmedia-20260820",
-      "strategic_relevance_score": 90,
-      "status": "ok",
-      "http_status": 200,
-      "checked_at": "2026-09-24T10:07:30.889572+00:00"
-    },
-    {
-      "id": "auto-bf-adindex-eretail-20260721",
-      "category": "Финансы",
-      "title": "Сегменту e-retail media предсказали замедление роста",
-      "organization": "AdIndex",
-      "date": "2026-07-21",
-      "description": "Easy Commerce оценивает e-retail media в 932 млрд руб. в 2026 году и 1,26 трлн руб. в 2027 году; темпы роста могут замедлиться до 52% и 35%.",
-      "url": "https://adindex.ru/news/tendencies/2026/07/21/347393.phtml",
-      "landing_url": "https://adindex.ru/news/tendencies/2026/07/21/347393.phtml",
-      "kind": "external_report",
-      "access": "public",
-      "source_item_id": "bf-adindex-eretail-20260721",
-      "strategic_relevance_score": 94,
-      "status": "ok",
-      "http_status": 200,
-      "checked_at": "2026-09-24T10:07:30.889572+00:00"
+      "checked_at": "2026-09-25T08:47:20.410005+00:00"
     },
     {
       "id": "finance-akar-market-2025",
@@ -101,41 +86,7 @@
       "curated": true,
       "status": "ok",
       "http_status": 200,
-      "checked_at": "2026-09-24T10:07:30.889572+00:00"
-    },
-    {
-      "id": "auto-bf-adindex-trends-20251216",
-      "category": "Финансы",
-      "title": "Перезагрузка рекламного рынка: главные тренды, каналы и стратегии на 2026",
-      "organization": "AdIndex",
-      "date": "2025-12-16",
-      "description": "Обзор динамики рекламного рынка и стратегий брендов на 2026 год: технологии, регулирование, борьба за внимание и возвращение к долгосрочному партнерству.",
-      "url": "https://adindex.ru/publication/analitics/search/2025/12/16/340943.phtml",
-      "landing_url": "https://adindex.ru/publication/analitics/search/2025/12/16/340943.phtml",
-      "kind": "external_report",
-      "access": "public",
-      "source_item_id": "bf-adindex-trends-20251216",
-      "strategic_relevance_score": 88,
-      "status": "ok",
-      "http_status": 200,
-      "checked_at": "2026-09-24T10:07:30.889572+00:00"
-    },
-    {
-      "id": "auto-bf-romir-adinvest-20251030",
-      "category": "Финансы",
-      "title": "Бизнес планирует увеличить инвестиции в рекламу",
-      "organization": "РОМИР",
-      "date": "2025-10-30",
-      "description": "Исследование РОМИР о планах крупного и среднего бизнеса по рекламным инвестициям на фоне ожиданий оживления деловой активности.",
-      "url": "https://romir.ru/feed/snizhenie-kliuchevoi-stavki-78-menedzherov-planiruiut-uvelichit-investitsii-v-reklamu",
-      "landing_url": "https://romir.ru/feed/snizhenie-kliuchevoi-stavki-78-menedzherov-planiruiut-uvelichit-investitsii-v-reklamu",
-      "kind": "external_report",
-      "access": "public",
-      "source_item_id": "bf-romir-adinvest-20251030",
-      "strategic_relevance_score": 90,
-      "status": "ok",
-      "http_status": 200,
-      "checked_at": "2026-09-24T10:07:30.889572+00:00"
+      "checked_at": "2026-09-25T08:47:20.410005+00:00"
     },
     {
       "id": "auto-bf-adindex-retailmedia-20250925",
@@ -152,24 +103,177 @@
       "strategic_relevance_score": 92,
       "status": "ok",
       "http_status": 200,
-      "checked_at": "2026-09-24T10:07:30.889572+00:00"
+      "checked_at": "2026-09-25T08:47:20.410005+00:00"
     },
     {
-      "id": "auto-c0a9aa2c5e4252cffe",
-      "category": "Ритейл",
-      "title": "Банк России принял решение сохранить ключевую ставку на уровне 14,00% годовых (11.09.2026)",
-      "organization": "Банк России",
-      "date": "2026-09-11",
-      "description": "Совет директоров Банка России 11 сентября 2026 года принял решение сохранить ключевую ставку на уровне 14,00% годовых. Экономика в целом в 3к26 растет умеренными темпами. Текущее ценовое давление в последние месяцы существенно усилилось. По оценке Банка России, устойчивый рост цен ускорился до 5–6% в пересчете на год, прежде всего из-за в",
-      "url": "https://www.cbr.ru/press/PR/?file=11092026_133000key.htm",
-      "landing_url": "https://www.cbr.ru/press/PR/?file=11092026_133000key.htm",
+      "id": "auto-cf30e2f59e430e9ccf",
+      "category": "Фарма",
+      "title": "Динамика аптечного рынка на 36-й неделе 2026 г. (7 – 13 сентября 2026 г.)",
+      "organization": "DSM Group",
+      "date": "2026-09-21",
+      "description": "Динамика аптечного рынка на 36-й неделе 2026 г. (7 – 13 сентября 2026 г.) Динамика рынка неделя 36 '2026 vs неделя 35 '2026 Относительно предыдущей недели у лекарственных препаратов объём продаж вырос на +1,6% в упаковках и на +1,4% в рублях. Продажи БАД увеличились на +10% в упаковках и на +7,9% в рублях. Аптечные продажи косметики вырос",
+      "url": "https://dsm.ru/news/2989",
+      "landing_url": "https://dsm.ru/news/2989",
       "kind": "external_report",
       "access": "public",
-      "source_item_id": "c0a9aa2c5e4252cffe",
-      "strategic_relevance_score": 92,
+      "source_item_id": "cf30e2f59e430e9ccf",
+      "strategic_relevance_score": 86,
       "status": "ok",
       "http_status": 200,
-      "checked_at": "2026-09-24T10:07:30.889572+00:00"
+      "checked_at": "2026-09-25T08:47:20.410005+00:00"
+    },
+    {
+      "id": "auto-b7d6d9b1c8909c17b0",
+      "category": "Фарма",
+      "title": "Динамика аптечного рынка на 35-й неделе 2026 г. (31 августа – 6 сентября 2026 г.)",
+      "organization": "DSM Group",
+      "date": "2026-09-14",
+      "description": "Динамика аптечного рынка на 35-й неделе 2026 г. (31 августа – 6 сентября 2026 г.) Динамика рынка неделя 35 '2026 vs неделя 34 '2026 Относительно предыдущей недели у лекарственных препаратов объём продаж вырос на +4,9% в упаковках и на +6,7% в рублях. Продажи БАД увеличились на +8,6% в упаковках и на +6,2% в рублях. Аптечные продажи космет",
+      "url": "https://dsm.ru/news/2988",
+      "landing_url": "https://dsm.ru/news/2988",
+      "kind": "external_report",
+      "access": "public",
+      "source_item_id": "b7d6d9b1c8909c17b0",
+      "strategic_relevance_score": 86,
+      "status": "ok",
+      "http_status": 200,
+      "checked_at": "2026-09-25T08:47:20.410005+00:00"
+    },
+    {
+      "id": "auto-f7e605c6cb702053e2",
+      "category": "Фарма",
+      "title": "Динамика аптечного рынка на 34-й неделе 2026 г. (24 – 30 августа 2026 г.)",
+      "organization": "DSM Group",
+      "date": "2026-09-07",
+      "description": "Относительно предыдущей недели у лекарственных препаратов объём продаж снизился на -3,8% в упаковках и на -5,1% в рублях. Продажи БАД упали на -4,4% в упаковках и на -4% в рублях. Аптечные продажи косметики сократились на -4,5% в упаковках и на -3,7% в рублях. Реализация прочей парафармацевтики показала снижение на -1% в упаковках и на -0",
+      "url": "https://dsm.ru/news/2986",
+      "landing_url": "https://dsm.ru/news/2986",
+      "kind": "external_report",
+      "access": "public",
+      "source_item_id": "f7e605c6cb702053e2",
+      "strategic_relevance_score": 86,
+      "status": "ok",
+      "http_status": 200,
+      "checked_at": "2026-09-25T08:47:20.410005+00:00"
+    },
+    {
+      "id": "auto-ba982cf30ed285d0ec",
+      "category": "Фарма",
+      "title": "Динамика аптечного рынка на 33-й неделе 2026 г. (17 – 23 августа 2026 г.)",
+      "organization": "DSM Group",
+      "date": "2026-08-31",
+      "description": "Динамика аптечного рынка на 33-й неделе 2026 г. (17 – 23 августа 2026 г.) Динамика рынка неделя 33 '2026 vs неделя 32 '2026 Относительно предыдущей недели у лекарственных препаратов объём продаж снизился на -3,7% в упаковках и на -3,6% в рублях. Продажи БАД упали на -3,1% в упаковках и на -3% в рублях. Аптечные продажи косметики сократили",
+      "url": "https://dsm.ru/news/2984",
+      "landing_url": "https://dsm.ru/news/2984",
+      "kind": "external_report",
+      "access": "public",
+      "source_item_id": "ba982cf30ed285d0ec",
+      "strategic_relevance_score": 86,
+      "status": "ok",
+      "http_status": 200,
+      "checked_at": "2026-09-25T08:47:20.410005+00:00"
+    },
+    {
+      "id": "auto-47b4c911698cfb7bfb",
+      "category": "Фарма",
+      "title": "Динамика аптечного рынка на 32-й неделе 2026 г. (10 – 16 августа 2026 г.)",
+      "organization": "DSM Group",
+      "date": "2026-08-24",
+      "description": "Динамика аптечного рынка на 32-й неделе 2026 г. (10 – 16 августа 2026 г.) Динамика рынка неделя 32 '2026 vs неделя 31 '2026 Относительно предыдущей недели у лекарственных препаратов объём продаж вырос на +9,6% в упаковках и на +9,8% в рублях. Продажи БАД увеличились на +8,6% в упаковках и на +10,1% в рублях. Аптечные продажи косметики выр",
+      "url": "https://dsm.ru/news/2981",
+      "landing_url": "https://dsm.ru/news/2981",
+      "kind": "external_report",
+      "access": "public",
+      "source_item_id": "47b4c911698cfb7bfb",
+      "strategic_relevance_score": 86,
+      "status": "ok",
+      "http_status": 200,
+      "checked_at": "2026-09-25T08:47:20.410005+00:00"
+    },
+    {
+      "id": "auto-94b5c6004a401000f7",
+      "category": "Фарма",
+      "title": "Динамика аптечного рынка на 31-й неделе 2026 г. (3 – 9 августа 2026 г.)",
+      "organization": "DSM Group",
+      "date": "2026-08-17",
+      "description": "Динамика аптечного рынка на 31-й неделе 2026 г. (3 – 9 августа 2026 г.) Динамика рынка неделя 31 '2026 vs неделя 30 '2026 Относительно предыдущей недели у лекарственных препаратов объём продаж вырос на +3% в упаковках и на +2,9% в рублях. Продажи БАД уменьшились на -0,3% в упаковках, но выросли на +1% в рублях. Аптечные продажи косметики ",
+      "url": "https://dsm.ru/news/2979",
+      "landing_url": "https://dsm.ru/news/2979",
+      "kind": "external_report",
+      "access": "public",
+      "source_item_id": "94b5c6004a401000f7",
+      "strategic_relevance_score": 86,
+      "status": "ok",
+      "http_status": 200,
+      "checked_at": "2026-09-25T08:47:20.410005+00:00"
+    },
+    {
+      "id": "auto-21f3d38431be93564b",
+      "category": "Фарма",
+      "title": "Динамика аптечного рынка на 30-й неделе 2026 г. (27 июля – 2 августа 2026 г.)",
+      "organization": "DSM Group",
+      "date": "2026-08-10",
+      "description": "Динамика аптечного рынка на 30-й неделе 2026 г. (27 июля – 2 августа 2026 г.) Динамика рынка неделя 30 '2026 vs неделя 29 '2026 Относительно предыдущей недели у лекарственных препаратов объём продаж снизился на -1,5% в упаковках и на -0,9% в рублях. Продажи БАД уменьшились на -2,1% в упаковках и на -2% в рублях. Аптечные продажи косметики",
+      "url": "https://dsm.ru/news/2978",
+      "landing_url": "https://dsm.ru/news/2978",
+      "kind": "external_report",
+      "access": "public",
+      "source_item_id": "21f3d38431be93564b",
+      "strategic_relevance_score": 86,
+      "status": "ok",
+      "http_status": 200,
+      "checked_at": "2026-09-25T08:47:20.410005+00:00"
+    },
+    {
+      "id": "auto-67b04100254f661b42",
+      "category": "Фарма",
+      "title": "Динамика аптечного рынка на 29-й неделе 2026 г. (20 – 26 июля 2026 г.)",
+      "organization": "DSM Group",
+      "date": "2026-08-03",
+      "description": "Динамика аптечного рынка на 29-й неделе 2026 г. (20 – 26 июля 2026 г.) Динамика рынка неделя 29 '2026 vs неделя 28 '2026 Относительно предыдущей недели у лекарственных препаратов объём продаж снизился на -5,7% в упаковках и на -6,3% в рублях. Продажи БАД уменьшились на -4,7% в упаковках и на -5% в рублях. Аптечные продажи косметики упали ",
+      "url": "https://dsm.ru/news/2975",
+      "landing_url": "https://dsm.ru/news/2975",
+      "kind": "external_report",
+      "access": "public",
+      "source_item_id": "67b04100254f661b42",
+      "strategic_relevance_score": 84,
+      "status": "ok",
+      "http_status": 200,
+      "checked_at": "2026-09-25T08:47:20.410005+00:00"
+    },
+    {
+      "id": "auto-84c7b1933262fd64fb",
+      "category": "Ритейл",
+      "title": "В 2021-2025 гг оборот рынка фулфилмента в России вырос более чем в 4 раза: с 42 до 184 млрд рублей. :: РБК Магазин исследований",
+      "organization": "РБК Исследования рынков",
+      "date": "2026-09-21",
+      "description": "В 2021-2025 гг оборот рынка фулфилмента в России вырос более чем в 4 раза: с 42 до 184 млрд рублей. :: РБК Магазин исследований",
+      "url": "https://marketing.rbc.ru/articles/16844",
+      "landing_url": "https://marketing.rbc.ru/articles/16844",
+      "kind": "external_report",
+      "access": "public",
+      "source_item_id": "84c7b1933262fd64fb",
+      "strategic_relevance_score": 82,
+      "status": "ok",
+      "http_status": 200,
+      "checked_at": "2026-09-25T08:47:20.410005+00:00"
+    },
+    {
+      "id": "auto-d4cc95c16bbad9d53b",
+      "category": "Ритейл",
+      "title": "«Ашан» вошел в десятку крупнейших ритейлеров страны по итогам II квартала 2026 года, отмечают в INFOLine",
+      "organization": "INFOLine",
+      "date": "2026-09-14",
+      "description": "Совокупная выручка десяти крупнейших российских ритейлеров во II квартале 2026-го выросла на 10,8% в годовом выражении до 3,74 трлн руб., посчитали авторы исследования «INFOLine Retail Russia ТOP-100 2026 года».",
+      "url": "https://infoline.spb.ru/news?news=309014",
+      "landing_url": "https://infoline.spb.ru/news?news=309014",
+      "kind": "external_report",
+      "access": "public",
+      "source_item_id": "d4cc95c16bbad9d53b",
+      "strategic_relevance_score": 88,
+      "status": "ok",
+      "http_status": 200,
+      "checked_at": "2026-09-25T08:47:20.410005+00:00"
     },
     {
       "id": "retail-di-egrocery-aug-2026",
@@ -184,7 +288,7 @@
       "curated": true,
       "status": "ok",
       "http_status": 200,
-      "checked_at": "2026-09-24T10:07:30.889572+00:00"
+      "checked_at": "2026-09-25T08:47:20.410005+00:00"
     },
     {
       "id": "retail-niq-ai-discovery-2026",
@@ -199,7 +303,7 @@
       "curated": true,
       "status": "ok",
       "http_status": 200,
-      "checked_at": "2026-09-24T10:07:30.889572+00:00"
+      "checked_at": "2026-09-25T08:47:20.410005+00:00"
     },
     {
       "id": "retail-di-agentic-2026",
@@ -214,7 +318,7 @@
       "curated": true,
       "status": "ok",
       "http_status": 200,
-      "checked_at": "2026-09-24T10:07:30.889572+00:00"
+      "checked_at": "2026-09-25T08:47:20.410005+00:00"
     },
     {
       "id": "retail-di-trends-autumn-2026",
@@ -229,24 +333,7 @@
       "curated": true,
       "status": "ok",
       "http_status": 200,
-      "checked_at": "2026-09-24T10:07:30.889572+00:00"
-    },
-    {
-      "id": "auto-bf-di-onlineimport-20260623",
-      "category": "Ритейл",
-      "title": "Российский рынок розничного онлайн-импорта: прогноз до 2027 года",
-      "organization": "Data Insight",
-      "date": "2026-06-23",
-      "description": "Data Insight оценивает рынок онлайн-импорта в 2025 году в 366,8 млрд руб.; прогноз на 2026 год — 487,5 млрд руб., на 2027 год — 512,1 млрд руб.",
-      "url": "https://datainsight.ru/onlineimport2026",
-      "landing_url": "https://datainsight.ru/onlineimport2026",
-      "kind": "external_report",
-      "access": "public",
-      "source_item_id": "bf-di-onlineimport-20260623",
-      "strategic_relevance_score": 96,
-      "status": "ok",
-      "http_status": 200,
-      "checked_at": "2026-09-24T10:07:30.889572+00:00"
+      "checked_at": "2026-09-25T08:47:20.410005+00:00"
     },
     {
       "id": "retail-adindex-rm-2026",
@@ -261,7 +348,7 @@
       "curated": true,
       "status": "ok",
       "http_status": 200,
-      "checked_at": "2026-09-24T10:07:30.889572+00:00"
+      "checked_at": "2026-09-25T08:47:20.410005+00:00"
     },
     {
       "id": "retail-di-ecommerce-2026",
@@ -278,60 +365,28 @@
       "curated": true,
       "status": "ok",
       "http_status": 200,
-      "checked_at": "2026-09-24T10:07:30.889572+00:00",
+      "checked_at": "2026-09-25T08:47:20.410005+00:00",
       "local_path": "reports/retail-di-ecommerce-2026.pdf",
-      "archived_at": "2026-09-24T10:07:37.153865+00:00"
+      "archived_at": "2026-09-25T08:47:25.928647+00:00"
     },
     {
-      "id": "auto-bf-di-ecom-20260331",
+      "id": "retail-di-ecommerce-2026",
       "category": "Ритейл",
       "title": "Интернет-торговля в России 2026",
       "organization": "Data Insight",
       "date": "2026-03-31",
-      "description": "Ежегодный отчет Data Insight: рынок розничной интернет-торговли России в 2025 году достиг 13,4 трлн руб.; прогноз на 2026 год — более 15 трлн руб.",
-      "url": "https://datainsight.ru/DI_eCommerce_2026",
+      "description": "Ежегодный отчет о российском eCommerce: 13,4 трлн ₽ в 2025 году, структура заказов, маркетплейсы и прогноз на 2026–2027 годы.",
+      "url": "https://datainsight.ru/sites/default/files/DI_eCommerce_2026.pdf",
       "landing_url": "https://datainsight.ru/DI_eCommerce_2026",
-      "kind": "external_report",
+      "kind": "local_pdf",
       "access": "public",
-      "source_item_id": "bf-di-ecom-20260331",
-      "strategic_relevance_score": 100,
+      "archive": true,
+      "curated": true,
       "status": "ok",
       "http_status": 200,
-      "checked_at": "2026-09-24T10:07:30.889572+00:00"
-    },
-    {
-      "id": "auto-bf-x5-guidance-20260320",
-      "category": "Ритейл",
-      "title": "X5 представила прогнозы и ориентиры на 2026 год",
-      "organization": "X5",
-      "date": "2026-03-20",
-      "description": "X5 подвела итоги 2025 года и представила стратегические ориентиры на 2026 год; доля компании на рынке продуктового ритейла по итогам 2025 года достигла 16,6%, в e-grocery — 18,6%.",
-      "url": "https://www.x5.ru/ru/news/x5-predstavila-prognozy-i-orientiry-na-2026-god/",
-      "landing_url": "https://www.x5.ru/ru/news/x5-predstavila-prognozy-i-orientiry-na-2026-god/",
-      "kind": "external_report",
-      "access": "public",
-      "source_item_id": "bf-x5-guidance-20260320",
-      "strategic_relevance_score": 98,
-      "status": "ok",
-      "http_status": 200,
-      "checked_at": "2026-09-24T10:07:30.889572+00:00"
-    },
-    {
-      "id": "auto-bf-retail-hard-discount-20260319",
-      "category": "Ритейл",
-      "title": "Infoline: рост оборота жестких дискаунтеров в РФ замедлится до 9,4% к 2029 году",
-      "organization": "Retail.ru / INFOLine",
-      "date": "2026-03-19",
-      "description": "INFOLine прогнозирует замедление роста оборота жестких дискаунтеров к 2029 году; формат продолжает развиваться, но конкуренция и темпы роста меняются.",
-      "url": "https://www.retail.ru/news/infoline-rost-oborota-zhestkikh-diskaunterov-v-rf-zamedlitsya-do-9-4-k-2029-godu-19-marta-2026-275701/",
-      "landing_url": "https://www.retail.ru/news/infoline-rost-oborota-zhestkikh-diskaunterov-v-rf-zamedlitsya-do-9-4-k-2029-godu-19-marta-2026-275701/",
-      "kind": "external_report",
-      "access": "public",
-      "source_item_id": "bf-retail-hard-discount-20260319",
-      "strategic_relevance_score": 90,
-      "status": "ok",
-      "http_status": 200,
-      "checked_at": "2026-09-24T10:07:30.889572+00:00"
+      "checked_at": "2026-09-25T08:47:20.410005+00:00",
+      "local_path": "reports/retail-di-ecommerce-2026.pdf",
+      "archived_at": "2026-09-25T08:47:46.039971+00:00"
     },
     {
       "id": "realestate-rosstat-2026",
@@ -344,9 +399,9 @@
       "kind": "external_report",
       "access": "public",
       "curated": true,
-      "status": "browser_only",
-      "http_status": null,
-      "checked_at": "2026-09-24T10:07:30.889572+00:00"
+      "status": "ok",
+      "http_status": 200,
+      "checked_at": "2026-09-25T08:47:20.410005+00:00"
     },
     {
       "id": "realestate-cbr-projectfinance-q2-2026",
@@ -361,7 +416,7 @@
       "curated": true,
       "status": "ok",
       "http_status": 200,
-      "checked_at": "2026-09-24T10:07:30.889572+00:00"
+      "checked_at": "2026-09-25T08:47:20.410005+00:00"
     },
     {
       "id": "realestate-cbr-mortgage-jul-2026",
@@ -376,7 +431,7 @@
       "curated": true,
       "status": "ok",
       "http_status": 200,
-      "checked_at": "2026-09-24T10:07:30.889572+00:00"
+      "checked_at": "2026-09-25T08:47:20.410005+00:00"
     },
     {
       "id": "realestate-cbr-mortgage-jun-2026",
@@ -391,7 +446,7 @@
       "curated": true,
       "status": "ok",
       "http_status": 200,
-      "checked_at": "2026-09-24T10:07:30.889572+00:00"
+      "checked_at": "2026-09-25T08:47:20.410005+00:00"
     },
     {
       "id": "auto-bf-cbr-mortgage-202510",
@@ -408,24 +463,7 @@
       "strategic_relevance_score": 100,
       "status": "ok",
       "http_status": 200,
-      "checked_at": "2026-09-24T10:07:30.889572+00:00"
-    },
-    {
-      "id": "auto-37b73d084a02213b31",
-      "category": "Банки",
-      "title": "«Домклик» зафиксировал три волны спроса на «Семейную ипотеку» в 2026 году",
-      "organization": "РБК Недвижимость",
-      "date": "2026-09-23",
-      "description": "Активность заемщиков по «Семейной ипотеке» в 2026 году трижды выходила на пик — в январе (243,5 млрд руб.), июне (222,4 млрд руб.) и сентябре (225,2 млрд руб., прогноз). Это следует из ...",
-      "url": "https://realty.rbc.ru/news/6ab391ea9a79475846840172",
-      "landing_url": "https://realty.rbc.ru/news/6ab391ea9a79475846840172",
-      "kind": "external_report",
-      "access": "public",
-      "source_item_id": "37b73d084a02213b31",
-      "strategic_relevance_score": 82,
-      "status": "ok",
-      "http_status": 200,
-      "checked_at": "2026-09-24T10:07:30.889572+00:00"
+      "checked_at": "2026-09-25T08:47:20.410005+00:00"
     },
     {
       "id": "banks-cbr-sector-aug-2026",
@@ -442,9 +480,9 @@
       "curated": true,
       "status": "ok",
       "http_status": 200,
-      "checked_at": "2026-09-24T10:07:30.889572+00:00",
+      "checked_at": "2026-09-25T08:47:20.410005+00:00",
       "local_path": "reports/banks-cbr-sector-aug-2026.pdf",
-      "archived_at": "2026-09-24T10:08:02.622953+00:00"
+      "archived_at": "2026-09-25T08:47:29.965931+00:00"
     },
     {
       "id": "banks-cbr-bank-sector-hub",
@@ -459,7 +497,109 @@
       "curated": true,
       "status": "ok",
       "http_status": 200,
-      "checked_at": "2026-09-24T10:07:30.889572+00:00"
+      "checked_at": "2026-09-25T08:47:20.410005+00:00"
+    },
+    {
+      "id": "auto-94021e79446c4f5ec8",
+      "category": "Банки",
+      "title": "Цифровая функциональность через призму клиентского восприятия по модели Кано - Frank RG",
+      "organization": "Frank RG",
+      "date": "2026-09-18",
+      "description": "В исследовании «Вклады и накопительные счета 2026» аналитики Frank RG оценивали приложения с точки зрения не только наличия функций, но и их клиентского восприятия. - Frank RG",
+      "url": "https://frankrg.com/news/tsifrovaya-funktsionalnost-cherez-prizmu-klientskogo-vospriyatiya-po-modeli-kano",
+      "landing_url": "https://frankrg.com/news/tsifrovaya-funktsionalnost-cherez-prizmu-klientskogo-vospriyatiya-po-modeli-kano",
+      "kind": "external_report",
+      "access": "public",
+      "source_item_id": "94021e79446c4f5ec8",
+      "strategic_relevance_score": 86,
+      "status": "ok",
+      "http_status": 200,
+      "checked_at": "2026-09-25T08:47:20.410005+00:00"
+    },
+    {
+      "id": "auto-7d38835eeddfaa50f1",
+      "category": "Банки",
+      "title": "5 профилей клиентов-сберегателей - Frank RG",
+      "organization": "Frank RG",
+      "date": "2026-09-11",
+      "description": "На основе данных conjoint-анализа о влиянии ключевых параметров (атрибутов) на выбор вклада аналитики Frank RG провели двухэтапный кластерный анализ респондентов, участвовавших в исследовании - Frank RG",
+      "url": "https://frankrg.com/news/5-profilej-klientov-sberegatelej",
+      "landing_url": "https://frankrg.com/news/5-profilej-klientov-sberegatelej",
+      "kind": "external_report",
+      "access": "public",
+      "source_item_id": "7d38835eeddfaa50f1",
+      "strategic_relevance_score": 82,
+      "status": "ok",
+      "http_status": 200,
+      "checked_at": "2026-09-25T08:47:20.410005+00:00"
+    },
+    {
+      "id": "auto-80803f7f4901efef70",
+      "category": "Банки",
+      "title": "Запущена четвертая волна исследования инвестиционных продуктов для розничных инвесторов - Frank RG",
+      "organization": "Frank RG",
+      "date": "2026-09-04",
+      "description": "Аналитическая и консалтинговая компания Frank RG приступила к ежегодному исследованию «Розничные инвестиционные продукты в России 2026» - Frank RG",
+      "url": "https://frankrg.com/news/zapushhena-chetvertaya-volna-issledovaniya-investitsionnyh-produktov-dlya-roznichnyh-investorov",
+      "landing_url": "https://frankrg.com/news/zapushhena-chetvertaya-volna-issledovaniya-investitsionnyh-produktov-dlya-roznichnyh-investorov",
+      "kind": "external_report",
+      "access": "public",
+      "source_item_id": "80803f7f4901efef70",
+      "strategic_relevance_score": 88,
+      "status": "ok",
+      "http_status": 200,
+      "checked_at": "2026-09-25T08:47:20.410005+00:00"
+    },
+    {
+      "id": "auto-b6a7ff735740642161",
+      "category": "Банки",
+      "title": "Обзор рынка коллективных инвестиций - Frank RG",
+      "organization": "Frank RG",
+      "date": "2026-09-01",
+      "description": "Фонды денежного рынка обеспечили более половины общего притока в ПИФы за период с апреля по август 2026 года - Frank RG",
+      "url": "https://frankrg.com/news/obzor-rynka-kollektivnyh-investitsij",
+      "landing_url": "https://frankrg.com/news/obzor-rynka-kollektivnyh-investitsij",
+      "kind": "external_report",
+      "access": "public",
+      "source_item_id": "b6a7ff735740642161",
+      "strategic_relevance_score": 86,
+      "status": "ok",
+      "http_status": 200,
+      "checked_at": "2026-09-25T08:47:20.410005+00:00"
+    },
+    {
+      "id": "auto-ab7360f5097cf2a97c",
+      "category": "Банки",
+      "title": "Рынок зарплатных проектов движется к тому, что главным становится сотрудник - Frank RG",
+      "organization": "Frank RG",
+      "date": "2026-08-27",
+      "description": "Аналитическая и консалтинговая компания Frank RG представила результаты исследования рынка банковских зарплатных проектов и назвала имена лучших игроков на церемонии Frank Award 2026 Зарплатные проекты - Frank RG",
+      "url": "https://frankrg.com/wp-content/uploads/2026/08/6ec6bbd59091.pdf",
+      "landing_url": "https://frankrg.com/news/rynok-zarplatnyh-proektov-dvizhetsya-k-tomu-chto-glavnym-stanovitsya-sotrudnik",
+      "kind": "external_pdf",
+      "access": "public",
+      "source_item_id": "ab7360f5097cf2a97c",
+      "strategic_relevance_score": 88,
+      "status": "ok",
+      "http_status": 200,
+      "checked_at": "2026-09-25T08:47:20.410005+00:00"
+    },
+    {
+      "id": "auto-6baa80b37b5003cb92",
+      "category": "Банки",
+      "title": "Обзор рынка ипотеки (июль 2026): аналитика, статистика, ставки - Frank RG",
+      "organization": "Frank RG",
+      "date": "2026-08-25",
+      "description": "Итоги работы крупнейших ипотечных банков в июле 2026 года: последние новости ипотеки, средняя ставка в России, прогноз - Frank RG",
+      "url": "https://frankrg.com/news/ipoteka-v-rossii-itogi-iyulya-2026-goda-v-tsifrah",
+      "landing_url": "https://frankrg.com/news/ipoteka-v-rossii-itogi-iyulya-2026-goda-v-tsifrah",
+      "kind": "external_report",
+      "access": "public",
+      "source_item_id": "6baa80b37b5003cb92",
+      "strategic_relevance_score": 86,
+      "status": "ok",
+      "http_status": 200,
+      "checked_at": "2026-09-25T08:47:20.410005+00:00"
     },
     {
       "id": "banks-cbr-mortgage-nov-2025",
@@ -474,7 +614,7 @@
       "curated": true,
       "status": "ok",
       "http_status": 200,
-      "checked_at": "2026-09-24T10:07:30.889572+00:00"
+      "checked_at": "2026-09-25T08:47:20.410005+00:00"
     },
     {
       "id": "auto-press-2026",
@@ -489,7 +629,7 @@
       "curated": true,
       "status": "ok",
       "http_status": 200,
-      "checked_at": "2026-09-24T10:07:30.889572+00:00"
+      "checked_at": "2026-09-25T08:47:20.410005+00:00"
     },
     {
       "id": "auto-sales-aug-2026",
@@ -504,7 +644,7 @@
       "curated": true,
       "status": "ok",
       "http_status": 200,
-      "checked_at": "2026-09-24T10:07:30.889572+00:00"
+      "checked_at": "2026-09-25T08:47:20.410005+00:00"
     },
     {
       "id": "auto-local-assembly-2026",
@@ -519,7 +659,7 @@
       "curated": true,
       "status": "ok",
       "http_status": 200,
-      "checked_at": "2026-09-24T10:07:30.889572+00:00"
+      "checked_at": "2026-09-25T08:47:20.410005+00:00"
     },
     {
       "id": "auto-forauto-2026",
@@ -534,7 +674,7 @@
       "curated": true,
       "status": "ok",
       "http_status": 200,
-      "checked_at": "2026-09-24T10:07:30.889572+00:00"
+      "checked_at": "2026-09-25T08:47:20.410005+00:00"
     },
     {
       "id": "auto-autostat-2025-results",
@@ -549,7 +689,7 @@
       "curated": true,
       "status": "ok",
       "http_status": 200,
-      "checked_at": "2026-09-24T10:07:30.889572+00:00"
+      "checked_at": "2026-09-25T08:47:20.410005+00:00"
     }
   ],
   "archive_errors": []

@@ -1,20 +1,16 @@
 {
-  "updated_at": "2026-09-24T10:08:32.359333+00:00",
+  "updated_at": "2026-09-25T08:34:29.452584+00:00",
   "metric_count": 6,
   "metrics": [
     {
       "id": "key-rate",
       "label": "Ключевая ставка ЦБ",
       "value": "14.00%",
-      "period": "24.09.2026",
+      "period": "25.09.2026",
       "source": "Банк России",
       "source_url": "https://www.cbr.ru/hd_base/KeyRate/",
       "change": "",
       "history": [
-        {
-          "period": "17.09.2026",
-          "value": 14.0
-        },
         {
           "period": "18.09.2026",
           "value": 14.0
@@ -34,9 +30,15 @@
         {
           "period": "24.09.2026",
           "value": 14.0
+        },
+        {
+          "period": "25.09.2026",
+          "value": 14.0
         }
       ],
-      "note": "официальная ставка"
+      "note": "официальная ставка",
+      "verified_at": "2026-09-25T08:34:27.241233+00:00",
+      "stale": false
     },
     {
       "id": "inflation",
@@ -72,7 +74,9 @@
           "value": 6.33
         }
       ],
-      "note": "год к году"
+      "note": "год к году",
+      "verified_at": "2026-09-25T08:34:27.784908+00:00",
+      "stale": false
     },
     {
       "id": "auto-sales",
@@ -83,7 +87,9 @@
       "source_url": "https://www.autostat.ru/press-releases/63032/",
       "change": "−6.5% г/г",
       "history": [],
-      "note": "новые легковые автомобили"
+      "note": "новые легковые автомобили",
+      "verified_at": "2026-09-25T08:34:28.157292+00:00",
+      "stale": false
     },
     {
       "id": "mortgage",
@@ -94,7 +100,9 @@
       "source_url": "https://www.cbr.ru/statistics/bank_sector/mortgage/Indicator_mortgage/0726/",
       "change": "",
       "history": [],
-      "note": "ИЖК, объем выдач"
+      "note": "ИЖК, объем выдач",
+      "verified_at": "2026-09-25T08:34:28.748417+00:00",
+      "stale": false
     },
     {
       "id": "ad-market",
@@ -103,9 +111,11 @@
       "period": "2025",
       "source": "АКАР",
       "source_url": "https://akarussia.ru/news/obem-rynka-marketingovyh-kommunikacij-v-2025-godu/",
-      "change": "+8.5% г/г",
+      "change": "",
       "history": [],
-      "note": "объем рекламы по оценке АКАР"
+      "note": "объем рекламы по оценке АКАР",
+      "verified_at": "2026-09-25T08:34:29.120539+00:00",
+      "stale": false
     },
     {
       "id": "ecommerce",
@@ -114,9 +124,11 @@
       "period": "2025",
       "source": "Data Insight",
       "source_url": "https://datainsight.ru/DI_eCommerce_2026",
-      "change": "+19% г/г",
+      "change": "",
       "history": [],
-      "note": "розничная интернет-торговля; прогноз 2026 >15 трлн ₽"
+      "note": "розничная интернет-торговля",
+      "verified_at": "2026-09-25T08:34:29.452584+00:00",
+      "stale": false
     }
   ],
   "errors": []
