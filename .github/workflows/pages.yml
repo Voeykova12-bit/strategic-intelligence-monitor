@@ -8,16 +8,41 @@ on:
     branches: [main]
     paths:
       - '.strategy-radar-refresh'
+      - 'config/**'
+      - 'scripts/**'
+      - 'docs/**'
+      - 'site/**'
+      - 'tests/test_static_pipeline.py'
+      - '.github/workflows/pages.yml'
+  pull_request:
+    branches: [main]
 
 permissions:
-  contents: write
+  contents: read
 
 concurrency:
-  group: strategy-radar-refresh
-  cancel-in-progress: true
+  group: strategy-radar-${{ github.ref }}
+  cancel-in-progress: false
 
 jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install feedparser PyYAML beautifulsoup4 pytest
+      - run: python -m pytest tests/test_static_pipeline.py -q
+      - run: node --check docs/app.js
+      - run: node --test tests/static_ui.test.cjs
+      - run: python scripts/validate_static.py
   refresh:
+    if: github.event_name != 'pull_request'
+    needs: validate
+    permissions:
+      contents: write
+      pages: read
     runs-on: ubuntu-latest
     timeout-minutes: 25
     steps:
@@ -46,6 +71,9 @@ jobs:
 
       - name: Build last-known-good browser snapshot
         run: python scripts/build_fallback_bundle.py
+
+      - name: Validate publication
+        run: python scripts/validate_static.py --fresh
 
       - name: Stage generated snapshot
         run: |
@@ -102,3 +130,26 @@ jobs:
 
           echo "Unable to push refreshed snapshot after 3 attempts"
           exit 1
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload website
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+  deploy:
+    if: github.event_name != 'pull_request'
+    needs: refresh
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

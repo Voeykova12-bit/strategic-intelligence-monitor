@@ -101,7 +101,7 @@ def ad_market():
     if not m:
         m=re.search(r"(981[.,]6|980)\s*млрд",txt,re.I)
     if not m:return None
-    return metric("ad-market","Рекламный рынок РФ",m.group(1).replace(",",".")+" млрд ₽","2025","АКАР",url,change="+8.5% г/г",note="объем рекламы по оценке АКАР")
+    return metric("ad-market","Рекламный рынок РФ",m.group(1).replace(",",".")+" млрд ₽","2025","АКАР",url,note="объем рекламы по оценке АКАР")
 
 def ecommerce():
     url="https://datainsight.ru/DI_eCommerce_2026"
@@ -109,7 +109,7 @@ def ecommerce():
     except Exception:return None
     m=re.search(r"объем рынка.{0,80}?достиг\s+(\d+(?:[.,]\d+)?)\s*трлн",txt,re.I)
     if not m:return None
-    return metric("ecommerce","E-commerce РФ",m.group(1).replace(",",".")+" трлн ₽","2025","Data Insight",url,change="+19% г/г",note="розничная интернет-торговля; прогноз 2026 >15 трлн ₽")
+    return metric("ecommerce","E-commerce РФ",m.group(1).replace(",",".")+" трлн ₽","2025","Data Insight",url,note="розничная интернет-торговля")
 
 def main():
     old={}
@@ -125,12 +125,16 @@ def main():
         try:
             item=fn()
             if item:
+                item['verified_at'] = datetime.now(timezone.utc).isoformat()
+                item['stale'] = False
                 rows.append(item)
             elif metric_id in old:
+                old[metric_id]['stale'] = True
                 rows.append(old[metric_id])
         except Exception as e:
             errors.append({"metric":metric_id,"error":str(e)[:180]})
             if metric_id in old:
+                old[metric_id]['stale'] = True
                 rows.append(old[metric_id])
     payload={"updated_at":datetime.now(timezone.utc).isoformat(),"metric_count":len(rows),"metrics":rows,"errors":errors}
     OUT.parent.mkdir(parents=True,exist_ok=True)

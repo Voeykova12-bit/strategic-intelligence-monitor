@@ -1,14 +1,15 @@
 var DB={items:[],updated_at:null,source_count:0},REPORTDB={reports:[],updated_at:null},METRICDB={metrics:[],updated_at:null};
-var currentView="home",currentReport="Ритейл",currentMarket="Retail",lang=localStorage.getItem("sr_lang")||"ru",usingFallback=false;
+var currentView="home",currentReport="Ритейл",currentMarket="Retail",lang="ru",usingFallback=false;
 
 var CAT={
   Retail:"Ритейл",DeliveryEcom:"E-commerce / Delivery",MediaAdvertising:"Advertising & Media",FMCG:"FMCG",
   BanksFintech:"Banks",FinanceEconomy:"Finance / Economy",Automotive:"Automotive",RealEstate:"Real Estate",
   TechnologyAI:"Technology / AI",Telecom:"Telecom",Consumer:"Consumer",
+  Pharma:"Фарма",Fashion:"Мода",
   TelecomTech:"Technology / Telecom"
 };
-var MARKET_ORDER=["Retail","DeliveryEcom","MediaAdvertising","FMCG","BanksFintech","FinanceEconomy","Automotive","RealEstate","TechnologyAI","Telecom","Consumer"];
-var MARKET_ICON={Retail:"🛒",DeliveryEcom:"◫",MediaAdvertising:"◉",FMCG:"◇",BanksFintech:"▦",FinanceEconomy:"₽",Automotive:"▣",RealEstate:"⌂",TechnologyAI:"◎",Telecom:"◌",Consumer:"♙"};
+var MARKET_ORDER=["Retail","DeliveryEcom","MediaAdvertising","FMCG","BanksFintech","FinanceEconomy","Automotive","RealEstate","TechnologyAI","Telecom","Consumer","Pharma","Fashion"];
+var MARKET_ICON={Pharma:"✚",Fashion:"◇",Retail:"🛒",DeliveryEcom:"◫",MediaAdvertising:"◉",FMCG:"◇",BanksFintech:"▦",FinanceEconomy:"₽",Automotive:"▣",RealEstate:"⌂",TechnologyAI:"◎",Telecom:"◌",Consumer:"♙"};
 
 var TXT={
 ru:{navHome:"Главная",navNews:"Новости",navTrends:"Тренды",navMarkets:"Рынки",navReports:"Отчеты",navFav:"Избранное",
@@ -53,22 +54,22 @@ function shortSource(s){s=s||"";return s.split("—")[0].trim().replace("РОМ�
 function sourceClass(s){s=(s||"").toLowerCase();if(s.indexOf("рбк")>=0)return"rbc";if(s.indexOf("adindex")>=0)return"adindex";if(s.indexOf("sostav")>=0)return"sostav";if(s.indexOf("romir")>=0||s.indexOf("ромир")>=0)return"romir";if(s.indexOf("retail")>=0)return"retail";if(s.indexOf("росстат")>=0)return"rosstat";return""}
 function strategicScore(x){return Number(x.strategic_relevance_score)||Math.round((Number(x.score)||0)*20)}
 function importance(x){return strategicScore(x)+Math.min(8,(Number(x.source_quality)||4)*1.5)+Math.max(0,8-Math.min(age(x),8))+(x.metrics||[]).length*1.5+(x.future_signal?1:0)}
-function highQuality(){return(DB.items||[]).filter(function(x){return strategicScore(x)>=70&&(Number(x.source_quality)||4)>=4.1&&age(x)<=365})}
+function highQuality(){return(DB.items||[]).filter(function(x){return strategicScore(x)>=70&&((Number(x.source_quality)||4)>=4.1||x.supplementary)&&age(x)<=Number($("#globalPeriod").value||365)&&new Date(x.published_at)<=new Date()})}
 function uniqSources(items,max){var out=[],seen={};items.forEach(function(x){var k=shortSource(x.source);if(out.length<(max||items.length)&&(seen[k]||0)<1){out.push(x);seen[k]=1}});return out}
 function topNews(){
- var all=highQuality().sort(function(a,b){return importance(b)-importance(a)}),wins=[1,3,7,30],chosen=[];
+ var all=highQuality().filter(function(x){return !x.supplementary}).sort(function(a,b){return importance(b)-importance(a)}),wins=[1,3,7,30],chosen=[];
  for(var w of wins){chosen=uniqSources(all.filter(function(x){return age(x)<=w}),6);if(chosen.length>=6){$("#topWindowLabel").textContent=w===1?"Значимое за последние 24 часа":"Свежие значимые события за "+w+" дней";return chosen.slice(0,6)}}
  chosen=uniqSources(all,6);$("#topWindowLabel").textContent="Последние доступные значимые события";return chosen.slice(0,6)
 }
 function starIds(){try{return JSON.parse(localStorage.getItem("sr_favorites")||"[]")}catch(e){return[]}}
-function saveStars(v){localStorage.setItem("sr_favorites",JSON.stringify(v))}
+function saveStars(v){try{localStorage.setItem("sr_favorites",JSON.stringify(v))}catch(e){$("#offlineBanner").hidden=false;$("#offlineBanner").textContent="Браузер запретил сохранение избранного. Разрешите локальное хранилище для этого сайта."}}
 function typeLabel(x){var m={news:"Новость",research:"Исследование",forecast:"Прогноз",company_plan:"План компании"};return m[x.content_type]||"Материал"}
 function card(x){
- var im=x.image_url?'<img src="'+esc(x.image_url)+'" loading="lazy" alt="" onerror="this.remove()">':'<div class="thumbLetter">'+esc((CAT[x.primary_category]||"SR").slice(0,2).toUpperCase())+'</div>';
+ var im='<div class="thumbLetter">'+esc(CAT[x.primary_category]||"Market intelligence")+'</div>';
  var why=(x.why_it_matters||x.summary||"Важный сигнал для понимания рынка и конкурентного контекста.");
- return'<article class="newsCard"><div class="sourceLine"><span class="source '+sourceClass(x.source)+'">'+esc(shortSource(x.source))+'</span><span class="time">'+fmt(x.published_at)+'</span></div><div class="thumb">'+im+'</div><div class="cardTags"><span>'+esc(typeLabel(x))+'</span><span>SR '+strategicScore(x)+'</span></div><h3>'+esc(x.title||"Без заголовка")+'</h3><div class="meaningLabel">Что это значит:</div><div class="meaning">'+esc(why.slice(0,170))+(why.length>170?"…":"")+'</div><button class="star '+(starIds().indexOf(x.id)>=0?"on":"")+'" data-star="'+esc(x.id)+'">'+(starIds().indexOf(x.id)>=0?"★":"☆")+'</button><a class="openCard" href="'+esc(x.url)+'" target="_blank" rel="noopener">Открыть</a></article>'
+ return'<article class="newsCard"><div class="sourceLine"><span class="source '+sourceClass(x.source)+'">'+esc(shortSource(x.source))+'</span><span class="time">'+fmt(x.published_at)+'</span></div><div class="thumb">'+im+'</div><div class="cardTags"><span>'+esc(typeLabel(x))+'</span><span>SR '+strategicScore(x)+'</span></div><h3>'+esc(x.title||"Без заголовка")+'</h3><div class="meaningLabel">Что это значит:</div><div class="meaning">'+esc(why.slice(0,170))+(why.length>170?"…":"")+'</div><button class="star '+(starIds().indexOf(x.id)>=0?"on":"")+'" aria-label="Сохранить материал" aria-pressed="'+(starIds().indexOf(x.id)>=0)+'" data-star="'+esc(x.id)+'">'+(starIds().indexOf(x.id)>=0?"★":"☆")+'</button><a class="openCard" href="'+esc(x.url)+'" target="_blank" rel="noopener">Открыть</a></article>'
 }
-function bindStars(){$$("[data-star]").forEach(function(b){b.onclick=function(e){e.preventDefault();e.stopPropagation();var id=b.getAttribute("data-star"),f=starIds();f=f.indexOf(id)>=0?f.filter(function(x){return x!==id}):f.concat([id]);saveStars(f);renderTop();renderFavorites()}})}
+function bindStars(){$$("[data-star]").forEach(function(b){b.onclick=function(e){e.preventDefault();e.stopPropagation();var id=b.getAttribute("data-star"),f=starIds();f=f.indexOf(id)>=0?f.filter(function(x){return x!==id}):f.concat([id]);saveStars(f);renderTop();renderNews();renderFavorites();if(currentView==="markets")renderMarkets()}})}
 function renderTop(){$("#topNews").innerHTML=topNews().map(card).join("")||'<div class="empty">Свежие значимые материалы временно не найдены.</div>';bindStars()}
 
 function spark(history){
@@ -80,15 +81,15 @@ function spark(history){
 function renderMetrics(){
  var rows=(METRICDB.metrics||[]).filter(function(m){return m&&m.value&&m.value!=="—"}).slice(0,6);
  $("#metricGrid").innerHTML=rows.map(function(m){
-   return'<a class="metric" href="'+esc(m.source_url||"#")+'" target="_blank" rel="noopener"><div class="metricIcon">'+(m.id==="key-rate"?"%":m.id==="inflation"?"↗":m.id==="auto-sales"?"▣":m.id==="mortgage"?"⌂":m.id==="ecommerce"?"◫":"▤")+'</div><div><div class="metricLabel">'+esc(m.label)+'</div><div class="metricValue">'+esc(m.value)+'</div><div class="metricNote">'+esc((m.change?m.change+" · ":"")+m.period+" · "+m.source)+'</div></div>'+spark(m.history)+'</a>'
+   return'<a class="metric '+(m.stale?'stale':'')+'" href="'+esc(m.source_url||"#")+'" target="_blank" rel="noopener"><div class="metricIcon">'+(m.id==="key-rate"?"%":m.id==="inflation"?"↗":m.id==="auto-sales"?"▣":m.id==="mortgage"?"⌂":m.id==="ecommerce"?"◫":"▤")+'</div><div><div class="metricLabel">'+esc(m.label)+'</div><div class="metricValue">'+esc(m.value)+'</div><div class="metricNote">'+esc((m.change?m.change+" · ":"")+m.period+" · "+m.source)+'</div></div>'+spark(m.history)+'</a>'
  }).join("")||'<div class="empty">Нет подтвержденных ключевых показателей.</div>'
 }
 
 function trendEvidence(def,scope){
- var items=highQuality().filter(function(x){return age(x)<=365&&(scope==="Global"?x.market_scope==="Global":x.market_scope!=="Global")});
+ var items=highQuality().filter(function(x){return !x.supplementary&&age(x)<=365&&(scope==="Global"?x.market_scope==="Global":x.market_scope!=="Global")});
  var hits=items.filter(function(x){var txt=(x.title+" "+x.summary+" "+(x.topics||[]).join(" ")).toLowerCase();return def.k.some(function(k){return txt.indexOf(k)>=0})}).sort(function(a,b){return importance(b)-importance(a)});
- var sources=[];hits.forEach(function(x){var s=shortSource(x.source);if(sources.indexOf(s)<0)sources.push(s)});
- var official=hits.some(function(x){return(Number(x.source_quality)||0)>=4.8&&((x.metrics||[]).length>0||x.content_type==="research")});
+ var sources=[];hits.forEach(function(x){var s=x.publisher_id||shortSource(x.source);if(sources.indexOf(s)<0)sources.push(s)});
+ var official=hits.some(function(x){return(Number(x.source_quality)||0)>=4.7&&((x.metrics||[]).length>0||x.content_type==="research")});
  return{hits:hits,sources:sources,confirmed:sources.length>=2||official}
 }
 function confirmedTrends(scope){
@@ -97,8 +98,8 @@ function confirmedTrends(scope){
  return out.slice(0,4)
 }
 function trendRow(obj){
- var d=obj.d,e=obj.e,links=e.hits.slice(0,4).map(function(x){return'<a href="'+esc(x.url)+'" target="_blank" rel="noopener">'+esc(shortSource(x.source))+'</a>'}).join(" · ");
- return'<div class="trendRow"><div class="trendIco">'+d.i+'</div><div class="trendCore"><div class="trendName">'+esc(d.n)+'</div><div class="trendDesc">'+esc(d.d)+'</div><div class="trendWhy"><b>Почему важно:</b> '+esc(d.why)+'</div><div class="evidence"><b>Основано на:</b> '+links+'</div></div></div>'
+ var d=obj.d,e=obj.e,links=e.hits.slice(0,4).map(function(x){return'<a href="'+esc(x.url)+'" target="_blank" rel="noopener">'+esc(shortSource(x.source))+': '+esc(x.title)+'</a>'}).join(" · ");
+ return'<div class="trendRow"><div class="trendIco">'+d.i+'</div><div class="trendCore"><div class="trendName">'+esc(d.n)+'</div><div class="trendDesc">'+esc('Тема наблюдения. Интерпретация для стратегии: '+d.d)+'</div><div class="trendWhy"><b>Почему важно:</b> '+esc(d.why)+'</div><div class="evidence"><b>Основано на:</b> '+links+'</div></div></div>'
 }
 function renderTrends(){
  var ru=confirmedTrends("Russia"),gl=confirmedTrends("Global");
@@ -116,7 +117,7 @@ function renderOutlook(){
    return'<a class="outlookCard" href="'+esc(x.url)+'" target="_blank" rel="noopener"><div class="outlookTop"><span class="outlookType">'+esc(typeLabel(x))+'</span><span>'+esc(shortSource(x.source))+'</span></div><h3>'+esc(x.title)+'</h3><p>'+esc((x.summary||x.why_it_matters||"").slice(0,180))+'</p><small>'+(horizon?"Горизонт: "+esc(horizon)+" · ":"")+fmt(x.published_at,true)+'</small></a>'
  }).join("")||'<div class="empty">Нет подтвержденных прогнозов и планов.</div>'
 }
-$("#outlookAll").onclick=function(){setView("news");$("#newsType").value="forecast";renderNews()};
+$("#outlookAll").onclick=function(){setView("news");$("#newsType").value="outlook";renderNews()};
 
 function reportTabs(){
  var cats=(REPORTDB.categories&&REPORTDB.categories.length?REPORTDB.categories:["Ритейл","Авто","Недвижимость","Банки","Финансы"]);
@@ -125,7 +126,7 @@ function reportTabs(){
  $("#previewTabs").innerHTML=html;$("#reportTabs").innerHTML=html;
  $$("[data-report]").forEach(function(b){b.onclick=function(){currentReport=b.getAttribute("data-report");renderReports()}})
 }
-function reportBadge(r){if(r.kind==="local_pdf")return"PDF внутри Strategy Radar";if(r.kind==="external_pdf")return"Внешний PDF ↗";if(r.kind==="paid_report")return"Платный отчет ↗";return"Внешний отчет ↗"}
+function reportBadge(r){if(r.status==="unverified")return"Ссылка временно не проверена ↗";if(r.kind==="local_pdf")return"PDF внутри Strategy Radar";if(r.kind==="external_pdf")return"Внешний PDF ↗";if(r.kind==="paid_report")return"Платный отчет ↗";return"Внешний отчет ↗"}
 function reportCard(r,big){
  var badge=reportBadge(r),ico=(r.kind==="external_pdf"||r.kind==="local_pdf")?"PDF":r.kind==="paid_report"?"PRO":"DOC",href=r.kind==="local_pdf"?(r.local_path||r.url):r.url;
  if(big)return'<a class="reportBig" href="'+esc(href)+'" target="_blank" rel="noopener"><div class="pdf '+(r.kind==="paid_report"?"paid":"")+'">'+ico+'</div><div><div class="reportMeta">'+esc(r.organization||"")+" · "+fmt(r.date,true)+'</div><h3>'+esc(r.title)+'</h3><p>'+esc(r.description||"")+'</p><span class="reportBadge">'+esc(badge)+'</span></div></a>';
@@ -136,40 +137,42 @@ function renderReports(){
  var all=(REPORTDB.reports||[]).filter(function(r){return r.category===currentReport}).sort(function(a,b){return String(b.date).localeCompare(String(a.date))});
  $("#previewReports").innerHTML=all.slice(0,5).map(function(r){return reportCard(r,false)}).join("")||'<div class="empty">Нет отчетов в этой категории.</div>';
  $("#reportLibrary").innerHTML=all.map(function(r){return reportCard(r,true)}).join("")||'<div class="empty">Нет отчетов в этой категории.</div>';
- $("#reportStatus").textContent=(REPORTDB.report_count||REPORTDB.reports.length)+" конкретных исследований · проверка "+fmt(REPORTDB.updated_at||new Date(),true)
+ $("#reportStatus").textContent=(REPORTDB.report_count||REPORTDB.reports.length)+" конкретных исследований · проверка "+fmt(REPORTDB.updated_at,true)
 }
 
 function fillFilters(){
  var cats=[],sources=[];(DB.items||[]).forEach(function(x){(x.categories||[]).forEach(function(c){if(cats.indexOf(c)<0)cats.push(c)});if(x.source&&sources.indexOf(x.source)<0)sources.push(x.source)});
  cats.sort();sources.sort();
  $("#newsCategory").innerHTML='<option value="">Все рынки</option>'+cats.map(function(c){return'<option value="'+esc(c)+'">'+esc(CAT[c]||c)+'</option>'}).join("");
- $("#newsSource").innerHTML='<option value="">Все источники</option>'+sources.map(function(s){return'<option value="'+esc(s)+'">'+esc(shortSource(s))+'</option>'}).join("")
+ $("#newsSource").innerHTML='<option value="">Все источники</option>'+sources.map(function(s){return'<option value="'+esc(s)+'">'+esc(s)+'</option>'}).join("")
 }
 function filteredNews(){
  var q=($("#search").value||"").trim().toLowerCase(),cat=$("#newsCategory").value,days=Number($("#newsPeriod").value||365),scope=$("#newsScope").value,source=$("#newsSource").value,type=$("#newsType").value,sort=$("#newsSort").value;
- var a=highQuality().filter(function(x){var txt=(x.title+" "+x.summary+" "+x.source+" "+(x.topics||[]).join(" ")+" "+(x.brands||[]).join(" ")).toLowerCase();return age(x)<=days&&(!cat||(x.categories||[]).indexOf(cat)>=0)&&(!scope||x.market_scope===scope)&&(!source||x.source===source)&&(!type||x.content_type===type)&&(!q||txt.indexOf(q)>=0)});
+ var a=highQuality().filter(function(x){var txt=(x.title+" "+x.summary+" "+x.source+" "+(x.topics||[]).join(" ")+" "+(x.brands||[]).join(" ")).toLowerCase();return age(x)<=days&&(!cat||(x.categories||[]).indexOf(cat)>=0)&&(!scope||x.market_scope===scope)&&(!source||x.source===source)&&(!type||(type==="outlook"?x.future_signal:x.content_type===type))&&(!q||txt.indexOf(q)>=0)});
  a.sort(sort==="date"?function(a,b){return new Date(b.published_at)-new Date(a.published_at)}:function(a,b){return importance(b)-importance(a)});
  return a
 }
 function article(x){
- var tags=[typeLabel(x),x.market_scope==="Global"?"Мир":"Россия","SR "+strategicScore(x)];
- return'<article class="article"><div class="articleCat">'+esc(CAT[x.primary_category]||x.primary_category||"Рынок")+'</div><div><div class="articleTags">'+tags.map(function(z){return"<span>"+esc(z)+"</span>"}).join("")+'</div><h3><a href="'+esc(x.url)+'" target="_blank" rel="noopener">'+esc(x.title)+'</a></h3><p>'+esc((x.summary||x.why_it_matters||"").slice(0,300))+'</p></div><div class="articleMeta">'+esc(shortSource(x.source))+"<br>"+fmt(x.published_at,true)+'<button class="miniStar '+(starIds().indexOf(x.id)>=0?"on":"")+'" data-star="'+esc(x.id)+'">'+(starIds().indexOf(x.id)>=0?"★":"☆")+'</button></div></article>'
+ var tags=[typeLabel(x),x.market_scope==="Global"?"Мир":"Россия",(x.supplementary?"Доп. сигнал":"SR "+strategicScore(x))];
+ return'<article class="article"><div class="articleCat">'+esc(CAT[x.primary_category]||x.primary_category||"Рынок")+'</div><div><div class="articleTags">'+tags.map(function(z){return"<span>"+esc(z)+"</span>"}).join("")+'</div><h3><a href="'+esc(x.url)+'" target="_blank" rel="noopener">'+esc(x.title)+'</a></h3><p>'+esc((x.summary||x.why_it_matters||"").slice(0,300))+'</p></div><div class="articleMeta">'+esc(shortSource(x.source))+"<br>"+fmt(x.published_at,true)+'<button class="miniStar '+(starIds().indexOf(x.id)>=0?"on":"")+'" aria-label="Сохранить материал" aria-pressed="'+(starIds().indexOf(x.id)>=0)+'" data-star="'+esc(x.id)+'">'+(starIds().indexOf(x.id)>=0?"★":"☆")+'</button></div></article>'
 }
-function renderNews(){var a=filteredNews();$("#newsMeta").textContent=a.length+" материалов · период "+$("#newsPeriod option:checked").textContent;$("#newsList").innerHTML=a.slice(0,180).map(article).join("")||'<div class="empty">Нет материалов по выбранным фильтрам.</div>';bindStars()}
+var newsLimit=60;
+function renderNews(){var a=filteredNews();$("#loadMore").hidden=a.length<=newsLimit;$("#newsMeta").textContent=a.length+" материалов · период "+$("#newsPeriod option:checked").textContent;$("#newsList").innerHTML=a.slice(0,newsLimit).map(article).join("")||'<div class="empty">Нет материалов по выбранным фильтрам.</div>';bindStars()}
+$("#loadMore").onclick=function(){newsLimit+=60;renderNews()};
 function renderFavorites(){var ids=starIds(),a=(DB.items||[]).filter(function(x){return ids.indexOf(x.id)>=0});$("#favoritesList").innerHTML=a.length?a.map(article).join(""):'<div class="empty">Здесь будут материалы, которые вы отметите звездочкой.</div>';bindStars()}
 
 function reportsForMarket(c){
- var rc=c==="Automotive"?"Авто":c==="RealEstate"?"Недвижимость":c==="BanksFintech"?"Банки":c==="FinanceEconomy"||c==="MediaAdvertising"?"Финансы":"Ритейл";
+ var rc=c==="Pharma"?"Фарма":c==="Fashion"?"Мода":c==="Automotive"?"Авто":c==="RealEstate"?"Недвижимость":c==="BanksFintech"?"Банки":c==="FinanceEconomy"||c==="MediaAdvertising"?"Финансы":"Ритейл";
  return(REPORTDB.reports||[]).filter(function(r){return r.category===rc}).slice(0,3)
 }
 function marketItems(c){return highQuality().filter(function(x){return(x.categories||[]).indexOf(c)>=0}).sort(function(a,b){return importance(b)-importance(a)})}
 function renderMarketDetail(c){
  currentMarket=c;$$("[data-market]").forEach(function(b){b.classList.toggle("active",b.getAttribute("data-market")===c)});
- var items=marketItems(c),news=items.filter(function(x){return age(x)<=30}).slice(0,5),out=items.filter(function(x){return x.future_signal}).slice(0,3),reports=reportsForMarket(c);
+ var items=marketItems(c),news=items.slice().sort(function(a,b){return new Date(b.published_at)-new Date(a.published_at)}).slice(0,5),out=items.filter(function(x){return x.future_signal}).slice(0,3),reports=reportsForMarket(c);
  var trends=(confirmedTrends("Russia").concat(confirmedTrends("Global"))).filter(function(z){return z.e.hits.some(function(x){return(x.categories||[]).indexOf(c)>=0})}).slice(0,3);
  var metricRows=(METRICDB.metrics||[]).filter(function(m){if(c==="Automotive")return m.id==="auto-sales";if(c==="RealEstate"||c==="BanksFintech")return m.id==="mortgage"||m.id==="key-rate";if(c==="FinanceEconomy")return m.id==="key-rate"||m.id==="inflation";if(c==="MediaAdvertising")return m.id==="ad-market";if(c==="DeliveryEcom"||c==="Retail")return m.id==="ecommerce";return false}).slice(0,3);
  $("#marketDetail").innerHTML='<section class="panel marketHero"><div><span class="marketIcon">'+MARKET_ICON[c]+'</span><h2>'+esc(CAT[c]||c)+'</h2><p>'+items.length+' значимых материалов за 12 месяцев</p></div></section>'+
- '<div class="marketColumns"><section class="panel marketSection"><div class="panelHead"><h2>Главное</h2></div><div>'+news.map(article).join("")+'</div></section>'+
+ '<div class="marketColumns"><section class="panel marketSection"><div class="panelHead"><h2>Главное</h2></div><div>'+(news.map(article).join("")||'<div class="empty">В выбранном периоде нет материалов.</div>')+'</div></section>'+
  '<section class="panel marketSection"><div class="panelHead"><h2>Ключевые цифры</h2></div><div class="marketMetrics">'+metricRows.map(function(m){return'<a href="'+esc(m.source_url)+'" target="_blank"><b>'+esc(m.value)+'</b><span>'+esc(m.label)+'</span><small>'+esc(m.source+" · "+m.period)+'</small></a>'}).join("")+'</div><div class="panelHead mini"><h2>Прогнозы</h2></div><div class="marketOutlook">'+out.map(function(x){return'<a href="'+esc(x.url)+'" target="_blank"><b>'+esc(x.title)+'</b><small>'+esc(shortSource(x.source))+'</small></a>'}).join("")+'</div></section></div>'+
  '<div class="marketColumns lower"><section class="panel marketSection"><div class="panelHead"><h2>Тренды</h2></div>'+trends.map(trendRow).join("")+'</section><section class="panel marketSection"><div class="panelHead"><h2>Исследования</h2></div><div class="marketReports">'+reports.map(function(r){return reportCard(r,true)}).join("")+'</div></section></div>'
 }
@@ -193,13 +196,13 @@ function applyLang(){
 }
 $$("#nav button").forEach(function(b){b.onclick=function(){setView(b.getAttribute("data-view"))}});
 $$("[data-go]").forEach(function(b){b.onclick=function(){setView(b.getAttribute("data-go"))}});
-$("#langRu").onclick=function(){lang="ru";localStorage.setItem("sr_lang",lang);applyLang()};
-$("#langEn").onclick=function(){lang="en";localStorage.setItem("sr_lang",lang);applyLang()};
-$("#globalPeriod").onchange=function(){var v=$("#globalPeriod").value;$("#newsPeriod").value=v; if(currentView==="news")renderNews()};
+$("#langRu").onclick=function(){lang="ru";applyLang()};
+$("#langEn").onclick=function(){lang="en";applyLang()};
+$("#globalPeriod").onchange=function(){var v=$("#globalPeriod").value;$("#newsPeriod").value=v; renderTop();renderTrends();renderOutlook();renderNews();renderMarkets()};
 $("#search").addEventListener("input",function(){if(currentView!=="news"&&$("#search").value.trim())setView("news");else if(currentView==="news")renderNews()});
-["newsPeriod","newsCategory","newsScope","newsSource","newsType","newsSort"].forEach(function(id){$("#"+id).addEventListener("change",renderNews)});
+["newsPeriod","newsCategory","newsScope","newsSource","newsType","newsSort"].forEach(function(id){$("#"+id).addEventListener("change",function(){newsLimit=60;if(id==="newsPeriod")$("#globalPeriod").value=$("#newsPeriod").value;renderNews()})});
 
-async function getJSON(url){var r=await fetch(url+"?v="+Date.now(),{cache:"no-store"});if(!r.ok)throw new Error(url+" HTTP "+r.status);return r.json()}
+async function getJSON(url){var controller=new AbortController(),timer=setTimeout(function(){controller.abort()},8000);try{var r=await fetch(url+"?v="+Date.now(),{cache:"no-store",signal:controller.signal});if(!r.ok)throw new Error(url+" HTTP "+r.status);var data=await r.json(),key=url.indexOf("news")>=0?"items":url.indexOf("reports")>=0?"reports":"metrics";if(!Array.isArray(data[key])||!data[key].length)throw new Error("Invalid dataset");return data}finally{clearTimeout(timer)}}
 async function load(){
  var errs=[];
  try{DB=await getJSON("data/news.json")}catch(e){errs.push("news");DB=FALLBACK_BUNDLE.news||{items:[]};usingFallback=true}
@@ -209,8 +212,9 @@ async function load(){
  if(!REPORTDB.reports||!REPORTDB.reports.length){REPORTDB=(FALLBACK_BUNDLE.reports||{reports:[],categories:["Ритейл","Авто","Недвижимость","Банки","Финансы"]});usingFallback=true}
  if(!METRICDB.metrics||!METRICDB.metrics.length){METRICDB=(FALLBACK_BUNDLE.metrics||{metrics:[]});usingFallback=true}
  var uniqueSources=new Set(DB.items.map(function(x){return x.source})).size;
- $("#fresh").textContent="Обновлено "+fmt(DB.updated_at||new Date(),true)+" · "+uniqueSources+" источников";
+ $("#fresh").textContent="Обновлено "+fmt(DB.updated_at,true)+" · "+uniqueSources+" источников";
  if(usingFallback){$("#offlineBanner").hidden=false;$("#offlineBanner").textContent="Онлайн-данные временно недоступны. Показан последний успешно собранный снимок Strategy Radar."}
+ if(!usingFallback&&(DB.errors||[]).length){$("#offlineBanner").hidden=false;$("#offlineBanner").textContent="Часть источников временно недоступна. Сохраненные публикации доступны с исходными датами."}
  fillFilters();renderMetrics();renderTop();renderTrends();renderOutlook();renderReports();renderNews();renderMarkets();renderFavorites();applyLang()
 }
 load();

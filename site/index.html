@@ -1,1 +1,126 @@
-<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Strategic Intelligence Monitor</title><link rel="stylesheet" href="styles.css"></head><body><div class="shell"><aside><div class="brand"><span class="pulse"></span><div><strong>STRATEGIC</strong><small>INTELLIGENCE MONITOR</small></div></div><nav id="nav"><button data-view="markets" class="active" id="navMarkets">Рынки и цифры</button><button data-view="news" id="navNews">Все новости</button><button data-view="clients" id="navClients">Клиенты</button></nav><div class="asideFoot"><span id="footLine1">Только стратегически релевантные материалы</span><br><span id="footLine2">Источники ориентированы на доступ без VPN в РФ</span><br><span id="updatedSide">—</span></div></aside><main><header><div><div class="eyebrow">AGENCY STRATEGY DESK</div><h1 id="pageTitle">Рынки и цифры</h1></div><div class="headerRight"><div class="langToggle"><button id="langRu" class="active">RU</button><button id="langEn">EN</button></div><div class="status"><span class="dot"></span><span>MONITORING ACTIVE</span></div></div></header><section class="toolbar"><input id="search"><select id="category"></select><select id="focus"></select><select id="period"></select></section><section id="context" class="context"></section><section id="content"></section></main></div><script src="app.js"></script></body></html>
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Strategy Radar</title>
+<meta name="description" content="Strategy Radar — новости, тренды, ключевые цифры и исследования для работы стратега.">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="premium.css">
+</head>
+<body>
+<a class="skipLink" href="#main">К содержимому</a>
+<div class="app">
+  <aside class="side">
+    <div class="brand"><span class="brandmark"></span><b>Strategy Radar</b></div>
+    <div class="navCaption">WORKSPACE</div><nav id="nav" aria-label="Разделы">
+      <button class="active" data-view="home"><span>⌂</span><em data-t="navHome">Главная</em></button>
+      <button data-view="news"><span>▤</span><em data-t="navNews">Новости</em></button>
+      <button data-view="trends"><span>↗</span><em data-t="navTrends">Тренды</em></button>
+      <button data-view="markets"><span>▥</span><em data-t="navMarkets">Рынки</em></button>
+      <button data-view="reports"><span>▧</span><em data-t="navReports">Отчеты</em></button>
+      <button data-view="favorites"><span>☆</span><em data-t="navFav">Избранное</em></button>
+    </nav>
+    <div class="quote">Лучшие стратегические решения начинаются с более широкого взгляда на рынок.<small>Strategy Radar</small></div>
+  </aside>
+
+  <section class="workspace">
+    <header class="top">
+      <div class="search"><span>⌕</span><input id="search" placeholder="Найти новость, компанию или рынок…" aria-label="Поиск новостей"></div>
+      <div class="topActions">
+        <select id="globalPeriod" class="topSelect" aria-label="Период">
+          <option value="7">7 дней</option><option value="30">30 дней</option>
+          <option value="90">3 месяца</option>
+          <option value="180">6 месяцев</option>
+          <option value="365" selected>12 месяцев</option>
+        </select>
+        <div class="langs"><button id="langRu" class="active">RU</button><button id="langEn">EN</button></div>
+      </div>
+    </header>
+
+    <main id="main">
+      <div id="offlineBanner" class="offlineBanner" hidden></div>
+      <div class="pagehead">
+        <div><span class="eyebrow">Strategy Radar / Market Intelligence</span><h1 id="pageTitle">Панель мониторинга рынков</h1><p id="pageSubtitle">Актуальные новости, тренды и исследования для стратегических решений</p></div>
+        <small id="fresh">Обновление данных…</small>
+      </div>
+
+      <section class="view active" id="view-home">
+        <section class="panel metricsPanel">
+          <div class="panelHead"><div><h2>Ключевые цифры</h2><small>Последние доступные данные из первичных и профильных источников</small></div></div>
+          <div class="metricGrid" id="metricGrid"></div>
+        </section>
+
+        <section class="panel">
+          <div class="panelHead"><div><h2>Главное на сегодня</h2><small id="topWindowLabel">Самые свежие значимые события</small></div><button data-go="news">Все новости →</button></div>
+          <div class="newsGrid" id="topNews"></div>
+        </section>
+
+        <section class="panel">
+          <div class="panelHead"><div><h2>Новые тренды</h2><small>Темы с несколькими независимыми источниками или первичным исследованием</small></div><button data-go="trends">Все тренды →</button></div>
+          <div class="trendCols">
+            <div class="trendBox"><div class="trendHead ru">🇷🇺 Россия</div><div id="ruTrends"></div></div>
+            <div class="trendBox"><div class="trendHead world">🌐 Мир</div><div id="globalTrends"></div></div>
+          </div>
+        </section>
+
+        <section class="panel outlookPanel">
+          <div class="panelHead"><div><h2>Что впереди</h2><small>Прогнозы и заявленные планы — только из источников</small></div><button id="outlookAll">Все прогнозы →</button></div>
+          <div class="outlookGrid" id="outlookGrid"></div>
+        </section>
+
+        <section class="panel">
+          <div class="panelHead"><div><h2>Последние исследования</h2><small>Исследования, отраслевые обзоры и первичные данные</small></div><button data-go="reports">Перейти в раздел →</button></div>
+          <div class="reportTabs" id="previewTabs"></div>
+          <div class="reportRow" id="previewReports"></div>
+        </section>
+      </section>
+
+      <section class="view" id="view-news">
+        <section class="subPanel">
+          <div class="filters six">
+            <select id="newsPeriod" aria-label="Период новостей"><option value="7">7 дней</option><option value="30">30 дней</option><option value="90">3 месяца</option><option value="180">6 месяцев</option><option value="365" selected>12 месяцев</option></select>
+            <select id="newsCategory" aria-label="Рынок"><option value="">Все рынки</option></select>
+            <select id="newsScope" aria-label="География"><option value="">Россия + мир</option><option value="Russia">Россия</option><option value="Global">Зарубежные</option></select>
+            <select id="newsSource" aria-label="Источник"><option value="">Все источники</option></select>
+            <select id="newsType" aria-label="Тип материала"><option value="">Все типы</option><option value="news">Новости</option><option value="research">Исследования</option><option value="outlook">Прогнозы и планы</option><option value="forecast">Прогнозы</option><option value="company_plan">Планы компаний</option></select>
+            <select id="newsSort" aria-label="Сортировка"><option value="relevance">По значимости</option><option value="date">По дате</option></select>
+          </div>
+          <div class="resultMeta" id="newsMeta"></div>
+          <div id="newsList" class="articleList"></div><button id="loadMore" class="loadMore" hidden>Показать еще</button>
+        </section>
+      </section>
+
+      <section class="view" id="view-trends">
+        <section class="panel">
+          <div class="panelHead"><div><h2>Тренды, подтвержденные источниками</h2><small>Основание: минимум два независимых источника либо один сильный исследовательский/официальный источник с данными</small></div></div>
+          <div class="trendCols full">
+            <div class="trendBox"><div class="trendHead ru">🇷🇺 Россия</div><div id="ruTrendsFull"></div></div>
+            <div class="trendBox"><div class="trendHead world">🌐 Мир</div><div id="globalTrendsFull"></div></div>
+          </div>
+        </section>
+      </section>
+
+      <section class="view" id="view-markets">
+        <div class="marketNav" id="marketNav"></div>
+        <div id="marketDetail"></div>
+      </section>
+
+      <section class="view" id="view-reports">
+        <section class="panel reportsPanel">
+          <div class="panelHead"><div><h2>Исследования и отчеты</h2><small id="reportStatus">Проверенные конкретные публикации за 2025–2026 годы</small></div></div>
+          <div class="reportTabs left" id="reportTabs"></div>
+          <div class="reportLibrary" id="reportLibrary"></div>
+        </section>
+      </section>
+
+      <section class="view" id="view-favorites">
+        <section class="subPanel"><div id="favoritesList" class="articleList"></div></section>
+      </section>
+    </main>
+  </section>
+</div>
+<script src="fallback-data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

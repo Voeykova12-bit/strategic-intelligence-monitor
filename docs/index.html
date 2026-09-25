@@ -6,12 +6,14 @@
 <title>Strategy Radar</title>
 <meta name="description" content="Strategy Radar — новости, тренды, ключевые цифры и исследования для работы стратега.">
 <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="premium.css">
 </head>
 <body>
+<a class="skipLink" href="#main">К содержимому</a>
 <div class="app">
   <aside class="side">
     <div class="brand"><span class="brandmark"></span><b>Strategy Radar</b></div>
-    <nav id="nav">
+    <div class="navCaption">WORKSPACE</div><nav id="nav" aria-label="Разделы">
       <button class="active" data-view="home"><span>⌂</span><em data-t="navHome">Главная</em></button>
       <button data-view="news"><span>▤</span><em data-t="navNews">Новости</em></button>
       <button data-view="trends"><span>↗</span><em data-t="navTrends">Тренды</em></button>
@@ -24,10 +26,10 @@
 
   <section class="workspace">
     <header class="top">
-      <div class="search"><span>⌕</span><input id="search" placeholder="Поиск по новостям, рынкам и трендам…"></div>
+      <div class="search"><span>⌕</span><input id="search" placeholder="Найти новость, компанию или рынок…" aria-label="Поиск новостей"></div>
       <div class="topActions">
         <select id="globalPeriod" class="topSelect" aria-label="Период">
-          <option value="30">30 дней</option>
+          <option value="7">7 дней</option><option value="30">30 дней</option>
           <option value="90">3 месяца</option>
           <option value="180">6 месяцев</option>
           <option value="365" selected>12 месяцев</option>
@@ -36,10 +38,10 @@
       </div>
     </header>
 
-    <main>
+    <main id="main">
       <div id="offlineBanner" class="offlineBanner" hidden></div>
       <div class="pagehead">
-        <div><h1 id="pageTitle">Панель мониторинга рынков</h1><p id="pageSubtitle">Актуальные новости, тренды и исследования для стратегических решений</p></div>
+        <div><span class="eyebrow">Strategy Radar / Market Intelligence</span><h1 id="pageTitle">Панель мониторинга рынков</h1><p id="pageSubtitle">Актуальные новости, тренды и исследования для стратегических решений</p></div>
         <small id="fresh">Обновление данных…</small>
       </div>
 
@@ -55,7 +57,7 @@
         </section>
 
         <section class="panel">
-          <div class="panelHead"><div><h2>Новые тренды</h2><small>Только сигналы с подтверждением источниками за 3–12 месяцев</small></div><button data-go="trends">Все тренды →</button></div>
+          <div class="panelHead"><div><h2>Новые тренды</h2><small>Темы с несколькими независимыми источниками или первичным исследованием</small></div><button data-go="trends">Все тренды →</button></div>
           <div class="trendCols">
             <div class="trendBox"><div class="trendHead ru">🇷🇺 Россия</div><div id="ruTrends"></div></div>
             <div class="trendBox"><div class="trendHead world">🌐 Мир</div><div id="globalTrends"></div></div>
@@ -68,7 +70,7 @@
         </section>
 
         <section class="panel">
-          <div class="panelHead"><div><h2>Последние исследования</h2><small>Конкретные отчеты, а не ссылки на главные страницы</small></div><button data-go="reports">Перейти в раздел →</button></div>
+          <div class="panelHead"><div><h2>Последние исследования</h2><small>Исследования, отраслевые обзоры и первичные данные</small></div><button data-go="reports">Перейти в раздел →</button></div>
           <div class="reportTabs" id="previewTabs"></div>
           <div class="reportRow" id="previewReports"></div>
         </section>
@@ -77,15 +79,15 @@
       <section class="view" id="view-news">
         <section class="subPanel">
           <div class="filters six">
-            <select id="newsPeriod"><option value="7">7 дней</option><option value="30">30 дней</option><option value="90">3 месяца</option><option value="180">6 месяцев</option><option value="365" selected>12 месяцев</option></select>
-            <select id="newsCategory"><option value="">Все рынки</option></select>
-            <select id="newsScope"><option value="">Россия + мир</option><option value="Russia">Россия</option><option value="Global">Зарубежные</option></select>
-            <select id="newsSource"><option value="">Все источники</option></select>
-            <select id="newsType"><option value="">Все типы</option><option value="news">Новости</option><option value="research">Исследования</option><option value="forecast">Прогнозы</option><option value="company_plan">Планы компаний</option></select>
-            <select id="newsSort"><option value="relevance">По значимости</option><option value="date">По дате</option></select>
+            <select id="newsPeriod" aria-label="Период новостей"><option value="7">7 дней</option><option value="30">30 дней</option><option value="90">3 месяца</option><option value="180">6 месяцев</option><option value="365" selected>12 месяцев</option></select>
+            <select id="newsCategory" aria-label="Рынок"><option value="">Все рынки</option></select>
+            <select id="newsScope" aria-label="География"><option value="">Россия + мир</option><option value="Russia">Россия</option><option value="Global">Зарубежные</option></select>
+            <select id="newsSource" aria-label="Источник"><option value="">Все источники</option></select>
+            <select id="newsType" aria-label="Тип материала"><option value="">Все типы</option><option value="news">Новости</option><option value="research">Исследования</option><option value="outlook">Прогнозы и планы</option><option value="forecast">Прогнозы</option><option value="company_plan">Планы компаний</option></select>
+            <select id="newsSort" aria-label="Сортировка"><option value="relevance">По значимости</option><option value="date">По дате</option></select>
           </div>
           <div class="resultMeta" id="newsMeta"></div>
-          <div id="newsList" class="articleList"></div>
+          <div id="newsList" class="articleList"></div><button id="loadMore" class="loadMore" hidden>Показать еще</button>
         </section>
       </section>
 

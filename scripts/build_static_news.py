@@ -11,6 +11,8 @@ from pathlib import Path
 from urllib.parse import parse_qsl, urlencode, urljoin, urlsplit, urlunsplit
 from urllib.request import Request, urlopen
 
+from source_utils import parse_date, canonical_url, material_type, publication_meta, deduplicate, in_window
+
 import feedparser
 import yaml
 from bs4 import BeautifulSoup
@@ -24,6 +26,8 @@ MAX_ITEMS = 5000
 RETENTION_DAYS = 365
 
 CATEGORY_LABELS = {
+    "Pharma": "Фарма",
+    "Fashion": "Мода",
     "Retail": "Ритейл",
     "DeliveryEcom": "E-commerce & доставка",
     "BanksFintech": "Банки & финтех",
@@ -38,6 +42,8 @@ CATEGORY_LABELS = {
 }
 
 CATEGORY_KEYWORDS = {
+    "Pharma": ["фарм", "аптек", "лекарств", "медпрепарат"],
+    "Fashion": ["fashion", "одежд", "обув", "модной индустр", "модная индустр", "текстиль"],
     "Retail": ["ритейл","рознич","магазин","торговая сеть","супермаркет","гипермаркет","дискаунтер","x5","пятёроч","пятероч","перекрёст","перекрест","чижик","магнит","лента","вкусвилл","fix price","metro","ашан","окей","o'key"],
     "DeliveryEcom": ["маркетплейс","e-commerce","ecommerce","онлайн-торгов","доставка","e-grocery","пвз","курьер","даркстор","dark store","last mile","последняя миля","самовывоз","ozon","wildberries","самокат","купер","яндекс лавка","яндекс маркет"],
     "BanksFintech": ["банк","банков","кредит","вклад","депозит","ипотек","карта","эквайр","кэшбэк","кешбэк","финтех","платеж","платёж","рассроч","bnpl","альфа-банк","альфа банк","сбер","втб","т-банк","тинькофф","газпромбанк","совкомбанк","псб","мкб","озон банк","яндекс банк"],
@@ -81,10 +87,7 @@ FUTURE_RE = re.compile(r"\b(2027|2028|2029|2030|2031|2032|2033|2034|2035)\b")
 FUTURE_WORDS = ["планирует","планируют","планируется","намерен","намерена","к 2027","до 2030","в следующем году","прогнозирует","прогноз"]
 
 def canonicalize(url):
-    try:
-        parts=urlsplit(url.strip()); q=[(k,v) for k,v in parse_qsl(parts.query,keep_blank_values=True) if not k.lower().startswith("utm_") and k.lower() not in {"gclid","yclid","fbclid","from","ref"}]
-        return urlunsplit((parts.scheme.lower() or "https",parts.netloc.lower(),parts.path.rstrip("/") or "/",urlencode(sorted(q)),""))
-    except Exception: return url
+    return canonical_url(url)
 
 def clean_text(value):
     value=html.unescape(value or ""); value=re.sub(r"<[^>]+>"," ",value); return re.sub(r"\s+"," ",value).strip()
@@ -96,13 +99,7 @@ def compact_summary(value,limit=360):
     return (cut[:pos+1] if pos>150 else cut.rstrip())+"…"
 
 def parse_date_value(raw):
-    if not raw: return datetime.now(timezone.utc).isoformat()
-    try: dt=parsedate_to_datetime(raw)
-    except Exception:
-        try: dt=datetime.fromisoformat(str(raw).replace("Z","+00:00"))
-        except Exception: return datetime.now(timezone.utc).isoformat()
-    if dt.tzinfo is None: dt=dt.replace(tzinfo=timezone.utc)
-    return dt.astimezone(timezone.utc).isoformat()
+    return parse_date(raw)
 
 def contains_term(low, term):
     term=str(term).lower()
@@ -112,7 +109,7 @@ def contains_term(low, term):
 
 def classify(text,hint=None):
     low=f" {text.lower()} "; cats=[k for k,words in CATEGORY_KEYWORDS.items() if any(contains_term(low,w) for w in words)]
-    if hint and hint not in cats: cats.insert(0,hint)
+    if hint: cats = [hint] + [c for c in cats if c != hint]
     topics=[k for k,words in TOPIC_KEYWORDS.items() if any(contains_term(low,w) for w in words)]
     brands=[b for b in KNOWN_BRANDS if contains_term(low,b)]
     return cats[:4],(topics or ["Бизнес-изменения"])[:6],list(dict.fromkeys(brands))[:12]
@@ -126,14 +123,7 @@ def planning_horizon(text):
     return list(dict.fromkeys(years)) or (["future"] if any(x in low for x in FUTURE_WORDS) else [])
 
 def content_type_for(text,future,topics):
-    low=text.lower()
-    if any(x in low for x in ["исследование","исследовани","отчет","отчёт","доклад","обзор рынка","survey","research","report","study"]) or "Исследования и прогнозы" in topics:
-        return "research"
-    if future:
-        if any(x in low for x in ["планирует","намерен","запустит","откроет","расширит","инвестирует","будет инвестировать","plans to","will launch","will open","will invest","to expand"]):
-            return "company_plan"
-        return "forecast"
-    return "news"
+    return material_type(text)[0]
 
 def load_clients():
     return (yaml.safe_load(CLIENTS_PATH.read_text(encoding="utf-8")) or {}).get("clients",[])
@@ -241,6 +231,7 @@ def title_key(title):
 def make_items(raw_items,src,clients):
     out=[]; hint=src.get("category_hint")
     for title,url,summary,published in raw_items:
+        if not in_window(published): continue
         combined=f"{title}. {summary}"; cats,topics,brands=classify(combined,hint)
         if not cats: continue
         future=planning_horizon(combined); cm=client_matches(combined,clients); relevant,value,reasons=strategic_filter(combined,cats,topics,brands,cm,future)
@@ -263,14 +254,9 @@ def fetch_rss(src,clients):
 def detail_meta(url):
     req=Request(url,headers={"User-Agent":USER_AGENT,"Accept":"text/html,*/*"})
     with urlopen(req,timeout=20) as r: page=r.read()
-    soup=BeautifulSoup(page,"html.parser"); desc=""; published=""
-    for attrs in ({"property":"og:description"},{"name":"description"}):
-        tag=soup.find("meta",attrs=attrs)
-        if tag and tag.get("content"): desc=clean_text(tag.get("content")); break
-    for attrs in ({"property":"article:published_time"},{"name":"article:published_time"}):
-        tag=soup.find("meta",attrs=attrs)
-        if tag and tag.get("content"): published=tag.get("content"); break
-    return compact_summary(desc),parse_date_value(published)
+    soup=BeautifulSoup(page,"html.parser")
+    title, desc, published, pdfs = publication_meta(soup, url)
+    return compact_summary(desc),published
 
 def fetch_html(src,clients):
     req=Request(src["url"],headers={"User-Agent":USER_AGENT,"Accept":"text/html,*/*"})
@@ -293,7 +279,7 @@ def fetch_html(src,clients):
         if domain.endswith("rbc.ru") and "/news/" not in p.path: continue
         seen.add(href)
         try: summary,published=detail_meta(href)
-        except Exception: summary,published="",datetime.now(timezone.utc).isoformat()
+        except Exception: continue
         rows.append((title,canonicalize(href),summary,published))
         if len(rows)>=28: break
         time.sleep(.05)
@@ -304,7 +290,8 @@ def requalify(item,clients,active_sources,cutoff):
         dt=datetime.fromisoformat((item.get("published_at") or "").replace("Z","+00:00"))
         if dt.tzinfo is None: dt=dt.replace(tzinfo=timezone.utc)
     except Exception: return None
-    if dt<cutoff or item.get("source") not in active_sources: return None
+    if not in_window(item.get("published_at")): return None
+    if item.get("source") not in active_sources: return item
     combined=f"{item.get('title','')}. {item.get('summary','')}"; cats,topics,brands=classify(combined)
     future=planning_horizon(combined); cm=client_matches(combined,clients); relevant,value,reasons=strategic_filter(combined,cats,topics,brands,cm,future)
     if not relevant: return None
@@ -337,7 +324,7 @@ def main():
                 by_id[item["id"]]=item; title_seen[key]=item["id"]; added+=1
         except Exception as exc: errors.append({"source":src.get("name"),"error":str(exc)[:240]})
         stats.append({"source":src.get("name"),"added":added}); time.sleep(.12)
-    items=list(by_id.values()); items.sort(key=lambda x:(float(x.get("score",0) or 0),x.get("published_at") or ""),reverse=True); items=items[:MAX_ITEMS]
+    items=deduplicate(list(by_id.values())); items.sort(key=lambda x:(float(x.get("score",0) or 0),x.get("published_at") or ""),reverse=True); items=items[:MAX_ITEMS]
     payload={"updated_at":datetime.now(timezone.utc).isoformat(),"source_count":len(sources),"item_count":len(items),"retention_days":RETENTION_DAYS,"categories":[{"id":k,"label":v} for k,v in CATEGORY_LABELS.items()],"clients":[{"slug":c["slug"],"name":c["name"]} for c in clients],"source_stats":stats,"errors":errors,"items":items}
     DATA_PATH.parent.mkdir(parents=True,exist_ok=True); DATA_PATH.write_text(json.dumps(payload,ensure_ascii=False,indent=2),encoding="utf-8")
     print(f"Updated {len(items)} strategically relevant items from {len(sources)} sources; errors={len(errors)}")
