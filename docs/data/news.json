@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-25T11:01:08.207235+00:00",
+  "updated_at": "2026-09-25T11:17:43.736057+00:00",
   "source_count": 42,
-  "item_count": 394,
+  "item_count": 399,
   "retention_days": 365,
   "categories": [
     {
@@ -86,11 +86,11 @@
     },
     {
       "source": "РБК — бизнес и экономика",
-      "added": 2
+      "added": 0
     },
     {
       "source": "Коммерсантъ — новости",
-      "added": 0
+      "added": 1
     },
     {
       "source": "Ведомости — новости",
@@ -98,15 +98,15 @@
     },
     {
       "source": "Sostav — маркетинг и бренды",
-      "added": 2
+      "added": 1
     },
     {
       "source": "CNews — бизнес и технологии",
-      "added": 0
+      "added": 1
     },
     {
       "source": "ТАСС — экономика и компании",
-      "added": 2
+      "added": 1
     },
     {
       "source": "Finam — компании и рынки",
@@ -114,7 +114,7 @@
     },
     {
       "source": "АВТОСТАТ — авторынок",
-      "added": 0
+      "added": 2
     },
     {
       "source": "РБК Недвижимость — рынок недвижимости",
@@ -197,7 +197,7 @@
     },
     {
       "source": "РБК Тренды",
-      "added": 2,
+      "added": 3,
       "status": "ok"
     },
     {
@@ -263,7 +263,7 @@
     {
       "source": "PROfashion",
       "added": 0,
-      "status": "error"
+      "status": "no_dated_items"
     },
     {
       "source": "Fashion Consulting Group — Telegram",
@@ -278,10 +278,6 @@
   ],
   "errors": [
     {
-      "source": "АВТОСТАТ — авторынок",
-      "error": "HTTP Error 403: Forbidden"
-    },
-    {
       "source": "Росстат — новости статистики",
       "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
     },
@@ -291,10 +287,6 @@
     },
     {
       "source": "ФАС России — новости",
-      "error": "<urlopen error timed out>"
-    },
-    {
-      "source": "PROfashion",
       "error": "<urlopen error timed out>"
     }
   ],
@@ -7919,6 +7911,45 @@
       "publisher_id": "sostav.ru"
     },
     {
+      "id": "5b953da020d2e23ec4",
+      "title": "Рынок пикапов с пробегом в августе показал незначительный рост",
+      "url": "https://autostat.ru/news/63166",
+      "source": "АВТОСТАТ — авторынок",
+      "published_at": "2026-09-25T00:00:00+00:00",
+      "summary": "Согласно данным агентства «АВТОСТАТ», в августе 2026 года россияне приобрели 3 092 подержанных пикапа. Это всего лишь на 0,7% больше, чем в том же месяце прошлого года (3 073 шт.).",
+      "categories": [
+        "Automotive"
+      ],
+      "primary_category": "Automotive",
+      "topics": [
+        "Рынок и продажи",
+        "M&A и инвестиции"
+      ],
+      "brands": [],
+      "score": 2.2,
+      "strategic_relevance_score": 44,
+      "relevance_reasons": [
+        "рынок / бизнес",
+        "инвестиции / M&A",
+        "есть данные"
+      ],
+      "why_it_matters": "Важен для понимания продаж, цен, модельного ряда, дилерской сети и конкурентной динамики авторынка. Отобрано как: рынок / бизнес, инвестиции / M&A, есть данные.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [
+        {
+          "type": "Рыночная метрика",
+          "value": "0,7%",
+          "context": "Это всего лишь на 0,7% больше, чем в том же месяце прошлого года (3 073 шт."
+        }
+      ],
+      "source_quality": 4.8,
+      "publisher_id": "autostat.ru"
+    },
+    {
       "id": "692b37170529db07b5",
       "title": "Бюджетное правило в 2026 году слабее компенсирует влияние цен на нефть",
       "url": "https://kommersant.ru/doc/8974614",
@@ -9186,6 +9217,42 @@
       "publisher_id": "retail.ru"
     },
     {
+      "id": "db2c5adf352c7ad7c3",
+      "title": "Совкомбанк намерен поддержать продвижение просемейных ценностей в рекламе",
+      "url": "https://tass.ru/obschestvo/28151671",
+      "source": "ТАСС — экономика и компании",
+      "published_at": "2026-09-25T11:05:15+00:00",
+      "summary": "На ежегодной всероссийской конференции Института демографической политики имени Д. И. Менделеева АКАР подписала меморандум о продвижении просемейных ценностей в рекламных конкурсах и фестивалях",
+      "categories": [
+        "BanksFintech"
+      ],
+      "primary_category": "BanksFintech",
+      "topics": [
+        "Маркетинг и медиа"
+      ],
+      "brands": [
+        "Совкомбанк"
+      ],
+      "score": 2.0,
+      "strategic_relevance_score": 40,
+      "relevance_reasons": [
+        "маркетинг",
+        "крупный игрок",
+        "будущий горизонт"
+      ],
+      "why_it_matters": "Может менять банковские офферы, финтех-сервисы, клиентское поведение и коммуникационную конкуренцию. В фокусе: Совкомбанк. Горизонт: future. Отобрано как: маркетинг, крупный игрок, будущий горизонт.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [
+        "future"
+      ],
+      "future_signal": true,
+      "content_type": "company_plan",
+      "metrics": [],
+      "source_quality": 4.5,
+      "publisher_id": "tass.ru"
+    },
+    {
       "id": "855ecccec01739f682",
       "title": "Операторы допустили блокировку звонков банков без маркировки с 15 октября",
       "url": "https://rbc.ru/politics/26/06/2026/6a3ea24e9a79477c633f3010",
@@ -9252,6 +9319,36 @@
       "metrics": [],
       "source_quality": 4.5,
       "publisher_id": "retail.ru"
+    },
+    {
+      "id": "59709eb99a1e38bb4b",
+      "title": "Дилер рассказал о перспективах обновленного бизнес-седана Hongqi H5",
+      "url": "https://autostat.ru/news/63165",
+      "source": "АВТОСТАТ — авторынок",
+      "published_at": "2026-09-25T00:00:00+00:00",
+      "summary": "Обновленный бизнес-седан Hongqi H5, который недавно поступил в продажу на российском рынке, получил целый ряд существенных изменений, но при этом не изменился ценовой подход, что позволит клиентам приобрести обновленную версию без дополн...",
+      "categories": [
+        "Automotive"
+      ],
+      "primary_category": "Automotive",
+      "topics": [
+        "Рынок и продажи"
+      ],
+      "brands": [],
+      "score": 2.0,
+      "strategic_relevance_score": 40,
+      "relevance_reasons": [
+        "рынок / бизнес"
+      ],
+      "why_it_matters": "Важен для понимания продаж, цен, модельного ряда, дилерской сети и конкурентной динамики авторынка. Отобрано как: рынок / бизнес.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [],
+      "source_quality": 4.8,
+      "publisher_id": "autostat.ru"
     },
     {
       "id": "634a2911e246ffb672",
@@ -11554,6 +11651,34 @@
       "content_type": "news",
       "source_quality": 4.0,
       "publisher_id": "sostav.ru"
+    },
+    {
+      "id": "d0bccd6ccac01d1800",
+      "title": "Глава ватиканской комиссии по ИИ никогда не пользовался нейросетями",
+      "url": "https://kommersant.ru/doc/8979849",
+      "source": "Коммерсантъ — новости",
+      "published_at": "2026-09-25T10:58:23+00:00",
+      "summary": "Кардинал Майкл Черни, который возглавляет комиссию по искусственному интеллекту (ИИ) в Ватикане, сам им никогда не пользовался. В этом он признался в подкасте Brussels Playbook Podcast от издания Politico.",
+      "categories": [
+        "TechnologyAI"
+      ],
+      "primary_category": "TechnologyAI",
+      "topics": [
+        "Digital и технологии"
+      ],
+      "brands": [],
+      "score": 1.6,
+      "strategic_relevance_score": 32,
+      "relevance_reasons": [],
+      "why_it_matters": "Материал влияет на рыночный или конкурентный контекст.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [],
+      "source_quality": 4.6,
+      "publisher_id": "kommersant.ru"
     },
     {
       "id": "9a3f4ff8e3aa8a6f02",
@@ -13917,6 +14042,34 @@
       "metrics": [],
       "source_quality": 4.0,
       "publisher_id": "finam.ru"
+    },
+    {
+      "id": "d6d8bcf3f049181aae",
+      "title": "«Диасофт» заняла второе место в рейтинге цифровых кредитных конвейеров для юрлиц CNewsMarket",
+      "url": "https://cnews.ru/news/line/2026-09-25_diasoft_zanyala_vtoroe",
+      "source": "CNews — бизнес и технологии",
+      "published_at": "2026-09-25T10:59:00+00:00",
+      "summary": "Компания «Диасофт» заняла второе место в рейтинге «Цифровизация кредитования юридических лиц 2026» CNewsMarket, подтвердив...",
+      "categories": [
+        "BanksFintech"
+      ],
+      "primary_category": "BanksFintech",
+      "topics": [
+        "Digital и технологии"
+      ],
+      "brands": [],
+      "score": 1.1,
+      "strategic_relevance_score": 22,
+      "relevance_reasons": [],
+      "why_it_matters": "Может менять банковские офферы, финтех-сервисы, клиентское поведение и коммуникационную конкуренцию.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [],
+      "source_quality": 4.1,
+      "publisher_id": "cnews.ru"
     },
     {
       "id": "60662200faef3ab11f",
