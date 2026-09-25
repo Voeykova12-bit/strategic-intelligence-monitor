@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-25T09:01:50.788856+00:00",
+  "updated_at": "2026-09-25T10:18:20.903815+00:00",
   "source_count": 42,
-  "item_count": 378,
+  "item_count": 388,
   "retention_days": 365,
   "categories": [
     {
@@ -74,7 +74,7 @@
   "source_stats": [
     {
       "source": "Retail.ru — новости",
-      "added": 0
+      "added": 1
     },
     {
       "source": "Retail.ru — статьи",
@@ -86,11 +86,11 @@
     },
     {
       "source": "РБК — бизнес и экономика",
-      "added": 0
+      "added": 1
     },
     {
       "source": "Коммерсантъ — новости",
-      "added": 0
+      "added": 1
     },
     {
       "source": "Ведомости — новости",
@@ -98,11 +98,11 @@
     },
     {
       "source": "Sostav — маркетинг и бренды",
-      "added": 1
+      "added": 2
     },
     {
       "source": "CNews — бизнес и технологии",
-      "added": 0
+      "added": 2
     },
     {
       "source": "ТАСС — экономика и компании",
@@ -177,7 +177,7 @@
     },
     {
       "source": "New Retail — отраслевые новости",
-      "added": 4,
+      "added": 5,
       "status": "ok"
     },
     {
@@ -197,7 +197,7 @@
     },
     {
       "source": "РБК Тренды",
-      "added": 1,
+      "added": 2,
       "status": "ok"
     },
     {
@@ -262,8 +262,8 @@
     },
     {
       "source": "PROfashion",
-      "added": 1,
-      "status": "ok"
+      "added": 0,
+      "status": "error"
     },
     {
       "source": "Fashion Consulting Group — Telegram",
@@ -291,6 +291,10 @@
     },
     {
       "source": "ФАС России — новости",
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "source": "PROfashion",
       "error": "<urlopen error timed out>"
     }
   ],
@@ -3173,6 +3177,39 @@
       "publisher_id": "infoline.spb.ru"
     },
     {
+      "id": "e8254f20395e18c0cf",
+      "title": "Медиабизнес столкнется с замедлением роста и начнет менять стратегии в 2027 году",
+      "url": "https://adindex.ru/news/tendencies/2026/09/25/349267.phtml",
+      "source": "AdIndex — реклама и медиа",
+      "published_at": "2026-09-25T00:00:00+00:00",
+      "summary": "Новости Бизнес СМИ AdIndex из рубрики Тенденции — Медиабизнес столкнется с замедлением роста и начнет менять стратегии в 2027 году — Стриминги будут развивать бесплатные тарифы, ИИ-сервисы — диалоговую рекламу, а бренды начнут оценивать, как часто нейросети советуют их потребителям …",
+      "categories": [
+        "MediaAdvertising",
+        "TechnologyAI",
+        "Consumer"
+      ],
+      "primary_category": "MediaAdvertising",
+      "topics": [
+        "Потребитель",
+        "Маркетинг и медиа",
+        "Digital и технологии"
+      ],
+      "brands": [],
+      "score": 3.8,
+      "strategic_relevance_score": 76,
+      "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
+      "market_scope": "Russia",
+      "metrics": [],
+      "image_url": "",
+      "source_quality": 4.5,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": [],
+      "pdf_urls": [],
+      "research_primary": false,
+      "publisher_id": "adindex.ru"
+    },
+    {
       "id": "8e3ae77125942e5516",
       "title": "Россияне откладывают крупные покупки | 2026-07-31",
       "url": "https://romir.ru/feed/rossiiane-otkladyvaiut-krupnye-pokupki",
@@ -3536,34 +3573,6 @@
       "publisher_id": "new-retail.ru"
     },
     {
-      "id": "89e45b73b8e580b799",
-      "title": "Inside McDonald’s new marketing model as it enters media network fray",
-      "url": "https://marketingdive.com/news/inside-mcdonalds-new-marketing-model-as-it-enters-media-network-fray/831170",
-      "source": "Marketing Dive",
-      "published_at": "2026-09-23T18:30:00+00:00",
-      "summary": "At its first investor day since 2023, the fast-food giant announced it is piloting a media network with the goal of building a $1 billion ad business.",
-      "categories": [
-        "MediaAdvertising"
-      ],
-      "primary_category": "MediaAdvertising",
-      "topics": [
-        "Рынок и продажи",
-        "Маркетинг и медиа"
-      ],
-      "brands": [],
-      "score": 3.7,
-      "strategic_relevance_score": 74,
-      "why_it_matters": "Международный сигнал, который может повлиять на маркетинг, потребление или бизнес-модели и быть релевантен российскому рынку.",
-      "market_scope": "Global",
-      "metrics": [],
-      "image_url": "https://imgproxy.divecdn.com/-YuW349ccEajUTSSEoqqOzEWFdkOyI0KSFd_S_T-dUQ/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMTgwNTQ2MTkyX1RPWDJkcDMuanBn.webp",
-      "source_quality": 4.5,
-      "content_type": "news",
-      "future_signal": false,
-      "future_horizon": [],
-      "publisher_id": "marketingdive.com"
-    },
-    {
       "id": "422e55842e1bee1487",
       "title": "Spot & Tango is making a $3.5M bet on brand marketing after years of spending $0",
       "url": "https://modernretail.co/marketing/spot-tango-is-making-a-3-5m-bet-on-brand-marketing-after-years-of-spending-0",
@@ -3853,6 +3862,73 @@
       "pdf_urls": [],
       "research_primary": true,
       "publisher_id": "frankrg.com"
+    },
+    {
+      "id": "41a45ce333d991b1b2",
+      "title": "Пивовары просят разрешить ИП перевозить алкоголь",
+      "url": "https://retailer.ru/pivovary-prosjat-razreshit-ip-perevozit-alkogol",
+      "source": "Retailer.ru",
+      "published_at": "2026-09-25T10:13:30+00:00",
+      "summary": "По закону о производстве и обороте алкоголя (171-ФЗ) логистикой могут заниматься только организации. Сообщение Пивовары просят разрешить ИП перевозить алкоголь появились сначала на RETAILER.ru .",
+      "categories": [
+        "Retail"
+      ],
+      "primary_category": "Retail",
+      "topics": [
+        "Рынок и продажи"
+      ],
+      "brands": [],
+      "score": 3.6,
+      "strategic_relevance_score": 72,
+      "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
+      "market_scope": "Russia",
+      "metrics": [],
+      "image_url": "",
+      "source_quality": 4.3,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": [],
+      "publisher_id": "retailer.ru"
+    },
+    {
+      "id": "750ee1bc4e4fa75311",
+      "title": "Рост рынка e-commerce замедлился до 15% в 2026 году против 50% в 2023 году",
+      "url": "https://retailer.ru/rost-rynka-e-commerce-zamedlilsja-do-15-v-2026-godu-protiv-50-v-2023-godu",
+      "source": "Retailer.ru",
+      "published_at": "2026-09-25T10:08:30+00:00",
+      "summary": "Гендиректор МАРМП Алексей Молодых связывает охлаждение потребительской активности с пиком атак на логистическую инфраструктуру маркетплейсов. Сообщение Рост рынка e-commerce замедлился до 15% в 2026 году против 50% в 2023 году появились сначала на RETAILER.ru .",
+      "categories": [
+        "Retail",
+        "DeliveryEcom",
+        "Consumer"
+      ],
+      "primary_category": "Retail",
+      "topics": [
+        "Потребитель"
+      ],
+      "brands": [],
+      "score": 3.6,
+      "strategic_relevance_score": 72,
+      "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
+      "market_scope": "Russia",
+      "metrics": [
+        {
+          "type": "Рыночная метрика",
+          "value": "15%",
+          "context": "Рост рынка e-commerce замедлился до 15% в 2026 году против 50% в 2023 году. Гендиректор МАРМП Алексей Молодых связывает охлаждение потребительской ак"
+        },
+        {
+          "type": "Рыночная метрика",
+          "value": "50%",
+          "context": "Рост рынка e-commerce замедлился до 15% в 2026 году против 50% в 2023 году. Гендиректор МАРМП Алексей Молодых связывает охлаждение потребительской активности с пиком атак н"
+        }
+      ],
+      "image_url": "",
+      "source_quality": 4.3,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": [],
+      "publisher_id": "retailer.ru"
     },
     {
       "id": "635741deee2d46a343",
@@ -5311,6 +5387,43 @@
       "publisher_id": "modernretail.co"
     },
     {
+      "id": "b1ad411e255efc577b",
+      "title": "78% покупателей приобретают косметику онлайн | New Retail",
+      "url": "https://new-retail.ru/novosti/retail/78_pokupateley_priobretayut_ukhodovuyu_kosmetiku_onlayn",
+      "source": "New Retail — отраслевые новости",
+      "published_at": "2026-09-24T21:00:00+00:00",
+      "summary": "Категория «Красота» на маркетплейсах растет быстрее всего рынка электронной коммерции.",
+      "categories": [
+        "Retail",
+        "DeliveryEcom",
+        "Consumer"
+      ],
+      "primary_category": "Retail",
+      "topics": [
+        "Потребитель"
+      ],
+      "brands": [],
+      "score": 3.3,
+      "strategic_relevance_score": 66,
+      "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
+      "market_scope": "Russia",
+      "metrics": [
+        {
+          "type": "Рыночная метрика",
+          "value": "78%",
+          "context": "78% покупателей приобретают косметику онлайн | New Retail. Категория «Красота» на маркетплейсах растет быстрее вс"
+        }
+      ],
+      "image_url": "",
+      "source_quality": 4.2,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": [],
+      "pdf_urls": [],
+      "research_primary": false,
+      "publisher_id": "new-retail.ru"
+    },
+    {
       "id": "e9315db84c6baad9e8",
       "title": "Минэкономики ожидает роста ВВП на 0,6% в 2026 году и на 1,4% — в 2027-м",
       "url": "https://kommersant.ru/doc/8974609",
@@ -5656,6 +5769,35 @@
       "future_signal": false,
       "future_horizon": [],
       "publisher_id": "retaildive.com"
+    },
+    {
+      "id": "89e45b73b8e580b799",
+      "title": "Inside McDonald’s new marketing model as it enters media network fray",
+      "url": "https://marketingdive.com/news/inside-mcdonalds-new-marketing-model-as-it-enters-media-network-fray/831170",
+      "source": "Marketing Dive",
+      "published_at": "2026-09-23T18:30:00+00:00",
+      "summary": "The chain announced plans for a unified mobile platform that is scheduled to be piloted in France later this year before scaling to other markets.",
+      "categories": [
+        "MediaAdvertising",
+        "TechnologyAI"
+      ],
+      "primary_category": "MediaAdvertising",
+      "topics": [
+        "Рынок и продажи",
+        "Маркетинг и медиа"
+      ],
+      "brands": [],
+      "score": 3.3,
+      "strategic_relevance_score": 66,
+      "why_it_matters": "Международный сигнал, который может повлиять на маркетинг, потребление или бизнес-модели и быть релевантен российскому рынку.",
+      "market_scope": "Global",
+      "metrics": [],
+      "image_url": "https://imgproxy.divecdn.com/-YuW349ccEajUTSSEoqqOzEWFdkOyI0KSFd_S_T-dUQ/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMTgwNTQ2MTkyX1RPWDJkcDMuanBn.webp",
+      "source_quality": 4.5,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": [],
+      "publisher_id": "marketingdive.com"
     },
     {
       "id": "5aba57c08f793ba569",
@@ -7675,6 +7817,39 @@
       "publisher_id": "tass.ru"
     },
     {
+      "id": "030d550f25d1e5d92d",
+      "title": "Зарубежные нейросети могут обойтись дороже рекламному рынку",
+      "url": "https://sostav.ru/publication/zarubezhnye-nejroseti-stanut-dorozhe-dlya-rossijskogo-reklamnogo-rynka-87234.html",
+      "source": "Sostav — маркетинг и бренды",
+      "published_at": "2026-09-25T09:10:00+00:00",
+      "summary": "При оплате AI-сервисов через посредников бренды и агентства могут столкнуться с дополнительным НДС и налоговыми рисками",
+      "categories": [
+        "TechnologyAI"
+      ],
+      "primary_category": "TechnologyAI",
+      "topics": [
+        "Маркетинг и медиа",
+        "Digital и технологии",
+        "Регулирование"
+      ],
+      "brands": [],
+      "score": 2.2,
+      "strategic_relevance_score": 44,
+      "relevance_reasons": [
+        "маркетинг",
+        "регулирование"
+      ],
+      "why_it_matters": "Материал влияет на рыночный или конкурентный контекст. Отобрано как: маркетинг, регулирование.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [],
+      "source_quality": 4.2,
+      "publisher_id": "sostav.ru"
+    },
+    {
       "id": "692b37170529db07b5",
       "title": "Бюджетное правило в 2026 году слабее компенсирует влияние цен на нефть",
       "url": "https://kommersant.ru/doc/8974614",
@@ -9635,6 +9810,75 @@
       "publisher_id": "retail.ru"
     },
     {
+      "id": "ba60e927c92b714575",
+      "title": "Аналитика «МТС Ads»: 56% россиян используют ИИ при составлении резюме и поиске работы",
+      "url": "https://cnews.ru/news/line/2026-09-25_analitika_mts_ads_56_rossiyan",
+      "source": "CNews — бизнес и технологии",
+      "published_at": "2026-09-25T10:06:00+00:00",
+      "summary": "Более половины россиян используют искусственный интеллект при составлении резюме и поиске работы, следует из...",
+      "categories": [
+        "Telecom"
+      ],
+      "primary_category": "Telecom",
+      "topics": [
+        "Digital и технологии",
+        "Исследования и прогнозы"
+      ],
+      "brands": [
+        "МТС"
+      ],
+      "score": 1.9,
+      "strategic_relevance_score": 38,
+      "relevance_reasons": [
+        "крупный игрок",
+        "есть данные"
+      ],
+      "why_it_matters": "Материал влияет на рыночный или конкурентный контекст. В фокусе: МТС. Отобрано как: крупный игрок, есть данные.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [
+        {
+          "type": "Рыночная метрика",
+          "value": "56%",
+          "context": "Аналитика «МТС Ads»: 56% россиян используют ИИ при составлении резюме и поиске работы."
+        }
+      ],
+      "source_quality": 4.1,
+      "publisher_id": "cnews.ru"
+    },
+    {
+      "id": "dfd1838da83cac36a5",
+      "title": "Politico узнало о дилемме, поставленной США перед Anthropic и OpenAI",
+      "url": "https://rbc.ru/rbcfreenews/6aaec5146314b7a621b64069",
+      "source": "РБК — бизнес и экономика",
+      "published_at": "2026-09-25T09:08:09+00:00",
+      "summary": "Белый дом попросил компании OpenAI и Anthropic (разработчики ChatGPT и Claude соответственно) не передавать свои новые модели искусственного интеллекта (ИИ) в британское агентство по тестированию, пока те не пройдут испытания, курируемые правительством США.",
+      "categories": [
+        "TechnologyAI"
+      ],
+      "primary_category": "TechnologyAI",
+      "topics": [
+        "Digital и технологии",
+        "Исследования и прогнозы"
+      ],
+      "brands": [],
+      "score": 1.9,
+      "strategic_relevance_score": 38,
+      "relevance_reasons": [],
+      "why_it_matters": "Материал влияет на рыночный или конкурентный контекст.",
+      "client_matches": {},
+      "market_scope": "Global",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [],
+      "source_quality": 4.5,
+      "publisher_id": "rbc.ru"
+    },
+    {
       "id": "1bfecf17a835d69c87",
       "title": "Politico: США попросили компании ограничить тестирование ИИ в Британии",
       "url": "https://kommersant.ru/doc/8974874",
@@ -10779,6 +11023,38 @@
       "publisher_id": "sostav.ru"
     },
     {
+      "id": "99abfb89e09785dd9a",
+      "title": "В Банке России рассказали об исключениях по налогу для ПИФов",
+      "url": "https://kommersant.ru/doc/8979155",
+      "source": "Коммерсантъ — новости",
+      "published_at": "2026-09-25T09:52:15+00:00",
+      "summary": "Банк России выступает за то, чтобы ужесточение налогообложения паевых инвестиционных фондов носило точечный характер и не затрагивало рыночные инструменты коллективных инвестиций. Об этом заявил первый зампред ЦБ Владимир Чистюхин на Международном банковском форуме.",
+      "categories": [
+        "BanksFintech"
+      ],
+      "primary_category": "BanksFintech",
+      "topics": [
+        "Регулирование",
+        "M&A и инвестиции"
+      ],
+      "brands": [],
+      "score": 1.7,
+      "strategic_relevance_score": 34,
+      "relevance_reasons": [
+        "регулирование",
+        "инвестиции / M&A"
+      ],
+      "why_it_matters": "Может менять банковские офферы, финтех-сервисы, клиентское поведение и коммуникационную конкуренцию. Отобрано как: регулирование, инвестиции / M&A.",
+      "client_matches": {},
+      "market_scope": "Global",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [],
+      "source_quality": 4.6,
+      "publisher_id": "kommersant.ru"
+    },
+    {
       "id": "0ae9dd049d78892c35",
       "title": "ЦБ видит риск ухода части клиентов МФО в тень из-за идентификации по биометрии",
       "url": "https://tass.ru/ekonomika/28150429",
@@ -11111,6 +11387,39 @@
       "content_type": "news",
       "source_quality": 4.0,
       "publisher_id": "sostav.ru"
+    },
+    {
+      "id": "9a3f4ff8e3aa8a6f02",
+      "title": "Венчурные фонды и корпоративные заказчики меняют подход к оценке ИИ-активов на фоне распространения технологий",
+      "url": "https://cnews.ru/news/line/2026-09-25_venchurnye_fondy_i_korporativnye",
+      "source": "CNews — бизнес и технологии",
+      "published_at": "2026-09-25T08:59:00+00:00",
+      "summary": "Из-за массового распространения практики ИИ-вошинга инвесторы перестают верить маркетинговым презентациям и...",
+      "categories": [
+        "TechnologyAI"
+      ],
+      "primary_category": "TechnologyAI",
+      "topics": [
+        "Потребитель",
+        "Маркетинг и медиа",
+        "Digital и технологии"
+      ],
+      "brands": [],
+      "score": 1.6,
+      "strategic_relevance_score": 32,
+      "relevance_reasons": [
+        "потребитель",
+        "маркетинг"
+      ],
+      "why_it_matters": "Материал влияет на рыночный или конкурентный контекст. Отобрано как: потребитель, маркетинг.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [],
+      "source_quality": 4.1,
+      "publisher_id": "cnews.ru"
     },
     {
       "id": "f008b33d35a8898d8c",
@@ -12169,6 +12478,38 @@
       "content_type": "news",
       "source_quality": 4.0,
       "publisher_id": "cnews.ru"
+    },
+    {
+      "id": "ebbc3415991f6e9ebe",
+      "title": "«Группа Лента» открыла гипермаркет в Москве",
+      "url": "https://retail.ru/news/gruppa-lenta-otkryla-gipermarket-v-moskve-25-sentyabrya-2026-282576",
+      "source": "Retail.ru — новости",
+      "published_at": "2026-09-25T09:58:01+00:00",
+      "summary": "",
+      "categories": [
+        "Retail"
+      ],
+      "primary_category": "Retail",
+      "topics": [
+        "Форматы и экспансия"
+      ],
+      "brands": [
+        "Лента"
+      ],
+      "score": 1.4,
+      "strategic_relevance_score": 28,
+      "relevance_reasons": [
+        "крупный игрок"
+      ],
+      "why_it_matters": "Показывает изменение в бизнесе ритейла: формате, продажах, ценах, ассортименте или конкурентной динамике. В фокусе: Лента. Отобрано как: крупный игрок.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [],
+      "source_quality": 4.5,
+      "publisher_id": "retail.ru"
     },
     {
       "id": "5eb5adb5f77782e842",
