@@ -44,3 +44,7 @@ test('world trends and unknown favorites have explicit states; HTML content is e
  const {ctx,element}=app();await ctx.load();ctx.trendScope='Global';ctx.renderTrends();assert(element('#trendCards').innerHTML.includes('trendCard'));ctx.saveStars(['legacy-unavailable']);ctx.renderFavorites();assert(element('#favoritesList').innerHTML.includes('Закладка сохранена'));
  assert.equal(ctx.url('javascript:alert(1)'),'#');assert.equal(ctx.esc('<img onerror="bad">'),'&lt;img onerror=&quot;bad&quot;&gt;');
 });
+
+test('failed legacy feeds are unavailable rather than an empty successful collection',async()=>{
+ const {ctx,element}=app();await ctx.load();ctx.INTEL.source_stats=[{source:'Legacy feed',added:0}];ctx.INTEL.source_errors=[{source:'Legacy feed',error:'HTTP 403'}];ctx.showInfo('sources');assert(element('#dialogBody').innerHTML.includes('Недоступен'));assert(!element('#dialogBody').innerHTML.includes('Материалов: 0'));
+});
