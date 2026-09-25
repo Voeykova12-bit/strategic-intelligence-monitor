@@ -35,10 +35,12 @@ def test_content_type_separates_plans_forecasts_and_reports():
     assert material_type('Компания планирует открыть 100 магазинов по данным исследования')[0]=='company_plan'
     assert material_type('Прогноз рынка на 2027 год')[0]=='forecast'
     assert material_type('Исследование потребительских расходов')[0]=='research'
+    assert material_type('Ежегодный отчет: исследование рынка и прогноз')[0]=='research'
     assert material_type('По данным компании продажи выросли')[0]=='news'
 
 def test_consumer_filter_excludes_politics():
     assert allowed({'consumer_only':True},'Индекс потребительских настроений и сбережения')
+    assert allowed({'consumer_only':True},'Выбор покупателей: потребительское поведение')
     assert not allowed({'consumer_only':True},'Выборы: экономические ожидания избирателей')
 
 def test_publication_date_and_pdf_extraction():

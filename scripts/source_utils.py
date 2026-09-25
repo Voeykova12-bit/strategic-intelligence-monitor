@@ -122,4 +122,4 @@ def material_type(text):
     plan = any(w in low for w in ['планирует','планируют','намерен','запустит','откроет','расширит','инвестирует','plans to','will launch','will open','will invest'])
     forecast = any(w in low for w in ['прогноз','forecast','outlook','ожидается','expected to'])
     research = any(w in low for w in ['исследован','отчет','отчёт','доклад','обзор рынка','динамика аптечного рынка','survey','research','report','study'])
-    return ('company_plan' if plan else 'forecast' if forecast else 'research' if research else 'news'), (plan or forecast)
+    return ('company_plan' if plan else 'research' if research else 'forecast' if forecast else 'news'), (plan or forecast)
