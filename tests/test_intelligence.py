@@ -85,3 +85,12 @@ def test_failed_social_collection_keeps_history_without_claiming_success(tmp_pat
     assert data['items']==previous['items'];assert data['accounts'][0]['status']=='error'
     assert data['accounts'][0]['last_success_at']==previous['accounts'][0]['last_success_at']
     assert data['accounts'][1]['status']=='credentials_required'
+
+def test_pages_deployment_waits_for_exact_snapshot_and_uses_one_publisher():
+    from wait_for_pages import branch_state
+    base={'id':1,'head_sha':'snapshot','name':'pages build and deployment','status':'completed','conclusion':'success'}
+    assert branch_state([base],'snapshot')=='deployed'
+    assert branch_state([base],'different')=='missing'
+    assert branch_state([{**base,'status':'in_progress','conclusion':None}],'snapshot')=='waiting'
+    assert branch_state([{**base,'conclusion':'failure'}],'snapshot')=='fallback'
+    assert branch_state([base,{**base,'id':2,'status':'queued'}],'snapshot')=='waiting'

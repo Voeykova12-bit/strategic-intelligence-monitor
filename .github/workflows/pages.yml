@@ -44,6 +44,9 @@ jobs:
     permissions:
       contents: write
       pages: read
+      actions: read
+    outputs:
+      branch_deployed: ${{ steps.branch_pages.outputs.deployed }}
     runs-on: ubuntu-latest
     timeout-minutes: 25
     steps:
@@ -153,16 +156,24 @@ jobs:
           echo "Unable to push refreshed snapshot after 3 attempts"
           exit 1
 
+      - name: Wait for the existing Pages branch deployment
+        id: branch_pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/wait_for_pages.py
+
       - name: Configure Pages
+        if: steps.branch_pages.outputs.deployed != 'true'
         uses: actions/configure-pages@v5
 
       - name: Upload website
+        if: steps.branch_pages.outputs.deployed != 'true'
         uses: actions/upload-pages-artifact@v3
         with:
           path: docs
 
   deploy:
-    if: github.event_name != 'pull_request'
+    if: github.event_name != 'pull_request' && needs.refresh.outputs.branch_deployed != 'true'
     needs: refresh
     runs-on: ubuntu-latest
     permissions:
