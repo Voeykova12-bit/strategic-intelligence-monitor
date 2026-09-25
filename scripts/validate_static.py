@@ -23,7 +23,9 @@ def validate():
     assert all(x['categories'] for x in news['items']), 'Missing category'
     for name in ['index.html','app.js','styles.css','premium.css']:
         assert (ROOT/'site'/name).read_bytes()==(ROOT/'docs'/name).read_bytes(), f'Unsynchronized UI: {name}'
-    for r in json.loads((ROOT/'data/reports.json').read_text(encoding='utf-8'))['reports']:
+    reports = json.loads((ROOT/'data/reports.json').read_text(encoding='utf-8'))['reports']
+    assert len({r['id'] for r in reports}) == len(reports), 'Duplicate report IDs'
+    for r in reports:
         if r.get('kind')=='local_pdf':
             p=(ROOT/'docs'/r['local_path']).resolve()
             assert p.is_relative_to(ROOT/'docs/reports') and p.read_bytes().startswith(b'%PDF'), f'Invalid PDF: {r["id"]}'
