@@ -1,0 +1,2798 @@
+{
+  "updated_at": "2026-09-25T10:21:48.204042+00:00",
+  "accounts": [
+    {
+      "id": "mts-telegram",
+      "brand": "МТС",
+      "publisher_id": "brand:mts",
+      "categories": [
+        "Telecom"
+      ],
+      "platform": "telegram",
+      "url": "https://t.me/mtsofficial",
+      "verified": true,
+      "verified_at": "2026-09-25",
+      "proof_url": "https://moskva.mts.ru/about/media-centr/kontakty-media-centra/mts-v-socialnyh-setyah",
+      "role": "Основной аккаунт",
+      "checked_at": "2026-09-25T10:21:46.828972+00:00",
+      "status": "ok",
+      "count": 7,
+      "last_success_at": "2026-09-25T10:21:46.828972+00:00",
+      "detail": "Публичная лента; полнота истории и вложений не гарантируется"
+    },
+    {
+      "id": "mts-vk",
+      "brand": "МТС",
+      "publisher_id": "brand:mts",
+      "categories": [
+        "Telecom"
+      ],
+      "platform": "vk",
+      "url": "https://vk.com/mts",
+      "verified": true,
+      "verified_at": "2026-09-25",
+      "proof_url": "https://moskva.mts.ru/about/media-centr/kontakty-media-centra/mts-v-socialnyh-setyah",
+      "role": "Основной аккаунт",
+      "checked_at": "2026-09-25T10:21:46.830010+00:00",
+      "status": "credentials_required",
+      "detail": "Для автоматического сбора ВК требуется токен API с доступом к сообществу",
+      "last_success_at": null
+    },
+    {
+      "id": "vkusvill-telegram",
+      "brand": "ВкусВилл",
+      "publisher_id": "brand:vkusvill",
+      "categories": [
+        "Retail"
+      ],
+      "platform": "telegram",
+      "url": "https://t.me/news_vkusvill",
+      "verified": true,
+      "verified_at": "2026-09-25",
+      "proof_url": "https://vkusvill.ru/contacts/",
+      "role": "Пресс-служба",
+      "checked_at": "2026-09-25T10:21:46.830010+00:00",
+      "status": "ok",
+      "count": 11,
+      "last_success_at": "2026-09-25T10:21:46.830010+00:00",
+      "detail": "Публичная лента; полнота истории и вложений не гарантируется"
+    },
+    {
+      "id": "vkusvill-vk",
+      "brand": "ВкусВилл",
+      "publisher_id": "brand:vkusvill",
+      "categories": [
+        "Retail"
+      ],
+      "platform": "vk",
+      "url": "https://vk.com/vkusvill_ru",
+      "verified": true,
+      "verified_at": "2026-09-25",
+      "proof_url": "https://vkusvill.ru/contacts/",
+      "role": "Основной аккаунт",
+      "checked_at": "2026-09-25T10:21:46.830971+00:00",
+      "status": "credentials_required",
+      "detail": "Для автоматического сбора ВК требуется токен API с доступом к сообществу",
+      "last_success_at": null
+    },
+    {
+      "id": "x5-telegram",
+      "brand": "X5",
+      "publisher_id": "brand:x5",
+      "categories": [
+        "Retail"
+      ],
+      "platform": "telegram",
+      "url": "https://t.me/x5_telega",
+      "verified": true,
+      "verified_at": "2026-09-25",
+      "proof_url": "https://www.x5.ru/ru/",
+      "role": "Основной аккаунт",
+      "checked_at": "2026-09-25T10:21:46.830971+00:00",
+      "status": "ok",
+      "count": 4,
+      "last_success_at": "2026-09-25T10:21:46.830971+00:00",
+      "detail": "Публичная лента; полнота истории и вложений не гарантируется"
+    },
+    {
+      "id": "x5-vk",
+      "brand": "X5",
+      "publisher_id": "brand:x5",
+      "categories": [
+        "Retail"
+      ],
+      "platform": "vk",
+      "url": "https://vk.com/x5group",
+      "verified": true,
+      "verified_at": "2026-09-25",
+      "proof_url": "https://www.x5.ru/ru/",
+      "role": "Основной аккаунт",
+      "checked_at": "2026-09-25T10:21:46.830971+00:00",
+      "status": "credentials_required",
+      "detail": "Для автоматического сбора ВК требуется токен API с доступом к сообществу",
+      "last_success_at": null
+    },
+    {
+      "id": "tbank-telegram",
+      "brand": "Т-Банк",
+      "publisher_id": "brand:tbank",
+      "categories": [
+        "BanksFintech"
+      ],
+      "platform": "telegram",
+      "url": "https://t.me/tbank/",
+      "verified": true,
+      "verified_at": "2026-09-25",
+      "proof_url": "https://www.tbank.ru/about/",
+      "role": "Основной аккаунт",
+      "checked_at": "2026-09-25T10:21:46.830971+00:00",
+      "status": "ok",
+      "count": 11,
+      "last_success_at": "2026-09-25T10:21:46.830971+00:00",
+      "detail": "Публичная лента; полнота истории и вложений не гарантируется"
+    },
+    {
+      "id": "tbank-vk",
+      "brand": "Т-Банк",
+      "publisher_id": "brand:tbank",
+      "categories": [
+        "BanksFintech"
+      ],
+      "platform": "vk",
+      "url": "https://vk.com/tbank/",
+      "verified": true,
+      "verified_at": "2026-09-25",
+      "proof_url": "https://www.tbank.ru/about/",
+      "role": "Основной аккаунт",
+      "checked_at": "2026-09-25T10:21:46.831971+00:00",
+      "status": "credentials_required",
+      "detail": "Для автоматического сбора ВК требуется токен API с доступом к сообществу",
+      "last_success_at": null
+    },
+    {
+      "id": "vtb-telegram",
+      "brand": "ВТБ",
+      "publisher_id": "brand:vtb",
+      "categories": [
+        "BanksFintech"
+      ],
+      "platform": "telegram",
+      "url": "https://t.me/bankvtb",
+      "verified": true,
+      "verified_at": "2026-09-25",
+      "proof_url": "https://www.vtb.ru/",
+      "role": "Основной аккаунт",
+      "checked_at": "2026-09-25T10:21:46.831971+00:00",
+      "status": "ok",
+      "count": 7,
+      "last_success_at": "2026-09-25T10:21:46.831971+00:00",
+      "detail": "Публичная лента; полнота истории и вложений не гарантируется"
+    },
+    {
+      "id": "vtb-vk",
+      "brand": "ВТБ",
+      "publisher_id": "brand:vtb",
+      "categories": [
+        "BanksFintech"
+      ],
+      "platform": "vk",
+      "url": "https://vk.com/vtb",
+      "verified": true,
+      "verified_at": "2026-09-25",
+      "proof_url": "https://www.vtb.ru/",
+      "role": "Основной аккаунт",
+      "checked_at": "2026-09-25T10:21:46.831971+00:00",
+      "status": "credentials_required",
+      "detail": "Для автоматического сбора ВК требуется токен API с доступом к сообществу",
+      "last_success_at": null
+    },
+    {
+      "id": "avtovaz-telegram",
+      "brand": "LADA",
+      "publisher_id": "brand:avtovaz",
+      "categories": [
+        "Automotive"
+      ],
+      "platform": "telegram",
+      "url": "https://t.me/lada_rf",
+      "verified": true,
+      "verified_at": "2026-09-25",
+      "proof_url": "https://www.lada.ru/",
+      "role": "Основной аккаунт",
+      "checked_at": "2026-09-25T10:21:46.833049+00:00",
+      "status": "ok",
+      "count": 13,
+      "last_success_at": "2026-09-25T10:21:46.833049+00:00",
+      "detail": "Публичная лента; полнота истории и вложений не гарантируется"
+    },
+    {
+      "id": "avtovaz-vk",
+      "brand": "LADA",
+      "publisher_id": "brand:avtovaz",
+      "categories": [
+        "Automotive"
+      ],
+      "platform": "vk",
+      "url": "https://vk.com/lada",
+      "verified": true,
+      "verified_at": "2026-09-25",
+      "proof_url": "https://www.lada.ru/",
+      "role": "Основной аккаунт",
+      "checked_at": "2026-09-25T10:21:47.500042+00:00",
+      "status": "credentials_required",
+      "detail": "Для автоматического сбора ВК требуется токен API с доступом к сообществу",
+      "last_success_at": null
+    },
+    {
+      "id": "moskvich-telegram",
+      "brand": "Москвич",
+      "publisher_id": "brand:moskvich",
+      "categories": [
+        "Automotive"
+      ],
+      "platform": "telegram",
+      "url": "https://t.me/Zavod_Moskvich",
+      "verified": true,
+      "verified_at": "2026-09-25",
+      "proof_url": "https://moskvich-auto.ru/",
+      "role": "Основной аккаунт",
+      "checked_at": "2026-09-25T10:21:47.500042+00:00",
+      "status": "ok",
+      "count": 5,
+      "last_success_at": "2026-09-25T10:21:47.500042+00:00",
+      "detail": "Публичная лента; полнота истории и вложений не гарантируется"
+    },
+    {
+      "id": "moskvich-vk",
+      "brand": "Москвич",
+      "publisher_id": "brand:moskvich",
+      "categories": [
+        "Automotive"
+      ],
+      "platform": "vk",
+      "url": "https://vk.com/zavodmoskvich",
+      "verified": true,
+      "verified_at": "2026-09-25",
+      "proof_url": "https://moskvich-auto.ru/",
+      "role": "Основной аккаунт",
+      "checked_at": "2026-09-25T10:21:47.519646+00:00",
+      "status": "credentials_required",
+      "detail": "Для автоматического сбора ВК требуется токен API с доступом к сообществу",
+      "last_success_at": null
+    },
+    {
+      "id": "geely-telegram",
+      "brand": "Geely",
+      "publisher_id": "brand:geely",
+      "categories": [
+        "Automotive"
+      ],
+      "platform": "telegram",
+      "url": "https://t.me/geelyofficial",
+      "verified": true,
+      "verified_at": "2026-09-25",
+      "proof_url": "https://www.geely-motors.com/",
+      "role": "Основной аккаунт",
+      "checked_at": "2026-09-25T10:21:47.519646+00:00",
+      "status": "ok",
+      "count": 14,
+      "last_success_at": "2026-09-25T10:21:47.519646+00:00",
+      "detail": "Публичная лента; полнота истории и вложений не гарантируется"
+    },
+    {
+      "id": "geely-vk",
+      "brand": "Geely",
+      "publisher_id": "brand:geely",
+      "categories": [
+        "Automotive"
+      ],
+      "platform": "vk",
+      "url": "https://vk.com/club83363436",
+      "verified": true,
+      "verified_at": "2026-09-25",
+      "proof_url": "https://www.geely-motors.com/",
+      "role": "Основной аккаунт",
+      "checked_at": "2026-09-25T10:21:47.552241+00:00",
+      "status": "credentials_required",
+      "detail": "Для автоматического сбора ВК требуется токен API с доступом к сообществу",
+      "last_success_at": null
+    },
+    {
+      "id": "changan-telegram",
+      "brand": "Changan",
+      "publisher_id": "brand:changan",
+      "categories": [
+        "Automotive"
+      ],
+      "platform": "telegram",
+      "url": "https://t.me/changanrf",
+      "verified": true,
+      "verified_at": "2026-09-25",
+      "proof_url": "https://changanauto.ru/",
+      "role": "Основной аккаунт",
+      "checked_at": "2026-09-25T10:21:47.552241+00:00",
+      "status": "ok",
+      "count": 9,
+      "last_success_at": "2026-09-25T10:21:47.552241+00:00",
+      "detail": "Публичная лента; полнота истории и вложений не гарантируется"
+    },
+    {
+      "id": "changan-vk",
+      "brand": "Changan",
+      "publisher_id": "brand:changan",
+      "categories": [
+        "Automotive"
+      ],
+      "platform": "vk",
+      "url": "https://vk.com/changanrussia",
+      "verified": true,
+      "verified_at": "2026-09-25",
+      "proof_url": "https://changanauto.ru/",
+      "role": "Основной аккаунт",
+      "checked_at": "2026-09-25T10:21:47.587158+00:00",
+      "status": "credentials_required",
+      "detail": "Для автоматического сбора ВК требуется токен API с доступом к сообществу",
+      "last_success_at": null
+    }
+  ],
+  "candidates": [
+    {
+      "detail": "HTTP Error 307: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe l",
+      "status": "pending",
+      "proof_url": "https://corp.ozon.ru/",
+      "brand": "Ozon"
+    },
+    {
+      "detail": "На проверенной странице не найдены подтвержденные ссылки на аккаунты",
+      "status": "pending",
+      "proof_url": "https://www.magnit.com/ru/",
+      "brand": "Магнит"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "status": "pending",
+      "proof_url": "https://lenta.com/",
+      "brand": "Лента"
+    },
+    {
+      "detail": "На проверенной странице не найдены подтвержденные ссылки на аккаунты",
+      "status": "pending",
+      "proof_url": "https://www.sberbank.com/ru",
+      "brand": "Сбер"
+    },
+    {
+      "detail": "<urlopen error timed out>",
+      "status": "pending",
+      "proof_url": "https://corp.megafon.ru/",
+      "brand": "МегаФон"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "status": "pending",
+      "proof_url": "https://www.pik.ru/",
+      "brand": "ПИК"
+    },
+    {
+      "detail": "HTTP Error 403: Forbidden",
+      "status": "pending",
+      "proof_url": "https://samokat.ru/",
+      "brand": "Самокат"
+    },
+    {
+      "detail": "HTTP Error 498: ",
+      "status": "pending",
+      "proof_url": "https://www.wildberries.ru/",
+      "brand": "Wildberries"
+    },
+    {
+      "detail": "HTTP Error 403: Forbidden",
+      "status": "pending",
+      "proof_url": "https://alfabank.ru/",
+      "brand": "Альфа-Банк"
+    }
+  ],
+  "items": [
+    {
+      "id": "26008a97d15b2a6067",
+      "title": "Есть разговоры, которые не стоит продолжать И МТС Защитник стал лучше понимать, когда именно нужно вмешаться",
+      "url": "https://t.me/mtsofficial/4769",
+      "summary": "Есть разговоры, которые не стоит продолжать И МТС Защитник стал лучше понимать, когда именно нужно вмешаться. Мы обновили ИИ-модели, теперь система работает быстрее и эффективнее Что изменилось: ▪️ Время распознавания угрозы сократилось вдвое — с 30 до 15 секунд ▪️ Эффективность определения особо сложных мошеннических схем увеличилась в три раза ▪️ Три нейросети параллельно анализируют разговор: технические параметры, контекст, темп речи и повторяющиеся схемы ➡️ С января по июль сервис заблокировал более 1,5 миллиардов спам и мошеннических звонков. Рады, что они прошли мимо вас ❤️",
+      "source": "МТС · Telegram",
+      "publisher_id": "brand:mts",
+      "published_at": "2026-09-12T10:02:06+00:00",
+      "categories": [
+        "Telecom"
+      ],
+      "primary_category": "Telecom",
+      "brands": [
+        "МТС"
+      ],
+      "market_scope": "Russia",
+      "platform": "telegram",
+      "account_id": "mts-telegram",
+      "official_brand": true,
+      "source_quality": 4.5,
+      "image_url": "https://cdn4.telesco.pe/file/Kq4NP1cLA2VTCC-xZvBDQTwYyAU7TiiKvb14vjEChmKfAlPKBtWY-wN3Yt0zF1Kpf0a2QqGNwKZGIBUPUHxJFH6uO0rhs4xsOqWmvAW6lhOvMusk2tE0KpUBhLGyfrZPWUV2Nez2tpqYN59x_e8opfLOGjq4opD7njjR_4O8OOYP5e9g2MK75OHGeSglsvhMibMkOgkpdK8O9AFQCHwAOLpICoaGf4xAx2EHLuHdAM7O--PH8DZ-6_xFTCX4KXDSj3S60MhnQgfELqFp6_86vNnapiDLBL9UeGt4ohoeuMO9dBh1B4AFGA5gb6Ald1eulNnJ9ogfia4sP22m1_7dEQ.jpg",
+      "videos": [],
+      "primary_links": [
+        "https://mts.ru/personal/mobilnaya-svyaz/uslugi/mobilnaya-svyaz/zashchitnik"
+      ],
+      "content_type": "news",
+      "source_relation": "brand_statement",
+      "collected_at": "2026-09-25T09:39:41.301731+00:00"
+    },
+    {
+      "id": "609e2c731939a55b32",
+      "title": "Экология на производствах — вопрос безопасности команды ❣️ Обычно на утечку газа реагируют, когда она уже случилась",
+      "url": "https://t.me/mtsofficial/4771",
+      "summary": "Экология на производствах — вопрос безопасности команды ❣️ Обычно на утечку газа реагируют, когда она уже случилась. Мы решили исключить человеческий фактор и доверили контроль искусственному интеллекту. Система МТС Экология обнаруживает невидимые угрозы в цехах и городах, предотвращает аварии за секунды и экономит бизнесу миллионы ⬆️ 📞 📶 Мы в МАКС",
+      "source": "МТС · Telegram",
+      "publisher_id": "brand:mts",
+      "published_at": "2026-09-15T11:46:17+00:00",
+      "categories": [
+        "Telecom"
+      ],
+      "primary_category": "Telecom",
+      "brands": [
+        "МТС"
+      ],
+      "market_scope": "Russia",
+      "platform": "telegram",
+      "account_id": "mts-telegram",
+      "official_brand": true,
+      "source_quality": 4.5,
+      "image_url": "https://cdn4.telesco.pe/file/YKRCIsOHXIiwmQnLiu_70RhyTLFuxOcusqh0vihqIu111OsJ2kdMvWKS_IYImVW1l8IDFQwXelpWDOALHYUHIegvaqMSIRNNcPnlJrYDjOMvrXILalslh3aEkkDxzOV77zrLuKBZfAgrKlUcR6AvU3c1_vpbv4Zhp48W5h-YlQ29IBRYgeHY2SmhGyKqFPz4q09JBsU58OQaj1THPv3p_RNaWKrsakjXeaEUE3dPGgwiIVp352_5hlmdniL6uU9sZk9cMME9tlH9KED6P82y2EKXDenybbz_Udtq9BhZwySEEBSsjW6tug6hqZHcVst6SsaoiPwWAjyrdSXFyH2YOw.jpg",
+      "videos": [],
+      "primary_links": [
+        "https://business.mts.ru/ekomonitoring",
+        "https://max.ru/MTS"
+      ],
+      "content_type": "news",
+      "source_relation": "brand_statement",
+      "collected_at": "2026-09-25T10:21:47.546239+00:00"
+    },
+    {
+      "id": "cab9f0761c2ff1183e",
+      "title": "Глобальный старт продаж iPhone 18 Pro Max только через два дня..",
+      "url": "https://t.me/mtsofficial/4778",
+      "summary": "Глобальный старт продаж iPhone 18 Pro Max только через два дня... Но мы сломали таймлайн! Первыми привезли флагманскую партию до глобального релиза! Сейчас новые iPhone доступны только по предзаказу. Оформляйте на сайте или прямо в салоне, чтобы забрать смартфон в ближайшее время ⬇️ 🖱 Застолбить свой iPhone 18 Pro Max 📶 Мы в МАКС",
+      "source": "МТС · Telegram",
+      "publisher_id": "brand:mts",
+      "published_at": "2026-09-16T14:51:52+00:00",
+      "categories": [
+        "Telecom"
+      ],
+      "primary_category": "Telecom",
+      "brands": [
+        "МТС"
+      ],
+      "market_scope": "Russia",
+      "platform": "telegram",
+      "account_id": "mts-telegram",
+      "official_brand": true,
+      "source_quality": 4.5,
+      "image_url": "https://cdn4.telesco.pe/file/CkExg5S4zDsAgyxw08m03_M1ZaYeacIwQmGtFA5qwsmQZF5iFtF4nNIC85iyIApBDpk210fyZyZjYtpg6SAngguIp0EInhb-AIF6R6-_0zR4jalNVkF_BOx1lT-eZesPrIR5lJZPHoDETm53k3SiQA44YCfgxfpKB0GoWnsI1Rk0LVOrG-5Ub4dNgh81AMvKQw8lTbal8vdD_B0hTGxPXONXeE5lYg2S0PhknMA3TVA2WDq-3gwMJjRR68BEZn5aD9Z1rrA07z1BJ3KYWMiQ7M3DOj0woMzoQqfPYNDuBs340r5NFoEFxpPA513-oqHRdTTa8LDnjVfj50jOs7p11w.jpg",
+      "videos": [],
+      "primary_links": [
+        "https://shop.mts.ru/promo/predzakaz-new-apple-iphone-2026/?utm_source=tg&amp;utm_medium=messenger&amp;utm_campaign=mtstories&amp;utm_content=predzakaz_new_apple_iphone_2026&amp;utm_term=post_16092026",
+        "https://max.ru/MTS"
+      ],
+      "content_type": "news",
+      "source_relation": "brand_statement",
+      "collected_at": "2026-09-25T10:21:47.547241+00:00"
+    },
+    {
+      "id": "ac7234fa94f2fcb1c4",
+      "title": "Собирайте рекламную аудиторию как конструктор Теперь в МТС Маркетологе для SMS- и MMS-рекламы можно объединить несколько групп пользователей,…",
+      "url": "https://t.me/mtsofficial/4780",
+      "summary": "❤️‍🔥 Собирайте рекламную аудиторию как конструктор Теперь в МТС Маркетологе для SMS- и MMS-рекламы можно объединить несколько групп пользователей, найти их пересечение или исключить тех, кто уже покупал или получал ваше сообщение. Для этого в конструкторе сегментов сочетайте разные условия с помощью «И», «ИЛИ», «И НЕ». А еще — находите пользователей, похожих на ваших клиентов, или поручайте ML-модели подобрать аудиторию под конкретное предложение 🤘 Комбинируйте инструменты в одной кампании и настраивайте таргетинг самостоятельно. Все это — без ограничений по бюджету и дополнительных технических ресурсов. Чем точнее определена аудитория, тем м",
+      "source": "МТС · Telegram",
+      "publisher_id": "brand:mts",
+      "published_at": "2026-09-18T12:06:32+00:00",
+      "categories": [
+        "Telecom"
+      ],
+      "primary_category": "Telecom",
+      "brands": [
+        "МТС"
+      ],
+      "market_scope": "Russia",
+      "platform": "telegram",
+      "account_id": "mts-telegram",
+      "official_brand": true,
+      "source_quality": 4.5,
+      "image_url": "",
+      "videos": [
+        {
+          "url": "https://t.me/mtsofficial/4780",
+          "title": "Собирайте рекламную аудиторию как конструктор Теперь в МТС Маркетологе для SMS- и MMS-рекламы можно объединить несколько групп пользователей,…",
+          "platform": "Telegram",
+          "duration": null,
+          "description": "Видео в публикации бренда. Описание — по тексту поста.",
+          "description_basis": "post_text"
+        }
+      ],
+      "primary_links": [
+        "https://t.me/marketolog_mts",
+        "https://max.ru/MTS"
+      ],
+      "content_type": "news",
+      "source_relation": "brand_statement",
+      "collected_at": "2026-09-25T10:21:47.548199+00:00"
+    },
+    {
+      "id": "e280c4b548b3dbc4dc",
+      "title": "смотрим на обычную умную колонку 😍 🕶 🤏🏻 — смотрим на умную колонку в дизайне мастеров Объединения «Гжель» «Народный код: Гжель в каждой колонке»…",
+      "url": "https://t.me/mtsofficial/4782",
+      "summary": "😎 🤏🏻 — смотрим на обычную умную колонку 😍 🕶 🤏🏻 — смотрим на умную колонку в дизайне мастеров Объединения «Гжель» «Народный код: Гжель в каждой колонке» — проект на стыке традиций и технологий. Мы запустили его вместе с партнерами, чтобы поддержать народный промысел и сделать доброе дело. ➡️ Вы покупаете ЦФА и получаете одну из тысячи умных колонок в уникальном дизайне . А первым 500 инвесторам достанутся еще и семейные сертификаты на посещение завода «Гжель» — места, где рождается подлинное искусство. ➡️ 30% от сбора средств идут на благотворительность через фонд «Система» и платформу «СберВместе». Вы помогаете детским домам, образовательным ",
+      "source": "МТС · Telegram",
+      "publisher_id": "brand:mts",
+      "published_at": "2026-09-19T08:59:50+00:00",
+      "categories": [
+        "Telecom"
+      ],
+      "primary_category": "Telecom",
+      "brands": [
+        "МТС"
+      ],
+      "market_scope": "Russia",
+      "platform": "telegram",
+      "account_id": "mts-telegram",
+      "official_brand": true,
+      "source_quality": 4.5,
+      "image_url": "https://cdn4.telesco.pe/file/caNjEUdRhp8pCDl2l30E0rq6nswX1SkpHJjZTcALbu2MtlJMBSdt7D7S6fuKfRBS_b1jpN6QXRFJxx_3UcIV7Utd0Ga8pT9UoYZDpvhLUwjPrrwPb6OqrHW7pJ9-8vK1QrzhmqJF2OVRrOxfuzoNXBAnKHV35jLL-5jfWed3n-TgNOpsdkj9iS2F_u_kFZId8TYPHgHTHIM4_jph_qT5o3WeoNqvCqzrI8ibYEBPnllap2SQpRkjrUCViuy3LinaX401xpNUF1al8TSM6on3lEMiZZmCSTUoHYaGwUXrBkxafhKMD5ZuaQKwx3iKc6G9cP_LoSSSanEaSPX8TgJHTA.jpg",
+      "videos": [],
+      "primary_links": [
+        "https://gzhel.cfahub.ru/?utm_source=pr_mts_fintech&amp;utm_medium=pr&amp;utm_campaign=issue_gzhel_202609",
+        "https://max.ru/MTS"
+      ],
+      "content_type": "news",
+      "source_relation": "brand_statement",
+      "collected_at": "2026-09-25T10:21:47.549243+00:00"
+    },
+    {
+      "id": "65e66e6840725b5a71",
+      "title": "Выжимка из звонков — прямо в истории вызовов «Так, что он там сказал про встречу?» «Мы точно договорились на вторник?» «А какой адрес он…",
+      "url": "https://t.me/mtsofficial/4783",
+      "summary": "📶 Выжимка из звонков — прямо в истории вызовов «Так, что он там сказал про встречу?» «Мы точно договорились на вторник?» «А какой адрес он называл?» После длинного разговора в памяти иногда остается только имя собеседника и сам факт звонка. В МТС это решили исправить: в истории вызовов можно увидеть ключевые тезисы диалога. ✔️ ИИ обрабатывает разговор в реальном времени и выделяет главное. Если нужны детали, можно открыть расширенную выжимку, полную расшифровку или запись в приложении «Мой МТС». Забыли, о чем договорились? Откройте нужный звонок — главное уже сохранено. Подробнее о функции — на сайте МТС ❤️ 📶 Мы в МАКС",
+      "source": "МТС · Telegram",
+      "publisher_id": "brand:mts",
+      "published_at": "2026-09-21T11:15:08+00:00",
+      "categories": [
+        "Telecom"
+      ],
+      "primary_category": "Telecom",
+      "brands": [
+        "МТС"
+      ],
+      "market_scope": "Russia",
+      "platform": "telegram",
+      "account_id": "mts-telegram",
+      "official_brand": true,
+      "source_quality": 4.5,
+      "image_url": "https://cdn4.telesco.pe/file/Z9sLnkXSK_n-8PeS_dEI4qn9d7gLkzsqYJR-5sdMW-iUnBPMd9RN7K0sxHiepMmqOa0tqL8da9LpSWsEcnOjLJM4JKqhijbY6TS4pLi6Wm89_nreC6PXKx8kys0mJ291Zi_buzQpS94PzlVTcTawEuMPsvR-jbl2_JAA7do7LwxZvwc2gkMP2NLmaCm9MHfCNZDgYk_zC_Vq-RjaOePk7aTpr2XNlp2csR5bxm72caF1it55weMIIjwhCREugcb5FUR6k-njVn6LFKGwWVznjRQ6F1cnHqbnhuadVhWV8FphWZ8U9CbaRXWaObtp-FgZe-mIo1X0ARtHCEFeguQtLQ.jpg",
+      "videos": [],
+      "primary_links": [
+        "https://mts.ru/personal/mobilnaya-svyaz/uslugi/mobilnaya-svyaz/zapis-razgovorov",
+        "https://max.ru/MTS"
+      ],
+      "content_type": "news",
+      "source_relation": "brand_statement",
+      "collected_at": "2026-09-25T10:21:47.549243+00:00"
+    },
+    {
+      "id": "1751feeb3eebbd6e9f",
+      "title": "Переводы в Беларусь — теперь без сложностей В приложении «Мой МТС» появилась возможность переводов на карты платежной системы Белкарт",
+      "url": "https://t.me/mtsofficial/4785",
+      "summary": "❤️‍🔥 Переводы в Беларусь — теперь без сложностей В приложении «Мой МТС» появилась возможность переводов на карты платежной системы Белкарт. Отправить деньги можно с карты российского банка или лицевого счета МТС. Перевод приходит в течение нескольких минут. Деньги отправляются в рублях без комиссии, а получателю зачисляются белорусские рубли. Поездки в Беларусь или помощь друзьям и близким теперь еще проще 🤘 📶 Мы в МАКС",
+      "source": "МТС · Telegram",
+      "publisher_id": "brand:mts",
+      "published_at": "2026-09-22T14:49:01+00:00",
+      "categories": [
+        "Telecom"
+      ],
+      "primary_category": "Telecom",
+      "brands": [
+        "МТС"
+      ],
+      "market_scope": "Russia",
+      "platform": "telegram",
+      "account_id": "mts-telegram",
+      "official_brand": true,
+      "source_quality": 4.5,
+      "image_url": "https://cdn4.telesco.pe/file/q02Y-wK2hcJ1NZGO2-5ch51OgEewpJJ59HaUumXxt0Mw3tm5p3znM0VXdpXhF1ZwX5V2pX1YtkJzt62pECHMaDhXqB-90mAuuAMkRoAnK0YxNgcf7VKlfGJkeSM_KdH3GKzfprc06E2MLARqCNusxbVcFxBhIABqFFysN3EFthY7YGB3xoHnDCwy72FvaZRIBu_VyrOFgHvFh8zixJri8iZAew1oB5AL-lfmoHZzN2ZEpd3RxuijBj-Bk7tk8fkt6DYQkdmUmrAU69GM_sR7rWqMAMOL2S9YRgL2QGx2h3ASKmz0ADCRF673Mroswk-x_kuqntRL-ct9LZcsaQuxZQ.jpg",
+      "videos": [],
+      "primary_links": [
+        "https://max.ru/MTS"
+      ],
+      "content_type": "news",
+      "source_relation": "brand_statement",
+      "collected_at": "2026-09-25T10:21:47.550160+00:00"
+    },
+    {
+      "id": "8ff5328119eff4d04b",
+      "title": "65 тысяч пикников: как прошло лето на зонах ВкусВилла в парках Москвы С 15 мая по 17 сентября пикниковые зоны ВкусВилла работали в саду…",
+      "url": "https://t.me/news_vkusvill/1553",
+      "summary": "🧺 65 тысяч пикников: как прошло лето на зонах ВкусВилла в парках Москвы С 15 мая по 17 сентября пикниковые зоны ВкусВилла работали в саду «Эрмитаж», парках «Ходынское поле» и «Измайловский». 💚 За четыре месяца их посетили более 65 тысяч гостей , которые купили на пикник более 120 тысяч вкусных и полезных товаров . 🍦 Хитами сезона стали вода, пломбир в вафельном стаканчике, сэндвич-ролл «Цезарь», детский яблочный сок, айс-латте, эскимо в молочном шоколаде, антибактериальные салфетки и мыльные пузыри. 💚 Пикниковые зоны стали не только местом для перекуса, но и площадками для летнего досуга. За сезон здесь прошли 64 мероприятия : гости отмечали ",
+      "source": "ВкусВилл · Telegram",
+      "publisher_id": "brand:vkusvill",
+      "published_at": "2026-09-17T10:51:46+00:00",
+      "categories": [
+        "Retail"
+      ],
+      "primary_category": "Retail",
+      "brands": [
+        "ВкусВилл"
+      ],
+      "market_scope": "Russia",
+      "platform": "telegram",
+      "account_id": "vkusvill-telegram",
+      "official_brand": true,
+      "source_quality": 4.5,
+      "image_url": "https://cdn4.telesco.pe/file/JtrAuYOPLjlOWfeKZS7kVxBCJ1nN_ETfSwj0X1S9DXlxn4L7X_wbCtiZunRIPCJ8XtUDiKIOZI0T9d20DCQmshECFSB0ypApaM8eSVKzCMKF0cumvpXag_qWTfBow_KZiyBSsXOf6I4-jqVukHyKuLQ5_eNGVfjCR6YpLVE83gnBhgxb1VyRqfZI8mxVuqS1s99r6OWxctYvXYnYhXcgSkdQ83ssoghbVJXneHS2nRD_b2DMTTBC_ZGH7Ie7DmO6v_-CLgnhfnALxbe5oAgWuzj_fglQyVKEiSkDd3wAGxmfvcUNDrCcwIbsvbZS2t6ozgWd54BKXK0yuv4cdBj6zQ.jpg",
+      "videos": [],
+      "primary_links": [],
+      "content_type": "news",
+      "source_relation": "brand_statement",
+      "collected_at": "2026-09-25T10:21:47.663674+00:00"
+    },
+    {
+      "id": "4f81b4c39033dcf15c",
+      "title": "ВкусВилл, «Экспрод» и Русская рыбопромышленная компания подписали соглашение о сотрудничестве 🐟 Его цель — развитие современной продукции из…",
+      "url": "https://t.me/news_vkusvill/1555",
+      "summary": "ВкусВилл, «Экспрод» и Русская рыбопромышленная компания подписали соглашение о сотрудничестве 🐟 Его цель — развитие современной продукции из минтая и популяризация российской рыбы. 🕺 Партнёрство охватывает полный путь продукта: от добычи водных биоресурсов в российских морях и поставки сырья до разработки рецептур, производства и появления новинок на полке. Производство планируется под торговой маркой ВкусВилла. РРПК обеспечит совместные проекты стабильной сырьевой базой — до 1 000 тонн филе минтая. Это позволит последовательно расширять ассортимент и предлагать покупателям вкусные, понятные и удобные решения. 🏪 В основе сотрудничества — эксп",
+      "source": "ВкусВилл · Telegram",
+      "publisher_id": "brand:vkusvill",
+      "published_at": "2026-09-17T14:23:53+00:00",
+      "categories": [
+        "Retail"
+      ],
+      "primary_category": "Retail",
+      "brands": [
+        "ВкусВилл"
+      ],
+      "market_scope": "Russia",
+      "platform": "telegram",
+      "account_id": "vkusvill-telegram",
+      "official_brand": true,
+      "source_quality": 4.5,
+      "image_url": "https://cdn4.telesco.pe/file/qOySr1XgOHeJbqRuXQk7HavniXXTDN8of3B_0Ra62A8xh-KogB1ShVCK-faH_1K3XmlDbcptuwrqX37cLUybB8FFOejIgM9FcAbuImEdH1V_FU6Z0MKgKFd7unxKF4RHV1QGeXWiOVhZ4gGi3P03Fhbb_zsTnPIEV-tF_ImYzhs1hlpNPjfAJOcLnzqeqsL-C6V4DdZGRnWT5kIAxpURfinr_Jk9ePEi50PhSqIgSOgac177CO0BUvCHtfYmLGknlZjyugDj-vPpYpLSTYv0cTtP5PTmT53F1o-K5LCKQHljMwjqapU71nU9A3rt_1jL7nkqGyhtos0RxT5nmNB6-A.jpg",
+      "videos": [],
+      "primary_links": [
+        "https://docs.google.com/document/d/12ZaaMHcQjdc56nDuiY6VhVolf4zF53JMUblodnWtJQU/edit?tab=t.0"
+      ],
+      "content_type": "news",
+      "source_relation": "brand_statement",
+      "collected_at": "2026-09-25T10:21:47.664672+00:00"
+    },
+    {
+      "id": "8e16aac75fef8fe821",
+      "title": "Доставка до любой двери: ВкусВилл и BBDO спрятали курьера за дверью шоурума ВкусВилл совместно с креативным агентством BBDO запустил инсталляцию…",
+      "url": "https://t.me/news_vkusvill/1556",
+      "summary": "🚪 🚲 Доставка до любой двери: ВкусВилл и BBDO спрятали курьера за дверью шоурума ВкусВилл совместно с креативным агентством BBDO запустил инсталляцию «Доставка до любой двери» в московском шоуруме дверей Torex . 📎 Пространство за демонстрационными дверями превратили в рекламную площадку. Открывая одну из них, посетитель видит постер с курьером ВкусВилла, продуктами и сообщением о бесплатной доставке. 💚 В основе проекта простое наблюдение: каждая доставка заканчивается у двери. Поэтому привычный момент встречи с курьером перенесли в пространство шоурума. На макете также разместили QR-код , который ведёт в приложение ВкусВилла, где можно восполь",
+      "source": "ВкусВилл · Telegram",
+      "publisher_id": "brand:vkusvill",
+      "published_at": "2026-09-18T12:23:14+00:00",
+      "categories": [
+        "Retail"
+      ],
+      "primary_category": "Retail",
+      "brands": [
+        "ВкусВилл"
+      ],
+      "market_scope": "Russia",
+      "platform": "telegram",
+      "account_id": "vkusvill-telegram",
+      "official_brand": true,
+      "source_quality": 4.5,
+      "image_url": "https://cdn4.telesco.pe/file/fzP9tFta9fHpGWZKK4m2SmmtHwM8E8LGEUu2iFGGPeBhA2FoNRtHEE0GB6vcysTKa5mKhKI5vgPJCV1XDtXkKXK8Gv4CEtD5Jd7lieWBI7IjbatLvr9GDA8SC83FPXDyEYQ_xp6h08HbR_bvDlBRsVDR-A9bJ2N231qFJ1s6VztOfqJX738xMKc0cttzs2EgEUcnN8echGV3HI7QukLxs06DOvMMTwe2-M0-40-ytuYGvxQbnZGvyBAkzIleV8rkhnug3NLlz7j7Rs_nqWIV-sLCtz1uO31g6wiMF2kMfIo8ym1NEf9KHFxS6uzLjXO7jFFZQaN7B1Yw0iav9RcB9w.jpg",
+      "videos": [],
+      "primary_links": [
+        "https://docs.google.com/document/d/1N8Wj4_WO3M5wqwp4OzWTothIcj5AizYHAPWCh8CX2ZU/edit?usp=sharing"
+      ],
+      "content_type": "news",
+      "source_relation": "brand_statement",
+      "collected_at": "2026-09-25T10:21:47.664672+00:00"
+    },
+    {
+      "id": "353dbcc04b194e5d95",
+      "title": "ВкусВилл получил премию «Рыбный день — каждый день» Делимся радостной новостью: мы получили премию «Рыбный день — каждый день»",
+      "url": "https://t.me/news_vkusvill/1557",
+      "summary": "🐟 ВкусВилл получил премию «Рыбный день — каждый день» Делимся радостной новостью: мы получили премию «Рыбный день — каждый день». В этом году её вручили впервые — в Санкт-Петербурге на Международном рыбопромышленном форуме. Премию организовал Рыбный союз, чтобы отметить компании, которые помогают людям чаще выбирать рыбу и морепродукты. 👜 ВкусВилл стал лауреатом в номинации «Формула здоровья» — за то, что мы делаем рыбу понятной и доступной частью здорового рациона. «Нам особенно приятно это признание. Мы хотим, чтобы качественная и полезная рыба была простым и привычным выбором каждый день. Покупатели всё чаще ищут продукты, которые помогают",
+      "source": "ВкусВилл · Telegram",
+      "publisher_id": "brand:vkusvill",
+      "published_at": "2026-09-21T12:11:06+00:00",
+      "categories": [
+        "Retail"
+      ],
+      "primary_category": "Retail",
+      "brands": [
+        "ВкусВилл"
+      ],
+      "market_scope": "Russia",
+      "platform": "telegram",
+      "account_id": "vkusvill-telegram",
+      "official_brand": true,
+      "source_quality": 4.5,
+      "image_url": "https://cdn4.telesco.pe/file/PMKYIAcTyvPy603rWs8TFkq50uX2nxJKXCoLNx9nRUh-nGo6CysazdZiVCZsX3hpVpf57AJ_I7dLILXZYEybXvMXKSGlHagjmO9C71XFATu0TAueZbVyo-6l3vvupfKqFJEetsbpUu8Ev3f1R6qBHG6PLMmajenvtuguPuhumdJObbP5bdpaKSX2uaQv4TtbMlvNXkoNmBAkgv0zQYLYTZtKAfTwJ4jCpKWQ5GcPPNp8wOkv-F23cpQ8QIRd6xWawSseqYs4IiR7ftylyNLC9-rKPMKJWX-rKvT6K01Ahuh7sj-9k8qUD8wscBLZ3dM7R8VyvlLEJe_cLjaaQHXrkg.jpg",
+      "videos": [],
+      "primary_links": [],
+      "content_type": "news",
+      "source_relation": "brand_statement",
+      "collected_at": "2026-09-25T10:21:47.665671+00:00"
+    },
+    {
+      "id": "875f8760280c888f7b",
+      "title": "107 тысяч отзывов на фрукты и овощи за три месяца: во ВкусВилле с помощью ИИ начали определять вкус по оценкам покупателей Покупатели часто…",
+      "url": "https://t.me/news_vkusvill/1558",
+      "summary": "🍏 107 тысяч отзывов на фрукты и овощи за три месяца: во ВкусВилле с помощью ИИ начали определять вкус по оценкам покупателей Покупатели часто пишут в отзывах, каким оказался фрукт на вкус. Теперь эти оценки попадают прямо в карточку товара: языковая модель собственной разработки разбирает отзывы на яблоки, мандарины и виноград и выставляет по ним отметку вкуса. Если покупатели пишут, что виноград сладкий, в карточке появится отметка «сладкий» 👩‍🔬 ✅ Раньше вкус определяли по нескольким образцам партии в офисе, а разметку обновляли вручную несколько раз за сезон. Теперь она меняется каждую неделю. В неделю в систему поступает около 8700 отзывов",
+      "source": "ВкусВилл · Telegram",
+      "publisher_id": "brand:vkusvill",
+      "published_at": "2026-09-22T10:13:16+00:00",
+      "categories": [
+        "Retail"
+      ],
+      "primary_category": "Retail",
+      "brands": [
+        "ВкусВилл"
+      ],
+      "market_scope": "Russia",
+      "platform": "telegram",
+      "account_id": "vkusvill-telegram",
+      "official_brand": true,
+      "source_quality": 4.5,
+      "image_url": "https://cdn4.telesco.pe/file/cTsDY-qeLMlTMlK51iTWyIu_oWM8_vkTdJ4vbdtx6WanRfvZXkzHJa4lECJSeXxofT3foNgnb75nVLnKzIPYALJQy_3UeRsBL-tvum2EtN8trEI0M8dzz9oC1YfByRoAf93VRGzeboMgTA7KmRu7l1Yx0V1tPEMOVSg496t2oNDSy8usDdbSL40LchIjxXmjw-Sch-9VceHGCXu2SeS7OvClDdtkDMJMtFSBUdLPsHI_Ui7Th-6paa74cqQ4Xw1Q_CHUlEANzIl2irj_LxzUKqMyXehRebIvKvxGsFEIhE0iSlKVu_Nxzcz5Oq92Cwt_lmPIqrE_kiJPhyicZ0kuSg.jpg",
+      "videos": [],
+      "primary_links": [
+        "https://docs.google.com/document/d/1YxNagf_BSdHEcwfc8BCPuaLf-RfAxfQfSkZ0Rf4-Qkg/edit?tab=t.0"
+      ],
+      "content_type": "news",
+      "source_relation": "brand_statement",
+      "collected_at": "2026-09-25T10:21:47.666668+00:00"
+    },
+    {
+      "id": "fb3f76dd91a7271d41",
+      "title": "ТехВиллу 1 год: от новой команды до 1000+ сотрудников Ровно год назад, 22 сентября 2025 года , появился ТехВилл, технологическое направление…",
+      "url": "https://t.me/news_vkusvill/1559",
+      "summary": "🎂 🎉 ТехВиллу 1 год: от новой команды до 1000+ сотрудников Ровно год назад, 22 сентября 2025 года , появился ТехВилл, технологическое направление ВкусВилла, которое создает современные ИТ-решений, уходящие в основу развития ритейла будущего 💡 🪩 🪩 🪩 🪩 🪩 🪩 🪩 🥳 🎂 Сегодня команда объединяет уже 1000+ сотрудников. Но за этими цифрами ещё больше идей, решений и людей, которые каждый день делают технологии понятнее и удобнее. За первый год 😍 😍 😍 😍 успел немало 👀 🟣 приложение доставки ВкусВилл стало №1 по версии Рунета ; 🟣 техническая поддержка помогает 20 000+ курьерам-партнёрам , которые ежедневно доставляют заказы через мобильное приложение; 🟣 кома",
+      "source": "ВкусВилл · Telegram",
+      "publisher_id": "brand:vkusvill",
+      "published_at": "2026-09-22T13:40:52+00:00",
+      "categories": [
+        "Retail"
+      ],
+      "primary_category": "Retail",
+      "brands": [
+        "ВкусВилл"
+      ],
+      "market_scope": "Russia",
+      "platform": "telegram",
+      "account_id": "vkusvill-telegram",
+      "official_brand": true,
+      "source_quality": 4.5,
+      "image_url": "https://cdn4.telesco.pe/file/VAitGsQGx6T5urDXOSo7_7uElaEutbkw9KAzZ7Eii1d7WMb34-enRvVVEbdwpGNKiZOEo_p0dsoXon53Y_UMCYldobOFyDs9lH0UeHEYp9WlUTwSY_4Pt6aX4T6QQqbLWcDO9oCa5OKr0kCcqKor0T4cGr2WSktNcsUyOY8N7jTgasFEERGfr01jHJyzefsTMDF1Y_kvF_e_eyLFRcFS_eIedXv9nh-Slm1UWjxicnPlO0AExLw1mIKbmu7HGnBsEH7JDBt8epjX2p2fgV413zI4Kgv2Tk_4R-eAEmQhGlDEbcFxXoaVdaV3dVHi414-h4-JJzx-sSQhRURwockFcw.jpg",
+      "videos": [],
+      "primary_links": [],
+      "content_type": "news",
+      "source_relation": "brand_statement",
+      "collected_at": "2026-09-25T10:21:47.666668+00:00"
+    },
+    {
+      "id": "9d95083f16bad8e581",
+      "title": "ВкусВилл стал первым ритейлером в новом направлении доставки продуктов «Чиббис» 🥭 Теперь пользователи сервиса могут заказать более 14 тысяч…",
+      "url": "https://t.me/news_vkusvill/1560",
+      "summary": "🛒 ВкусВилл стал первым ритейлером в новом направлении доставки продуктов «Чиббис» 🥭 Теперь пользователи сервиса могут заказать более 14 тысяч товаров ВкусВилла: свежие продукты, полуфабрикаты, готовую еду и непродовольственные товары. Цены соответствуют указанным в приложении и на сайте ритейлера. 🟢 Доставка доступна в 142 городах присутствия обеих компаний, включая Москву, Санкт-Петербург, Екатеринбург, Казань, Нижний Новгород, Самару, Уфу и Краснодар. «Мы стремимся к тому, чтобы продукты ВкусВилла были доступны на всех популярных цифровых площадках. Партнёры играют ключевую роль в этом процессе, помогая нам выходить на новые сегменты покупа",
+      "source": "ВкусВилл · Telegram",
+      "publisher_id": "brand:vkusvill",
+      "published_at": "2026-09-23T09:04:44+00:00",
+      "categories": [
+        "Retail"
+      ],
+      "primary_category": "Retail",
+      "brands": [
+        "ВкусВилл"
+      ],
+      "market_scope": "Russia",
+      "platform": "telegram",
+      "account_id": "vkusvill-telegram",
+      "official_brand": true,
+      "source_quality": 4.5,
+      "image_url": "https://cdn4.telesco.pe/file/UjgE6ow4pLkQLvzStwzSZEU-nyTXuXZc8qVKETZwsslJXIU8MwC3ZVyhp3vyx60CmDqLheICODLOvC5DyIHHNS0lafgo6lf1Ccl9xSAjD5RJPXQ941fdSjvqD5KR3VSsjXqtloqVFAu-Bt0xSxkoegW2ruqEs8fDKaieL8dkdUwFh5wMbszjrFXwL6DjkvLXSEKb55YpDGTLmnzT-TCPVQHO8sWNy9BE-aYXvyfYDvqV4uuTQDZf3KZPKG5ScG1JMWcC3b0k_uOTK_DW1pVVFOf2o06C1ptS8S-mZvSv4CqMp_MQNe4Mpo7K0R8MeF4VED27fROFQQM1xKQ1VzkPPg.jpg",
+      "videos": [],
+      "primary_links": [
+        "https://docs.google.com/document/d/1LZUVfL21KzMp1yPd4W8n2wgzJFmmufbkGXh8mAvuLK0/edit?usp=sharing"
+      ],
+      "content_type": "news",
+      "source_relation": "brand_statement",
+      "collected_at": "2026-09-25T10:21:47.667670+00:00"
+    },
+    {
+      "id": "79654ba1e4d78fffc2",
+      "title": "ВкусВилл второй год подряд получает международную премию ZeroDX Award В Циндао на церемонии Zero Distance Excellence Awards, которая проходила в…",
+      "url": "https://t.me/news_vkusvill/1561",
+      "summary": "🎉 ВкусВилл второй год подряд получает международную премию ZeroDX Award В Циндао на церемонии Zero Distance Excellence Awards, которая проходила в рамках Международного форума,  ВкусВилл получил премию ZeroDX Award в номинации Transformational. Zero Distance — подход, который развивает группа компаний Haier, которая известна своим инновационным подходом к управлению бизнесом. Его главная идея — между компанией и клиентом должно быть как можно меньше дистанции: лишних уровней управления, согласований и посредников. С 2020 года премию получают компании, которые выстраивают работу вокруг потребностей клиента и уменьшают дистанцию между клиентами",
+      "source": "ВкусВилл · Telegram",
+      "publisher_id": "brand:vkusvill",
+      "published_at": "2026-09-23T13:31:36+00:00",
+      "categories": [
+        "Retail"
+      ],
+      "primary_category": "Retail",
+      "brands": [
+        "ВкусВилл"
+      ],
+      "market_scope": "Russia",
+      "platform": "telegram",
+      "account_id": "vkusvill-telegram",
+      "official_brand": true,
+      "source_quality": 4.5,
+      "image_url": "https://cdn4.telesco.pe/file/FBBtqKWX0smHgxVFhgOpZRamdI0fyN70C71Umc1ULJ0p76iWKSqXgUOAu62-JNNIOeLzWp8zSDc8YhKVWSLLLrVRAbd_2olGPTGN8UK4114mMYHot1KsN6QGm6_fNppSs-zy6aWF43LmlatvwDC0ZKUQ4oQe-b2UALovkeHrVsd_WqsxMKzZi7LnZN6GUbj8lZovyj3VuJKm9a6_ecaDQsGaMzWxCNjyhi3Llysb2d7Vg1AHQpmQGBa0kXCJmdYRzYKzgRuI05bXZtQnMMq_610JizS2coMEQwyDoEJb0-WY1bAyfp67TgtCrQhQJRAqp6G3UhTcq6RJaUHeofrN3g.jpg",
+      "videos": [],
+      "primary_links": [],
+      "content_type": "news",
+      "source_relation": "brand_statement",
+      "collected_at": "2026-09-25T10:21:47.668668+00:00"
+    },
+    {
+      "id": "c81a6075d602db5abb",
+      "title": "В сентябре продажи готовых завтраков выросли на 8,9%, детских напитков на 26%: ВкусВилл о трендах и новинках школьного меню Начало нового…",
+      "url": "https://t.me/news_vkusvill/1563",
+      "summary": "💚 В сентябре продажи готовых завтраков выросли на 8,9%, детских напитков на 26%: ВкусВилл о трендах и новинках школьного меню Начало нового учебного года и переход к школьному расписанию мгновенно отразились на продуктовой корзине покупателей ВкусВилла. В первой половине сентября по сравнению с августом спрос заметно сместился в сторону готовых форматов: продажи готовых завтраков выросли на 8,9% , блинов — на 17% , классических сосисок — на 17,8% , супов-пюре — на 11% , ложковых йогуртов — на 14,2% , а детских напитков — на 26% 📊 Отвечая на сезонный запрос ВкусВилл расширил ассортимент , а также подготовил гид по осенним новинкам , который за",
+      "source": "ВкусВилл · Telegram",
+      "publisher_id": "brand:vkusvill",
+      "published_at": "2026-09-24T09:58:10+00:00",
+      "categories": [
+        "Retail"
+      ],
+      "primary_category": "Retail",
+      "brands": [
+        "ВкусВилл"
+      ],
+      "market_scope": "Russia",
+      "platform": "telegram",
+      "account_id": "vkusvill-telegram",
+      "official_brand": true,
+      "source_quality": 4.5,
+      "image_url": "https://cdn4.telesco.pe/file/kCDemBJcUnS1G88yTWac1zfxrWSrvQ8agy8eUxupIVyKCMZXk0UL58yG3ENpUocDytk96RA18bsibZYT8g7TRgud-pq1lkLvQTjg5mZqj8kU0bq_Ociy-W8YvxsN70bePzQW9IOVKWpkjoFpNQek2IFYgi-SkNwN8K394p3GNu3JVExrHbQ3lFOkjOp0O3AToc12GZltUl5hk_Maroj0iVVtF5ztuvAnmIsnfWPVMmniGRJI-G3We8zjjvpSf8NfoXo-0rK3v_aL_3juw58Nzcu40gGPOttT38upIako6VcrhvsSFovhUr-2XPMBDiUeBUB1iKYsWfa3gEIEREWJhQ.jpg",
+      "videos": [],
+      "primary_links": [
+        "https://vkusvill.ru/goods/omlet-shkolnyy-125183/",
+        "https://vkusvill.ru/search/?isComplete=0&amp;type=products&amp;q=%D1%81%D1%83%D0%BF+%D0%B2+%D0%B1%D1%83%D1%82%D1%8B%D0%BB%D0%BA%D0%B5",
+        "https://vkusvill.ru/goods/chipsy-chechevichnye-gimalayskaya-sol-i-chernyy-perets-117026/",
+        "https://vkusvill.ru/search/?isComplete=0&amp;type=products&amp;q=%D1%88%D0%BE%D1%82",
+        "https://vkusvill.ru/goods/shokolad-molochnyy-kapibara-plokhogo-ne-posovetuet-123285/",
+        "https://docs.google.com/document/d/1fnltkOElhT4bo71Yg4rE8n2SJn6EnLZAKyrAYBflGeE/edit?tab=t.0"
+      ],
+      "content_type": "news",
+      "source_relation": "brand_statement",
+      "collected_at": "2026-09-25T10:21:47.670667+00:00"
+    },
+    {
+      "id": "d9045b6dc44873d3ec",
+      "title": "ВкусВилл получил 7 наград «Московского качества» в категории  «Мороженое» Конкурс проводит Московская торгово-промышленная палата при поддержке…",
+      "url": "https://t.me/news_vkusvill/1569",
+      "summary": "🏆 ВкусВилл получил 7 наград «Московского качества» в категории  «Мороженое» Конкурс проводит Московская торгово-промышленная палата при поддержке Правительства Москвы и под патронатом Московской городской Думы. 🍦 Победителей в 11 номинациях определяли москвичи на платформе «Активный гражданин» — всего в категории «Мороженое» они оставили 1 668 691 мнение. До голосования продукты прошли лабораторные исследования, анализ документации и профессиональную дегустацию. По словам бренд-стратега категории «Мороженое» ВкусВилла Дарьи Красовой , сегодня в категории мороженого есть запрос на «всё и сразу»: это сочетание функциональности, обогащённого сос",
+      "source": "ВкусВилл · Telegram",
+      "publisher_id": "brand:vkusvill",
+      "published_at": "2026-09-24T13:45:26+00:00",
+      "categories": [
+        "Retail"
+      ],
+      "primary_category": "Retail",
+      "brands": [
+        "ВкусВилл"
+      ],
+      "market_scope": "Russia",
+      "platform": "telegram",
+      "account_id": "vkusvill-telegram",
+      "official_brand": true,
+      "source_quality": 4.5,
+      "image_url": "https://cdn4.telesco.pe/file/u-8JZalqfHNiB8UadL46mVogmsuKEgwyAYxM-70FmsJhe4HDX1KkCixoI4hHIiBJqBwqXtZqpEqxxHnSqGx-q4UfGx568ogPUNWLEU6wDc1TDR7O_qABOcv2a0gPxUbsoJmGMvN9WY4dDnKP5kUF3-YButcUA8DLvtKwX16ajwRrD9K5z-Kc-TcPUtJ5sXvf1vg3AIDRgtSpN617UAE04IwwFlUp8RgWfek0sAIC9mOZvXISrjmrDjpkgHpLospqFQfW25bziUGltVVoRD4_3LYF13UXDEoBEH_OqgLGChAcEd66DyDV473oM5ZYAa5QGl4pzIDHCiFPA8H4eKQxlg.jpg",
+      "videos": [],
+      "primary_links": [
+        "https://docs.google.com/document/d/1_xHEINEijzDL4zUQHh2mXLlx2YMa29HGTzl2IeTcJdI/edit?tab=t.0"
+      ],
+      "content_type": "news",
+      "source_relation": "brand_statement",
+      "collected_at": "2026-09-25T10:21:47.671668+00:00"
+    },
+    {
+      "id": "f5632e28757c006e43",
+      "title": "Как ТехВилл выбирает, какие продуктовые гипотезы проверять Идей у продуктовой команды всегда много",
+      "url": "https://t.me/news_vkusvill/1573",
+      "summary": "👤 👤 👤 👤 ❗️ 🤗 Как ТехВилл выбирает, какие продуктовые гипотезы проверять Идей у продуктовой команды всегда много. Что-то замечают сами, что-то приносят пользователи, что-то подсвечивают коллеги. Но хорошая идея ещё не значит, что именно её нужно брать в работу прямо сейчас. Шынгыраа Кызын, продакт-менеджер ТехВилла , рассказала на Хабре , как её команда сначала разбирается, что действительно болит у покупателей и где проблема сильнее всего влияет на продукт и бизнес ,  и только потом переходит к гипотезам. 💡 Суть подхода простая: не начинать с «а давайте сделаем вот это». Сначала собрать сигналы из кастдевов, UX-тестов, обращений и отзывов, по",
+      "source": "ВкусВилл · Telegram",
+      "publisher_id": "brand:vkusvill",
+      "published_at": "2026-09-25T07:49:23+00:00",
+      "categories": [
+        "Retail"
+      ],
+      "primary_category": "Retail",
+      "brands": [
+        "ВкусВилл"
+      ],
+      "market_scope": "Russia",
+      "platform": "telegram",
+      "account_id": "vkusvill-telegram",
+      "official_brand": true,
+      "source_quality": 4.5,
+      "image_url": "https://cdn4.telesco.pe/file/nfQxo2GOULPFay09t1ez4thNiMOGODcbZrVUteCFZ5vIfcnnX1g2-n-TjfbK3uMJMPUUVaBbpgQAPm1nDQu3vapWFzVBjWLgEfbmjU5TYe2wsxkuwNvYpxws6XaoMSsTx7AZQj4b5kJP37pnYJo4qdk2aqlasbsslbhga_F6YMvQdGIy181F5za9m_Q9YgNbj0ySNY-dRJsuvARVg2nYPcDygAjtXMKYPjJb4VUHnyeaWE8q__HNFDb2_rImtv4ufm2eSE53A2QtLUkdSwC2QzRRjBC-rQ4hHhRa3a8NLsfsk182hpZ7XVMeZeLWKBb04DjFHEMkA5Bwb7mfipWjDA.jpg",
+      "videos": [],
+      "primary_links": [
+        "https://habr.com/p/1086492/"
+      ],
+      "content_type": "news",
+      "source_relation": "brand_statement",
+      "collected_at": "2026-09-25T10:21:47.671668+00:00"
+    },
+    {
+      "id": "9cb5b8cdb7d04cf083",
+      "title": "В резюме карьерный путь умещается в несколько строк",
+      "url": "https://t.me/x5_telega/4835",
+      "summary": "В резюме карьерный путь умещается в несколько строк. Но между должностями часто остаётся самое интересное: случайности, сомнения, неожиданные повороты и люди, которых встречаешь по дороге. Валентина Вологдина , аналитик по эффективности «Пятёрочки», которая работает с нами уже 20 лет, знает это как никто. Листайте карточки! Полное интервью с Валентиной и еще больше историй наших коллег – тут",
+      "source": "X5 · Telegram",
+      "publisher_id": "brand:x5",
+      "published_at": "2026-09-21T15:20:10+00:00",
+      "categories": [
+        "Retail"
+      ],
+      "primary_category": "Retail",
+      "brands": [
+        "X5"
+      ],
+      "market_scope": "Russia",
+      "platform": "telegram",
+      "account_id": "x5-telegram",
+      "official_brand": true,
+      "source_quality": 4.5,
+      "image_url": "https://cdn4.telesco.pe/file/AT6qMuYftq08m-k_gnIxnjNQvUrKeIdY6jIlBYK2kVQIxBG7KKsuWAKr3LSGot7MkRzASpX0n_zV54WQ-DN7HC0Os17bURGp5AZ64gWie7o9y-w0js_KGFKaAx154eaVnqDuNtRNLJTkx69MtTRc5uCJVz-4TrL9AZxPK1hJ74PYye2eF4-hmtTNBX29XZwciV1iEST94XrJTql_YHJPKf_gqD61cJBqA97gDCtocdnpBdsiub0dJ8kElBSdKMO_MXAhsoPOD-0izSW0JPTV7W6dB1G5abzpgHS8A5xLL5zxCNxXABfBt3HgS6oMF6rZ1v8NNQzoiF8jxzodRjAcOg.jpg",
+      "videos": [],
+      "primary_links": [
+        "https://www.x5.ru/ru/20years/"
+      ],
+      "content_type": "news",
+      "source_relation": "brand_statement",
+      "collected_at": "2026-09-25T10:21:47.518644+00:00"
+    },
+    {
+      "id": "f828b1e1eda3e99dd0",
+      "title": "22 сентября — День хоббита, но мы оставим Кольцо всевластия в покое",
+      "url": "https://t.me/x5_telega/4841",
+      "summary": "22 сентября — День хоббита, но мы оставим Кольцо всевластия в покое. И поговорим о другой прелести — завтраке . У Толкина хоббиты любят есть шесть раз в день , когда есть возможность. В кино хоббит Пиппин перечисляет уже семь приёмов пищи , включая второй завтрак. С таким расписанием непонятно, куда вообще поместились приключения. Завтраки у них вполне земные: Бильбо в дороге скучает по чаю, тостам и бекону , а в подземелье мечтает о домашней яичнице с беконом . В начале «Хоббита» он успевает позавтракать на кухне, прибраться и около половины одиннадцатого снова сесть за стол , но уже у открытого окна. Если после раннего завтрака вы проголода",
+      "source": "X5 · Telegram",
+      "publisher_id": "brand:x5",
+      "published_at": "2026-09-22T09:43:23+00:00",
+      "categories": [
+        "Retail"
+      ],
+      "primary_category": "Retail",
+      "brands": [
+        "X5"
+      ],
+      "market_scope": "Russia",
+      "platform": "telegram",
+      "account_id": "x5-telegram",
+      "official_brand": true,
+      "source_quality": 4.5,
+      "image_url": "https://cdn4.telesco.pe/file/gK89wPoUgeWwq8Mbg-NR_SESSGH8UADvWiJc6c24aMhlaVp7U2w8MOBh4XW_fSwmvjbxOVf0FLVenyxEbORvJdmQ4eA_lK8klkO_wukEuRYxP0AavoBH81us7Bu69qbqtxtwVAtZslWwhrn7NW1rIMnysoNVClQJH4cpOausVEBYNYQiU1My-i_-CTYgl01LI-v7zUXYRa7vo9oz9QC35XHPZDfO_2f-flPQdWXU-ckYDYaIMdfdej1ZEau75Sekrl2aFwi04qZ9JdlokrNKpIWXflaPAVzD1jFqXbJ8vuuMgb3B2ktIDu-EflBBN8DzUG77b4JVcV0Y4U5CeuRjog.jpg",
+      "videos": [],
+      "primary_links": [
+        "https://5ka.ru/product/skir-vkus-polza-islandskiy-s-pechenym-yablokom-1-2--4363441/"
+      ],
+      "content_type": "news",
+      "source_relation": "brand_statement",
+      "collected_at": "2026-09-25T10:21:47.518644+00:00"
+    },
+    {
+      "id": "cb3edea34f23d6ac4f",
+      "title": "У «Пятёрочки» есть свой уникальный мерч для сотрудников, который превращает привычное в модное",
+      "url": "https://t.me/x5_telega/4843",
+      "summary": "У «Пятёрочки» есть свой уникальный мерч для сотрудников, который превращает привычное в модное. Фирменный паттерн, овощи и фрукты стали частью дизайна новой одежды и аксессуаров. Так появилась капсула «Стиль — вот в чём разница» . Обычно такой мерч можно встретить только у команды «Пятёрочки». Но сегодня он может стать вашим! Разыгрываем по одному экземпляру каждой вещи : • кардиган • футболку • стакан «Пятёрочки» • поводок с сосиской • джинсовку Как участвовать? • подпишитесь на канал «Просто X5» • подпишитесь на канал «Я в Пятёрочке» • нажмите кнопку «Участвую!» 6 октября в 16:00 пять счастливчиков определит рандомайзер 🔥 Всем удачи! Подроб",
+      "source": "X5 · Telegram",
+      "publisher_id": "brand:x5",
+      "published_at": "2026-09-23T09:44:01+00:00",
+      "categories": [
+        "Retail"
+      ],
+      "primary_category": "Retail",
+      "brands": [
+        "X5"
+      ],
+      "market_scope": "Russia",
+      "platform": "telegram",
+      "account_id": "x5-telegram",
+      "official_brand": true,
+      "source_quality": 4.5,
+      "image_url": "https://cdn4.telesco.pe/file/cfJYQzqOQvnBs1C1ebGaVV7n7Rm1PPQGLuzNyAGDwcIny-3gRjDf4rzcBf2NuxxLxGaleicSljfsL72u0SX9C6VEplVymoGl5QBtHTmFocolpA819JgDJ_8Rrzql49ttvPhZxNxJzk6G0SjOUeNT84Ymn_Hzfl_eXwC5YTR0VszeQ20hv8lTG9zqJU9Gq3FTTLpqTsHF1icAt9mCZ_50ljVslFBeo41n2JZqRoHPBR2nExUyLz1pYiD4XObn-UaCPTXsX4N5yTR0FibHnYI85qZH6q0bQMWbFDZRz0MaRM9hCicUQOGPoDUfrtXovF8Yu30rVhS7mk99WfDfj04xHw.jpg",
+      "videos": [],
+      "primary_links": [
+        "https://www.x5.ru/wp-content/uploads/2026/09/your_look_pyaterochka_telegram.pdf"
+      ],
+      "content_type": "news",
+      "source_relation": "brand_statement",
+      "collected_at": "2026-09-25T10:21:47.519646+00:00"
+    },
+    {
+      "id": "9ba218f880feb937fb",
+      "title": "Про него сначала говорили: «Слишком остро», а потом купили 10 миллиардов пачек и превратилили в феномен",
+      "url": "https://t.me/x5_telega/4845",
+      "summary": "Про него сначала говорили: «Слишком остро», а потом купили 10 миллиардов пачек и превратилили в феномен. Рассказываем, что за бренд задал всем жару. 🔥 Паназиатские блюда в «Пятёрочке» и «Перекрёстке» за год стали покупать в восемь раз чаще . Среди лидеров оказалось сразу несколько видов лапши. Поэтому сначала мы распутали лапшичный клубок , а теперь берём одну пачку крупным планом. И это — Buldak 🐣",
+      "source": "X5 · Telegram",
+      "publisher_id": "brand:x5",
+      "published_at": "2026-09-24T12:31:01+00:00",
+      "categories": [
+        "Retail"
+      ],
+      "primary_category": "Retail",
+      "brands": [
+        "X5"
+      ],
+      "market_scope": "Russia",
+      "platform": "telegram",
+      "account_id": "x5-telegram",
+      "official_brand": true,
+      "source_quality": 4.5,
+      "image_url": "https://cdn4.telesco.pe/file/vu0v3MjBspuk7Ie0EfzQZbdsYMCABibfVSKWrNXdUk0VLFxfGmgKqcA-d0EUT3eUE0yyuk6Yv_D10f2exDosQ4sBJuwDAc8dhdTwGEihhkGmd7h4H1aYO8SvzUxJiG0PpUSz2L9d38KYj4kBqHpRmuPs-U_S3KVkNUuDJk4mp4Oahv1jLdhkmz-6VT5QiUa190Ph907kUrESZmiCOBM5qICubR7ONeX-CRbJ_0CdxM1KiGFmm_f742lxnJcFG9YUqj02U1fUz-L7qkJqd3kFF_FL1XQHvGt2WQi3pn-77rL2AkP8gUeU1zYarhchXgbdZs0wtrc0sqDw-AM0KvZbwA.jpg",
+      "videos": [],
+      "primary_links": [
+        "https://mediahub.x5.ru/news/x5-rossiyane-stali-pokupat-aziatskuyu-gotovuyu-edu-v-8-raz-chashe",
+        "https://t.me/x5_telega/4772"
+      ],
+      "content_type": "news",
+      "source_relation": "brand_statement",
+      "collected_at": "2026-09-25T10:21:47.519646+00:00"
+    },
+    {
+      "id": "91bbe0af1d4dc22a37",
+      "title": "Чтобы получить работу, нужен опыт. Чтобы получить опыт, нужна работа. А у нас можно получить и то и другое одновременно Завершаем прием заявок…",
+      "url": "https://t.me/tbank/11121",
+      "summary": "Чтобы получить работу, нужен опыт. Чтобы получить опыт, нужна работа. А у нас можно получить и то и другое одновременно Завершаем прием заявок на Мини-CEO — оплачиваемую шестимесячную программу Т-Банка, где студенты старших курсов и недавние выпускники работают вместе с топ-менеджерами над стратегическими задачами бизнеса. Участники получают опыт в проектах в AI, ML, аналитике и разработке, а также наставничество личного ментора из числа руководителей Т-Банка. А после окончания программы есть шанс присоединиться к команде. ➡️ Принять участие могут студенты старших курсов и выпускники 2023—2026 годов. Успевайте подать заявку по ссылке: https:/",
+      "source": "Т-Банк · Telegram",
+      "publisher_id": "brand:tbank",
+      "published_at": "2026-09-17T14:05:03+00:00",
+      "categories": [
+        "BanksFintech"
+      ],
+      "primary_category": "BanksFintech",
+      "brands": [
+        "Т-Банк"
+      ],
+      "market_scope": "Russia",
+      "platform": "telegram",
+      "account_id": "tbank-telegram",
+      "official_brand": true,
+      "source_quality": 4.5,
+      "image_url": "https://cdn4.telesco.pe/file/g0gSeNdr5cExRly7Sp3lEF-t2PZTt7ZAO2aEWsMj38bAX3gtdRAfquvG31UyIlVXAD1C-WaeVZ7hOpHoBsCfQ65Zi_Ki-tPxzyhV7ZQ3WMcKCaKoKTok2ViPl2_Qmje3OfTsBUv9vpsFkty0K6MEeU8tooHA0ZLq1cuEpLhcPTLDFTIE35vXM1uqk-uP8JdVdsp_0ydHnsGY3YjiWQ1dS9fd0GWV28SdPlGH6QBiFm5cJPPjDdwkb7d7zPT8wlvLgHIFdigDRXvjvpYLw07EA7wAWZQtjYZJHLrE5UTgUR4g1BnkwJFwvQ3MTGWpLyZxAzZMPE9RLC2T5m2_PrMrNg.jpg",
+      "videos": [],
+      "primary_links": [
+        "https://u.tbank.ru/mini-ceo"
+      ],
+      "content_type": "news",
+      "source_relation": "brand_statement",
+      "collected_at": "2026-09-25T10:21:47.493042+00:00"
+    },
+    {
+      "id": "ec8d6268d79dd16f8d",
+      "title": "Расул Чабдаров никогда не попадал в паутину телефонных мошенников 🕸 Он не раз помогал другим людям решать их проблемы, но в нашем шоу «Звезды…",
+      "url": "https://t.me/tbank/11123",
+      "summary": "Расул Чабдаров никогда не попадал в паутину телефонных мошенников 🕸 Он не раз помогал другим людям решать их проблемы, но в нашем шоу «Звезды против мошенников» ему предстоит задача посложнее. Мы в реальном времени отлавливаем звонки аферистов и направляем их прямиком нашему звездному участнику. Ему нужно поддержать легенду, разговорить жулика и не дать ему заподозрить подвох. Пока ведущий Илья Куруч и Расул ведут диалог — деньги граждан остаются в безопасности. Смотрите полный выпуск во ВКонтакте или на Ютубе: 📺 https://u.tbank.ru/vkvideo10 📺 https://u.tbank.ru/youtube10 Кстати, в Т-Банке есть бесплатные инструменты для борьбы с аферистами: ",
+      "source": "Т-Банк · Telegram",
+      "publisher_id": "brand:tbank",
+      "published_at": "2026-09-18T14:04:20+00:00",
+      "categories": [
+        "BanksFintech"
+      ],
+      "primary_category": "BanksFintech",
+      "brands": [
+        "Т-Банк"
+      ],
+      "market_scope": "Russia",
+      "platform": "telegram",
+      "account_id": "tbank-telegram",
+      "official_brand": true,
+      "source_quality": 4.5,
+      "image_url": "https://cdn4.telesco.pe/file/IDmFUcay_KNmye9-jKxV55rqK6JvISnwnvsV5_YiMnnEnyOr4P8jw8dr5a4CquB__YI1bm1zlKfJF4ObQBI7_v_B80FB43ynDI-fuCIRl4-moK8CCHD7Zqg7yd2NuX3aQ9_jjUWKNl3nIXdLgAc8ULRurDagSPN8Zx2868u7G7eUyR-JqVPrsB_oKBN3zgpVoi1Fa8i2A2rN2gJ6ZWw6rxMGd8GXNL4MSoe9qjy64QlSkdpqDV3kXBIj13Z2Sy8iGg_pkDJeXrdxuxVFjKCwzkgbuA-FsnaQnG5cJ6DMQJDolcwLqZLtXhDaTptwzaSikKdR0HBR76zfaRNRVw3uFQ.jpg",
+      "videos": [],
+      "primary_links": [
+        "https://u.tbank.ru/vkvideo10",
+        "https://u.tbank.ru/youtube10",
+        "https://t.tb.ru/t_monitoring",
+        "https://b.tbao.su/zb"
+      ],
+      "content_type": "news",
+      "source_relation": "brand_statement",
+      "collected_at": "2026-09-25T10:21:47.494042+00:00"
+    },
+    {
+      "id": "af39ea641ac44a5aa0",
+      "title": "В этом году огурцов особенно много 🥒 Урожай удался настолько, что огуречные платежные стикеры T-Pay теперь доступны не только для дебетовой…",
+      "url": "https://t.me/tbank/11124",
+      "summary": "В этом году огурцов особенно много 🥒 Урожай удался настолько, что огуречные платежные стикеры T-Pay теперь доступны не только для дебетовой карты, но и для кредитки и детской карты «Джуниор». В общем, засолили с запасом на осень и зиму. Стикер можно наклеить на смартфон, брелок или любой удобный предмет и платить им везде, где есть терминал. А за покупки начислим кэшбэк — такой же, как при оплате обычной картой. Выбирайте банку огурцов или огурчик-сердечко для нужной карты. Стоимость стикера — 890 ₽. ➡️ Заказать стикер T-Pay: https://l.tbank.ru/stickercucumber",
+      "source": "Т-Банк · Telegram",
+      "publisher_id": "brand:tbank",
+      "published_at": "2026-09-18T15:00:00+00:00",
+      "categories": [
+        "BanksFintech"
+      ],
+      "primary_category": "BanksFintech",
+      "brands": [
+        "Т-Банк"
+      ],
+      "market_scope": "Russia",
+      "platform": "telegram",
+      "account_id": "tbank-telegram",
+      "official_brand": true,
+      "source_quality": 4.5,
+      "image_url": "https://cdn4.telesco.pe/file/V-5tfeTOpsTs-xjNH5k_aHjhX3iQjeVkps3H9IrMftldHus508ik_isrCkLTUUDCMAVV5EmZ1jgLK-JKM_0H6ZMBL62-DTH8nJ8zK1INRCZVtQW-uhUPCGHe5nXN9dLiSrBVkxkHxVY8kye5pMw4tLWrkme_uUh3_0ySa4AmIPhe885xjnn-JAOMmywgIGcwg1Yb9flGq-Jg-Xnn36MpcENgHBbaBeUgoR6Ya_a0r2OF5HLWTAviqDlFm1doN-gMrpp2YLnAK-ZIUylQBCTyPJ-NTqLwH4rIIXKBHyFOMIEYjlD4l7_PCQfh8yCWGnwTd36HYog_H53JMgsBIu1gbw.jpg",
+      "videos": [],
+      "primary_links": [
+        "https://l.tbank.ru/stickercucumber"
+      ],
+      "content_type": "news",
+      "source_relation": "brand_statement",
+      "collected_at": "2026-09-25T10:21:47.494042+00:00"
+    },
+    {
+      "id": "45e95f913a55b76971",
+      "title": "Очень приятно смотреть, как прирастают накопления",
+      "url": "https://t.me/tbank/11125",
+      "summary": "Очень приятно смотреть, как прирастают накопления. Особенно когда копишь на дом мечты 🏠 Мы буквально создали «Дом мечты» — раздел, который показывает, как вы приближаетесь к своей цели с каждым накопленным рублем. Все накопления собраны в одном месте, а прогресс можно отслеживать прямо в приложении. А еще этот раздел подскажет, как быстрее приблизиться к покупке — с помощью накопительного счета, вклада или других банковских продуктов. Раздел можно найти в приложении: «Главная» → спускайтесь вниз → «Дом и авто» → «Дом мечты». ➡️ Или переходите по ссылке: https://b.tbao.su/CreateDreamHome",
+      "source": "Т-Банк · Telegram",
+      "publisher_id": "brand:tbank",
+      "published_at": "2026-09-19T06:01:52+00:00",
+      "categories": [
+        "BanksFintech"
+      ],
+      "primary_category": "BanksFintech",
+      "brands": [
+        "Т-Банк"
+      ],
+      "market_scope": "Russia",
+      "platform": "telegram",
+      "account_id": "tbank-telegram",
+      "official_brand": true,
+      "source_quality": 4.5,
+      "image_url": "https://cdn4.telesco.pe/file/CoDqB-oF2kCQpkjxI0r7Qlen5RsNCGRvsDpL0dm3y5XaIxz57BbyB_Cf7kgeOMddJIV5GSUwXVnzAVu2RauV9MYtDKrAjJewouVdVOkI6AXanwYz32Z15eAEa8NzSt0MZv4p4NmNtz4p39uHK_JyvmnMRLscKFYjeXgPYZbFm10EYUVIbht2PlMzLI6PhymMTFw8TfRrRi8T_RHa9PG3EUNVfoFXw01SEusTmlTd-BbqZhBM9uxmPfebwkjVLQtjbg8eoPapYRrsCdAn5-fXO2DyHJG_3izfayYGrI10Ys6IfkZLAgQElmH2NqvtcnXt0_x_3ElYGDSz_JPRks3Xzg.jpg",
+      "videos": [],
+      "primary_links": [
+        "https://b.tbao.su/CreateDreamHome"
+      ],
+      "content_type": "news",
+      "source_relation": "brand_statement",
+      "collected_at": "2026-09-25T10:21:47.495042+00:00"
+    },
+    {
+      "id": "a3a7c6c87c259f93d6",
+      "title": "Извините, без спойлеров  Каждый день с 16 по 30 сентября в приложении будет появляться новое предложение с кэшбэком 100% в разделе «Кэшбэк дня»",
+      "url": "https://t.me/tbank/11126",
+      "summary": "Извините, без спойлеров  Каждый день с 16 по 30 сентября в приложении будет появляться новое предложение с кэшбэком 100% в разделе «Кэшбэк дня».  Что будет завтра — не скажем. Но на сегодня секретов уже нет: https://b.tbao.su/cashback-day-autumn26  Дежурное…",
+      "source": "Т-Банк · Telegram",
+      "publisher_id": "brand:tbank",
+      "published_at": "2026-09-20T08:02:45+00:00",
+      "categories": [
+        "BanksFintech"
+      ],
+      "primary_category": "BanksFintech",
+      "brands": [
+        "Т-Банк"
+      ],
+      "market_scope": "Russia",
+      "platform": "telegram",
+      "account_id": "tbank-telegram",
+      "official_brand": true,
+      "source_quality": 4.5,
+      "image_url": "",
+      "videos": [],
+      "primary_links": [],
+      "content_type": "news",
+      "source_relation": "brand_statement",
+      "collected_at": "2026-09-25T10:21:47.495042+00:00"
+    },
+    {
+      "id": "c2f57ccb1fddc87692",
+      "title": "Мошенники Татьяне : за две недели 10 000 ₽ превратим в полмиллиона Татьяна мошенникам : 🪙 🪙 🪙 🪙 🪙 🪙 🪙 🪙 🪙 Сотрудник Т-Банка: подождите, давайте…",
+      "url": "https://t.me/tbank/11127",
+      "summary": "Мошенники Татьяне : за две недели 10 000 ₽ превратим в полмиллиона Татьяна мошенникам : 🪙 🪙 🪙 🪙 🪙 🪙 🪙 🪙 🪙 Сотрудник Т-Банка: подождите, давайте приостановим перевод и во всем разберемся Оказался ли такой легкий заработок правдой или схемой аферистов — разобрался сотрудник нашей службы безопасности. Спойлер: 15 минут убеждений и уговоров понадобилось, чтобы спасти деньги Татьяны.",
+      "source": "Т-Банк · Telegram",
+      "publisher_id": "brand:tbank",
+      "published_at": "2026-09-21T13:33:48+00:00",
+      "categories": [
+        "BanksFintech"
+      ],
+      "primary_category": "BanksFintech",
+      "brands": [
+        "Т-Банк"
+      ],
+      "market_scope": "Russia",
+      "platform": "telegram",
+      "account_id": "tbank-telegram",
+      "official_brand": true,
+      "source_quality": 4.5,
+      "image_url": "https://cdn4.telesco.pe/file/ndY7U_BtaCAgXocO09zIzx-DQ4AoP34AHm8I-8EguiJdsyvrgTjHZItAZAGJiVR-qECgntBXgxYJJwONN-AIkSlychchBiKvwebijVnF8A9KWD9nVPq4Qeth0Hp5x_dNJ9rzt7yFJzcA6ygElbv74gRec1Q8jnxo9KBIYI9gkU2tLJmKyZQ0DC1BxJVRMqO6a-k5Z2-35VKiG4sSiDI8gLtElW0tvFnodQqX5R-Eid_HLSVSj1277Q4ygpFbm4nyZkQaJA3MSFDk6rIqIHoaCUX1PHbfdV6izFafKZxXp_ClWHciUOb5PKFa6h7ECjKF7GddapcIbfcqWejCHyEaIw.jpg",
+      "videos": [],
+      "primary_links": [],
+      "content_type": "news",
+      "source_relation": "brand_statement",
+      "collected_at": "2026-09-25T10:21:47.496042+00:00"
+    },
+    {
+      "id": "d198358186a26563b4",
+      "title": "В этом аудио — ключевой момент разговора 🔔 Послушайте, как сказка про Буратино помогла спасти деньги там, где обычные аргументы были бессильны.",
+      "url": "https://t.me/tbank/11133",
+      "summary": "В этом аудио — ключевой момент разговора 🔔 Послушайте, как сказка про Буратино помогла спасти деньги там, где обычные аргументы были бессильны.",
+      "source": "Т-Банк · Telegram",
+      "publisher_id": "brand:tbank",
+      "published_at": "2026-09-21T13:40:05+00:00",
+      "categories": [
+        "BanksFintech"
+      ],
+      "primary_category": "BanksFintech",
+      "brands": [
+        "Т-Банк"
+      ],
+      "market_scope": "Russia",
+      "platform": "telegram",
+      "account_id": "tbank-telegram",
+      "official_brand": true,
+      "source_quality": 4.5,
+      "image_url": "",
+      "videos": [],
+      "primary_links": [],
+      "content_type": "news",
+      "source_relation": "brand_statement",
+      "collected_at": "2026-09-25T10:21:47.497042+00:00"
+    },
+    {
+      "id": "d49f76da6b2a5d9562",
+      "title": "5G — это, конечно, хорошо, но как насчет 20G от Т-Мобайла",
+      "url": "https://t.me/tbank/11134",
+      "summary": "5G — это, конечно, хорошо, но как насчет 20G от Т-Мобайла? Вы тоже это заметили? А если серьезно, мы просто хотим напомнить, что: 🟡 У Т-Банка юбилей, отмечаем 20 лет 🏦 🟡 Имя сети не всегда отражает реальную скорость соединения. 🟡 С симкой Т-Мобайла вы также можете сменить имя сети. Из идей — «Штаб-квартира 6G» или Ivanov team. ➡️ Поменять название сети: https://u.tbank.ru/20G",
+      "source": "Т-Банк · Telegram",
+      "publisher_id": "brand:tbank",
+      "published_at": "2026-09-22T09:00:29+00:00",
+      "categories": [
+        "BanksFintech"
+      ],
+      "primary_category": "BanksFintech",
+      "brands": [
+        "Т-Банк"
+      ],
+      "market_scope": "Russia",
+      "platform": "telegram",
+      "account_id": "tbank-telegram",
+      "official_brand": true,
+      "source_quality": 4.5,
+      "image_url": "https://cdn4.telesco.pe/file/lG2uclNfQrqs2TVG0j9xtIojuymM2C3BDO7K_RGD8IE4SAuj9cst82TnFKdKSEOzs9EfWpeMr6wOce7bd6Efx9727jlPBuXulYPY-HofmIf2FdzJEGS0S2gIkHHy_ihVwhiqZ0YHdCniPn6Oy9-nlnd5UtcKhL8eS-_EKQwTD7anBYe1nLtjyXnuHnxjtueLnf59i3OBvzAU_aO7AZmBIaqyZjdABp_BxPRHRGS6IWnMCyvH29Oi_33hf4f-36ncQsHWDLAhx3pzrrp76Sfe3oLvxTTzwqVJ63ggA7gMfOlv6UsaOO7L0TBtzEApIkuDUL2iaw4NXGeSy7ffzoHmzA.jpg",
+      "videos": [],
+      "primary_links": [
+        "https://u.tbank.ru/20G"
+      ],
+      "content_type": "news",
+      "source_relation": "brand_statement",
+      "collected_at": "2026-09-25T10:21:47.497042+00:00"
+    },
+    {
+      "id": "8de27273f89d8adc90",
+      "title": "В детстве он недолго занимался бальными танцами, уже в три года встал на коньки, а сейчас еще иногда играет в падел… Это гость нового выпуска…",
+      "url": "https://t.me/tbank/11136",
+      "summary": "В детстве он недолго занимался бальными танцами, уже в три года встал на коньки, а сейчас еще иногда играет в падел… Это гость нового выпуска «Все, кроме хоккея», чемпион мира и Олимпиады-2018, двукратный обладатель Кубка Гагарина и капитан магнитогорского Металлурга — Егор Яковлев. В нашем шоу писатель Александр Цыпкин и комик Евгений Чебатков узнают у именитых хоккеистов все об их жизни, планах на будущее и мечтах. Если герой во время рассказа произносит название той самой игры — ведущие нажимают желтую кнопку, чтобы гость вытянул штрафную карточку и ответил на личный вопрос. ➡️ Смотреть во ВКонтакте: https://u.tbank.ru/khl-show-2",
+      "source": "Т-Банк · Telegram",
+      "publisher_id": "brand:tbank",
+      "published_at": "2026-09-22T14:05:54+00:00",
+      "categories": [
+        "BanksFintech"
+      ],
+      "primary_category": "BanksFintech",
+      "brands": [
+        "Т-Банк"
+      ],
+      "market_scope": "Russia",
+      "platform": "telegram",
+      "account_id": "tbank-telegram",
+      "official_brand": true,
+      "source_quality": 4.5,
+      "image_url": "https://cdn4.telesco.pe/file/e_FYE9CuAM-DCY8eVp6WIH3iIc2kOAwOMbeBb3hs6Me31WBo0fPjyRw9CuXSnl6uCbnJg3EIOGrv3t-z_9GblsVUi0S9UvKcBHzYcIoD7TRTKSLgmjPIpv7kIHsEnM8qm9jI8T5Z37nXCFpA72JHnDODE-pxTfNo2eAinewF5-xF5dXYeDLVby__t7LYA27ggspGHzu--bRaom-Ba8LVvKd6QwBEpBFABbreO42amA_ZSYX2YQJjFThJkDObJrMdyPOMZH-32eNZrI0Ch3LnCH4vej0FsmvHQelRXoKXk2CyN2PGGYHNCpy7Rk7sd3UceRH1d-cFK1f3SBFP39fxsQ.jpg",
+      "videos": [],
+      "primary_links": [
+        "https://u.tbank.ru/khl-show-2"
+      ],
+      "content_type": "news",
+      "source_relation": "brand_statement",
+      "collected_at": "2026-09-25T10:21:47.498042+00:00"
+    },
+    {
+      "id": "b582a8bb5062e6737f",
+      "title": "Продолжайте пользоваться онлайн-сервисами без ограничений 🏦 Сейчас некоторые сайты и приложения перестали работать с иностранными сертификатами…",
+      "url": "https://t.me/tbank/11138",
+      "summary": "Продолжайте пользоваться онлайн-сервисами без ограничений 🏦 Сейчас некоторые сайты и приложения перестали работать с иностранными сертификатами безопасности. Из-за этого браузер иногда не открывает страницу. С вашими данными при этом все в порядке: они под защитой. Чтобы все работало как раньше, используйте Яндекс Браузер: он уже поддерживает российские сертификаты безопасности. Выберите его основным — и сайт откроется как обычно. ➡️ Если удобнее пользоваться другим браузером, установите российские сертификаты по инструкции: t.tb.ru/help_app Для стабильной работы нашего приложения обновите его до последней версии. Для этого зайдите в личный к",
+      "source": "Т-Банк · Telegram",
+      "publisher_id": "brand:tbank",
+      "published_at": "2026-09-23T11:35:22+00:00",
+      "categories": [
+        "BanksFintech"
+      ],
+      "primary_category": "BanksFintech",
+      "brands": [
+        "Т-Банк"
+      ],
+      "market_scope": "Russia",
+      "platform": "telegram",
+      "account_id": "tbank-telegram",
+      "official_brand": true,
+      "source_quality": 4.5,
+      "image_url": "https://cdn4.telesco.pe/file/tQNlfIhft7Aypjthjz9Ggd01RdAex75gxKqqFDAEGCNnC-4OYD1MVUbICc5ZToPNGIJx6GreZKIIn0gxhZvyCbFkWb04q3OJaZegM1jyUsKUhAvCJ3qVtGZpH64bh8UlFqbl0B31cHK4uvG9NYIGX1XWphHizCsjfHFBty4D-raE-cWQsErcL5tf1X1dFJp7dN5zBGgBxwzRLVDaQKY_czi-Rt223ndbLMh5WsTaqDmVR7tDoFq63mbYNEb9mW_hbzQlL1o1Qj1IBNiIsGGnm4cniyHT3728JW98rDvx9JFbL6Uj6dE6OBXfcLUAY2xqLTemfIdknuNf64iDBcb4Nw.jpg",
+      "videos": [],
+      "primary_links": [],
+      "content_type": "news",
+      "source_relation": "brand_statement",
+      "collected_at": "2026-09-25T10:21:47.499042+00:00"
+    },
+    {
+      "id": "bfd0e3d51dc7ca28f8",
+      "title": "Сегодня проверим ваше шестое чувство 🔮 Выбирайте любой конверт",
+      "url": "https://t.me/tbank/11139",
+      "summary": "Сегодня проверим ваше шестое чувство 🔮 Выбирайте любой конверт. В одном из них спрятан один билетик в Призоград, который увеличит ваш шанс на победу. ✉️ ✉️ ✉️ ✉️ ✉️ ✉️ ✉️ ✉️ ✉️ ✉️ ✉️ ✉️ ✉️ ✉️ ✉️ ✉️ ✉️ ✉️ ✉️ ✉️ ✉️ ✉️ ✉️ ✉️ ✉️ ✉️ ✉️ ✉️ ✉️ ✉️ ✉️ ✉️ ✉️ ✉️ ✉️ ✉️ ✉️ ✉️ ✉️ ✉️ ✉️ ✉️ ✉️ ✉️ ✉️ ✉️ ✉️ ✉️ ✉️ ✉️ ✉️ ✉️ ✉️ ✉️ ✉️ ✉️ ✉️ ✉️ ✉️ ✉️ ✉️ ✉️ ✉️ ➡️ Если не получилось найти, не расстраивайтесь — ваш билетик уже ждет вас в Призограде: https://t.tb.ru/prizogradtg0926_2",
+      "source": "Т-Банк · Telegram",
+      "publisher_id": "brand:tbank",
+      "published_at": "2026-09-24T11:34:37+00:00",
+      "categories": [
+        "BanksFintech"
+      ],
+      "primary_category": "BanksFintech",
+      "brands": [
+        "Т-Банк"
+      ],
+      "market_scope": "Russia",
+      "platform": "telegram",
+      "account_id": "tbank-telegram",
+      "official_brand": true,
+      "source_quality": 4.5,
+      "image_url": "",
+      "videos": [],
+      "primary_links": [
+        "https://telegra.ph/Vy-nashli-1-bilet-v-Prizograd-09-22",
+        "https://t.tb.ru/prizogradtg0926_2"
+      ],
+      "content_type": "news",
+      "source_relation": "brand_statement",
+      "collected_at": "2026-09-25T10:21:47.500042+00:00"
+    },
+    {
+      "id": "6d61829e72bf72f94a",
+      "title": "Знакомым фасадам есть что рассказать Обычно знакомство с музеем начинается у входа, а мы предлагаем начать чуть раньше — на прогулках Маршрута…",
+      "url": "https://t.me/bankvtb/3787",
+      "summary": "🏦 Знакомым фасадам есть что рассказать Обычно знакомство с музеем начинается у входа, а мы предлагаем начать чуть раньше — на прогулках Маршрута культуры, совместного проекта ВТБ и «Глазами инженера». Вы разберётесь в устройстве музейного квартала вокруг Пушкинского, посмотрите на Третьяковку со стороны сказочного фасада или пройдёте путь по Пресне до Центра «Зотов». Эти музеи — наши партнёры, поэтому дарим вам промокод VTB50 со скидкой 50% на экскурсии. ➡️ Выбрать экскурсию 🐧 Прогулки только в сентябре, так что не тяните. Выбирайте экскурсию и идите гулять ✌️ ВТБ в Макс",
+      "source": "ВТБ · Telegram",
+      "publisher_id": "brand:vtb",
+      "published_at": "2026-09-15T08:00:19+00:00",
+      "categories": [
+        "BanksFintech"
+      ],
+      "primary_category": "BanksFintech",
+      "brands": [
+        "ВТБ"
+      ],
+      "market_scope": "Russia",
+      "platform": "telegram",
+      "account_id": "vtb-telegram",
+      "official_brand": true,
+      "source_quality": 4.5,
+      "image_url": "https://cdn4.telesco.pe/file/O89eotDiY_VaMcYrDslt0T5JQa9ValurvnOWJKxG2EfWmSE5WssHcpoy_OwzB36XcQT-TArPaWKC70_rmve7KVIuDcy5OYL3gmaGaMuLqko41Guy9uw7W27XMklTx92rViQ5qhhwg4_pBXjiPzk69EbgNWZZdScbTGHUj8pGYZFBURalxWMi6-7h8GtcLpmC5X3b0_XDL0ZcmS0Th4LyN4BXlo9yWfydv2ra2X5JpBRrcEXoF6WDvErfn3tLDGTScJmoeVgjRnmgggdJH4vDGLPorLJu8rGWkwpdabacnfyf64T1i02_1WiUWpU05aX0beAECRD-cqLER-ouHlURXA.jpg",
+      "videos": [],
+      "primary_links": [
+        "https://marshrut-kultury.engineer-history.ru/",
+        "https://max.ru/vtb"
+      ],
+      "content_type": "news",
+      "source_relation": "brand_statement",
+      "collected_at": "2026-09-25T10:21:47.583158+00:00"
+    },
+    {
+      "id": "81436ad69c08911df5",
+      "title": "5 лет Пушкинской карте! За это время она стала не просто картой, а настоящим пропуском в мир культуры для миллионов ребят по всей стране.…",
+      "url": "https://t.me/bankvtb/3793",
+      "summary": "💳 🍰 5 лет Пушкинской карте! За это время она стала не просто картой, а настоящим пропуском в мир культуры для миллионов ребят по всей стране. Театры, музеи, концерты, кино — всё стало ближе и доступнее. На карте 5 000 ₽, из них 2 000 ₽ доступны на кино. На спектакли, выставки, концерты, музеи ограничений нет — на них можно потратить весь культурный бюджет. А оформление карты занимает всего пару минут. ➡️ Оформить и узнать о карте больше 🎈 Культура ближе, чем кажется ✌️ ВТБ в Макс",
+      "source": "ВТБ · Telegram",
+      "publisher_id": "brand:vtb",
+      "published_at": "2026-09-16T09:34:36+00:00",
+      "categories": [
+        "BanksFintech"
+      ],
+      "primary_category": "BanksFintech",
+      "brands": [
+        "ВТБ"
+      ],
+      "market_scope": "Russia",
+      "platform": "telegram",
+      "account_id": "vtb-telegram",
+      "official_brand": true,
+      "source_quality": 4.5,
+      "image_url": "https://cdn4.telesco.pe/file/EorlB9CYtQvm59QTlL_ARH50ZAPj6mc2yX7vVAuKdwyavhHhsKW_i0ykleNrJuhpDm6YYXAXzxE8aNfxUUjY5jvPCaIYv5Ae2S0BG_dN2yhyDanqF3ALdVGHIoNvu-N2UctpUCb9CGAHe-eXD97-7t2TOVdBALh2Tx_tc8t6wXYDDZQFe6etN4qQo0dfhMKpgVy1K4sIqCWtMT6EMTje3whwpFcBMPuwdEKdUIrY2TJmI-FzCOOqkhia8y7vRBK4ew2TyX96BhGhBJlvSgm_FEH9qkpdF8PA6qKe4Nk_LPAjPyLDTrjcBKzo3dc4qJ4GxXa3Vzpmxuhd5ctQ8x12gQ.jpg",
+      "videos": [],
+      "primary_links": [
+        "https://www.%D0%B2%D1%82%D0%B1.%D1%80%D1%84/personal/karty/debetovye/pushkinskaya_karta//?erid=2SDnje6poX1",
+        "https://max.ru/vtb"
+      ],
+      "content_type": "news",
+      "source_relation": "brand_statement",
+      "collected_at": "2026-09-25T10:21:47.584158+00:00"
+    },
+    {
+      "id": "9af6262ef840b74e5c",
+      "title": "Откладывать на потом — очень даже полезно Особенно если речь о грандиозных планах 🍔 К тому же сегодня мы подняли ставки по рублёвым вкладам на…",
+      "url": "https://t.me/bankvtb/3795",
+      "summary": "🐷 Откладывать на потом — очень даже полезно Особенно если речь о грандиозных планах 🍔 К тому же сегодня мы подняли ставки по рублёвым вкладам на долгий срок. Самые высокие — на полтора года: 🔵 до 13,7% годовых — для всех 🔵 до 13,8% — для клиентов «Привилегии» 🔵 до 13,9% — для Private Banking Зафиксируйте ставку вдолгую на вкладе, а средства для ежедневных трат держите на накопительном счёте со ставкой до 14,2% годовых — со свободным снятием и пополнением в любой момент. ➡️ Посмотреть условия 😼 Скорее решайте, на что будете копить! ✌️ ВТБ в Макс",
+      "source": "ВТБ · Telegram",
+      "publisher_id": "brand:vtb",
+      "published_at": "2026-09-16T14:38:27+00:00",
+      "categories": [
+        "BanksFintech"
+      ],
+      "primary_category": "BanksFintech",
+      "brands": [
+        "ВТБ"
+      ],
+      "market_scope": "Russia",
+      "platform": "telegram",
+      "account_id": "vtb-telegram",
+      "official_brand": true,
+      "source_quality": 4.5,
+      "image_url": "https://cdn4.telesco.pe/file/A5SOd_m-k1Zl7FCHS1U7Sz0DWg_G6I17_9riGWFADqaYe0uKsfg0OZLNbEvqGqqQSc1J23BaQ_-9U4upcMzJJTMjZdI2BFcBgT-66g7q0yLvHCUNLt5gtzpFB1csLZZWE61R66mAwytAW0UqwqnUjOyxCwNi9RQ4EVY-u6v2FSA5ONVVs8cguH4PigHRU2plDsmE-2lEYHHOsZrCtjZkfLHknRLZY3NOnwolui1eX6nlywhvDFexqt3kc86Ui-OT2XBPtPR25HY54mVPe1LtXq-3bbpLs_GlGYRu1L3Q0udbKbmtzWTo702KhLloQVNPIe9JoDiDG8P1oP6WWUB6EQ.jpg",
+      "videos": [],
+      "primary_links": [
+        "https://www.%D0%B2%D1%82%D0%B1.%D1%80%D1%84/personal/vklady-i-scheta/",
+        "https://max.ru/vtb"
+      ],
+      "content_type": "news",
+      "source_relation": "brand_statement",
+      "collected_at": "2026-09-25T10:21:47.584158+00:00"
+    },
+    {
+      "id": "98a513f626540f1d3b",
+      "title": "Вашим любимым кешбэком оказался… В сентябре категорию кешбэка на WB выбирали в 2 раза чаще остальных",
+      "url": "https://t.me/bankvtb/3797",
+      "summary": "💜 Вашим любимым кешбэком оказался… В сентябре категорию кешбэка на WB выбирали в 2 раза чаще остальных. Кажется, с любимчиком определились 😎 Поэтому на 19–20 сентября добавили для подписчиков ВТБ Плюс категорию выходного дня — 7% кешбэка на Wildberries. Чтобы его получить, заказ нужно оплатить сразу. А 26 сентября загляните в ВТБ Онлайн за категориями на октябрь. Уже готовим новые. 🐧 Удачных примерок! ✌️ ВТБ в Макс",
+      "source": "ВТБ · Telegram",
+      "publisher_id": "brand:vtb",
+      "published_at": "2026-09-18T09:33:24+00:00",
+      "categories": [
+        "BanksFintech"
+      ],
+      "primary_category": "BanksFintech",
+      "brands": [
+        "ВТБ"
+      ],
+      "market_scope": "Russia",
+      "platform": "telegram",
+      "account_id": "vtb-telegram",
+      "official_brand": true,
+      "source_quality": 4.5,
+      "image_url": "https://cdn4.telesco.pe/file/Z598iai3APCiLHgqluGySb4yvTJiTiLBXWLNmQHtWty4UkXu6xcAVuF8K7QE7oYIZe3pSWdcHJo0Rewmze8IPdhVQ3yuNU8oAf9KK9FIEBFz9u-13EhMWsWuF7EIqpG8IuyR6YGuMzA6RPO8swj4tQvk-al5EiHD77tyexEPxpePG26YiEZsUY9g5N_xdEj_jV-PZB3vYSpEWfmLxG3iQtCBRxkmwX1U3RFfMwYGMRaucqedIbKRqRoylf0uta2aqa3hlCrVtUD0tixMpGBNZCHDB0eUUwZtMHncds4tnnGMUxbEVLtcfmcyEMfHBjxTMVvNWVolFIE0BtUZ_LTViw.jpg",
+      "videos": [],
+      "primary_links": [
+        "https://www.xn--90ab2c.xn--p1ai/personal/vtbplus/?utm_source=telegram&amp;utm_medium=social&amp;utm_content=post_vtbplus_sale",
+        "https://max.ru/vtb"
+      ],
+      "content_type": "news",
+      "source_relation": "brand_statement",
+      "collected_at": "2026-09-25T10:21:47.585158+00:00"
+    },
+    {
+      "id": "5dbf071c291a4c6f05",
+      "title": "Меняем сервисы банка вместе Расскажите, что нравится и что хочется изменить в наших сервисах, — ваш опыт поможет нам доработать продукты",
+      "url": "https://t.me/bankvtb/3799",
+      "summary": "💬 Меняем сервисы банка вместе Расскажите, что нравится и что хочется изменить в наших сервисах, — ваш опыт поможет нам доработать продукты. О чём можно поговорить: 🔵 выбор категорий кешбэка 🔵 оформление реферальной программы 🔵 семейная копилка 🔵 опыт поиска работы для нерезидентов 🔵 переводы за границу Выбирайте интересную тему в календаре и записывайтесь, пока есть места. Приглашение пришлём на почту, а за участие подарим бонус. ➡️ Выбрать тему 👋 Похвалу тоже принимаем, если что ✌️ ВТБ в Макс",
+      "source": "ВТБ · Telegram",
+      "publisher_id": "brand:vtb",
+      "published_at": "2026-09-21T15:33:14+00:00",
+      "categories": [
+        "BanksFintech"
+      ],
+      "primary_category": "BanksFintech",
+      "brands": [
+        "ВТБ"
+      ],
+      "market_scope": "Russia",
+      "platform": "telegram",
+      "account_id": "vtb-telegram",
+      "official_brand": true,
+      "source_quality": 4.5,
+      "image_url": "https://cdn4.telesco.pe/file/ZlP6CMZaSRj96asa5_AgntSfFQq3k7jNWj0CUNK8KaNZCq8cxYwSgPzVgM-Fb7kxguV0Tg8X0HqfomTwbXysPXd9I5sjWayb1K0efmmD1JYga-gTJ1zPm83J0JXZZJlkVDm7cD535qK7h9z1tX00jmeOxcSPf7bMptiuLiIbXojOuHIz2Myl3dqjwQcQBCSE9_8kePKj_gENMlR3459kkh5abX_QnfK-6LiQ_TocLNi-3aV0vfqe3T3W9bW_il11zYlTdD-vvCzLSf5tfl8nLpXVnwcACD91RzaOZU08JIlAlq5k79tUf9c247x7w-q5F-ZuachP3KRiwpmyvx96wQ.jpg",
+      "videos": [],
+      "primary_links": [
+        "https://www.vtb.ru/promo/calendar/",
+        "https://max.ru/vtb"
+      ],
+      "content_type": "news",
+      "source_relation": "brand_statement",
+      "collected_at": "2026-09-25T10:21:47.586158+00:00"
+    },
+    {
+      "id": "9d78510d2a4bdb3112",
+      "title": "Идём на запах Хлеба В «Зотове» при нашей поддержке открылась выставка «Хлеб», где к искусству добавили ароматы бородинского и сладкой выпечки",
+      "url": "https://t.me/bankvtb/3800",
+      "summary": "💙 Идём на запах Хлеба В «Зотове» при нашей поддержке открылась выставка «Хлеб», где к искусству добавили ароматы бородинского и сладкой выпечки. Для бывшего Хлебозавода № 5, которому исполняется 95 лет, очень подходящий способ отметить день рождения. На выставке 140+ произведений и исторических предметов, связанных с этим вкусным ремеслом. ➡️ Подробности 📍 Москва, Ходынская улица, 2, стр. 1, выставка работает до 17 января 2027. 🎉 Дали вам культурный повод купить булочку ✌️ ВТБ в Макс",
+      "source": "ВТБ · Telegram",
+      "publisher_id": "brand:vtb",
+      "published_at": "2026-09-23T13:18:06+00:00",
+      "categories": [
+        "BanksFintech"
+      ],
+      "primary_category": "BanksFintech",
+      "brands": [
+        "ВТБ"
+      ],
+      "market_scope": "Russia",
+      "platform": "telegram",
+      "account_id": "vtb-telegram",
+      "official_brand": true,
+      "source_quality": 4.5,
+      "image_url": "https://cdn4.telesco.pe/file/ZRFZf5PT0AKVu3ALiyCqgDeNhdj8tkLWsmpBYD2hYJbNNdDVqVqwHW7LPd4zDXoOvEDQrvXF4eufFo937zAjvn-psiyoYVz7IBv2OVzer6q6K2HcLhleCAnRwhti38KUaH2AUkVgAueiD0i17D0BoGO0oIHQSgE5ep8Cdvs7ngLJ2OVXXUTd-B92v-GSimi-bD4Zt0O0p6Y6ptvCtCKfy5dHVqVweDihkww5Rofol41QZ0CsqNTSk4fmcRTKcmvQYdL8zqYWSJthjWLlf7NTXrWGfkfALe3XHmcToB-3z9anl6_Sh4t-bu0QWGgiKrmvhUFZzl_Mg0sCDKz2eLFw2w.jpg",
+      "videos": [],
+      "primary_links": [
+        "https://vtbrussia.ru/culture/zotov-rasskazhet-istoriyu-hleba-novaya-vystavka-otkroetsya-k-95-letiyu-hlebozavoda-5/",
+        "https://centrezotov.ru/events/hleb/",
+        "https://max.ru/vtb"
+      ],
+      "content_type": "news",
+      "source_relation": "brand_statement",
+      "collected_at": "2026-09-25T10:21:47.587158+00:00"
+    },
+    {
+      "id": "399bacb29733ad72f0",
+      "title": "Баку на комфортной скорости: что запланировать на дни Гран-при F1 📍 С 24 по 26 сентября Баку снова станет одной из главных точек на карте…",
+      "url": "https://t.me/bankvtb/3811",
+      "summary": "Баку на комфортной скорости: что запланировать на дни Гран-при F1 📍 С 24 по 26 сентября Баку снова станет одной из главных точек на карте Formula 1: город примет Гран-при Азербайджана уже в эту субботу. Но гонка закончится, болиды вернутся в боксы, а Баку продолжит жизнь на высокой скорости. Это ли не повод составить свой личный гоночный маршрут? На вашем пути могут оказаться торговые центры, бутики мировых брендов, рестораны и туристические точки, так что поездку можно настроить под себя: Утром — завтрак с видом на Ичери-шехер, днем — шопинг и прогулки, а вечером — ужин в ресторане с видом на Каспий 🍴 Всё это — с картой «Мир»: ее принимают б",
+      "source": "ВТБ · Telegram",
+      "publisher_id": "brand:vtb",
+      "published_at": "2026-09-24T13:00:01+00:00",
+      "categories": [
+        "BanksFintech"
+      ],
+      "primary_category": "BanksFintech",
+      "brands": [
+        "ВТБ"
+      ],
+      "market_scope": "Russia",
+      "platform": "telegram",
+      "account_id": "vtb-telegram",
+      "official_brand": true,
+      "source_quality": 4.5,
+      "image_url": "https://cdn4.telesco.pe/file/mz1Sx-MSsq8OYWXAp9p6uUZxZSn51QtirRkAiQY1BNO3rbwKxEyeuZer87uiWe07OXazdXp6g-Sxd5XyPloKjzmKk_fm4lVuFdAMmNjZKwIi2cR5FRV13S-ir8U4w3ZEo26h5ksqtZ9UKY7CJHNrgK4CZ9A890wFSd4K4TZO8UuplidS8ByzfJ1g1T39mP_DuqNafFXVKpIHVzTyYsgpJH7ySnLHk0jED6UiJgQyrNPab9RScw8nwa2frtNY8ZZJeZF-sxjKRjadOloVpg1dmlj8SG4HoIKqGW3-aObyhrMUzPLcW2EBpvvlT_zeqDDo-CrYO0k403JviRh2Dj_9KA.jpg",
+      "videos": [],
+      "primary_links": [
+        "https://vtb.az/ru/offices/?tab=pos_terminal&amp;utm_source=pr&amp;utm_medium=promo&amp;utm_campaign=f1_mir_pao&amp;utm_content=f1",
+        "https://new.a-m-a.com/join/?utm_source=tg&amp;utm_medium=smmtg&amp;utm_campaign=formulatg_privilege23_09",
+        "https://new.a-m-a.com/join",
+        "https://vk.cc/d0bELE"
+      ],
+      "content_type": "news",
+      "source_relation": "brand_statement",
+      "collected_at": "2026-09-25T10:21:47.587158+00:00"
+    },
+    {
+      "id": "bae187b3aaac3e73ae",
+      "title": "Новый баланс LADA Niva Legend 🟧 Проходимость — нет, не так..",
+      "url": "https://t.me/lada_rf/1396",
+      "summary": "Новый баланс LADA Niva Legend 🟧 Проходимость — нет, не так... ПРОХОДИМОСТЬ! Вот что сделало этот автомобиль легендарным и востребованным! Бегут года, меняется автомобильная мода, но там, где путь преграждают грязевые колеи и упавшие стволы деревьев, LADA Niva Legend остаётся незаменима . 🔥 Проходимость — её главное качество, и все остальные преимущества находятся с ним в балансе. Компактность, классический дизайн, доступная цена, конечно. Но настало время дополнить это равновесие новыми составляющими. Чуть больше динамики, больше уверенности и надёжности, больше безопасности, а ещё — больше комфорта! Бездорожье мы преодолеем, это несомненно, ",
+      "source": "LADA · Telegram",
+      "publisher_id": "brand:avtovaz",
+      "published_at": "2026-09-15T14:12:42+00:00",
+      "categories": [
+        "Automotive"
+      ],
+      "primary_category": "Automotive",
+      "brands": [
+        "LADA"
+      ],
+      "market_scope": "Russia",
+      "platform": "telegram",
+      "account_id": "avtovaz-telegram",
+      "official_brand": true,
+      "source_quality": 4.5,
+      "image_url": "https://cdn4.telesco.pe/file/VVlOtGQNQUXKOhCh67AigM09cIqwRgExkPnllEXkjyjb1yHJnH0Paao6CjjP-hKk_E0m5i0oc1jrDWpM89Txk4ZJqLOWWzPjaQ4KWGsFNYn2IQQ_wlg5UFWo5CesoezvzWc2x3LI-_ovgX_A53gpsvlIS_czjlFhXPKTyb2m0XN5sZkGj_eCKq1m1IWAT6M1iE5sN3eH1tTX71C48F0-_kj8jGH8_JVfQV8_-pFrnoAJx61E_91yFzMfgbesLweVgNODetC4wY_mOWKliv9QJdHQIURa1Cu3wtwu1qkiVOj_DpOmkW9hWjeS3HX8-YHLYMprX6ah1HIqtctjYDXp5A.jpg",
+      "videos": [],
+      "primary_links": [
+        "https://www.lada.ru/cars/niva-legend?utm_source=tg&amp;utm_campaign=niva-legend_post_15-09-26&amp;utm_medium=smm",
+        "https://max.ru/LADA"
+      ],
+      "content_type": "news",
+      "source_relation": "brand_statement",
+      "collected_at": "2026-09-25T10:21:47.624161+00:00"
+    },
+    {
+      "id": "ead27a6fda7fe742cf",
+      "title": "Как прошёл 6 этап РСКГ? Кому покорилась «Крепость Грозная»? Кто дебютировал в кольцевой команде LADA Sport ROSNEFT с яркой победой? Все ответы…",
+      "url": "https://t.me/lada_rf/1397",
+      "summary": "Как прошёл 6 этап РСКГ? Кому покорилась «Крепость Грозная»? Кто дебютировал в кольцевой команде LADA Sport ROSNEFT с яркой победой? Все ответы собрали в драйвовом ролике — включайте скорее! 👍 💻 Подписывайтесь на LADA в MAX #LADASportROSNEFT",
+      "source": "LADA · Telegram",
+      "publisher_id": "brand:avtovaz",
+      "published_at": "2026-09-16T11:05:01+00:00",
+      "categories": [
+        "Automotive"
+      ],
+      "primary_category": "Automotive",
+      "brands": [
+        "LADA"
+      ],
+      "market_scope": "Russia",
+      "platform": "telegram",
+      "account_id": "avtovaz-telegram",
+      "official_brand": true,
+      "source_quality": 4.5,
+      "image_url": "",
+      "videos": [],
+      "primary_links": [
+        "https://max.ru/LADA"
+      ],
+      "content_type": "news",
+      "source_relation": "brand_statement",
+      "collected_at": "2026-09-25T10:21:47.625161+00:00"
+    },
+    {
+      "id": "42f371baacae7d5758",
+      "title": "В киберспорт — за рулём LADA Vesta Sport 👍 LADA официально проводит соревнования по киберспорту и дарит призёрам возможность попробовать себя за…",
+      "url": "https://t.me/lada_rf/1398",
+      "summary": "В киберспорт — за рулём LADA Vesta Sport 👍 LADA официально проводит соревнования по киберспорту и дарит призёрам возможность попробовать себя за рулём настоящего спорткара — это праздник для профессиональных геймеров. Но теперь прикоснуться к виртуальному и реальному автоспорту может любой желающий! Получить уникальный опыт на стыке киберспорта и настоящих гонок — новое предложение от LADA и Игромании для всех посетителей фестиваля «Игропром». 🔥 Для начинающих и опытных кибергонщиков на стенде LADA уже готово весьма необычное «рабочее место»! Внутри настоящего автомобиля LADA Vesta Sport смонтирован игровой сетап: кресло, руль, педали, коробк",
+      "source": "LADA · Telegram",
+      "publisher_id": "brand:avtovaz",
+      "published_at": "2026-09-16T13:52:16+00:00",
+      "categories": [
+        "Automotive"
+      ],
+      "primary_category": "Automotive",
+      "brands": [
+        "LADA"
+      ],
+      "market_scope": "Russia",
+      "platform": "telegram",
+      "account_id": "avtovaz-telegram",
+      "official_brand": true,
+      "source_quality": 4.5,
+      "image_url": "https://cdn4.telesco.pe/file/G-wajoEXMf1u9BhEZLNPcreu2xetQjoMiCCbpfVccEfUte1n_gOTazRMJALfGBKMCDvWOOXQyYSqLuvnWd-m0F0gWeUz4Ut9p4QTV5impoNQKvdc2Ne3PtgeA1jPPAh6gqn9MZWPClV3J6DZU-yoBlmejJC5Y0vD_uorYzH31o1ukUPuAmcVEqR40FTfaE6BEGwJ5L84yHMkwiGAZlgjDDGAHgUUZsg9U9A6gNBGWXTBLNNTHNJBfoyTmL4vpTOBDUPZVzeRVEMVcwZYFsVvMwBL2cMPyDe_NFJW4RGMEbV4xhHuivkEo6qYxHUcZV29jwgpuRrcu6qDRAeJIcKgaQ.jpg",
+      "videos": [],
+      "primary_links": [
+        "https://max.ru/LADA"
+      ],
+      "content_type": "news",
+      "source_relation": "brand_statement",
+      "collected_at": "2026-09-25T10:21:47.625161+00:00"
+    },
+    {
+      "id": "897e37d6058c747743",
+      "title": "Перевезти и согреть 🛞 С первыми прохладными деньками мы вспоминаем, что важнейшее качество машины — не просто перевезти нас на работу или в…",
+      "url": "https://t.me/lada_rf/1399",
+      "summary": "Перевезти и согреть 🛞 С первыми прохладными деньками мы вспоминаем, что важнейшее качество машины — не просто перевезти нас на работу или в магазин… Именно сейчас автомобиль становится источником света, тепла и уюта . 😊 И пусть листва кое-где ещё зелёная, а по прогнозу — «ясно и без осадков». Всё же утренняя поездка станет приятнее, когда в салоне LADA Largus оранжевым маячком светодиод сигнализирует об активированном обогреве сиденья. Три степени нагрева — для тонкой настройки под конкретную погоду. 🔥 Отопитель тоже пора выкрутить в «красную» зону — пусть в салоне станет теплее, а с поверхности окон сойдёт дымка. К тому же это поможет позабо",
+      "source": "LADA · Telegram",
+      "publisher_id": "brand:avtovaz",
+      "published_at": "2026-09-17T13:07:33+00:00",
+      "categories": [
+        "Automotive"
+      ],
+      "primary_category": "Automotive",
+      "brands": [
+        "LADA"
+      ],
+      "market_scope": "Russia",
+      "platform": "telegram",
+      "account_id": "avtovaz-telegram",
+      "official_brand": true,
+      "source_quality": 4.5,
+      "image_url": "https://cdn4.telesco.pe/file/fTw1f95YNSo67KI1bYoyKpbiN91uRKX5Z4EZ6b4wUYoLxqDl62fDyz4ky7JYidsYEPYf3m7IrQ3jtN8yAn89MfMUR97Un3bwEFaNTyMBZLXBGmPix_IgFNpY9_aJEc4C8YhBwihobGDvEBMAN_W08PKPJVuCu4hqKIpT2U53dLdCk0xLazllQjl6RwvVRH7aFWJ-O0XPqeQZIMyEdBIXXwLh9bNPUScvMQgzoPu9okdQEMEHU1HHVn_sriJRuaSI3JAKqNkaS6kN9gNfqRXjVr-kOGQwBIX8Gnemt3N9SwasYba2n5LWtB3_Eep16fDxDIrb7bfjUPfUDmwCkxYvfw.jpg",
+      "videos": [],
+      "primary_links": [
+        "https://www.lada.ru/cars/new-largus?utm_source=tg&amp;utm_campaign=new-largus_post_17-09-26&amp;utm_medium=smm",
+        "https://max.ru/LADA"
+      ],
+      "content_type": "news",
+      "source_relation": "brand_statement",
+      "collected_at": "2026-09-25T10:21:47.626161+00:00"
+    },
+    {
+      "id": "a23da93ac55efb5824",
+      "title": "Новая вершина LADA Niva 🏆 Компактный внедорожник умеет добиваться крупных результатов",
+      "url": "https://t.me/lada_rf/1401",
+      "summary": "Новая вершина LADA Niva 🏆 Компактный внедорожник умеет добиваться крупных результатов. В биографии «Нивы» — и многолетняя работа в Антарктиде, и визит на Северный полюс, и восхождение в горы (5 726 метров!). Сегодня автомобиль подтверждает свою многолетнюю незаменимость ещё одним рекордом! 🔥 Это самое большое количество побед в истории национальной премии «Внедорожник года» — на днях LADA Niva стала 18-кратной чемпионкой. В этом году оба автомобиля семейства — Legend и Travel — получили призы в сегменте «Компактный внедорожник». По решению Большого жюри победителем стала обновлённая LADA Niva Travel, а по версии Экспертного жюри — обновлённая",
+      "source": "LADA · Telegram",
+      "publisher_id": "brand:avtovaz",
+      "published_at": "2026-09-18T15:01:44+00:00",
+      "categories": [
+        "Automotive"
+      ],
+      "primary_category": "Automotive",
+      "brands": [
+        "LADA"
+      ],
+      "market_scope": "Russia",
+      "platform": "telegram",
+      "account_id": "avtovaz-telegram",
+      "official_brand": true,
+      "source_quality": 4.5,
+      "image_url": "https://cdn4.telesco.pe/file/UwObQr8ykb48_fR8Q5BM932no4aJUleGHhEwL_l6cZ6Qf2bMkDhJ0d2rs7xnza8MYx4sHnVlqAbxPBGIaq9NBSefjF_k6zKts0x-x7itjEJWlObG3FCL5tvM7wY7zz49n0sTC9nKDZcf8yU2rfkA-UN4_IcLPhn0DfI_W3Ucno1-z5Jqr3XpQAcxyzfQztZS9AcMYTiIOKJ8z1hjBL2wh3OWuujeimGJ33JyTfelq_G2JyQDXlqEETM6v_KQSpIxd2yM9nbwuND05YalvhyRBGCN_4AwdTm_1KFah9mDmKJ-ahXfl093MCWudi7WOcptlE1RcJykpyRDZQdqQsS9aw.jpg",
+      "videos": [],
+      "primary_links": [
+        "https://max.ru/LADA"
+      ],
+      "content_type": "news",
+      "source_relation": "brand_statement",
+      "collected_at": "2026-09-25T10:21:47.627161+00:00"
+    },
+    {
+      "id": "a481ccacb8ca0d13a3",
+      "title": "Наша классика — наш стиль 2️⃣ 3️⃣ Ретроклассика в моде — во всём мире так… но нам особенно приятно, потому что сейчас в моде именно наша классика",
+      "url": "https://t.me/lada_rf/1403",
+      "summary": "Наша классика — наш стиль 2️⃣ 3️⃣ Ретроклассика в моде — во всём мире так… но нам особенно приятно, потому что сейчас в моде именно наша классика! 🔥 Так устроена народная любовь: она всегда возвращается . Когда-то «Жигули» были автомобилем мечты, потом воспринимались как архаика, но сегодня «маятник» вновь качнулся в обратную сторону. Автомобили в ярких цветах и с обильной хромированной отделкой притягивают взгляды не только знатоков, но и начинающих автомобилистов. Первые модели LADA заняли достойное место в пантеоне славы, превратились в настоящую классику — красивую, интересную, модную! А где модный автомобиль — там и модный водитель! Клас",
+      "source": "LADA · Telegram",
+      "publisher_id": "brand:avtovaz",
+      "published_at": "2026-09-21T13:55:29+00:00",
+      "categories": [
+        "Automotive"
+      ],
+      "primary_category": "Automotive",
+      "brands": [
+        "LADA"
+      ],
+      "market_scope": "Russia",
+      "platform": "telegram",
+      "account_id": "avtovaz-telegram",
+      "official_brand": true,
+      "source_quality": 4.5,
+      "image_url": "https://cdn4.telesco.pe/file/JMsRCxSRrdHC1ZGpCJSHcwyfImsgwb9tHapOZgWsM54zKRpSLLRCJMLoOg-7Ucnz3T0gTSTdfsKfpBlxwp-NBvlkKd6vo4b_-xTLd2A4pBhCiLiyTDWR6nxKu29HnMw7HHhNveuxfpWBpl9xZTGLS3NBz9CdvbLfkXIW-_ei1Mm60bo-RjPLH7MQ5YC7nHjmUWC75n5iO78OVxWZ14AYlNu8_gGTo2cfJA_KzK6BV4gsZNTOpxoX1TBo5O69BNxarLh5BlemII49VHZeBiN1BoUNrj1wp3kMYPAtQoPLQGB_HHigfQqlxqRvNUSHCdPJ3iD-ef3F1m5V0yvtkMfmzQ.jpg",
+      "videos": [],
+      "primary_links": [
+        "https://max.ru/LADA"
+      ],
+      "content_type": "news",
+      "source_relation": "brand_statement",
+      "collected_at": "2026-09-25T10:21:47.628161+00:00"
+    },
+    {
+      "id": "fd2a70aeb8a24a9764",
+      "title": "Со «Спорта» на «Кросс» 🛞 Окрыляющая эйфория, ощущение сбывшейся мечты, предвкушение ярких путешествий, радость новизны… Сколько приятных…",
+      "url": "https://t.me/lada_rf/1409",
+      "summary": "Со «Спорта» на «Кросс» 🛞 Окрыляющая эйфория, ощущение сбывшейся мечты, предвкушение ярких путешествий, радость новизны… Сколько приятных ощущений дарит нам это замечательное событие — покупка нового автомобиля! 🟫 Даже если это не дебютный автомобиль, всё равно первая посадка за руль — настоящий праздник! Своей радостью с нами сегодня делится подписчик Сергей. Интересно, что он пересел на LADA Iskra [Универсал Кросс] SW Cross с LADA Vesta Sport. Заметная разница в классах автомобилей — это и новые впечатления, и новые маршруты. Сергей поделился своими ощущениями: «Машина просто классная! Для полной и точной оценки нужно время, пока только 60 к",
+      "source": "LADA · Telegram",
+      "publisher_id": "brand:avtovaz",
+      "published_at": "2026-09-21T15:01:36+00:00",
+      "categories": [
+        "Automotive"
+      ],
+      "primary_category": "Automotive",
+      "brands": [
+        "LADA"
+      ],
+      "market_scope": "Russia",
+      "platform": "telegram",
+      "account_id": "avtovaz-telegram",
+      "official_brand": true,
+      "source_quality": 4.5,
+      "image_url": "https://cdn4.telesco.pe/file/Px0SFpMPCak4rQ0P9kJ6I8yvRNHxEmZUisr3StgdAE-kZk1T1OfgyBU5iLSKmfOrZB8i0gANS0pupo6lWKx0J0W2KgaKkYgrOVm8NiRQYUkMpII2o37jB0MBJ0DJj613fxQ5equhbyQalYnzLED3DO_WySQftVzuI4PWzuts8DEzTDXDwTJbCSny6HU6S9XYN30-rDZLLeuCF0JP7YgyT7UHZ4Dc9RYUtNTGfe-iuHt1mjnN0e2caCF9AW86aYyJBy4BuHPLtK_xFNij2oVY3y1LsfZ73gGRgZM9INCDJzRXJrG-JGV2DydRXiexhHp-FPwn7ujZSKY71pa9-zepdg.jpg",
+      "videos": [],
+      "primary_links": [
+        "https://max.ru/LADA"
+      ],
+      "content_type": "news",
+      "source_relation": "brand_statement",
+      "collected_at": "2026-09-25T10:21:47.628161+00:00"
+    },
+    {
+      "id": "141a4421c3750ce2cf",
+      "title": "LADA: прочное звено логистики ❤️ Малый бизнес, средний или по-настоящему крупный… Масштабы у них разные, а вот задачи бывают схожими",
+      "url": "https://t.me/lada_rf/1410",
+      "summary": "LADA: прочное звено логистики ❤️ Малый бизнес, средний или по-настоящему крупный… Масштабы у них разные, а вот задачи бывают схожими. Доставка людей и грузов в труднодоступные районы. Доставка товаров туда, куда запрещён въезд крупнотоннажному транспорту. Доставка максимально экономичная — но надёжная и ежедневная. Задачи и подзадачи у лёгкой коммерческой техники могут быть разнообразными, а решение одно — LADA Business! 🔥 Световой день становится короче, температура падает… но современный специальный автомобиль готов к любому сезону! Двухтопливный LADA Largus надёжно и экономично работает в любых погодных условиях. Полноприводный пикап на ба",
+      "source": "LADA · Telegram",
+      "publisher_id": "brand:avtovaz",
+      "published_at": "2026-09-22T12:34:13+00:00",
+      "categories": [
+        "Automotive"
+      ],
+      "primary_category": "Automotive",
+      "brands": [
+        "LADA"
+      ],
+      "market_scope": "Russia",
+      "platform": "telegram",
+      "account_id": "avtovaz-telegram",
+      "official_brand": true,
+      "source_quality": 4.5,
+      "image_url": "https://cdn4.telesco.pe/file/TrvprqRfwhsQcslgdWo9Gf7mJOfYWE5hGqTMHc8nU22PjZqSXYKoXSpfBLpTOT3dFUOEdiqnbaKl81tHP1MvqsigWr-xVWl2S8maHROBQq_C19rViQEOVrAwHi2Qxy2LcRSdD4STW1Q-l07G877px9tSa0F9yV8IULFu80YBqpTi7KMfwBbHFo7MK6BMizAETlepxa2NDchFch-G6ICE5mOR7WNH_ZBPAcyn-252QhzBjp8HEA_DhR-7Jt2ypyOUVu034hrNuZF445HHAutSTsKXVWWRs1uRFMWqajkJSBNgQMZh-o9b-I3DFHR3d3Cxbi3-xmx6fYdHlMWIoBobqg.jpg",
+      "videos": [],
+      "primary_links": [
+        "https://t.me/LADA_Business",
+        "https://max.ru/LADA"
+      ],
+      "content_type": "news",
+      "source_relation": "brand_statement",
+      "collected_at": "2026-09-25T10:21:47.629161+00:00"
+    },
+    {
+      "id": "50c7610def60c4d93e",
+      "title": "Когда осень украшает 🍂 Дождь — это не только лужи, грязь и слякоть",
+      "url": "https://t.me/lada_rf/1411",
+      "summary": "Когда осень украшает 🍂 Дождь — это не только лужи, грязь и слякоть. Дождь — это особая эстетика. Это отблески света в переливчатых каплях. Это внезапная радуга на горизонте. Это сверкающий кузов автомобиля, покрытого моросью. 🟥 Когда капель на кузове становится много, когда они смешиваются с песком и чернозёмом, это не всем водителям приходится по нраву. Но дело в том, что такой «стильный аксессуар» может стать украшением именно для машины с соответствующим дизайном: с мощными колёсами, с внедорожным обвесом, с высоким клиренсом. И мы сейчас не только про вездеходы! В забрызганном виде выглядит особенно эффектно LADA Granta [Кросс] Cross. Так",
+      "source": "LADA · Telegram",
+      "publisher_id": "brand:avtovaz",
+      "published_at": "2026-09-22T14:31:24+00:00",
+      "categories": [
+        "Automotive"
+      ],
+      "primary_category": "Automotive",
+      "brands": [
+        "LADA"
+      ],
+      "market_scope": "Russia",
+      "platform": "telegram",
+      "account_id": "avtovaz-telegram",
+      "official_brand": true,
+      "source_quality": 4.5,
+      "image_url": "https://cdn4.telesco.pe/file/oggV83XBXQTNWlk_opYICakyRxc88r5wnG1JlHwALJkUm8AZ16EVLbccZakanAS6EMwWOkYsVW4HdEVpw3TKgqcYy5Sz3LG-7LYVgxtwoVqg-m7A-5LYDgsgbd3amKZCZPCfDUCjU4YYMTD-PjCZ4KBickw00HupmbwDDKMKGM1pnmTA3bB6ijbujRW4Qg4g4LLhlpbZT6iAWEQQ3tgrfa0UyU6qMO__N7VaJ05WwLCwu5462oPmfPfI7b9HIrmz8VzH641A4CHvaihaYFCi_ho2ZIh1XlHcyg47iwcQ5KQgxNZhXq3xr9-YkEaDT1iveZMsie9mpaJ3NhzK2HTvZA.jpg",
+      "videos": [],
+      "primary_links": [
+        "https://www.lada.ru/cars/granta/cross?utm_source=tg&amp;utm_campaign=granta-cross_post_22-09-26&amp;utm_medium=smm",
+        "https://max.ru/LADA"
+      ],
+      "content_type": "news",
+      "source_relation": "brand_statement",
+      "collected_at": "2026-09-25T10:21:47.629161+00:00"
+    },
+    {
+      "id": "c2cea4df003cff7a9c",
+      "title": "Почти домашняя атмосфера 🏠 Автомобиль всегда готов согреть в холод и подарить приятную прохладу салона в знойный полдень",
+      "url": "https://t.me/lada_rf/1412",
+      "summary": "Почти домашняя атмосфера 🏠 Автомобиль всегда готов согреть в холод и подарить приятную прохладу салона в знойный полдень. Так же и на конвейере сборки LADA: сюда приятно зайти в мороз, чтобы ощутить тепло завода, и не менее приятно пройти по цеху летом, когда здесь работают мощные кондиционеры и держится комфортная температура. А рядом с особенно жарким оборудованием ставят дополнительный промышленный вентилятор. Как в автомобиле есть климат-система, так и на автозаводе! 👏 Как автомобиль для многих из нас становится вторым домом, так и автозавод для тысяч людей становится местом, где проходит значительная часть дня… и жизни вообще. Здесь учат",
+      "source": "LADA · Telegram",
+      "publisher_id": "brand:avtovaz",
+      "published_at": "2026-09-23T14:01:57+00:00",
+      "categories": [
+        "Automotive"
+      ],
+      "primary_category": "Automotive",
+      "brands": [
+        "LADA"
+      ],
+      "market_scope": "Russia",
+      "platform": "telegram",
+      "account_id": "avtovaz-telegram",
+      "official_brand": true,
+      "source_quality": 4.5,
+      "image_url": "https://cdn4.telesco.pe/file/uh00YS6fXBSdlGPD_SrBPBhL-XRJG47NZi-cuxsTF1_b4eN34ic6euWApinFmXozbuCm7jMk0xU8mRpdtWkOJNT43AhwAMiVPTlD2bNNKS4P4uATHK7eEr92oktzRitHDvOHYCX1D5T3WPSKxl-IIflC6pwdv93sJB-6jEVn64QUW8HHzgPoR_FPBQ6dtmWo65K2ZeOfcHeu_DR0yqU5PPjAd-wyTfCOq3bIhpj-G7QKhgJ-9Rb06m4VwnDta7FzR2p5iC7Xj8Obn_PoX0_GXNyqngIxDtmG-Z2rrGBiNKkYoD5GcGLf6Gp548AMtFWD0EP0nsts8ZQe7bbmFPj5VA.jpg",
+      "videos": [],
+      "primary_links": [
+        "https://max.ru/LADA"
+      ],
+      "content_type": "news",
+      "source_relation": "brand_statement",
+      "collected_at": "2026-09-25T10:21:47.630161+00:00"
+    },
+    {
+      "id": "d69b7059712fd9ada4",
+      "title": "LADA Azimut — на старте! 🧭 Новый кроссовер начинает свою конвейерную жизнь — 25 сентября официально стартует серийная сборка LADA Azimut. Каждый…",
+      "url": "https://t.me/lada_rf/1413",
+      "summary": "LADA Azimut — на старте! 🧭 Новый кроссовер начинает свою конвейерную жизнь — 25 сентября официально стартует серийная сборка LADA Azimut. Каждый может стать свидетелем волнующего момента — официального старта производства. 🛞 Чтобы в режиме реального времени наблюдать за происходящим, подключайтесь к трансляции церемонии 25.09 в 13:30 по московскому времени по ссылке . 2️⃣ 3️⃣ 💻 Подписывайтесь на LADA в MAX #LADAAzimut",
+      "source": "LADA · Telegram",
+      "publisher_id": "brand:avtovaz",
+      "published_at": "2026-09-24T10:02:38+00:00",
+      "categories": [
+        "Automotive"
+      ],
+      "primary_category": "Automotive",
+      "brands": [
+        "LADA"
+      ],
+      "market_scope": "Russia",
+      "platform": "telegram",
+      "account_id": "avtovaz-telegram",
+      "official_brand": true,
+      "source_quality": 4.5,
+      "image_url": "https://cdn4.telesco.pe/file/VW3HfxXX5rAzchv0QbEnu8XXaccZTeZbHPu0rnZKkvhLCC6c0jizl8nSuxEHjMMv3wAybUFxLq33pS3FW59VBzew9-xQU8U44hlKV-OCgFzVQSIvtX0pLCLCT281gV5lNOpOgWR3gNr0Bq3aqGTMGpt79X7ZZ8HxFd36pEl1Fd2_GLCLEFVJ3o35Ay_cPeHcL2lx9ulRuEdrnX_tWOvVaYWoEz3TE781pjUOctGi5itDkRM8bXk6sYA5VqM-vWzaQ0HQO3YO9Kg_5ZZ9X0jmr8xu9zZnYI60163-0jFo1QBKve7DL6IMHYfx4lCXUD626rgt6FzzqZpuxZmpYm-vSw.jpg",
+      "videos": [],
+      "primary_links": [
+        "https://vkvideo.ru/live-25228956_456243083",
+        "https://max.ru/LADA"
+      ],
+      "content_type": "news",
+      "source_relation": "brand_statement",
+      "collected_at": "2026-09-25T10:21:47.631161+00:00"
+    },
+    {
+      "id": "e37ff5f2f6b59a3409",
+      "title": "Поладим с LADA pinned a photo",
+      "url": "https://t.me/lada_rf/1414",
+      "summary": "Поладим с LADA pinned a photo",
+      "source": "LADA · Telegram",
+      "publisher_id": "brand:avtovaz",
+      "published_at": "2026-09-24T10:22:11+00:00",
+      "categories": [
+        "Automotive"
+      ],
+      "primary_category": "Automotive",
+      "brands": [
+        "LADA"
+      ],
+      "market_scope": "Russia",
+      "platform": "telegram",
+      "account_id": "avtovaz-telegram",
+      "official_brand": true,
+      "source_quality": 4.5,
+      "image_url": "",
+      "videos": [],
+      "primary_links": [
+        "https://t.me/lada_rf"
+      ],
+      "content_type": "news",
+      "source_relation": "brand_statement",
+      "collected_at": "2026-09-25T10:21:47.631161+00:00"
+    },
+    {
+      "id": "d03a70bdf47ab94ced",
+      "title": "6 ступеней: выбор энергичных ⚡️ Вроде и торопиться некуда, но водитель не желает ждать ни минуты",
+      "url": "https://t.me/lada_rf/1415",
+      "summary": "6 ступеней: выбор энергичных ⚡️ Вроде и торопиться некуда, но водитель не желает ждать ни минуты. Ни секунды! Быстро переключаются передачи, мотор выкручивается до высоких оборотов — машина рвётся вперёд, опережая поток. 👍 Активное вождение, полный контроль над автомобилем и дорогой — это настоящая жизненная позиция. Для такого драйва LADA применяет 6‑ступенчатую «механику». Трансмиссия, специально созданная для крупных и сравнительно тяжёлых автомобилей, отлично подходит легковой LADA Vesta. Чёткая работа рычага помогает быстро менять передачи, выбирая лучшее сочетание тяги и скорости для каждого мгновения движения. У этой трансмиссии есть к",
+      "source": "LADA · Telegram",
+      "publisher_id": "brand:avtovaz",
+      "published_at": "2026-09-24T14:01:12+00:00",
+      "categories": [
+        "Automotive"
+      ],
+      "primary_category": "Automotive",
+      "brands": [
+        "LADA"
+      ],
+      "market_scope": "Russia",
+      "platform": "telegram",
+      "account_id": "avtovaz-telegram",
+      "official_brand": true,
+      "source_quality": 4.5,
+      "image_url": "https://cdn4.telesco.pe/file/PaHleNIy-hhcQ-y003O9Fxn9klmLp9eL9lRwaZAiZSfPoDVdtTpxe5Ir9vAJPkgCAyZz6PW6xeI7LGJgrQRlYIb55DtZIyJjPnh3ODMOAA6wjInZPn9r-eptmEvdfbO4dXNTpI8EZEcKEJM-LDzxABhJ1yozVWPmKbkQ6Zn87epVy69vTJ5Sxnj3w75gjQcUF6O1myHuLqlbkg0q0UT_szhAFmNNpokGNmmplywWbPTQlw_tfLUNgsiz33T6p5BWE2haLKts6opjzTp_rjwjYfKMp3cu_cUe08WO44zsKYGXqglEgzWKLuo6e3akKY7NbIhZ0PeZCOAv2hrYnxPiXw.jpg",
+      "videos": [],
+      "primary_links": [
+        "https://www.lada.ru/cars/vesta/sedan?utm_source=tg&amp;utm_campaign=vesta-sedan_post_24-09-26&amp;utm_medium=smm",
+        "https://max.ru/LADA"
+      ],
+      "content_type": "news",
+      "source_relation": "brand_statement",
+      "collected_at": "2026-09-25T10:21:47.632161+00:00"
+    },
+    {
+      "id": "83873bbb68674f7f0c",
+      "title": "Драйв не уходит на покой: как байкеры открывали для себя «Москвич» В эти выходные мы провожали мотосезон-2026",
+      "url": "https://t.me/Zavod_Moskvich/2223",
+      "summary": "❤️ Драйв не уходит на покой: как байкеры открывали для себя «Москвич» В эти выходные мы провожали мотосезон-2026. Колонна из представителей тридцати пяти мотоклубов пронеслась по улицам столицы, чтобы сказать друг другу «до весны». Но мы знаем: настоящий драйв не заканчивается с приходом холодов — он просто меняет средства передвижения 😊 На нашем выставочном стенде царила особая атмосфера. Люди, которые привыкли чувствовать дорогу каждой клеткой, с интересом изучали технологичную линейку М — кроссоверы Москвич М70 и Москвич М90 . Это был идеальный момент, чтобы показать: пересесть с байка за руль технологичного кроссовера — логичное продолжен",
+      "source": "Москвич · Telegram",
+      "publisher_id": "brand:moskvich",
+      "published_at": "2026-09-20T16:45:42+00:00",
+      "categories": [
+        "Automotive"
+      ],
+      "primary_category": "Automotive",
+      "brands": [
+        "Москвич"
+      ],
+      "market_scope": "Russia",
+      "platform": "telegram",
+      "account_id": "moskvich-telegram",
+      "official_brand": true,
+      "source_quality": 4.5,
+      "image_url": "https://cdn4.telesco.pe/file/e1gPzN7ks8Lgi2ND5ynERMFqoB5pOHjFdJSlWe18-JzXUbzQssdChjl5zaZ44neE9GsZxqdZdAtWR4Aus_sOlaGjeGGi9eNnuu6TRJELk0IcJuuCWNhRNKQkQgz_gA8zfWyCR7iAX3brBwuIatwhX9OmtR3o6-6cS-YDXXx164k8kQdGAaDzQybrVpbqqAf2alnRhiWVldOQnowMqIwbHZTUqav3tStrnjp-1H2VmeRu2sIicfwm7khhuXsaBtLpU-FwkAIuSTJQ-f9zc_Ym1eom2fh2zGQ0RK5rd6D3XoVe4u2cDXuwsQbXTq7vNWgw_jyiMcCzJxrV1OSrsuw6nA.jpg",
+      "videos": [],
+      "primary_links": [
+        "https://moskvich-m.ru/models/m70?utm_source=telegram&amp;utm_medium=social_ogranic&amp;utm_campaign=models%2Fm70&amp;utm_content=smm_post_20.09",
+        "https://moskvich-m.ru/models/m90?utm_source=telegram&amp;utm_medium=social_ogranic&amp;utm_campaign=models%2Fm90&amp;utm_content=smm_post_20.09",
+        "https://moskvich-m.ru/buyers/test-drive?utm_source=telegram&amp;utm_medium=social_ogranic&amp;utm_campaign=buyers%2Ftest-drive&amp;utm_content=smm_post_20.09"
+      ],
+      "content_type": "news",
+      "source_relation": "brand_statement",
+      "collected_at": "2026-09-25T10:21:48.170044+00:00"
+    },
+    {
+      "id": "246e2a1416ab544733",
+      "title": "Правила продаж меняются слишком быстро Такая скорость требует мгновенных решений от менеджеров, юристов, бизнеса и государства",
+      "url": "https://t.me/Zavod_Moskvich/2234",
+      "summary": "❤️ Правила продаж меняются слишком быстро Такая скорость требует мгновенных решений от менеджеров, юристов, бизнеса и государства. Разбираться с ИИ, рекламой и маркировками приходится на ходу. Год за годом на заводе «Москвич» растёт экспертиза на стыке инженерии, права и коммерции. Сегодня мы уже не догоняем отрасль, а влияем на её правила 🦆 Наши юристы работают в одной команде с инженерами и логистами, чтобы вместе развивать производство. Мы тщательно продумываем стратегию присутствия в социальных сетях, на маркетплейсах и специализированных порталах по продаже автомобилей. В основе нашей работы — предсказуемый результат и прозрачные условия",
+      "source": "Москвич · Telegram",
+      "publisher_id": "brand:moskvich",
+      "published_at": "2026-09-22T13:31:35+00:00",
+      "categories": [
+        "Automotive"
+      ],
+      "primary_category": "Automotive",
+      "brands": [
+        "Москвич"
+      ],
+      "market_scope": "Russia",
+      "platform": "telegram",
+      "account_id": "moskvich-telegram",
+      "official_brand": true,
+      "source_quality": 4.5,
+      "image_url": "https://cdn4.telesco.pe/file/QvxBdTbaLq75XAdnWapTo7qZaLf6jJizBUY04jFSgTBjeMLlk7Sha8QASJpCAx7DZlhcdl0hpAinRcfB47rtKf6diV-jx7J-aafP6mDyLOAgrHlWseV2WSRknrN8A9t93cuuJnmq2Z-ZL8B-ZDGhGv4GsmdwAM7m5u-I2wzvSQxQXqWpLq-UshN1rP-DEJ2cYTYwaFcVnu4RLbobCyiT9_73iZtcO2jZGgp5hqA6tizLCM0GOmLN2_gHaqLzpUblhS2dQzEV8L-GXNW3Q1mcKyp_1sM4sAjABI9WPQNBEfd_txizqgLbIamoRurZdMJr91nhP_jMAi3F0w870Ao7eQ.jpg",
+      "videos": [],
+      "primary_links": [
+        "https://event.pravo.ru/event/206/"
+      ],
+      "content_type": "news",
+      "source_relation": "brand_statement",
+      "collected_at": "2026-09-25T10:21:48.171053+00:00"
+    },
+    {
+      "id": "2754f8d6d5f144d105",
+      "title": "Похоже, Москвич 6 обзавёлся пушистым поклонником 🐶 Знакомьтесь, это Лекса",
+      "url": "https://t.me/Zavod_Moskvich/2235",
+      "summary": "❤️ Похоже, Москвич 6 обзавёлся пушистым поклонником 🐶 Знакомьтесь, это Лекса! Она настоящий автоэксперт: всегда находит на парковке любимый Москвич и уверенно занимает своё место в салоне. Её главное правило в дороге — не отвлекать Екатерину Андреевну и мирно отдыхать во время поездок. Для этого в автомобиле есть всё необходимое: 😍 гамак на заднем сиденье с твёрдым дном и сетчатым окошком спереди, чтобы собаке было удобно; 😍 бутылки с водой, складные миски и лакомства, чтобы подкрепиться в пути. С такой подготовкой хозяйка не боится брать питомца в поездки. Самое длительное путешествие — из Москвы в Липецк и обратно. За время пути они останав",
+      "source": "Москвич · Telegram",
+      "publisher_id": "brand:moskvich",
+      "published_at": "2026-09-23T13:27:40+00:00",
+      "categories": [
+        "Automotive"
+      ],
+      "primary_category": "Automotive",
+      "brands": [
+        "Москвич"
+      ],
+      "market_scope": "Russia",
+      "platform": "telegram",
+      "account_id": "moskvich-telegram",
+      "official_brand": true,
+      "source_quality": 4.5,
+      "image_url": "https://cdn4.telesco.pe/file/h5VB34lgm6fo7YLRHWobDIYfh1bng5f9WFSHdXIQZrtrBEGiTsP2zw8irLm651OKwF5-q6nwR6hKP8n8u8Z0aCO4pJCXTlgGh6RgzpByCff2DWWT50ABkeHpvoVdpFkDd1nkvXmhfpkxHk5C8k4YfLBhB8-t-gKvstnkywEYFHi6irLTiUGWWCP8jNgGm5bguQizXB7ctFvRBlGIALXmcJvViBzTbF6M73r8uE5DKI-dh7I9T8BcG1YusfxpSAk69YY6Iq5ksUugH0yrfxoWNLgGr7tdgTkqykAeRVCGPlOQv69knSJoMjgHTkeISRBCzHvcRZhpXi3aqLWMp3wERg.jpg",
+      "videos": [],
+      "primary_links": [
+        "https://moskvich.ru/models/moskvich-6?utm_source=telegram&amp;utm_medium=social_ogranic&amp;utm_campaign=models%2Fmoskvich-6&amp;utm_content=smm_post_23.09"
+      ],
+      "content_type": "news",
+      "source_relation": "brand_statement",
+      "collected_at": "2026-09-25T10:21:48.172042+00:00"
+    },
+    {
+      "id": "50f88fc89a47140246",
+      "title": "Инвестиция в будущее: говорим с теми, кто завтра будет менять мир 🌎 На днях наш генеральный директор завода МАЗ «Москвич» Елена Александровна…",
+      "url": "https://t.me/Zavod_Moskvich/2238",
+      "summary": "Инвестиция в будущее: говорим с теми, кто завтра будет менять мир 🌎 На днях наш генеральный директор завода МАЗ «Москвич» Елена Александровна Фролова провела лекцию для студентов бизнес-клуба МГИМО. Разговор получился честным и глубоким. Обсудили, как сегодня меняется расстановка сил в мировом автопроме, какую роль играет Китай и почему технологический суверенитет это не абстрактный лозунг, а условие выживания. Елена Александровна поделилась опытом и рассказала, что на самом деле стоит за сборкой автомобиля: управление большой командой, сотрудничество с отечественными и международными партнёрами, развитие собственных технологий и локализация ",
+      "source": "Москвич · Telegram",
+      "publisher_id": "brand:moskvich",
+      "published_at": "2026-09-23T16:23:58+00:00",
+      "categories": [
+        "Automotive"
+      ],
+      "primary_category": "Automotive",
+      "brands": [
+        "Москвич"
+      ],
+      "market_scope": "Russia",
+      "platform": "telegram",
+      "account_id": "moskvich-telegram",
+      "official_brand": true,
+      "source_quality": 4.5,
+      "image_url": "https://cdn4.telesco.pe/file/TMWLT5NNVvmhm2yDeOcGaR_HTPbF8t55KxYCBBCiyKocMIyKeyClzGblqkq25kr0t8SEqe4AD0jzUDUeiIvGZE9pCT2_uRuRGIkWTbuYxj6Mk1wGBW_Fp8IXgrvULV87i5-LSP5S0y4O_QP2YgzFDgwefWcX0F1gZbH2EBAZdivVlZuwjKW7deIx6v0ENBdaMDfjkpRdCixZaGG4y3GjUBI7eHLMO3E6FaZfcOvlyjTqRdtUgaItu9BbvWKF_8yIxdgV0eT45LzvH8hTL2fINW9zTPMdqLKdYtwjpM15LA4ISMnTBFBFNrf_aGDmGVCmBtBHEYajzxlMqt4R1KC9IQ.jpg",
+      "videos": [],
+      "primary_links": [
+        "https://moskvich.ru/models/moskvich-3?utm_source=telegram&amp;utm_medium=social_ogranic&amp;utm_campaign=models%2Fmoskvich-3&amp;utm_content=smm_post_23.09",
+        "https://moskvich-m.ru/?utm_source=telegram&amp;utm_medium=social_ogranic&amp;utm_content=smm_post_23.09"
+      ],
+      "content_type": "news",
+      "source_relation": "brand_statement",
+      "collected_at": "2026-09-25T10:21:48.172042+00:00"
+    },
+    {
+      "id": "08bf9ab7de8f9cf3c0",
+      "title": "А какая модель была самой первой? — Каждая из них в чём-то первая… ❤️ В свете музейных ламп история оживает. Ещё секунда — и вот-вот послышится…",
+      "url": "https://t.me/Zavod_Moskvich/2240",
+      "summary": "— А какая модель была самой первой? — Каждая из них в чём-то первая… ❤️ В свете музейных ламп история оживает. Ещё секунда — и вот-вот послышится щелчок тумблера, вздрогнет стрелка спидометра и тихий рокот двигателя унесёт вас на годы назад. Туда, где каждый выпущенный Москвич даёт отсчёт чему-то новому. Первые народные автомобили в СССР и первый экспорт в Европу — мы всегда доказывали, что нет ничего невозможного. И сегодня наша история продолжается. Многолетний опыт стал фундаментом для настоящего 🦆 Листайте карточки, изучайте архивы завода «Москвич» и рассказывайте в комментариях, какая эпоха вдохновляет вас больше остальных? 👇",
+      "source": "Москвич · Telegram",
+      "publisher_id": "brand:moskvich",
+      "published_at": "2026-09-24T09:58:17+00:00",
+      "categories": [
+        "Automotive"
+      ],
+      "primary_category": "Automotive",
+      "brands": [
+        "Москвич"
+      ],
+      "market_scope": "Russia",
+      "platform": "telegram",
+      "account_id": "moskvich-telegram",
+      "official_brand": true,
+      "source_quality": 4.5,
+      "image_url": "https://cdn4.telesco.pe/file/VbNkKu6azGcAO3M10BDIrzTs5e8PmBUMgpIfNfVBv2TTJ8M01t8Iq4vBhoaKr-DZFv4IdPgmIcNsY1l9ZTAf2pHNhTtpwSjPfOlyL8dC62NmViha7KPD_3V1Yr0ig0DN3QYGSaFHOzfsEB5VG6cQpFmLyZVZzvYaIczXHv9uWrUTiIMtbWIYkM6LYanzO-6a2-9UPNeA9apmooBBQgsi9uVHNCXVlmVWCOd_XLSmZxUpJ6bUSd_Fgmo1spRovNZlKfx1a_ut1t1tRL5lsLj1DBSM5swUF1CqHBzMT4VtUB5V_XI9Ju6WgR_ivz5aK0yPAKuQhKLugxxYkk4icPxFYw.jpg",
+      "videos": [],
+      "primary_links": [],
+      "content_type": "news",
+      "source_relation": "brand_statement",
+      "collected_at": "2026-09-25T10:21:48.173094+00:00"
+    },
+    {
+      "id": "bf927d1f07c1784ade",
+      "title": "Чат трансляции ⬇",
+      "url": "https://t.me/geelyofficial/3392",
+      "summary": "⬇ Чат трансляции ⬇",
+      "source": "Geely · Telegram",
+      "publisher_id": "brand:geely",
+      "published_at": "2026-09-10T12:02:30+00:00",
+      "categories": [
+        "Automotive"
+      ],
+      "primary_category": "Automotive",
+      "brands": [
+        "Geely"
+      ],
+      "market_scope": "Russia",
+      "platform": "telegram",
+      "account_id": "geely-telegram",
+      "official_brand": true,
+      "source_quality": 4.5,
+      "image_url": "",
+      "videos": [],
+      "primary_links": [],
+      "content_type": "news",
+      "source_relation": "brand_statement",
+      "collected_at": "2026-09-25T10:21:48.141042+00:00"
+    },
+    {
+      "id": "e43b5d0bfeba4946f0",
+      "title": "Чем займемся сегодня? — Тем же, чем и всегда. Попробуем объехать целый мир 📷 С Geely EX5 Гибрид планы действительно могут быть масштабными. Ведь…",
+      "url": "https://t.me/geelyofficial/3394",
+      "summary": "— Чем займемся сегодня? — Тем же, чем и всегда. Попробуем объехать целый мир 📷 С Geely EX5 Гибрид планы действительно могут быть масштабными. Ведь чем реже приходится думать о дозаправке, тем больше времени остается на саму дорогу ⚡️ 🔹 Общий запас хода — до 1000 км* 🔹 Взвешенный расход топлива — всего 1,2 л на 100 км пути* И, кажется, такой подход оценили не только мы 😉 В августе Geely EX5 Гибрид занял второе место по популярности в своем сегменте — реализовано 1 116 кроссоверов ** . Узнайте лично, за что выбирают Geely EX5 Гибрид . Записывайтесь на первую пробную поездку по ссылке ⬅️ *Данные указаны в соответствии со стандартом Новый Европей",
+      "source": "Geely · Telegram",
+      "publisher_id": "brand:geely",
+      "published_at": "2026-09-10T15:01:28+00:00",
+      "categories": [
+        "Automotive"
+      ],
+      "primary_category": "Automotive",
+      "brands": [
+        "Geely"
+      ],
+      "market_scope": "Russia",
+      "platform": "telegram",
+      "account_id": "geely-telegram",
+      "official_brand": true,
+      "source_quality": 4.5,
+      "image_url": "https://cdn4.telesco.pe/file/GOf6xVaFYcinGnqkF8uTdElOjmC1odYyn4qGlhSaq0AFseml5nak6zRJBZ73OCgcKPyn4l59MtRwyEbWLh01ZMWOK9hWww7ABotDYFS9HBD43B2sttA_UReeR99gO-dfbjLoRwpmXQMcpluV-DDMD4MBgaVjao0oFQ7KSozBarFz9-MHniBkxo9kQVE1F49fgTVk7-G-LBCbl_C6QNUzwgZMgJBcy1S6PQbl3sRIN7MoOg4R1pbwuzcRlBOE0_DtOhY0AsiQb1IDc8cnYaUSIl9SlIOkXw0ule3988BphR4JtW-itvWiE6xLSgLtgax9QQ1lpUdglHGLZsEqUqzQtQ.jpg",
+      "videos": [],
+      "primary_links": [
+        "https://www.geely-motors.com/about-geely/news/the-geely-ex5-one-of-the-leaders-in-the-russian-market-on-the-results-for-august/",
+        "https://www.geely-motors.com/livestreams/"
+      ],
+      "content_type": "news",
+      "source_relation": "brand_statement",
+      "collected_at": "2026-09-25T10:21:48.142042+00:00"
+    },
+    {
+      "id": "482d9b6a3d4d94fef1",
+      "title": "Такой компактный, что легко поместится на экране складного смартфона — и без труда найдет место на городской парковке 🔹 Такой стильный, что его…",
+      "url": "https://t.me/geelyofficial/3397",
+      "summary": "🔹 Такой компактный, что легко поместится на экране складного смартфона — и без труда найдет место на городской парковке 🔹 Такой стильный, что его хочется рассматривать с обеих сторон 🔹 Такой динамичный, что за рулем хочется искать лишний повод отправиться в поездку 😎 И это всего три преимущества нового Geely Coolray из длинного списка. Остальные лучше открывать лично — записывайтесь на первую пробную поездку по ссылке ⬅️ #GeelyCoolray",
+      "source": "Geely · Telegram",
+      "publisher_id": "brand:geely",
+      "published_at": "2026-09-14T14:20:15+00:00",
+      "categories": [
+        "Automotive"
+      ],
+      "primary_category": "Automotive",
+      "brands": [
+        "Geely"
+      ],
+      "market_scope": "Russia",
+      "platform": "telegram",
+      "account_id": "geely-telegram",
+      "official_brand": true,
+      "source_quality": 4.5,
+      "image_url": "https://cdn4.telesco.pe/file/U67pxajrq8psjbIWmfT1jUflDR41rqanSFVqaG2NTjMq8Jm1PuPrDYSofwCPitLXDqVkVhbq_6VhcCJ8SuJfh7lKvyAlRkNC1FEVcOCU-WfYMaKSqTr3SmQ-NSwZuudutymTbCJ6HxYlX7HxIenlHwdpLwvFjdQhdEK9W6XTLn-CNj0WOeRcW7sffEw4_xnbkGQh2q9zqcvFKbDbB6f67Ue6mc7hqvyAz3DERvEkFsu3TI0T33kt2lmxrYVDxrECJCyZJXeZXLvE0v-o_z_p-RPcgrn69QNZmJm1PNyxmRG3ZoCctappnlCELzHE8OOkedWyVtKYIvVyO-i07iBmjg.jpg",
+      "videos": [],
+      "primary_links": [
+        "https://www.geely-motors.com/livestreams/?utm_source=tg&amp;utm_medium=social&amp;utm_campaign=post+14.09"
+      ],
+      "content_type": "news",
+      "source_relation": "brand_statement",
+      "collected_at": "2026-09-25T10:21:48.142042+00:00"
+    },
+    {
+      "id": "6fc580626f3067952d",
+      "title": "Live stream started",
+      "url": "https://t.me/geelyofficial/3399",
+      "summary": "Live stream started",
+      "source": "Geely · Telegram",
+      "publisher_id": "brand:geely",
+      "published_at": "2026-09-15T10:57:31+00:00",
+      "categories": [
+        "Automotive"
+      ],
+      "primary_category": "Automotive",
+      "brands": [
+        "Geely"
+      ],
+      "market_scope": "Russia",
+      "platform": "telegram",
+      "account_id": "geely-telegram",
+      "official_brand": true,
+      "source_quality": 4.5,
+      "image_url": "",
+      "videos": [],
+      "primary_links": [],
+      "content_type": "news",
+      "source_relation": "brand_statement",
+      "collected_at": "2026-09-25T10:21:48.143122+00:00"
+    },
+    {
+      "id": "f5ec7da13263e5af08",
+      "title": "Чат трансляции ⬇",
+      "url": "https://t.me/geelyofficial/3400",
+      "summary": "⬇ Чат трансляции ⬇",
+      "source": "Geely · Telegram",
+      "publisher_id": "brand:geely",
+      "published_at": "2026-09-15T10:57:41+00:00",
+      "categories": [
+        "Automotive"
+      ],
+      "primary_category": "Automotive",
+      "brands": [
+        "Geely"
+      ],
+      "market_scope": "Russia",
+      "platform": "telegram",
+      "account_id": "geely-telegram",
+      "official_brand": true,
+      "source_quality": 4.5,
+      "image_url": "",
+      "videos": [],
+      "primary_links": [],
+      "content_type": "news",
+      "source_relation": "brand_statement",
+      "collected_at": "2026-09-25T10:21:48.143122+00:00"
+    },
+    {
+      "id": "cf80c71b09c603bc75",
+      "title": "Live stream finished (1 hour)",
+      "url": "https://t.me/geelyofficial/3401",
+      "summary": "Live stream finished (1 hour)",
+      "source": "Geely · Telegram",
+      "publisher_id": "brand:geely",
+      "published_at": "2026-09-15T12:22:37+00:00",
+      "categories": [
+        "Automotive"
+      ],
+      "primary_category": "Automotive",
+      "brands": [
+        "Geely"
+      ],
+      "market_scope": "Russia",
+      "platform": "telegram",
+      "account_id": "geely-telegram",
+      "official_brand": true,
+      "source_quality": 4.5,
+      "image_url": "",
+      "videos": [],
+      "primary_links": [],
+      "content_type": "news",
+      "source_relation": "brand_statement",
+      "collected_at": "2026-09-25T10:21:48.144130+00:00"
+    },
+    {
+      "id": "85d8281e2d54d07612",
+      "title": "Как в вампирской саге не будет. Будет еще лучше 🤍 Ведь с технологичным Geely EX5 Гибрид не обязательно ждать друга с суперспособностями —…",
+      "url": "https://t.me/geelyofficial/3402",
+      "summary": "Как в вампирской саге не будет. Будет еще лучше 🤍 Ведь с технологичным Geely EX5 Гибрид не обязательно ждать друга с суперспособностями — современные системы активной безопасности уже готовы прийти на помощь 👍 Например, кроссовер оснащен системой предотвращения фронтального столкновения *, которая распознает потенциальную опасность и предупреждает водителя. А в критической ситуации может активировать автоматическое торможение. Так что если Эдвард вдруг опоздает — Geely EX5 Гибрид уже подстраховал ✋ И это лишь одна из систем большого комплекса активной безопасности кроссовера. Познакомьтесь с ними подробнее на первой пробной поездке — записыва",
+      "source": "Geely · Telegram",
+      "publisher_id": "brand:geely",
+      "published_at": "2026-09-15T15:20:20+00:00",
+      "categories": [
+        "Automotive"
+      ],
+      "primary_category": "Automotive",
+      "brands": [
+        "Geely"
+      ],
+      "market_scope": "Russia",
+      "platform": "telegram",
+      "account_id": "geely-telegram",
+      "official_brand": true,
+      "source_quality": 4.5,
+      "image_url": "https://cdn4.telesco.pe/file/vrIeiiSa7vhUECkwJfqRyxH4uS0Rn4yvT3luQtuPKOdSRLYQpiZ_AypXr2Ex3MQ_cZ7Nw45PKPy2ngNIVlyL0kYtX1eOIQLilV9iMyO7Kc98dOzgDQxUdTn8Q369mMCEClXyde00aUyeGnBr3w-86e_aVPb9O2FvS-v2nuQ4wYROD63C21sMDBBau_kzWeeyjQi-MBTsVtrWNVIYU59G0PwezvBdnH6gM4rwNqJ12jesIhfXxJ6yYiDIVcolg3J3bhFXmt58cFgrjp2QYYIUWV1Kyd3_cOGDg5BlyM4K73cY1IFkhAxN6eAARnna4gsP-bErTCKNLC9ZdKv-HsOaRg.jpg",
+      "videos": [],
+      "primary_links": [
+        "https://www.geely-motors.com/livestreams/?utm_source=tg&amp;utm_medium=social&amp;utm_campaign=post+15.09"
+      ],
+      "content_type": "news",
+      "source_relation": "brand_statement",
+      "collected_at": "2026-09-25T10:21:48.144130+00:00"
+    },
+    {
+      "id": "c57afbcf3615d73f57",
+      "title": "В копилке достижений Geely в 2026 году — две новые награды 🏆 Geely EX5 Гибрид и Geely Okavango стали победителями престижной национальной премии…",
+      "url": "https://t.me/geelyofficial/3403",
+      "summary": "В копилке достижений Geely в 2026 году — две новые награды 🏆 Geely EX5 Гибрид и Geely Okavango стали победителями престижной национальной премии «Внедорожник года» журнала «Клуб 4х4» : 🔹 Geely EX5 Гибрид признан «Лучшим автомобилем для путешествий» . Комфорт, экономичность и внушительный запас хода — кажется, дальние маршруты ему действительно к лицу ✋ 🔹 Geely Okavango получил звание «Лучшего среднеразмерного моноприводного кроссовера» . По мнению экспертного жюри премии, вместительный семиместный салон, внушительный клиренс и высокий уровень безопасности делают его отличным выбором для тех, кто привык строить большие планы Две модели — две п",
+      "source": "Geely · Telegram",
+      "publisher_id": "brand:geely",
+      "published_at": "2026-09-16T15:20:18+00:00",
+      "categories": [
+        "Automotive"
+      ],
+      "primary_category": "Automotive",
+      "brands": [
+        "Geely"
+      ],
+      "market_scope": "Russia",
+      "platform": "telegram",
+      "account_id": "geely-telegram",
+      "official_brand": true,
+      "source_quality": 4.5,
+      "image_url": "https://cdn4.telesco.pe/file/XTGF_o1DUtHXlrczxIPyZUldIAK41PLyvIa0L0I55UNv7Q4jjjjgAnc1twfESg_Xb7u6zufBVdNrTmbnflPVQZpNnqpyRaPFrZ1q6uP-4yOiLAyEFFFBP5mRWaiWJlLdgdxFsah_r5gSrvEP8iFt_LGt4cYZBI4rVHzxiNijN8NHNq1eCUSHjqOD_FJAGkEkleDehFFoQwJpqdnzTONmHGy8sc07P29pS_two9GU3vpXy2Zp5dL6Fe501jFAMUlhpkCA3k5hz43fjW8up6TshXMfP2MAcfxjF6U0FATMJ2Inregx0TSrPqyyUbBkEg6qCV0OBfNTlFeE9R7XdSkTgg.jpg",
+      "videos": [],
+      "primary_links": [
+        "https://www.geely-motors.com/livestreams/?utm_source=tg&amp;utm_medium=social&amp;utm_campaign=post+16.09"
+      ],
+      "content_type": "news",
+      "source_relation": "brand_statement",
+      "collected_at": "2026-09-25T10:21:48.145089+00:00"
+    },
+    {
+      "id": "04435cbf4c956169c0",
+      "title": "Хотите провести день вместе с Geely? 🤍 17 октября у вас есть шанс лично познакомиться с новым кроссовером Geely EX5 Гибрид – а именно…",
+      "url": "https://t.me/geelyofficial/3404",
+      "summary": "⚡️ ⚡️ ⚡️ ⚡️ Хотите провести день вместе с Geely? 🤍 17 октября у вас есть шанс лично познакомиться с новым кроссовером Geely EX5 Гибрид – а именно возможность узнать больше об автомобиле и задать свои вопросы экспертам, сделать яркие фото и видео, а также отдохнуть на свежем воздухе и принять участие в семейных активностях ✋ 📆 Место встречи — в 12-ти минутах езды от Москвы Если вы активно ведете социальные сети и присматриваетесь к гибридным моделям, заполняйте анкету по ссылке — возможно, именно вы станете участником нашего уикенда! #УикендGeelyГибрид",
+      "source": "Geely · Telegram",
+      "publisher_id": "brand:geely",
+      "published_at": "2026-09-17T14:20:11+00:00",
+      "categories": [
+        "Automotive"
+      ],
+      "primary_category": "Automotive",
+      "brands": [
+        "Geely"
+      ],
+      "market_scope": "Russia",
+      "platform": "telegram",
+      "account_id": "geely-telegram",
+      "official_brand": true,
+      "source_quality": 4.5,
+      "image_url": "https://cdn4.telesco.pe/file/Cx09ZhK-0OoFB3moYhb0Bl3k99DvOzy7TKtsPW6JAPw5o8ye9IlE4kR9lDdd9TdFk3KzXnre2_RYJywFPcglATGRCZN7QHNHZWAmn1DwHUkdx3Xre7tDTYRsExQenEfO4t4J4lTvzIM97ux376rJCsaTqXDyIDx0ZG9ZE6z6HPzijK0p-4AL4Z5jmnIc-EFp4py2E6GjvGZHF8YSWQ4rpo1joVSdAWVYMiMYE7dha3u_2Gh_PbXzdiBjMmG-h-MkqKGX6h_EuU_xOtzPSnGVaWJn9ZUoCR1AjhSMHdbI9RClbo1FNNAQPLFOB_LisI7ZL6obWMEd2LzpcAiXW_gvnw.jpg",
+      "videos": [],
+      "primary_links": [
+        "https://forms.yandex.ru/u/6aa29a60d0468831a9252cd0/"
+      ],
+      "content_type": "news",
+      "source_relation": "brand_statement",
+      "collected_at": "2026-09-25T10:21:48.146064+00:00"
+    },
+    {
+      "id": "9cf88313e923517bae",
+      "title": "Лучший способ что-то узнать — задать вопросы эксперту ❤️ Завтра, 18 сентября, в 14:00 мы запустим трансляцию из дилерского центра и в прямом…",
+      "url": "https://t.me/geelyofficial/3405",
+      "summary": "Лучший способ что-то узнать — задать вопросы эксперту ❤️ Завтра, 18 сентября, в 14:00 мы запустим трансляцию из дилерского центра и в прямом эфире ответим на ваши вопросы о Geely Cityray . А еще расскажем о товарах из брендовой коллекции для тех, кто хочет сделать свой автомобиль особенным 👍 Присоединяйтесь на любой удобной площадке: в Telegram , ВК и на YouTube , если тоже присматриваетесь к Geely Cityray или хотите узнать о нем побольше. Следующий шаг — первая пробная поездка за рулем. Записаться на нее можно по этой ссылке ⬅️ #GeelyCityray #GeelyПрямыеЭфиры",
+      "source": "Geely · Telegram",
+      "publisher_id": "brand:geely",
+      "published_at": "2026-09-17T16:31:39+00:00",
+      "categories": [
+        "Automotive"
+      ],
+      "primary_category": "Automotive",
+      "brands": [
+        "Geely"
+      ],
+      "market_scope": "Russia",
+      "platform": "telegram",
+      "account_id": "geely-telegram",
+      "official_brand": true,
+      "source_quality": 4.5,
+      "image_url": "https://cdn4.telesco.pe/file/JZ2TvZd8_3QcaUe07WdjdSwevUSGgMc3ZgEWpURf5UZWMghuMP5z8s-NtYhdArMCjFREogL7g2SUP0oPjqHel3BpPhudxfXsb7bZTE6zH7uVm1T38c9H6MbWPvZrvbFN39dnJ73h0mPu6IHClE8kF0Ak5E1srdQyOML-WYXu4rJGHveCsO4cZvNc7oLjaMyXkSvRKHlGkR7lqAAhCaIXOzzrO1Y8RjSDR1Vy-mNAhfMiugrMFRYpLc4OYmgoY-3k5mnq0nY1dWiuzS8yw7XVTw8LOG9-0UUSLfKlmEc3D3teEa0NwsAE6Evx0IaMuiA49PPbPT08ZV8P7e_KbqJOsA.jpg",
+      "videos": [],
+      "primary_links": [
+        "https://t.me/geelyofficial",
+        "https://vk.com/geely_official",
+        "https://www.youtube.com/@Geelymotorsrus",
+        "https://www.geely-motors.com/livestreams/?utm_source=tg&amp;utm_medium=social&amp;utm_campaign=live+17.09"
+      ],
+      "content_type": "news",
+      "source_relation": "brand_statement",
+      "collected_at": "2026-09-25T10:21:48.146064+00:00"
+    },
+    {
+      "id": "17e7bf1064e58156be",
+      "title": "Live stream started",
+      "url": "https://t.me/geelyofficial/3406",
+      "summary": "Live stream started",
+      "source": "Geely · Telegram",
+      "publisher_id": "brand:geely",
+      "published_at": "2026-09-18T10:58:37+00:00",
+      "categories": [
+        "Automotive"
+      ],
+      "primary_category": "Automotive",
+      "brands": [
+        "Geely"
+      ],
+      "market_scope": "Russia",
+      "platform": "telegram",
+      "account_id": "geely-telegram",
+      "official_brand": true,
+      "source_quality": 4.5,
+      "image_url": "",
+      "videos": [],
+      "primary_links": [],
+      "content_type": "news",
+      "source_relation": "brand_statement",
+      "collected_at": "2026-09-25T10:21:48.147123+00:00"
+    },
+    {
+      "id": "7324b6bbebdba3d126",
+      "title": "Чат трансляции ⬇",
+      "url": "https://t.me/geelyofficial/3407",
+      "summary": "⬇ Чат трансляции ⬇",
+      "source": "Geely · Telegram",
+      "publisher_id": "brand:geely",
+      "published_at": "2026-09-18T10:58:49+00:00",
+      "categories": [
+        "Automotive"
+      ],
+      "primary_category": "Automotive",
+      "brands": [
+        "Geely"
+      ],
+      "market_scope": "Russia",
+      "platform": "telegram",
+      "account_id": "geely-telegram",
+      "official_brand": true,
+      "source_quality": 4.5,
+      "image_url": "",
+      "videos": [],
+      "primary_links": [],
+      "content_type": "news",
+      "source_relation": "brand_statement",
+      "collected_at": "2026-09-25T10:21:48.147123+00:00"
+    },
+    {
+      "id": "ee7c2520d78857c438",
+      "title": "Live stream finished (32 minutes)",
+      "url": "https://t.me/geelyofficial/3408",
+      "summary": "Live stream finished (32 minutes)",
+      "source": "Geely · Telegram",
+      "publisher_id": "brand:geely",
+      "published_at": "2026-09-18T11:31:18+00:00",
+      "categories": [
+        "Automotive"
+      ],
+      "primary_category": "Automotive",
+      "brands": [
+        "Geely"
+      ],
+      "market_scope": "Russia",
+      "platform": "telegram",
+      "account_id": "geely-telegram",
+      "official_brand": true,
+      "source_quality": 4.5,
+      "image_url": "",
+      "videos": [],
+      "primary_links": [],
+      "content_type": "news",
+      "source_relation": "brand_statement",
+      "collected_at": "2026-09-25T10:21:48.148131+00:00"
+    },
+    {
+      "id": "59204963c65ff1a6d2",
+      "title": "Лучший способ проверить дружбу или совместимость: отправиться в долгий путь на Geely Monjaro 🚘 Придется договариваться о маршруте, вместе…",
+      "url": "https://t.me/geelyofficial/3415",
+      "summary": "Лучший способ проверить дружбу или совместимость: отправиться в долгий путь на Geely Monjaro 🚘 Придется договариваться о маршруте, вместе выбирать локации для остановок и обеда, искать музыку, которая будет по душе каждому. Но есть кое-что, о чем точно не придется спорить: температура в салоне. Кроссовер оснащен трехзонным климат-контролем , который раздельно и автоматически поддерживает заданные параметры для водителя, переднего пассажира и второго ряда сидений 🤍 Ведь комфортный климат в салоне в дороге решает многое 👍 А во время пробной поездки за рулем Geely Monjaro можно оценить не только его салон, но и ходовые качества. Записывайтесь по",
+      "source": "Geely · Telegram",
+      "publisher_id": "brand:geely",
+      "published_at": "2026-09-24T11:42:05+00:00",
+      "categories": [
+        "Automotive"
+      ],
+      "primary_category": "Automotive",
+      "brands": [
+        "Geely"
+      ],
+      "market_scope": "Russia",
+      "platform": "telegram",
+      "account_id": "geely-telegram",
+      "official_brand": true,
+      "source_quality": 4.5,
+      "image_url": "https://cdn4.telesco.pe/file/kW40fgEnxDB4FKLZ_3Fs_jcMy-tKLITSKrhJYAuWI7YrplPFa6Ksifc5dZlYjjotRASdjsfc85TF8YYVhadsxMQyh5-NqzeKK8UqVQjXCGHxPpoHOXF0MjRTKi8S2_o5l87_N2y_jqM-uWCwwpXNaZjzD3OedKwfv0M8LgG6uQS1KqQeVnjuEKmM5QKdHP5cMMHPCq1yBn6DXR9PXfXtKbJGMGl3e2YAEWQ69bFcXMB6dDyfDQ-B1nFJaBgyfyWDe2yBdvMLOevwaA3tj57_i8IGctg8udJFnMJvMhWKjdsG96Du9yEb4dEm-X5tSHw2RNxgMcPDQQxlhvfQuEW8VQ.jpg",
+      "videos": [],
+      "primary_links": [
+        "https://www.geely-motors.com/livestreams/?utm_source=tg&amp;utm_medium=social&amp;utm_campaign=post+24.09"
+      ],
+      "content_type": "news",
+      "source_relation": "brand_statement",
+      "collected_at": "2026-09-25T10:21:48.149098+00:00"
+    },
+    {
+      "id": "88fadfbd75ae05223c",
+      "title": "Вопреки стереотипам: концепция дизайна CHANGAN HUNTER ПЛЮС Когда речь заходит о рамном пикапе, многие ждут спартанских условий",
+      "url": "https://t.me/changanrf/1913",
+      "summary": "Вопреки стереотипам: концепция дизайна CHANGAN HUNTER ПЛЮС Когда речь заходит о рамном пикапе, многие ждут спартанских условий. Но HUNTER ПЛЮС выходит за рамки привычных представлений: за брутальным экстерьером скрывается салон, где каждая деталь спроектирована для вашего абсолютного комфорта. 🖥 Технологичность и полный контроль. Сдвоенный 7,5+12,3'’ дисплей создаёт эффект полного погружения. А система камер 540° с функцией «прозрачного шасси» даёт 100% уверенности даже на самом сложном рельефе. 🤫 Акустический комфорт. Гул дороги остаётся снаружи — несколько слоёв шумоизоляции, мягкая экокожа в отделке дверей и премиальные материалы делают са",
+      "source": "Changan · Telegram",
+      "publisher_id": "brand:changan",
+      "published_at": "2026-09-19T09:01:39+00:00",
+      "categories": [
+        "Automotive"
+      ],
+      "primary_category": "Automotive",
+      "brands": [
+        "Changan"
+      ],
+      "market_scope": "Russia",
+      "platform": "telegram",
+      "account_id": "changan-telegram",
+      "official_brand": true,
+      "source_quality": 4.5,
+      "image_url": "https://cdn4.telesco.pe/file/QIGIPAkMHRj3dmN0n5vQe4M7-8QRK-5xxtTPrN_dDEdzZMTRjTwUf8-HpOG3C9XXSf34VbTCjFPTy832yaw2b7Y68wQnwmAec7YAFT4klZNzoM0kiqGYqpA0aTXYy1nbF3ZljlkTZbnHilBlWk2jEtf2o1hmhct7KIrmk1Cxg1mga1bDnRrmx6irrcyFs_gzpH59kj-ZgqX2BWo9d0Q0GfOqDziDGl2hw0SlLJs0PomAVJm2Eyy2X3Z-pzaBqV6Et0BoJGBFhmNpf8-dxnxr8SCV8C6WhTP-AQlMDEy7Fc5mrACG3PXrb8VoWWE7CrXocLfyJSylG31zFwDnOmmhQA.jpg",
+      "videos": [],
+      "primary_links": [
+        "https://changanauto.ru/model/hunterplus",
+        "https://t.me/changanrf",
+        "https://max.ru/changanrf"
+      ],
+      "content_type": "news",
+      "source_relation": "brand_statement",
+      "collected_at": "2026-09-25T10:21:48.198042+00:00"
+    },
+    {
+      "id": "7ab27f24a52d358b42",
+      "title": "Серия UNI: будущее уже наступило Флагманская линейка CHANGAN объединяет футуристичный дизайн концепт-каров, надёжные турбомоторы Blue Core и…",
+      "url": "https://t.me/changanrf/1917",
+      "summary": "Серия UNI: будущее уже наступило Флагманская линейка CHANGAN объединяет футуристичный дизайн концепт-каров, надёжные турбомоторы Blue Core и максимальный набор умных технологий для тех, кто не привык выбирать между драйвом и комфортом. Но несмотря на общую ДНК, у каждой модели — свой характер и сценарий использования. 🏎 UNI-V — идеальный выбор для тех, кто ищет настоящий драйв. Этот лифтбек доказывает, что каждый выезд по делам может дарить невероятные эмоции. 💫 UNI-T — яркое и манёвренное кросс-купе для динамичного городского трафика. Осторожно: автомобиль притягивает взгляды соседей по потоку! 👑 UNI-K — просторный и технологичный кроссовер,",
+      "source": "Changan · Telegram",
+      "publisher_id": "brand:changan",
+      "published_at": "2026-09-20T09:04:10+00:00",
+      "categories": [
+        "Automotive"
+      ],
+      "primary_category": "Automotive",
+      "brands": [
+        "Changan"
+      ],
+      "market_scope": "Russia",
+      "platform": "telegram",
+      "account_id": "changan-telegram",
+      "official_brand": true,
+      "source_quality": 4.5,
+      "image_url": "https://cdn4.telesco.pe/file/Eqbosvq4QLO6BDlIB47KczTKCXicJPQo15C0SeRA5b9PaG4x1x7-WHXC0keYkNxw3--bWvY2k02j5cJqyrLp0WU1CsojZeijm2dhjFvzmklRxelUrmuVA5vnmuyXgZ295USQ1exlayNvYPZLyY5Hph-UO_fpTE3XTqpr_ioytASZUzN7lXaA72PynxOM53HMNkBpg0of-hTphrPkrcWaeABmzKZcaZF01f8ilAN45H6zoH0GzdUodNTWMFJoGqFMOWc9cqzoGuWJEJ3OigikkzN-lKE7otTGAniMHjGcSuyn2hLDCg_56cU3cdVTexz_cmn918yvfz13mfWDgMmwiA.jpg",
+      "videos": [],
+      "primary_links": [
+        "https://uni-motors.ru/",
+        "https://t.me/changanrf",
+        "https://max.ru/changanrf"
+      ],
+      "content_type": "news",
+      "source_relation": "brand_statement",
+      "collected_at": "2026-09-25T10:21:48.198042+00:00"
+    },
+    {
+      "id": "9761e3ef84819836f3",
+      "title": "Первый класс для каждого пассажира Полноразмерный гибридный кроссовер DEEPAL ЭС09 длиной больше 5 200 мм с колёсной базой 3 105 мм создан для…",
+      "url": "https://t.me/changanrf/1924",
+      "summary": "Первый класс для каждого пассажира Полноразмерный гибридный кроссовер DEEPAL ЭС09 длиной больше 5 200 мм с колёсной базой 3 105 мм создан для семьи и длительных путешествий. Одна из главных особенностей модели — 71,1% полезного объёма. Салон длиной 3,7 м предлагает поистине королевский комфорт, а свободная планировка позволяет эффективно использовать 4,3 м² внутренней площади. Выберите свой формат. 🔹 Шестиместная версия — принципиально новый уровень уюта. На втором ряду установлены два раздельных капитанских кресла с максимальным набором регулировок, а полноценный третий ряд позволяет взрослым пассажирам чувствовать себя свободно даже в дальн",
+      "source": "Changan · Telegram",
+      "publisher_id": "brand:changan",
+      "published_at": "2026-09-21T09:11:39+00:00",
+      "categories": [
+        "Automotive"
+      ],
+      "primary_category": "Automotive",
+      "brands": [
+        "Changan"
+      ],
+      "market_scope": "Russia",
+      "platform": "telegram",
+      "account_id": "changan-telegram",
+      "official_brand": true,
+      "source_quality": 4.5,
+      "image_url": "https://cdn4.telesco.pe/file/P8ysAP_zvAliQj98C_KA7PNeh--9VBFt5FwHhUc0aWyG2MGjJ1CiSLvIeJKGp1KCPVhYqtMoszxHtpL4ZoxtwnCyT7ChgtuowZDrMIW55oqm_iCrioFXYeJKUiQCM7wY9hNIvt_l99O8uvtUfvTTto15-eSZdyD6QbeoQJ2RTqyoFDQgOco3694F2fDse8Yu8fctUaL5rMe9OUN2mYP3beZsTCy6HoDG4HW14LftNzyWuZcwYij_J7OeqSJ8tHuPAbVpa-FWswRIeDOGjJreYlgChkxFHD5wDE6KLV53NrX-lkpjFGRB2BhBHblc-2O2LtROuPMGQ5jVawJ8YMjDZw.jpg",
+      "videos": [],
+      "primary_links": [
+        "https://t.me/changanrf",
+        "https://max.ru/changanrf"
+      ],
+      "content_type": "news",
+      "source_relation": "brand_statement",
+      "collected_at": "2026-09-25T10:21:48.199042+00:00"
+    },
+    {
+      "id": "de08af9834cf91a327",
+      "title": "Готовим кое-что совершенно новое 👀 На этой неделе наш прямой эфир пройдёт не совсем так, как вы привыкли",
+      "url": "https://t.me/changanrf/1925",
+      "summary": "Готовим кое-что совершенно новое 👀 На этой неделе наш прямой эфир пройдёт не совсем так, как вы привыкли. В этот раз мы ломаем привычный сценарий и выходим в эфир прямо с места главных событий! Обещаем: эффект полного погружения обеспечен. Все подробности раскроем уже завтра — следите за публикациями в нашем канале. Как думаете, какую модель будем обсуждать и откуда вести трансляцию? Пишите варианты в комментариях! 📱 @changanrf 🔴 Мы в MAX !",
+      "source": "Changan · Telegram",
+      "publisher_id": "brand:changan",
+      "published_at": "2026-09-21T16:03:42+00:00",
+      "categories": [
+        "Automotive"
+      ],
+      "primary_category": "Automotive",
+      "brands": [
+        "Changan"
+      ],
+      "market_scope": "Russia",
+      "platform": "telegram",
+      "account_id": "changan-telegram",
+      "official_brand": true,
+      "source_quality": 4.5,
+      "image_url": "https://cdn4.telesco.pe/file/ByMTuegoS5eD01_5Q1kIijNXg_IKOKxua32zB5R2DI5QkbQ4jBwrw5Qs5I-D1kp3SPsbBlBXu25iFCapUuEfwMDDG4hfcHusTVDbMtY2sdXJiQxxYOf13WYr4ywmZ8AUUk-vgDb54wf5lxOSPzaKPG1BPy5TAn9lKuZE6rHglzwC0F8yA0iagSonYHJudbVVFR6SVDVSDXs9D2y2oCRatEfICXUX7rH3PSxUkzFOh1nfByYb-WzoWrRe194S5cyU9TdQOo9fEN_p4rfVYli2TAjNXMtObBAjrwj0ojyzjNuEvfwm59Idum8t9Hgq5Nk_9RrLormlyJBRoPFoKp2Ecg.jpg",
+      "videos": [],
+      "primary_links": [
+        "https://t.me/changanrf",
+        "https://max.ru/changanrf"
+      ],
+      "content_type": "news",
+      "source_relation": "brand_statement",
+      "collected_at": "2026-09-25T10:21:48.200042+00:00"
+    },
+    {
+      "id": "75c51f791b62949d23",
+      "title": "Динамика спорткара, комфорт бизнес-класса: раскрываем оснащение DEEPAL ЭС09 ⚡️ Наш новый полноприводный гибрид — это тот случай, когда…",
+      "url": "https://t.me/changanrf/1926",
+      "summary": "Динамика спорткара, комфорт бизнес-класса: раскрываем оснащение DEEPAL ЭС09 ⚡️ Наш новый полноприводный гибрид — это тот случай, когда технологичность гармонично сочетается с абсолютным комфортом. Кроссовер мощностью 492 л. с. разгоняется до сотни за 5,9 секунды, расходуя при этом 5,5 л топлива в смешанном цикле. А адаптивная пневмоподвеска с амортизаторами изменяемой жёсткости в версии «Техно» превращает любую дорогу в идеальный асфальт. Внутри — впечатляющее цифровое пространство: три дисплея, включая огромный 21,4″ экран для задних пассажиров, проекционный дисплей с дополненной реальностью и премиум-акустика из 20 динамиков с сервисами «Ян",
+      "source": "Changan · Telegram",
+      "publisher_id": "brand:changan",
+      "published_at": "2026-09-21T16:32:45+00:00",
+      "categories": [
+        "Automotive"
+      ],
+      "primary_category": "Automotive",
+      "brands": [
+        "Changan"
+      ],
+      "market_scope": "Russia",
+      "platform": "telegram",
+      "account_id": "changan-telegram",
+      "official_brand": true,
+      "source_quality": 4.5,
+      "image_url": "https://cdn4.telesco.pe/file/JgpldCaS8iaoGZEz1sT7TtkMNRpgHscu7XuuFo3fa0TCYEI-VpbW1kh_qfOG-369aTD8CFE0GYgj84fFMGK-cQlvcHz6hxgF2PktWXlQgKxcqk5YsabU1xUMVlVxqBMxfGDnoq20xKK7FOzXGCDK38OTSZM6DSXBRzdqZlBZBM9e18sPdNpjG03U1c8VSQMPuqzzYin5braXw8retpHBTY3zMyN3T1CKbTwCI34W8WWT6ycEhXTj980TUzdzqj6FesWHhLonpmN5IWBW7wJOswVoYvFr27QDHwR8sVlxswCgkAIXZRFyoUg8PKuECV7GSk_lrztZ0YlHKjXWhUXl5A.jpg",
+      "videos": [],
+      "primary_links": [
+        "https://t.me/changanrf",
+        "https://max.ru/changanrf"
+      ],
+      "content_type": "news",
+      "source_relation": "brand_statement",
+      "collected_at": "2026-09-25T10:21:48.201043+00:00"
+    },
+    {
+      "id": "23c5175e9a082dce1c",
+      "title": "Полное погружение: смотрим презентацию DEEPAL ЭС09 вместе",
+      "url": "https://t.me/changanrf/1927",
+      "summary": "Полное погружение: смотрим презентацию DEEPAL ЭС09 вместе! 💥 Мы обещали необычный формат — и мы держим своё слово. Уже завтра запустим прямую трансляцию прямо с официальной презентации нового гибридного флагмана! И, поверьте, этой новинке действительно есть чем удивить: — внушительный силуэт 5,2-метрового кузова, футуристичная оптика и геометричные 21’’ диски; — роскошный салон с встроенным холодильником-подлокотником с регулировкой температуры, капитанскими креслами и эффектом невесомости; — потолочный 21,4’’ экран для пассажиров и двойной сенсорный дисплей впереди; — аудиосистема на 20 динамиков. Расскажем о философии модели и её предназнач",
+      "source": "Changan · Telegram",
+      "publisher_id": "brand:changan",
+      "published_at": "2026-09-22T13:33:11+00:00",
+      "categories": [
+        "Automotive"
+      ],
+      "primary_category": "Automotive",
+      "brands": [
+        "Changan"
+      ],
+      "market_scope": "Russia",
+      "platform": "telegram",
+      "account_id": "changan-telegram",
+      "official_brand": true,
+      "source_quality": 4.5,
+      "image_url": "https://cdn4.telesco.pe/file/QLErA81p_nK7V9HKLmOfOmLTc5mMgPiWNZwd8HmWf9ghumUXonlJS5tUbedfhCxBpcb8cx2uJuJlPeq0gYmVoGaliSjyP6bKKxdCDqwjAJ71-3EsIzJpNQxCCDAav2jmUDBLTUEecv7-XMTsV_tofk_K2MtTRyDR5Tz3BVZQZXCiLKL4a1XuTuBf2k0d3mX1W64Em61Wek-rbmQVRKsTW5gfZGIhagkwBnzSv9A0wDqqoD0BccNX4_yVYi4DQdROffeAsdBMkwix_7M86v8mgbhYbo83QG_PmruNByr3-V-zUM1cDfROruxSqxQ9ToOm4Lu65QmuLM92M1trRf_S_g.jpg",
+      "videos": [],
+      "primary_links": [
+        "https://vkvideo.ru/live-93509567_456239688",
+        "https://t.me/changanrf",
+        "https://max.ru/changanrf"
+      ],
+      "content_type": "news",
+      "source_relation": "brand_statement",
+      "collected_at": "2026-09-25T10:21:48.201043+00:00"
+    },
+    {
+      "id": "286688474b32779ae2",
+      "title": "Полное погружение: смотрим презентацию DEEPAL ЭС09 вместе",
+      "url": "https://t.me/changanrf/1929",
+      "summary": "Полное погружение: смотрим презентацию DEEPAL ЭС09 вместе! 💥 Мы обещали необычный формат — и мы держим своё слово. Уже завтра запустим прямую трансляцию прямо с официальной презентации нового гибридного флагмана!  И, поверьте, этой новинке действительно есть…",
+      "source": "Changan · Telegram",
+      "publisher_id": "brand:changan",
+      "published_at": "2026-09-23T11:33:14+00:00",
+      "categories": [
+        "Automotive"
+      ],
+      "primary_category": "Automotive",
+      "brands": [
+        "Changan"
+      ],
+      "market_scope": "Russia",
+      "platform": "telegram",
+      "account_id": "changan-telegram",
+      "official_brand": true,
+      "source_quality": 4.5,
+      "image_url": "",
+      "videos": [],
+      "primary_links": [],
+      "content_type": "news",
+      "source_relation": "brand_statement",
+      "collected_at": "2026-09-25T10:21:48.202042+00:00"
+    },
+    {
+      "id": "81e4f7c4e9a1973bec",
+      "title": "CHANGAN объявляет о старте продаж DEEPAL ЭС09 в России ⚡ Встречайте самый крупный и технологичный гибридный кроссовер бренда",
+      "url": "https://t.me/changanrf/1930",
+      "summary": "CHANGAN объявляет о старте продаж DEEPAL ЭС09 в России ⚡ Встречайте самый крупный и технологичный гибридный кроссовер бренда! Длина кузова 5,2 м, премиальный интерьер, полный привод и 492 л. с. — впечатляющая новинка теперь может стать вашей. Это флагман, который открывает настоящую свободу путешествий благодаря запасу хода более 1 000 км и способности преодолеть до 210 км на чистой электротяге по циклу NEDC. А сделать долгие километры пути приятнее помогут вентиляция и массаж первых двух рядов, сиденья с эффектом невесомости и мультимедиасистема с сервисами Яндекс. На российском рынке DEEPAL ЭС09 представлен в двух комплектациях: 🔘 «Люкс»: о",
+      "source": "Changan · Telegram",
+      "publisher_id": "brand:changan",
+      "published_at": "2026-09-23T15:33:15+00:00",
+      "categories": [
+        "Automotive"
+      ],
+      "primary_category": "Automotive",
+      "brands": [
+        "Changan"
+      ],
+      "market_scope": "Russia",
+      "platform": "telegram",
+      "account_id": "changan-telegram",
+      "official_brand": true,
+      "source_quality": 4.5,
+      "image_url": "https://cdn4.telesco.pe/file/n8JT3ow6IvPg1KBb0afOWdIbLWApkRYfkQ7c5GydZ7b2veyiSqIsxndQ_KHSagZSOjY87LuYBBd1TOcL6azAf3PjwkREwcqgi47ZPn3pTcMfquP5eU4r6ORx2QDtM5WnEdmIUTmOfZijT8HeDVs5u9M6XkVgqrLzm4bMhVCQyRI4NFpPIlvrMZlhH0Qo4sOaYqH0N75QIeMEV2H63pS1Ot8V8_v9AC8bkJRkw6mMJror3v7OcxocTnRM9_2mCqkYybYR5GumiDbFcD52Xs5IsDYb7meGcGBSV4adLV-vVe6NICpIr2a7VCBebbNp_Z8oWXYU4UKkX35bbrrNHVmE0g.jpg",
+      "videos": [],
+      "primary_links": [
+        "https://t.me/changanrf",
+        "https://max.ru/changanrf"
+      ],
+      "content_type": "news",
+      "source_relation": "brand_statement",
+      "collected_at": "2026-09-25T10:21:48.202042+00:00"
+    },
+    {
+      "id": "4cbd8348dcbb2bdb25",
+      "title": "Три мифа о встроенном видеорегистраторе, в которые пора перестать верить 💡 Штатный регистратор в CHANGAN UNI-К — опция куда более умная и…",
+      "url": "https://t.me/changanrf/1931",
+      "summary": "Три мифа о встроенном видеорегистраторе, в которые пора перестать верить 💡 Штатный регистратор в CHANGAN UNI-К — опция куда более умная и технологичная, чем вы себе представляете! Многие до сих пор относятся к нему просто как к «камере на всякий случай», но на деле он умеет гораздо больше. ✖️ Миф 1: «Он нужен только для спорных ситуаций» Это не только про безопасность, но и про воспоминания! Ярко-алый закат над трассой, серпантин в горах или случайный красивый кадр в пути — система помогает сохранять яркие моменты из ваших автопутешествий на память. ✖️ Миф 2: «Он снимает только узкий сектор спереди» Камеры обзора 360° контролируют весь периме",
+      "source": "Changan · Telegram",
+      "publisher_id": "brand:changan",
+      "published_at": "2026-09-24T13:04:22+00:00",
+      "categories": [
+        "Automotive"
+      ],
+      "primary_category": "Automotive",
+      "brands": [
+        "Changan"
+      ],
+      "market_scope": "Russia",
+      "platform": "telegram",
+      "account_id": "changan-telegram",
+      "official_brand": true,
+      "source_quality": 4.5,
+      "image_url": "https://cdn4.telesco.pe/file/K03L1YS8H0s4VZDLYVQd4atMy8tP5sQ17DskoFgrVdNSa9mKzGdo1h1RKQJA55xqGDdTlbXENaxJlSnLSVKHPapUP4KM6YsmENcDfMMhR0dgHRIp5sPpCitpVP2nURMVqlAWxVlXNmPv2F8Wsx8Q6mGPUBZJXL4BOemXSPuFlluQkjJGEAoF-fg_2MskILCCaGb5e5MdXLX2J2v6VF1ICEXZzwmUR8oPVusXL0WZMfW_oBcS8IAYKSDbyhsz5fay1U3x88dSzVlXYwz5uQ_y4sfM_ROXswmLfa0nQhPe8uu4C1_jAkKAXFJMgQ_nQejjRxrdw46Iz8xoGej-g8YBxQ.jpg",
+      "videos": [],
+      "primary_links": [
+        "https://t.me/changanrf",
+        "https://max.ru/changanrf"
+      ],
+      "content_type": "news",
+      "source_relation": "brand_statement",
+      "collected_at": "2026-09-25T10:21:48.203042+00:00"
+    },
+    {
+      "id": "dd1379a3db6d415bdc",
+      "title": "Почувствуйте будущее 🖱 Вместе с медиахудожником Сашей Коджо создали пространство, где будущее ощущается раньше, чем происходит",
+      "url": "https://t.me/mtsofficial/4788",
+      "summary": "Почувствуйте будущее 🖱 Вместе с медиахудожником Сашей Коджо создали пространство, где будущее ощущается раньше, чем происходит. В его основе — идея о том, что будущее зарождается из интуиции и эмоции: легкого волнения перед тем, что еще не случилось, но уже чувствуется. ▪️ Технология здесь работает на эмоциях: видео, звук и текст идут синхронно, а музыка замыкается в бесконечный цикл. ➡️ Увидеть и почувствовать, что у нас получилось, можно на ярмарке молодого современного искусства blazar до 27 сентября в Музее Москвы. 📶 Мы в МАКС",
+      "source": "МТС · Telegram",
+      "publisher_id": "brand:mts",
+      "published_at": "2026-09-25T10:11:42+00:00",
+      "categories": [
+        "Telecom"
+      ],
+      "primary_category": "Telecom",
+      "brands": [
+        "МТС"
+      ],
+      "market_scope": "Russia",
+      "platform": "telegram",
+      "account_id": "mts-telegram",
+      "official_brand": true,
+      "source_quality": 4.5,
+      "image_url": "https://cdn4.telesco.pe/file/fKJBmoQk8R4OerPqbAzR-l_CiIVqR62IyZm5Z6FO4hmfrYz4LAmKYPqarbq5nzs90-PkZDfvxraKysx-pAfAewYPE4GRSEkJn6AzsUYjSV4MQyPFpbtrMX1CqXVbIgxbylew8mBcJb05JjizQ2exjll6zId-2WzaqJ6lXTHtFSgxrfHKOiYj7k5v2pGE-EYvzvu1H6Z_QYMQYH0R9DLCoSA3U8HQcOYgioPkzDrhkHQVuaDZMYlK0NZO8f5ja_p-ZwYGVuQFonaWckuIlNCIoEIy1BIS_6nqduTH8YXnw2lcM7pi26Mr2s5RloFvx8wFjnEIg9f7x4CjzljRKMgqXQ.jpg",
+      "videos": [],
+      "primary_links": [
+        "https://max.ru/MTS"
+      ],
+      "content_type": "news",
+      "source_relation": "brand_statement",
+      "collected_at": "2026-09-25T10:21:47.551237+00:00"
+    }
+  ]
+}

@@ -1,0 +1,312 @@
+{
+  "accounts": [
+    {
+      "id": "mts-telegram",
+      "brand": "МТС",
+      "publisher_id": "brand:mts",
+      "categories": [
+        "Telecom"
+      ],
+      "platform": "telegram",
+      "url": "https://t.me/mtsofficial",
+      "verified": true,
+      "verified_at": "2026-09-25",
+      "proof_url": "https://moskva.mts.ru/about/media-centr/kontakty-media-centra/mts-v-socialnyh-setyah",
+      "role": "Основной аккаунт"
+    },
+    {
+      "id": "mts-vk",
+      "brand": "МТС",
+      "publisher_id": "brand:mts",
+      "categories": [
+        "Telecom"
+      ],
+      "platform": "vk",
+      "url": "https://vk.com/mts",
+      "verified": true,
+      "verified_at": "2026-09-25",
+      "proof_url": "https://moskva.mts.ru/about/media-centr/kontakty-media-centra/mts-v-socialnyh-setyah",
+      "role": "Основной аккаунт"
+    },
+    {
+      "id": "vkusvill-telegram",
+      "brand": "ВкусВилл",
+      "publisher_id": "brand:vkusvill",
+      "categories": [
+        "Retail"
+      ],
+      "platform": "telegram",
+      "url": "https://t.me/news_vkusvill",
+      "verified": true,
+      "verified_at": "2026-09-25",
+      "proof_url": "https://vkusvill.ru/contacts/",
+      "role": "Пресс-служба"
+    },
+    {
+      "id": "vkusvill-vk",
+      "brand": "ВкусВилл",
+      "publisher_id": "brand:vkusvill",
+      "categories": [
+        "Retail"
+      ],
+      "platform": "vk",
+      "url": "https://vk.com/vkusvill_ru",
+      "verified": true,
+      "verified_at": "2026-09-25",
+      "proof_url": "https://vkusvill.ru/contacts/",
+      "role": "Основной аккаунт"
+    },
+    {
+      "id": "x5-telegram",
+      "brand": "X5",
+      "publisher_id": "brand:x5",
+      "categories": [
+        "Retail"
+      ],
+      "platform": "telegram",
+      "url": "https://t.me/x5_telega",
+      "verified": true,
+      "verified_at": "2026-09-25",
+      "proof_url": "https://www.x5.ru/ru/",
+      "role": "Основной аккаунт"
+    },
+    {
+      "id": "x5-vk",
+      "brand": "X5",
+      "publisher_id": "brand:x5",
+      "categories": [
+        "Retail"
+      ],
+      "platform": "vk",
+      "url": "https://vk.com/x5group",
+      "verified": true,
+      "verified_at": "2026-09-25",
+      "proof_url": "https://www.x5.ru/ru/",
+      "role": "Основной аккаунт"
+    },
+    {
+      "id": "tbank-telegram",
+      "brand": "Т-Банк",
+      "publisher_id": "brand:tbank",
+      "categories": [
+        "BanksFintech"
+      ],
+      "platform": "telegram",
+      "url": "https://t.me/tbank/",
+      "verified": true,
+      "verified_at": "2026-09-25",
+      "proof_url": "https://www.tbank.ru/about/",
+      "role": "Основной аккаунт"
+    },
+    {
+      "id": "tbank-vk",
+      "brand": "Т-Банк",
+      "publisher_id": "brand:tbank",
+      "categories": [
+        "BanksFintech"
+      ],
+      "platform": "vk",
+      "url": "https://vk.com/tbank/",
+      "verified": true,
+      "verified_at": "2026-09-25",
+      "proof_url": "https://www.tbank.ru/about/",
+      "role": "Основной аккаунт"
+    },
+    {
+      "id": "vtb-telegram",
+      "brand": "ВТБ",
+      "publisher_id": "brand:vtb",
+      "categories": [
+        "BanksFintech"
+      ],
+      "platform": "telegram",
+      "url": "https://t.me/bankvtb",
+      "verified": true,
+      "verified_at": "2026-09-25",
+      "proof_url": "https://www.vtb.ru/",
+      "role": "Основной аккаунт"
+    },
+    {
+      "id": "vtb-vk",
+      "brand": "ВТБ",
+      "publisher_id": "brand:vtb",
+      "categories": [
+        "BanksFintech"
+      ],
+      "platform": "vk",
+      "url": "https://vk.com/vtb",
+      "verified": true,
+      "verified_at": "2026-09-25",
+      "proof_url": "https://www.vtb.ru/",
+      "role": "Основной аккаунт"
+    },
+    {
+      "id": "avtovaz-telegram",
+      "brand": "LADA",
+      "publisher_id": "brand:avtovaz",
+      "categories": [
+        "Automotive"
+      ],
+      "platform": "telegram",
+      "url": "https://t.me/lada_rf",
+      "verified": true,
+      "verified_at": "2026-09-25",
+      "proof_url": "https://www.lada.ru/",
+      "role": "Основной аккаунт"
+    },
+    {
+      "id": "avtovaz-vk",
+      "brand": "LADA",
+      "publisher_id": "brand:avtovaz",
+      "categories": [
+        "Automotive"
+      ],
+      "platform": "vk",
+      "url": "https://vk.com/lada",
+      "verified": true,
+      "verified_at": "2026-09-25",
+      "proof_url": "https://www.lada.ru/",
+      "role": "Основной аккаунт"
+    },
+    {
+      "id": "moskvich-telegram",
+      "brand": "Москвич",
+      "publisher_id": "brand:moskvich",
+      "categories": [
+        "Automotive"
+      ],
+      "platform": "telegram",
+      "url": "https://t.me/Zavod_Moskvich",
+      "verified": true,
+      "verified_at": "2026-09-25",
+      "proof_url": "https://moskvich-auto.ru/",
+      "role": "Основной аккаунт"
+    },
+    {
+      "id": "moskvich-vk",
+      "brand": "Москвич",
+      "publisher_id": "brand:moskvich",
+      "categories": [
+        "Automotive"
+      ],
+      "platform": "vk",
+      "url": "https://vk.com/zavodmoskvich",
+      "verified": true,
+      "verified_at": "2026-09-25",
+      "proof_url": "https://moskvich-auto.ru/",
+      "role": "Основной аккаунт"
+    },
+    {
+      "id": "geely-telegram",
+      "brand": "Geely",
+      "publisher_id": "brand:geely",
+      "categories": [
+        "Automotive"
+      ],
+      "platform": "telegram",
+      "url": "https://t.me/geelyofficial",
+      "verified": true,
+      "verified_at": "2026-09-25",
+      "proof_url": "https://www.geely-motors.com/",
+      "role": "Основной аккаунт"
+    },
+    {
+      "id": "geely-vk",
+      "brand": "Geely",
+      "publisher_id": "brand:geely",
+      "categories": [
+        "Automotive"
+      ],
+      "platform": "vk",
+      "url": "https://vk.com/club83363436",
+      "verified": true,
+      "verified_at": "2026-09-25",
+      "proof_url": "https://www.geely-motors.com/",
+      "role": "Основной аккаунт"
+    },
+    {
+      "id": "changan-telegram",
+      "brand": "Changan",
+      "publisher_id": "brand:changan",
+      "categories": [
+        "Automotive"
+      ],
+      "platform": "telegram",
+      "url": "https://t.me/changanrf",
+      "verified": true,
+      "verified_at": "2026-09-25",
+      "proof_url": "https://changanauto.ru/",
+      "role": "Основной аккаунт"
+    },
+    {
+      "id": "changan-vk",
+      "brand": "Changan",
+      "publisher_id": "brand:changan",
+      "categories": [
+        "Automotive"
+      ],
+      "platform": "vk",
+      "url": "https://vk.com/changanrussia",
+      "verified": true,
+      "verified_at": "2026-09-25",
+      "proof_url": "https://changanauto.ru/",
+      "role": "Основной аккаунт"
+    }
+  ],
+  "candidates": [
+    {
+      "detail": "HTTP Error 307: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe l",
+      "status": "pending",
+      "proof_url": "https://corp.ozon.ru/",
+      "brand": "Ozon"
+    },
+    {
+      "detail": "На проверенной странице не найдены подтвержденные ссылки на аккаунты",
+      "status": "pending",
+      "proof_url": "https://www.magnit.com/ru/",
+      "brand": "Магнит"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "status": "pending",
+      "proof_url": "https://lenta.com/",
+      "brand": "Лента"
+    },
+    {
+      "detail": "На проверенной странице не найдены подтвержденные ссылки на аккаунты",
+      "status": "pending",
+      "proof_url": "https://www.sberbank.com/ru",
+      "brand": "Сбер"
+    },
+    {
+      "detail": "<urlopen error timed out>",
+      "status": "pending",
+      "proof_url": "https://corp.megafon.ru/",
+      "brand": "МегаФон"
+    },
+    {
+      "detail": "HTTP Error 401: Unauthorized",
+      "status": "pending",
+      "proof_url": "https://www.pik.ru/",
+      "brand": "ПИК"
+    },
+    {
+      "detail": "HTTP Error 403: Forbidden",
+      "status": "pending",
+      "proof_url": "https://samokat.ru/",
+      "brand": "Самокат"
+    },
+    {
+      "detail": "HTTP Error 498: ",
+      "status": "pending",
+      "proof_url": "https://www.wildberries.ru/",
+      "brand": "Wildberries"
+    },
+    {
+      "detail": "HTTP Error 403: Forbidden",
+      "status": "pending",
+      "proof_url": "https://alfabank.ru/",
+      "brand": "Альфа-Банк"
+    }
+  ]
+}
