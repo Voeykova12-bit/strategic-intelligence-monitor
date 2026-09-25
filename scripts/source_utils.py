@@ -50,6 +50,14 @@ def publisher(url):
         return 'rbc.ru'
     return host
 
+def market_scope(text, country='RU'):
+    low = text.lower()
+    if any(w in low for w in ['в россии','российск','рынок рф','рынка рф']):
+        return 'Russia'
+    if country != 'RU' or any(w in low for w in ['зарубежн','западные','западных','мировой рынок','мирового рынка','глобальн','в сша','в китае','в европе','великобритани']):
+        return 'Global'
+    return 'Russia'
+
 def deduplicate(items):
     result, urls, titles = [], {}, {}
     for item in sorted(items, key=lambda x: (bool(x.get('curated_backfill')), float(x.get('source_quality', 0))), reverse=True):

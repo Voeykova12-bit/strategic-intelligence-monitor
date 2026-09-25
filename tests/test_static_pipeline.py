@@ -3,7 +3,7 @@ from pathlib import Path
 from datetime import datetime,timezone,timedelta
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'scripts'))
 from bs4 import BeautifulSoup
-from source_utils import parse_date,canonical_url,material_type,deduplicate,publication_meta,in_window,publisher
+from source_utils import parse_date,canonical_url,material_type,deduplicate,publication_meta,in_window,publisher,market_scope
 from research_collector import allowed
 
 def test_unknown_dates_never_become_today():
@@ -11,6 +11,10 @@ def test_unknown_dates_never_become_today():
     assert parse_date('yesterday') is None
     assert parse_date('31.02.2026') is None
     assert not in_window((datetime.now(timezone.utc)+timedelta(days=7)).isoformat())
+
+def test_geography_is_not_publisher_location():
+    assert market_scope('Зарубежные фармкомпании заключили сделки','RU')=='Global'
+    assert market_scope('Российский рынок зарубежных автомобилей','RU')=='Russia'
 
 def test_russian_dates():
     assert parse_date('21 сентября 2026')=='2026-09-21T00:00:00+00:00'

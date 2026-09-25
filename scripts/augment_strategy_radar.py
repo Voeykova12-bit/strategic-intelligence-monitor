@@ -8,7 +8,7 @@ from urllib.parse import urljoin, urlsplit
 from email.utils import parsedate_to_datetime
 
 from concurrent.futures import ThreadPoolExecutor
-from source_utils import parse_date, material_type, deduplicate, in_window
+from source_utils import parse_date, material_type, deduplicate, in_window, market_scope
 from research_collector import collect, allowed
 
 import feedparser
@@ -140,7 +140,7 @@ def make(src,title,url,summary,published,image=""):
     score=min(5,2.5+min(1.3,strategic*.25)+(0.4 if re.search(r"\d",text) else 0)+(src["quality"]-4)*.35+len(tops)*.08)
     if src.get("research_primary") and strategic: score=min(5,score+.5)
     if score<3.2:return None
-    scope="Russia" if src["country"]=="RU" else "Global"
+    scope=market_scope(text, src['country'])
     uid=hashlib.sha1((url+"|"+title.lower()).encode()).hexdigest()[:18]
     why="Международный сигнал, который может повлиять на маркетинг, потребление или бизнес-модели и быть релевантен российскому рынку." if scope=="Global" else "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы."
     if "Исследования и прогнозы" in tops:why+=" Есть исследовательская или прогнозная база."
@@ -210,6 +210,7 @@ def main():
         if config:
             x['categories'], x['topics'] = classify(txt, config['hint'])
             x['primary_category'] = x['categories'][0]
+            x['market_scope'] = market_scope(txt, config['country'])
         tops=x.get("topics") or []
         ctype,future_signal=content_type(txt,tops)
         x["content_type"]=ctype
