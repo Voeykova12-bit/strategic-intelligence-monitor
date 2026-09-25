@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-25T08:53:35.163451+00:00",
+  "updated_at": "2026-09-25T09:01:50.788856+00:00",
   "source_count": 42,
-  "item_count": 376,
+  "item_count": 378,
   "retention_days": 365,
   "categories": [
     {
@@ -98,7 +98,7 @@
     },
     {
       "source": "Sostav — маркетинг и бренды",
-      "added": 0
+      "added": 1
     },
     {
       "source": "CNews — бизнес и технологии",
@@ -197,7 +197,7 @@
     },
     {
       "source": "РБК Тренды",
-      "added": 3,
+      "added": 1,
       "status": "ok"
     },
     {
@@ -262,8 +262,8 @@
     },
     {
       "source": "PROfashion",
-      "added": 0,
-      "status": "error"
+      "added": 1,
+      "status": "ok"
     },
     {
       "source": "Fashion Consulting Group — Telegram",
@@ -291,10 +291,6 @@
     },
     {
       "source": "ФАС России — новости",
-      "error": "<urlopen error timed out>"
-    },
-    {
-      "source": "PROfashion",
       "error": "<urlopen error timed out>"
     }
   ],
@@ -2827,6 +2823,36 @@
       "publisher_id": "infoline.spb.ru"
     },
     {
+      "id": "c19de58499e30c6c3b",
+      "title": "Food Business Forum Qazaqstan 2026 соберет представителей розничного бизнеса и производственных компаний на крупнейшей деловой площадке Алматы",
+      "url": "https://infoline.spb.ru/news?news=309152",
+      "source": "INFOLine",
+      "published_at": "2026-09-25T00:00:00+00:00",
+      "summary": "11–12 ноября 2026 года в Алматы впервые пройдет Food Business Forum Qazaqstan — масштабное отраслевое событие, которое объединит ведущих производителей, ритейлеров, дистрибьюторов, представителей HoReCa, e-commerce и технологических компаний Казахстана и Центральной Азии.",
+      "categories": [
+        "Retail",
+        "DeliveryEcom"
+      ],
+      "primary_category": "Retail",
+      "topics": [
+        "Бизнес-изменения"
+      ],
+      "brands": [],
+      "score": 4.0,
+      "strategic_relevance_score": 80,
+      "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
+      "market_scope": "Russia",
+      "metrics": [],
+      "image_url": "",
+      "source_quality": 4.8,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": [],
+      "pdf_urls": [],
+      "research_primary": true,
+      "publisher_id": "infoline.spb.ru"
+    },
+    {
       "id": "1d42ced06dd9932125",
       "title": "ЦБ оценит выставляемую на продажу долю Национальной системы платежных карт",
       "url": "https://kommersant.ru/doc/8974589",
@@ -3508,6 +3534,34 @@
       "pdf_urls": [],
       "research_primary": false,
       "publisher_id": "new-retail.ru"
+    },
+    {
+      "id": "89e45b73b8e580b799",
+      "title": "Inside McDonald’s new marketing model as it enters media network fray",
+      "url": "https://marketingdive.com/news/inside-mcdonalds-new-marketing-model-as-it-enters-media-network-fray/831170",
+      "source": "Marketing Dive",
+      "published_at": "2026-09-23T18:30:00+00:00",
+      "summary": "At its first investor day since 2023, the fast-food giant announced it is piloting a media network with the goal of building a $1 billion ad business.",
+      "categories": [
+        "MediaAdvertising"
+      ],
+      "primary_category": "MediaAdvertising",
+      "topics": [
+        "Рынок и продажи",
+        "Маркетинг и медиа"
+      ],
+      "brands": [],
+      "score": 3.7,
+      "strategic_relevance_score": 74,
+      "why_it_matters": "Международный сигнал, который может повлиять на маркетинг, потребление или бизнес-модели и быть релевантен российскому рынку.",
+      "market_scope": "Global",
+      "metrics": [],
+      "image_url": "https://imgproxy.divecdn.com/-YuW349ccEajUTSSEoqqOzEWFdkOyI0KSFd_S_T-dUQ/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMTgwNTQ2MTkyX1RPWDJkcDMuanBn.webp",
+      "source_quality": 4.5,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": [],
+      "publisher_id": "marketingdive.com"
     },
     {
       "id": "422e55842e1bee1487",
@@ -5602,35 +5656,6 @@
       "future_signal": false,
       "future_horizon": [],
       "publisher_id": "retaildive.com"
-    },
-    {
-      "id": "89e45b73b8e580b799",
-      "title": "Inside McDonald’s new marketing model as it enters media network fray",
-      "url": "https://marketingdive.com/news/inside-mcdonalds-new-marketing-model-as-it-enters-media-network-fray/831170",
-      "source": "Marketing Dive",
-      "published_at": "2026-09-23T18:30:00+00:00",
-      "summary": "The chain announced plans for a unified mobile platform that is scheduled to be piloted in France later this year before scaling to other markets.",
-      "categories": [
-        "MediaAdvertising",
-        "TechnologyAI"
-      ],
-      "primary_category": "MediaAdvertising",
-      "topics": [
-        "Рынок и продажи",
-        "Маркетинг и медиа"
-      ],
-      "brands": [],
-      "score": 3.3,
-      "strategic_relevance_score": 66,
-      "why_it_matters": "Международный сигнал, который может повлиять на маркетинг, потребление или бизнес-модели и быть релевантен российскому рынку.",
-      "market_scope": "Global",
-      "metrics": [],
-      "image_url": "https://imgproxy.divecdn.com/-YuW349ccEajUTSSEoqqOzEWFdkOyI0KSFd_S_T-dUQ/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMTgwNTQ2MTkyX1RPWDJkcDMuanBn.webp",
-      "source_quality": 4.5,
-      "content_type": "news",
-      "future_signal": false,
-      "future_horizon": [],
-      "publisher_id": "marketingdive.com"
     },
     {
       "id": "5aba57c08f793ba569",
@@ -11085,6 +11110,35 @@
       "future_signal": false,
       "content_type": "news",
       "source_quality": 4.0,
+      "publisher_id": "sostav.ru"
+    },
+    {
+      "id": "f008b33d35a8898d8c",
+      "title": "В Петербурге открылся коммуникационный форум Baltic Weekend",
+      "url": "https://sostav.ru/publication/forum-baltic-weekend-87231.html",
+      "source": "Sostav — маркетинг и бренды",
+      "published_at": "2026-09-25T08:55:00+00:00",
+      "summary": "Более 400 экспертов и 60 компаний обсудили нейросети, национальные цели и новые медиапарадигмы",
+      "categories": [
+        "TechnologyAI"
+      ],
+      "primary_category": "TechnologyAI",
+      "topics": [
+        "Форматы и экспансия",
+        "Digital и технологии"
+      ],
+      "brands": [],
+      "score": 1.6,
+      "strategic_relevance_score": 32,
+      "relevance_reasons": [],
+      "why_it_matters": "Материал влияет на рыночный или конкурентный контекст.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [],
+      "source_quality": 4.2,
       "publisher_id": "sostav.ru"
     },
     {
