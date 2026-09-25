@@ -112,6 +112,16 @@ def auto_reports(news: dict, known_urls: set[str]) -> list[dict]:
 def safe_name(report_id: str) -> str:
     return re.sub(r"[^a-zA-Z0-9._-]+", "-", report_id).strip("-") + ".pdf"
 
+def unique_reports(reports):
+    seen, result = set(), []
+    for report in reports:
+        keys = {'id:' + report['id']}
+        keys.update(canonical_url(report[k]) for k in ['url','landing_url'] if report.get(k))
+        if not keys & seen:
+            result.append(report)
+        seen.update(keys)
+    return result
+
 def archive_pdf(report: dict) -> tuple[bool, str]:
     if not report.get("archive") or report.get("access") != "public":
         return False, ""
@@ -149,7 +159,8 @@ def main() -> None:
     except Exception:
         news = {"items": []}
 
-    known = {canonical_url(r.get("url", "")) for r in curated}
+    known = {canonical_url(r[k]) for r in curated for k in ['url','landing_url'] if r.get(k)}
+    known_ids = {r['id'] for r in curated}
     # Retain prior records when a source is temporarily unavailable.
     previous = json.loads(OUTPUT.read_text(encoding="utf-8")) if OUTPUT.exists() else {"reports": []}
     current_items = {x['id']: x for x in news.get('items', [])}
@@ -160,10 +171,11 @@ def main() -> None:
         if current:
             r['category'] = category_for(current) or r['category']
         key = canonical_url(r.get("landing_url") or r.get("url", ""))
-        if key not in known:
+        if key not in known and r['id'] not in known_ids:
             curated.append(r)
             known.add(key)
-    reports = list(curated) + auto_reports(news, known)
+            known_ids.add(r['id'])
+    reports = unique_reports(list(curated) + auto_reports(news, known))
     checked_at = datetime.now(timezone.utc).isoformat()
     archive_errors = []
 

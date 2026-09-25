@@ -5,6 +5,13 @@ sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'scripts'))
 from bs4 import BeautifulSoup
 from source_utils import parse_date,canonical_url,material_type,deduplicate,publication_meta,in_window,publisher,market_scope
 from research_collector import allowed
+from build_reports import unique_reports
+
+def test_report_archive_does_not_duplicate_curated_pdf():
+    curated={'id':'one','url':'https://example.com/report.pdf','landing_url':'https://example.com/report'}
+    previous=dict(curated,local_path='reports/one.pdf')
+    discovered={'id':'auto-two','url':'https://example.com/report?utm_source=feed'}
+    assert len(unique_reports([curated,previous,discovered]))==1
 
 def test_unknown_dates_never_become_today():
     assert parse_date(None) is None
