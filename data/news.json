@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-25T11:17:43.736057+00:00",
+  "updated_at": "2026-09-26T09:58:18.308535+00:00",
   "source_count": 42,
-  "item_count": 399,
+  "item_count": 425,
   "retention_days": 365,
   "categories": [
     {
@@ -74,7 +74,7 @@
   "source_stats": [
     {
       "source": "Retail.ru — новости",
-      "added": 0
+      "added": 1
     },
     {
       "source": "Retail.ru — статьи",
@@ -86,27 +86,27 @@
     },
     {
       "source": "РБК — бизнес и экономика",
-      "added": 0
+      "added": 2
     },
     {
       "source": "Коммерсантъ — новости",
-      "added": 1
+      "added": 3
     },
     {
       "source": "Ведомости — новости",
-      "added": 0
+      "added": 1
     },
     {
       "source": "Sostav — маркетинг и бренды",
-      "added": 1
+      "added": 2
     },
     {
       "source": "CNews — бизнес и технологии",
-      "added": 1
+      "added": 6
     },
     {
       "source": "ТАСС — экономика и компании",
-      "added": 1
+      "added": 3
     },
     {
       "source": "Finam — компании и рынки",
@@ -114,11 +114,11 @@
     },
     {
       "source": "АВТОСТАТ — авторынок",
-      "added": 2
+      "added": 0
     },
     {
       "source": "РБК Недвижимость — рынок недвижимости",
-      "added": 1
+      "added": 2
     },
     {
       "source": "Банк России — новости",
@@ -127,22 +127,22 @@
     },
     {
       "source": "Банк России — пресс-релизы",
-      "added": 11,
+      "added": 9,
       "status": "ok"
     },
     {
       "source": "Marketing Dive",
-      "added": 4,
+      "added": 5,
       "status": "ok"
     },
     {
       "source": "Retail Dive",
-      "added": 4,
+      "added": 3,
       "status": "ok"
     },
     {
       "source": "TechCrunch",
-      "added": 2,
+      "added": 1,
       "status": "ok"
     },
     {
@@ -197,7 +197,7 @@
     },
     {
       "source": "РБК Тренды",
-      "added": 3,
+      "added": 1,
       "status": "ok"
     },
     {
@@ -242,7 +242,7 @@
     },
     {
       "source": "ИРН",
-      "added": 8,
+      "added": 7,
       "status": "ok"
     },
     {
@@ -277,6 +277,10 @@
     }
   ],
   "errors": [
+    {
+      "source": "АВТОСТАТ — авторынок",
+      "error": "HTTP Error 403: Forbidden"
+    },
     {
       "source": "Росстат — новости статистики",
       "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
@@ -2849,6 +2853,36 @@
       "publisher_id": "infoline.spb.ru"
     },
     {
+      "id": "1cdc0b0ca9657622fd",
+      "title": "2027-й станет годом реструктуризации для рынка общепита, согласились спикеры сессии INFOLine",
+      "url": "https://infoline.spb.ru/news?news=309153",
+      "source": "INFOLine",
+      "published_at": "2026-09-25T00:00:00+00:00",
+      "summary": "Пленарная дискуссия INFOLine «Трансформация форматов общественного питания в условиях ужесточения конкуренции» прошла при большом стечении представителей профессионального сообщества 16 сентября 2026 года на площадке выставки WorldFood Moscow.",
+      "categories": [
+        "Retail",
+        "TechnologyAI"
+      ],
+      "primary_category": "Retail",
+      "topics": [
+        "Digital и технологии"
+      ],
+      "brands": [],
+      "score": 4.0,
+      "strategic_relevance_score": 80,
+      "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
+      "market_scope": "Russia",
+      "metrics": [],
+      "image_url": "",
+      "source_quality": 4.8,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": [],
+      "pdf_urls": [],
+      "research_primary": true,
+      "publisher_id": "infoline.spb.ru"
+    },
+    {
       "id": "1d42ced06dd9932125",
       "title": "ЦБ оценит выставляемую на продажу долю Национальной системы платежных карт",
       "url": "https://kommersant.ru/doc/8974589",
@@ -3070,6 +3104,45 @@
       "pdf_urls": [],
       "research_primary": true,
       "publisher_id": "frankrg.com"
+    },
+    {
+      "id": "3919c32e39403fade5",
+      "title": "Nielsen продала российский бизнес на фоне закона об исследованиях",
+      "url": "https://retailer.ru/nielsen-prodala-rossijskij-biznes-na-fone-zakona-ob-issledovanijah",
+      "source": "Retailer.ru",
+      "published_at": "2026-09-25T15:07:40+00:00",
+      "summary": "С 1 марта 2026 года запрещено заказывать исследования рынков у компаний с долей иностранного участия более 20% и годовой выручкой более 800 млн руб. Сообщение Nielsen продала российский бизнес на фоне закона об исследованиях появились сначала на RETAILER.ru .",
+      "categories": [
+        "Retail"
+      ],
+      "primary_category": "Retail",
+      "topics": [
+        "Рынок и продажи",
+        "Исследования и прогнозы"
+      ],
+      "brands": [],
+      "score": 3.9,
+      "strategic_relevance_score": 78,
+      "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы. Есть исследовательская или прогнозная база.",
+      "market_scope": "Russia",
+      "metrics": [
+        {
+          "type": "Выручка / оборот",
+          "value": "20%",
+          "context": "да запрещено заказывать исследования рынков у компаний с долей иностранного участия более 20% и годовой выручкой более 800 млн руб. Сообщение Nielsen продала российский бизнес на фоне закона"
+        },
+        {
+          "type": "Выручка / оборот",
+          "value": "800 млн руб.",
+          "context": "дования рынков у компаний с долей иностранного участия более 20% и годовой выручкой более 800 млн руб. Сообщение Nielsen продала российский бизнес на фоне закона об исследованиях появились с"
+        }
+      ],
+      "image_url": "",
+      "source_quality": 4.3,
+      "content_type": "research",
+      "future_signal": false,
+      "future_horizon": [],
+      "publisher_id": "retailer.ru"
     },
     {
       "id": "733c5f1ecef2bf0736",
@@ -3334,6 +3407,57 @@
       "publisher_id": "akarussia.ru"
     },
     {
+      "id": "858a052b543f941e8f",
+      "title": "Китай намерен стать мировым лидером в фармотрасли к 2030 году",
+      "url": "https://pharmvestnik.ru/content/news/kitai-nameren-stat-mirovym-liderom-v-farmotrasli-k-2030-godu.html",
+      "source": "Фармацевтический вестник",
+      "published_at": "2026-09-25T12:27:13+00:00",
+      "summary": "Китай намерен к 2030 году стать мировым лидером по числу инновационных лекарств. Пятилетний план включает 10 показателей, включая рост выручки до 522 млрд долл. и 25% first-in-class препаратов на мировом рынке. Сумма сделок по покупке прав на китайские разработки превысила 120 млрд долл. за год.",
+      "categories": [
+        "Pharma"
+      ],
+      "primary_category": "Pharma",
+      "topics": [
+        "Рынок и продажи"
+      ],
+      "brands": [],
+      "score": 3.7,
+      "strategic_relevance_score": 74,
+      "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
+      "market_scope": "Russia",
+      "metrics": [
+        {
+          "type": "Выручка / оборот",
+          "value": "25%",
+          "context": "карств. Пятилетний план включает 10 показателей, включая рост выручки до 522 млрд долл. и 25% first-in-class препаратов на мировом рынке. Сумма сделок по покупке прав на китайские разработки"
+        },
+        {
+          "type": "Выручка / оборот",
+          "value": "522 млрд долл.",
+          "context": "инновационных лекарств. Пятилетний план включает 10 показателей, включая рост выручки до 522 млрд долл. и 25% first-in-class препаратов на мировом рынке. Сумма сделок по покупке прав на кита"
+        },
+        {
+          "type": "Рыночная метрика",
+          "value": "120 млрд долл.",
+          "context": "епаратов на мировом рынке. Сумма сделок по покупке прав на китайские разработки превысила 120 млрд долл. за год."
+        }
+      ],
+      "image_url": "",
+      "source_quality": 4.5,
+      "content_type": "company_plan",
+      "future_signal": true,
+      "future_horizon": [
+        "future"
+      ],
+      "pdf_urls": [
+        "https://www.ncsti.gov.cn/zcfg/zcwj/202609/P020260920489576983220.pdf",
+        "https://pharmvestnik.ru/apps/fv/assets/uploads/subs/redaktsionnaya_politika/rp2024new.pdf",
+        "https://pharmvestnik.ru/apps/fv/assets/uploads/fv_mkit_noprices_2026_01.pdf"
+      ],
+      "research_primary": false,
+      "publisher_id": "pharmvestnik.ru"
+    },
+    {
       "id": "bb64562c9337731391",
       "title": "SberDevices требует с «М.Видео» 6,6 миллиардов рублей через суд",
       "url": "https://adindex.ru/news/right/2026/09/25/349254.phtml",
@@ -3595,6 +3719,34 @@
       "pdf_urls": [],
       "research_primary": false,
       "publisher_id": "new-retail.ru"
+    },
+    {
+      "id": "89e45b73b8e580b799",
+      "title": "Inside McDonald’s new marketing model as it enters media network fray",
+      "url": "https://marketingdive.com/news/inside-mcdonalds-new-marketing-model-as-it-enters-media-network-fray/831170",
+      "source": "Marketing Dive",
+      "published_at": "2026-09-23T18:30:00+00:00",
+      "summary": "At its first investor day since 2023, the fast-food giant announced it is piloting a media network with the goal of building a $1 billion ad business.",
+      "categories": [
+        "MediaAdvertising"
+      ],
+      "primary_category": "MediaAdvertising",
+      "topics": [
+        "Рынок и продажи",
+        "Маркетинг и медиа"
+      ],
+      "brands": [],
+      "score": 3.7,
+      "strategic_relevance_score": 74,
+      "why_it_matters": "Международный сигнал, который может повлиять на маркетинг, потребление или бизнес-модели и быть релевантен российскому рынку.",
+      "market_scope": "Global",
+      "metrics": [],
+      "image_url": "https://imgproxy.divecdn.com/-YuW349ccEajUTSSEoqqOzEWFdkOyI0KSFd_S_T-dUQ/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMTgwNTQ2MTkyX1RPWDJkcDMuanBn.webp",
+      "source_quality": 4.5,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": [],
+      "publisher_id": "marketingdive.com"
     },
     {
       "id": "422e55842e1bee1487",
@@ -3953,6 +4105,81 @@
       "future_signal": false,
       "future_horizon": [],
       "publisher_id": "retailer.ru"
+    },
+    {
+      "id": "98894151c8a4c5bfc9",
+      "title": "Закупки систем прогнозирования спроса в ритейле выросли на 90% | New Retail",
+      "url": "https://new-retail.ru/novosti/retail/zakupki_sistem_prognozirovaniya_sprosa_v_riteyle_vyrosli_na_90",
+      "source": "New Retail — отраслевые новости",
+      "published_at": "2026-09-24T21:00:00+00:00",
+      "summary": "За январь–август 2026 года количество закупок программных решений для управления товаром удвоилось по сравнению с тем же периодом прошлого года.",
+      "categories": [
+        "Retail"
+      ],
+      "primary_category": "Retail",
+      "topics": [
+        "Потребитель",
+        "Исследования и прогнозы"
+      ],
+      "brands": [],
+      "score": 3.6,
+      "strategic_relevance_score": 72,
+      "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы. Есть исследовательская или прогнозная база.",
+      "market_scope": "Russia",
+      "metrics": [
+        {
+          "type": "Спрос",
+          "value": "90%",
+          "context": "Закупки систем прогнозирования спроса в ритейле выросли на 90% | New Retail. За январь–август 2026 года количество закупок программных решений для управления товаром удвоил"
+        }
+      ],
+      "image_url": "",
+      "source_quality": 4.2,
+      "content_type": "forecast",
+      "future_signal": true,
+      "future_horizon": [
+        "future"
+      ],
+      "pdf_urls": [],
+      "research_primary": false,
+      "publisher_id": "new-retail.ru"
+    },
+    {
+      "id": "31e20ccc4d9038c62b",
+      "title": "Продажи упаковочных материалов выросли на 34% | New Retail",
+      "url": "https://new-retail.ru/novosti/retail/prodazhi_upakovochnykh_materialov_vyrosli_na_34",
+      "source": "New Retail — отраслевые новости",
+      "published_at": "2026-09-24T21:00:00+00:00",
+      "summary": "По данным совместной аналитики платформ «Авито Услуги» и «ВсеИнструменты.ру», по итогам летнего сезона 2026 года зафиксирован заметный интерес потребителей к услугам перевозок, а также к товарам для транспорта и упаковочным решениям.",
+      "categories": [
+        "Retail",
+        "Consumer"
+      ],
+      "primary_category": "Retail",
+      "topics": [
+        "Рынок и продажи",
+        "Потребитель"
+      ],
+      "brands": [],
+      "score": 3.6,
+      "strategic_relevance_score": 72,
+      "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
+      "market_scope": "Russia",
+      "metrics": [
+        {
+          "type": "Продажи",
+          "value": "34%",
+          "context": "Продажи упаковочных материалов выросли на 34% | New Retail. По данным совместной аналитики платформ «Авито Услуги» и «ВсеИнструменты.ру», по итогам летнего"
+        }
+      ],
+      "image_url": "",
+      "source_quality": 4.2,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": [],
+      "pdf_urls": [],
+      "research_primary": false,
+      "publisher_id": "new-retail.ru"
     },
     {
       "id": "635741deee2d46a343",
@@ -4706,6 +4933,100 @@
       "publisher_id": "romir.ru"
     },
     {
+      "id": "637f7aa92db7c3a101",
+      "title": "Meta’s AI Tamagotchi bet is…working?",
+      "url": "https://techcrunch.com/video/will-metas-ai-tamagotchi-bet-isworking",
+      "source": "TechCrunch",
+      "published_at": "2026-09-25T16:00:00+00:00",
+      "summary": "When AI leaders at OpenAI and Anthropic started talking about “pacing the frontier,” maybe someone should have asked: what pace? Now it’s turned into model drop week for both companies as Anthropic rolled out Opus 5.5, followed by OpenAI’s GPT-6 model updates just 90 minutes later. But the company that stole the spotlight was Meta, whose personal AI agent Muse is reportedly outpacing ChatGPT’s early numbers and is he",
+      "categories": [
+        "TechnologyAI"
+      ],
+      "primary_category": "TechnologyAI",
+      "topics": [
+        "Digital и технологии",
+        "Исследования и прогнозы"
+      ],
+      "brands": [],
+      "score": 3.4,
+      "strategic_relevance_score": 68,
+      "why_it_matters": "Международный сигнал, который может повлиять на маркетинг, потребление или бизнес-модели и быть релевантен российскому рынку. Есть исследовательская или прогнозная база.",
+      "market_scope": "Global",
+      "metrics": [],
+      "image_url": "",
+      "source_quality": 4.3,
+      "content_type": "research",
+      "future_signal": false,
+      "future_horizon": [],
+      "publisher_id": "techcrunch.com"
+    },
+    {
+      "id": "2f99186fe07029a62e",
+      "title": "Эксперты оценили рост e-com в аптечном сегменте",
+      "url": "https://pharmvestnik.ru/content/news/eksperty-ocenili-rost-e-com-v-aptechnom-segmente.html",
+      "source": "Фармацевтический вестник",
+      "published_at": "2026-09-25T13:35:16+00:00",
+      "summary": "E-com в аптечном сегменте растет в 5,5 раза быстрее офлайна. Конкуренция смещается в цифровой канал: аптеки, агрегаторы, маркетплейсы и сами производители борются за первое касание с покупателем. Средний чек онлайн выше в 1,7–2,2 раза.",
+      "categories": [
+        "Pharma",
+        "DeliveryEcom",
+        "Consumer"
+      ],
+      "primary_category": "Pharma",
+      "topics": [
+        "Потребитель"
+      ],
+      "brands": [],
+      "score": 3.4,
+      "strategic_relevance_score": 68,
+      "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
+      "market_scope": "Russia",
+      "metrics": [],
+      "image_url": "",
+      "source_quality": 4.5,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": [],
+      "pdf_urls": [
+        "https://pharmvestnik.ru/apps/fv/assets/uploads/subs/redaktsionnaya_politika/rp2024new.pdf",
+        "https://pharmvestnik.ru/apps/fv/assets/uploads/fv_mkit_noprices_2026_01.pdf"
+      ],
+      "research_primary": false,
+      "publisher_id": "pharmvestnik.ru"
+    },
+    {
+      "id": "897e10270eee7d553c",
+      "title": "Sentiss выступила партнером XIX Российского общенационального офтальмологического форума",
+      "url": "https://pharmvestnik.ru/content/news/sentiss-vystupila-partnerom-xix-rossiiskogo-obshenacionalnogo-oftalmologicheskogo-foruma.html",
+      "source": "Фармацевтический вестник",
+      "published_at": "2026-09-25T13:00:01+00:00",
+      "summary": "НА РООФ-2026 обсуждали актуальные вопросы офтальмологии, результаты научных исследований и практические аспекты помощи пациентам",
+      "categories": [
+        "Pharma"
+      ],
+      "primary_category": "Pharma",
+      "topics": [
+        "Исследования и прогнозы"
+      ],
+      "brands": [],
+      "score": 3.4,
+      "strategic_relevance_score": 68,
+      "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы. Есть исследовательская или прогнозная база.",
+      "market_scope": "Russia",
+      "metrics": [],
+      "image_url": "",
+      "source_quality": 4.5,
+      "content_type": "research",
+      "future_signal": false,
+      "future_horizon": [],
+      "pdf_urls": [
+        "https://pharmvestnik.ru/apps/fv/assets/uploads/subs/redaktsionnaya_politika/rp2024new.pdf",
+        "https://pharmvestnik.ru/apps/fv/assets/uploads/fv_mkit_noprices_2026_01.pdf"
+      ],
+      "research_primary": false,
+      "publisher_id": "pharmvestnik.ru"
+    },
+    {
       "id": "329c4721e66893dfb9",
       "title": "Продажи новостроек в ипотеку в августе снизились на 20%",
       "url": "https://irn.ru/news/160734-prodazhi-novostroek-v-ipoteku-v-avguste-snizilis.html",
@@ -4774,6 +5095,38 @@
       "image_url": "",
       "source_quality": 4.2,
       "content_type": "news",
+      "future_signal": false,
+      "future_horizon": [],
+      "pdf_urls": [],
+      "research_primary": false,
+      "publisher_id": "new-retail.ru"
+    },
+    {
+      "id": "fa0266f7656e994dfb",
+      "title": "Почти половина россиян использует ИИ при поиске работы | New Retail",
+      "url": "https://new-retail.ru/novosti/retail/pochti_polovina_rossiyan_ispolzuet_ii_pri_poiske_raboty",
+      "source": "New Retail — отраслевые новости",
+      "published_at": "2026-09-24T21:00:00+00:00",
+      "summary": "Почти половина россиян прибегает к помощи искусственного интеллекта при подготовке резюме и поиске работы — такие данные получены в ходе исследования МТС Ads, проведённого в сентябре 2026 года среди 2500 респондентов старше 18 лет.",
+      "categories": [
+        "Retail",
+        "Telecom",
+        "TechnologyAI"
+      ],
+      "primary_category": "Retail",
+      "topics": [
+        "Digital и технологии",
+        "Исследования и прогнозы"
+      ],
+      "brands": [],
+      "score": 3.4,
+      "strategic_relevance_score": 68,
+      "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы. Есть исследовательская или прогнозная база.",
+      "market_scope": "Russia",
+      "metrics": [],
+      "image_url": "",
+      "source_quality": 4.2,
+      "content_type": "research",
       "future_signal": false,
       "future_horizon": [],
       "pdf_urls": [],
@@ -5263,6 +5616,63 @@
       "pdf_urls": [],
       "research_primary": false,
       "publisher_id": "adindex.ru"
+    },
+    {
+      "id": "f5d542d1fee6f51a55",
+      "title": "Кадровые перестановки недели: новые назначения в «СберСеллере», «Ашане», «Лемана ПРО», АФК «Система» и Ozon",
+      "url": "https://adindex.ru/news/hr/2026/09/25/349283.phtml",
+      "source": "AdIndex — реклама и медиа",
+      "published_at": "2026-09-25T14:28:37+00:00",
+      "summary": "Новости Бизнес СМИ AdIndex из рубрики Кадры — Кадровые перестановки недели: новые назначения в «СберСеллере», «Ашане», «Лемана ПРО», АФК «Система» и Ozon — Мониторинг ключевых кадровых перемещений в сфере маркетинга, рекламы, медиа и ретейла: Кристина Лайус стала исполнительным директором «СберСеллера» и Perfluence,…",
+      "categories": [
+        "MediaAdvertising"
+      ],
+      "primary_category": "MediaAdvertising",
+      "topics": [
+        "Маркетинг и медиа"
+      ],
+      "brands": [],
+      "score": 3.3,
+      "strategic_relevance_score": 66,
+      "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
+      "market_scope": "Russia",
+      "metrics": [],
+      "image_url": "",
+      "source_quality": 4.5,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": [],
+      "pdf_urls": [],
+      "research_primary": false,
+      "publisher_id": "adindex.ru"
+    },
+    {
+      "id": "cbf3bb591100afe247",
+      "title": "How Jeep is charting a new course for its marketing",
+      "url": "https://marketingdive.com/news/how-jeep-is-charting-a-new-course-for-its-marketing/831335",
+      "source": "Marketing Dive",
+      "published_at": "2026-09-25T14:00:00+00:00",
+      "summary": "New campaign “This Is Jeep Country” celebrates the brand’s American heritage, while multicultural extensions speak to a fragmented landscape.",
+      "categories": [
+        "MediaAdvertising"
+      ],
+      "primary_category": "MediaAdvertising",
+      "topics": [
+        "Рынок и продажи",
+        "Маркетинг и медиа"
+      ],
+      "brands": [],
+      "score": 3.3,
+      "strategic_relevance_score": 66,
+      "why_it_matters": "Международный сигнал, который может повлиять на маркетинг, потребление или бизнес-модели и быть релевантен российскому рынку.",
+      "market_scope": "Global",
+      "metrics": [],
+      "image_url": "https://imgproxy.divecdn.com/Tjd0pdrgPtTN0gqe249EpLc-FigbO2Ypx8Mfc4IyzaU/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9tYXhyZXNkZWZhdWx0XzIuanBn.webp",
+      "source_quality": 4.5,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": [],
+      "publisher_id": "marketingdive.com"
     },
     {
       "id": "aadd48f0589c3c4fc5",
@@ -5795,35 +6205,6 @@
       "future_signal": false,
       "future_horizon": [],
       "publisher_id": "retaildive.com"
-    },
-    {
-      "id": "89e45b73b8e580b799",
-      "title": "Inside McDonald’s new marketing model as it enters media network fray",
-      "url": "https://marketingdive.com/news/inside-mcdonalds-new-marketing-model-as-it-enters-media-network-fray/831170",
-      "source": "Marketing Dive",
-      "published_at": "2026-09-23T18:30:00+00:00",
-      "summary": "The chain announced plans for a unified mobile platform that is scheduled to be piloted in France later this year before scaling to other markets.",
-      "categories": [
-        "MediaAdvertising",
-        "TechnologyAI"
-      ],
-      "primary_category": "MediaAdvertising",
-      "topics": [
-        "Рынок и продажи",
-        "Маркетинг и медиа"
-      ],
-      "brands": [],
-      "score": 3.3,
-      "strategic_relevance_score": 66,
-      "why_it_matters": "Международный сигнал, который может повлиять на маркетинг, потребление или бизнес-модели и быть релевантен российскому рынку.",
-      "market_scope": "Global",
-      "metrics": [],
-      "image_url": "https://imgproxy.divecdn.com/-YuW349ccEajUTSSEoqqOzEWFdkOyI0KSFd_S_T-dUQ/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMTgwNTQ2MTkyX1RPWDJkcDMuanBn.webp",
-      "source_quality": 4.5,
-      "content_type": "news",
-      "future_signal": false,
-      "future_horizon": [],
-      "publisher_id": "marketingdive.com"
     },
     {
       "id": "5aba57c08f793ba569",
@@ -6371,6 +6752,43 @@
       "publisher_id": "sostav.ru"
     },
     {
+      "id": "3b74e06559efa59351",
+      "title": "Сделавший ставку на ИТ-направление российский логистический оператор решил зарабатывать продажей сладостей на Ozon",
+      "url": "https://cnews.ru/news/top/2026-09-25_krupnaya_rossijskaya_logisticheskaya",
+      "source": "CNews — бизнес и технологии",
+      "published_at": "2026-09-25T13:04:00+00:00",
+      "summary": "Логистический оператор СДЭК развивает собственный продуктовый бренд CDEK Coffee, выводя на маркетплейсы и в онлайн-магазин кофе и злаковые батончики. Проект продолжает линию, начатую еще в 2021 г. с мини-кофейнями в пунктах выдачи, и вписывается в общий рост онлайн-продаж кофе.",
+      "categories": [
+        "Retail",
+        "DeliveryEcom",
+        "FMCG"
+      ],
+      "primary_category": "Retail",
+      "topics": [
+        "Рынок и продажи",
+        "Маркетинг и медиа"
+      ],
+      "brands": [
+        "Ozon"
+      ],
+      "score": 3.0,
+      "strategic_relevance_score": 60,
+      "relevance_reasons": [
+        "рынок / бизнес",
+        "маркетинг",
+        "крупный игрок"
+      ],
+      "why_it_matters": "Показывает изменение в бизнесе ритейла: формате, продажах, ценах, ассортименте или конкурентной динамике. В фокусе: Ozon. Отобрано как: рынок / бизнес, маркетинг, крупный игрок.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [],
+      "source_quality": 4.1,
+      "publisher_id": "cnews.ru"
+    },
+    {
       "id": "86abcc73a419feb4c7",
       "title": "Какие фразы могут сорвать сделку по продаже квартиры",
       "url": "https://realty.rbc.ru/news/6a6c0ad19a7947fc54e3011c",
@@ -6552,6 +6970,80 @@
       "content_type": "news",
       "source_quality": 4.0,
       "publisher_id": "rbc.ru"
+    },
+    {
+      "id": "bf614767a794d5e71a",
+      "title": "ЦБ напомнил о появлении уведомлений о новых кредитах на «Госуслугах»",
+      "url": "https://rbc.ru/finances/27/07/2026/6a6728489a79477607f1b30c",
+      "source": "РБК — бизнес и экономика",
+      "published_at": "2026-09-26T08:18:21+00:00",
+      "summary": "С 1 октября 2027 года банки и микрофинансовые организации будут обязаны оперативно передавать в бюро кредитных историй сведения о потребительских кредитах, кредитных картах и займах.",
+      "categories": [
+        "BanksFintech",
+        "Consumer"
+      ],
+      "primary_category": "BanksFintech",
+      "topics": [
+        "Потребитель",
+        "Регулирование"
+      ],
+      "brands": [],
+      "score": 2.7,
+      "strategic_relevance_score": 54,
+      "relevance_reasons": [
+        "потребитель",
+        "регулирование",
+        "будущий горизонт"
+      ],
+      "why_it_matters": "Может менять банковские офферы, финтех-сервисы, клиентское поведение и коммуникационную конкуренцию. Горизонт: 2027. Отобрано как: потребитель, регулирование, будущий горизонт.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [
+        "2027"
+      ],
+      "future_signal": true,
+      "content_type": "news",
+      "metrics": [],
+      "source_quality": 4.5,
+      "publisher_id": "rbc.ru"
+    },
+    {
+      "id": "22d5e3c27dd69235df",
+      "title": "Почти половина опрошенных россиян хотя бы раз пользовались кешбэк-сервисами",
+      "url": "https://tass.ru/ekonomika/28153921",
+      "source": "ТАСС — экономика и компании",
+      "published_at": "2026-09-26T07:02:56+00:00",
+      "summary": "При этом 23% респондентов впервые услышали о таком способе экономии, следует из проведенного финансовым маркетплейсом \"Выберу.ру\" исследования",
+      "categories": [
+        "DeliveryEcom",
+        "BanksFintech"
+      ],
+      "primary_category": "DeliveryEcom",
+      "topics": [
+        "Лояльность и CRM",
+        "Исследования и прогнозы"
+      ],
+      "brands": [],
+      "score": 2.7,
+      "strategic_relevance_score": 54,
+      "relevance_reasons": [
+        "есть данные"
+      ],
+      "why_it_matters": "Помогает отслеживать рынок e-commerce и доставки: модели сервиса, игроков, логистику и поведение покупателей. Отобрано как: есть данные.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "research",
+      "metrics": [
+        {
+          "type": "Рыночная метрика",
+          "value": "23%",
+          "context": "При этом 23% респондентов впервые услышали о таком способе экономии, следует из проведенного финансовым маркетплейсом \"Выберу."
+        }
+      ],
+      "source_quality": 4.5,
+      "publisher_id": "tass.ru"
     },
     {
       "id": "f99831e01937a5aafa",
@@ -6773,6 +7265,44 @@
       "future_signal": false,
       "content_type": "news",
       "source_quality": 4.0,
+      "publisher_id": "rbc.ru"
+    },
+    {
+      "id": "ae937fcf777b94d957",
+      "title": "Успеть до 1 октября: кто сможет взять семейную ипотеку по старым правилам Эксклюзив",
+      "url": "https://realty.rbc.ru/news/6ab6499662370d0ca86e5388",
+      "source": "РБК Недвижимость — рынок недвижимости",
+      "published_at": "2026-09-25T11:16:01+00:00",
+      "summary": "Если кредитный договор заключен до 1 октября, по действующим условиям ставка будет 6%, если после этой даты — в зависимости от числа детей и региона, как следует из новых правил, утвержденных Минфином, рассказали в «Дом.РФ»",
+      "categories": [
+        "RealEstate",
+        "BanksFintech"
+      ],
+      "primary_category": "RealEstate",
+      "topics": [
+        "Регулирование"
+      ],
+      "brands": [],
+      "score": 2.6,
+      "strategic_relevance_score": 52,
+      "relevance_reasons": [
+        "регулирование",
+        "есть данные"
+      ],
+      "why_it_matters": "Отражает динамику спроса, цен, ипотеки, девелопмента и коммерческой недвижимости. Отобрано как: регулирование, есть данные.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [
+        {
+          "type": "Кредитование",
+          "value": "6%",
+          "context": "Если кредитный договор заключен до 1 октября, по действующим условиям ставка будет 6%, если после этой даты — в зависимости от числа детей и региона, как следует из новых правил, утвержде…"
+        }
+      ],
+      "source_quality": 4.5,
       "publisher_id": "rbc.ru"
     },
     {
@@ -7068,6 +7598,60 @@
       "publisher_id": "sostav.ru"
     },
     {
+      "id": "dbbf7e04729e343e07",
+      "title": "Топ-менеджеры «Альфа-банка» снизили доли в ИТ-сервисе «Кассир.ру» в пользу «Аб холдинга»",
+      "url": "https://cnews.ru/news/top/2026-09-25_golovnaya_kompaniya_alfa-banka",
+      "source": "CNews — бизнес и технологии",
+      "published_at": "2026-09-25T15:45:00+00:00",
+      "summary": "Два топ-менеджера «Альфа-банка» Владимир Верхошинский и Алексей Гиязов вдвое снизили свои доли в растущем агрегаторе онлайн-билетов «Кассир.ру». 1,5% вернула себе головная компания «Альфа-банка» — «Аб холдинг». Аналитики оценили стоимость пакета в 100 млн руб.",
+      "categories": [
+        "BanksFintech"
+      ],
+      "primary_category": "BanksFintech",
+      "topics": [
+        "Исследования и прогнозы"
+      ],
+      "brands": [
+        "Альфа-Банк"
+      ],
+      "score": 2.5,
+      "strategic_relevance_score": 50,
+      "relevance_reasons": [
+        "клиент",
+        "крупный игрок",
+        "есть данные"
+      ],
+      "why_it_matters": "Может менять банковские офферы, финтех-сервисы, клиентское поведение и коммуникационную конкуренцию. В фокусе: Альфа-Банк. Отобрано как: клиент, крупный игрок, есть данные.",
+      "client_matches": {
+        "alfa-bank": {
+          "name": "Альфа-Банк",
+          "score": 3.8,
+          "matches": [
+            "Альфа-Банк",
+            "Альфа"
+          ]
+        }
+      },
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [
+        {
+          "type": "Рыночная метрика",
+          "value": "1,5%",
+          "context": "1,5% вернула себе головная компания «Альфа-банка» — «Аб холдинг»."
+        },
+        {
+          "type": "Рыночная метрика",
+          "value": "100 млн руб.",
+          "context": "Аналитики оценили стоимость пакета в 100 млн руб."
+        }
+      ],
+      "source_quality": 4.1,
+      "publisher_id": "cnews.ru"
+    },
+    {
       "id": "d51e1b5a77550f361e",
       "title": "Минэк ожидает инфляцию в 2026 году на уровне 6,8%, средний курс рубля – 79,5 за доллар",
       "url": "https://finam.ru/publications/item/minek-ozhidaet-inflyatsiyu-v-2026-godu-na-urovne-68-sredniy-kurs-rublya-795-za-dollar-20260924-1616?news_to_finamb=new_compaigns",
@@ -7278,6 +7862,39 @@
       "content_type": "news",
       "source_quality": 4.0,
       "publisher_id": "retail.ru"
+    },
+    {
+      "id": "ebf900521040053263",
+      "title": "Идеальный шторм: как изменился рынок высокодоходных облигаций в 2026 году",
+      "url": "https://rbc.ru/quote/26/09/2026/6ab62cb59a7947399b3b9d67",
+      "source": "РБК — бизнес и экономика",
+      "published_at": "2026-09-26T07:05:23+00:00",
+      "summary": "Аналитики инвестиционной компании «Юнисервис Капитал» изучили, что происходит на рынке высокодоходных облигаций, почему изменились настроения инвесторов и как теперь таким эмитентам выходить на первичные размещения",
+      "categories": [
+        "FinanceEconomy"
+      ],
+      "primary_category": "FinanceEconomy",
+      "topics": [
+        "Рынок и продажи",
+        "M&A и инвестиции",
+        "Исследования и прогнозы"
+      ],
+      "brands": [],
+      "score": 2.4,
+      "strategic_relevance_score": 48,
+      "relevance_reasons": [
+        "рынок / бизнес",
+        "инвестиции / M&A"
+      ],
+      "why_it_matters": "Задает макроконтекст для спроса, потребительских расходов и бизнес-планирования. Отобрано как: рынок / бизнес, инвестиции / M&A.",
+      "client_matches": {},
+      "market_scope": "Global",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [],
+      "source_quality": 4.5,
+      "publisher_id": "rbc.ru"
     },
     {
       "id": "58f554454c1fc17b52",
@@ -7878,6 +8495,40 @@
       "publisher_id": "tass.ru"
     },
     {
+      "id": "854be8191d3b17620c",
+      "title": "T2 и резидент «Сколково» Loot выведут на рынок новый сервис для геймеров",
+      "url": "https://cnews.ru/news/line/2026-09-25_t2_i_rezident_skolkovo_loot",
+      "source": "CNews — бизнес и технологии",
+      "published_at": "2026-09-25T12:04:00+00:00",
+      "summary": "Т2, российский оператор мобильной связи, и игровая платформа Loot (резидент «Сколково») объявляют о запуске партнерства....",
+      "categories": [
+        "Telecom"
+      ],
+      "primary_category": "Telecom",
+      "topics": [
+        "Рынок и продажи",
+        "Запуск продукта/сервиса"
+      ],
+      "brands": [
+        "T2"
+      ],
+      "score": 2.2,
+      "strategic_relevance_score": 44,
+      "relevance_reasons": [
+        "рынок / бизнес",
+        "крупный игрок"
+      ],
+      "why_it_matters": "Материал влияет на рыночный или конкурентный контекст. В фокусе: T2. Отобрано как: рынок / бизнес, крупный игрок.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [],
+      "source_quality": 4.1,
+      "publisher_id": "cnews.ru"
+    },
+    {
       "id": "030d550f25d1e5d92d",
       "title": "Зарубежные нейросети могут обойтись дороже рекламному рынку",
       "url": "https://sostav.ru/publication/zarubezhnye-nejroseti-stanut-dorozhe-dlya-rossijskogo-reklamnogo-rynka-87234.html",
@@ -7909,45 +8560,6 @@
       "metrics": [],
       "source_quality": 4.2,
       "publisher_id": "sostav.ru"
-    },
-    {
-      "id": "5b953da020d2e23ec4",
-      "title": "Рынок пикапов с пробегом в августе показал незначительный рост",
-      "url": "https://autostat.ru/news/63166",
-      "source": "АВТОСТАТ — авторынок",
-      "published_at": "2026-09-25T00:00:00+00:00",
-      "summary": "Согласно данным агентства «АВТОСТАТ», в августе 2026 года россияне приобрели 3 092 подержанных пикапа. Это всего лишь на 0,7% больше, чем в том же месяце прошлого года (3 073 шт.).",
-      "categories": [
-        "Automotive"
-      ],
-      "primary_category": "Automotive",
-      "topics": [
-        "Рынок и продажи",
-        "M&A и инвестиции"
-      ],
-      "brands": [],
-      "score": 2.2,
-      "strategic_relevance_score": 44,
-      "relevance_reasons": [
-        "рынок / бизнес",
-        "инвестиции / M&A",
-        "есть данные"
-      ],
-      "why_it_matters": "Важен для понимания продаж, цен, модельного ряда, дилерской сети и конкурентной динамики авторынка. Отобрано как: рынок / бизнес, инвестиции / M&A, есть данные.",
-      "client_matches": {},
-      "market_scope": "Russia",
-      "future_horizon": [],
-      "future_signal": false,
-      "content_type": "news",
-      "metrics": [
-        {
-          "type": "Рыночная метрика",
-          "value": "0,7%",
-          "context": "Это всего лишь на 0,7% больше, чем в том же месяце прошлого года (3 073 шт."
-        }
-      ],
-      "source_quality": 4.8,
-      "publisher_id": "autostat.ru"
     },
     {
       "id": "692b37170529db07b5",
@@ -9321,36 +9933,6 @@
       "publisher_id": "retail.ru"
     },
     {
-      "id": "59709eb99a1e38bb4b",
-      "title": "Дилер рассказал о перспективах обновленного бизнес-седана Hongqi H5",
-      "url": "https://autostat.ru/news/63165",
-      "source": "АВТОСТАТ — авторынок",
-      "published_at": "2026-09-25T00:00:00+00:00",
-      "summary": "Обновленный бизнес-седан Hongqi H5, который недавно поступил в продажу на российском рынке, получил целый ряд существенных изменений, но при этом не изменился ценовой подход, что позволит клиентам приобрести обновленную версию без дополн...",
-      "categories": [
-        "Automotive"
-      ],
-      "primary_category": "Automotive",
-      "topics": [
-        "Рынок и продажи"
-      ],
-      "brands": [],
-      "score": 2.0,
-      "strategic_relevance_score": 40,
-      "relevance_reasons": [
-        "рынок / бизнес"
-      ],
-      "why_it_matters": "Важен для понимания продаж, цен, модельного ряда, дилерской сети и конкурентной динамики авторынка. Отобрано как: рынок / бизнес.",
-      "client_matches": {},
-      "market_scope": "Russia",
-      "future_horizon": [],
-      "future_signal": false,
-      "content_type": "news",
-      "metrics": [],
-      "source_quality": 4.8,
-      "publisher_id": "autostat.ru"
-    },
-    {
       "id": "634a2911e246ffb672",
       "title": "Костин считает, что будущее экономики стоит за цифровыми расчетами",
       "url": "https://tass.ru/ekonomika/28146559",
@@ -10042,6 +10624,34 @@
       "publisher_id": "retail.ru"
     },
     {
+      "id": "54dccd45cbaefab186",
+      "title": "Глава Йемена призвал граждан к мобилизации из-за наступления хуситов // Глава Йемена призвал граждан вступать в армию и пообещал амнистию хуситам",
+      "url": "https://kommersant.ru/doc/8987677",
+      "source": "Коммерсантъ — новости",
+      "published_at": "2026-09-25T21:10:51+00:00",
+      "summary": "Глава Руководящего президентского совета Йеменa Рашад аль-Алими призвал граждан помочь стране из-за эскалации конфликта с хуситами. Он попросил жителей страны внести вклад в защиту республики и пополнять ряды правительственных войск.",
+      "categories": [
+        "BanksFintech"
+      ],
+      "primary_category": "BanksFintech",
+      "topics": [
+        "Исследования и прогнозы"
+      ],
+      "brands": [],
+      "score": 1.9,
+      "strategic_relevance_score": 38,
+      "relevance_reasons": [],
+      "why_it_matters": "Может менять банковские офферы, финтех-сервисы, клиентское поведение и коммуникационную конкуренцию.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [],
+      "source_quality": 4.6,
+      "publisher_id": "kommersant.ru"
+    },
+    {
       "id": "ba60e927c92b714575",
       "title": "Аналитика «МТС Ads»: 56% россиян используют ИИ при составлении резюме и поиске работы",
       "url": "https://cnews.ru/news/line/2026-09-25_analitika_mts_ads_56_rossiyan",
@@ -10666,6 +11276,74 @@
       "publisher_id": "finam.ru"
     },
     {
+      "id": "59e8ffa78ed1fa454e",
+      "title": "ФАС возбудила дело против ВТБ из-за рекламной рассылки",
+      "url": "https://sostav.ru/publication/fas-vozbudila-delo-protiv-vtb-iz-za-reklamnoj-rassylki-87249.html",
+      "source": "Sostav — маркетинг и бренды",
+      "published_at": "2026-09-25T15:50:00+00:00",
+      "summary": "Служба проверит все обстоятельства",
+      "categories": [
+        "BanksFintech"
+      ],
+      "primary_category": "BanksFintech",
+      "topics": [
+        "Маркетинг и медиа",
+        "Регулирование"
+      ],
+      "brands": [
+        "ВТБ"
+      ],
+      "score": 1.8,
+      "strategic_relevance_score": 36,
+      "relevance_reasons": [
+        "маркетинг",
+        "регулирование",
+        "крупный игрок"
+      ],
+      "why_it_matters": "Может менять банковские офферы, финтех-сервисы, клиентское поведение и коммуникационную конкуренцию. В фокусе: ВТБ. Отобрано как: маркетинг, регулирование, крупный игрок.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [],
+      "source_quality": 4.2,
+      "publisher_id": "sostav.ru"
+    },
+    {
+      "id": "1cfd7d41949ed823ba",
+      "title": "Алиханов: АвтоВАЗ последние пять лет работает без убытков // Глава Минпромторга Алиханов: «АвтоВАЗ» пять лет подряд работает без убытков",
+      "url": "https://kommersant.ru/doc/8987241",
+      "source": "Коммерсантъ — новости",
+      "published_at": "2026-09-25T14:44:33+00:00",
+      "summary": "АвтоВАЗ последние пять лет получает прибыль и работает без убытков, сообщил министр промышленности и торговли России, председатель совета директоров автоконцерна Антон Алиханов. «Пять лет, как АвтоВАЗ работает без убытков, показывает прибыль.",
+      "categories": [
+        "Automotive"
+      ],
+      "primary_category": "Automotive",
+      "topics": [
+        "Финрезультаты"
+      ],
+      "brands": [
+        "АвтоВАЗ"
+      ],
+      "score": 1.8,
+      "strategic_relevance_score": 36,
+      "relevance_reasons": [
+        "рынок / бизнес",
+        "крупный игрок"
+      ],
+      "why_it_matters": "Важен для понимания продаж, цен, модельного ряда, дилерской сети и конкурентной динамики авторынка. В фокусе: АвтоВАЗ. Отобрано как: рынок / бизнес, крупный игрок.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [],
+      "source_quality": 4.6,
+      "publisher_id": "kommersant.ru"
+    },
+    {
       "id": "497af55b45df42e4ee",
       "title": "СДЭК начал производить продукты питания под своим брендом",
       "url": "https://sostav.ru/publication/sdek-nachal-proizvodit-produkty-pitaniya-pod-svoim-brendom-87239.html",
@@ -11285,6 +11963,67 @@
       "content_type": "news",
       "source_quality": 4.0,
       "publisher_id": "sostav.ru"
+    },
+    {
+      "id": "a54d7b2675415db999",
+      "title": "ЦБ пообещал бороться с маскировкой потребкредитов под рассрочку",
+      "url": "https://vedomosti.ru/finance/news/2026/09/25/1232007-borotsya-s-maskirovkoi-potrebkreditov",
+      "source": "Ведомости — новости",
+      "published_at": "2026-09-25T16:36:43+00:00",
+      "summary": "",
+      "categories": [
+        "BanksFintech"
+      ],
+      "primary_category": "BanksFintech",
+      "topics": [
+        "Регулирование"
+      ],
+      "brands": [],
+      "score": 1.7,
+      "strategic_relevance_score": 34,
+      "relevance_reasons": [
+        "регулирование"
+      ],
+      "why_it_matters": "Может менять банковские офферы, финтех-сервисы, клиентское поведение и коммуникационную конкуренцию. Отобрано как: регулирование.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [],
+      "source_quality": 4.5,
+      "publisher_id": "vedomosti.ru"
+    },
+    {
+      "id": "f0868f4af8401808cc",
+      "title": "Правительство уточнило правила расчетов за электроэнергию для части потребителей",
+      "url": "https://kommersant.ru/doc/8987258",
+      "source": "Коммерсантъ — новости",
+      "published_at": "2026-09-25T15:10:55+00:00",
+      "summary": "Правительство приняло разработанное Федеральной антимонопольной службой постановление о правилах выставления счетов за электроэнергию для исполнителей коммунальных услуг, садовых товариществ и гаражных кооперативов. Изменения регламентируют порядок выставления счетов и не повлияют на размер тарифа, сообщили «Ъ» в пресс-службе ФАС.",
+      "categories": [
+        "Consumer"
+      ],
+      "primary_category": "Consumer",
+      "topics": [
+        "Потребитель",
+        "Цены и промо"
+      ],
+      "brands": [],
+      "score": 1.7,
+      "strategic_relevance_score": 34,
+      "relevance_reasons": [
+        "потребитель"
+      ],
+      "why_it_matters": "Материал влияет на рыночный или конкурентный контекст. Отобрано как: потребитель.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [],
+      "source_quality": 4.6,
+      "publisher_id": "kommersant.ru"
     },
     {
       "id": "99abfb89e09785dd9a",
@@ -12772,6 +13511,67 @@
       "publisher_id": "cnews.ru"
     },
     {
+      "id": "20deac79b7afbab245",
+      "title": "Путин поздравил студентов и преподавателей РУТ со 130-летием вуза",
+      "url": "https://tass.ru/obschestvo/28154181",
+      "source": "ТАСС — экономика и компании",
+      "published_at": "2026-09-26T08:49:58+00:00",
+      "summary": "Глава государства отметил вклад университета в развитие отечественной транспортной системы",
+      "categories": [
+        "BanksFintech"
+      ],
+      "primary_category": "BanksFintech",
+      "topics": [
+        "Бизнес-изменения"
+      ],
+      "brands": [],
+      "score": 1.4,
+      "strategic_relevance_score": 28,
+      "relevance_reasons": [],
+      "why_it_matters": "Может менять банковские офферы, финтех-сервисы, клиентское поведение и коммуникационную конкуренцию.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [],
+      "source_quality": 4.5,
+      "publisher_id": "tass.ru"
+    },
+    {
+      "id": "b993cfd44d2f2ba698",
+      "title": "Власти гигантской страны усиливают меры безопасности после того, как ИИ-агент OpenAI самостоятельно взломал госпортал",
+      "url": "https://cnews.ru/news/top/2026-09-25_avstralijskie_vlasti_mogut",
+      "source": "CNews — бизнес и технологии",
+      "published_at": "2026-09-25T12:16:00+00:00",
+      "summary": "Правительство Австралии намерено ужесточить регулирование ИТ-систем после взлома государственной службы медстрахования ИИ-агентом OpenAI. Одна из мер предполагает, что на ИИ-компании может быть возложена ответственность за безопасность пользователей.…",
+      "categories": [
+        "TechnologyAI"
+      ],
+      "primary_category": "TechnologyAI",
+      "topics": [
+        "Регулирование"
+      ],
+      "brands": [],
+      "score": 1.4,
+      "strategic_relevance_score": 28,
+      "relevance_reasons": [
+        "регулирование",
+        "будущий горизонт"
+      ],
+      "why_it_matters": "Материал влияет на рыночный или конкурентный контекст. Горизонт: future. Отобрано как: регулирование, будущий горизонт.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [
+        "future"
+      ],
+      "future_signal": true,
+      "content_type": "company_plan",
+      "metrics": [],
+      "source_quality": 4.1,
+      "publisher_id": "cnews.ru"
+    },
+    {
       "id": "ebbc3415991f6e9ebe",
       "title": "«Группа Лента» открыла гипермаркет в Москве",
       "url": "https://retail.ru/news/gruppa-lenta-otkryla-gipermarket-v-moskve-25-sentyabrya-2026-282576",
@@ -13650,6 +14450,38 @@
       "publisher_id": "finam.ru"
     },
     {
+      "id": "014b3032dcabf03a1e",
+      "title": "Продукт Билайна занял первое место в первом рейтинге мультисим-решений CNewsMarket",
+      "url": "https://cnews.ru/news/line/2026-09-25_produkt_bilajna_zanyal_pervoe",
+      "source": "CNews — бизнес и технологии",
+      "published_at": "2026-09-25T11:32:00+00:00",
+      "summary": "Мультисим от Билайна занял первое место в рейтинге российских мультисим*-решений, подготовленном CNewsMarket. В исследовании...",
+      "categories": [
+        "Telecom"
+      ],
+      "primary_category": "Telecom",
+      "topics": [
+        "Исследования и прогнозы"
+      ],
+      "brands": [
+        "Билайн"
+      ],
+      "score": 1.3,
+      "strategic_relevance_score": 26,
+      "relevance_reasons": [
+        "крупный игрок"
+      ],
+      "why_it_matters": "Материал влияет на рыночный или конкурентный контекст. В фокусе: Билайн. Отобрано как: крупный игрок.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "research",
+      "metrics": [],
+      "source_quality": 4.1,
+      "publisher_id": "cnews.ru"
+    },
+    {
       "id": "b388c22fd5200125cd",
       "title": "МТС: в Коми в 4 раза вырос спрос на резервное копирование",
       "url": "https://cnews.ru/news/line/2026-09-24_mts_v_komi_v_4_raza_vyros",
@@ -13944,6 +14776,47 @@
       "publisher_id": "cnews.ru"
     },
     {
+      "id": "931f6c5e5faf758fa6",
+      "title": "\"Перекресток\" на Новом Арбате возобновил работу по решению суда",
+      "url": "https://tass.ru/obschestvo/28154173",
+      "source": "ТАСС — экономика и компании",
+      "published_at": "2026-09-26T08:55:13+00:00",
+      "summary": "Работу супермаркета приостанавливали из-за нарушения санитарно-эпидемиологических норм",
+      "categories": [
+        "Retail"
+      ],
+      "primary_category": "Retail",
+      "topics": [
+        "Бизнес-изменения"
+      ],
+      "brands": [
+        "Перекресток"
+      ],
+      "score": 1.2,
+      "strategic_relevance_score": 24,
+      "relevance_reasons": [
+        "клиент",
+        "крупный игрок"
+      ],
+      "why_it_matters": "Показывает изменение в бизнесе ритейла: формате, продажах, ценах, ассортименте или конкурентной динамике. В фокусе: Перекресток. Отобрано как: клиент, крупный игрок.",
+      "client_matches": {
+        "x5": {
+          "name": "X5",
+          "score": 3.4,
+          "matches": [
+            "Перекресток"
+          ]
+        }
+      },
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [],
+      "source_quality": 4.5,
+      "publisher_id": "tass.ru"
+    },
+    {
       "id": "067ecaea565b3851d8",
       "title": "Путин поздравил \"Автоваз\" с началом серийного выпуска Lada Azimut",
       "url": "https://tass.ru/ekonomika/28151435",
@@ -14042,6 +14915,38 @@
       "metrics": [],
       "source_quality": 4.0,
       "publisher_id": "finam.ru"
+    },
+    {
+      "id": "72ad4c929f6bc748f5",
+      "title": "Земли под ЦОД не будут выделять в отдельную категорию, как просили участники рынка дата-центров",
+      "url": "https://cnews.ru/news/top/2026-09-25_zemli_pod_tsod_ne_budut_vydelyat",
+      "source": "CNews — бизнес и технологии",
+      "published_at": "2026-09-25T14:45:00+00:00",
+      "summary": "Росреестр не планирует выделять для ЦОД отдельную категорию разрешенного использования земли. Об этом ранее просила часть игроков рынка. Они ссылались на рост земельных платежей и неопределенность с их размерами.",
+      "categories": [
+        "BanksFintech"
+      ],
+      "primary_category": "BanksFintech",
+      "topics": [
+        "Бизнес-изменения"
+      ],
+      "brands": [],
+      "score": 1.1,
+      "strategic_relevance_score": 22,
+      "relevance_reasons": [
+        "будущий горизонт"
+      ],
+      "why_it_matters": "Может менять банковские офферы, финтех-сервисы, клиентское поведение и коммуникационную конкуренцию. Горизонт: future. Отобрано как: будущий горизонт.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [
+        "future"
+      ],
+      "future_signal": true,
+      "content_type": "company_plan",
+      "metrics": [],
+      "source_quality": 4.1,
+      "publisher_id": "cnews.ru"
     },
     {
       "id": "d6d8bcf3f049181aae",
