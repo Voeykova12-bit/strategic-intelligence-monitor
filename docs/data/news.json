@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-26T09:58:18.308535+00:00",
+  "updated_at": "2026-09-27T10:39:21.311164+00:00",
   "source_count": 42,
-  "item_count": 425,
+  "item_count": 436,
   "retention_days": 365,
   "categories": [
     {
@@ -74,7 +74,7 @@
   "source_stats": [
     {
       "source": "Retail.ru — новости",
-      "added": 1
+      "added": 2
     },
     {
       "source": "Retail.ru — статьи",
@@ -86,7 +86,7 @@
     },
     {
       "source": "РБК — бизнес и экономика",
-      "added": 2
+      "added": 1
     },
     {
       "source": "Коммерсантъ — новости",
@@ -94,31 +94,31 @@
     },
     {
       "source": "Ведомости — новости",
-      "added": 1
+      "added": 0
     },
     {
       "source": "Sostav — маркетинг и бренды",
-      "added": 2
+      "added": 1
     },
     {
       "source": "CNews — бизнес и технологии",
-      "added": 6
+      "added": 0
     },
     {
       "source": "ТАСС — экономика и компании",
-      "added": 3
+      "added": 0
     },
     {
       "source": "Finam — компании и рынки",
-      "added": 0
+      "added": 2
     },
     {
       "source": "АВТОСТАТ — авторынок",
-      "added": 0
+      "added": 3
     },
     {
       "source": "РБК Недвижимость — рынок недвижимости",
-      "added": 2
+      "added": 1
     },
     {
       "source": "Банк России — новости",
@@ -197,7 +197,7 @@
     },
     {
       "source": "РБК Тренды",
-      "added": 1,
+      "added": 3,
       "status": "ok"
     },
     {
@@ -263,7 +263,7 @@
     {
       "source": "PROfashion",
       "added": 0,
-      "status": "no_dated_items"
+      "status": "error"
     },
     {
       "source": "Fashion Consulting Group — Telegram",
@@ -278,10 +278,6 @@
   ],
   "errors": [
     {
-      "source": "АВТОСТАТ — авторынок",
-      "error": "HTTP Error 403: Forbidden"
-    },
-    {
       "source": "Росстат — новости статистики",
       "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
     },
@@ -291,6 +287,10 @@
     },
     {
       "source": "ФАС России — новости",
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "source": "PROfashion",
       "error": "<urlopen error timed out>"
     }
   ],
@@ -2748,6 +2748,57 @@
       "pdf_urls": [],
       "research_primary": false,
       "publisher_id": "akarussia.ru"
+    },
+    {
+      "id": "aa9ab8f7f09b543f0e",
+      "title": "Дайджест 21.09-27.09: «Лента» поглотила сибирскую сеть «Мария-Ра», X5 охватила кофепойнтами 88% своих магазинов, Коммерческий директор «М.Видео» сообщил о нехватке оборотных средств",
+      "url": "https://retail.ru/news/daydzhest-21-09-27-09--27-sentyabrya-2026-282607",
+      "source": "Retail.ru — новости",
+      "published_at": "2026-09-27T07:25:00+00:00",
+      "summary": "",
+      "categories": [
+        "Retail"
+      ],
+      "primary_category": "Retail",
+      "topics": [
+        "Рынок и продажи",
+        "Финрезультаты"
+      ],
+      "brands": [
+        "X5",
+        "Лента"
+      ],
+      "score": 4.0,
+      "strategic_relevance_score": 80,
+      "relevance_reasons": [
+        "рынок / бизнес",
+        "клиент",
+        "крупный игрок",
+        "есть данные"
+      ],
+      "why_it_matters": "Показывает изменение в бизнесе ритейла: формате, продажах, ценах, ассортименте или конкурентной динамике. В фокусе: X5, Лента. Отобрано как: рынок / бизнес, клиент, крупный игрок.",
+      "client_matches": {
+        "x5": {
+          "name": "X5",
+          "score": 3.4,
+          "matches": [
+            "X5"
+          ]
+        }
+      },
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [
+        {
+          "type": "Выручка / оборот",
+          "value": "88%",
+          "context": "09: «Лента» поглотила сибирскую сеть «Мария-Ра», X5 охватила кофепойнтами 88% своих магазинов, Коммерческий директор «М."
+        }
+      ],
+      "source_quality": 4.5,
+      "publisher_id": "retail.ru"
     },
     {
       "id": "4bef56117c1b4621af",
@@ -5618,6 +5669,35 @@
       "publisher_id": "adindex.ru"
     },
     {
+      "id": "430c46cf8123e780ca",
+      "title": "Meta and YouTube say they will run ads for ‘Musk’ documentary after all",
+      "url": "https://techcrunch.com/2026/09/26/meta-says-it-will-run-ads-for-musk-documentary-after-all",
+      "source": "TechCrunch",
+      "published_at": "2026-09-26T17:44:00+00:00",
+      "summary": "Two companies now say they will accept advertising for director Alex Gibney’s upcoming documentary about Elon Musk, following earlier reporting that a number of social media platforms had rejected the ads.",
+      "categories": [
+        "TechnologyAI",
+        "MediaAdvertising"
+      ],
+      "primary_category": "TechnologyAI",
+      "topics": [
+        "Маркетинг и медиа",
+        "Исследования и прогнозы"
+      ],
+      "brands": [],
+      "score": 3.3,
+      "strategic_relevance_score": 66,
+      "why_it_matters": "Международный сигнал, который может повлиять на маркетинг, потребление или бизнес-модели и быть релевантен российскому рынку. Есть исследовательская или прогнозная база.",
+      "market_scope": "Global",
+      "metrics": [],
+      "image_url": "",
+      "source_quality": 4.3,
+      "content_type": "research",
+      "future_signal": false,
+      "future_horizon": [],
+      "publisher_id": "techcrunch.com"
+    },
+    {
       "id": "f5d542d1fee6f51a55",
       "title": "Кадровые перестановки недели: новые назначения в «СберСеллере», «Ашане», «Лемана ПРО», АФК «Система» и Ozon",
       "url": "https://adindex.ru/news/hr/2026/09/25/349283.phtml",
@@ -7275,10 +7355,10 @@
       "published_at": "2026-09-25T11:16:01+00:00",
       "summary": "Если кредитный договор заключен до 1 октября, по действующим условиям ставка будет 6%, если после этой даты — в зависимости от числа детей и региона, как следует из новых правил, утвержденных Минфином, рассказали в «Дом.РФ»",
       "categories": [
-        "RealEstate",
-        "BanksFintech"
+        "BanksFintech",
+        "RealEstate"
       ],
-      "primary_category": "RealEstate",
+      "primary_category": "BanksFintech",
       "topics": [
         "Регулирование"
       ],
@@ -7289,7 +7369,7 @@
         "регулирование",
         "есть данные"
       ],
-      "why_it_matters": "Отражает динамику спроса, цен, ипотеки, девелопмента и коммерческой недвижимости. Отобрано как: регулирование, есть данные.",
+      "why_it_matters": "Может менять банковские офферы, финтех-сервисы, клиентское поведение и коммуникационную конкуренцию. Отобрано как: регулирование, есть данные.",
       "client_matches": {},
       "market_scope": "Russia",
       "future_horizon": [],
@@ -7598,6 +7678,40 @@
       "publisher_id": "sostav.ru"
     },
     {
+      "id": "a4494c217ebce79106",
+      "title": "Минфин: система гарантирования вкладов в России с 2027 года будет расширена",
+      "url": "https://kommersant.ru/doc/8987974",
+      "source": "Коммерсантъ — новости",
+      "published_at": "2026-09-27T09:08:09+00:00",
+      "summary": "С 1 января 2027 года систему гарантирования вкладов расширят на три новых вида страхования. Об этом заявил «РИА Новости» замминистра финансов России Иван Чебесков.",
+      "categories": [
+        "BanksFintech"
+      ],
+      "primary_category": "BanksFintech",
+      "topics": [
+        "Форматы и экспансия",
+        "Регулирование"
+      ],
+      "brands": [],
+      "score": 2.5,
+      "strategic_relevance_score": 50,
+      "relevance_reasons": [
+        "регулирование",
+        "будущий горизонт"
+      ],
+      "why_it_matters": "Может менять банковские офферы, финтех-сервисы, клиентское поведение и коммуникационную конкуренцию. Горизонт: 2027. Отобрано как: регулирование, будущий горизонт.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [
+        "2027"
+      ],
+      "future_signal": true,
+      "content_type": "news",
+      "metrics": [],
+      "source_quality": 4.6,
+      "publisher_id": "kommersant.ru"
+    },
+    {
       "id": "dbbf7e04729e343e07",
       "title": "Топ-менеджеры «Альфа-банка» снизили доли в ИТ-сервисе «Кассир.ру» в пользу «Аб холдинга»",
       "url": "https://cnews.ru/news/top/2026-09-25_golovnaya_kompaniya_alfa-banka",
@@ -7650,6 +7764,41 @@
       ],
       "source_quality": 4.1,
       "publisher_id": "cnews.ru"
+    },
+    {
+      "id": "21410a76b0db0b2885",
+      "title": "Changan готовится вывести на авторынок России новый суббренд Nevo",
+      "url": "https://autostat.ru/news/63174",
+      "source": "АВТОСТАТ — авторынок",
+      "published_at": "2026-09-25T00:00:00+00:00",
+      "summary": "На российский рынок официально выйдет новый суббренд от Changan – Nevo. Он займет нишу «комфорт-престиж». Об этом рассказал изданию «АвтоВзгляд» президент компании Changan Eurasia Сунь Цз...",
+      "categories": [
+        "Automotive"
+      ],
+      "primary_category": "Automotive",
+      "topics": [
+        "Рынок и продажи",
+        "Маркетинг и медиа"
+      ],
+      "brands": [
+        "Changan"
+      ],
+      "score": 2.5,
+      "strategic_relevance_score": 50,
+      "relevance_reasons": [
+        "рынок / бизнес",
+        "маркетинг",
+        "крупный игрок"
+      ],
+      "why_it_matters": "Важен для понимания продаж, цен, модельного ряда, дилерской сети и конкурентной динамики авторынка. В фокусе: Changan. Отобрано как: рынок / бизнес, маркетинг, крупный игрок.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [],
+      "source_quality": 4.8,
+      "publisher_id": "autostat.ru"
     },
     {
       "id": "d51e1b5a77550f361e",
@@ -8560,6 +8709,45 @@
       "metrics": [],
       "source_quality": 4.2,
       "publisher_id": "sostav.ru"
+    },
+    {
+      "id": "5b953da020d2e23ec4",
+      "title": "Рынок пикапов с пробегом в августе показал незначительный рост",
+      "url": "https://autostat.ru/news/63166",
+      "source": "АВТОСТАТ — авторынок",
+      "published_at": "2026-09-25T00:00:00+00:00",
+      "summary": "Согласно данным агентства «АВТОСТАТ», в августе 2026 года россияне приобрели 3 092 подержанных пикапа. Это всего лишь на 0,7% больше, чем в том же месяце прошлого года (3 073 шт.).",
+      "categories": [
+        "Automotive"
+      ],
+      "primary_category": "Automotive",
+      "topics": [
+        "Рынок и продажи",
+        "M&A и инвестиции"
+      ],
+      "brands": [],
+      "score": 2.2,
+      "strategic_relevance_score": 44,
+      "relevance_reasons": [
+        "рынок / бизнес",
+        "инвестиции / M&A",
+        "есть данные"
+      ],
+      "why_it_matters": "Важен для понимания продаж, цен, модельного ряда, дилерской сети и конкурентной динамики авторынка. Отобрано как: рынок / бизнес, инвестиции / M&A, есть данные.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [
+        {
+          "type": "Рыночная метрика",
+          "value": "0,7%",
+          "context": "Это всего лишь на 0,7% больше, чем в том же месяце прошлого года (3 073 шт."
+        }
+      ],
+      "source_quality": 4.8,
+      "publisher_id": "autostat.ru"
     },
     {
       "id": "692b37170529db07b5",
@@ -9829,6 +10017,38 @@
       "publisher_id": "retail.ru"
     },
     {
+      "id": "72187e823d57319119",
+      "title": "В России анонсировали пересмотр правил возврата товаров с маркетплейсов // Глава ЦСР Смелов: правила возврата товаров на маркетплейсах планируют изменить",
+      "url": "https://kommersant.ru/doc/8987971",
+      "source": "Коммерсантъ — новости",
+      "published_at": "2026-09-27T08:58:46+00:00",
+      "summary": "Глава Центра стратегических разработок (ЦСР) Павел Смелов заявил «РИА Новости», что правила возврата качественных товаров, купленных на маркетплейсах, могут пересмотреть. По его словам, продавцы слишком часто сталкиваются с возвратами товаров без недостатков.",
+      "categories": [
+        "DeliveryEcom"
+      ],
+      "primary_category": "DeliveryEcom",
+      "topics": [
+        "Бизнес-изменения"
+      ],
+      "brands": [],
+      "score": 2.0,
+      "strategic_relevance_score": 40,
+      "relevance_reasons": [
+        "будущий горизонт"
+      ],
+      "why_it_matters": "Помогает отслеживать рынок e-commerce и доставки: модели сервиса, игроков, логистику и поведение покупателей. Горизонт: future. Отобрано как: будущий горизонт.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [
+        "future"
+      ],
+      "future_signal": true,
+      "content_type": "company_plan",
+      "metrics": [],
+      "source_quality": 4.6,
+      "publisher_id": "kommersant.ru"
+    },
+    {
       "id": "db2c5adf352c7ad7c3",
       "title": "Совкомбанк намерен поддержать продвижение просемейных ценностей в рекламе",
       "url": "https://tass.ru/obschestvo/28151671",
@@ -9931,6 +10151,36 @@
       "metrics": [],
       "source_quality": 4.5,
       "publisher_id": "retail.ru"
+    },
+    {
+      "id": "59709eb99a1e38bb4b",
+      "title": "Дилер рассказал о перспективах обновленного бизнес-седана Hongqi H5",
+      "url": "https://autostat.ru/news/63165",
+      "source": "АВТОСТАТ — авторынок",
+      "published_at": "2026-09-25T00:00:00+00:00",
+      "summary": "Обновленный бизнес-седан Hongqi H5, который недавно поступил в продажу на российском рынке, получил целый ряд существенных изменений, но при этом не изменился ценовой подход, что позволит клиентам приобрести обновленную версию без дополн...",
+      "categories": [
+        "Automotive"
+      ],
+      "primary_category": "Automotive",
+      "topics": [
+        "Рынок и продажи"
+      ],
+      "brands": [],
+      "score": 2.0,
+      "strategic_relevance_score": 40,
+      "relevance_reasons": [
+        "рынок / бизнес"
+      ],
+      "why_it_matters": "Важен для понимания продаж, цен, модельного ряда, дилерской сети и конкурентной динамики авторынка. Отобрано как: рынок / бизнес.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [],
+      "source_quality": 4.8,
+      "publisher_id": "autostat.ru"
     },
     {
       "id": "634a2911e246ffb672",
@@ -10622,6 +10872,40 @@
       "metrics": [],
       "source_quality": 4.3,
       "publisher_id": "retail.ru"
+    },
+    {
+      "id": "3ba1f8865bb691a7f4",
+      "title": "В Минфине рассказали, какие сбережения войдут в систему страхования вкладов с 2027 года",
+      "url": "https://finam.ru/publications/item/v-minfine-rasskazali-kakie-sberezheniya-voydut-v-sistemu-strakhovaniya-vkladov-s-2027-goda-20260927-1152?news_to_finamb=new_compaigns",
+      "source": "Finam — компании и рынки",
+      "published_at": "2026-09-27T08:52:40+00:00",
+      "summary": "Система гарантирования вкладов в России с 1 января 2027 года будет расширена на три новых вида страхования...",
+      "categories": [
+        "BanksFintech"
+      ],
+      "primary_category": "BanksFintech",
+      "topics": [
+        "Форматы и экспансия",
+        "Регулирование"
+      ],
+      "brands": [],
+      "score": 1.9,
+      "strategic_relevance_score": 38,
+      "relevance_reasons": [
+        "регулирование",
+        "будущий горизонт"
+      ],
+      "why_it_matters": "Может менять банковские офферы, финтех-сервисы, клиентское поведение и коммуникационную конкуренцию. Горизонт: 2027. Отобрано как: регулирование, будущий горизонт.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [
+        "2027"
+      ],
+      "future_signal": true,
+      "content_type": "news",
+      "metrics": [],
+      "source_quality": 4.0,
+      "publisher_id": "finam.ru"
     },
     {
       "id": "54dccd45cbaefab186",
@@ -11965,6 +12249,37 @@
       "publisher_id": "sostav.ru"
     },
     {
+      "id": "17e16933ad317bf790",
+      "title": "Соседи, Росреестр и банки: как налоговая ищет доходы от серой аренды",
+      "url": "https://rbc.ru/radio/27/09/2026/6ab8c1ef9a79475a25de6e96",
+      "source": "РБК — бизнес и экономика",
+      "published_at": "2026-09-27T08:25:56+00:00",
+      "summary": "Налоговая выявляет незадекларированные доходы от аренды по данным Росреестра, опросам жильцов и банковским выпискам. Как инспекторы находят арендодателей и рассчитывают доход — в программе «Налоговая база» на Радио РБК",
+      "categories": [
+        "BanksFintech"
+      ],
+      "primary_category": "BanksFintech",
+      "topics": [
+        "Регулирование",
+        "Исследования и прогнозы"
+      ],
+      "brands": [],
+      "score": 1.7,
+      "strategic_relevance_score": 34,
+      "relevance_reasons": [
+        "регулирование"
+      ],
+      "why_it_matters": "Может менять банковские офферы, финтех-сервисы, клиентское поведение и коммуникационную конкуренцию. Отобрано как: регулирование.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [],
+      "source_quality": 4.5,
+      "publisher_id": "rbc.ru"
+    },
+    {
       "id": "a54d7b2675415db999",
       "title": "ЦБ пообещал бороться с маскировкой потребкредитов под рассрочку",
       "url": "https://vedomosti.ru/finance/news/2026/09/25/1232007-borotsya-s-maskirovkoi-potrebkreditov",
@@ -12390,6 +12705,34 @@
       "content_type": "news",
       "source_quality": 4.0,
       "publisher_id": "sostav.ru"
+    },
+    {
+      "id": "e86a190d16b193c5f5",
+      "title": "Axios: OpenAI приостановила обучение передовых моделей ИИ // Axios сообщило о приостановке обучения некоторых ИИ-моделей OpenAI",
+      "url": "https://kommersant.ru/doc/8987901",
+      "source": "Коммерсантъ — новости",
+      "published_at": "2026-09-27T01:05:04+00:00",
+      "summary": "Компания OpenAI приостановила обучение своих самых мощных моделей искусственного интеллекта и возобновит его, когда будет уверена в наличии дополнительных мер безопасности. Компания также хочет убедиться в том, что нейросеть при выполнении задач будет ориентироваться на человеческие нормы.",
+      "categories": [
+        "TechnologyAI"
+      ],
+      "primary_category": "TechnologyAI",
+      "topics": [
+        "Digital и технологии"
+      ],
+      "brands": [],
+      "score": 1.6,
+      "strategic_relevance_score": 32,
+      "relevance_reasons": [],
+      "why_it_matters": "Материал влияет на рыночный или конкурентный контекст.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [],
+      "source_quality": 4.6,
+      "publisher_id": "kommersant.ru"
     },
     {
       "id": "d0bccd6ccac01d1800",
@@ -14774,6 +15117,39 @@
       "content_type": "news",
       "source_quality": 4.0,
       "publisher_id": "cnews.ru"
+    },
+    {
+      "id": "f57b27fe35c0d2758f",
+      "title": "На воскресных торгах рынок умеренно подрастает",
+      "url": "https://finam.ru/publications/item/na-voskresnykh-torgakh-rynok-umerenno-podrastaet-20260927-1130?news_to_finamb=new_compaigns",
+      "source": "Finam — компании и рынки",
+      "published_at": "2026-09-27T08:30:28+00:00",
+      "summary": "В топе лидеров роста держатся акции БСП, «Магнита», ДВМП, «Газпром нефти»...",
+      "categories": [
+        "Retail"
+      ],
+      "primary_category": "Retail",
+      "topics": [
+        "Рынок и продажи"
+      ],
+      "brands": [
+        "Магнит"
+      ],
+      "score": 1.2,
+      "strategic_relevance_score": 24,
+      "relevance_reasons": [
+        "рынок / бизнес",
+        "крупный игрок"
+      ],
+      "why_it_matters": "Показывает изменение в бизнесе ритейла: формате, продажах, ценах, ассортименте или конкурентной динамике. В фокусе: Магнит. Отобрано как: рынок / бизнес, крупный игрок.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [],
+      "source_quality": 4.0,
+      "publisher_id": "finam.ru"
     },
     {
       "id": "931f6c5e5faf758fa6",
