@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-30T11:15:29.130656+00:00",
+  "updated_at": "2026-09-30T11:55:59.468138+00:00",
   "source_count": 43,
-  "item_count": 626,
+  "item_count": 630,
   "retention_days": 365,
   "categories": [
     {
@@ -74,11 +74,11 @@
   "source_stats": [
     {
       "source": "Retail.ru — новости",
-      "added": 1
+      "added": 0
     },
     {
       "source": "Retail.ru — статьи",
-      "added": 2
+      "added": 1
     },
     {
       "source": "Банки.ру — новости",
@@ -90,7 +90,7 @@
     },
     {
       "source": "Коммерсантъ — новости",
-      "added": 4
+      "added": 0
     },
     {
       "source": "Ведомости — новости",
@@ -98,27 +98,27 @@
     },
     {
       "source": "Sostav — маркетинг и бренды",
-      "added": 4
-    },
-    {
-      "source": "CNews — бизнес и технологии",
-      "added": 14
-    },
-    {
-      "source": "ТАСС — экономика и компании",
       "added": 0
     },
     {
+      "source": "CNews — бизнес и технологии",
+      "added": 0
+    },
+    {
+      "source": "ТАСС — экономика и компании",
+      "added": 1
+    },
+    {
       "source": "Finam — компании и рынки",
-      "added": 2
+      "added": 0
     },
     {
       "source": "АВТОСТАТ — авторынок",
-      "added": 2
+      "added": 0
     },
     {
       "source": "РБК Недвижимость — рынок недвижимости",
-      "added": 5
+      "added": 1
     },
     {
       "source": "Банк России — новости",
@@ -152,7 +152,7 @@
     },
     {
       "source": "РОМИР — аналитика",
-      "added": 10,
+      "added": 8,
       "status": "ok"
     },
     {
@@ -177,7 +177,7 @@
     },
     {
       "source": "New Retail — отраслевые новости",
-      "added": 6,
+      "added": 7,
       "status": "ok"
     },
     {
@@ -197,7 +197,7 @@
     },
     {
       "source": "РБК Тренды",
-      "added": 3,
+      "added": 4,
       "status": "ok"
     },
     {
@@ -262,8 +262,8 @@
     },
     {
       "source": "PROfashion",
-      "added": 0,
-      "status": "error"
+      "added": 1,
+      "status": "ok"
     },
     {
       "source": "Fashion Consulting Group — Telegram",
@@ -278,6 +278,10 @@
   ],
   "errors": [
     {
+      "source": "АВТОСТАТ — авторынок",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
       "source": "Росстат — новости статистики",
       "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
     },
@@ -287,10 +291,6 @@
     },
     {
       "source": "ФАС России — новости",
-      "error": "<urlopen error timed out>"
-    },
-    {
-      "source": "PROfashion",
       "error": "<urlopen error timed out>"
     }
   ],
@@ -3756,7 +3756,7 @@
       "url": "https://marketingdive.com/news/how-thornes-brand-platform-led-to-a-38b-pg-deal-and-whats-next/831494",
       "source": "Marketing Dive",
       "published_at": "2026-09-29T17:00:00+00:00",
-      "summary": "Chief Growth Officer Mary Beech details how work with brand consultancy Redscout turned consumer insights into campaigns and a communication style.",
+      "summary": "Chief Growth Officer Mary Beech details how work with brand consultancy Redscout turned consumer insights into campaigns and a way of communicating.",
       "categories": [
         "MediaAdvertising",
         "TechnologyAI",
@@ -4093,6 +4093,38 @@
       "pdf_urls": [],
       "research_primary": false,
       "publisher_id": "akarussia.ru"
+    },
+    {
+      "id": "84911e7b55860c194f",
+      "title": "Главные тендеры для агентств: «СТС Медиа», «Лента» и МТС AdTech",
+      "url": "https://adindex.ru/news/ek/2026/09/30/349414.phtml",
+      "source": "AdIndex — реклама и медиа",
+      "published_at": "2026-09-30T11:48:19+00:00",
+      "summary": "Новости Бизнес СМИ AdIndex из рубрики Тендеры — Главные тендеры для агентств: «СТС Медиа», «Лента» и МТС AdTech — Публикуем свежую подборку тендеров в рекламе и маркетинге. «М.Видео», Х5, «Логика молока» и другие бренды ищут подрядчиков до 20 октября",
+      "categories": [
+        "MediaAdvertising",
+        "Telecom",
+        "TechnologyAI"
+      ],
+      "primary_category": "MediaAdvertising",
+      "topics": [
+        "Маркетинг и медиа",
+        "Digital и технологии"
+      ],
+      "brands": [],
+      "score": 3.7,
+      "strategic_relevance_score": 74,
+      "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
+      "market_scope": "Russia",
+      "metrics": [],
+      "image_url": "",
+      "source_quality": 4.5,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": [],
+      "pdf_urls": [],
+      "research_primary": false,
+      "publisher_id": "adindex.ru"
     },
     {
       "id": "adce934fc2129f07da",
@@ -6459,6 +6491,41 @@
       "publisher_id": "romir.ru"
     },
     {
+      "id": "738c51e174f87ad68d",
+      "title": "Предложение квартир в полностью сданных новостройках Московского региона достигло пятилетнего максимума",
+      "url": "https://irn.ru/news/160746-predlozhenie-kvartir-v-polnostyu-sdannyh.html",
+      "source": "ИРН",
+      "published_at": "2026-09-30T11:14:00+00:00",
+      "summary": "Доля квартир, выставленных на продажу в полностью сданных новостройках Москвы и Московской области, достигла 18,9 тыс. лотов. Это 19,5% от общего объема предложения жилья в столичном регионе - реко...",
+      "categories": [
+        "RealEstate"
+      ],
+      "primary_category": "RealEstate",
+      "topics": [
+        "Рынок и продажи"
+      ],
+      "brands": [],
+      "score": 3.4,
+      "strategic_relevance_score": 68,
+      "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
+      "market_scope": "Russia",
+      "metrics": [
+        {
+          "type": "Рыночная метрика",
+          "value": "19,5%",
+          "context": "полностью сданных новостройках Москвы и Московской области, достигла 18,9 тыс. лотов. Это 19,5% от общего объема предложения жилья в столичном регионе - реко..."
+        }
+      ],
+      "image_url": "",
+      "source_quality": 4.5,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": [],
+      "pdf_urls": [],
+      "research_primary": false,
+      "publisher_id": "irn.ru"
+    },
+    {
       "id": "2490c3cc4c81f2ae2d",
       "title": "Совет ЕЭК внес изменения в правила регистрации медизделий",
       "url": "https://pharmvestnik.ru/content/news/sovet-eek-vnes-izmeneniya-v-pravila-registracii-medizdelii.html",
@@ -6612,6 +6679,43 @@
           "type": "Выручка / оборот",
           "value": "31 %",
           "context": "| New Retail. Сеть дискаунтеров «Чижик» за январь — август 2026 года увеличила выручку на 31 % в годовом сопоставлении, а по завершении года бизнес выйдет на положительный показатель EBITDA."
+        }
+      ],
+      "image_url": "",
+      "source_quality": 4.2,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": [],
+      "pdf_urls": [],
+      "research_primary": false,
+      "publisher_id": "new-retail.ru"
+    },
+    {
+      "id": "dc97dfb1fccf257b02",
+      "title": "Сегмент готовой еды в X5 за восемь месяцев вырос на 24% | New Retail",
+      "url": "https://new-retail.ru/novosti/retail/segment_gotovoy_edy_v_x5_za_vosem_mesyatsev_vyros_na_24",
+      "source": "New Retail — отраслевые новости",
+      "published_at": "2026-09-29T21:00:00+00:00",
+      "summary": "Сегмент готовой еды в ритейлере X5 продемонстрировал наибольший темп роста: за восемь месяцев текущего года выручка в этой категории увеличилась почти на четверть в годовом сопоставлении.",
+      "categories": [
+        "Retail",
+        "TechnologyAI"
+      ],
+      "primary_category": "Retail",
+      "topics": [
+        "Рынок и продажи",
+        "Digital и технологии"
+      ],
+      "brands": [],
+      "score": 3.4,
+      "strategic_relevance_score": 68,
+      "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
+      "market_scope": "Russia",
+      "metrics": [
+        {
+          "type": "Рыночная метрика",
+          "value": "24%",
+          "context": "Сегмент готовой еды в X5 за восемь месяцев вырос на 24% | New Retail. Сегмент готовой еды в ритейлере X5 продемонстрировал наибольший темп роста: за восемь месяцев т"
         }
       ],
       "image_url": "",
@@ -11076,10 +11180,10 @@
       "published_at": "2026-09-30T06:27:31+00:00",
       "summary": "Для сохранения ставки по семейной ипотеке на уровне 6% нужно будет либо сразу внести большой первоначальный взнос, либо погасить половину кредита за первый год. Кроме того, ипотеку под 6% дадут всем семьям на покупку ИЖС",
       "categories": [
-        "RealEstate",
-        "BanksFintech"
+        "BanksFintech",
+        "RealEstate"
       ],
-      "primary_category": "RealEstate",
+      "primary_category": "BanksFintech",
       "topics": [
         "Регулирование"
       ],
@@ -11090,7 +11194,7 @@
         "регулирование",
         "есть данные"
       ],
-      "why_it_matters": "Отражает динамику спроса, цен, ипотеки, девелопмента и коммерческой недвижимости. Отобрано как: регулирование, есть данные.",
+      "why_it_matters": "Может менять банковские офферы, финтех-сервисы, клиентское поведение и коммуникационную конкуренцию. Отобрано как: регулирование, есть данные.",
       "client_matches": {},
       "market_scope": "Russia",
       "future_horizon": [],
@@ -13797,10 +13901,10 @@
       "published_at": "2026-09-29T12:52:48+00:00",
       "summary": "Из-за расширения лимитов по семейной ипотеке для большинства семей выбор жилья в новостройках без дополнительных доплат существенно расширился. Однако для семей с одним ребенком в одном мегаполисе доступна лишь сотня квартир",
       "categories": [
-        "RealEstate",
-        "BanksFintech"
+        "BanksFintech",
+        "RealEstate"
       ],
-      "primary_category": "RealEstate",
+      "primary_category": "BanksFintech",
       "topics": [
         "Форматы и экспансия"
       ],
@@ -13808,7 +13912,7 @@
       "score": 2.1,
       "strategic_relevance_score": 42,
       "relevance_reasons": [],
-      "why_it_matters": "Отражает динамику спроса, цен, ипотеки, девелопмента и коммерческой недвижимости.",
+      "why_it_matters": "Может менять банковские офферы, финтех-сервисы, клиентское поведение и коммуникационную конкуренцию.",
       "client_matches": {},
       "market_scope": "Russia",
       "future_horizon": [],
@@ -17430,6 +17534,37 @@
       "content_type": "news",
       "source_quality": 4.0,
       "publisher_id": "sostav.ru"
+    },
+    {
+      "id": "75285954b49df90398",
+      "title": "Путин призвал усовершенствовать законодательную базу РФ для развития страны",
+      "url": "https://tass.ru/ekonomika/28166183",
+      "source": "ТАСС — экономика и компании",
+      "published_at": "2026-09-30T11:06:28+00:00",
+      "summary": "Президент подчеркнул, что в эпоху стремительного развития технологий Россия должна находиться \"в авангарде таких перемен\"",
+      "categories": [
+        "TechnologyAI"
+      ],
+      "primary_category": "TechnologyAI",
+      "topics": [
+        "Digital и технологии",
+        "Регулирование"
+      ],
+      "brands": [],
+      "score": 1.7,
+      "strategic_relevance_score": 34,
+      "relevance_reasons": [
+        "регулирование"
+      ],
+      "why_it_matters": "Материал влияет на рыночный или конкурентный контекст. Отобрано как: регулирование.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [],
+      "source_quality": 4.5,
+      "publisher_id": "tass.ru"
     },
     {
       "id": "cd7f34485120cbce37",
