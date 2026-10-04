@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-03T10:30:40.335053+00:00",
+  "updated_at": "2026-10-04T11:12:42.794274+00:00",
   "source_count": 43,
-  "item_count": 813,
+  "item_count": 816,
   "retention_days": 365,
   "categories": [
     {
@@ -86,31 +86,31 @@
     },
     {
       "source": "РБК — бизнес и экономика",
-      "added": 1
+      "added": 0
     },
     {
       "source": "Коммерсантъ — новости",
-      "added": 1
+      "added": 2
     },
     {
       "source": "Ведомости — новости",
-      "added": 1
+      "added": 0
     },
     {
       "source": "Sostav — маркетинг и бренды",
-      "added": 1
+      "added": 0
     },
     {
       "source": "CNews — бизнес и технологии",
-      "added": 2
+      "added": 0
     },
     {
       "source": "ТАСС — экономика и компании",
-      "added": 2
+      "added": 0
     },
     {
       "source": "Finam — компании и рынки",
-      "added": 1
+      "added": 0
     },
     {
       "source": "АВТОСТАТ — авторынок",
@@ -142,8 +142,8 @@
     },
     {
       "source": "TechCrunch",
-      "added": 2,
-      "status": "ok"
+      "added": 0,
+      "status": "no_dated_items"
     },
     {
       "source": "Modern Retail",
@@ -227,8 +227,8 @@
     },
     {
       "source": "INFOLine",
-      "added": 10,
-      "status": "ok"
+      "added": 0,
+      "status": "error"
     },
     {
       "source": "Frank RG",
@@ -294,8 +294,12 @@
       "error": "<urlopen error timed out>"
     },
     {
+      "source": "INFOLine",
+      "error": "HTTP Error 502: Bad Gateway"
+    },
+    {
       "source": "PROfashion",
-      "error": "<urlopen error timed out>"
+      "error": "HTTP Error 502: Bad Gateway"
     }
   ],
   "items": [
@@ -12663,6 +12667,47 @@
       "publisher_id": "sostav.ru"
     },
     {
+      "id": "d5707051812f9f6105",
+      "title": "Дайджест 28.09-04.10: Российские активы Metro передали во временное управление, Выручка сети «Около» выросла на рекордные 61,2%, Samsung впервые обогнал Apple по выручке от продаж смартфонов в РФ",
+      "url": "https://retail.ru/news/daydzhest-28-09-04-10--4-oktyabrya-2026-282885",
+      "source": "Retail.ru — новости",
+      "published_at": "2026-10-04T07:25:00+00:00",
+      "summary": "",
+      "categories": [
+        "Retail"
+      ],
+      "primary_category": "Retail",
+      "topics": [
+        "Рынок и продажи",
+        "Финрезультаты"
+      ],
+      "brands": [
+        "METRO"
+      ],
+      "score": 3.0,
+      "strategic_relevance_score": 60,
+      "relevance_reasons": [
+        "рынок / бизнес",
+        "крупный игрок",
+        "есть данные"
+      ],
+      "why_it_matters": "Показывает изменение в бизнесе ритейла: формате, продажах, ценах, ассортименте или конкурентной динамике. В фокусе: METRO. Отобрано как: рынок / бизнес, крупный игрок, есть данные.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [
+        {
+          "type": "Выручка / оборот",
+          "value": "61,2%",
+          "context": "10: Российские активы Metro передали во временное управление, Выручка сети «Около» выросла на рекордные 61,2%, Samsung впервые обогнал Apple по выручке от продаж смартфонов в РФ."
+        }
+      ],
+      "source_quality": 4.5,
+      "publisher_id": "retail.ru"
+    },
+    {
       "id": "3b74e06559efa59351",
       "title": "Сделавший ставку на ИТ-направление российский логистический оператор решил зарабатывать продажей сладостей на Ozon",
       "url": "https://cnews.ru/news/top/2026-09-25_krupnaya_rossijskaya_logisticheskaya",
@@ -18501,6 +18546,36 @@
       "publisher_id": "retail.ru"
     },
     {
+      "id": "fe5aab73198b6b5c58",
+      "title": "Echos: в ЕС предложили передать замороженные в Euroclear активы РФ Еврокомиссии",
+      "url": "https://kommersant.ru/doc/9005808",
+      "source": "Коммерсантъ — новости",
+      "published_at": "2026-10-04T08:26:00+00:00",
+      "summary": "Группа депутатов Европарламента выступила с предложением направить Еврокомиссии замороженные активы России на сумму свыше 200 млрд евро для последующего финансирования Украины. Письмо с призывом вновь начать дискуссию по этому вопросу подписали 122 депутата, сообщает Les Echos.",
+      "categories": [
+        "FMCG"
+      ],
+      "primary_category": "FMCG",
+      "topics": [
+        "Исследования и прогнозы"
+      ],
+      "brands": [],
+      "score": 2.0,
+      "strategic_relevance_score": 40,
+      "relevance_reasons": [
+        "есть данные"
+      ],
+      "why_it_matters": "Показывает сдвиги в спросе, портфелях брендов, ценах, дистрибуции и потребительских привычках. Отобрано как: есть данные.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [],
+      "source_quality": 4.6,
+      "publisher_id": "kommersant.ru"
+    },
+    {
       "id": "e8e018e9a61f4b0284",
       "title": "Продажи новых автомобилей в России выросли на 5,3% за девять месяцев",
       "url": "https://kommersant.ru/doc/9005039",
@@ -20990,6 +21065,38 @@
       "content_type": "forecast",
       "source_quality": 4.0,
       "publisher_id": "finam.ru"
+    },
+    {
+      "id": "e915dbe83dd6b61e22",
+      "title": "Капитан Flydubai рассказал, что второй пилот ушел помолиться перед нападением // Капитан Flydubai рассказал о просьбе напарника уйти на молитву перед нападением",
+      "url": "https://kommersant.ru/doc/9005727",
+      "source": "Коммерсантъ — новости",
+      "published_at": "2026-10-03T22:42:01+00:00",
+      "summary": "Перед нападением на капитана рейса Flydubai второй пилот Хамам аль-Хаммами попросил разрешения отойти на молитву. Об этом рассказал сам капитан самолета Смит Маччхар в разговоре с премьер-министром Израиля Биньямином Нетаньяху, передает The Times Of Israel.",
+      "categories": [
+        "TechnologyAI"
+      ],
+      "primary_category": "TechnologyAI",
+      "topics": [
+        "Исследования и прогнозы"
+      ],
+      "brands": [
+        "Самолет"
+      ],
+      "score": 1.8,
+      "strategic_relevance_score": 36,
+      "relevance_reasons": [
+        "крупный игрок"
+      ],
+      "why_it_matters": "Материал влияет на рыночный или конкурентный контекст. В фокусе: Самолет. Отобрано как: крупный игрок.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [],
+      "source_quality": 4.6,
+      "publisher_id": "kommersant.ru"
     },
     {
       "id": "0b36be15be082d97ef",
