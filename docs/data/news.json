@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-10T11:17:20.741100+00:00",
+  "updated_at": "2026-10-11T11:30:31.523255+00:00",
   "source_count": 43,
-  "item_count": 1179,
+  "item_count": 1186,
   "retention_days": 365,
   "categories": [
     {
@@ -74,7 +74,7 @@
   "source_stats": [
     {
       "source": "Retail.ru — новости",
-      "added": 0
+      "added": 1
     },
     {
       "source": "Retail.ru — статьи",
@@ -86,7 +86,7 @@
     },
     {
       "source": "РБК — бизнес и экономика",
-      "added": 0
+      "added": 2
     },
     {
       "source": "Коммерсантъ — новости",
@@ -102,15 +102,15 @@
     },
     {
       "source": "CNews — бизнес и технологии",
-      "added": 3
+      "added": 0
     },
     {
       "source": "ТАСС — экономика и компании",
-      "added": 2
+      "added": 1
     },
     {
       "source": "Finam — компании и рынки",
-      "added": 3
+      "added": 1
     },
     {
       "source": "АВТОСТАТ — авторынок",
@@ -127,7 +127,7 @@
     },
     {
       "source": "Банк России — пресс-релизы",
-      "added": 12,
+      "added": 11,
       "status": "ok"
     },
     {
@@ -238,7 +238,7 @@
     {
       "source": "Сравни",
       "added": 0,
-      "status": "no_dated_items"
+      "status": "error"
     },
     {
       "source": "ИРН",
@@ -248,7 +248,7 @@
     {
       "source": "ЕРЗ.РФ",
       "added": 0,
-      "status": "no_dated_items"
+      "status": "error"
     },
     {
       "source": "Левада-Центр",
@@ -258,12 +258,12 @@
     {
       "source": "ВЦИОМ",
       "added": 0,
-      "status": "no_dated_items"
+      "status": "error"
     },
     {
       "source": "PROfashion",
       "added": 0,
-      "status": "no_dated_items"
+      "status": "error"
     },
     {
       "source": "Fashion Consulting Group — Telegram",
@@ -278,6 +278,14 @@
   ],
   "errors": [
     {
+      "source": "Ведомости — новости",
+      "error": "The read operation timed out"
+    },
+    {
+      "source": "АВТОСТАТ — авторынок",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
       "source": "Росстат — новости статистики",
       "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
     },
@@ -288,9 +296,78 @@
     {
       "source": "ФАС России — новости",
       "error": "<urlopen error timed out>"
+    },
+    {
+      "source": "Сравни",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "source": "ЕРЗ.РФ",
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "source": "ВЦИОМ",
+      "error": "The read operation timed out"
+    },
+    {
+      "source": "PROfashion",
+      "error": "<urlopen error timed out>"
     }
   ],
   "items": [
+    {
+      "id": "8fb3bd011afa60e823",
+      "title": "Дайджест 05.10-11.10: Производство красной икры упало почти на 70%, «Перекрёсток» представил новый формат супермаркетов с цифровым кафе и открытой кухней, Ozon стал крупнейшим онлайн-продавцом товаров повседневного спроса",
+      "url": "https://retail.ru/news/daydzhest-05-10-11-10-proizvodstvo-krasnoy-ikry-upalo-pochti-na-70-perekryestok-otkryl-supermarket-s",
+      "source": "Retail.ru — новости",
+      "published_at": "2026-10-11T07:25:00+00:00",
+      "summary": "",
+      "categories": [
+        "Retail",
+        "DeliveryEcom"
+      ],
+      "primary_category": "Retail",
+      "topics": [
+        "Потребитель",
+        "Форматы и экспансия",
+        "Запуск продукта/сервиса"
+      ],
+      "brands": [
+        "Перекрёсток",
+        "Ozon"
+      ],
+      "score": 5,
+      "strategic_relevance_score": 100,
+      "relevance_reasons": [
+        "потребитель",
+        "клиент",
+        "крупный игрок",
+        "есть данные"
+      ],
+      "why_it_matters": "Показывает изменение в бизнесе ритейла: формате, продажах, ценах, ассортименте или конкурентной динамике. В фокусе: Перекрёсток, Ozon. Отобрано как: потребитель, клиент, крупный игрок.",
+      "client_matches": {
+        "x5": {
+          "name": "X5",
+          "score": 3.4,
+          "matches": [
+            "Перекрёсток"
+          ]
+        }
+      },
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [
+        {
+          "type": "Рыночная метрика",
+          "value": "70%",
+          "context": "10: Производство красной икры упало почти на 70%, «Перекрёсток» представил новый формат супермаркетов с цифровым кафе и открытой кухней, Ozon стал крупнейшим онлайн-продавцом товаров повс…"
+        }
+      ],
+      "source_quality": 4.5,
+      "publisher_id": "retail.ru"
+    },
     {
       "id": "bf-cbr-banksector-20260922",
       "title": "О развитии банковского сектора Российской Федерации в августе 2026 года",
@@ -5474,6 +5551,48 @@
       "pdf_urls": [],
       "research_primary": false,
       "publisher_id": "akarussia.ru"
+    },
+    {
+      "id": "311ad025f55efdbd36",
+      "title": "Объем сделок на складском рынке может вырасти на 25%",
+      "url": "https://kommersant.ru/doc/9023972",
+      "source": "Коммерсантъ — новости",
+      "published_at": "2026-10-11T10:28:15+00:00",
+      "summary": "Спрос на логопарки в Москве и Подмосковье к концу года может вырасти на четверть в годовом выражении. Ранее консультанты рынка недвижимости прогнозировали незначительный рост или даже падение интереса потенциальных покупателей к таким объектам.",
+      "categories": [
+        "RealEstate",
+        "Consumer"
+      ],
+      "primary_category": "RealEstate",
+      "topics": [
+        "Потребитель",
+        "Исследования и прогнозы"
+      ],
+      "brands": [],
+      "score": 3.7,
+      "strategic_relevance_score": 74,
+      "relevance_reasons": [
+        "потребитель",
+        "будущий горизонт",
+        "есть данные"
+      ],
+      "why_it_matters": "Отражает динамику спроса, цен, ипотеки, девелопмента и коммерческой недвижимости. Горизонт: future. Отобрано как: потребитель, будущий горизонт, есть данные.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [
+        "future"
+      ],
+      "future_signal": true,
+      "content_type": "forecast",
+      "metrics": [
+        {
+          "type": "Спрос",
+          "value": "25%",
+          "context": "Объем сделок на складском рынке может вырасти на 25%."
+        }
+      ],
+      "source_quality": 4.6,
+      "publisher_id": "kommersant.ru"
     },
     {
       "id": "a575d28911bdad11d9",
@@ -28933,6 +29052,38 @@
       "publisher_id": "retail.ru"
     },
     {
+      "id": "e1e7024ad3fb5b95a0",
+      "title": "Новак заверил, что смягчение запрета на экспорт дизтоплива не затронет потребителей России",
+      "url": "https://finam.ru/publications/item/novak-zaveril-chto-smyagchenie-zapreta-na-eksport-diztopliva-ne-zatronet-potrebiteley-rossii-20261011-0940?news_to_finamb=new_compaigns",
+      "source": "Finam — компании и рынки",
+      "published_at": "2026-10-11T06:40:38+00:00",
+      "summary": "Объемы производства позволяют полностью обеспечивать как внутренний рынок, так и поставки на экспорт...",
+      "categories": [
+        "Consumer"
+      ],
+      "primary_category": "Consumer",
+      "topics": [
+        "Рынок и продажи",
+        "Потребитель"
+      ],
+      "brands": [],
+      "score": 1.9,
+      "strategic_relevance_score": 38,
+      "relevance_reasons": [
+        "рынок / бизнес",
+        "потребитель"
+      ],
+      "why_it_matters": "Материал влияет на рыночный или конкурентный контекст. Отобрано как: рынок / бизнес, потребитель.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [],
+      "source_quality": 4.0,
+      "publisher_id": "finam.ru"
+    },
+    {
       "id": "9a74ff6963c1fcdfc3",
       "title": "ЦБ и АФТ работают над упрощением подключения банков к платформе цифрового рубля",
       "url": "https://tass.ru/ekonomika/28201375",
@@ -30716,6 +30867,38 @@
       "content_type": "forecast",
       "source_quality": 4.0,
       "publisher_id": "finam.ru"
+    },
+    {
+      "id": "88f5c59d98e4025eef",
+      "title": "В Раде предложили киевлянам пересесть на велосипеды для проезда по мостам",
+      "url": "https://rbc.ru/politics/02/10/2026/6abf3d8c9a7947d8230a4f5c",
+      "source": "РБК — бизнес и экономика",
+      "published_at": "2026-10-11T10:37:46+00:00",
+      "summary": "Зампредседателя комитета Рады по вопросам транспорта Владимир Крейденко предложил киевлянам пересаживаться на электросамокаты и велосипеды для проезда по мостам с одного берега Днепра на другой, следует из публикации на сайте партии «Слуга народа».",
+      "categories": [
+        "DeliveryEcom"
+      ],
+      "primary_category": "DeliveryEcom",
+      "topics": [
+        "Исследования и прогнозы"
+      ],
+      "brands": [
+        "Самокат"
+      ],
+      "score": 1.8,
+      "strategic_relevance_score": 36,
+      "relevance_reasons": [
+        "крупный игрок"
+      ],
+      "why_it_matters": "Помогает отслеживать рынок e-commerce и доставки: модели сервиса, игроков, логистику и поведение покупателей. В фокусе: Самокат. Отобрано как: крупный игрок.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [],
+      "source_quality": 4.5,
+      "publisher_id": "rbc.ru"
     },
     {
       "id": "27e2a2819a3e042f2f",
@@ -33763,6 +33946,66 @@
       "publisher_id": "sostav.ru"
     },
     {
+      "id": "6e60b36c99646e3002",
+      "title": "Развитие ИИ может способствовать широкому применению ядерного оружия",
+      "url": "https://kommersant.ru/doc/9023940",
+      "source": "Коммерсантъ — новости",
+      "published_at": "2026-10-11T09:05:53+00:00",
+      "summary": "Массовое боевое применение коммерческих информационных технологий, широкое внедрение беспилотников и внедрение искусственного интеллекта (ИИ) в войсках воспринимаются как новая революция в военном деле. Как от всякой революции, от нее ожидают отмены многих более ранних технологий и тактических приемов.",
+      "categories": [
+        "TechnologyAI"
+      ],
+      "primary_category": "TechnologyAI",
+      "topics": [
+        "Digital и технологии"
+      ],
+      "brands": [],
+      "score": 1.6,
+      "strategic_relevance_score": 32,
+      "relevance_reasons": [],
+      "why_it_matters": "Материал влияет на рыночный или конкурентный контекст.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [],
+      "source_quality": 4.6,
+      "publisher_id": "kommersant.ru"
+    },
+    {
+      "id": "8353a0eb3df21db7f5",
+      "title": "В Раде предложили киевлянам пересаживаться на самокаты для проезда по мостам",
+      "url": "https://tass.ru/mezhdunarodnaya-panorama/28203045",
+      "source": "ТАСС — экономика и компании",
+      "published_at": "2026-10-11T08:50:01+00:00",
+      "summary": "Зампредседателя комитета Верховной рады по вопросам транспорта Владимир Крейденко отметил, что нужно создать специальные хабы, где будут располагаться велосипеды или электросамокаты",
+      "categories": [
+        "DeliveryEcom"
+      ],
+      "primary_category": "DeliveryEcom",
+      "topics": [
+        "Исследования и прогнозы"
+      ],
+      "brands": [
+        "Самокат"
+      ],
+      "score": 1.6,
+      "strategic_relevance_score": 32,
+      "relevance_reasons": [
+        "крупный игрок"
+      ],
+      "why_it_matters": "Помогает отслеживать рынок e-commerce и доставки: модели сервиса, игроков, логистику и поведение покупателей. В фокусе: Самокат. Отобрано как: крупный игрок.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [],
+      "source_quality": 4.5,
+      "publisher_id": "tass.ru"
+    },
+    {
       "id": "6074729627b051b372",
       "title": "Кредитование компаний в России замедлилось в сентябре",
       "url": "https://finam.ru/publications/item/kreditovanie-kompaniy-v-rossii-zamedlilos-v-sentyabre-20261009-1749?news_to_finamb=new_compaigns",
@@ -36237,6 +36480,41 @@
       "content_type": "news",
       "source_quality": 4.0,
       "publisher_id": "cnews.ru"
+    },
+    {
+      "id": "a6b8af41651a9b1ed1",
+      "title": "Синоптик рассказал, какая погода ждет москвичей на следующей неделе",
+      "url": "https://rbc.ru/rbcfreenews/6ac882ee2ae59614254e6334",
+      "source": "РБК — бизнес и экономика",
+      "published_at": "2026-10-11T09:45:00+00:00",
+      "summary": "В Москве и Подмосковье в начале следующей недели прогнозируется дождь и пасмурная погода под влиянием атлантического циклона, не исключена редкая для октября гроза.",
+      "categories": [
+        "Automotive"
+      ],
+      "primary_category": "Automotive",
+      "topics": [
+        "Исследования и прогнозы"
+      ],
+      "brands": [
+        "Москвич"
+      ],
+      "score": 1.4,
+      "strategic_relevance_score": 28,
+      "relevance_reasons": [
+        "крупный игрок",
+        "будущий горизонт"
+      ],
+      "why_it_matters": "Важен для понимания продаж, цен, модельного ряда, дилерской сети и конкурентной динамики авторынка. В фокусе: Москвич. Горизонт: future. Отобрано как: крупный игрок, будущий горизонт.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [
+        "future"
+      ],
+      "future_signal": true,
+      "content_type": "forecast",
+      "metrics": [],
+      "source_quality": 4.5,
+      "publisher_id": "rbc.ru"
     },
     {
       "id": "11bda26322af3ba8c4",
