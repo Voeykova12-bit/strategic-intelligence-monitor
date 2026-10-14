@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-13T12:50:00.352433+00:00",
+  "updated_at": "2026-10-14T10:23:35.121610+00:00",
   "accounts": [
     {
       "id": "mts-telegram",
@@ -14,11 +14,10 @@
       "verified_at": "2026-09-25",
       "proof_url": "https://moskva.mts.ru/about/media-centr/kontakty-media-centra/mts-v-socialnyh-setyah",
       "role": "Основной аккаунт",
-      "checked_at": "2026-10-13T12:49:58.370782+00:00",
-      "status": "ok",
-      "count": 8,
-      "last_success_at": "2026-10-13T12:49:58.370782+00:00",
-      "detail": "Публичная лента; полнота истории и вложений не гарантируется"
+      "checked_at": "2026-10-14T10:22:55.012801+00:00",
+      "status": "error",
+      "detail": "Источник недоступен: URLError",
+      "last_success_at": "2026-10-13T12:49:58.370782+00:00"
     },
     {
       "id": "mts-vk",
@@ -33,7 +32,7 @@
       "verified_at": "2026-09-25",
       "proof_url": "https://moskva.mts.ru/about/media-centr/kontakty-media-centra/mts-v-socialnyh-setyah",
       "role": "Основной аккаунт",
-      "checked_at": "2026-10-13T12:49:58.372128+00:00",
+      "checked_at": "2026-10-14T10:22:55.013273+00:00",
       "status": "credentials_required",
       "detail": "Для автоматического сбора ВК требуется токен API с доступом к сообществу",
       "last_success_at": null
@@ -51,11 +50,10 @@
       "verified_at": "2026-09-25",
       "proof_url": "https://vkusvill.ru/contacts/",
       "role": "Пресс-служба",
-      "checked_at": "2026-10-13T12:49:58.372359+00:00",
-      "status": "ok",
-      "count": 12,
-      "last_success_at": "2026-10-13T12:49:58.372359+00:00",
-      "detail": "Публичная лента; полнота истории и вложений не гарантируется"
+      "checked_at": "2026-10-14T10:22:55.013397+00:00",
+      "status": "error",
+      "detail": "Источник недоступен: URLError",
+      "last_success_at": "2026-10-13T12:49:58.372359+00:00"
     },
     {
       "id": "vkusvill-vk",
@@ -70,7 +68,7 @@
       "verified_at": "2026-09-25",
       "proof_url": "https://vkusvill.ru/contacts/",
       "role": "Основной аккаунт",
-      "checked_at": "2026-10-13T12:49:58.373252+00:00",
+      "checked_at": "2026-10-14T10:22:55.013633+00:00",
       "status": "credentials_required",
       "detail": "Для автоматического сбора ВК требуется токен API с доступом к сообществу",
       "last_success_at": null
@@ -88,11 +86,10 @@
       "verified_at": "2026-09-25",
       "proof_url": "https://www.x5.ru/ru/",
       "role": "Основной аккаунт",
-      "checked_at": "2026-10-13T12:49:58.373460+00:00",
-      "status": "ok",
-      "count": 4,
-      "last_success_at": "2026-10-13T12:49:58.373460+00:00",
-      "detail": "Публичная лента; полнота истории и вложений не гарантируется"
+      "checked_at": "2026-10-14T10:22:55.013797+00:00",
+      "status": "error",
+      "detail": "Источник недоступен: URLError",
+      "last_success_at": "2026-10-13T12:49:58.373460+00:00"
     },
     {
       "id": "x5-vk",
@@ -107,7 +104,7 @@
       "verified_at": "2026-09-25",
       "proof_url": "https://www.x5.ru/ru/",
       "role": "Основной аккаунт",
-      "checked_at": "2026-10-13T12:49:58.373902+00:00",
+      "checked_at": "2026-10-14T10:22:55.014266+00:00",
       "status": "credentials_required",
       "detail": "Для автоматического сбора ВК требуется токен API с доступом к сообществу",
       "last_success_at": null
@@ -125,11 +122,10 @@
       "verified_at": "2026-09-25",
       "proof_url": "https://www.tbank.ru/about/",
       "role": "Основной аккаунт",
-      "checked_at": "2026-10-13T12:49:58.374084+00:00",
-      "status": "ok",
-      "count": 10,
-      "last_success_at": "2026-10-13T12:49:58.374084+00:00",
-      "detail": "Публичная лента; полнота истории и вложений не гарантируется"
+      "checked_at": "2026-10-14T10:22:55.014281+00:00",
+      "status": "error",
+      "detail": "Источник недоступен: URLError",
+      "last_success_at": "2026-10-13T12:49:58.374084+00:00"
     },
     {
       "id": "tbank-vk",
@@ -144,7 +140,7 @@
       "verified_at": "2026-09-25",
       "proof_url": "https://www.tbank.ru/about/",
       "role": "Основной аккаунт",
-      "checked_at": "2026-10-13T12:49:58.374551+00:00",
+      "checked_at": "2026-10-14T10:22:55.017451+00:00",
       "status": "credentials_required",
       "detail": "Для автоматического сбора ВК требуется токен API с доступом к сообществу",
       "last_success_at": null
@@ -162,11 +158,10 @@
       "verified_at": "2026-09-25",
       "proof_url": "https://www.vtb.ru/",
       "role": "Основной аккаунт",
-      "checked_at": "2026-10-13T12:49:58.375098+00:00",
-      "status": "ok",
-      "count": 4,
-      "last_success_at": "2026-10-13T12:49:58.375098+00:00",
-      "detail": "Публичная лента; полнота истории и вложений не гарантируется"
+      "checked_at": "2026-10-14T10:22:55.017466+00:00",
+      "status": "error",
+      "detail": "Источник недоступен: URLError",
+      "last_success_at": "2026-10-13T12:49:58.375098+00:00"
     },
     {
       "id": "vtb-vk",
@@ -181,7 +176,7 @@
       "verified_at": "2026-09-25",
       "proof_url": "https://www.vtb.ru/",
       "role": "Основной аккаунт",
-      "checked_at": "2026-10-13T12:49:58.377148+00:00",
+      "checked_at": "2026-10-14T10:22:55.018326+00:00",
       "status": "credentials_required",
       "detail": "Для автоматического сбора ВК требуется токен API с доступом к сообществу",
       "last_success_at": null
@@ -199,11 +194,10 @@
       "verified_at": "2026-09-25",
       "proof_url": "https://www.lada.ru/",
       "role": "Основной аккаунт",
-      "checked_at": "2026-10-13T12:49:58.377322+00:00",
-      "status": "ok",
-      "count": 16,
-      "last_success_at": "2026-10-13T12:49:58.377322+00:00",
-      "detail": "Публичная лента; полнота истории и вложений не гарантируется"
+      "checked_at": "2026-10-14T10:22:55.018342+00:00",
+      "status": "error",
+      "detail": "Источник недоступен: URLError",
+      "last_success_at": "2026-10-13T12:49:58.377322+00:00"
     },
     {
       "id": "avtovaz-vk",
@@ -218,7 +212,7 @@
       "verified_at": "2026-09-25",
       "proof_url": "https://www.lada.ru/",
       "role": "Основной аккаунт",
-      "checked_at": "2026-10-13T12:49:59.223527+00:00",
+      "checked_at": "2026-10-14T10:23:17.101640+00:00",
       "status": "credentials_required",
       "detail": "Для автоматического сбора ВК требуется токен API с доступом к сообществу",
       "last_success_at": null
@@ -236,11 +230,10 @@
       "verified_at": "2026-09-25",
       "proof_url": "https://moskvich-auto.ru/",
       "role": "Основной аккаунт",
-      "checked_at": "2026-10-13T12:49:59.223545+00:00",
-      "status": "ok",
-      "count": 9,
-      "last_success_at": "2026-10-13T12:49:59.223545+00:00",
-      "detail": "Публичная лента; полнота истории и вложений не гарантируется"
+      "checked_at": "2026-10-14T10:23:17.101669+00:00",
+      "status": "error",
+      "detail": "Источник недоступен: URLError",
+      "last_success_at": "2026-10-13T12:49:59.223545+00:00"
     },
     {
       "id": "moskvich-vk",
@@ -255,7 +248,7 @@
       "verified_at": "2026-09-25",
       "proof_url": "https://moskvich-auto.ru/",
       "role": "Основной аккаунт",
-      "checked_at": "2026-10-13T12:49:59.245075+00:00",
+      "checked_at": "2026-10-14T10:23:17.101959+00:00",
       "status": "credentials_required",
       "detail": "Для автоматического сбора ВК требуется токен API с доступом к сообществу",
       "last_success_at": null
@@ -273,11 +266,10 @@
       "verified_at": "2026-09-25",
       "proof_url": "https://www.geely-motors.com/",
       "role": "Основной аккаунт",
-      "checked_at": "2026-10-13T12:49:59.245098+00:00",
-      "status": "ok",
-      "count": 10,
-      "last_success_at": "2026-10-13T12:49:59.245098+00:00",
-      "detail": "Публичная лента; полнота истории и вложений не гарантируется"
+      "checked_at": "2026-10-14T10:23:17.101974+00:00",
+      "status": "error",
+      "detail": "Источник недоступен: URLError",
+      "last_success_at": "2026-10-13T12:49:59.245098+00:00"
     },
     {
       "id": "geely-vk",
@@ -292,7 +284,7 @@
       "verified_at": "2026-09-25",
       "proof_url": "https://www.geely-motors.com/",
       "role": "Основной аккаунт",
-      "checked_at": "2026-10-13T12:49:59.252140+00:00",
+      "checked_at": "2026-10-14T10:23:17.102211+00:00",
       "status": "credentials_required",
       "detail": "Для автоматического сбора ВК требуется токен API с доступом к сообществу",
       "last_success_at": null
@@ -310,11 +302,10 @@
       "verified_at": "2026-09-25",
       "proof_url": "https://changanauto.ru/",
       "role": "Основной аккаунт",
-      "checked_at": "2026-10-13T12:49:59.252171+00:00",
-      "status": "ok",
-      "count": 11,
-      "last_success_at": "2026-10-13T12:49:59.252171+00:00",
-      "detail": "Публичная лента; полнота истории и вложений не гарантируется"
+      "checked_at": "2026-10-14T10:23:17.102224+00:00",
+      "status": "error",
+      "detail": "Источник недоступен: URLError",
+      "last_success_at": "2026-10-13T12:49:59.252171+00:00"
     },
     {
       "id": "changan-vk",
@@ -329,7 +320,7 @@
       "verified_at": "2026-09-25",
       "proof_url": "https://changanauto.ru/",
       "role": "Основной аккаунт",
-      "checked_at": "2026-10-13T12:49:59.264023+00:00",
+      "checked_at": "2026-10-14T10:23:17.102511+00:00",
       "status": "credentials_required",
       "detail": "Для автоматического сбора ВК требуется токен API с доступом к сообществу",
       "last_success_at": null
