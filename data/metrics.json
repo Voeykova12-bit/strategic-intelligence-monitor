@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T11:12:16.421059+00:00",
+  "updated_at": "2026-10-15T10:04:40.322729+00:00",
   "metric_count": 6,
   "metrics": [
     {
@@ -38,7 +38,7 @@
       ],
       "note": "официальная ставка",
       "verified_at": "2026-10-14T11:12:04.847908+00:00",
-      "stale": false
+      "stale": true
     },
     {
       "id": "inflation",
@@ -76,7 +76,7 @@
       ],
       "note": "год к году",
       "verified_at": "2026-10-14T11:12:06.014769+00:00",
-      "stale": false
+      "stale": true
     },
     {
       "id": "auto-sales",
@@ -88,7 +88,7 @@
       "change": "−6.5% г/г",
       "history": [],
       "note": "новые легковые автомобили",
-      "verified_at": "2026-10-14T11:12:11.451357+00:00",
+      "verified_at": "2026-10-15T10:04:34.648557+00:00",
       "stale": false
     },
     {
@@ -102,7 +102,7 @@
       "history": [],
       "note": "ИЖК, объем выдач",
       "verified_at": "2026-10-14T11:12:13.889937+00:00",
-      "stale": false
+      "stale": true
     },
     {
       "id": "ad-market",
@@ -114,7 +114,7 @@
       "change": "",
       "history": [],
       "note": "объем рекламы по оценке АКАР",
-      "verified_at": "2026-10-14T11:12:15.359332+00:00",
+      "verified_at": "2026-10-15T10:04:39.403034+00:00",
       "stale": false
     },
     {
@@ -127,9 +127,18 @@
       "change": "",
       "history": [],
       "note": "розничная интернет-торговля",
-      "verified_at": "2026-10-14T11:12:16.421042+00:00",
+      "verified_at": "2026-10-15T10:04:40.322711+00:00",
       "stale": false
     }
   ],
-  "errors": []
+  "errors": [
+    {
+      "metric": "key-rate",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "metric": "inflation",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ]
 }
