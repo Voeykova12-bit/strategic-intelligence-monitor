@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-17T09:29:29.227335+00:00",
+  "updated_at": "2026-10-18T09:44:34.734287+00:00",
   "source_count": 43,
-  "item_count": 1550,
+  "item_count": 1554,
   "retention_days": 365,
   "categories": [
     {
@@ -74,7 +74,7 @@
   "source_stats": [
     {
       "source": "Retail.ru — новости",
-      "added": 1
+      "added": 0
     },
     {
       "source": "Retail.ru — статьи",
@@ -90,7 +90,7 @@
     },
     {
       "source": "Коммерсантъ — новости",
-      "added": 5
+      "added": 1
     },
     {
       "source": "Ведомости — новости",
@@ -98,11 +98,11 @@
     },
     {
       "source": "Sostav — маркетинг и бренды",
-      "added": 1
+      "added": 0
     },
     {
       "source": "CNews — бизнес и технологии",
-      "added": 3
+      "added": 0
     },
     {
       "source": "ТАСС — экономика и компании",
@@ -110,15 +110,15 @@
     },
     {
       "source": "Finam — компании и рынки",
-      "added": 1
+      "added": 0
     },
     {
       "source": "АВТОСТАТ — авторынок",
-      "added": 3
+      "added": 1
     },
     {
       "source": "РБК Недвижимость — рынок недвижимости",
-      "added": 3
+      "added": 2
     },
     {
       "source": "Банк России — новости",
@@ -6306,6 +6306,48 @@
       "pdf_urls": [],
       "research_primary": false,
       "publisher_id": "akarussia.ru"
+    },
+    {
+      "id": "abebcc098e51188ac6",
+      "title": "Календарь заседаний ЦБ по ключевой ставке на 2026–2027 годы",
+      "url": "https://rbc.ru/quote/18/10/2026/6ad1fc529a794764879477a6",
+      "source": "РБК — бизнес и экономика",
+      "published_at": "2026-10-18T06:00:00+00:00",
+      "summary": "Ключевая ставка — это основной инструмент денежно-кредитной политики Банка России для борьбы с высокой инфляцией. Регулятор принимает решения об уровне ключевой ставки для достижения цели ДКП — сохранения инфляции вблизи 4%",
+      "categories": [
+        "BanksFintech",
+        "FinanceEconomy"
+      ],
+      "primary_category": "BanksFintech",
+      "topics": [
+        "Цены и промо",
+        "Регулирование"
+      ],
+      "brands": [],
+      "score": 3.7,
+      "strategic_relevance_score": 74,
+      "relevance_reasons": [
+        "регулирование",
+        "будущий горизонт",
+        "есть данные"
+      ],
+      "why_it_matters": "Может менять банковские офферы, финтех-сервисы, клиентское поведение и коммуникационную конкуренцию. Горизонт: 2027. Отобрано как: регулирование, будущий горизонт, есть данные.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [
+        "2027"
+      ],
+      "future_signal": true,
+      "content_type": "news",
+      "metrics": [
+        {
+          "type": "Цены",
+          "value": "4%",
+          "context": "Регулятор принимает решения об уровне ключевой ставки для достижения цели ДКП — сохранения инфляции вблизи 4%"
+        }
+      ],
+      "source_quality": 4.5,
+      "publisher_id": "rbc.ru"
     },
     {
       "id": "db79f3948d36ed819b",
@@ -32165,6 +32207,39 @@
       "publisher_id": "tass.ru"
     },
     {
+      "id": "1d5c637e9eaa64a3f7",
+      "title": "Словакия и Венгрия отказались от участия в новом кредите Евросоюза для Украины",
+      "url": "https://kommersant.ru/doc/9041171",
+      "source": "Коммерсантъ — новости",
+      "published_at": "2026-10-17T17:02:50+00:00",
+      "summary": "Словакия не будет участвовать в новом кредите Евросоюза для Украины в размере €70 млрд на 2027 год. Об этом сообщил премьер-министр Словакии Роберт Фицо, передает Dennik.",
+      "categories": [
+        "BanksFintech"
+      ],
+      "primary_category": "BanksFintech",
+      "topics": [
+        "Бизнес-изменения"
+      ],
+      "brands": [],
+      "score": 2.2,
+      "strategic_relevance_score": 44,
+      "relevance_reasons": [
+        "будущий горизонт",
+        "есть данные"
+      ],
+      "why_it_matters": "Может менять банковские офферы, финтех-сервисы, клиентское поведение и коммуникационную конкуренцию. Горизонт: 2027. Отобрано как: будущий горизонт, есть данные.",
+      "client_matches": {},
+      "market_scope": "Global",
+      "future_horizon": [
+        "2027"
+      ],
+      "future_signal": true,
+      "content_type": "news",
+      "metrics": [],
+      "source_quality": 4.6,
+      "publisher_id": "kommersant.ru"
+    },
+    {
       "id": "4dbc33f8d89e847d81",
       "title": "Ozon узнал, какие ожидания от посещения ПВЗ у россиян с детьми",
       "url": "https://cnews.ru/news/line/2026-10-16_ozon_uznalkakie_ozhidaniya_ot",
@@ -34115,10 +34190,10 @@
       "published_at": "2026-10-16T10:11:27+00:00",
       "summary": "Поводом для сентябрьского ускорения роста цен на первичное жилье стало повышение спроса на новостройки в преддверии изменения семейной ипотеки — оно произошло с 1 октября",
       "categories": [
-        "RealEstate",
-        "BanksFintech"
+        "BanksFintech",
+        "RealEstate"
       ],
-      "primary_category": "RealEstate",
+      "primary_category": "BanksFintech",
       "topics": [
         "Потребитель"
       ],
@@ -34128,7 +34203,7 @@
       "relevance_reasons": [
         "потребитель"
       ],
-      "why_it_matters": "Отражает динамику спроса, цен, ипотеки, девелопмента и коммерческой недвижимости. Отобрано как: потребитель.",
+      "why_it_matters": "Может менять банковские офферы, финтех-сервисы, клиентское поведение и коммуникационную конкуренцию. Отобрано как: потребитель.",
       "client_matches": {},
       "market_scope": "Global",
       "future_horizon": [],
@@ -47339,6 +47414,38 @@
       "publisher_id": "retail.ru"
     },
     {
+      "id": "fe353835bca9178900",
+      "title": "МВД указало на снижение числа мошенничеств в онлайн-играх",
+      "url": "https://tass.ru/obschestvo/28226867",
+      "source": "ТАСС — экономика и компании",
+      "published_at": "2026-10-18T09:15:09+00:00",
+      "summary": "По данным управления по организации борьбы с противоправным использованием информационно-коммуникационных технологий ведомства, чаще всего детей обманывают с помощью купли-продажи игровых аккаунтов",
+      "categories": [
+        "TechnologyAI"
+      ],
+      "primary_category": "TechnologyAI",
+      "topics": [
+        "Рынок и продажи",
+        "Digital и технологии",
+        "Исследования и прогнозы"
+      ],
+      "brands": [],
+      "score": 1.5,
+      "strategic_relevance_score": 30,
+      "relevance_reasons": [
+        "рынок / бизнес"
+      ],
+      "why_it_matters": "Материал влияет на рыночный или конкурентный контекст. Отобрано как: рынок / бизнес.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [],
+      "source_quality": 4.5,
+      "publisher_id": "tass.ru"
+    },
+    {
       "id": "4a041572db8e7d2a13",
       "title": "Google, Facebook и Amazon предупредили: Цифровой суверенитет обойдется Европе в 115 млрд евро убытка",
       "url": "https://cnews.ru/news/top/2026-10-15_amazongoogle_i_facebook_naschitali",
@@ -48107,6 +48214,38 @@
       "content_type": "news",
       "source_quality": 4.0,
       "publisher_id": "cnews.ru"
+    },
+    {
+      "id": "d3078bd4d209110fef",
+      "title": "Словакия отказалась от участия в программе кредитования Украины в 2027 году",
+      "url": "https://vedomosti.ru/politics/news/2026/10/17/1237911-slovakiya-otkazalas-ot-uchastiya",
+      "source": "Ведомости — новости",
+      "published_at": "2026-10-17T13:17:57+00:00",
+      "summary": "",
+      "categories": [
+        "BanksFintech"
+      ],
+      "primary_category": "BanksFintech",
+      "topics": [
+        "Бизнес-изменения"
+      ],
+      "brands": [],
+      "score": 1.4,
+      "strategic_relevance_score": 28,
+      "relevance_reasons": [
+        "будущий горизонт"
+      ],
+      "why_it_matters": "Может менять банковские офферы, финтех-сервисы, клиентское поведение и коммуникационную конкуренцию. Горизонт: 2027. Отобрано как: будущий горизонт.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [
+        "2027"
+      ],
+      "future_signal": true,
+      "content_type": "news",
+      "metrics": [],
+      "source_quality": 4.5,
+      "publisher_id": "vedomosti.ru"
     },
     {
       "id": "957d8a1767a78f5794",
