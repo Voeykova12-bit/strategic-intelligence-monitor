@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-21T10:17:44.070758+00:00",
+  "updated_at": "2026-10-21T11:11:28.924444+00:00",
   "source_count": 43,
-  "item_count": 1729,
+  "item_count": 1737,
   "retention_days": 365,
   "categories": [
     {
@@ -74,7 +74,7 @@
   "source_stats": [
     {
       "source": "Retail.ru — новости",
-      "added": 3
+      "added": 0
     },
     {
       "source": "Retail.ru — статьи",
@@ -86,11 +86,11 @@
     },
     {
       "source": "РБК — бизнес и экономика",
-      "added": 0
+      "added": 1
     },
     {
       "source": "Коммерсантъ — новости",
-      "added": 9
+      "added": 1
     },
     {
       "source": "Ведомости — новости",
@@ -98,27 +98,27 @@
     },
     {
       "source": "Sostav — маркетинг и бренды",
-      "added": 10
+      "added": 0
     },
     {
       "source": "CNews — бизнес и технологии",
-      "added": 11
+      "added": 0
     },
     {
       "source": "ТАСС — экономика и компании",
-      "added": 2
-    },
-    {
-      "source": "Finam — компании и рынки",
       "added": 3
     },
     {
+      "source": "Finam — компании и рынки",
+      "added": 0
+    },
+    {
       "source": "АВТОСТАТ — авторынок",
-      "added": 4
+      "added": 0
     },
     {
       "source": "РБК Недвижимость — рынок недвижимости",
-      "added": 7
+      "added": 4
     },
     {
       "source": "Банк России — новости",
@@ -177,7 +177,7 @@
     },
     {
       "source": "New Retail — отраслевые новости",
-      "added": 7,
+      "added": 8,
       "status": "ok"
     },
     {
@@ -227,7 +227,7 @@
     },
     {
       "source": "INFOLine",
-      "added": 10,
+      "added": 9,
       "status": "ok"
     },
     {
@@ -262,8 +262,8 @@
     },
     {
       "source": "PROfashion",
-      "added": 2,
-      "status": "ok"
+      "added": 0,
+      "status": "error"
     },
     {
       "source": "Fashion Consulting Group — Telegram",
@@ -278,6 +278,10 @@
   ],
   "errors": [
     {
+      "source": "CNews — бизнес и технологии",
+      "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+    },
+    {
       "source": "Росстат — новости статистики",
       "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
     },
@@ -287,6 +291,10 @@
     },
     {
       "source": "ФАС России — новости",
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "source": "PROfashion",
       "error": "<urlopen error timed out>"
     }
   ],
@@ -6680,6 +6688,38 @@
       "pdf_urls": [],
       "research_primary": false,
       "publisher_id": "akarussia.ru"
+    },
+    {
+      "id": "de054df35c3de22291",
+      "title": "Главные тендеры для агентств: Х5, Т2, «Нижфарм»",
+      "url": "https://adindex.ru/news/ek/2026/10/21/350219.phtml",
+      "source": "AdIndex — реклама и медиа",
+      "published_at": "2026-10-21T10:22:06+00:00",
+      "summary": "Новости Бизнес СМИ AdIndex из рубрики Тендеры — Главные тендеры для агентств: Х5, Т2, «Нижфарм» — Публикуем свежую подборку тендеров в рекламе и маркетинге. ГК «ФСК», «Винлаб», «Ситилинк» и другие компании в поисках подрядчиков до 2 ноября",
+      "categories": [
+        "MediaAdvertising",
+        "Pharma",
+        "TechnologyAI"
+      ],
+      "primary_category": "MediaAdvertising",
+      "topics": [
+        "Маркетинг и медиа",
+        "Digital и технологии"
+      ],
+      "brands": [],
+      "score": 3.7,
+      "strategic_relevance_score": 74,
+      "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
+      "market_scope": "Russia",
+      "metrics": [],
+      "image_url": "",
+      "source_quality": 4.5,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": [],
+      "pdf_urls": [],
+      "research_primary": false,
+      "publisher_id": "adindex.ru"
     },
     {
       "id": "a670c1b36fc3bb77a3",
@@ -14662,6 +14702,35 @@
       "publisher_id": "romir.ru"
     },
     {
+      "id": "e43376874f1eaa0205",
+      "title": "«Золотое яблоко» предложило Карцеву и Добронравову написать письма себе в прошлом",
+      "url": "https://adindex.ru/news/marketing/2026/10/21/350224.phtml",
+      "source": "AdIndex — реклама и медиа",
+      "published_at": "2026-10-21T10:29:27+00:00",
+      "summary": "Новости Бизнес СМИ AdIndex из рубрики Маркетинг — «Золотое яблоко» предложило Карцеву и Добронравову написать письма себе в прошлом — К своему 30-летию бьюти-ретейлер показал проект, в котором 13 героев из мира красоты, моды, спорта и медиа вспомнили свои первые эксперименты с внешностью…",
+      "categories": [
+        "MediaAdvertising"
+      ],
+      "primary_category": "MediaAdvertising",
+      "topics": [
+        "Маркетинг и медиа"
+      ],
+      "brands": [],
+      "score": 3.4,
+      "strategic_relevance_score": 68,
+      "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
+      "market_scope": "Russia",
+      "metrics": [],
+      "image_url": "",
+      "source_quality": 4.5,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": [],
+      "pdf_urls": [],
+      "research_primary": false,
+      "publisher_id": "adindex.ru"
+    },
+    {
       "id": "1aa603517f4b9f87f7",
       "title": "SpaceX и Tesla рассматривают возможность слияния",
       "url": "https://adindex.ru/news/tendencies/2026/10/21/350194.phtml",
@@ -20219,6 +20288,36 @@
       ],
       "source_quality": 4.6,
       "publisher_id": "kommersant.ru"
+    },
+    {
+      "id": "2038e2c8a6c8fc0ecf",
+      "title": "METRO оштрафовали за продажу продуктов без маркировки | New Retail",
+      "url": "https://new-retail.ru/novosti/retail/metro_oshtrafovali_za_prodazhu_produktov_bez_markirovki",
+      "source": "New Retail — отраслевые новости",
+      "published_at": "2026-10-20T21:00:00+00:00",
+      "summary": "Суд в Краснодаре назначил «Метро Кэш энд Керри» штраф в размере 300 тыс. рублей за продажу продуктов без маркировки и документов, подтверждающих их происхождение.",
+      "categories": [
+        "Retail",
+        "FMCG"
+      ],
+      "primary_category": "Retail",
+      "topics": [
+        "Рынок и продажи"
+      ],
+      "brands": [],
+      "score": 3.3,
+      "strategic_relevance_score": 66,
+      "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
+      "market_scope": "Russia",
+      "metrics": [],
+      "image_url": "",
+      "source_quality": 4.2,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": [],
+      "pdf_urls": [],
+      "research_primary": false,
+      "publisher_id": "new-retail.ru"
     },
     {
       "id": "e62d59667c192b2495",
@@ -27435,10 +27534,10 @@
       "published_at": "2026-10-21T07:34:42+00:00",
       "summary": "Ставки по ипотеке при действующем прогнозе Банка России могут опуститься до 10% не раньше 2028 года, считают в «Дом.РФ». В «Эксперт РА» считают, что это перспектива ближайших двух с половиной — трех лет",
       "categories": [
-        "RealEstate",
-        "BanksFintech"
+        "BanksFintech",
+        "RealEstate"
       ],
-      "primary_category": "RealEstate",
+      "primary_category": "BanksFintech",
       "topics": [
         "Исследования и прогнозы"
       ],
@@ -27449,7 +27548,7 @@
         "будущий горизонт",
         "есть данные"
       ],
-      "why_it_matters": "Отражает динамику спроса, цен, ипотеки, девелопмента и коммерческой недвижимости. Горизонт: 2028. Отобрано как: будущий горизонт, есть данные.",
+      "why_it_matters": "Может менять банковские офферы, финтех-сервисы, клиентское поведение и коммуникационную конкуренцию. Горизонт: 2028. Отобрано как: будущий горизонт, есть данные.",
       "client_matches": {},
       "market_scope": "Russia",
       "future_horizon": [
@@ -28646,6 +28745,37 @@
       "publisher_id": "sostav.ru"
     },
     {
+      "id": "63cec11281c6f4af1b",
+      "title": "WSJ узнала, как стратегия «покупай, занимай, умирай» помогла покупке WBD",
+      "url": "https://rbc.ru/technology_and_media/29/08/2026/6a93153b1d5edad095f6becf",
+      "source": "РБК — бизнес и экономика",
+      "published_at": "2026-10-21T10:23:21+00:00",
+      "summary": "Чтобы профинансировать покупку Warner Bros. его сыном, Ларри Эллисон применил стратегию «купи, займи, умри», пишет WSJ. Вместо продажи акций на $7,5 млрд он взял кредиты под залог активов Oracle, Tesla и SpaceX",
+      "categories": [
+        "BanksFintech"
+      ],
+      "primary_category": "BanksFintech",
+      "topics": [
+        "Рынок и продажи"
+      ],
+      "brands": [],
+      "score": 2.8,
+      "strategic_relevance_score": 56,
+      "relevance_reasons": [
+        "рынок / бизнес",
+        "есть данные"
+      ],
+      "why_it_matters": "Может менять банковские офферы, финтех-сервисы, клиентское поведение и коммуникационную конкуренцию. Отобрано как: рынок / бизнес, есть данные.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [],
+      "source_quality": 4.5,
+      "publisher_id": "rbc.ru"
+    },
+    {
       "id": "9acca134f803c5330c",
       "title": "Нейросети приукрашивают реальность: треть покупателей недвижимости не верит 3D-турам",
       "url": "https://cnews.ru/news/line/2026-10-21_nejroseti_priukrashivayut",
@@ -29378,6 +29508,41 @@
       "content_type": "news",
       "source_quality": 4.0,
       "publisher_id": "rbc.ru"
+    },
+    {
+      "id": "b3076a504899ae7d67",
+      "title": "Москвичей предупредили о пробках до восьми баллов",
+      "url": "https://kommersant.ru/doc/9043752",
+      "source": "Коммерсантъ — новости",
+      "published_at": "2026-10-21T10:45:29+00:00",
+      "summary": "Департамент транспорта и развития дорожно-транспортной инфраструктуры Москвы предупредил о высоком уровне загруженности дорог. По прогнозам ведомства, вечером 21 октября заторы в Москве могут достигнуть восьми баллов.",
+      "categories": [
+        "Automotive"
+      ],
+      "primary_category": "Automotive",
+      "topics": [
+        "Исследования и прогнозы"
+      ],
+      "brands": [
+        "Москвич"
+      ],
+      "score": 2.7,
+      "strategic_relevance_score": 54,
+      "relevance_reasons": [
+        "крупный игрок",
+        "будущий горизонт"
+      ],
+      "why_it_matters": "Важен для понимания продаж, цен, модельного ряда, дилерской сети и конкурентной динамики авторынка. В фокусе: Москвич. Горизонт: future. Отобрано как: крупный игрок, будущий горизонт.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [
+        "future"
+      ],
+      "future_signal": true,
+      "content_type": "forecast",
+      "metrics": [],
+      "source_quality": 4.6,
+      "publisher_id": "kommersant.ru"
     },
     {
       "id": "b9ba2eefe7c6304e77",
@@ -35589,6 +35754,45 @@
       "future_signal": true,
       "content_type": "forecast",
       "metrics": [],
+      "source_quality": 4.5,
+      "publisher_id": "tass.ru"
+    },
+    {
+      "id": "078bde2b400e48bd00",
+      "title": "Оппозиция Армении прогнозирует апокалипсис для страны при выходе из ЕАЭС",
+      "url": "https://tass.ru/mezhdunarodnaya-panorama/28237345",
+      "source": "ТАСС — экономика и компании",
+      "published_at": "2026-10-21T11:04:12+00:00",
+      "summary": "Депутат армянского парламента от оппозиционной партии \"Армения\" Артур Хачатрян напомнил, что в ЕАЭС прогнозируют спад ВВП республики около 17,5%",
+      "categories": [
+        "FinanceEconomy"
+      ],
+      "primary_category": "FinanceEconomy",
+      "topics": [
+        "Исследования и прогнозы"
+      ],
+      "brands": [],
+      "score": 2.2,
+      "strategic_relevance_score": 44,
+      "relevance_reasons": [
+        "будущий горизонт",
+        "есть данные"
+      ],
+      "why_it_matters": "Задает макроконтекст для спроса, потребительских расходов и бизнес-планирования. Горизонт: future. Отобрано как: будущий горизонт, есть данные.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [
+        "future"
+      ],
+      "future_signal": true,
+      "content_type": "forecast",
+      "metrics": [
+        {
+          "type": "Рыночная метрика",
+          "value": "17,5%",
+          "context": "Депутат армянского парламента от оппозиционной партии \"Армения\" Артур Хачатрян напомнил, что в ЕАЭС прогнозируют спад ВВП республики около 17,5%"
+        }
+      ],
       "source_quality": 4.5,
       "publisher_id": "tass.ru"
     },
@@ -43119,6 +43323,35 @@
       "publisher_id": "retail.ru"
     },
     {
+      "id": "49178fd21a756f34c7",
+      "title": "Власти Камчатки инициируют расширение прав участников СВО на льготную ипотеку",
+      "url": "https://tass.ru/nedvizhimost/28237111",
+      "source": "ТАСС — экономика и компании",
+      "published_at": "2026-10-21T10:19:36+00:00",
+      "summary": "В настоящий момент в регионе сохраняются барьеры для полноценного объединения военной ипотеки с другими государственными льготными программами",
+      "categories": [
+        "BanksFintech",
+        "RealEstate"
+      ],
+      "primary_category": "BanksFintech",
+      "topics": [
+        "Форматы и экспансия"
+      ],
+      "brands": [],
+      "score": 1.9,
+      "strategic_relevance_score": 38,
+      "relevance_reasons": [],
+      "why_it_matters": "Может менять банковские офферы, финтех-сервисы, клиентское поведение и коммуникационную конкуренцию.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [],
+      "source_quality": 4.5,
+      "publisher_id": "tass.ru"
+    },
+    {
       "id": "fde18dcb6f8c570d0a",
       "title": "Песков: повторение Стуббом позиции ЕС по Украине неконструктивно",
       "url": "https://kommersant.ru/doc/9043500",
@@ -46011,10 +46244,10 @@
       "published_at": "2026-10-20T21:00:14+00:00",
       "summary": "В сентябре, в преддверии изменений условий семейной ипотеки, выдача льготных жилищных кредитов в большинстве регионов России резко выросла. Исключением стала лишь Чукотка, где объем выдачи за тот же месяц снизился, причем сразу на четверть",
       "categories": [
-        "RealEstate",
-        "BanksFintech"
+        "BanksFintech",
+        "RealEstate"
       ],
-      "primary_category": "RealEstate",
+      "primary_category": "BanksFintech",
       "topics": [
         "Бизнес-изменения"
       ],
@@ -46022,7 +46255,7 @@
       "score": 1.8,
       "strategic_relevance_score": 36,
       "relevance_reasons": [],
-      "why_it_matters": "Отражает динамику спроса, цен, ипотеки, девелопмента и коммерческой недвижимости.",
+      "why_it_matters": "Может менять банковские офферы, финтех-сервисы, клиентское поведение и коммуникационную конкуренцию.",
       "client_matches": {},
       "market_scope": "Russia",
       "future_horizon": [],
@@ -48745,6 +48978,37 @@
       "content_type": "news",
       "source_quality": 4.0,
       "publisher_id": "sostav.ru"
+    },
+    {
+      "id": "bb6e4ba231c9a1e524",
+      "title": "Генсек ОДКБ назвал главные угрозы, стоящие перед организацией в Центральной Азии",
+      "url": "https://tass.ru/mezhdunarodnaya-panorama/28237367",
+      "source": "ТАСС — экономика и компании",
+      "published_at": "2026-10-21T11:03:13+00:00",
+      "summary": "Среди угроз Таалатбек Масадыков отметил терроризм, преступность в сфере наркотрафика и борьбы с нелегальным распространением наркотиков, климатические угрозы, преступления в сфере информационных технологий",
+      "categories": [
+        "TechnologyAI"
+      ],
+      "primary_category": "TechnologyAI",
+      "topics": [
+        "Потребитель",
+        "Digital и технологии"
+      ],
+      "brands": [],
+      "score": 1.7,
+      "strategic_relevance_score": 34,
+      "relevance_reasons": [
+        "потребитель"
+      ],
+      "why_it_matters": "Материал влияет на рыночный или конкурентный контекст. Отобрано как: потребитель.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [],
+      "source_quality": 4.5,
+      "publisher_id": "tass.ru"
     },
     {
       "id": "e90607ce39a0feb2fa",
