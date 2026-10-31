@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-30T11:30:45.916797+00:00",
+  "updated_at": "2026-10-31T11:02:26.829095+00:00",
   "source_count": 43,
-  "item_count": 2249,
+  "item_count": 2278,
   "retention_days": 365,
   "categories": [
     {
@@ -74,7 +74,7 @@
   "source_stats": [
     {
       "source": "Retail.ru — новости",
-      "added": 3
+      "added": 1
     },
     {
       "source": "Retail.ru — статьи",
@@ -86,15 +86,15 @@
     },
     {
       "source": "РБК — бизнес и экономика",
-      "added": 2
+      "added": 1
     },
     {
       "source": "Коммерсантъ — новости",
-      "added": 8
+      "added": 5
     },
     {
       "source": "Ведомости — новости",
-      "added": 4
+      "added": 3
     },
     {
       "source": "Sostav — маркетинг и бренды",
@@ -106,11 +106,11 @@
     },
     {
       "source": "ТАСС — экономика и компании",
-      "added": 3
+      "added": 1
     },
     {
       "source": "Finam — компании и рынки",
-      "added": 7
+      "added": 5
     },
     {
       "source": "АВТОСТАТ — авторынок",
@@ -118,7 +118,7 @@
     },
     {
       "source": "РБК Недвижимость — рынок недвижимости",
-      "added": 4
+      "added": 3
     },
     {
       "source": "Банк России — новости",
@@ -127,7 +127,7 @@
     },
     {
       "source": "Банк России — пресс-релизы",
-      "added": 11,
+      "added": 9,
       "status": "ok"
     },
     {
@@ -137,18 +137,18 @@
     },
     {
       "source": "Retail Dive",
-      "added": 2,
+      "added": 1,
       "status": "ok"
     },
     {
       "source": "TechCrunch",
-      "added": 3,
+      "added": 2,
       "status": "ok"
     },
     {
       "source": "Modern Retail",
-      "added": 1,
-      "status": "ok"
+      "added": 0,
+      "status": "no_dated_items"
     },
     {
       "source": "РОМИР — аналитика",
@@ -177,7 +177,7 @@
     },
     {
       "source": "New Retail — отраслевые новости",
-      "added": 3,
+      "added": 6,
       "status": "ok"
     },
     {
@@ -207,8 +207,8 @@
     },
     {
       "source": "Фармацевтический вестник",
-      "added": 1,
-      "status": "ok"
+      "added": 0,
+      "status": "no_dated_items"
     },
     {
       "source": "DSM Group",
@@ -227,7 +227,7 @@
     },
     {
       "source": "INFOLine",
-      "added": 8,
+      "added": 7,
       "status": "ok"
     },
     {
@@ -252,8 +252,8 @@
     },
     {
       "source": "Левада-Центр",
-      "added": 1,
-      "status": "ok"
+      "added": 0,
+      "status": "no_dated_items"
     },
     {
       "source": "ВЦИОМ",
@@ -4968,6 +4968,35 @@
       "publisher_id": "akarussia.ru"
     },
     {
+      "id": "6341233f7c602015ae",
+      "title": "Amazon’s ad revenue growth decelerates due to Prime Day tweaks",
+      "url": "https://marketingdive.com/news/amazons-ad-revenue-growth-decelerates-due-to-prime-day-tweaks/873302",
+      "source": "Marketing Dive",
+      "published_at": "2026-10-30T14:15:10+00:00",
+      "summary": "Pushing the sales event to June and a lack of NBA content led to slower ad revenue growth in Q3, but AI agents aren’t disrupting the segment just yet.",
+      "categories": [
+        "MediaAdvertising",
+        "TechnologyAI"
+      ],
+      "primary_category": "MediaAdvertising",
+      "topics": [
+        "Рынок и продажи",
+        "Digital и технологии"
+      ],
+      "brands": [],
+      "score": 4.0,
+      "strategic_relevance_score": 80,
+      "why_it_matters": "Международный сигнал, который может повлиять на маркетинг, потребление или бизнес-модели и быть релевантен российскому рынку.",
+      "market_scope": "Global",
+      "metrics": [],
+      "image_url": "https://imgproxy.divecdn.com/6441MLvnLZyQO9iUakZ2H21NS_tQYCEzGBS219lT158/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0xMzEwMTc5NjMxLmpwZw==.webp",
+      "source_quality": 4.5,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": [],
+      "publisher_id": "marketingdive.com"
+    },
+    {
       "id": "bcbdd651902e841d5b",
       "title": "По итогам первой половины 2026 года Ozon впервые возглавил рейтинг INFOLine DIY Retail Russia",
       "url": "https://infoline.spb.ru/news?news=309783",
@@ -4995,6 +5024,44 @@
       "pdf_urls": [],
       "research_primary": true,
       "publisher_id": "infoline.spb.ru"
+    },
+    {
+      "id": "3d42745423a3659d13",
+      "title": "Спрос на тыкву в сетях X5 увеличился на 66% | New Retail",
+      "url": "https://new-retail.ru/novosti/retail/spros_na_tykvu_v_setyakh_x5_uvelichilsya_na_66",
+      "source": "New Retail — отраслевые новости",
+      "published_at": "2026-10-29T21:00:00+00:00",
+      "summary": "На российском рынке зафиксирован заметный рост продаж тыквы: в период с 1 по 20 октября объём реализации увеличился на 66% по сравнению с аналогичным отрезком сентября.",
+      "categories": [
+        "Retail",
+        "TechnologyAI"
+      ],
+      "primary_category": "Retail",
+      "topics": [
+        "Рынок и продажи",
+        "Потребитель",
+        "Digital и технологии"
+      ],
+      "brands": [],
+      "score": 4.0,
+      "strategic_relevance_score": 80,
+      "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
+      "market_scope": "Russia",
+      "metrics": [
+        {
+          "type": "Продажи",
+          "value": "66%",
+          "context": "Спрос на тыкву в сетях X5 увеличился на 66% | New Retail. На российском рынке зафиксирован заметный рост продаж тыквы: в период с 1 по 20 октября объём р"
+        }
+      ],
+      "image_url": "",
+      "source_quality": 4.2,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": [],
+      "pdf_urls": [],
+      "research_primary": false,
+      "publisher_id": "new-retail.ru"
     },
     {
       "id": "d6cb57211354b77715",
@@ -5065,6 +5132,39 @@
       "pdf_urls": [],
       "research_primary": true,
       "publisher_id": "infoline.spb.ru"
+    },
+    {
+      "id": "bb7bbfe5a9203f87ae",
+      "title": "Мультибанковость и CRM: как удержать клиента в условиях растущей конкуренции - Frank RG",
+      "url": "https://frankrg.com/news/multibankovost-i-crm-kak-uderzhat-klienta-v-usloviyah-rastushhej-konkurentsii",
+      "source": "Frank RG",
+      "published_at": "2026-10-27T00:00:00+00:00",
+      "summary": "Аналитическая и консалтинговая компания Frank RG представила первое исследование CRM банковской розницы и наградила лучшие банки по эффективности направления на Frank CRM Award 2026 - Frank RG",
+      "categories": [
+        "BanksFintech",
+        "TechnologyAI"
+      ],
+      "primary_category": "BanksFintech",
+      "topics": [
+        "Digital и технологии",
+        "Исследования и прогнозы"
+      ],
+      "brands": [],
+      "score": 4.0,
+      "strategic_relevance_score": 80,
+      "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы. Есть исследовательская или прогнозная база.",
+      "market_scope": "Russia",
+      "metrics": [],
+      "image_url": "",
+      "source_quality": 4.8,
+      "content_type": "research",
+      "future_signal": false,
+      "future_horizon": [],
+      "pdf_urls": [
+        "https://frankrg.com/wp-content/uploads/2026/10/frank-rg-crm-award-2026.pdf"
+      ],
+      "research_primary": true,
+      "publisher_id": "frankrg.com"
     },
     {
       "id": "e5cf0df69bd48255d3",
@@ -8312,6 +8412,35 @@
       "publisher_id": "akarussia.ru"
     },
     {
+      "id": "99cbde31202acefcfb",
+      "title": "Salesforce’s M&A spree continues with a reported $375M deal for defense tech startup Rune",
+      "url": "https://techcrunch.com/2026/10/30/salesforces-ma-spree-continues-with-a-reported-375m-deal-for-defense-tech-startup-rune",
+      "source": "TechCrunch",
+      "published_at": "2026-10-30T23:21:23+00:00",
+      "summary": "The AI logistics startup will bolster the CRM giant's Missionforce defense platform.",
+      "categories": [
+        "TechnologyAI"
+      ],
+      "primary_category": "TechnologyAI",
+      "topics": [
+        "Рынок и продажи",
+        "Digital и технологии",
+        "Исследования и прогнозы"
+      ],
+      "brands": [],
+      "score": 3.7,
+      "strategic_relevance_score": 74,
+      "why_it_matters": "Международный сигнал, который может повлиять на маркетинг, потребление или бизнес-модели и быть релевантен российскому рынку. Есть исследовательская или прогнозная база.",
+      "market_scope": "Global",
+      "metrics": [],
+      "image_url": "",
+      "source_quality": 4.3,
+      "content_type": "research",
+      "future_signal": false,
+      "future_horizon": [],
+      "publisher_id": "techcrunch.com"
+    },
+    {
       "id": "e0affbb2704700fffe",
       "title": "Премия «Диджитал Индекс» (ранее AdIndex Awards) вернется 27 ноября",
       "url": "https://adindex.ru/news/marketing/2026/10/30/350690.phtml",
@@ -8764,6 +8893,43 @@
       "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
       "market_scope": "Russia",
       "metrics": [],
+      "image_url": "",
+      "source_quality": 4.5,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": [],
+      "pdf_urls": [],
+      "research_primary": false,
+      "publisher_id": "adindex.ru"
+    },
+    {
+      "id": "41282db960b1e51912",
+      "title": "Бизнес увеличил расходы на ИИ на 95%",
+      "url": "https://adindex.ru/news/tendencies/2026/10/28/350507.phtml",
+      "source": "AdIndex — реклама и медиа",
+      "published_at": "2026-10-28T03:57:12+00:00",
+      "summary": "Новости Бизнес СМИ AdIndex из рубрики Тенденции — Бизнес увеличил расходы на ИИ на 95% — Новости рекламы, кейсы продвижения, видеоинтервью, экспертиза, рейтинги, аналитика и тренды промо; весь деловой мир маркетинга в одном медиа.",
+      "categories": [
+        "MediaAdvertising",
+        "TechnologyAI"
+      ],
+      "primary_category": "MediaAdvertising",
+      "topics": [
+        "Маркетинг и медиа",
+        "Digital и технологии"
+      ],
+      "brands": [],
+      "score": 3.7,
+      "strategic_relevance_score": 74,
+      "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
+      "market_scope": "Russia",
+      "metrics": [
+        {
+          "type": "Рыночная метрика",
+          "value": "95%",
+          "context": "Бизнес увеличил расходы на ИИ на 95%. Новости Бизнес СМИ AdIndex из рубрики Тенденции — Бизнес увеличил расходы на ИИ на 95% — Новости рекламы, ке"
+        }
+      ],
       "image_url": "",
       "source_quality": 4.5,
       "content_type": "news",
@@ -15402,6 +15568,35 @@
       "publisher_id": "romir.ru"
     },
     {
+      "id": "049af7aba411ba1fc1",
+      "title": "Intel’s stock crashes, knocking $12B from government’s stake",
+      "url": "https://techcrunch.com/2026/10/30/intels-stock-crashes-knocking-12b-from-governments-stake",
+      "source": "TechCrunch",
+      "published_at": "2026-10-30T21:54:34+00:00",
+      "summary": "Intel is being hurt by PC sales as the AI industry gobbles memory and other components causing PC prices to rise.",
+      "categories": [
+        "TechnologyAI"
+      ],
+      "primary_category": "TechnologyAI",
+      "topics": [
+        "Рынок и продажи",
+        "Цены и промо",
+        "Digital и технологии"
+      ],
+      "brands": [],
+      "score": 3.5,
+      "strategic_relevance_score": 70,
+      "why_it_matters": "Международный сигнал, который может повлиять на маркетинг, потребление или бизнес-модели и быть релевантен российскому рынку.",
+      "market_scope": "Global",
+      "metrics": [],
+      "image_url": "",
+      "source_quality": 4.3,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": [],
+      "publisher_id": "techcrunch.com"
+    },
+    {
       "id": "e72dfe67b77ca05d9b",
       "title": "AWS will be a $1T business, Jassy says — but first, it will spend big",
       "url": "https://techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big",
@@ -19379,6 +19574,87 @@
       "pdf_urls": [],
       "research_primary": false,
       "publisher_id": "romir.ru"
+    },
+    {
+      "id": "464aa2b830ec14f057",
+      "title": "ВТБ допустил отказ от распределения 50% прибыли на дивиденды",
+      "url": "https://kommersant.ru/doc/9077667",
+      "source": "Коммерсантъ — новости",
+      "published_at": "2026-10-30T14:07:57+00:00",
+      "summary": "Первый зампред правления ВТБ Дмитрий Пьянов сообщил, что банк вряд ли вернется к распределению 50% чистой прибыли на дивиденды в новой стратегии на 2027–2029 годы. Причиной он назвал введение дополнительных надбавок к достаточности капитала.",
+      "categories": [
+        "BanksFintech",
+        "FinanceEconomy"
+      ],
+      "primary_category": "BanksFintech",
+      "topics": [
+        "Финрезультаты"
+      ],
+      "brands": [
+        "ВТБ"
+      ],
+      "score": 3.4,
+      "strategic_relevance_score": 68,
+      "relevance_reasons": [
+        "рынок / бизнес",
+        "крупный игрок",
+        "будущий горизонт",
+        "есть данные"
+      ],
+      "why_it_matters": "Может менять банковские офферы, финтех-сервисы, клиентское поведение и коммуникационную конкуренцию. В фокусе: ВТБ. Горизонт: 2027, 2029. Отобрано как: рынок / бизнес, крупный игрок, будущий горизонт.",
+      "client_matches": {},
+      "market_scope": "Global",
+      "future_horizon": [
+        "2027",
+        "2029"
+      ],
+      "future_signal": true,
+      "content_type": "news",
+      "metrics": [
+        {
+          "type": "Рыночная метрика",
+          "value": "50%",
+          "context": "ВТБ допустил отказ от распределения 50% прибыли на дивиденды."
+        }
+      ],
+      "source_quality": 4.6,
+      "publisher_id": "kommersant.ru"
+    },
+    {
+      "id": "a6f6383ea443400c51",
+      "title": "«Семейная ипотека» обеспечила почти две трети сентябрьских выдач",
+      "url": "https://irn.ru/news/160829-semeynaya-ipoteka-obespechila-pochti-dve-treti.html",
+      "source": "ИРН",
+      "published_at": "2026-10-30T12:15:00+00:00",
+      "summary": "Перед изменением условий госпрограммы «Семейная ипотека» спрос заметно ускорился. В сентябре крупнейшие ипотечные банки выдали 129 тыс. кредитов на 621 млрд руб. — максимум с начала года, говорится...",
+      "categories": [
+        "RealEstate",
+        "BanksFintech"
+      ],
+      "primary_category": "RealEstate",
+      "topics": [
+        "Потребитель"
+      ],
+      "brands": [],
+      "score": 3.4,
+      "strategic_relevance_score": 68,
+      "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
+      "market_scope": "Russia",
+      "metrics": [
+        {
+          "type": "Кредитование",
+          "value": "621 млрд руб.",
+          "context": "прос заметно ускорился. В сентябре крупнейшие ипотечные банки выдали 129 тыс. кредитов на 621 млрд руб. — максимум с начала года, говорится..."
+        }
+      ],
+      "image_url": "",
+      "source_quality": 4.5,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": [],
+      "pdf_urls": [],
+      "research_primary": false,
+      "publisher_id": "irn.ru"
     },
     {
       "id": "0b9a48080b2e8bc291",
@@ -26324,6 +26600,54 @@
       "publisher_id": "rbc.ru"
     },
     {
+      "id": "da87d4bf9cc2e93470",
+      "title": "«Почта России» отчиталась о скорректированной EBITDA в 12 млрд рублей",
+      "url": "https://retailer.ru/pochta-rossii-otchitalas-o-skorrektirovannoj-ebitda-v-12-mlrd-rublej",
+      "source": "Retailer.ru",
+      "published_at": "2026-10-31T06:01:22+00:00",
+      "summary": "Выручка оператора выросла до 166 млрд рублей. Доходы от фулфилмента и складских услуг увеличились на 90%, от грузоперевозок — на 54%. Сообщение «Почта России» отчиталась о скорректированной EBITDA в 12 млрд рублей появились сначала на RETAILER.ru .",
+      "categories": [
+        "Retail"
+      ],
+      "primary_category": "Retail",
+      "topics": [
+        "Рынок и продажи"
+      ],
+      "brands": [],
+      "score": 3.3,
+      "strategic_relevance_score": 66,
+      "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
+      "market_scope": "Russia",
+      "metrics": [
+        {
+          "type": "Рыночная метрика",
+          "value": "90%",
+          "context": "ратора выросла до 166 млрд рублей. Доходы от фулфилмента и складских услуг увеличились на 90%, от грузоперевозок — на 54%. Сообщение «Почта России» отчиталась о скорректированной EBITDA в 12"
+        },
+        {
+          "type": "Рыночная метрика",
+          "value": "54%",
+          "context": "ублей. Доходы от фулфилмента и складских услуг увеличились на 90%, от грузоперевозок — на 54%. Сообщение «Почта России» отчиталась о скорректированной EBITDA в 12 млрд рублей появились снача"
+        },
+        {
+          "type": "Выручка / оборот",
+          "value": "12 млрд рублей",
+          "context": "«Почта России» отчиталась о скорректированной EBITDA в 12 млрд рублей. Выручка оператора выросла до 166 млрд рублей. Доходы от фулфилмента и складских услуг увеличились на 90%, от"
+        },
+        {
+          "type": "Выручка / оборот",
+          "value": "166 млрд рублей",
+          "context": "сии» отчиталась о скорректированной EBITDA в 12 млрд рублей. Выручка оператора выросла до 166 млрд рублей. Доходы от фулфилмента и складских услуг увеличились на 90%, от грузоперевозок — на "
+        }
+      ],
+      "image_url": "",
+      "source_quality": 4.3,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": [],
+      "publisher_id": "retailer.ru"
+    },
+    {
       "id": "f2a5ab7f26169ae956",
       "title": "Главное на рынке недвижимости к утру 30 октября // Кредиторы «Самолета» могут реализовать схему добанкротной санации застройщика",
       "url": "https://kommersant.ru/doc/9070937",
@@ -26490,6 +26814,68 @@
           "context": "% год к году, до 359,3 млрд руб. При этом чистая прибыль ритейлера снизилась на 29,8%, до 5,7 млрд руб."
         }
       ],
+      "image_url": "",
+      "source_quality": 4.2,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": [],
+      "pdf_urls": [],
+      "research_primary": false,
+      "publisher_id": "new-retail.ru"
+    },
+    {
+      "id": "c250381027eb30a252",
+      "title": "Тренд сезона на Ozon: покупатели массово выбирают изделия из кожи и замши | New Retail",
+      "url": "https://new-retail.ru/novosti/retail/trend_sezona_na_ozon_pokupateli_massovo_vybirayut_izdeliya_iz_kozhi_i_zamshi",
+      "source": "New Retail — отраслевые новости",
+      "published_at": "2026-10-29T21:00:00+00:00",
+      "summary": "По данным аналитики Ozon Селект, в первые девять месяцев 2026 года на маркетплейсе заметно усилился спрос на fashion‑товары из кожи и замши — по сравнению с аналогичным периодом прошлого года россияне всё чаще отдают предпочтение изделиям из этих фактурных материалов.",
+      "categories": [
+        "Retail",
+        "Fashion",
+        "DeliveryEcom",
+        "Consumer"
+      ],
+      "primary_category": "Retail",
+      "topics": [
+        "Потребитель"
+      ],
+      "brands": [],
+      "score": 3.3,
+      "strategic_relevance_score": 66,
+      "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
+      "market_scope": "Russia",
+      "metrics": [],
+      "image_url": "",
+      "source_quality": 4.2,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": [],
+      "pdf_urls": [],
+      "research_primary": false,
+      "publisher_id": "new-retail.ru"
+    },
+    {
+      "id": "e7fde5ae6c0a3c7956",
+      "title": "Москва обновила рекорд по вводу офисных площадей в III квартале | New Retail",
+      "url": "https://new-retail.ru/novosti/retail/moskva_obnovila_rekord_po_vvodu_ofisnykh_ploshchadey_v_iii_kvartale",
+      "source": "New Retail — отраслевые новости",
+      "published_at": "2026-10-29T21:00:00+00:00",
+      "summary": "Консалтинговая компания Nikoliers представила аналитический обзор состояния московского рынка офисной недвижимости по результатам третьего квартала 2026 года.",
+      "categories": [
+        "Retail",
+        "RealEstate"
+      ],
+      "primary_category": "Retail",
+      "topics": [
+        "Бизнес-изменения"
+      ],
+      "brands": [],
+      "score": 3.3,
+      "strategic_relevance_score": 66,
+      "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
+      "market_scope": "Russia",
+      "metrics": [],
       "image_url": "",
       "source_quality": 4.2,
       "content_type": "news",
@@ -36547,6 +36933,51 @@
       "publisher_id": "rbc.ru"
     },
     {
+      "id": "a3e0b3068f98fdd15a",
+      "title": "Техдефолт МГКЛ по облигациям: есть ли шанс на нормализацию ситуации",
+      "url": "https://rbc.ru/radio/31/10/2026/6ae5a2d79a7947778e8cf7ad",
+      "source": "РБК — бизнес и экономика",
+      "published_at": "2026-10-31T08:17:10+00:00",
+      "summary": "На обслуживание долга МГКЛ нужно тратить около 1,5 млрд руб. в год. Для компании с «живой» выручкой примерно 2–3 млрд руб. это значительная сумма, объяснил Максим Шеин из «БКС Мир инвестиций» на Радио РБК",
+      "categories": [
+        "FinanceEconomy"
+      ],
+      "primary_category": "FinanceEconomy",
+      "topics": [
+        "Рынок и продажи",
+        "M&A и инвестиции",
+        "Финрезультаты"
+      ],
+      "brands": [],
+      "score": 2.9,
+      "strategic_relevance_score": 58,
+      "relevance_reasons": [
+        "рынок / бизнес",
+        "инвестиции / M&A",
+        "есть данные"
+      ],
+      "why_it_matters": "Задает макроконтекст для спроса, потребительских расходов и бизнес-планирования. Отобрано как: рынок / бизнес, инвестиции / M&A, есть данные.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [
+        {
+          "type": "Выручка / оборот",
+          "value": "1,5 млрд руб.",
+          "context": "На обслуживание долга МГКЛ нужно тратить около 1,5 млрд руб. в год."
+        },
+        {
+          "type": "Выручка / оборот",
+          "value": "3 млрд руб.",
+          "context": "Для компании с «живой» выручкой примерно 2–3 млрд руб. это значительная сумма, объяснил Максим Шеин из «БКС Мир инвестиций» на Радио РБК"
+        }
+      ],
+      "source_quality": 4.5,
+      "publisher_id": "rbc.ru"
+    },
+    {
       "id": "9027f566d0e5dc731c",
       "title": "Чистая прибыль ВТБ по МСФО за 9 месяцев выросла до 407,5 млрд рублей",
       "url": "https://finam.ru/publications/item/chistaya-pribyl-vtb-po-msfo-za-9-mesyatsev-vyrosla-do-4075-mlrd-rubley-20261030-1005?news_to_finamb=new_compaigns",
@@ -37603,6 +38034,50 @@
       "content_type": "news",
       "source_quality": 4.0,
       "publisher_id": "sostav.ru"
+    },
+    {
+      "id": "696573038533406cff",
+      "title": "Пьянов: ВТБ вряд ли вернется к дивидендам в 50% прибыли в 2027 году",
+      "url": "https://vedomosti.ru/finance/news/2026/10/30/1241612-vtb-vernetsya-k-dividendam",
+      "source": "Ведомости — новости",
+      "published_at": "2026-10-30T13:36:56+00:00",
+      "summary": "",
+      "categories": [
+        "BanksFintech",
+        "FinanceEconomy"
+      ],
+      "primary_category": "BanksFintech",
+      "topics": [
+        "Финрезультаты"
+      ],
+      "brands": [
+        "ВТБ"
+      ],
+      "score": 2.8,
+      "strategic_relevance_score": 56,
+      "relevance_reasons": [
+        "рынок / бизнес",
+        "крупный игрок",
+        "будущий горизонт",
+        "есть данные"
+      ],
+      "why_it_matters": "Может менять банковские офферы, финтех-сервисы, клиентское поведение и коммуникационную конкуренцию. В фокусе: ВТБ. Горизонт: 2027. Отобрано как: рынок / бизнес, крупный игрок, будущий горизонт.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [
+        "2027"
+      ],
+      "future_signal": true,
+      "content_type": "news",
+      "metrics": [
+        {
+          "type": "Рыночная метрика",
+          "value": "50%",
+          "context": "Пьянов: ВТБ вряд ли вернется к дивидендам в 50% прибыли в 2027 году."
+        }
+      ],
+      "source_quality": 4.5,
+      "publisher_id": "vedomosti.ru"
     },
     {
       "id": "89d33ea7ef6b132e1c",
@@ -40168,11 +40643,11 @@
       "published_at": "2026-10-30T00:00:00+00:00",
       "summary": "Битопливная модель АВТОВАЗа обзавелась новыми опциями, а ее стоимость осталась прежней. Так, рекомендованная розничная цена LADA Vesta CNG составляет от 1 881 000 рубл...",
       "categories": [
-        "Automotive",
         "Retail",
-        "FinanceEconomy"
+        "FinanceEconomy",
+        "Automotive"
       ],
-      "primary_category": "Automotive",
+      "primary_category": "Retail",
       "topics": [
         "Цены и промо"
       ],
@@ -40186,7 +40661,7 @@
         "крупный игрок",
         "есть данные"
       ],
-      "why_it_matters": "Важен для понимания продаж, цен, модельного ряда, дилерской сети и конкурентной динамики авторынка. В фокусе: LADA, АвтоВАЗ. Отобрано как: крупный игрок, есть данные.",
+      "why_it_matters": "Показывает изменение в бизнесе ритейла: формате, продажах, ценах, ассортименте или конкурентной динамике. В фокусе: LADA, АвтоВАЗ. Отобрано как: крупный игрок, есть данные.",
       "client_matches": {},
       "market_scope": "Russia",
       "future_horizon": [],
@@ -40298,10 +40773,10 @@
       "published_at": "2026-10-29T00:00:00+00:00",
       "summary": "Газпромбанк Автолизинг и агентство «АВТОСТАТ» провели совместное исследование рынка новых коммерческих автомобилей (LCV и грузовых) в России и определили е...",
       "categories": [
-        "Automotive",
-        "BanksFintech"
+        "BanksFintech",
+        "Automotive"
       ],
-      "primary_category": "Automotive",
+      "primary_category": "BanksFintech",
       "topics": [
         "Исследования и прогнозы"
       ],
@@ -40314,7 +40789,7 @@
         "крупный игрок",
         "есть данные"
       ],
-      "why_it_matters": "Важен для понимания продаж, цен, модельного ряда, дилерской сети и конкурентной динамики авторынка. В фокусе: Газпромбанк. Отобрано как: крупный игрок, есть данные.",
+      "why_it_matters": "Может менять банковские офферы, финтех-сервисы, клиентское поведение и коммуникационную конкуренцию. В фокусе: Газпромбанк. Отобрано как: крупный игрок, есть данные.",
       "client_matches": {},
       "market_scope": "Russia",
       "future_horizon": [],
@@ -41454,6 +41929,44 @@
       "content_type": "news",
       "source_quality": 4.0,
       "publisher_id": "sostav.ru"
+    },
+    {
+      "id": "9cb28c0f3c3c885c9a",
+      "title": "Российский рынок завершает октябрь выше 2500 пунктов, рубль - укреплением",
+      "url": "https://finam.ru/publications/item/rossiyskiy-rynok-zavershaet-oktyabr-vyshe-2500-punktov-rubl-ukrepleniem-20261030-1855?news_to_finamb=new_compaigns",
+      "source": "Finam — компании и рынки",
+      "published_at": "2026-10-30T15:55:12+00:00",
+      "summary": "При этом ВТБ в минусе - прогноз дивидендов разочаровал инвесторов...",
+      "categories": [
+        "BanksFintech",
+        "FinanceEconomy"
+      ],
+      "primary_category": "BanksFintech",
+      "topics": [
+        "Рынок и продажи",
+        "Исследования и прогнозы"
+      ],
+      "brands": [
+        "ВТБ"
+      ],
+      "score": 2.5,
+      "strategic_relevance_score": 50,
+      "relevance_reasons": [
+        "рынок / бизнес",
+        "крупный игрок",
+        "будущий горизонт"
+      ],
+      "why_it_matters": "Может менять банковские офферы, финтех-сервисы, клиентское поведение и коммуникационную конкуренцию. В фокусе: ВТБ. Горизонт: future. Отобрано как: рынок / бизнес, крупный игрок, будущий горизонт.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [
+        "future"
+      ],
+      "future_signal": true,
+      "content_type": "forecast",
+      "metrics": [],
+      "source_quality": 4.0,
+      "publisher_id": "finam.ru"
     },
     {
       "id": "b9394db3e724beed6c",
@@ -43234,6 +43747,91 @@
       "content_type": "news",
       "source_quality": 4.0,
       "publisher_id": "retail.ru"
+    },
+    {
+      "id": "73dc890ec93fe711ea",
+      "title": "Доля предложений нелегальных ИТ-услуг за год увеличилась с 44% до 52%",
+      "url": "https://kommersant.ru/doc/9077757",
+      "source": "Коммерсантъ — новости",
+      "published_at": "2026-10-30T16:07:01+00:00",
+      "summary": "“Ъ” ознакомился с данными ИБ-вендора RED Security (входит в структуру МТС) о распространении объявлений о «серых услугах» на теневых форумах и ресурсах за девять месяцев 2026 года.…",
+      "categories": [
+        "Telecom"
+      ],
+      "primary_category": "Telecom",
+      "topics": [
+        "Потребитель"
+      ],
+      "brands": [
+        "МТС"
+      ],
+      "score": 2.4,
+      "strategic_relevance_score": 48,
+      "relevance_reasons": [
+        "потребитель",
+        "крупный игрок",
+        "есть данные"
+      ],
+      "why_it_matters": "Материал влияет на рыночный или конкурентный контекст. В фокусе: МТС. Отобрано как: потребитель, крупный игрок, есть данные.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [
+        {
+          "type": "Спрос",
+          "value": "44%",
+          "context": "Доля предложений нелегальных ИТ-услуг за год увеличилась с 44% до 52%."
+        },
+        {
+          "type": "Спрос",
+          "value": "52%",
+          "context": "Доля предложений нелегальных ИТ-услуг за год увеличилась с 44% до 52%."
+        }
+      ],
+      "source_quality": 4.6,
+      "publisher_id": "kommersant.ru"
+    },
+    {
+      "id": "cbac19dca4809f0227",
+      "title": "Euroclear в 2026 году получил доход €3,6 млрд от замороженных активов России",
+      "url": "https://kommersant.ru/doc/9077682",
+      "source": "Коммерсантъ — новости",
+      "published_at": "2026-10-30T14:29:55+00:00",
+      "summary": "Euroclear с января по сентябрь получил €3,6 млрд процентных доходов от инвестирования замороженных из-за санкций российских активов. По сравнению с аналогичным периодом 2025 года показатель снизился на 6% из-за сокращения процентных ставок, следует из отчета бельгийского депозитария.",
+      "categories": [
+        "BanksFintech",
+        "FMCG"
+      ],
+      "primary_category": "BanksFintech",
+      "topics": [
+        "Регулирование",
+        "M&A и инвестиции"
+      ],
+      "brands": [],
+      "score": 2.4,
+      "strategic_relevance_score": 48,
+      "relevance_reasons": [
+        "регулирование",
+        "инвестиции / M&A",
+        "есть данные"
+      ],
+      "why_it_matters": "Может менять банковские офферы, финтех-сервисы, клиентское поведение и коммуникационную конкуренцию. Отобрано как: регулирование, инвестиции / M&A, есть данные.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "research",
+      "metrics": [
+        {
+          "type": "Рыночная метрика",
+          "value": "6%",
+          "context": "По сравнению с аналогичным периодом 2025 года показатель снизился на 6% из-за сокращения процентных ставок, следует из отчета бельгийского депозитария."
+        }
+      ],
+      "source_quality": 4.6,
+      "publisher_id": "kommersant.ru"
     },
     {
       "id": "5ce29c77672a76ff0f",
@@ -46644,6 +47242,45 @@
       "publisher_id": "tass.ru"
     },
     {
+      "id": "543fd86969e76a20bc",
+      "title": "Цена акций ВТБ на Мосбирже упала на 4,1%",
+      "url": "https://vedomosti.ru/investments/news/2026/10/30/1241601-tsena-aktsii-vtb",
+      "source": "Ведомости — новости",
+      "published_at": "2026-10-30T12:56:50+00:00",
+      "summary": "",
+      "categories": [
+        "BanksFintech"
+      ],
+      "primary_category": "BanksFintech",
+      "topics": [
+        "Цены и промо"
+      ],
+      "brands": [
+        "ВТБ"
+      ],
+      "score": 2.2,
+      "strategic_relevance_score": 44,
+      "relevance_reasons": [
+        "крупный игрок",
+        "есть данные"
+      ],
+      "why_it_matters": "Может менять банковские офферы, финтех-сервисы, клиентское поведение и коммуникационную конкуренцию. В фокусе: ВТБ. Отобрано как: крупный игрок, есть данные.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [
+        {
+          "type": "Цены",
+          "value": "4,1%",
+          "context": "Цена акций ВТБ на Мосбирже упала на 4,1%."
+        }
+      ],
+      "source_quality": 4.5,
+      "publisher_id": "vedomosti.ru"
+    },
+    {
       "id": "c4e97df2e3cb15d96a",
       "title": "Чистая прибыль ВТБ за III квартал росла на 82% год к году",
       "url": "https://vedomosti.ru/investments/news/2026/10/30/1241437-pribil-vtb",
@@ -46800,50 +47437,6 @@
           "type": "Рыночная метрика",
           "value": "16,2%",
           "context": "легковых автомобилей, что на 16,2% выше показателя за аналогичный период прошлого год."
-        }
-      ],
-      "source_quality": 4.8,
-      "publisher_id": "autostat.ru"
-    },
-    {
-      "id": "ea0937caa94409d83b",
-      "title": "Рынок подержанных пикапов за 9 месяцев вырос на 15%",
-      "url": "https://autostat.ru/news/63398",
-      "source": "АВТОСТАТ — авторынок",
-      "published_at": "2026-10-29T00:00:00+00:00",
-      "summary": "Согласно данным агентства «АВТОСТАТ», в январе – сентябре нынешнего года россияне приобрели 29,1 тыс. пикапов с пробегом. Это на 15,4% больше, чем за...",
-      "categories": [
-        "Automotive"
-      ],
-      "primary_category": "Automotive",
-      "topics": [
-        "Рынок и продажи",
-        "M&A и инвестиции"
-      ],
-      "brands": [],
-      "score": 2.2,
-      "strategic_relevance_score": 44,
-      "relevance_reasons": [
-        "рынок / бизнес",
-        "инвестиции / M&A",
-        "есть данные"
-      ],
-      "why_it_matters": "Важен для понимания продаж, цен, модельного ряда, дилерской сети и конкурентной динамики авторынка. Отобрано как: рынок / бизнес, инвестиции / M&A, есть данные.",
-      "client_matches": {},
-      "market_scope": "Russia",
-      "future_horizon": [],
-      "future_signal": false,
-      "content_type": "news",
-      "metrics": [
-        {
-          "type": "Рыночная метрика",
-          "value": "15%",
-          "context": "Рынок подержанных пикапов за 9 месяцев вырос на 15%."
-        },
-        {
-          "type": "Рыночная метрика",
-          "value": "15,4%",
-          "context": "Это на 15,4% больше, чем за."
         }
       ],
       "source_quality": 4.8,
@@ -49750,6 +50343,38 @@
       "publisher_id": "finam.ru"
     },
     {
+      "id": "3a61653f5f4dff6136",
+      "title": "В Китае стартовали продажи рамного внедорожника Hongqi G919. Ждать ли новинку в РФ?",
+      "url": "https://autostat.ru/news/63410",
+      "source": "АВТОСТАТ — авторынок",
+      "published_at": "2026-10-30T00:00:00+00:00",
+      "summary": "Премиальный бренд Hongqi объявил о начале продаж нового крупноразмерного внедорожника G919. Это первый в истории марки внедорожник, построенный на рамном шасси и оснащ...",
+      "categories": [
+        "Automotive"
+      ],
+      "primary_category": "Automotive",
+      "topics": [
+        "Рынок и продажи",
+        "Маркетинг и медиа"
+      ],
+      "brands": [],
+      "score": 2.1,
+      "strategic_relevance_score": 42,
+      "relevance_reasons": [
+        "рынок / бизнес",
+        "маркетинг"
+      ],
+      "why_it_matters": "Важен для понимания продаж, цен, модельного ряда, дилерской сети и конкурентной динамики авторынка. Отобрано как: рынок / бизнес, маркетинг.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [],
+      "source_quality": 4.8,
+      "publisher_id": "autostat.ru"
+    },
+    {
       "id": "432624f14631b01e7e",
       "title": "ЦБ предложил изменить закон о банкротстве для защиты владельцев облигаций",
       "url": "https://rbc.ru/quote/29/10/2026/6ae31ae89a7947718054563a",
@@ -52474,6 +53099,118 @@
       "publisher_id": "retail.ru"
     },
     {
+      "id": "056a3719333efbf129",
+      "title": "Магнитные бури исключили из прогноза на ближайшие два дня",
+      "url": "https://tass.ru/kosmos/28274273",
+      "source": "ТАСС — экономика и компании",
+      "published_at": "2026-10-31T08:25:26+00:00",
+      "summary": "Наблюдается рост параметров солнечного ветра, сообщили в Лаборатории солнечной астрономии ИКИ РАН и ИСЗФ СО РАН",
+      "categories": [
+        "Retail"
+      ],
+      "primary_category": "Retail",
+      "topics": [
+        "Исследования и прогнозы"
+      ],
+      "brands": [
+        "Магнит"
+      ],
+      "score": 2.0,
+      "strategic_relevance_score": 40,
+      "relevance_reasons": [
+        "крупный игрок",
+        "будущий горизонт"
+      ],
+      "why_it_matters": "Показывает изменение в бизнесе ритейла: формате, продажах, ценах, ассортименте или конкурентной динамике. В фокусе: Магнит. Горизонт: future. Отобрано как: крупный игрок, будущий горизонт.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [
+        "future"
+      ],
+      "future_signal": true,
+      "content_type": "forecast",
+      "metrics": [],
+      "source_quality": 4.5,
+      "publisher_id": "tass.ru"
+    },
+    {
+      "id": "29d3a3dd58da6d59b7",
+      "title": "OpenAI привлекла лишь $11 млрд из целевых $30 млрд в последнем раунде инвестиций",
+      "url": "https://kommersant.ru/doc/9078117",
+      "source": "Коммерсантъ — новости",
+      "published_at": "2026-10-31T03:55:56+00:00",
+      "summary": "Компания OpenAI в последнем раунде инвестиций перед IPO смогла привлечь лишь $11 млрд — почти в три раза меньше запланированных $30 млрд, сообщает The Wall Street Journal (WSJ). Инвесторы оценили компанию в $1,25 трлн — ИИ-разработчик рассчитывал на оценку компании в $1,4 трлн.",
+      "categories": [
+        "TechnologyAI"
+      ],
+      "primary_category": "TechnologyAI",
+      "topics": [
+        "M&A и инвестиции"
+      ],
+      "brands": [],
+      "score": 2.0,
+      "strategic_relevance_score": 40,
+      "relevance_reasons": [
+        "инвестиции / M&A",
+        "есть данные"
+      ],
+      "why_it_matters": "Материал влияет на рыночный или конкурентный контекст. Отобрано как: инвестиции / M&A, есть данные.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [],
+      "source_quality": 4.6,
+      "publisher_id": "kommersant.ru"
+    },
+    {
+      "id": "9897e3c380a4069dd7",
+      "title": "Акции ВТБ упали почти на 4% после слов Пьянова о дивидендах",
+      "url": "https://finam.ru/publications/item/aktsii-vtb-upali-pochti-na-3-posle-slov-pyanova-o-dividendakh-20261030-1530?news_to_finamb=new_compaigns",
+      "source": "Finam — компании и рынки",
+      "published_at": "2026-10-30T12:25:20+00:00",
+      "summary": "По его словам, пока не стоит рассчитывать на возвращение к распределению 50% чистой прибыли на дивиденды...",
+      "categories": [
+        "BanksFintech",
+        "FinanceEconomy"
+      ],
+      "primary_category": "BanksFintech",
+      "topics": [
+        "Финрезультаты"
+      ],
+      "brands": [
+        "ВТБ"
+      ],
+      "score": 2.0,
+      "strategic_relevance_score": 40,
+      "relevance_reasons": [
+        "рынок / бизнес",
+        "крупный игрок",
+        "есть данные"
+      ],
+      "why_it_matters": "Может менять банковские офферы, финтех-сервисы, клиентское поведение и коммуникационную конкуренцию. В фокусе: ВТБ. Отобрано как: рынок / бизнес, крупный игрок, есть данные.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [
+        {
+          "type": "Рыночная метрика",
+          "value": "4%",
+          "context": "Акции ВТБ упали почти на 4% после слов Пьянова о дивидендах."
+        },
+        {
+          "type": "Рыночная метрика",
+          "value": "50%",
+          "context": "По его словам, пока не стоит рассчитывать на возвращение к распределению 50% чистой прибыли на дивиденды."
+        }
+      ],
+      "source_quality": 4.0,
+      "publisher_id": "finam.ru"
+    },
+    {
       "id": "b674ca5f52daa157b2",
       "title": "МТС Банк включили в реестр компаний по стандарту общественного капитала бизнеса",
       "url": "https://tass.ru/ekonomika/28271369",
@@ -52582,6 +53319,68 @@
       ],
       "source_quality": 4.6,
       "publisher_id": "kommersant.ru"
+    },
+    {
+      "id": "83c5bbe6fe54aea297",
+      "title": "В российском парке легковых автомобилей уже 12 брендов-миллионников",
+      "url": "https://autostat.ru/news/63412",
+      "source": "АВТОСТАТ — авторынок",
+      "published_at": "2026-10-30T00:00:00+00:00",
+      "summary": "На 1 июля 2026 года в нашей стране было зарегистрировано 47,74 млн легковых машин. Такие данные содержатся в отчете «Парк ТС в РФ на 01.07.2026 г.», подгот...",
+      "categories": [
+        "Automotive"
+      ],
+      "primary_category": "Automotive",
+      "topics": [
+        "Маркетинг и медиа"
+      ],
+      "brands": [],
+      "score": 2.0,
+      "strategic_relevance_score": 40,
+      "relevance_reasons": [
+        "маркетинг",
+        "есть данные"
+      ],
+      "why_it_matters": "Важен для понимания продаж, цен, модельного ряда, дилерской сети и конкурентной динамики авторынка. Отобрано как: маркетинг, есть данные.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "research",
+      "metrics": [],
+      "source_quality": 4.8,
+      "publisher_id": "autostat.ru"
+    },
+    {
+      "id": "d583f6cb4832aa500c",
+      "title": "Новый бренд VOTOUR представил свою первую модель – городской кроссовер V5",
+      "url": "https://autostat.ru/news/63414",
+      "source": "АВТОСТАТ — авторынок",
+      "published_at": "2026-10-30T00:00:00+00:00",
+      "summary": "Отечественный автомобильный бренд VOTOUR, созданный в рамках партнерства холдинга «АГР» и компании Defetoo представил свою первую модель. Ей стал городской...",
+      "categories": [
+        "Automotive"
+      ],
+      "primary_category": "Automotive",
+      "topics": [
+        "Маркетинг и медиа",
+        "Запуск продукта/сервиса"
+      ],
+      "brands": [],
+      "score": 2.0,
+      "strategic_relevance_score": 40,
+      "relevance_reasons": [
+        "маркетинг"
+      ],
+      "why_it_matters": "Важен для понимания продаж, цен, модельного ряда, дилерской сети и конкурентной динамики авторынка. Отобрано как: маркетинг.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [],
+      "source_quality": 4.8,
+      "publisher_id": "autostat.ru"
     },
     {
       "id": "812e4242fc2778d6d8",
@@ -56843,6 +57642,88 @@
       "publisher_id": "retail.ru"
     },
     {
+      "id": "bf0a171c3ba36b46d2",
+      "title": "\"Ростелеком\" за 9 месяцев получил чистый убыток по РСБУ в размере 15,41 млрд против прибыли годом ранее",
+      "url": "https://finam.ru/publications/item/rostelekom-za-9-mesyatsev-poluchil-chistyy-ubytok-po-rsbu-v-razmere-1541-mlrd-protiv-pribyli-godom-ranee-20261030-2124?news_to_finamb=new_compaigns",
+      "source": "Finam — компании и рынки",
+      "published_at": "2026-10-30T18:21:30+00:00",
+      "summary": "Прибыль за 9 месяцев 2025 года составляла 13,5 млрд рублей...",
+      "categories": [
+        "Telecom"
+      ],
+      "primary_category": "Telecom",
+      "topics": [
+        "Финрезультаты"
+      ],
+      "brands": [
+        "Ростелеком"
+      ],
+      "score": 1.9,
+      "strategic_relevance_score": 38,
+      "relevance_reasons": [
+        "рынок / бизнес",
+        "крупный игрок",
+        "есть данные"
+      ],
+      "why_it_matters": "Материал влияет на рыночный или конкурентный контекст. В фокусе: Ростелеком. Отобрано как: рынок / бизнес, крупный игрок, есть данные.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [
+        {
+          "type": "Рыночная метрика",
+          "value": "13,5 млрд рублей",
+          "context": "Прибыль за 9 месяцев 2025 года составляла 13,5 млрд рублей."
+        }
+      ],
+      "source_quality": 4.0,
+      "publisher_id": "finam.ru"
+    },
+    {
+      "id": "c0ed89e49484dadb1a",
+      "title": "Девелопер «АПРИ» получил за 9 месяцев 1,6 млрд рублей чистого убытка по РСБУ",
+      "url": "https://finam.ru/publications/item/developer-apri-poluchil-za-9-mesyatsev-16-mlrd-rubley-chistogo-ubytka-po-rsbu-20261030-1830?news_to_finamb=new_compaigns",
+      "source": "Finam — компании и рынки",
+      "published_at": "2026-10-30T15:30:53+00:00",
+      "summary": "Годом ранее была прибыль в размере почти 500 млн рублей...",
+      "categories": [
+        "RealEstate"
+      ],
+      "primary_category": "RealEstate",
+      "topics": [
+        "Финрезультаты"
+      ],
+      "brands": [],
+      "score": 1.9,
+      "strategic_relevance_score": 38,
+      "relevance_reasons": [
+        "рынок / бизнес",
+        "есть данные"
+      ],
+      "why_it_matters": "Отражает динамику спроса, цен, ипотеки, девелопмента и коммерческой недвижимости. Отобрано как: рынок / бизнес, есть данные.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [
+        {
+          "type": "Рыночная метрика",
+          "value": "1,6 млрд рублей",
+          "context": "Девелопер «АПРИ» получил за 9 месяцев 1,6 млрд рублей чистого убытка по РСБУ."
+        },
+        {
+          "type": "Рыночная метрика",
+          "value": "500 млн рублей",
+          "context": "Годом ранее была прибыль в размере почти 500 млн рублей."
+        }
+      ],
+      "source_quality": 4.0,
+      "publisher_id": "finam.ru"
+    },
+    {
       "id": "8640d3e3fdb8523565",
       "title": "Финализация сделки ВТБ и RWB пока задерживается",
       "url": "https://finam.ru/publications/item/finalizatsiya-sdelki-vtb-i-rwb-poka-zaderzhivaetsya-20261030-1026?news_to_finamb=new_compaigns",
@@ -60135,6 +61016,110 @@
       "content_type": "forecast",
       "source_quality": 4.0,
       "publisher_id": "finam.ru"
+    },
+    {
+      "id": "3edbad3bb06e6b9ffb",
+      "title": "Токийский метрополитен повысит стоимость проезда впервые за 30 лет",
+      "url": "https://kommersant.ru/doc/9078125",
+      "source": "Коммерсантъ — новости",
+      "published_at": "2026-10-31T05:22:21+00:00",
+      "summary": "Цены на проезд в метро столицы Японии планируется повысить в марте 2029 года. Об этом на пресс-конференции сообщила финансовый директор Tokyo Metro Кана Саката.",
+      "categories": [
+        "Retail"
+      ],
+      "primary_category": "Retail",
+      "topics": [
+        "Цены и промо"
+      ],
+      "brands": [
+        "METRO"
+      ],
+      "score": 1.8,
+      "strategic_relevance_score": 36,
+      "relevance_reasons": [
+        "крупный игрок",
+        "будущий горизонт"
+      ],
+      "why_it_matters": "Показывает изменение в бизнесе ритейла: формате, продажах, ценах, ассортименте или конкурентной динамике. В фокусе: METRO. Горизонт: 2029. Отобрано как: крупный игрок, будущий горизонт.",
+      "client_matches": {},
+      "market_scope": "Global",
+      "future_horizon": [
+        "2029"
+      ],
+      "future_signal": true,
+      "content_type": "company_plan",
+      "metrics": [],
+      "source_quality": 4.6,
+      "publisher_id": "kommersant.ru"
+    },
+    {
+      "id": "d12a25a5f8d1395c5a",
+      "title": "У 10 брендов в октябре изменились цены на новые автомобили",
+      "url": "https://autostat.ru/news/63416",
+      "source": "АВТОСТАТ — авторынок",
+      "published_at": "2026-10-31T00:00:00+00:00",
+      "summary": "В октябре 2026 года изменение цен на новые автомобили было отмечено у десяти марок. При этом у пяти из них некоторые модели подорожали, а у другой половины – под...",
+      "categories": [
+        "Automotive"
+      ],
+      "primary_category": "Automotive",
+      "topics": [
+        "Цены и промо",
+        "Маркетинг и медиа"
+      ],
+      "brands": [],
+      "score": 1.8,
+      "strategic_relevance_score": 36,
+      "relevance_reasons": [
+        "маркетинг"
+      ],
+      "why_it_matters": "Важен для понимания продаж, цен, модельного ряда, дилерской сети и конкурентной динамики авторынка. Отобрано как: маркетинг.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [],
+      "source_quality": 4.8,
+      "publisher_id": "autostat.ru"
+    },
+    {
+      "id": "fe574ca26285af8239",
+      "title": "Индекс Nasdaq-100 упал на 3% на фоне распродажи акций технологических компаний",
+      "url": "https://vedomosti.ru/investments/news/2026/10/30/1241674-nasdaq-100-upal",
+      "source": "Ведомости — новости",
+      "published_at": "2026-10-30T16:14:21+00:00",
+      "summary": "",
+      "categories": [
+        "TechnologyAI"
+      ],
+      "primary_category": "TechnologyAI",
+      "topics": [
+        "Рынок и продажи",
+        "Digital и технологии"
+      ],
+      "brands": [],
+      "score": 1.8,
+      "strategic_relevance_score": 36,
+      "relevance_reasons": [
+        "рынок / бизнес",
+        "есть данные"
+      ],
+      "why_it_matters": "Материал влияет на рыночный или конкурентный контекст. Отобрано как: рынок / бизнес, есть данные.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [
+        {
+          "type": "Продажи",
+          "value": "3%",
+          "context": "Индекс Nasdaq-100 упал на 3% на фоне распродажи акций технологических компаний."
+        }
+      ],
+      "source_quality": 4.5,
+      "publisher_id": "vedomosti.ru"
     },
     {
       "id": "f04b46632bcd9a1eb5",
@@ -66096,6 +67081,38 @@
       "publisher_id": "sostav.ru"
     },
     {
+      "id": "21ef6ff10cc56cf768",
+      "title": "Импортеров товаров из Беларуси освободили от уплаты обеспечительного платежа до 30 июня 2027 года",
+      "url": "https://retail.ru/news/importerov-tovarov-iz-belarusi-osvobodili-ot-uplaty-obespechitelnogo-platezha-do-30-oktyabrya-2026-283907",
+      "source": "Retail.ru — новости",
+      "published_at": "2026-10-30T13:11:00+00:00",
+      "summary": "",
+      "categories": [
+        "BanksFintech"
+      ],
+      "primary_category": "BanksFintech",
+      "topics": [
+        "Бизнес-изменения"
+      ],
+      "brands": [],
+      "score": 1.6,
+      "strategic_relevance_score": 32,
+      "relevance_reasons": [
+        "будущий горизонт"
+      ],
+      "why_it_matters": "Может менять банковские офферы, финтех-сервисы, клиентское поведение и коммуникационную конкуренцию. Горизонт: 2027. Отобрано как: будущий горизонт.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [
+        "2027"
+      ],
+      "future_signal": true,
+      "content_type": "news",
+      "metrics": [],
+      "source_quality": 4.5,
+      "publisher_id": "retail.ru"
+    },
+    {
       "id": "02cec4a0fcd6393aa8",
       "title": "Минфин не обсуждает льготы для «Яндекса» по примеру Ozon и Wildberries",
       "url": "https://vedomosti.ru/economics/news/2026/10/30/1241444-minfin-ne-lgoti",
@@ -70436,6 +71453,37 @@
       "content_type": "news",
       "source_quality": 4.0,
       "publisher_id": "cnews.ru"
+    },
+    {
+      "id": "721b653515f8d93dbc",
+      "title": "Совет директоров \"ФосАгро\" рекомендовал выплатить дивиденды из прибыли прошлых лет",
+      "url": "https://finam.ru/publications/item/sovet-direktorov-fosagro-rekomendoval-vyplatit-dividendy-iz-pribyli-proshlykh-let-20261030-1958?news_to_finamb=new_compaigns",
+      "source": "Finam — компании и рынки",
+      "published_at": "2026-10-30T16:54:40+00:00",
+      "summary": "309 рублей на обыкновенную акцию...",
+      "categories": [
+        "FinanceEconomy"
+      ],
+      "primary_category": "FinanceEconomy",
+      "topics": [
+        "Финрезультаты"
+      ],
+      "brands": [],
+      "score": 1.4,
+      "strategic_relevance_score": 28,
+      "relevance_reasons": [
+        "рынок / бизнес",
+        "есть данные"
+      ],
+      "why_it_matters": "Задает макроконтекст для спроса, потребительских расходов и бизнес-планирования. Отобрано как: рынок / бизнес, есть данные.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [],
+      "source_quality": 4.0,
+      "publisher_id": "finam.ru"
     },
     {
       "id": "962d273ee81da01548",
