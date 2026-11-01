@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-31T11:02:26.829095+00:00",
+  "updated_at": "2026-11-01T11:57:57.652289+00:00",
   "source_count": 43,
-  "item_count": 2278,
+  "item_count": 2294,
   "retention_days": 365,
   "categories": [
     {
@@ -74,7 +74,7 @@
   "source_stats": [
     {
       "source": "Retail.ru — новости",
-      "added": 1
+      "added": 0
     },
     {
       "source": "Retail.ru — статьи",
@@ -86,19 +86,19 @@
     },
     {
       "source": "РБК — бизнес и экономика",
-      "added": 1
+      "added": 0
     },
     {
       "source": "Коммерсантъ — новости",
-      "added": 5
-    },
-    {
-      "source": "Ведомости — новости",
       "added": 3
     },
     {
-      "source": "Sostav — маркетинг и бренды",
+      "source": "Ведомости — новости",
       "added": 0
+    },
+    {
+      "source": "Sostav — маркетинг и бренды",
+      "added": 12
     },
     {
       "source": "CNews — бизнес и технологии",
@@ -110,11 +110,11 @@
     },
     {
       "source": "Finam — компании и рынки",
-      "added": 5
+      "added": 0
     },
     {
       "source": "АВТОСТАТ — авторынок",
-      "added": 5
+      "added": 2
     },
     {
       "source": "РБК Недвижимость — рынок недвижимости",
@@ -278,16 +278,12 @@
   ],
   "errors": [
     {
-      "source": "Sostav — маркетинг и бренды",
-      "error": "The read operation timed out"
-    },
-    {
       "source": "Росстат — новости статистики",
-      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+      "error": "<urlopen error timed out>"
     },
     {
       "source": "Минэкономразвития — новости",
-      "error": "<urlopen error timed out>"
+      "error": "<urlopen error [Errno -5] No address associated with hostname>"
     },
     {
       "source": "ФАС России — новости",
@@ -39186,6 +39182,52 @@
       "publisher_id": "rbc.ru"
     },
     {
+      "id": "6e804e85168c6cc551",
+      "title": "Чистая прибыль Fix Price сократилась на 24% за девять месяцев",
+      "url": "https://sostav.ru/publication/chistaya-pribyl-fix-price-sokratilas-na-24-za-devyat-mesyatsev-88150.html",
+      "source": "Sostav — маркетинг и бренды",
+      "published_at": "2026-10-29T14:48:00+00:00",
+      "summary": "Выручка ретейлера достигла 242,2 млрд рублей",
+      "categories": [
+        "Retail"
+      ],
+      "primary_category": "Retail",
+      "topics": [
+        "Рынок и продажи",
+        "Финрезультаты"
+      ],
+      "brands": [
+        "Fix Price"
+      ],
+      "score": 2.7,
+      "strategic_relevance_score": 54,
+      "relevance_reasons": [
+        "рынок / бизнес",
+        "крупный игрок",
+        "есть данные"
+      ],
+      "why_it_matters": "Показывает изменение в бизнесе ритейла: формате, продажах, ценах, ассортименте или конкурентной динамике. В фокусе: Fix Price. Отобрано как: рынок / бизнес, крупный игрок, есть данные.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [
+        {
+          "type": "Выручка / оборот",
+          "value": "24%",
+          "context": "Чистая прибыль Fix Price сократилась на 24% за девять месяцев."
+        },
+        {
+          "type": "Выручка / оборот",
+          "value": "242,2 млрд рублей",
+          "context": "Выручка ретейлера достигла 242,2 млрд рублей"
+        }
+      ],
+      "source_quality": 4.2,
+      "publisher_id": "sostav.ru"
+    },
+    {
       "id": "d594482328328c01e7",
       "title": "Сбербанк увеличил чистую прибыль по МСФО на 17% за девять месяцев // Чистая прибыль Сбербанка по МСФО составила 1,53 трлн рублей за девять месяцев",
       "url": "https://kommersant.ru/doc/9062552",
@@ -41969,6 +42011,89 @@
       "publisher_id": "finam.ru"
     },
     {
+      "id": "7fccd7951adbdedb28",
+      "title": "ВТБ вновь сдвинул срок закрытия сделки с RWB",
+      "url": "https://sostav.ru/publication/vtb-mozhet-perenesti-sdelku-s-rwb-88168.html",
+      "source": "Sostav — маркетинг и бренды",
+      "published_at": "2026-10-30T08:40:00+00:00",
+      "summary": "Ранее компания планировала завершить покупку 5%-ной доли в «WB Банке» к концу октября",
+      "categories": [
+        "BanksFintech"
+      ],
+      "primary_category": "BanksFintech",
+      "topics": [
+        "M&A и инвестиции"
+      ],
+      "brands": [
+        "ВТБ"
+      ],
+      "score": 2.5,
+      "strategic_relevance_score": 50,
+      "relevance_reasons": [
+        "инвестиции / M&A",
+        "крупный игрок",
+        "есть данные"
+      ],
+      "why_it_matters": "Может менять банковские офферы, финтех-сервисы, клиентское поведение и коммуникационную конкуренцию. В фокусе: ВТБ. Отобрано как: инвестиции / M&A, крупный игрок, есть данные.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [
+        {
+          "type": "Рыночная метрика",
+          "value": "5%",
+          "context": "Ранее компания планировала завершить покупку 5%-ной доли в «WB Банке» к концу октября"
+        }
+      ],
+      "source_quality": 4.2,
+      "publisher_id": "sostav.ru"
+    },
+    {
+      "id": "8b0e694cee137c4866",
+      "title": "79% владельцев китайских авто в России планируют снова выбрать бренд из Китая",
+      "url": "https://sostav.ru/publication/79-vladeltsev-kitajskikh-avtomobilej-v-rossii-planiruyut-snova-vybrat-marku-iz-kitaya-88147.html",
+      "source": "Sostav — маркетинг и бренды",
+      "published_at": "2026-10-29T13:15:00+00:00",
+      "summary": "Haval занял третье место среди вероятных покупок у автолюбителей старше 35 лет",
+      "categories": [
+        "Automotive"
+      ],
+      "primary_category": "Automotive",
+      "topics": [
+        "Маркетинг и медиа"
+      ],
+      "brands": [
+        "Haval"
+      ],
+      "score": 2.5,
+      "strategic_relevance_score": 50,
+      "relevance_reasons": [
+        "маркетинг",
+        "крупный игрок",
+        "будущий горизонт",
+        "есть данные"
+      ],
+      "why_it_matters": "Важен для понимания продаж, цен, модельного ряда, дилерской сети и конкурентной динамики авторынка. В фокусе: Haval. Горизонт: future. Отобрано как: маркетинг, крупный игрок, будущий горизонт.",
+      "client_matches": {},
+      "market_scope": "Global",
+      "future_horizon": [
+        "future"
+      ],
+      "future_signal": true,
+      "content_type": "company_plan",
+      "metrics": [
+        {
+          "type": "Рыночная метрика",
+          "value": "79%",
+          "context": "79% владельцев китайских авто в России планируют снова выбрать бренд из Китая."
+        }
+      ],
+      "source_quality": 4.2,
+      "publisher_id": "sostav.ru"
+    },
+    {
       "id": "b9394db3e724beed6c",
       "title": "Выручка «Черкизово» по РСБУ за 9 месяцев увеличилась до 29,4 млрд рублей",
       "url": "https://finam.ru/publications/item/vyruchka-cherkizovo-po-rsbu-za-9-mesyatsev-uvelichilas-do-294-mlrd-rubley-20261029-1516?news_to_finamb=new_compaigns",
@@ -43882,6 +44007,46 @@
       ],
       "source_quality": 4.6,
       "publisher_id": "kommersant.ru"
+    },
+    {
+      "id": "ec49e72b66e99205da",
+      "title": "DoorDash приобретет Instacart за 17 млрд долларов",
+      "url": "https://sostav.ru/publication/doordash-priobretet-instacart-za-17-mlrd-dollarov-88151.html",
+      "source": "Sostav — маркетинг и бренды",
+      "published_at": "2026-10-29T15:34:00+00:00",
+      "summary": "Сделка позволит компаниям объединить технологии доставки, рекламные инструменты и ИИ-решения",
+      "categories": [
+        "TechnologyAI"
+      ],
+      "primary_category": "TechnologyAI",
+      "topics": [
+        "Маркетинг и медиа",
+        "Digital и технологии",
+        "M&A и инвестиции"
+      ],
+      "brands": [],
+      "score": 2.4,
+      "strategic_relevance_score": 48,
+      "relevance_reasons": [
+        "маркетинг",
+        "инвестиции / M&A",
+        "есть данные"
+      ],
+      "why_it_matters": "Материал влияет на рыночный или конкурентный контекст. Отобрано как: маркетинг, инвестиции / M&A, есть данные.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [
+        {
+          "type": "Рыночная метрика",
+          "value": "17 млрд долларов",
+          "context": "DoorDash приобретет Instacart за 17 млрд долларов."
+        }
+      ],
+      "source_quality": 4.2,
+      "publisher_id": "sostav.ru"
     },
     {
       "id": "33d63fd7c390e6ef77",
@@ -46200,6 +46365,69 @@
       "publisher_id": "sostav.ru"
     },
     {
+      "id": "4297a1ffaee7843b18",
+      "title": "Мосбиржа назвала доступные монеты и время торгов криптовалютами с 1 декабря",
+      "url": "https://kommersant.ru/doc/9078266",
+      "source": "Коммерсантъ — новости",
+      "published_at": "2026-10-31T11:49:01+00:00",
+      "summary": "Московская биржа планирует с 1 декабря 2026 года начать торги тремя основными криптовалютами — Bitcoin, Ethereum и USDT. Об этом сообщил старший управляющий директор по продажам и развитию бизнеса площадки Борис Блохин.",
+      "categories": [
+        "FinanceEconomy"
+      ],
+      "primary_category": "FinanceEconomy",
+      "topics": [
+        "Рынок и продажи"
+      ],
+      "brands": [],
+      "score": 2.3,
+      "strategic_relevance_score": 46,
+      "relevance_reasons": [
+        "рынок / бизнес",
+        "будущий горизонт"
+      ],
+      "why_it_matters": "Задает макроконтекст для спроса, потребительских расходов и бизнес-планирования. Горизонт: future. Отобрано как: рынок / бизнес, будущий горизонт.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [
+        "future"
+      ],
+      "future_signal": true,
+      "content_type": "company_plan",
+      "metrics": [],
+      "source_quality": 4.6,
+      "publisher_id": "kommersant.ru"
+    },
+    {
+      "id": "defc5ca6e355ccd67f",
+      "title": "В Сербии отозвали лицензию у банка Alta",
+      "url": "https://kommersant.ru/doc/9078259",
+      "source": "Коммерсантъ — новости",
+      "published_at": "2026-10-31T11:21:04+00:00",
+      "summary": "Национальный банк Сербии (НБС) объявил об отзыве лицензии у Alta banka, одного из крупнейших в стране. НБС заявил, что принял меры «в целях защиты вкладчиков и других кредиторов, а также предотвращения распространения негативных последствий для общества и экономики» страны.",
+      "categories": [
+        "BanksFintech"
+      ],
+      "primary_category": "BanksFintech",
+      "topics": [
+        "Потребитель"
+      ],
+      "brands": [],
+      "score": 2.3,
+      "strategic_relevance_score": 46,
+      "relevance_reasons": [
+        "потребитель"
+      ],
+      "why_it_matters": "Может менять банковские офферы, финтех-сервисы, клиентское поведение и коммуникационную конкуренцию. Отобрано как: потребитель.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [],
+      "source_quality": 4.6,
+      "publisher_id": "kommersant.ru"
+    },
+    {
       "id": "512ece854a52c827a0",
       "title": "Минфин США предложил запретить инвестиции в китайские биотехнологии",
       "url": "https://kommersant.ru/doc/9060248",
@@ -47279,6 +47507,38 @@
       ],
       "source_quality": 4.5,
       "publisher_id": "vedomosti.ru"
+    },
+    {
+      "id": "10f45874e9497b94e2",
+      "title": "От узнаваемости до покупки: почему реклама больше не делится на имиджевую и продающую",
+      "url": "https://sostav.ru/publication/ot-uznavaemosti-do-pokupki-pochemu-reklama-bolshe-ne-delitsya-na-imidzhevuyu-i-prodayushchuyu-88175.html",
+      "source": "Sostav — маркетинг и бренды",
+      "published_at": "2026-10-30T12:17:00+00:00",
+      "summary": "Как изменился путь потребителя и почему охватные кампании стоит оценивать не только по показам",
+      "categories": [
+        "Consumer"
+      ],
+      "primary_category": "Consumer",
+      "topics": [
+        "Потребитель",
+        "Маркетинг и медиа"
+      ],
+      "brands": [],
+      "score": 2.2,
+      "strategic_relevance_score": 44,
+      "relevance_reasons": [
+        "потребитель",
+        "маркетинг"
+      ],
+      "why_it_matters": "Материал влияет на рыночный или конкурентный контекст. Отобрано как: потребитель, маркетинг.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [],
+      "source_quality": 4.2,
+      "publisher_id": "sostav.ru"
     },
     {
       "id": "c4e97df2e3cb15d96a",
@@ -50232,6 +50492,89 @@
       "publisher_id": "sostav.ru"
     },
     {
+      "id": "85b6915e14e5fa08b9",
+      "title": "Как «Альфа-Банк» снял манифест о предпринимателях без генеративной графики",
+      "url": "https://sostav.ru/publication/kak-alfa-bank-snyal-manifest-88172.html",
+      "source": "Sostav — маркетинг и бренды",
+      "published_at": "2026-10-30T15:00:00+00:00",
+      "summary": "Шесть историй малого бизнеса, 14 часов технических тестов и декорации, которые построили для съемок",
+      "categories": [
+        "BanksFintech",
+        "TechnologyAI"
+      ],
+      "primary_category": "BanksFintech",
+      "topics": [
+        "Бизнес-изменения"
+      ],
+      "brands": [
+        "Альфа-Банк"
+      ],
+      "score": 2.1,
+      "strategic_relevance_score": 42,
+      "relevance_reasons": [
+        "клиент",
+        "крупный игрок"
+      ],
+      "why_it_matters": "Может менять банковские офферы, финтех-сервисы, клиентское поведение и коммуникационную конкуренцию. В фокусе: Альфа-Банк. Отобрано как: клиент, крупный игрок.",
+      "client_matches": {
+        "alfa-bank": {
+          "name": "Альфа-Банк",
+          "score": 3.8,
+          "matches": [
+            "Альфа-Банк",
+            "Альфа"
+          ]
+        }
+      },
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [],
+      "source_quality": 4.2,
+      "publisher_id": "sostav.ru"
+    },
+    {
+      "id": "52511ca00ad8069f8f",
+      "title": "«Лента» нарастила рекламные расходы на 34% за девять месяцев",
+      "url": "https://sostav.ru/publication/lenta-narastila-raskhody-na-reklamu-na-34-1-za-9-mesyatsev-2026-goda-88178.html",
+      "source": "Sostav — маркетинг и бренды",
+      "published_at": "2026-10-30T12:05:00+00:00",
+      "summary": "В третьем квартале затраты ретейлера на рекламу выросли на четверть",
+      "categories": [
+        "Retail"
+      ],
+      "primary_category": "Retail",
+      "topics": [
+        "Маркетинг и медиа"
+      ],
+      "brands": [
+        "Лента"
+      ],
+      "score": 2.1,
+      "strategic_relevance_score": 42,
+      "relevance_reasons": [
+        "маркетинг",
+        "крупный игрок",
+        "есть данные"
+      ],
+      "why_it_matters": "Показывает изменение в бизнесе ритейла: формате, продажах, ценах, ассортименте или конкурентной динамике. В фокусе: Лента. Отобрано как: маркетинг, крупный игрок, есть данные.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [
+        {
+          "type": "Рыночная метрика",
+          "value": "34%",
+          "context": "«Лента» нарастила рекламные расходы на 34% за девять месяцев."
+        }
+      ],
+      "source_quality": 4.2,
+      "publisher_id": "sostav.ru"
+    },
+    {
       "id": "6198a4793d534f9072",
       "title": "Лут назвала сроки рассмотрения Госдумой закона о продаже вина в интернете",
       "url": "https://rbc.ru/society/09/10/2026/6ac886d52d4e619b595e9d2c",
@@ -53099,6 +53442,41 @@
       "publisher_id": "retail.ru"
     },
     {
+      "id": "548726ea09eeea5106",
+      "title": "На Земле завершилась магнитная буря",
+      "url": "https://tass.ru/kosmos/28276085",
+      "source": "ТАСС — экономика и компании",
+      "published_at": "2026-11-01T10:30:31+00:00",
+      "summary": "Геомагнитные возмущения зафиксировали вечером 31 октября вопреки прогнозам, напомнили в Институте прикладной геофизики",
+      "categories": [
+        "Retail"
+      ],
+      "primary_category": "Retail",
+      "topics": [
+        "Исследования и прогнозы"
+      ],
+      "brands": [
+        "Магнит"
+      ],
+      "score": 2.0,
+      "strategic_relevance_score": 40,
+      "relevance_reasons": [
+        "крупный игрок",
+        "будущий горизонт"
+      ],
+      "why_it_matters": "Показывает изменение в бизнесе ритейла: формате, продажах, ценах, ассортименте или конкурентной динамике. В фокусе: Магнит. Горизонт: future. Отобрано как: крупный игрок, будущий горизонт.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [
+        "future"
+      ],
+      "future_signal": true,
+      "content_type": "forecast",
+      "metrics": [],
+      "source_quality": 4.5,
+      "publisher_id": "tass.ru"
+    },
+    {
       "id": "056a3719333efbf129",
       "title": "Магнитные бури исключили из прогноза на ближайшие два дня",
       "url": "https://tass.ru/kosmos/28274273",
@@ -53277,6 +53655,39 @@
       "metrics": [],
       "source_quality": 4.5,
       "publisher_id": "retail.ru"
+    },
+    {
+      "id": "3a1311e0df69b7ed28",
+      "title": "Возглавлявшая формат В1 Анжела Рябова покидает «Магнит»",
+      "url": "https://sostav.ru/publication/vozglavlyavshaya-format-v1-anzhela-ryabova-pokidaet-magnit-88158.html",
+      "source": "Sostav — маркетинг и бренды",
+      "published_at": "2026-10-30T05:30:00+00:00",
+      "summary": "Сеть жестких дискаунтеров перейдет под управление формата «магазин у дома», сохранив название и позиционирование",
+      "categories": [
+        "Retail"
+      ],
+      "primary_category": "Retail",
+      "topics": [
+        "Маркетинг и медиа"
+      ],
+      "brands": [
+        "Магнит"
+      ],
+      "score": 2.0,
+      "strategic_relevance_score": 40,
+      "relevance_reasons": [
+        "маркетинг",
+        "крупный игрок"
+      ],
+      "why_it_matters": "Показывает изменение в бизнесе ритейла: формате, продажах, ценах, ассортименте или конкурентной динамике. В фокусе: Магнит. Отобрано как: маркетинг, крупный игрок.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [],
+      "source_quality": 4.2,
+      "publisher_id": "sostav.ru"
     },
     {
       "id": "9edded0818c70079ea",
@@ -57642,6 +58053,36 @@
       "publisher_id": "retail.ru"
     },
     {
+      "id": "fe409b195a7046fd10",
+      "title": "В Париже из-за акции протеста закрыли более 40 станций метро",
+      "url": "https://kommersant.ru/doc/9078260",
+      "source": "Коммерсантъ — новости",
+      "published_at": "2026-10-31T11:19:12+00:00",
+      "summary": "Более 40 станций парижского метро закрыты 31 октября из-за акции протеста против снижения покупательной способности. Это следует из данных Автономного управления парижского транспорта (RATP).",
+      "categories": [
+        "Consumer"
+      ],
+      "primary_category": "Consumer",
+      "topics": [
+        "Потребитель"
+      ],
+      "brands": [],
+      "score": 1.9,
+      "strategic_relevance_score": 38,
+      "relevance_reasons": [
+        "потребитель"
+      ],
+      "why_it_matters": "Материал влияет на рыночный или конкурентный контекст. Отобрано как: потребитель.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [],
+      "source_quality": 4.6,
+      "publisher_id": "kommersant.ru"
+    },
+    {
       "id": "bf0a171c3ba36b46d2",
       "title": "\"Ростелеком\" за 9 месяцев получил чистый убыток по РСБУ в размере 15,41 млрд против прибыли годом ранее",
       "url": "https://finam.ru/publications/item/rostelekom-za-9-mesyatsev-poluchil-chistyy-ubytok-po-rsbu-v-razmere-1541-mlrd-protiv-pribyli-godom-ranee-20261030-2124?news_to_finamb=new_compaigns",
@@ -61151,6 +61592,37 @@
       "metrics": [],
       "source_quality": 4.5,
       "publisher_id": "tass.ru"
+    },
+    {
+      "id": "ce372ca9dda9cda025",
+      "title": "Своя площадка ближе к телу: пора ли бизнесу выбирать сайт вместо маркетплейса",
+      "url": "https://sostav.ru/publication/svoya-ploshchadka-blizhe-k-telu-pora-li-biznesu-vybirat-sajt-vmesto-marketplejsa-88166.html",
+      "source": "Sostav — маркетинг и бренды",
+      "published_at": "2026-10-30T11:00:00+00:00",
+      "summary": "Как меняется баланс сил в e-com и почему бренды делают ставку на собственные интернет-магазины",
+      "categories": [
+        "Retail",
+        "DeliveryEcom"
+      ],
+      "primary_category": "Retail",
+      "topics": [
+        "Маркетинг и медиа"
+      ],
+      "brands": [],
+      "score": 1.8,
+      "strategic_relevance_score": 36,
+      "relevance_reasons": [
+        "маркетинг"
+      ],
+      "why_it_matters": "Показывает изменение в бизнесе ритейла: формате, продажах, ценах, ассортименте или конкурентной динамике. Отобрано как: маркетинг.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [],
+      "source_quality": 4.2,
+      "publisher_id": "sostav.ru"
     },
     {
       "id": "a3efec342b68fe30b3",
@@ -70108,6 +70580,105 @@
       "content_type": "news",
       "source_quality": 4.0,
       "publisher_id": "retail.ru"
+    },
+    {
+      "id": "38830b0cc99025d1c9",
+      "title": "«билайн» и REDKEDS объединили интеграцию Summer Sound звуковой волной",
+      "url": "https://sostav.ru/publication/bilajn-i-redkeds-obedinili-integratsiyu-summer-sound-zvukovoj-volnoj-88187.html",
+      "source": "Sostav — маркетинг и бренды",
+      "published_at": "2026-10-30T15:30:00+00:00",
+      "summary": "Агентство разработало интеграцию «билайна» в качестве титульного спонсора юбилейного фестиваля",
+      "categories": [
+        "Telecom"
+      ],
+      "primary_category": "Telecom",
+      "topics": [
+        "Маркетинг и медиа"
+      ],
+      "brands": [
+        "Билайн"
+      ],
+      "score": 1.5,
+      "strategic_relevance_score": 30,
+      "relevance_reasons": [
+        "маркетинг",
+        "крупный игрок"
+      ],
+      "why_it_matters": "Материал влияет на рыночный или конкурентный контекст. В фокусе: Билайн. Отобрано как: маркетинг, крупный игрок.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [],
+      "source_quality": 4.2,
+      "publisher_id": "sostav.ru"
+    },
+    {
+      "id": "0c4ce5094e67927f7f",
+      "title": "Как «Самокат» превращал покупку товаров в фэнтези-квест",
+      "url": "https://sostav.ru/publication/kak-samokat-prevrashchal-pokupku-tovarov-v-fentezi-kvest-88184.html",
+      "source": "Sostav — маркетинг и бренды",
+      "published_at": "2026-10-30T13:37:00+00:00",
+      "summary": "Мультибрендовый спецпроект объединил геймификацию, продвижение товаров и розыгрыш призов",
+      "categories": [
+        "DeliveryEcom"
+      ],
+      "primary_category": "DeliveryEcom",
+      "topics": [
+        "Маркетинг и медиа"
+      ],
+      "brands": [
+        "Самокат"
+      ],
+      "score": 1.5,
+      "strategic_relevance_score": 30,
+      "relevance_reasons": [
+        "маркетинг",
+        "крупный игрок"
+      ],
+      "why_it_matters": "Помогает отслеживать рынок e-commerce и доставки: модели сервиса, игроков, логистику и поведение покупателей. В фокусе: Самокат. Отобрано как: маркетинг, крупный игрок.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [],
+      "source_quality": 4.2,
+      "publisher_id": "sostav.ru"
+    },
+    {
+      "id": "431333c3d866fd4a76",
+      "title": "MIXX атрибуция: как T2 объединил TV, Digital и OOH для роста конверсионности кампаний",
+      "url": "https://sostav.ru/publication/mixx-atributsiya-kak-t2-obedinil-tv-digital-i-ooh-dlya-rosta-konversionnosti-kampanij-88128.html",
+      "source": "Sostav — маркетинг и бренды",
+      "published_at": "2026-10-29T13:20:00+00:00",
+      "summary": "Initiative и «АДВ+Эндемика» превратили кросс-медийные данные оператора в инструмент роста подписки",
+      "categories": [
+        "Telecom"
+      ],
+      "primary_category": "Telecom",
+      "topics": [
+        "Маркетинг и медиа"
+      ],
+      "brands": [
+        "T2"
+      ],
+      "score": 1.5,
+      "strategic_relevance_score": 30,
+      "relevance_reasons": [
+        "маркетинг",
+        "крупный игрок"
+      ],
+      "why_it_matters": "Материал влияет на рыночный или конкурентный контекст. В фокусе: T2. Отобрано как: маркетинг, крупный игрок.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [],
+      "source_quality": 4.2,
+      "publisher_id": "sostav.ru"
     },
     {
       "id": "355134a95de142e9bd",
