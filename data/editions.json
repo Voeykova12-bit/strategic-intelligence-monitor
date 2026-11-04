@@ -1,6 +1,4504 @@
 {
   "editions": [
     {
+      "id": "2026-11-04",
+      "scheduled_for": "2026-11-04T09:00:00+03:00",
+      "generated_at": "2026-11-04T13:12:07.192289+00:00",
+      "window_start": "2026-10-28T00:00:00+03:00",
+      "window_end": "2026-11-04T00:00:00+03:00",
+      "window_days": 7,
+      "late": true,
+      "events": [
+        {
+          "id": "event-71b829dd1ae159c5",
+          "title": "В России снизилась посещаемость продуктовых магазинов",
+          "url": "https://sostav.ru/publication/v-rossii-snizilas-poseshchaemost-produktovykh-magazinov-88271.html",
+          "source": "Sostav — маркетинг и бренды",
+          "published_at": "2026-11-03T12:10:00+00:00",
+          "summary": "Причины — замедление потребительской активности и изменение покупательского поведения",
+          "categories": [
+            "Retail",
+            "Consumer"
+          ],
+          "primary_category": "Retail",
+          "topics": [
+            "Потребитель"
+          ],
+          "brands": [],
+          "score": 1.8,
+          "strategic_relevance_score": 90,
+          "relevance_reasons": [
+            "потребитель"
+          ],
+          "why_it_matters": "Показывает изменение в бизнесе ритейла: формате, продажах, ценах, ассортименте или конкурентной динамике. Отобрано как: потребитель.",
+          "client_matches": {},
+          "market_scope": "Russia",
+          "future_horizon": [],
+          "future_signal": false,
+          "content_type": "news",
+          "metrics": [],
+          "source_quality": 4.2,
+          "publisher_id": "sostav.ru",
+          "verification_status": "feed",
+          "editorial_version": "editorial-v1",
+          "strategic_components": {
+            "impact": 32,
+            "scale": 18,
+            "novelty": 18,
+            "utility": 15,
+            "evidence": 7
+          },
+          "eligible": true,
+          "exclusion_reason": "",
+          "strategic_theme": "consumer",
+          "interpretation": "Сопоставить результаты с аудиторией бренда и критериями выбора. Не переносить данные отдельной площадки на весь рынок.",
+          "interpretation_basis": "Редакционный вопрос по типу события",
+          "fact": "Причины — замедление потребительской активности и изменение покупательского поведения",
+          "evidence_label": "Публикация СМИ",
+          "independence": "unreviewed",
+          "member_ids": [
+            "b947ea1870d4fc5cc5"
+          ],
+          "sources": [
+            {
+              "id": "b947ea1870d4fc5cc5",
+              "url": "https://sostav.ru/publication/v-rossii-snizilas-poseshchaemost-produktovykh-magazinov-88271.html",
+              "source": "Sostav — маркетинг и бренды",
+              "platform": null,
+              "publisher_id": "sostav.ru",
+              "published_at": "2026-11-03T12:10:00+00:00"
+            }
+          ],
+          "last_signal_at": "2026-11-03T12:10:00+00:00",
+          "platforms": [],
+          "image_url": "",
+          "videos": []
+        },
+        {
+          "id": "event-a594838adc210e2a",
+          "title": "Число рекламодателей в российском магазине приложений выросло на 72%",
+          "url": "https://adindex.ru/news/releases/2026/11/3/350794.phtml",
+          "source": "AdIndex — реклама и медиа",
+          "published_at": "2026-11-03T14:07:16+00:00",
+          "summary": "Число рекламодателей в российском магазине приложений выросло на 72%",
+          "categories": [
+            "MediaAdvertising",
+            "Retail",
+            "TechnologyAI"
+          ],
+          "primary_category": "MediaAdvertising",
+          "topics": [
+            "Маркетинг и медиа",
+            "Digital и технологии"
+          ],
+          "brands": [],
+          "score": 3.7,
+          "strategic_relevance_score": 90,
+          "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
+          "market_scope": "Russia",
+          "metrics": [
+            {
+              "type": "Рыночная метрика",
+              "value": "72%",
+              "context": "Число рекламодателей в российском магазине приложений выросло на 72%. Новости Бизнес СМИ AdIndex из рубрики Пресс-релизы — Число рекламодателей в российском магазине приложений в"
+            }
+          ],
+          "image_url": "https://adindex.ru/assets/seo/2026_11/facebook_350794.jpg?ts=1793714087",
+          "source_quality": 4.5,
+          "content_type": "news",
+          "future_signal": false,
+          "future_horizon": [],
+          "pdf_urls": [],
+          "research_primary": false,
+          "publisher_id": "adindex.ru",
+          "verification_status": "ok",
+          "editorial_version": "editorial-v1",
+          "strategic_components": {
+            "impact": 32,
+            "scale": 18,
+            "novelty": 18,
+            "utility": 15,
+            "evidence": 7
+          },
+          "eligible": true,
+          "exclusion_reason": "",
+          "strategic_theme": "ad_market",
+          "interpretation": "Проверить, меняет ли событие выбор каналов, медиабюджет или требования к измерению рекламного результата.",
+          "interpretation_basis": "Редакционный вопрос по типу события",
+          "fact": "Число рекламодателей в российском магазине приложений выросло на 72%",
+          "evidence_label": "Публикация СМИ",
+          "independence": "unreviewed",
+          "member_ids": [
+            "adb27d8a0436f115ca"
+          ],
+          "sources": [
+            {
+              "id": "adb27d8a0436f115ca",
+              "url": "https://adindex.ru/news/releases/2026/11/3/350794.phtml",
+              "source": "AdIndex — реклама и медиа",
+              "platform": null,
+              "publisher_id": "adindex.ru",
+              "published_at": "2026-11-03T14:07:16+00:00"
+            }
+          ],
+          "last_signal_at": "2026-11-03T14:07:16+00:00",
+          "platforms": [],
+          "videos": []
+        },
+        {
+          "id": "event-c74534c11cd63875",
+          "title": "Аналитики рассказали, что изменилось на рынке новостроек Москвы в октябре Эксклюзив",
+          "url": "https://realty.rbc.ru/news/6ae8a2d281ca855a021b5d4c",
+          "source": "РБК Недвижимость — рынок недвижимости",
+          "published_at": "2026-11-03T06:30:00+00:00",
+          "summary": "В октябре рынок новостроек Москвы пополнился сразу четырьмя элитными проектами, поэтому основные изменения произошли именно в этом сегменте. Для сравнения: в бизнес-классе было две новинки, в премиум-классе — одна, а в массовом сегменте — ни одной",
+          "categories": [
+            "RealEstate"
+          ],
+          "primary_category": "RealEstate",
+          "topics": [
+            "Рынок и продажи",
+            "Исследования и прогнозы"
+          ],
+          "brands": [],
+          "score": 1.7,
+          "strategic_relevance_score": 86,
+          "relevance_reasons": [
+            "рынок / бизнес"
+          ],
+          "why_it_matters": "Отражает динамику спроса, цен, ипотеки, девелопмента и коммерческой недвижимости. Отобрано как: рынок / бизнес.",
+          "client_matches": {},
+          "market_scope": "Russia",
+          "future_horizon": [],
+          "future_signal": false,
+          "content_type": "news",
+          "metrics": [],
+          "source_quality": 4.5,
+          "publisher_id": "rbc.ru",
+          "verification_status": "feed",
+          "editorial_version": "editorial-v1",
+          "strategic_components": {
+            "impact": 32,
+            "scale": 18,
+            "novelty": 18,
+            "utility": 11,
+            "evidence": 7
+          },
+          "eligible": true,
+          "exclusion_reason": "",
+          "strategic_theme": "mortgage",
+          "interpretation": "Пересмотреть доступность предложения для целевой аудитории и аргументы покупки с учетом условий финансирования.",
+          "interpretation_basis": "Редакционный вопрос по типу события",
+          "fact": "В октябре рынок новостроек Москвы пополнился сразу четырьмя элитными проектами, поэтому основные изменения произошли именно в этом сегменте. Для сравнения: в бизнес-классе было две новинки, в премиум-классе — одна, а в массовом сегменте — ни одной",
+          "evidence_label": "Публикация СМИ",
+          "independence": "unreviewed",
+          "member_ids": [
+            "bbf2ed44782aaf1e51"
+          ],
+          "sources": [
+            {
+              "id": "bbf2ed44782aaf1e51",
+              "url": "https://realty.rbc.ru/news/6ae8a2d281ca855a021b5d4c",
+              "source": "РБК Недвижимость — рынок недвижимости",
+              "platform": null,
+              "publisher_id": "rbc.ru",
+              "published_at": "2026-11-03T06:30:00+00:00"
+            }
+          ],
+          "last_signal_at": "2026-11-03T06:30:00+00:00",
+          "platforms": [],
+          "image_url": "",
+          "videos": []
+        },
+        {
+          "id": "event-e2ced6c667e88bc7",
+          "title": "Выручка Pinterest выросла на 12% на фоне повышения рекламной активности",
+          "url": "https://adindex.ru/news/ad_budjet/2026/11/3/350786.phtml",
+          "source": "AdIndex — реклама и медиа",
+          "published_at": "2026-11-03T00:00:00+00:00",
+          "summary": "Выручка Pinterest выросла на 12% на фоне повышения рекламной активности",
+          "categories": [
+            "MediaAdvertising",
+            "TechnologyAI"
+          ],
+          "primary_category": "MediaAdvertising",
+          "topics": [
+            "Рынок и продажи",
+            "Маркетинг и медиа",
+            "Digital и технологии"
+          ],
+          "brands": [],
+          "score": 3.8,
+          "strategic_relevance_score": 84,
+          "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
+          "market_scope": "Russia",
+          "metrics": [
+            {
+              "type": "Выручка / оборот",
+              "value": "12%",
+              "context": "Выручка Pinterest выросла на 12% на фоне повышения рекламной активности. Новости Бизнес СМИ AdIndex из рубрики Рекламные бюджеты — Выручка Pin"
+            },
+            {
+              "type": "Рыночная метрика",
+              "value": "17%",
+              "context": "осла на 12% на фоне повышения рекламной активности — Рекламные показы компании выросли на 17% в третьем квартале"
+            }
+          ],
+          "image_url": "https://adindex.ru/assets/seo/2026_11/facebook_350786.JPG?ts=1793698991",
+          "source_quality": 4.5,
+          "content_type": "news",
+          "future_signal": false,
+          "future_horizon": [],
+          "pdf_urls": [],
+          "research_primary": false,
+          "publisher_id": "adindex.ru",
+          "verification_status": "ok",
+          "editorial_version": "editorial-v1",
+          "strategic_components": {
+            "impact": 32,
+            "scale": 12,
+            "novelty": 18,
+            "utility": 15,
+            "evidence": 7
+          },
+          "eligible": true,
+          "exclusion_reason": "",
+          "strategic_theme": "ad_market",
+          "interpretation": "Проверить, меняет ли событие выбор каналов, медиабюджет или требования к измерению рекламного результата.",
+          "interpretation_basis": "Редакционный вопрос по типу события",
+          "fact": "Выручка Pinterest выросла на 12% на фоне повышения рекламной активности",
+          "evidence_label": "Публикация СМИ",
+          "independence": "unreviewed",
+          "member_ids": [
+            "39b978410d0173d136"
+          ],
+          "sources": [
+            {
+              "id": "39b978410d0173d136",
+              "url": "https://adindex.ru/news/ad_budjet/2026/11/3/350786.phtml",
+              "source": "AdIndex — реклама и медиа",
+              "platform": null,
+              "publisher_id": "adindex.ru",
+              "published_at": "2026-11-03T00:00:00+00:00"
+            }
+          ],
+          "last_signal_at": "2026-11-03T00:00:00+00:00",
+          "platforms": [],
+          "videos": []
+        },
+        {
+          "id": "event-7638c55843e6119f",
+          "title": "RuStore заявил о двукратном росте рекламной емкости в 2026 году",
+          "url": "https://sostav.ru/publication/rustore-zayavil-o-dvukratnom-roste-88263.html",
+          "source": "Sostav — маркетинг и бренды",
+          "published_at": "2026-11-03T11:30:00+00:00",
+          "summary": "Магазин приложений расширил число рекламных форматов до 11, а число рекламодателей за год выросло на 72%",
+          "categories": [
+            "MediaAdvertising",
+            "Retail"
+          ],
+          "primary_category": "MediaAdvertising",
+          "topics": [
+            "Форматы и экспансия",
+            "Маркетинг и медиа",
+            "Digital и технологии"
+          ],
+          "brands": [],
+          "score": 2.8,
+          "strategic_relevance_score": 84,
+          "relevance_reasons": [
+            "маркетинг",
+            "есть данные"
+          ],
+          "why_it_matters": "Показывает изменение в бизнесе ритейла: формате, продажах, ценах, ассортименте или конкурентной динамике. Отобрано как: маркетинг, есть данные.",
+          "client_matches": {},
+          "market_scope": "Russia",
+          "future_horizon": [],
+          "future_signal": false,
+          "content_type": "news",
+          "metrics": [
+            {
+              "type": "Рыночная метрика",
+              "value": "72%",
+              "context": "Магазин приложений расширил число рекламных форматов до 11, а число рекламодателей за год выросло на 72%"
+            }
+          ],
+          "source_quality": 4.2,
+          "publisher_id": "sostav.ru",
+          "verification_status": "feed",
+          "editorial_version": "editorial-v1",
+          "strategic_components": {
+            "impact": 32,
+            "scale": 12,
+            "novelty": 18,
+            "utility": 15,
+            "evidence": 7
+          },
+          "eligible": true,
+          "exclusion_reason": "",
+          "strategic_theme": "ad_market",
+          "interpretation": "Проверить, меняет ли событие выбор каналов, медиабюджет или требования к измерению рекламного результата.",
+          "interpretation_basis": "Редакционный вопрос по типу события",
+          "fact": "Магазин приложений расширил число рекламных форматов до 11, а число рекламодателей за год выросло на 72%",
+          "evidence_label": "Публикация СМИ",
+          "independence": "unreviewed",
+          "member_ids": [
+            "6a1f39cbb2847a9d4c"
+          ],
+          "sources": [
+            {
+              "id": "6a1f39cbb2847a9d4c",
+              "url": "https://sostav.ru/publication/rustore-zayavil-o-dvukratnom-roste-88263.html",
+              "source": "Sostav — маркетинг и бренды",
+              "platform": null,
+              "publisher_id": "sostav.ru",
+              "published_at": "2026-11-03T11:30:00+00:00"
+            }
+          ],
+          "last_signal_at": "2026-11-03T11:30:00+00:00",
+          "platforms": [],
+          "image_url": "",
+          "videos": []
+        },
+        {
+          "id": "event-4d00b470e35d66d5",
+          "title": "Бывший автозавод Mercedes-Benz в Есипово перезапустят в 2027 году",
+          "url": "https://autostat.ru/news/63430",
+          "source": "АВТОСТАТ — авторынок",
+          "published_at": "2026-11-03T00:00:00+00:00",
+          "summary": "Производственную площадку в Есипово Московской области, где ранее выпускались автомобили Mercedes-Benz, перезапустят в 2027 году. Об этом «Газете.Ru» сообщ...",
+          "categories": [
+            "Automotive"
+          ],
+          "primary_category": "Automotive",
+          "topics": [
+            "Бизнес-изменения"
+          ],
+          "brands": [],
+          "score": 1.6,
+          "strategic_relevance_score": 80,
+          "relevance_reasons": [
+            "будущий горизонт"
+          ],
+          "why_it_matters": "Важен для понимания продаж, цен, модельного ряда, дилерской сети и конкурентной динамики авторынка. Горизонт: 2027. Отобрано как: будущий горизонт.",
+          "client_matches": {},
+          "market_scope": "Russia",
+          "future_horizon": [
+            "2027"
+          ],
+          "future_signal": true,
+          "content_type": "news",
+          "metrics": [],
+          "source_quality": 4.8,
+          "publisher_id": "autostat.ru",
+          "verification_status": "feed",
+          "editorial_version": "editorial-v1",
+          "strategic_components": {
+            "impact": 32,
+            "scale": 12,
+            "novelty": 18,
+            "utility": 11,
+            "evidence": 7
+          },
+          "eligible": true,
+          "exclusion_reason": "",
+          "strategic_theme": "auto",
+          "interpretation": "Сопоставить изменение с конкурентным набором, доступностью покупки и аргументами выбора автомобиля.",
+          "interpretation_basis": "Редакционный вопрос по типу события",
+          "fact": "Производственную площадку в Есипово Московской области, где ранее выпускались автомобили Mercedes-Benz, перезапустят в 2027 году. Об этом «Газете.Ru» сообщ...",
+          "evidence_label": "Публикация СМИ",
+          "independence": "unreviewed",
+          "member_ids": [
+            "332432ec11c4bf2259"
+          ],
+          "sources": [
+            {
+              "id": "332432ec11c4bf2259",
+              "url": "https://autostat.ru/news/63430",
+              "source": "АВТОСТАТ — авторынок",
+              "platform": null,
+              "publisher_id": "autostat.ru",
+              "published_at": "2026-11-03T00:00:00+00:00"
+            }
+          ],
+          "last_signal_at": "2026-11-03T00:00:00+00:00",
+          "platforms": [],
+          "image_url": "",
+          "videos": []
+        },
+        {
+          "id": "event-fd2c210ebd8b7ba7",
+          "title": "МТС запустила 5G на Ямале",
+          "url": "https://cnews.ru/news/line/2026-11-03_mts_zapustila_5g_na_yamale",
+          "source": "CNews — бизнес и технологии",
+          "published_at": "2026-11-03T06:47:00+00:00",
+          "summary": "МТС запустила 5G в Ямало-Ненецком автономном округе. Компания открыла доступ к сети 5G на действующих частотах LTE...",
+          "categories": [
+            "Telecom"
+          ],
+          "primary_category": "Telecom",
+          "topics": [
+            "Форматы и экспансия",
+            "Запуск продукта/сервиса"
+          ],
+          "brands": [
+            "МТС"
+          ],
+          "score": 0.9,
+          "strategic_relevance_score": 80,
+          "relevance_reasons": [
+            "крупный игрок"
+          ],
+          "why_it_matters": "Материал влияет на рыночный или конкурентный контекст. В фокусе: МТС. Отобрано как: крупный игрок.",
+          "client_matches": {},
+          "market_scope": "Russia",
+          "future_horizon": [],
+          "future_signal": false,
+          "content_type": "news",
+          "metrics": [],
+          "source_quality": 4.1,
+          "publisher_id": "cnews.ru",
+          "verification_status": "feed",
+          "editorial_version": "editorial-v1",
+          "strategic_components": {
+            "impact": 32,
+            "scale": 12,
+            "novelty": 18,
+            "utility": 11,
+            "evidence": 7
+          },
+          "eligible": true,
+          "exclusion_reason": "",
+          "strategic_theme": "telecom",
+          "interpretation": "Проверить, какие новые сценарии сервиса становятся доступны аудитории и меняют конкурентное предложение.",
+          "interpretation_basis": "Редакционный вопрос по типу события",
+          "fact": "МТС запустила 5G в Ямало-Ненецком автономном округе. Компания открыла доступ к сети 5G на действующих частотах LTE...",
+          "evidence_label": "Публикация СМИ",
+          "independence": "unreviewed",
+          "member_ids": [
+            "50ed50bb8af18ed22d"
+          ],
+          "sources": [
+            {
+              "id": "50ed50bb8af18ed22d",
+              "url": "https://cnews.ru/news/line/2026-11-03_mts_zapustila_5g_na_yamale",
+              "source": "CNews — бизнес и технологии",
+              "platform": null,
+              "publisher_id": "cnews.ru",
+              "published_at": "2026-11-03T06:47:00+00:00"
+            }
+          ],
+          "last_signal_at": "2026-11-03T06:47:00+00:00",
+          "platforms": [],
+          "image_url": "",
+          "videos": []
+        },
+        {
+          "id": "event-f001dc6ddc7f08f9",
+          "title": "Бизнес обозначил главные ограничения в III квартале 2026 года",
+          "url": "https://pharmvestnik.ru/content/news/biznes-oboznachil-glavnye-ogranicheniya-v-iii-kvartale-2026-goda.html",
+          "source": "Фармацевтический вестник",
+          "published_at": "2026-11-03T14:09:06+00:00",
+          "summary": "В III квартале 2026 года главными ограничениями для бизнеса стали снижение спроса (38%) и недостаток оборотных средств (36%), по данным мониторинга РСПП. Бизнес планирует сокращать издержки (84%), повышать цены (29%) и урезать инвестпрограммы (18%).",
+          "categories": [
+            "Pharma"
+          ],
+          "primary_category": "Pharma",
+          "topics": [
+            "Рынок и продажи",
+            "Потребитель"
+          ],
+          "brands": [],
+          "score": 3.7,
+          "strategic_relevance_score": 80,
+          "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
+          "market_scope": "Russia",
+          "metrics": [
+            {
+              "type": "Выручка / оборот",
+              "value": "38%",
+              "context": "года. В III квартале 2026 года главными ограничениями для бизнеса стали снижение спроса (38%) и недостаток оборотных средств (36%), по данным мониторинга РСПП. Бизнес планирует сокращать изд"
+            },
+            {
+              "type": "Выручка / оборот",
+              "value": "36%",
+              "context": "ыми ограничениями для бизнеса стали снижение спроса (38%) и недостаток оборотных средств (36%), по данным мониторинга РСПП. Бизнес планирует сокращать издержки (84%), повышать цены (29%) и у"
+            },
+            {
+              "type": "Выручка / оборот",
+              "value": "84%",
+              "context": "оборотных средств (36%), по данным мониторинга РСПП. Бизнес планирует сокращать издержки (84%), повышать цены (29%) и урезать инвестпрограммы (18%)."
+            },
+            {
+              "type": "Рыночная метрика",
+              "value": "29%",
+              "context": "%), по данным мониторинга РСПП. Бизнес планирует сокращать издержки (84%), повышать цены (29%) и урезать инвестпрограммы (18%)."
+            },
+            {
+              "type": "Рыночная метрика",
+              "value": "18%",
+              "context": "Бизнес планирует сокращать издержки (84%), повышать цены (29%) и урезать инвестпрограммы (18%)."
+            }
+          ],
+          "image_url": "https://pharmvestnik.ru/apps/fv/assets/files/content/news/919/91966/front.jpg",
+          "source_quality": 4.5,
+          "content_type": "company_plan",
+          "future_signal": true,
+          "future_horizon": [
+            "future"
+          ],
+          "pdf_urls": [
+            "https://pharmvestnik.ru/apps/fv/assets/uploads/subs/redaktsionnaya_politika/rp2024new.pdf",
+            "https://pharmvestnik.ru/apps/fv/assets/uploads/fv_mkit_noprices_2026_01.pdf"
+          ],
+          "research_primary": false,
+          "publisher_id": "pharmvestnik.ru",
+          "verification_status": "ok",
+          "editorial_version": "editorial-v1",
+          "strategic_components": {
+            "impact": 29,
+            "scale": 12,
+            "novelty": 15,
+            "utility": 15,
+            "evidence": 9
+          },
+          "eligible": true,
+          "exclusion_reason": "",
+          "strategic_theme": "consumer",
+          "interpretation": "Сопоставить результаты с аудиторией бренда и критериями выбора. Не переносить данные отдельной площадки на весь рынок.",
+          "interpretation_basis": "Редакционный вопрос по типу события",
+          "fact": "В III квартале 2026 года главными ограничениями для бизнеса стали снижение спроса (38%) и недостаток оборотных средств (36%), по данным мониторинга РСПП. Бизнес планирует сокращать издержки (84%), повышать цены (29%) и урезать инвестпрограммы (18%).",
+          "evidence_label": "Публикация СМИ",
+          "independence": "unreviewed",
+          "member_ids": [
+            "a1100c9c51b4c84323"
+          ],
+          "sources": [
+            {
+              "id": "a1100c9c51b4c84323",
+              "url": "https://pharmvestnik.ru/content/news/biznes-oboznachil-glavnye-ogranicheniya-v-iii-kvartale-2026-goda.html",
+              "source": "Фармацевтический вестник",
+              "platform": null,
+              "publisher_id": "pharmvestnik.ru",
+              "published_at": "2026-11-03T14:09:06+00:00"
+            }
+          ],
+          "last_signal_at": "2026-11-03T14:09:06+00:00",
+          "platforms": [],
+          "videos": []
+        },
+        {
+          "id": "event-5123c230d860c82d",
+          "title": "«Автодом» перезапустит бывший завод Mercedes-Benz в Подмосковье в начале 2027 года",
+          "url": "https://kommersant.ru/doc/9079714",
+          "source": "Коммерсантъ — новости",
+          "published_at": "2026-11-03T14:28:25+00:00",
+          "summary": "Группа компаний «Автодом» в первом квартале 2027 года планирует запустить производство автомобилей с новым партнером. Выпуск организуют на бывшем заводе Mercedes-Benz в подмосковном Есипове.",
+          "categories": [
+            "Automotive"
+          ],
+          "primary_category": "Automotive",
+          "topics": [
+            "Бизнес-изменения"
+          ],
+          "brands": [],
+          "score": 2.0,
+          "strategic_relevance_score": 80,
+          "relevance_reasons": [
+            "будущий горизонт"
+          ],
+          "why_it_matters": "Важен для понимания продаж, цен, модельного ряда, дилерской сети и конкурентной динамики авторынка. Горизонт: 2027. Отобрано как: будущий горизонт.",
+          "client_matches": {},
+          "market_scope": "Russia",
+          "future_horizon": [
+            "2027"
+          ],
+          "future_signal": true,
+          "content_type": "company_plan",
+          "metrics": [],
+          "source_quality": 4.6,
+          "publisher_id": "kommersant.ru",
+          "verification_status": "feed",
+          "editorial_version": "editorial-v1",
+          "strategic_components": {
+            "impact": 32,
+            "scale": 12,
+            "novelty": 18,
+            "utility": 11,
+            "evidence": 7
+          },
+          "eligible": true,
+          "exclusion_reason": "",
+          "strategic_theme": "auto",
+          "interpretation": "Сопоставить изменение с конкурентным набором, доступностью покупки и аргументами выбора автомобиля.",
+          "interpretation_basis": "Редакционный вопрос по типу события",
+          "fact": "Группа компаний «Автодом» в первом квартале 2027 года планирует запустить производство автомобилей с новым партнером. Выпуск организуют на бывшем заводе Mercedes-Benz в подмосковном Есипове.",
+          "evidence_label": "Публикация СМИ",
+          "independence": "unreviewed",
+          "member_ids": [
+            "a5b6a4f0b60b3347fe"
+          ],
+          "sources": [
+            {
+              "id": "a5b6a4f0b60b3347fe",
+              "url": "https://kommersant.ru/doc/9079714",
+              "source": "Коммерсантъ — новости",
+              "platform": null,
+              "publisher_id": "kommersant.ru",
+              "published_at": "2026-11-03T14:28:25+00:00"
+            }
+          ],
+          "last_signal_at": "2026-11-03T14:28:25+00:00",
+          "platforms": [],
+          "image_url": "",
+          "videos": []
+        },
+        {
+          "id": "event-1688620dbe87d7ab",
+          "title": "Продажи высокобелочной молочки выросли в пять раз - RETAILER.ru",
+          "url": "https://retailer.ru/prodazhi-vysokobelochnoj-molochki-vyrosli-v-pjat-raz",
+          "source": "Retailer.ru",
+          "published_at": "2026-11-02T07:36:25+00:00",
+          "summary": "По данным аналитической компании «Н — Дэйта Фэктори» (ранее «Нильсен»), за девять месяцев 2026 года продажи высокобелочной молочной продукции достигли 13 млрд рублей.",
+          "categories": [
+            "Retail",
+            "TechnologyAI"
+          ],
+          "primary_category": "Retail",
+          "topics": [
+            "Рынок и продажи",
+            "Digital и технологии"
+          ],
+          "brands": [],
+          "score": 3.4,
+          "strategic_relevance_score": 88,
+          "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
+          "market_scope": "Russia",
+          "metrics": [
+            {
+              "type": "Продажи",
+              "value": "13 млрд рублей",
+              "context": "Нильсен»), за девять месяцев 2026 года продажи высокобелочной молочной продукции достигли 13 млрд рублей. Сообщение Продажи высокобелочной молочки выросли в пять раз появились сначала на RET"
+            }
+          ],
+          "image_url": "",
+          "source_quality": 4.3,
+          "content_type": "news",
+          "future_signal": false,
+          "future_horizon": [],
+          "publisher_id": "retailer.ru",
+          "verification_status": "ok",
+          "editorial_version": "editorial-v1",
+          "strategic_components": {
+            "impact": 32,
+            "scale": 18,
+            "novelty": 18,
+            "utility": 11,
+            "evidence": 9
+          },
+          "eligible": true,
+          "exclusion_reason": "",
+          "strategic_theme": "retail",
+          "interpretation": "Сопоставить формат и позиционирование игроков с покупательской миссией, ценой и доступностью предложения.",
+          "interpretation_basis": "Редакционный вопрос по типу события",
+          "fact": "По данным аналитической компании «Н — Дэйта Фэктори» (ранее «Нильсен»), за девять месяцев 2026 года продажи высокобелочной молочной продукции достигли 13 млрд рублей.",
+          "evidence_label": "Публикация СМИ",
+          "independence": "unreviewed",
+          "member_ids": [
+            "9d64776e2b51e5c148"
+          ],
+          "sources": [
+            {
+              "id": "9d64776e2b51e5c148",
+              "url": "https://retailer.ru/prodazhi-vysokobelochnoj-molochki-vyrosli-v-pjat-raz",
+              "source": "Retailer.ru",
+              "platform": null,
+              "publisher_id": "retailer.ru",
+              "published_at": "2026-11-02T07:36:25+00:00"
+            }
+          ],
+          "last_signal_at": "2026-11-02T07:36:25+00:00",
+          "platforms": [],
+          "videos": []
+        },
+        {
+          "id": "event-c13b5e9efeb69d68",
+          "title": "Рынок подключаемых гибридов с пробегом в РФ вырос на 23%",
+          "url": "https://autostat.ru/news/63413",
+          "source": "АВТОСТАТ — авторынок",
+          "published_at": "2026-11-02T00:00:00+00:00",
+          "summary": "По данным агентства «АВТОСТАТ», с января по сентябрь 2026 года в нашей стране было куплено 13 802 подержанных автомобиля сегмента PHEV. И это на 22,5% боль...",
+          "categories": [
+            "Automotive"
+          ],
+          "primary_category": "Automotive",
+          "topics": [
+            "Рынок и продажи",
+            "Исследования и прогнозы"
+          ],
+          "brands": [],
+          "score": 2.2,
+          "strategic_relevance_score": 88,
+          "relevance_reasons": [
+            "рынок / бизнес",
+            "есть данные"
+          ],
+          "why_it_matters": "Важен для понимания продаж, цен, модельного ряда, дилерской сети и конкурентной динамики авторынка. Отобрано как: рынок / бизнес, есть данные.",
+          "client_matches": {},
+          "market_scope": "Russia",
+          "future_horizon": [],
+          "future_signal": false,
+          "content_type": "news",
+          "metrics": [
+            {
+              "type": "Рыночная метрика",
+              "value": "23%",
+              "context": "Рынок подключаемых гибридов с пробегом в РФ вырос на 23%."
+            },
+            {
+              "type": "Рыночная метрика",
+              "value": "22,5%",
+              "context": "И это на 22,5% боль."
+            }
+          ],
+          "source_quality": 4.8,
+          "publisher_id": "autostat.ru",
+          "verification_status": "feed",
+          "editorial_version": "editorial-v1",
+          "strategic_components": {
+            "impact": 32,
+            "scale": 18,
+            "novelty": 18,
+            "utility": 11,
+            "evidence": 9
+          },
+          "eligible": true,
+          "exclusion_reason": "",
+          "strategic_theme": "auto",
+          "interpretation": "Сопоставить изменение с конкурентным набором, доступностью покупки и аргументами выбора автомобиля.",
+          "interpretation_basis": "Редакционный вопрос по типу события",
+          "fact": "По данным агентства «АВТОСТАТ», с января по сентябрь 2026 года в нашей стране было куплено 13 802 подержанных автомобиля сегмента PHEV. И это на 22,5% боль...",
+          "evidence_label": "Публикация СМИ",
+          "independence": "unreviewed",
+          "member_ids": [
+            "d00b5477f2ea9df3fe"
+          ],
+          "sources": [
+            {
+              "id": "d00b5477f2ea9df3fe",
+              "url": "https://autostat.ru/news/63413",
+              "source": "АВТОСТАТ — авторынок",
+              "platform": null,
+              "publisher_id": "autostat.ru",
+              "published_at": "2026-11-02T00:00:00+00:00"
+            }
+          ],
+          "last_signal_at": "2026-11-02T00:00:00+00:00",
+          "platforms": [],
+          "image_url": "",
+          "videos": []
+        },
+        {
+          "id": "event-5b9c66d19a6c2181",
+          "title": "Ростелеком выделит 1,4 млрд рублей на обслуживание брендов",
+          "url": "https://adindex.ru/news/ek/2026/11/2/350734.phtml",
+          "source": "AdIndex — реклама и медиа",
+          "published_at": "2026-11-02T00:00:00+00:00",
+          "summary": "Ростелеком выделит 1,4 млрд рублей на обслуживание брендов",
+          "categories": [
+            "Telecom",
+            "MediaAdvertising"
+          ],
+          "primary_category": "Telecom",
+          "topics": [
+            "Маркетинг и медиа"
+          ],
+          "brands": [],
+          "score": 3.4,
+          "strategic_relevance_score": 86,
+          "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
+          "market_scope": "Russia",
+          "metrics": [
+            {
+              "type": "Рыночная метрика",
+              "value": "1,4 млрд рублей",
+              "context": "Ростелеком выделит 1,4 млрд рублей на обслуживание брендов. Новости Бизнес СМИ AdIndex из рубрики Тендеры — Ростелеком выделит 1,4 млрд рублей н"
+            }
+          ],
+          "image_url": "https://adindex.ru/assets/seo/2026_11/facebook_350734.jpg?ts=1793613994",
+          "source_quality": 4.5,
+          "content_type": "news",
+          "future_signal": false,
+          "future_horizon": [],
+          "pdf_urls": [],
+          "research_primary": false,
+          "publisher_id": "adindex.ru",
+          "verification_status": "ok",
+          "editorial_version": "editorial-v1",
+          "strategic_components": {
+            "impact": 32,
+            "scale": 18,
+            "novelty": 18,
+            "utility": 11,
+            "evidence": 7
+          },
+          "eligible": true,
+          "exclusion_reason": "",
+          "strategic_theme": "telecom",
+          "interpretation": "Проверить, какие новые сценарии сервиса становятся доступны аудитории и меняют конкурентное предложение.",
+          "interpretation_basis": "Редакционный вопрос по типу события",
+          "fact": "Ростелеком выделит 1,4 млрд рублей на обслуживание брендов",
+          "evidence_label": "Публикация СМИ",
+          "independence": "unreviewed",
+          "member_ids": [
+            "d5dec9e8004350239d"
+          ],
+          "sources": [
+            {
+              "id": "d5dec9e8004350239d",
+              "url": "https://adindex.ru/news/ek/2026/11/2/350734.phtml",
+              "source": "AdIndex — реклама и медиа",
+              "platform": null,
+              "publisher_id": "adindex.ru",
+              "published_at": "2026-11-02T00:00:00+00:00"
+            }
+          ],
+          "last_signal_at": "2026-11-02T00:00:00+00:00",
+          "platforms": [],
+          "videos": []
+        },
+        {
+          "id": "event-53cda38119c7e3a2",
+          "title": "Рынок новых автомобилей в России за 10 месяцев вырос на 2,2%",
+          "url": "https://finam.ru/publications/item/rynok-novykh-avtomobiley-v-rossii-za-10-mesyatsev-vyros-na-22-20261103-1438?news_to_finamb=new_compaigns",
+          "source": "Finam — компании и рынки",
+          "published_at": "2026-11-02T21:00:00+00:00",
+          "summary": "В октябре рынок вырос на 8,2% к предыдущему месяцу...",
+          "categories": [
+            "Automotive",
+            "Retail",
+            "TechnologyAI"
+          ],
+          "primary_category": "Automotive",
+          "topics": [
+            "Рынок и продажи"
+          ],
+          "brands": [],
+          "score": 1.4,
+          "strategic_relevance_score": 86,
+          "relevance_reasons": [
+            "рынок / бизнес",
+            "есть данные"
+          ],
+          "why_it_matters": "Важен для понимания продаж, цен, модельного ряда, дилерской сети и конкурентной динамики авторынка. Отобрано как: рынок / бизнес, есть данные.",
+          "client_matches": {},
+          "market_scope": "Russia",
+          "future_horizon": [],
+          "future_signal": false,
+          "content_type": "news",
+          "metrics": [
+            {
+              "type": "Рыночная метрика",
+              "value": "2,2%",
+              "context": "Рынок новых автомобилей в России за 10 месяцев вырос на 2,2%."
+            },
+            {
+              "type": "Рыночная метрика",
+              "value": "8,2%",
+              "context": "В октябре рынок вырос на 8,2% к предыдущему месяцу."
+            }
+          ],
+          "source_quality": 4.0,
+          "publisher_id": "finam.ru",
+          "verification_status": "feed",
+          "editorial_version": "editorial-v1",
+          "strategic_components": {
+            "impact": 32,
+            "scale": 18,
+            "novelty": 18,
+            "utility": 11,
+            "evidence": 7
+          },
+          "eligible": true,
+          "exclusion_reason": "",
+          "strategic_theme": "auto",
+          "interpretation": "Сопоставить изменение с конкурентным набором, доступностью покупки и аргументами выбора автомобиля.",
+          "interpretation_basis": "Редакционный вопрос по типу события",
+          "fact": "В октябре рынок вырос на 8,2% к предыдущему месяцу...",
+          "evidence_label": "Публикация СМИ",
+          "independence": "unreviewed",
+          "member_ids": [
+            "e27b83bac2350cef1f",
+            "3c842f89b8bf7fcfae"
+          ],
+          "sources": [
+            {
+              "id": "e27b83bac2350cef1f",
+              "url": "https://finam.ru/publications/item/rynok-novykh-avtomobiley-v-rossii-za-10-mesyatsev-vyros-na-22-20261103-1438?news_to_finamb=new_compaigns",
+              "source": "Finam — компании и рынки",
+              "platform": null,
+              "publisher_id": "finam.ru",
+              "published_at": "2026-11-03T11:38:14+00:00"
+            },
+            {
+              "id": "3c842f89b8bf7fcfae",
+              "url": "https://new-retail.ru/novosti/retail/rynok_novykh_avtomobiley_v_rossii_za_10_mesyatsev_pokazal_rost_na_2_2",
+              "source": "New Retail — отраслевые новости",
+              "platform": null,
+              "publisher_id": "new-retail.ru",
+              "published_at": "2026-11-02T21:00:00+00:00"
+            }
+          ],
+          "last_signal_at": "2026-11-03T11:38:14+00:00",
+          "platforms": [],
+          "image_url": "https://new-retail.ru/upload/iblock/7b8/9hqzdszywx385fgzxgb1j80n1tdgzzht.jpg",
+          "videos": []
+        },
+        {
+          "id": "event-a8561e343ab2050f",
+          "title": "«Лента PRO»: спрос на комбинированные закупки вырос на 63% | New Retail",
+          "url": "https://new-retail.ru/novosti/retail/lenta_pro_spros_na_kombinirovannye_zakupki_vyros_na_63",
+          "source": "New Retail — отраслевые новости",
+          "published_at": "2026-11-02T21:00:00+00:00",
+          "summary": "По данным «Лента PRO», в январе — сентябре 2026 года заметно усилилась тенденция к комбинированию каналов закупок: компании всё чаще совмещают покупки в магазинах с заказами доставки, выбирая формат под конкретную задачу.",
+          "categories": [
+            "Retail",
+            "TechnologyAI"
+          ],
+          "primary_category": "Retail",
+          "topics": [
+            "Потребитель",
+            "Digital и технологии"
+          ],
+          "brands": [],
+          "score": 3.4,
+          "strategic_relevance_score": 86,
+          "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
+          "market_scope": "Russia",
+          "metrics": [
+            {
+              "type": "Спрос",
+              "value": "63%",
+              "context": "«Лента PRO»: спрос на комбинированные закупки вырос на 63% | New Retail. По данным «Лента PRO», в январе — сентябре 2026 года заметно усилилась тенденция к комбинирован"
+            }
+          ],
+          "image_url": "https://new-retail.ru/upload/iblock/b75/dd0xpku7ls68sq6t5h9219nhd8qok00g.jpg",
+          "source_quality": 4.2,
+          "content_type": "news",
+          "future_signal": false,
+          "future_horizon": [],
+          "pdf_urls": [],
+          "research_primary": false,
+          "publisher_id": "new-retail.ru",
+          "verification_status": "ok",
+          "editorial_version": "editorial-v1",
+          "strategic_components": {
+            "impact": 32,
+            "scale": 12,
+            "novelty": 18,
+            "utility": 15,
+            "evidence": 9
+          },
+          "eligible": true,
+          "exclusion_reason": "",
+          "strategic_theme": "consumer",
+          "interpretation": "Сопоставить результаты с аудиторией бренда и критериями выбора. Не переносить данные отдельной площадки на весь рынок.",
+          "interpretation_basis": "Редакционный вопрос по типу события",
+          "fact": "По данным «Лента PRO», в январе — сентябре 2026 года заметно усилилась тенденция к комбинированию каналов закупок: компании всё чаще совмещают покупки в магазинах с заказами доставки, выбирая формат под конкретную задачу.",
+          "evidence_label": "Публикация СМИ",
+          "independence": "unreviewed",
+          "member_ids": [
+            "bd799b0b4f263b2832"
+          ],
+          "sources": [
+            {
+              "id": "bd799b0b4f263b2832",
+              "url": "https://new-retail.ru/novosti/retail/lenta_pro_spros_na_kombinirovannye_zakupki_vyros_na_63",
+              "source": "New Retail — отраслевые новости",
+              "platform": null,
+              "publisher_id": "new-retail.ru",
+              "published_at": "2026-11-02T21:00:00+00:00"
+            }
+          ],
+          "last_signal_at": "2026-11-02T21:00:00+00:00",
+          "platforms": [],
+          "videos": []
+        },
+        {
+          "id": "event-e003558b91e21389",
+          "title": "За 10 месяцев средний чек в продуктовых магазинах вырос только на 6% | New Retail",
+          "url": "https://new-retail.ru/novosti/retail/za_10_mesyatsev_sredniy_chek_v_produktovykh_magazinakh_vyros_tolko_na_6",
+          "source": "New Retail — отраслевые новости",
+          "published_at": "2026-11-02T21:00:00+00:00",
+          "summary": "Потребители в России стали рациональнее подходить к тратам на продукты — это отражается на динамике трафика и структуре покупок в розничной торговле.",
+          "categories": [
+            "Retail",
+            "FMCG",
+            "TechnologyAI",
+            "Consumer"
+          ],
+          "primary_category": "Retail",
+          "topics": [
+            "Потребитель",
+            "Digital и технологии"
+          ],
+          "brands": [],
+          "score": 3.4,
+          "strategic_relevance_score": 86,
+          "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
+          "market_scope": "Russia",
+          "metrics": [
+            {
+              "type": "Рыночная метрика",
+              "value": "6%",
+              "context": "За 10 месяцев средний чек в продуктовых магазинах вырос только на 6% | New Retail. Потребители в России стали рациональнее подходить к тратам на продукты — это отражается на дина"
+            }
+          ],
+          "image_url": "https://new-retail.ru/upload/iblock/ca9/oh9y16gjs9rvmdyypl53cuoyx222jsw3.jpg",
+          "source_quality": 4.2,
+          "content_type": "news",
+          "future_signal": false,
+          "future_horizon": [],
+          "pdf_urls": [],
+          "research_primary": false,
+          "publisher_id": "new-retail.ru",
+          "verification_status": "ok",
+          "editorial_version": "editorial-v1",
+          "strategic_components": {
+            "impact": 32,
+            "scale": 18,
+            "novelty": 18,
+            "utility": 11,
+            "evidence": 7
+          },
+          "eligible": true,
+          "exclusion_reason": "",
+          "strategic_theme": "retail",
+          "interpretation": "Сопоставить формат и позиционирование игроков с покупательской миссией, ценой и доступностью предложения.",
+          "interpretation_basis": "Редакционный вопрос по типу события",
+          "fact": "Потребители в России стали рациональнее подходить к тратам на продукты — это отражается на динамике трафика и структуре покупок в розничной торговле.",
+          "evidence_label": "Публикация СМИ",
+          "independence": "unreviewed",
+          "member_ids": [
+            "af3005d23059d4bdae"
+          ],
+          "sources": [
+            {
+              "id": "af3005d23059d4bdae",
+              "url": "https://new-retail.ru/novosti/retail/za_10_mesyatsev_sredniy_chek_v_produktovykh_magazinakh_vyros_tolko_na_6",
+              "source": "New Retail — отраслевые новости",
+              "platform": null,
+              "publisher_id": "new-retail.ru",
+              "published_at": "2026-11-02T21:00:00+00:00"
+            }
+          ],
+          "last_signal_at": "2026-11-02T21:00:00+00:00",
+          "platforms": [],
+          "videos": []
+        },
+        {
+          "id": "event-cb5fea373fab11b2",
+          "title": "«М.Видео» создает платформу для сотрудников с доступом к ИИ-помощникам",
+          "url": "https://adindex.ru/news/digital/2026/11/2/350719.phtml",
+          "source": "AdIndex — реклама и медиа",
+          "published_at": "2026-11-02T03:58:53+00:00",
+          "summary": "Новости Бизнес СМИ AdIndex из рубрики Диджитал — «М.Видео» создает платформу для сотрудников с доступом к ИИ-помощникам — Новости рекламы, кейсы продвижения, видеоинтервью, экспертиза, рейтинги, аналитика и тренды промо; весь деловой мир маркетинга в одном медиа.",
+          "categories": [
+            "MediaAdvertising"
+          ],
+          "primary_category": "MediaAdvertising",
+          "topics": [
+            "Маркетинг и медиа"
+          ],
+          "brands": [],
+          "score": 3.3,
+          "strategic_relevance_score": 84,
+          "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
+          "market_scope": "Russia",
+          "metrics": [],
+          "image_url": "",
+          "source_quality": 4.5,
+          "content_type": "news",
+          "future_signal": false,
+          "future_horizon": [],
+          "pdf_urls": [],
+          "research_primary": false,
+          "publisher_id": "adindex.ru",
+          "verification_status": "feed",
+          "editorial_version": "editorial-v1",
+          "strategic_components": {
+            "impact": 32,
+            "scale": 12,
+            "novelty": 18,
+            "utility": 15,
+            "evidence": 7
+          },
+          "eligible": true,
+          "exclusion_reason": "",
+          "strategic_theme": "ad_market",
+          "interpretation": "Проверить, меняет ли событие выбор каналов, медиабюджет или требования к измерению рекламного результата.",
+          "interpretation_basis": "Редакционный вопрос по типу события",
+          "fact": "Новости Бизнес СМИ AdIndex из рубрики Диджитал — «М.Видео» создает платформу для сотрудников с доступом к ИИ-помощникам — Новости рекламы, кейсы продвижения, видеоинтервью, экспертиза, рейтинги, аналитика и тренды промо; весь деловой мир маркетинга в одном медиа.",
+          "evidence_label": "Публикация СМИ",
+          "independence": "unreviewed",
+          "member_ids": [
+            "6d9f9a35fd12cbfc61"
+          ],
+          "sources": [
+            {
+              "id": "6d9f9a35fd12cbfc61",
+              "url": "https://adindex.ru/news/digital/2026/11/2/350719.phtml",
+              "source": "AdIndex — реклама и медиа",
+              "platform": null,
+              "publisher_id": "adindex.ru",
+              "published_at": "2026-11-02T03:58:53+00:00"
+            }
+          ],
+          "last_signal_at": "2026-11-02T03:58:53+00:00",
+          "platforms": [],
+          "videos": []
+        },
+        {
+          "id": "event-d9cab65639990ad6",
+          "title": "По итогам опроса, 69% россиян уже применяют ИИ при поиске акций и скидок | New Retail",
+          "url": "https://new-retail.ru/novosti/retail/po_itogam_oprosa_69_rossiyan_uzhe_primenyayut_ii_pri_poiske_aktsiy_i_skidok",
+          "source": "New Retail — отраслевые новости",
+          "published_at": "2026-11-02T21:00:00+00:00",
+          "summary": "Сервис Anketolog.ru провёл масштабное исследование потребительского поведения: специалисты опросили свыше 1880 россиян, чтобы оценить роль искусственного интеллекта в поиске скидок и выгодных предложений.",
+          "categories": [
+            "Retail",
+            "TechnologyAI",
+            "Consumer"
+          ],
+          "primary_category": "Retail",
+          "topics": [
+            "Потребитель",
+            "Digital и технологии",
+            "Исследования и прогнозы"
+          ],
+          "brands": [],
+          "score": 3.7,
+          "strategic_relevance_score": 82,
+          "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы. Есть исследовательская или прогнозная база.",
+          "market_scope": "Russia",
+          "metrics": [
+            {
+              "type": "Рыночная метрика",
+              "value": "69%",
+              "context": "По итогам опроса, 69% россиян уже применяют ИИ при поиске акций и скидок | New Retail. Сервис Anketolog.ru провёл масштабное исслед"
+            }
+          ],
+          "image_url": "https://new-retail.ru/upload/iblock/a88/95u2yedtqpwd6z3f9879zofrudamrr1k.jpg",
+          "source_quality": 4.2,
+          "content_type": "research",
+          "future_signal": false,
+          "future_horizon": [],
+          "pdf_urls": [],
+          "research_primary": false,
+          "publisher_id": "new-retail.ru",
+          "verification_status": "ok",
+          "editorial_version": "editorial-v1",
+          "strategic_components": {
+            "impact": 29,
+            "scale": 18,
+            "novelty": 15,
+            "utility": 11,
+            "evidence": 9
+          },
+          "eligible": true,
+          "exclusion_reason": "",
+          "strategic_theme": "retail",
+          "interpretation": "Сопоставить формат и позиционирование игроков с покупательской миссией, ценой и доступностью предложения.",
+          "interpretation_basis": "Редакционный вопрос по типу события",
+          "fact": "Сервис Anketolog.ru провёл масштабное исследование потребительского поведения: специалисты опросили свыше 1880 россиян, чтобы оценить роль искусственного интеллекта в поиске скидок и выгодных предложений.",
+          "evidence_label": "Публикация СМИ",
+          "independence": "unreviewed",
+          "member_ids": [
+            "834097497bb8d8e548"
+          ],
+          "sources": [
+            {
+              "id": "834097497bb8d8e548",
+              "url": "https://new-retail.ru/novosti/retail/po_itogam_oprosa_69_rossiyan_uzhe_primenyayut_ii_pri_poiske_aktsiy_i_skidok",
+              "source": "New Retail — отраслевые новости",
+              "platform": null,
+              "publisher_id": "new-retail.ru",
+              "published_at": "2026-11-02T21:00:00+00:00"
+            }
+          ],
+          "last_signal_at": "2026-11-02T21:00:00+00:00",
+          "platforms": [],
+          "videos": []
+        },
+        {
+          "id": "event-9b9686cdbd6e75ab",
+          "title": "Спрос на подарочные сертификаты в РФ вырос в 3,7 раза | New Retail",
+          "url": "https://new-retail.ru/novosti/retail/spros_na_podarochnye_sertifikaty_v_rf_vyros_v_3_7_raza",
+          "source": "New Retail — отраслевые новости",
+          "published_at": "2026-11-01T21:00:00+00:00",
+          "summary": "Рынок подарочных сертификатов в России демонстрирует значительный рост: за период с января по сентябрь 2026 года объёмы продаж увеличились в 3,7 раза относительно аналогичного отрезка 2025 года.",
+          "categories": [
+            "Retail",
+            "TechnologyAI"
+          ],
+          "primary_category": "Retail",
+          "topics": [
+            "Рынок и продажи",
+            "Потребитель",
+            "Digital и технологии"
+          ],
+          "brands": [],
+          "score": 3.7,
+          "strategic_relevance_score": 90,
+          "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
+          "market_scope": "Russia",
+          "metrics": [],
+          "image_url": "https://new-retail.ru/upload/iblock/ee2/ktad5geh2qqck4w9qy5l2dxdrs2w2m2n.jpg",
+          "source_quality": 4.2,
+          "content_type": "news",
+          "future_signal": false,
+          "future_horizon": [],
+          "pdf_urls": [],
+          "research_primary": false,
+          "publisher_id": "new-retail.ru",
+          "verification_status": "ok",
+          "editorial_version": "editorial-v1",
+          "strategic_components": {
+            "impact": 32,
+            "scale": 18,
+            "novelty": 18,
+            "utility": 15,
+            "evidence": 7
+          },
+          "eligible": true,
+          "exclusion_reason": "",
+          "strategic_theme": "consumer",
+          "interpretation": "Сопоставить результаты с аудиторией бренда и критериями выбора. Не переносить данные отдельной площадки на весь рынок.",
+          "interpretation_basis": "Редакционный вопрос по типу события",
+          "fact": "Рынок подарочных сертификатов в России демонстрирует значительный рост: за период с января по сентябрь 2026 года объёмы продаж увеличились в 3,7 раза относительно аналогичного отрезка 2025 года.",
+          "evidence_label": "Публикация СМИ",
+          "independence": "unreviewed",
+          "member_ids": [
+            "38d6068586c627da94"
+          ],
+          "sources": [
+            {
+              "id": "38d6068586c627da94",
+              "url": "https://new-retail.ru/novosti/retail/spros_na_podarochnye_sertifikaty_v_rf_vyros_v_3_7_raza",
+              "source": "New Retail — отраслевые новости",
+              "platform": null,
+              "publisher_id": "new-retail.ru",
+              "published_at": "2026-11-01T21:00:00+00:00"
+            }
+          ],
+          "last_signal_at": "2026-11-01T21:00:00+00:00",
+          "platforms": [],
+          "videos": []
+        },
+        {
+          "id": "event-7407ac73ada6337d",
+          "title": "Ассортимент лекарств сократился — исследование | New Retail",
+          "url": "https://new-retail.ru/novosti/retail/assortiment_lekarstv_sokratilsya_issledovanie",
+          "source": "New Retail — отраслевые новости",
+          "published_at": "2026-11-01T21:00:00+00:00",
+          "summary": "Ассортимент лекарственных препаратов на российском фармацевтическом рынке по итогам января—сентября 2026 года уменьшился на 1,1% год к году, до 14,45 тыс.",
+          "categories": [
+            "Pharma",
+            "Retail"
+          ],
+          "primary_category": "Pharma",
+          "topics": [
+            "Ассортимент и СТМ",
+            "Исследования и прогнозы"
+          ],
+          "brands": [],
+          "score": 3.6,
+          "strategic_relevance_score": 88,
+          "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы. Есть исследовательская или прогнозная база.",
+          "market_scope": "Russia",
+          "metrics": [
+            {
+              "type": "Рыночная метрика",
+              "value": "1,1%",
+              "context": "ов на российском фармацевтическом рынке по итогам января—сентября 2026 года уменьшился на 1,1% год к году, до 14,45 тыс."
+            }
+          ],
+          "image_url": "https://new-retail.ru/upload/iblock/718/bgtebonu1kr68pba5bo77szp2nyxzy02.jpg",
+          "source_quality": 4.2,
+          "content_type": "research",
+          "future_signal": false,
+          "future_horizon": [],
+          "pdf_urls": [],
+          "research_primary": false,
+          "publisher_id": "new-retail.ru",
+          "verification_status": "ok",
+          "editorial_version": "editorial-v1",
+          "strategic_components": {
+            "impact": 32,
+            "scale": 18,
+            "novelty": 18,
+            "utility": 11,
+            "evidence": 9
+          },
+          "eligible": true,
+          "exclusion_reason": "",
+          "strategic_theme": "pharma",
+          "interpretation": "Проверить изменение структуры спроса, цен и каналов продаж; отделить рынок в целом от отдельного сегмента.",
+          "interpretation_basis": "Редакционный вопрос по типу события",
+          "fact": "Ассортимент лекарственных препаратов на российском фармацевтическом рынке по итогам января—сентября 2026 года уменьшился на 1,1% год к году, до 14,45 тыс.",
+          "evidence_label": "Публикация СМИ",
+          "independence": "unreviewed",
+          "member_ids": [
+            "5a2e265513e51d0853"
+          ],
+          "sources": [
+            {
+              "id": "5a2e265513e51d0853",
+              "url": "https://new-retail.ru/novosti/retail/assortiment_lekarstv_sokratilsya_issledovanie",
+              "source": "New Retail — отраслевые новости",
+              "platform": null,
+              "publisher_id": "new-retail.ru",
+              "published_at": "2026-11-01T21:00:00+00:00"
+            }
+          ],
+          "last_signal_at": "2026-11-01T21:00:00+00:00",
+          "platforms": [],
+          "videos": []
+        },
+        {
+          "id": "event-d4baea28681a5a02",
+          "title": "Продажи импортного крепкого алкоголя выросли на 15% | New Retail",
+          "url": "https://new-retail.ru/novosti/retail/importnyy_alkogol_ukrepil_pozitsii_na_fone_podorozhaniya_rossiyskoy_produktsii",
+          "source": "New Retail — отраслевые новости",
+          "published_at": "2026-11-01T21:00:00+00:00",
+          "summary": "Розничные продажи крепкого алкоголя из стран за пределами бывшего СССР в России в январе—сентябре 2026 года увеличились на 15% год к году, до 5,1 млн дал.",
+          "categories": [
+            "Retail",
+            "TechnologyAI"
+          ],
+          "primary_category": "Retail",
+          "topics": [
+            "Рынок и продажи",
+            "Digital и технологии"
+          ],
+          "brands": [],
+          "score": 3.4,
+          "strategic_relevance_score": 86,
+          "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
+          "market_scope": "Russia",
+          "metrics": [
+            {
+              "type": "Продажи",
+              "value": "15%",
+              "context": "Продажи импортного крепкого алкоголя выросли на 15% | New Retail. Розничные продажи крепкого алкоголя из стран за пределами бывшего СССР в России в январе—сентяб"
+            }
+          ],
+          "image_url": "https://new-retail.ru/upload/iblock/036/141qcti9w29ufdndbbh6dm72qc1ztcfv.jpg",
+          "source_quality": 4.2,
+          "content_type": "news",
+          "future_signal": false,
+          "future_horizon": [],
+          "pdf_urls": [],
+          "research_primary": false,
+          "publisher_id": "new-retail.ru",
+          "verification_status": "ok",
+          "editorial_version": "editorial-v1",
+          "strategic_components": {
+            "impact": 32,
+            "scale": 18,
+            "novelty": 18,
+            "utility": 11,
+            "evidence": 7
+          },
+          "eligible": true,
+          "exclusion_reason": "",
+          "strategic_theme": "retail",
+          "interpretation": "Сопоставить формат и позиционирование игроков с покупательской миссией, ценой и доступностью предложения.",
+          "interpretation_basis": "Редакционный вопрос по типу события",
+          "fact": "Розничные продажи крепкого алкоголя из стран за пределами бывшего СССР в России в январе—сентябре 2026 года увеличились на 15% год к году, до 5,1 млн дал.",
+          "evidence_label": "Публикация СМИ",
+          "independence": "unreviewed",
+          "member_ids": [
+            "f4d7ae131c9ed28f6d"
+          ],
+          "sources": [
+            {
+              "id": "f4d7ae131c9ed28f6d",
+              "url": "https://new-retail.ru/novosti/retail/importnyy_alkogol_ukrepil_pozitsii_na_fone_podorozhaniya_rossiyskoy_produktsii",
+              "source": "New Retail — отраслевые новости",
+              "platform": null,
+              "publisher_id": "new-retail.ru",
+              "published_at": "2026-11-01T21:00:00+00:00"
+            }
+          ],
+          "last_signal_at": "2026-11-01T21:00:00+00:00",
+          "platforms": [],
+          "videos": []
+        },
+        {
+          "id": "event-889fa3bbfb528b65",
+          "title": "70% россиян считают, что распродажи помогают им экономить — данные опроса  | New Retail",
+          "url": "https://new-retail.ru/novosti/retail/70_rossiyan_schitayut_chto_rasprodazhi_pomogayut_im_ekonomit_dannye_oprosa9786",
+          "source": "New Retail — отраслевые новости",
+          "published_at": "2026-11-01T21:00:00+00:00",
+          "summary": "Большинство россиян считают, что распродажи позволяют им тратить меньше: так ответили 70% участников опроса банка «Русский Стандарт».",
+          "categories": [
+            "Retail",
+            "BanksFintech"
+          ],
+          "primary_category": "Retail",
+          "topics": [
+            "Рынок и продажи",
+            "Исследования и прогнозы"
+          ],
+          "brands": [],
+          "score": 3.4,
+          "strategic_relevance_score": 82,
+          "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы. Есть исследовательская или прогнозная база.",
+          "market_scope": "Russia",
+          "metrics": [
+            {
+              "type": "Продажи",
+              "value": "70%",
+              "context": "70% россиян считают, что распродажи помогают им экономить — данные опроса | New Retail. Большинство россиян счит"
+            }
+          ],
+          "image_url": "https://new-retail.ru/upload/iblock/e6c/2ynle85v5ffeh3n7g4h2j39rbhllty38.jpg",
+          "source_quality": 4.2,
+          "content_type": "news",
+          "future_signal": false,
+          "future_horizon": [],
+          "pdf_urls": [],
+          "research_primary": false,
+          "publisher_id": "new-retail.ru",
+          "verification_status": "ok",
+          "editorial_version": "editorial-v1",
+          "strategic_components": {
+            "impact": 29,
+            "scale": 18,
+            "novelty": 15,
+            "utility": 11,
+            "evidence": 9
+          },
+          "eligible": true,
+          "exclusion_reason": "",
+          "strategic_theme": "retail",
+          "interpretation": "Сопоставить формат и позиционирование игроков с покупательской миссией, ценой и доступностью предложения.",
+          "interpretation_basis": "Редакционный вопрос по типу события",
+          "fact": "Большинство россиян считают, что распродажи позволяют им тратить меньше: так ответили 70% участников опроса банка «Русский Стандарт».",
+          "evidence_label": "Публикация СМИ",
+          "independence": "unreviewed",
+          "member_ids": [
+            "b0245e12b6f5a28257"
+          ],
+          "sources": [
+            {
+              "id": "b0245e12b6f5a28257",
+              "url": "https://new-retail.ru/novosti/retail/70_rossiyan_schitayut_chto_rasprodazhi_pomogayut_im_ekonomit_dannye_oprosa9786",
+              "source": "New Retail — отраслевые новости",
+              "platform": null,
+              "publisher_id": "new-retail.ru",
+              "published_at": "2026-11-01T21:00:00+00:00"
+            }
+          ],
+          "last_signal_at": "2026-11-01T21:00:00+00:00",
+          "platforms": [],
+          "videos": []
+        },
+        {
+          "id": "event-a3b4c0df7352dbca",
+          "title": "SOKOLOV: 14% россиян рассчитывают на скидки в «Чёрную пятницу» при выборе новогодних подарков | New Retail",
+          "url": "https://new-retail.ru/novosti/retail/sokolov_14_rossiyan_rasschityvayut_na_skidki_v_chyernuyu_pyatnitsu_pri_vybore_novogodnikh_podarkov",
+          "source": "New Retail — отраслевые новости",
+          "published_at": "2026-11-01T21:00:00+00:00",
+          "summary": "Аналитики бренда SOKOLOV представили результаты исследования о подходах россиян к покупке новогодних подарков и ожиданиях от презентов.",
+          "categories": [
+            "Retail"
+          ],
+          "primary_category": "Retail",
+          "topics": [
+            "Цены и промо",
+            "Исследования и прогнозы"
+          ],
+          "brands": [],
+          "score": 3.4,
+          "strategic_relevance_score": 82,
+          "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы. Есть исследовательская или прогнозная база.",
+          "market_scope": "Russia",
+          "metrics": [
+            {
+              "type": "Рыночная метрика",
+              "value": "14%",
+              "context": "SOKOLOV: 14% россиян рассчитывают на скидки в «Чёрную пятницу» при выборе новогодних подарков | New Retail. Аналитики брен"
+            }
+          ],
+          "image_url": "https://new-retail.ru/upload/iblock/7b8/7ejsxt04dphgc1apt8w36e33vl9skz7x.jpg",
+          "source_quality": 4.2,
+          "content_type": "research",
+          "future_signal": false,
+          "future_horizon": [],
+          "pdf_urls": [],
+          "research_primary": false,
+          "publisher_id": "new-retail.ru",
+          "verification_status": "ok",
+          "editorial_version": "editorial-v1",
+          "strategic_components": {
+            "impact": 29,
+            "scale": 18,
+            "novelty": 15,
+            "utility": 11,
+            "evidence": 9
+          },
+          "eligible": true,
+          "exclusion_reason": "",
+          "strategic_theme": "retail",
+          "interpretation": "Сопоставить формат и позиционирование игроков с покупательской миссией, ценой и доступностью предложения.",
+          "interpretation_basis": "Редакционный вопрос по типу события",
+          "fact": "Аналитики бренда SOKOLOV представили результаты исследования о подходах россиян к покупке новогодних подарков и ожиданиях от презентов.",
+          "evidence_label": "Публикация СМИ",
+          "independence": "unreviewed",
+          "member_ids": [
+            "34ec3040bbd9929ab2"
+          ],
+          "sources": [
+            {
+              "id": "34ec3040bbd9929ab2",
+              "url": "https://new-retail.ru/novosti/retail/sokolov_14_rossiyan_rasschityvayut_na_skidki_v_chyernuyu_pyatnitsu_pri_vybore_novogodnikh_podarkov",
+              "source": "New Retail — отраслевые новости",
+              "platform": null,
+              "publisher_id": "new-retail.ru",
+              "published_at": "2026-11-01T21:00:00+00:00"
+            }
+          ],
+          "last_signal_at": "2026-11-01T21:00:00+00:00",
+          "platforms": [],
+          "videos": []
+        },
+        {
+          "id": "event-e8dbad098427e686",
+          "title": "34% россиян скрывают покупки на вторичном рынке — данные опроса | New Retail",
+          "url": "https://new-retail.ru/novosti/retail/34_oproshennykh_ne_rasskazyvayut_o_pokupkakh_na_vtorichnom_rynke_dannye_oprosa",
+          "source": "New Retail — отраслевые новости",
+          "published_at": "2026-11-01T21:00:00+00:00",
+          "summary": "Треть россиян скрывает от знакомых покупки на ресейл‑платформах, опасаясь негативной оценки или желания не объяснять свой выбор.",
+          "categories": [
+            "Retail"
+          ],
+          "primary_category": "Retail",
+          "topics": [
+            "Исследования и прогнозы"
+          ],
+          "brands": [],
+          "score": 3.3,
+          "strategic_relevance_score": 82,
+          "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы. Есть исследовательская или прогнозная база.",
+          "market_scope": "Russia",
+          "metrics": [
+            {
+              "type": "Рыночная метрика",
+              "value": "34%",
+              "context": "34% россиян скрывают покупки на вторичном рынке — данные опроса | New Retail. Треть россиян скрывает от знакомых"
+            }
+          ],
+          "image_url": "",
+          "source_quality": 4.2,
+          "content_type": "news",
+          "future_signal": false,
+          "future_horizon": [],
+          "pdf_urls": [],
+          "research_primary": false,
+          "publisher_id": "new-retail.ru",
+          "verification_status": "feed",
+          "editorial_version": "editorial-v1",
+          "strategic_components": {
+            "impact": 29,
+            "scale": 18,
+            "novelty": 15,
+            "utility": 11,
+            "evidence": 9
+          },
+          "eligible": true,
+          "exclusion_reason": "",
+          "strategic_theme": "retail",
+          "interpretation": "Сопоставить формат и позиционирование игроков с покупательской миссией, ценой и доступностью предложения.",
+          "interpretation_basis": "Редакционный вопрос по типу события",
+          "fact": "Треть россиян скрывает от знакомых покупки на ресейл‑платформах, опасаясь негативной оценки или желания не объяснять свой выбор.",
+          "evidence_label": "Публикация СМИ",
+          "independence": "unreviewed",
+          "member_ids": [
+            "b9d4a0734c1f5a944e"
+          ],
+          "sources": [
+            {
+              "id": "b9d4a0734c1f5a944e",
+              "url": "https://new-retail.ru/novosti/retail/34_oproshennykh_ne_rasskazyvayut_o_pokupkakh_na_vtorichnom_rynke_dannye_oprosa",
+              "source": "New Retail — отраслевые новости",
+              "platform": null,
+              "publisher_id": "new-retail.ru",
+              "published_at": "2026-11-01T21:00:00+00:00"
+            }
+          ],
+          "last_signal_at": "2026-11-01T21:00:00+00:00",
+          "platforms": [],
+          "videos": []
+        },
+        {
+          "id": "event-2c3fd34e27d1240b",
+          "title": "«Почта России» отчиталась о скорректированной EBITDA в 12 млрд рублей - RETAILER.ru",
+          "url": "https://retailer.ru/pochta-rossii-otchitalas-o-skorrektirovannoj-ebitda-v-12-mlrd-rublej",
+          "source": "Retailer.ru",
+          "published_at": "2026-10-31T06:01:22+00:00",
+          "summary": "Выручка «Почты России» за девять месяцев 2026 года выросла на 5,2%, до 166 млрд рублей. Скорректированная EBITDA составила 12 млрд рублей.",
+          "categories": [
+            "Retail"
+          ],
+          "primary_category": "Retail",
+          "topics": [
+            "Рынок и продажи"
+          ],
+          "brands": [],
+          "score": 3.3,
+          "strategic_relevance_score": 86,
+          "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
+          "market_scope": "Russia",
+          "metrics": [
+            {
+              "type": "Рыночная метрика",
+              "value": "90%",
+              "context": "ратора выросла до 166 млрд рублей. Доходы от фулфилмента и складских услуг увеличились на 90%, от грузоперевозок — на 54%. Сообщение «Почта России» отчиталась о скорректированной EBITDA в 12"
+            },
+            {
+              "type": "Рыночная метрика",
+              "value": "54%",
+              "context": "ублей. Доходы от фулфилмента и складских услуг увеличились на 90%, от грузоперевозок — на 54%. Сообщение «Почта России» отчиталась о скорректированной EBITDA в 12 млрд рублей появились снача"
+            },
+            {
+              "type": "Выручка / оборот",
+              "value": "12 млрд рублей",
+              "context": "«Почта России» отчиталась о скорректированной EBITDA в 12 млрд рублей. Выручка оператора выросла до 166 млрд рублей. Доходы от фулфилмента и складских услуг увеличились на 90%, от"
+            },
+            {
+              "type": "Выручка / оборот",
+              "value": "166 млрд рублей",
+              "context": "сии» отчиталась о скорректированной EBITDA в 12 млрд рублей. Выручка оператора выросла до 166 млрд рублей. Доходы от фулфилмента и складских услуг увеличились на 90%, от грузоперевозок — на "
+            }
+          ],
+          "image_url": "",
+          "source_quality": 4.3,
+          "content_type": "news",
+          "future_signal": false,
+          "future_horizon": [],
+          "publisher_id": "retailer.ru",
+          "verification_status": "ok",
+          "editorial_version": "editorial-v1",
+          "strategic_components": {
+            "impact": 32,
+            "scale": 18,
+            "novelty": 18,
+            "utility": 11,
+            "evidence": 7
+          },
+          "eligible": true,
+          "exclusion_reason": "",
+          "strategic_theme": "retail",
+          "interpretation": "Сопоставить формат и позиционирование игроков с покупательской миссией, ценой и доступностью предложения.",
+          "interpretation_basis": "Редакционный вопрос по типу события",
+          "fact": "Выручка «Почты России» за девять месяцев 2026 года выросла на 5,2%, до 166 млрд рублей. Скорректированная EBITDA составила 12 млрд рублей.",
+          "evidence_label": "Публикация СМИ",
+          "independence": "unreviewed",
+          "member_ids": [
+            "da87d4bf9cc2e93470"
+          ],
+          "sources": [
+            {
+              "id": "da87d4bf9cc2e93470",
+              "url": "https://retailer.ru/pochta-rossii-otchitalas-o-skorrektirovannoj-ebitda-v-12-mlrd-rublej",
+              "source": "Retailer.ru",
+              "platform": null,
+              "publisher_id": "retailer.ru",
+              "published_at": "2026-10-31T06:01:22+00:00"
+            }
+          ],
+          "last_signal_at": "2026-10-31T06:01:22+00:00",
+          "platforms": [],
+          "videos": []
+        },
+        {
+          "id": "event-123ca5e0543a092e",
+          "title": "У 10 брендов в октябре изменились цены на новые автомобили",
+          "url": "https://autostat.ru/news/63416",
+          "source": "АВТОСТАТ — авторынок",
+          "published_at": "2026-10-31T00:00:00+00:00",
+          "summary": "В октябре 2026 года изменение цен на новые автомобили было отмечено у десяти марок. При этом у пяти из них некоторые модели подорожали, а у другой половины – под...",
+          "categories": [
+            "Automotive"
+          ],
+          "primary_category": "Automotive",
+          "topics": [
+            "Цены и промо",
+            "Маркетинг и медиа"
+          ],
+          "brands": [],
+          "score": 1.8,
+          "strategic_relevance_score": 80,
+          "relevance_reasons": [
+            "маркетинг"
+          ],
+          "why_it_matters": "Важен для понимания продаж, цен, модельного ряда, дилерской сети и конкурентной динамики авторынка. Отобрано как: маркетинг.",
+          "client_matches": {},
+          "market_scope": "Russia",
+          "future_horizon": [],
+          "future_signal": false,
+          "content_type": "news",
+          "metrics": [],
+          "source_quality": 4.8,
+          "publisher_id": "autostat.ru",
+          "verification_status": "feed",
+          "editorial_version": "editorial-v1",
+          "strategic_components": {
+            "impact": 32,
+            "scale": 12,
+            "novelty": 18,
+            "utility": 11,
+            "evidence": 7
+          },
+          "eligible": true,
+          "exclusion_reason": "",
+          "strategic_theme": "auto",
+          "interpretation": "Сопоставить изменение с конкурентным набором, доступностью покупки и аргументами выбора автомобиля.",
+          "interpretation_basis": "Редакционный вопрос по типу события",
+          "fact": "В октябре 2026 года изменение цен на новые автомобили было отмечено у десяти марок. При этом у пяти из них некоторые модели подорожали, а у другой половины – под...",
+          "evidence_label": "Публикация СМИ",
+          "independence": "unreviewed",
+          "member_ids": [
+            "d12a25a5f8d1395c5a"
+          ],
+          "sources": [
+            {
+              "id": "d12a25a5f8d1395c5a",
+              "url": "https://autostat.ru/news/63416",
+              "source": "АВТОСТАТ — авторынок",
+              "platform": null,
+              "publisher_id": "autostat.ru",
+              "published_at": "2026-10-31T00:00:00+00:00"
+            }
+          ],
+          "last_signal_at": "2026-10-31T00:00:00+00:00",
+          "platforms": [],
+          "image_url": "",
+          "videos": []
+        },
+        {
+          "id": "event-296decac5aa8626e",
+          "title": "Fix Price сократил прибыль на 24% - RETAILER.ru",
+          "url": "https://retailer.ru/fix-price-sokratil-pribyl-na-24",
+          "source": "Retailer.ru",
+          "published_at": "2026-10-30T08:03:49+00:00",
+          "summary": "При этом выручка ритейлера за девять месяцев увеличилась на 6,3%, до 242,2 млрд рублей.",
+          "categories": [
+            "Retail"
+          ],
+          "primary_category": "Retail",
+          "topics": [
+            "Рынок и продажи",
+            "Цены и промо"
+          ],
+          "brands": [],
+          "score": 3.4,
+          "strategic_relevance_score": 86,
+          "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
+          "market_scope": "Russia",
+          "metrics": [
+            {
+              "type": "Выручка / оборот",
+              "value": "24%",
+              "context": "Fix Price сократил прибыль на 24%. При этом выручка ритейлера за девять месяцев увеличилась на 6,3%, до 242,2 млрд рублей. Сообщение Fix Price"
+            },
+            {
+              "type": "Выручка / оборот",
+              "value": "6,3%",
+              "context": "rice сократил прибыль на 24%. При этом выручка ритейлера за девять месяцев увеличилась на 6,3%, до 242,2 млрд рублей. Сообщение Fix Price сократил прибыль на 24% появились сначала на RETAILE"
+            },
+            {
+              "type": "Выручка / оборот",
+              "value": "242,2 млрд рублей",
+              "context": "атил прибыль на 24%. При этом выручка ритейлера за девять месяцев увеличилась на 6,3%, до 242,2 млрд рублей. Сообщение Fix Price сократил прибыль на 24% появились сначала на RETAILER.ru ."
+            }
+          ],
+          "image_url": "",
+          "source_quality": 4.3,
+          "content_type": "news",
+          "future_signal": false,
+          "future_horizon": [],
+          "publisher_id": "retailer.ru",
+          "verification_status": "ok",
+          "editorial_version": "editorial-v1",
+          "strategic_components": {
+            "impact": 32,
+            "scale": 18,
+            "novelty": 18,
+            "utility": 11,
+            "evidence": 7
+          },
+          "eligible": true,
+          "exclusion_reason": "",
+          "strategic_theme": "retail",
+          "interpretation": "Сопоставить формат и позиционирование игроков с покупательской миссией, ценой и доступностью предложения.",
+          "interpretation_basis": "Редакционный вопрос по типу события",
+          "fact": "При этом выручка ритейлера за девять месяцев увеличилась на 6,3%, до 242,2 млрд рублей.",
+          "evidence_label": "Публикация СМИ",
+          "independence": "unreviewed",
+          "member_ids": [
+            "b9ae5e9ffa619567c9"
+          ],
+          "sources": [
+            {
+              "id": "b9ae5e9ffa619567c9",
+              "url": "https://retailer.ru/fix-price-sokratil-pribyl-na-24",
+              "source": "Retailer.ru",
+              "platform": null,
+              "publisher_id": "retailer.ru",
+              "published_at": "2026-10-30T08:03:49+00:00"
+            }
+          ],
+          "last_signal_at": "2026-10-30T08:03:49+00:00",
+          "platforms": [],
+          "videos": []
+        },
+        {
+          "id": "event-44ca916e67109b3d",
+          "title": "\"Ростелеком\" за 9 месяцев получил чистый убыток по РСБУ в размере 15,41 млрд против прибыли годом ранее",
+          "url": "https://finam.ru/publications/item/rostelekom-za-9-mesyatsev-poluchil-chistyy-ubytok-po-rsbu-v-razmere-1541-mlrd-protiv-pribyli-godom-ranee-20261030-2124?news_to_finamb=new_compaigns",
+          "source": "Finam — компании и рынки",
+          "published_at": "2026-10-30T18:21:30+00:00",
+          "summary": "Прибыль за 9 месяцев 2025 года составляла 13,5 млрд рублей...",
+          "categories": [
+            "Telecom"
+          ],
+          "primary_category": "Telecom",
+          "topics": [
+            "Финрезультаты"
+          ],
+          "brands": [
+            "Ростелеком"
+          ],
+          "score": 1.9,
+          "strategic_relevance_score": 86,
+          "relevance_reasons": [
+            "рынок / бизнес",
+            "крупный игрок",
+            "есть данные"
+          ],
+          "why_it_matters": "Материал влияет на рыночный или конкурентный контекст. В фокусе: Ростелеком. Отобрано как: рынок / бизнес, крупный игрок, есть данные.",
+          "client_matches": {},
+          "market_scope": "Russia",
+          "future_horizon": [],
+          "future_signal": false,
+          "content_type": "news",
+          "metrics": [
+            {
+              "type": "Рыночная метрика",
+              "value": "13,5 млрд рублей",
+              "context": "Прибыль за 9 месяцев 2025 года составляла 13,5 млрд рублей."
+            }
+          ],
+          "source_quality": 4.0,
+          "publisher_id": "finam.ru",
+          "verification_status": "feed",
+          "editorial_version": "editorial-v1",
+          "strategic_components": {
+            "impact": 32,
+            "scale": 18,
+            "novelty": 18,
+            "utility": 11,
+            "evidence": 7
+          },
+          "eligible": true,
+          "exclusion_reason": "",
+          "strategic_theme": "telecom",
+          "interpretation": "Проверить, какие новые сценарии сервиса становятся доступны аудитории и меняют конкурентное предложение.",
+          "interpretation_basis": "Редакционный вопрос по типу события",
+          "fact": "Прибыль за 9 месяцев 2025 года составляла 13,5 млрд рублей...",
+          "evidence_label": "Публикация СМИ",
+          "independence": "unreviewed",
+          "member_ids": [
+            "bf0a171c3ba36b46d2"
+          ],
+          "sources": [
+            {
+              "id": "bf0a171c3ba36b46d2",
+              "url": "https://finam.ru/publications/item/rostelekom-za-9-mesyatsev-poluchil-chistyy-ubytok-po-rsbu-v-razmere-1541-mlrd-protiv-pribyli-godom-ranee-20261030-2124?news_to_finamb=new_compaigns",
+              "source": "Finam — компании и рынки",
+              "platform": null,
+              "publisher_id": "finam.ru",
+              "published_at": "2026-10-30T18:21:30+00:00"
+            }
+          ],
+          "last_signal_at": "2026-10-30T18:21:30+00:00",
+          "platforms": [],
+          "image_url": "",
+          "videos": []
+        },
+        {
+          "id": "event-bbb10047bc18ea5d",
+          "title": "Рекламные расходы «Ленты» выросли на треть за девять месяцев ",
+          "url": "https://adindex.ru/news/ad_budjet/2026/10/30/350687.phtml",
+          "source": "AdIndex — реклама и медиа",
+          "published_at": "2026-10-30T08:50:48+00:00",
+          "summary": "Рекламные расходы «Ленты» выросли на треть за девять месяцев ",
+          "categories": [
+            "MediaAdvertising"
+          ],
+          "primary_category": "MediaAdvertising",
+          "topics": [
+            "Рынок и продажи",
+            "Маркетинг и медиа"
+          ],
+          "brands": [],
+          "score": 3.7,
+          "strategic_relevance_score": 84,
+          "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
+          "market_scope": "Russia",
+          "metrics": [
+            {
+              "type": "Выручка / оборот",
+              "value": "0,8%",
+              "context": "аму достигли 8,5 млрд рублей, однако их доля в выручке осталась на уровне прошлого года — 0,8%."
+            },
+            {
+              "type": "Выручка / оборот",
+              "value": "8,5 млрд рублей",
+              "context": "оды «Ленты» поднялись на треть за девять месяцев — Затраты ретейлера на рекламу достигли 8,5 млрд рублей, однако их доля в выручке осталась на уровне прошлого года — 0,8%."
+            }
+          ],
+          "image_url": "https://adindex.ru/assets/seo/2026_10/facebook_350687.jpg?ts=1793350244",
+          "source_quality": 4.5,
+          "content_type": "news",
+          "future_signal": false,
+          "future_horizon": [],
+          "pdf_urls": [],
+          "research_primary": false,
+          "publisher_id": "adindex.ru",
+          "verification_status": "ok",
+          "editorial_version": "editorial-v1",
+          "strategic_components": {
+            "impact": 32,
+            "scale": 12,
+            "novelty": 18,
+            "utility": 15,
+            "evidence": 7
+          },
+          "eligible": true,
+          "exclusion_reason": "",
+          "strategic_theme": "ad_market",
+          "interpretation": "Проверить, меняет ли событие выбор каналов, медиабюджет или требования к измерению рекламного результата.",
+          "interpretation_basis": "Редакционный вопрос по типу события",
+          "fact": "Рекламные расходы «Ленты» выросли на треть за девять месяцев ",
+          "evidence_label": "Публикация СМИ",
+          "independence": "unreviewed",
+          "member_ids": [
+            "1c76a1d50b83c83225"
+          ],
+          "sources": [
+            {
+              "id": "1c76a1d50b83c83225",
+              "url": "https://adindex.ru/news/ad_budjet/2026/10/30/350687.phtml",
+              "source": "AdIndex — реклама и медиа",
+              "platform": null,
+              "publisher_id": "adindex.ru",
+              "published_at": "2026-10-30T08:50:48+00:00"
+            }
+          ],
+          "last_signal_at": "2026-10-30T08:50:48+00:00",
+          "platforms": [],
+          "videos": []
+        },
+        {
+          "id": "event-b7b8acb9c45ee630",
+          "title": "Две марки снизили цены у отдельных моделей",
+          "url": "https://autostat.ru/news/63409",
+          "source": "АВТОСТАТ — авторынок",
+          "published_at": "2026-10-30T00:00:00+00:00",
+          "summary": "Два бренда поменяли цены на новые автомобили во второй половине октября 2026 года, сообщают эксперты агентства «АВТОСТАТ» по итогам проведенного мониторинг...",
+          "categories": [
+            "Automotive"
+          ],
+          "primary_category": "Automotive",
+          "topics": [
+            "Цены и промо",
+            "Маркетинг и медиа"
+          ],
+          "brands": [],
+          "score": 1.8,
+          "strategic_relevance_score": 80,
+          "relevance_reasons": [
+            "маркетинг"
+          ],
+          "why_it_matters": "Важен для понимания продаж, цен, модельного ряда, дилерской сети и конкурентной динамики авторынка. Отобрано как: маркетинг.",
+          "client_matches": {},
+          "market_scope": "Russia",
+          "future_horizon": [],
+          "future_signal": false,
+          "content_type": "news",
+          "metrics": [],
+          "source_quality": 4.8,
+          "publisher_id": "autostat.ru",
+          "verification_status": "feed",
+          "editorial_version": "editorial-v1",
+          "strategic_components": {
+            "impact": 32,
+            "scale": 12,
+            "novelty": 18,
+            "utility": 11,
+            "evidence": 7
+          },
+          "eligible": true,
+          "exclusion_reason": "",
+          "strategic_theme": "auto",
+          "interpretation": "Сопоставить изменение с конкурентным набором, доступностью покупки и аргументами выбора автомобиля.",
+          "interpretation_basis": "Редакционный вопрос по типу события",
+          "fact": "Два бренда поменяли цены на новые автомобили во второй половине октября 2026 года, сообщают эксперты агентства «АВТОСТАТ» по итогам проведенного мониторинг...",
+          "evidence_label": "Публикация СМИ",
+          "independence": "unreviewed",
+          "member_ids": [
+            "dd028f6e02106c1057"
+          ],
+          "sources": [
+            {
+              "id": "dd028f6e02106c1057",
+              "url": "https://autostat.ru/news/63409",
+              "source": "АВТОСТАТ — авторынок",
+              "platform": null,
+              "publisher_id": "autostat.ru",
+              "published_at": "2026-10-30T00:00:00+00:00"
+            }
+          ],
+          "last_signal_at": "2026-10-30T00:00:00+00:00",
+          "platforms": [],
+          "image_url": "",
+          "videos": []
+        },
+        {
+          "id": "event-31a9e4c2830d7244",
+          "title": "Спрос на товары для Хеллоуина в России вырос до 14% | New Retail",
+          "url": "https://new-retail.ru/novosti/retail/spros_na_tovary_dlya_khellouina_v_rossii_vyros_do_14",
+          "source": "New Retail — отраслевые новости",
+          "published_at": "2026-10-29T21:00:00+00:00",
+          "summary": "Интерес россиян к Хеллоуину постепенно восстанавливается. В октябре 2026 года продажи тематических товаров увеличились на 6–14% в годовом выражении.",
+          "categories": [
+            "Retail",
+            "TechnologyAI"
+          ],
+          "primary_category": "Retail",
+          "topics": [
+            "Рынок и продажи",
+            "Потребитель",
+            "Digital и технологии"
+          ],
+          "brands": [],
+          "score": 3.7,
+          "strategic_relevance_score": 90,
+          "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
+          "market_scope": "Russia",
+          "metrics": [
+            {
+              "type": "Продажи",
+              "value": "14%",
+              "context": "Спрос на товары для Хеллоуина в России вырос до 14% | New Retail. Интерес россиян к Хеллоуину постепенно восстанавливается. В октябре 2026 года продажи тематичес"
+            }
+          ],
+          "image_url": "https://new-retail.ru/upload/iblock/e49/n0n3vzvv18spx7q3pc02i239ft6nxhvz.jpg",
+          "source_quality": 4.2,
+          "content_type": "news",
+          "future_signal": false,
+          "future_horizon": [],
+          "pdf_urls": [],
+          "research_primary": false,
+          "publisher_id": "new-retail.ru",
+          "verification_status": "ok",
+          "editorial_version": "editorial-v1",
+          "strategic_components": {
+            "impact": 32,
+            "scale": 18,
+            "novelty": 18,
+            "utility": 15,
+            "evidence": 7
+          },
+          "eligible": true,
+          "exclusion_reason": "",
+          "strategic_theme": "consumer",
+          "interpretation": "Сопоставить результаты с аудиторией бренда и критериями выбора. Не переносить данные отдельной площадки на весь рынок.",
+          "interpretation_basis": "Редакционный вопрос по типу события",
+          "fact": "Интерес россиян к Хеллоуину постепенно восстанавливается. В октябре 2026 года продажи тематических товаров увеличились на 6–14% в годовом выражении.",
+          "evidence_label": "Публикация СМИ",
+          "independence": "unreviewed",
+          "member_ids": [
+            "d6d767eb34c85680c4"
+          ],
+          "sources": [
+            {
+              "id": "d6d767eb34c85680c4",
+              "url": "https://new-retail.ru/novosti/retail/spros_na_tovary_dlya_khellouina_v_rossii_vyros_do_14",
+              "source": "New Retail — отраслевые новости",
+              "platform": null,
+              "publisher_id": "new-retail.ru",
+              "published_at": "2026-10-29T21:00:00+00:00"
+            }
+          ],
+          "last_signal_at": "2026-10-29T21:00:00+00:00",
+          "platforms": [],
+          "videos": []
+        },
+        {
+          "id": "event-3f165211cef41183",
+          "title": "Производство легковых автомобилей в сентябре выросло на 35%, а грузовых – на 55%",
+          "url": "https://autostat.ru/news/63397",
+          "source": "АВТОСТАТ — авторынок",
+          "published_at": "2026-10-29T00:00:00+00:00",
+          "summary": "По данным Росстата, за 9 месяцев 2026 года с российских конвейеров сошло 598 тыс. легковых автомобилей, что на 16,2% выше показателя за аналогичный период прошлого год...",
+          "categories": [
+            "Automotive"
+          ],
+          "primary_category": "Automotive",
+          "topics": [
+            "Регулирование",
+            "Исследования и прогнозы"
+          ],
+          "brands": [],
+          "score": 2.2,
+          "strategic_relevance_score": 88,
+          "relevance_reasons": [
+            "регулирование",
+            "есть данные"
+          ],
+          "why_it_matters": "Важен для понимания продаж, цен, модельного ряда, дилерской сети и конкурентной динамики авторынка. Отобрано как: регулирование, есть данные.",
+          "client_matches": {},
+          "market_scope": "Russia",
+          "future_horizon": [],
+          "future_signal": false,
+          "content_type": "news",
+          "metrics": [
+            {
+              "type": "Рыночная метрика",
+              "value": "35%",
+              "context": "Производство легковых автомобилей в сентябре выросло на 35%, а грузовых – на 55%."
+            },
+            {
+              "type": "Рыночная метрика",
+              "value": "55%",
+              "context": "Производство легковых автомобилей в сентябре выросло на 35%, а грузовых – на 55%."
+            },
+            {
+              "type": "Рыночная метрика",
+              "value": "16,2%",
+              "context": "легковых автомобилей, что на 16,2% выше показателя за аналогичный период прошлого год."
+            }
+          ],
+          "source_quality": 4.8,
+          "publisher_id": "autostat.ru",
+          "verification_status": "feed",
+          "editorial_version": "editorial-v1",
+          "strategic_components": {
+            "impact": 32,
+            "scale": 18,
+            "novelty": 18,
+            "utility": 11,
+            "evidence": 9
+          },
+          "eligible": true,
+          "exclusion_reason": "",
+          "strategic_theme": "auto",
+          "interpretation": "Сопоставить изменение с конкурентным набором, доступностью покупки и аргументами выбора автомобиля.",
+          "interpretation_basis": "Редакционный вопрос по типу события",
+          "fact": "По данным Росстата, за 9 месяцев 2026 года с российских конвейеров сошло 598 тыс. легковых автомобилей, что на 16,2% выше показателя за аналогичный период прошлого год...",
+          "evidence_label": "Публикация СМИ",
+          "independence": "unreviewed",
+          "member_ids": [
+            "16967c55a78671d202"
+          ],
+          "sources": [
+            {
+              "id": "16967c55a78671d202",
+              "url": "https://autostat.ru/news/63397",
+              "source": "АВТОСТАТ — авторынок",
+              "platform": null,
+              "publisher_id": "autostat.ru",
+              "published_at": "2026-10-29T00:00:00+00:00"
+            }
+          ],
+          "last_signal_at": "2026-10-29T00:00:00+00:00",
+          "platforms": [],
+          "image_url": "",
+          "videos": []
+        },
+        {
+          "id": "event-6034593f3681e29b",
+          "title": "Выручка X5 выросла на 13% в III квартале - RETAILER.ru",
+          "url": "https://retailer.ru/vyruchka-x5-vyrosla-na-13-v-iii-kvartale",
+          "source": "Retailer.ru",
+          "published_at": "2026-10-29T08:47:43+00:00",
+          "summary": "Одним из наиболее быстрорастущих направлений группы остаются цифровые бизнесы. Их выручка увеличилась на 34%, до 84,4 млрд рублей, а доля в общей чистой выручке X5 достигла 6,4%.",
+          "categories": [
+            "Retail"
+          ],
+          "primary_category": "Retail",
+          "topics": [
+            "Рынок и продажи"
+          ],
+          "brands": [],
+          "score": 3.6,
+          "strategic_relevance_score": 86,
+          "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
+          "market_scope": "Russia",
+          "metrics": [
+            {
+              "type": "Выручка / оборот",
+              "value": "13%",
+              "context": "Выручка X5 выросла на 13% в III квартале. Одним из наиболее быстрорастущих направлений группы остаются цифровые бизнесы. Их выручка уве"
+            },
+            {
+              "type": "Выручка / оборот",
+              "value": "34%",
+              "context": "ее быстрорастущих направлений группы остаются цифровые бизнесы. Их выручка увеличилась на 34%, до 84,4 млрд рублей, а доля в общей чистой выручке X5 достигла 6,4%. Сообщение Выручка X5 вырос"
+            },
+            {
+              "type": "Выручка / оборот",
+              "value": "6,4%",
+              "context": "ыручка увеличилась на 34%, до 84,4 млрд рублей, а доля в общей чистой выручке X5 достигла 6,4%. Сообщение Выручка X5 выросла на 13% в III квартале появились сначала на RETAILER.ru ."
+            },
+            {
+              "type": "Выручка / оборот",
+              "value": "84,4 млрд рублей",
+              "context": "орастущих направлений группы остаются цифровые бизнесы. Их выручка увеличилась на 34%, до 84,4 млрд рублей, а доля в общей чистой выручке X5 достигла 6,4%. Сообщение Выручка X5 выросла на 13"
+            }
+          ],
+          "image_url": "https://retailer.ru/wp-content/uploads/2026/10/old-woman-in-supermarket-looking-for-frozen-food-in-fridge-2048x1365-1.jpg",
+          "source_quality": 4.3,
+          "content_type": "news",
+          "future_signal": false,
+          "future_horizon": [],
+          "publisher_id": "retailer.ru",
+          "verification_status": "ok",
+          "editorial_version": "editorial-v1",
+          "strategic_components": {
+            "impact": 32,
+            "scale": 18,
+            "novelty": 18,
+            "utility": 11,
+            "evidence": 7
+          },
+          "eligible": true,
+          "exclusion_reason": "",
+          "strategic_theme": "retail",
+          "interpretation": "Сопоставить формат и позиционирование игроков с покупательской миссией, ценой и доступностью предложения.",
+          "interpretation_basis": "Редакционный вопрос по типу события",
+          "fact": "Одним из наиболее быстрорастущих направлений группы остаются цифровые бизнесы. Их выручка увеличилась на 34%, до 84,4 млрд рублей, а доля в общей чистой выручке X5 достигла 6,4%.",
+          "evidence_label": "Публикация СМИ",
+          "independence": "unreviewed",
+          "member_ids": [
+            "c710c0f78454f94ae3"
+          ],
+          "sources": [
+            {
+              "id": "c710c0f78454f94ae3",
+              "url": "https://retailer.ru/vyruchka-x5-vyrosla-na-13-v-iii-kvartale",
+              "source": "Retailer.ru",
+              "platform": null,
+              "publisher_id": "retailer.ru",
+              "published_at": "2026-10-29T08:47:43+00:00"
+            }
+          ],
+          "last_signal_at": "2026-10-29T08:47:43+00:00",
+          "platforms": [],
+          "videos": []
+        },
+        {
+          "id": "event-e01bbde34456b275",
+          "title": "Выручка X5 за квартал выросла на 13% — до 1,31 трлн рублей –  Новости ритейла и розничной торговли | Retail.ru",
+          "url": "https://retail.ru/news/vyruchka-x5-za-kvartal-vyrosla-na-13-do-1-31-trln-rubley-29-oktyabrya-2026-283830",
+          "source": "Retail.ru — новости",
+          "published_at": "2026-10-29T07:45:04+00:00",
+          "summary": "Валовая прибыль увеличилась на 16,5%, до 320,3 млрд руб.",
+          "categories": [
+            "Retail"
+          ],
+          "primary_category": "Retail",
+          "topics": [
+            "Рынок и продажи",
+            "Финрезультаты"
+          ],
+          "brands": [
+            "X5"
+          ],
+          "score": 3.6,
+          "strategic_relevance_score": 86,
+          "relevance_reasons": [
+            "рынок / бизнес",
+            "клиент",
+            "крупный игрок",
+            "есть данные"
+          ],
+          "why_it_matters": "Показывает изменение в бизнесе ритейла: формате, продажах, ценах, ассортименте или конкурентной динамике. В фокусе: X5. Отобрано как: рынок / бизнес, клиент, крупный игрок.",
+          "client_matches": {
+            "x5": {
+              "name": "X5",
+              "score": 3.4,
+              "matches": [
+                "X5"
+              ]
+            }
+          },
+          "market_scope": "Russia",
+          "future_horizon": [],
+          "future_signal": false,
+          "content_type": "news",
+          "metrics": [
+            {
+              "type": "Выручка / оборот",
+              "value": "13%",
+              "context": "Выручка X5 за квартал выросла на 13% — до 1,31 трлн рублей."
+            },
+            {
+              "type": "Выручка / оборот",
+              "value": "1,31 трлн рублей",
+              "context": "Выручка X5 за квартал выросла на 13% — до 1,31 трлн рублей."
+            }
+          ],
+          "source_quality": 4.5,
+          "publisher_id": "retail.ru",
+          "image_url": "https://www.retail.ru/upload/resize-images/combined/7ef371bf9f6dd6892e9710c7897f8c6e35b78373ecr.jpg.jpg",
+          "verification_status": "ok",
+          "editorial_version": "editorial-v1",
+          "strategic_components": {
+            "impact": 32,
+            "scale": 18,
+            "novelty": 18,
+            "utility": 11,
+            "evidence": 7
+          },
+          "eligible": true,
+          "exclusion_reason": "",
+          "strategic_theme": "retail",
+          "interpretation": "Сопоставить формат и позиционирование игроков с покупательской миссией, ценой и доступностью предложения.",
+          "interpretation_basis": "Редакционный вопрос по типу события",
+          "fact": "Валовая прибыль увеличилась на 16,5%, до 320,3 млрд руб.",
+          "evidence_label": "Публикация СМИ",
+          "independence": "unreviewed",
+          "member_ids": [
+            "7998fd53f24cbf98b3"
+          ],
+          "sources": [
+            {
+              "id": "7998fd53f24cbf98b3",
+              "url": "https://retail.ru/news/vyruchka-x5-za-kvartal-vyrosla-na-13-do-1-31-trln-rubley-29-oktyabrya-2026-283830",
+              "source": "Retail.ru — новости",
+              "platform": null,
+              "publisher_id": "retail.ru",
+              "published_at": "2026-10-29T07:45:04+00:00"
+            }
+          ],
+          "last_signal_at": "2026-10-29T07:45:04+00:00",
+          "platforms": [],
+          "videos": []
+        },
+        {
+          "id": "event-eaf7d00b14cdfb21",
+          "title": "Выручка городских сервисов «Яндекса» в третьем квартале выросла на 11% - RETAILER.ru",
+          "url": "https://retailer.ru/vyruchka-gorodskih-servisov-jandeksa-v-tretem-kvartale-vyrosla-na-11",
+          "source": "Retailer.ru",
+          "published_at": "2026-10-29T06:46:31+00:00",
+          "summary": "Общая выручка «Яндекса» в III квартале выросла на 12%, до 411 млрд рублей.",
+          "categories": [
+            "Retail"
+          ],
+          "primary_category": "Retail",
+          "topics": [
+            "Рынок и продажи"
+          ],
+          "brands": [],
+          "score": 3.3,
+          "strategic_relevance_score": 86,
+          "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
+          "market_scope": "Russia",
+          "metrics": [
+            {
+              "type": "Выручка / оборот",
+              "value": "11%",
+              "context": "Выручка городских сервисов «Яндекса» в третьем квартале выросла на 11%. Общая выручка «Яндекса» в III квартале выросла на 12%, до 411 млрд рублей. Сообщение Выручка городских серви"
+            },
+            {
+              "type": "Выручка / оборот",
+              "value": "12%",
+              "context": "кса» в третьем квартале выросла на 11%. Общая выручка «Яндекса» в III квартале выросла на 12%, до 411 млрд рублей. Сообщение Выручка городских сервисов «Яндекса» в третьем квартале выросла н"
+            },
+            {
+              "type": "Выручка / оборот",
+              "value": "411 млрд рублей",
+              "context": "ретьем квартале выросла на 11%. Общая выручка «Яндекса» в III квартале выросла на 12%, до 411 млрд рублей. Сообщение Выручка городских сервисов «Яндекса» в третьем квартале выросла на 11% по"
+            }
+          ],
+          "image_url": "",
+          "source_quality": 4.3,
+          "content_type": "news",
+          "future_signal": false,
+          "future_horizon": [],
+          "publisher_id": "retailer.ru",
+          "verification_status": "ok",
+          "editorial_version": "editorial-v1",
+          "strategic_components": {
+            "impact": 32,
+            "scale": 18,
+            "novelty": 18,
+            "utility": 11,
+            "evidence": 7
+          },
+          "eligible": true,
+          "exclusion_reason": "",
+          "strategic_theme": "retail",
+          "interpretation": "Сопоставить формат и позиционирование игроков с покупательской миссией, ценой и доступностью предложения.",
+          "interpretation_basis": "Редакционный вопрос по типу события",
+          "fact": "Общая выручка «Яндекса» в III квартале выросла на 12%, до 411 млрд рублей.",
+          "evidence_label": "Публикация СМИ",
+          "independence": "unreviewed",
+          "member_ids": [
+            "969b5f4b60ce942c1e"
+          ],
+          "sources": [
+            {
+              "id": "969b5f4b60ce942c1e",
+              "url": "https://retailer.ru/vyruchka-gorodskih-servisov-jandeksa-v-tretem-kvartale-vyrosla-na-11",
+              "source": "Retailer.ru",
+              "platform": null,
+              "publisher_id": "retailer.ru",
+              "published_at": "2026-10-29T06:46:31+00:00"
+            }
+          ],
+          "last_signal_at": "2026-10-29T06:46:31+00:00",
+          "platforms": [],
+          "videos": []
+        },
+        {
+          "id": "event-9d89fdeb87ef909a",
+          "title": "Для финансирования разработчиков спецтеха запустили фонды на 17 млрд рублей",
+          "url": "https://kommersant.ru/doc/9063351",
+          "source": "Коммерсантъ — новости",
+          "published_at": "2026-10-29T06:38:44+00:00",
+          "summary": "Банк ПСБ и Центр беспилотных систем и технологий (ЦБСТ) запустили два инвестиционных фонда с совокупным целевым объемом 17 млрд руб. Средства направят на финансирование компаний отрасли спецтеха, разрабатывающих продукцию специального и двойного назначения для оборонной и гражданской сфер, сообщили «Ъ» в пресс-службе банка.",
+          "categories": [
+            "BanksFintech",
+            "TechnologyAI"
+          ],
+          "primary_category": "BanksFintech",
+          "topics": [
+            "Digital и технологии",
+            "M&A и инвестиции",
+            "Запуск продукта/сервиса"
+          ],
+          "brands": [
+            "ПСБ"
+          ],
+          "score": 2.6,
+          "strategic_relevance_score": 86,
+          "relevance_reasons": [
+            "инвестиции / M&A",
+            "крупный игрок",
+            "есть данные"
+          ],
+          "why_it_matters": "Может менять банковские офферы, финтех-сервисы, клиентское поведение и коммуникационную конкуренцию. В фокусе: ПСБ. Отобрано как: инвестиции / M&A, крупный игрок, есть данные.",
+          "client_matches": {},
+          "market_scope": "Russia",
+          "future_horizon": [],
+          "future_signal": false,
+          "content_type": "news",
+          "metrics": [
+            {
+              "type": "Инвестиции",
+              "value": "17 млрд рублей",
+              "context": "Для финансирования разработчиков спецтеха запустили фонды на 17 млрд рублей."
+            },
+            {
+              "type": "Инвестиции",
+              "value": "17 млрд руб.",
+              "context": "Банк ПСБ и Центр беспилотных систем и технологий (ЦБСТ) запустили два инвестиционных фонда с совокупным целевым объемом 17 млрд руб. Средства направят на финансирование компаний отрасли с…"
+            }
+          ],
+          "source_quality": 4.6,
+          "publisher_id": "kommersant.ru",
+          "verification_status": "feed",
+          "editorial_version": "editorial-v1",
+          "strategic_components": {
+            "impact": 32,
+            "scale": 18,
+            "novelty": 18,
+            "utility": 11,
+            "evidence": 7
+          },
+          "eligible": true,
+          "exclusion_reason": "",
+          "strategic_theme": "bank",
+          "interpretation": "Проверить, меняются ли клиентский путь, условия продукта и конкурентное обещание для целевой аудитории.",
+          "interpretation_basis": "Редакционный вопрос по типу события",
+          "fact": "Банк ПСБ и Центр беспилотных систем и технологий (ЦБСТ) запустили два инвестиционных фонда с совокупным целевым объемом 17 млрд руб. Средства направят на финансирование компаний отрасли спецтеха, разрабатывающих продукцию специального и двойного назначения для оборонной и гражданской сфер, сообщили «Ъ» в пресс-службе банка.",
+          "evidence_label": "Публикация СМИ",
+          "independence": "unreviewed",
+          "member_ids": [
+            "24b918d672bd0a5c88"
+          ],
+          "sources": [
+            {
+              "id": "24b918d672bd0a5c88",
+              "url": "https://kommersant.ru/doc/9063351",
+              "source": "Коммерсантъ — новости",
+              "platform": null,
+              "publisher_id": "kommersant.ru",
+              "published_at": "2026-10-29T06:38:44+00:00"
+            }
+          ],
+          "last_signal_at": "2026-10-29T06:38:44+00:00",
+          "platforms": [],
+          "image_url": "",
+          "videos": []
+        },
+        {
+          "id": "event-c3d56d6920c21e26",
+          "title": "Аналитики оценили годовой рост цен на малогабаритное жилье в России Эксклюзив",
+          "url": "https://realty.rbc.ru/news/6ae20fb4c79c544603b8a2c5",
+          "source": "РБК Недвижимость — рынок недвижимости",
+          "published_at": "2026-10-29T06:00:18+00:00",
+          "summary": "Сильнее всего студии и маленькие однушки на вторичном рынке за год подорожали в Подмосковье и Ленинградской области, а также в Казани. Снизились цены такого жилья лишь в трех больших городах",
+          "categories": [
+            "RealEstate"
+          ],
+          "primary_category": "RealEstate",
+          "topics": [
+            "Цены и промо",
+            "Исследования и прогнозы"
+          ],
+          "brands": [],
+          "score": 1.3,
+          "strategic_relevance_score": 86,
+          "relevance_reasons": [],
+          "why_it_matters": "Отражает динамику спроса, цен, ипотеки, девелопмента и коммерческой недвижимости.",
+          "client_matches": {},
+          "market_scope": "Russia",
+          "future_horizon": [],
+          "future_signal": false,
+          "content_type": "news",
+          "metrics": [],
+          "source_quality": 4.5,
+          "publisher_id": "rbc.ru",
+          "verification_status": "feed",
+          "editorial_version": "editorial-v1",
+          "strategic_components": {
+            "impact": 32,
+            "scale": 18,
+            "novelty": 18,
+            "utility": 11,
+            "evidence": 7
+          },
+          "eligible": true,
+          "exclusion_reason": "",
+          "strategic_theme": "mortgage",
+          "interpretation": "Пересмотреть доступность предложения для целевой аудитории и аргументы покупки с учетом условий финансирования.",
+          "interpretation_basis": "Редакционный вопрос по типу события",
+          "fact": "Сильнее всего студии и маленькие однушки на вторичном рынке за год подорожали в Подмосковье и Ленинградской области, а также в Казани. Снизились цены такого жилья лишь в трех больших городах",
+          "evidence_label": "Публикация СМИ",
+          "independence": "unreviewed",
+          "member_ids": [
+            "bb7af9aa498ba62132"
+          ],
+          "sources": [
+            {
+              "id": "bb7af9aa498ba62132",
+              "url": "https://realty.rbc.ru/news/6ae20fb4c79c544603b8a2c5",
+              "source": "РБК Недвижимость — рынок недвижимости",
+              "platform": null,
+              "publisher_id": "rbc.ru",
+              "published_at": "2026-10-29T06:00:18+00:00"
+            }
+          ],
+          "last_signal_at": "2026-10-29T06:00:18+00:00",
+          "platforms": [],
+          "image_url": "",
+          "videos": []
+        },
+        {
+          "id": "event-aa61e4bcc8e4da2d",
+          "title": "«Авито» запустит аукционы для продажи товаров - RETAILER.ru",
+          "url": "https://retailer.ru/avito-zapustit-aukciony-dlja-prodazhi-tovarov",
+          "source": "Retailer.ru",
+          "published_at": "2026-10-29T14:57:48+00:00",
+          "summary": "Пользователи смогут выставлять вещи на торги продолжительностью 24 часа, а покупателем станет участник, предложивший максимальную цену",
+          "categories": [
+            "Retail",
+            "Consumer"
+          ],
+          "primary_category": "Retail",
+          "topics": [
+            "Рынок и продажи",
+            "Потребитель"
+          ],
+          "brands": [],
+          "score": 3.4,
+          "strategic_relevance_score": 86,
+          "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
+          "market_scope": "Russia",
+          "metrics": [],
+          "image_url": "",
+          "source_quality": 4.3,
+          "content_type": "company_plan",
+          "future_signal": true,
+          "future_horizon": [
+            "future"
+          ],
+          "publisher_id": "retailer.ru",
+          "verification_status": "ok",
+          "editorial_version": "editorial-v1",
+          "strategic_components": {
+            "impact": 32,
+            "scale": 18,
+            "novelty": 18,
+            "utility": 11,
+            "evidence": 7
+          },
+          "eligible": true,
+          "exclusion_reason": "",
+          "strategic_theme": "retail",
+          "interpretation": "Сопоставить формат и позиционирование игроков с покупательской миссией, ценой и доступностью предложения.",
+          "interpretation_basis": "Редакционный вопрос по типу события",
+          "fact": "Пользователи смогут выставлять вещи на торги продолжительностью 24 часа, а покупателем станет участник, предложивший максимальную цену",
+          "evidence_label": "Публикация СМИ",
+          "independence": "unreviewed",
+          "member_ids": [
+            "e01c4399aa562cbef1"
+          ],
+          "sources": [
+            {
+              "id": "e01c4399aa562cbef1",
+              "url": "https://retailer.ru/avito-zapustit-aukciony-dlja-prodazhi-tovarov",
+              "source": "Retailer.ru",
+              "platform": null,
+              "publisher_id": "retailer.ru",
+              "published_at": "2026-10-29T14:57:48+00:00"
+            }
+          ],
+          "last_signal_at": "2026-10-29T14:57:48+00:00",
+          "platforms": [],
+          "videos": []
+        },
+        {
+          "id": "event-bd8ccdd76643644c",
+          "title": "Тренд сезона на Ozon: покупатели массово выбирают изделия из кожи и замши | New Retail",
+          "url": "https://new-retail.ru/novosti/retail/trend_sezona_na_ozon_pokupateli_massovo_vybirayut_izdeliya_iz_kozhi_i_zamshi",
+          "source": "New Retail — отраслевые новости",
+          "published_at": "2026-10-29T21:00:00+00:00",
+          "summary": "По данным аналитики Ozon Селект, в первые девять месяцев 2026 года на маркетплейсе заметно усилился спрос на fashion‑товары из кожи и замши — по сравнению с аналогичным периодом прошлого года россияне всё чаще отдают предпочтение изделиям из этих фактурных материалов.",
+          "categories": [
+            "Retail",
+            "Fashion",
+            "DeliveryEcom",
+            "Consumer"
+          ],
+          "primary_category": "Retail",
+          "topics": [
+            "Потребитель"
+          ],
+          "brands": [],
+          "score": 3.3,
+          "strategic_relevance_score": 86,
+          "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
+          "market_scope": "Russia",
+          "metrics": [],
+          "image_url": "https://new-retail.ru/upload/iblock/527/7wsc0u8yjdgekck64p2winrp3lfek01t.jpg",
+          "source_quality": 4.2,
+          "content_type": "news",
+          "future_signal": false,
+          "future_horizon": [],
+          "pdf_urls": [],
+          "research_primary": false,
+          "publisher_id": "new-retail.ru",
+          "verification_status": "ok",
+          "editorial_version": "editorial-v1",
+          "strategic_components": {
+            "impact": 29,
+            "scale": 18,
+            "novelty": 15,
+            "utility": 15,
+            "evidence": 9
+          },
+          "eligible": true,
+          "exclusion_reason": "",
+          "strategic_theme": "consumer",
+          "interpretation": "Сопоставить результаты с аудиторией бренда и критериями выбора. Не переносить данные отдельной площадки на весь рынок.",
+          "interpretation_basis": "Редакционный вопрос по типу события",
+          "fact": "По данным аналитики Ozon Селект, в первые девять месяцев 2026 года на маркетплейсе заметно усилился спрос на fashion‑товары из кожи и замши — по сравнению с аналогичным периодом прошлого года россияне всё чаще отдают предпочтение изделиям из этих фактурных материалов.",
+          "evidence_label": "Публикация СМИ",
+          "independence": "unreviewed",
+          "member_ids": [
+            "c250381027eb30a252"
+          ],
+          "sources": [
+            {
+              "id": "c250381027eb30a252",
+              "url": "https://new-retail.ru/novosti/retail/trend_sezona_na_ozon_pokupateli_massovo_vybirayut_izdeliya_iz_kozhi_i_zamshi",
+              "source": "New Retail — отраслевые новости",
+              "platform": null,
+              "publisher_id": "new-retail.ru",
+              "published_at": "2026-10-29T21:00:00+00:00"
+            }
+          ],
+          "last_signal_at": "2026-10-29T21:00:00+00:00",
+          "platforms": [],
+          "videos": []
+        },
+        {
+          "id": "event-44fe7727814a1a8b",
+          "title": "Москва обновила рекорд по вводу офисных площадей в III квартале | New Retail",
+          "url": "https://new-retail.ru/novosti/retail/moskva_obnovila_rekord_po_vvodu_ofisnykh_ploshchadey_v_iii_kvartale",
+          "source": "New Retail — отраслевые новости",
+          "published_at": "2026-10-29T21:00:00+00:00",
+          "summary": "Консалтинговая компания Nikoliers представила аналитический обзор состояния московского рынка офисной недвижимости по результатам третьего квартала 2026 года.",
+          "categories": [
+            "Retail",
+            "RealEstate"
+          ],
+          "primary_category": "Retail",
+          "topics": [
+            "Бизнес-изменения"
+          ],
+          "brands": [],
+          "score": 3.3,
+          "strategic_relevance_score": 86,
+          "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
+          "market_scope": "Russia",
+          "metrics": [],
+          "image_url": "https://new-retail.ru/upload/iblock/392/2vt3szlqbwb1jwmna6kx15zk4llphovj.jpg",
+          "source_quality": 4.2,
+          "content_type": "news",
+          "future_signal": false,
+          "future_horizon": [],
+          "pdf_urls": [],
+          "research_primary": false,
+          "publisher_id": "new-retail.ru",
+          "verification_status": "ok",
+          "editorial_version": "editorial-v1",
+          "strategic_components": {
+            "impact": 32,
+            "scale": 18,
+            "novelty": 18,
+            "utility": 11,
+            "evidence": 7
+          },
+          "eligible": true,
+          "exclusion_reason": "",
+          "strategic_theme": "retail",
+          "interpretation": "Сопоставить формат и позиционирование игроков с покупательской миссией, ценой и доступностью предложения.",
+          "interpretation_basis": "Редакционный вопрос по типу события",
+          "fact": "Консалтинговая компания Nikoliers представила аналитический обзор состояния московского рынка офисной недвижимости по результатам третьего квартала 2026 года.",
+          "evidence_label": "Публикация СМИ",
+          "independence": "unreviewed",
+          "member_ids": [
+            "e7fde5ae6c0a3c7956"
+          ],
+          "sources": [
+            {
+              "id": "e7fde5ae6c0a3c7956",
+              "url": "https://new-retail.ru/novosti/retail/moskva_obnovila_rekord_po_vvodu_ofisnykh_ploshchadey_v_iii_kvartale",
+              "source": "New Retail — отраслевые новости",
+              "platform": null,
+              "publisher_id": "new-retail.ru",
+              "published_at": "2026-10-29T21:00:00+00:00"
+            }
+          ],
+          "last_signal_at": "2026-10-29T21:00:00+00:00",
+          "platforms": [],
+          "videos": []
+        },
+        {
+          "id": "event-4bc89ce31c04d2e7",
+          "title": "Рекламная выручка «Яндекса» выросла на 10% в январе-сентябре 2026 года",
+          "url": "https://adindex.ru/news/ad_budjet/2026/10/29/350645.phtml",
+          "source": "AdIndex — реклама и медиа",
+          "published_at": "2026-10-29T10:25:22+00:00",
+          "summary": "Рекламная выручка «Яндекса» выросла на 10% в январе-сентябре 2026 года",
+          "categories": [
+            "MediaAdvertising",
+            "TechnologyAI"
+          ],
+          "primary_category": "MediaAdvertising",
+          "topics": [
+            "Рынок и продажи",
+            "Маркетинг и медиа",
+            "Digital и технологии"
+          ],
+          "brands": [],
+          "score": 3.8,
+          "strategic_relevance_score": 84,
+          "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
+          "market_scope": "Russia",
+          "metrics": [
+            {
+              "type": "Выручка / оборот",
+              "value": "10%",
+              "context": "Рекламная выручка «Яндекса» выросла на 10% в январе-сентябре 2026 года. Новости Бизнес СМИ AdIndex из рубрики Рекламные бюджеты — Рекламная выручка «Янд"
+            },
+            {
+              "type": "Рыночная метрика",
+              "value": "379 млрд рублей",
+              "context": "екса» выросла на 10% в январе-сентябре 2026 года — В денежном выражении показатель достиг 379 млрд рублей по итогам девяти месяцев"
+            }
+          ],
+          "image_url": "https://adindex.ru/assets/seo/2026_10/facebook_350645.jpg?ts=1793269537",
+          "source_quality": 4.5,
+          "content_type": "news",
+          "future_signal": false,
+          "future_horizon": [],
+          "pdf_urls": [],
+          "research_primary": false,
+          "publisher_id": "adindex.ru",
+          "verification_status": "ok",
+          "editorial_version": "editorial-v1",
+          "strategic_components": {
+            "impact": 32,
+            "scale": 12,
+            "novelty": 18,
+            "utility": 15,
+            "evidence": 7
+          },
+          "eligible": true,
+          "exclusion_reason": "",
+          "strategic_theme": "ad_market",
+          "interpretation": "Проверить, меняет ли событие выбор каналов, медиабюджет или требования к измерению рекламного результата.",
+          "interpretation_basis": "Редакционный вопрос по типу события",
+          "fact": "Рекламная выручка «Яндекса» выросла на 10% в январе-сентябре 2026 года",
+          "evidence_label": "Публикация СМИ",
+          "independence": "unreviewed",
+          "member_ids": [
+            "853bd0d6656cf2bff3"
+          ],
+          "sources": [
+            {
+              "id": "853bd0d6656cf2bff3",
+              "url": "https://adindex.ru/news/ad_budjet/2026/10/29/350645.phtml",
+              "source": "AdIndex — реклама и медиа",
+              "platform": null,
+              "publisher_id": "adindex.ru",
+              "published_at": "2026-10-29T10:25:22+00:00"
+            }
+          ],
+          "last_signal_at": "2026-10-29T10:25:22+00:00",
+          "platforms": [],
+          "videos": []
+        },
+        {
+          "id": "event-683b10dd6f5f2f4c",
+          "title": "«Магнит ADS» открыл платформу для рекламы других ретейлеров",
+          "url": "https://adindex.ru/news/marketing/2026/10/29/350631.phtml",
+          "source": "AdIndex — реклама и медиа",
+          "published_at": "2026-10-29T07:48:41+00:00",
+          "summary": "«Магнит ADS» открыл платформу для рекламы других ретейлеров",
+          "categories": [
+            "MediaAdvertising"
+          ],
+          "primary_category": "MediaAdvertising",
+          "topics": [
+            "Маркетинг и медиа"
+          ],
+          "brands": [],
+          "score": 3.3,
+          "strategic_relevance_score": 84,
+          "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
+          "market_scope": "Russia",
+          "metrics": [],
+          "image_url": "https://adindex.ru/assets/seo/2023_03/facebook_14.png",
+          "source_quality": 4.5,
+          "content_type": "news",
+          "future_signal": false,
+          "future_horizon": [],
+          "pdf_urls": [],
+          "research_primary": false,
+          "publisher_id": "adindex.ru",
+          "verification_status": "ok",
+          "editorial_version": "editorial-v1",
+          "strategic_components": {
+            "impact": 32,
+            "scale": 12,
+            "novelty": 18,
+            "utility": 15,
+            "evidence": 7
+          },
+          "eligible": true,
+          "exclusion_reason": "",
+          "strategic_theme": "ad_market",
+          "interpretation": "Проверить, меняет ли событие выбор каналов, медиабюджет или требования к измерению рекламного результата.",
+          "interpretation_basis": "Редакционный вопрос по типу события",
+          "fact": "«Магнит ADS» открыл платформу для рекламы других ретейлеров",
+          "evidence_label": "Публикация СМИ",
+          "independence": "unreviewed",
+          "member_ids": [
+            "8ebe92e478fb3b48c6"
+          ],
+          "sources": [
+            {
+              "id": "8ebe92e478fb3b48c6",
+              "url": "https://adindex.ru/news/marketing/2026/10/29/350631.phtml",
+              "source": "AdIndex — реклама и медиа",
+              "platform": null,
+              "publisher_id": "adindex.ru",
+              "published_at": "2026-10-29T07:48:41+00:00"
+            }
+          ],
+          "last_signal_at": "2026-10-29T07:48:41+00:00",
+          "platforms": [],
+          "videos": []
+        },
+        {
+          "id": "event-263825bc4756e902",
+          "title": "Газпромбанк Автолизинг: в 3 квартале 2026 года на покупку новых коммерческих автомобилей потрачено почти 175 млрд рублей",
+          "url": "https://autostat.ru/news/63405",
+          "source": "АВТОСТАТ — авторынок",
+          "published_at": "2026-10-29T00:00:00+00:00",
+          "summary": "Газпромбанк Автолизинг и агентство «АВТОСТАТ» провели совместное исследование рынка новых коммерческих автомобилей (LCV и грузовых) в России и определили е...",
+          "categories": [
+            "Automotive",
+            "BanksFintech"
+          ],
+          "primary_category": "Automotive",
+          "topics": [
+            "Исследования и прогнозы"
+          ],
+          "brands": [
+            "Газпромбанк"
+          ],
+          "score": 2.6,
+          "strategic_relevance_score": 82,
+          "relevance_reasons": [
+            "крупный игрок",
+            "есть данные"
+          ],
+          "why_it_matters": "Может менять банковские офферы, финтех-сервисы, клиентское поведение и коммуникационную конкуренцию. В фокусе: Газпромбанк. Отобрано как: крупный игрок, есть данные.",
+          "client_matches": {},
+          "market_scope": "Russia",
+          "future_horizon": [],
+          "future_signal": false,
+          "content_type": "research",
+          "metrics": [
+            {
+              "type": "Рыночная метрика",
+              "value": "175 млрд рублей",
+              "context": "Газпромбанк Автолизинг: в 3 квартале 2026 года на покупку новых коммерческих автомобилей потрачено почти 175 млрд рублей."
+            }
+          ],
+          "source_quality": 4.8,
+          "publisher_id": "autostat.ru",
+          "verification_status": "feed",
+          "editorial_version": "editorial-v1",
+          "strategic_components": {
+            "impact": 29,
+            "scale": 18,
+            "novelty": 15,
+            "utility": 11,
+            "evidence": 9
+          },
+          "eligible": true,
+          "exclusion_reason": "",
+          "strategic_theme": "auto",
+          "interpretation": "Сопоставить изменение с конкурентным набором, доступностью покупки и аргументами выбора автомобиля.",
+          "interpretation_basis": "Редакционный вопрос по типу события",
+          "fact": "Газпромбанк Автолизинг и агентство «АВТОСТАТ» провели совместное исследование рынка новых коммерческих автомобилей (LCV и грузовых) в России и определили е...",
+          "evidence_label": "Публикация СМИ",
+          "independence": "unreviewed",
+          "member_ids": [
+            "f45fff5d4f852060ab"
+          ],
+          "sources": [
+            {
+              "id": "f45fff5d4f852060ab",
+              "url": "https://autostat.ru/news/63405",
+              "source": "АВТОСТАТ — авторынок",
+              "platform": null,
+              "publisher_id": "autostat.ru",
+              "published_at": "2026-10-29T00:00:00+00:00"
+            }
+          ],
+          "last_signal_at": "2026-10-29T00:00:00+00:00",
+          "platforms": [],
+          "image_url": "",
+          "videos": []
+        },
+        {
+          "id": "event-bb2895a0ec79ba6a",
+          "title": "В третьем квартале продажи новостроек в Новой Москве сократились на 38% в годовой динамике ",
+          "url": "https://irn.ru/news/160825-v-tretem-kvartale-prodazhi-novostroek-v-novoy.html",
+          "source": "ИРН",
+          "published_at": "2026-10-29T08:09:00+00:00",
+          "summary": "По итогам третьего квартала 2026 года на первичном рынке Новой Москвы объем предложения сократился на 1% за квартал и на 25% за год. Средневзвешенная цена квадратного метра составила 337 880 рублей...",
+          "categories": [
+            "RealEstate"
+          ],
+          "primary_category": "RealEstate",
+          "topics": [
+            "Рынок и продажи",
+            "Цены и промо"
+          ],
+          "brands": [],
+          "score": 3.7,
+          "strategic_relevance_score": 80,
+          "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
+          "market_scope": "Russia",
+          "metrics": [
+            {
+              "type": "Продажи",
+              "value": "38%",
+              "context": "В третьем квартале продажи новостроек в Новой Москве сократились на 38% в годовой динамике . По итогам третьего квартала 2026 года на первичном рынке Новой Москвы объем предложения"
+            },
+            {
+              "type": "Цены",
+              "value": "1%",
+              "context": "етьего квартала 2026 года на первичном рынке Новой Москвы объем предложения сократился на 1% за квартал и на 25% за год. Средневзвешенная цена квадратного метра составила 337 880 рублей..."
+            },
+            {
+              "type": "Цены",
+              "value": "25%",
+              "context": "6 года на первичном рынке Новой Москвы объем предложения сократился на 1% за квартал и на 25% за год. Средневзвешенная цена квадратного метра составила 337 880 рублей..."
+            }
+          ],
+          "image_url": "https://www.irn.ru/postimage/210976/",
+          "source_quality": 4.5,
+          "content_type": "news",
+          "future_signal": false,
+          "future_horizon": [],
+          "pdf_urls": [],
+          "research_primary": false,
+          "publisher_id": "irn.ru",
+          "verification_status": "ok",
+          "editorial_version": "editorial-v1",
+          "strategic_components": {
+            "impact": 32,
+            "scale": 12,
+            "novelty": 18,
+            "utility": 11,
+            "evidence": 7
+          },
+          "eligible": true,
+          "exclusion_reason": "",
+          "strategic_theme": "mortgage",
+          "interpretation": "Пересмотреть доступность предложения для целевой аудитории и аргументы покупки с учетом условий финансирования.",
+          "interpretation_basis": "Редакционный вопрос по типу события",
+          "fact": "По итогам третьего квартала 2026 года на первичном рынке Новой Москвы объем предложения сократился на 1% за квартал и на 25% за год. Средневзвешенная цена квадратного метра составила 337 880 рублей...",
+          "evidence_label": "Публикация СМИ",
+          "independence": "unreviewed",
+          "member_ids": [
+            "726423ee77382c5ee7"
+          ],
+          "sources": [
+            {
+              "id": "726423ee77382c5ee7",
+              "url": "https://irn.ru/news/160825-v-tretem-kvartale-prodazhi-novostroek-v-novoy.html",
+              "source": "ИРН",
+              "platform": null,
+              "publisher_id": "irn.ru",
+              "published_at": "2026-10-29T08:09:00+00:00"
+            }
+          ],
+          "last_signal_at": "2026-10-29T08:09:00+00:00",
+          "platforms": [],
+          "videos": []
+        },
+        {
+          "id": "event-62880160fa2ff731",
+          "title": "Выручка X5 в 3 квартале по МСФО выросла на 13%",
+          "url": "https://finam.ru/publications/item/vyruchka-x5-v-3-kvartale-vyrosla-na-13-20261029-1012?news_to_finamb=new_compaigns",
+          "source": "Finam — компании и рынки",
+          "published_at": "2026-10-29T07:09:21+00:00",
+          "summary": "За 9 месяцев выручка ритейлера увеличилась на 11,4%...",
+          "categories": [
+            "Retail"
+          ],
+          "primary_category": "Retail",
+          "topics": [
+            "Рынок и продажи",
+            "Финрезультаты"
+          ],
+          "brands": [
+            "X5"
+          ],
+          "score": 3.0,
+          "strategic_relevance_score": 80,
+          "relevance_reasons": [
+            "рынок / бизнес",
+            "клиент",
+            "крупный игрок",
+            "есть данные"
+          ],
+          "why_it_matters": "Показывает изменение в бизнесе ритейла: формате, продажах, ценах, ассортименте или конкурентной динамике. В фокусе: X5. Отобрано как: рынок / бизнес, клиент, крупный игрок.",
+          "client_matches": {
+            "x5": {
+              "name": "X5",
+              "score": 3.4,
+              "matches": [
+                "X5"
+              ]
+            }
+          },
+          "market_scope": "Russia",
+          "future_horizon": [],
+          "future_signal": false,
+          "content_type": "news",
+          "metrics": [
+            {
+              "type": "Выручка / оборот",
+              "value": "13%",
+              "context": "Выручка X5 в 3 квартале по МСФО выросла на 13%."
+            },
+            {
+              "type": "Выручка / оборот",
+              "value": "11,4%",
+              "context": "За 9 месяцев выручка ритейлера увеличилась на 11,4%."
+            }
+          ],
+          "source_quality": 4.0,
+          "publisher_id": "finam.ru",
+          "verification_status": "feed",
+          "editorial_version": "editorial-v1",
+          "strategic_components": {
+            "impact": 32,
+            "scale": 12,
+            "novelty": 18,
+            "utility": 11,
+            "evidence": 7
+          },
+          "eligible": true,
+          "exclusion_reason": "",
+          "strategic_theme": "retail",
+          "interpretation": "Сопоставить формат и позиционирование игроков с покупательской миссией, ценой и доступностью предложения.",
+          "interpretation_basis": "Редакционный вопрос по типу события",
+          "fact": "За 9 месяцев выручка ритейлера увеличилась на 11,4%...",
+          "evidence_label": "Публикация СМИ",
+          "independence": "unreviewed",
+          "member_ids": [
+            "0a6e244e10216643f2"
+          ],
+          "sources": [
+            {
+              "id": "0a6e244e10216643f2",
+              "url": "https://finam.ru/publications/item/vyruchka-x5-v-3-kvartale-vyrosla-na-13-20261029-1012?news_to_finamb=new_compaigns",
+              "source": "Finam — компании и рынки",
+              "platform": null,
+              "publisher_id": "finam.ru",
+              "published_at": "2026-10-29T07:09:21+00:00"
+            }
+          ],
+          "last_signal_at": "2026-10-29T07:09:21+00:00",
+          "platforms": [],
+          "image_url": "",
+          "videos": []
+        },
+        {
+          "id": "event-cb505e28a3964de6",
+          "title": "ЦБ предложил изменить закон о банкротстве для защиты владельцев облигаций",
+          "url": "https://rbc.ru/quote/29/10/2026/6ae31ae89a7947718054563a",
+          "source": "РБК — бизнес и экономика",
+          "published_at": "2026-10-29T10:32:10+00:00",
+          "summary": "В новые процедуры реструктуризации долгов компаний могут включить механизм защиты держателей облигаций — с назначением специального представителя, который будет отстаивать их интересы наравне с другими кредиторами",
+          "categories": [
+            "BanksFintech",
+            "FinanceEconomy"
+          ],
+          "primary_category": "BanksFintech",
+          "topics": [
+            "Регулирование"
+          ],
+          "brands": [],
+          "score": 2.1,
+          "strategic_relevance_score": 80,
+          "relevance_reasons": [
+            "регулирование"
+          ],
+          "why_it_matters": "Может менять банковские офферы, финтех-сервисы, клиентское поведение и коммуникационную конкуренцию. Отобрано как: регулирование.",
+          "client_matches": {},
+          "market_scope": "Russia",
+          "future_horizon": [],
+          "future_signal": false,
+          "content_type": "news",
+          "metrics": [],
+          "source_quality": 4.5,
+          "publisher_id": "rbc.ru",
+          "verification_status": "feed",
+          "editorial_version": "editorial-v1",
+          "strategic_components": {
+            "impact": 32,
+            "scale": 12,
+            "novelty": 18,
+            "utility": 11,
+            "evidence": 7
+          },
+          "eligible": true,
+          "exclusion_reason": "",
+          "strategic_theme": "bank",
+          "interpretation": "Проверить, меняются ли клиентский путь, условия продукта и конкурентное обещание для целевой аудитории.",
+          "interpretation_basis": "Редакционный вопрос по типу события",
+          "fact": "В новые процедуры реструктуризации долгов компаний могут включить механизм защиты держателей облигаций — с назначением специального представителя, который будет отстаивать их интересы наравне с другими кредиторами",
+          "evidence_label": "Публикация СМИ",
+          "independence": "unreviewed",
+          "member_ids": [
+            "432624f14631b01e7e"
+          ],
+          "sources": [
+            {
+              "id": "432624f14631b01e7e",
+              "url": "https://rbc.ru/quote/29/10/2026/6ae31ae89a7947718054563a",
+              "source": "РБК — бизнес и экономика",
+              "platform": null,
+              "publisher_id": "rbc.ru",
+              "published_at": "2026-10-29T10:32:10+00:00"
+            }
+          ],
+          "last_signal_at": "2026-10-29T10:32:10+00:00",
+          "platforms": [],
+          "image_url": "",
+          "videos": []
+        },
+        {
+          "id": "event-9b7a8e0c43593e8f",
+          "title": "Потребительские расходы россиян выросли на 4,3% ",
+          "url": "https://adindex.ru/news/tendencies/2026/10/28/350517.phtml",
+          "source": "AdIndex — реклама и медиа",
+          "published_at": "2026-10-28T07:26:00+00:00",
+          "summary": "Потребительские расходы россиян выросли на 4,3% ",
+          "categories": [
+            "MediaAdvertising",
+            "TechnologyAI",
+            "Consumer"
+          ],
+          "primary_category": "MediaAdvertising",
+          "topics": [
+            "Потребитель",
+            "Маркетинг и медиа",
+            "Digital и технологии"
+          ],
+          "brands": [],
+          "score": 4.1,
+          "strategic_relevance_score": 90,
+          "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
+          "market_scope": "Russia",
+          "metrics": [
+            {
+              "type": "Рыночная метрика",
+              "value": "4,3%",
+              "context": "Потребительские расходы россиян выросли на 4,3% . Новости Бизнес СМИ AdIndex из рубрики Тенденции — Потребительские расходы россиян выросли на 4,3% — Новост"
+            }
+          ],
+          "image_url": "https://adindex.ru/assets/seo/2026_10/facebook_350517.png?ts=1793171480",
+          "source_quality": 4.5,
+          "content_type": "news",
+          "future_signal": false,
+          "future_horizon": [],
+          "pdf_urls": [],
+          "research_primary": false,
+          "publisher_id": "adindex.ru",
+          "verification_status": "ok",
+          "editorial_version": "editorial-v1",
+          "strategic_components": {
+            "impact": 32,
+            "scale": 18,
+            "novelty": 18,
+            "utility": 15,
+            "evidence": 7
+          },
+          "eligible": true,
+          "exclusion_reason": "",
+          "strategic_theme": "consumer",
+          "interpretation": "Сопоставить результаты с аудиторией бренда и критериями выбора. Не переносить данные отдельной площадки на весь рынок.",
+          "interpretation_basis": "Редакционный вопрос по типу события",
+          "fact": "Потребительские расходы россиян выросли на 4,3% ",
+          "evidence_label": "Публикация СМИ",
+          "independence": "unreviewed",
+          "member_ids": [
+            "27306e9ce52ae88f8c"
+          ],
+          "sources": [
+            {
+              "id": "27306e9ce52ae88f8c",
+              "url": "https://adindex.ru/news/tendencies/2026/10/28/350517.phtml",
+              "source": "AdIndex — реклама и медиа",
+              "platform": null,
+              "publisher_id": "adindex.ru",
+              "published_at": "2026-10-28T07:26:00+00:00"
+            }
+          ],
+          "last_signal_at": "2026-10-28T07:26:00+00:00",
+          "platforms": [],
+          "videos": []
+        },
+        {
+          "id": "event-7dfbca9aebb5d36a",
+          "title": "Маркетплейсы запустят «Черную пятницу» с 12 ноября - RETAILER.ru",
+          "url": "https://retailer.ru/marketplejsy-zapustjat-chernuju-pjatnicu-s-12-nojabrja",
+          "source": "Retailer.ru",
+          "published_at": "2026-10-28T08:49:59+00:00",
+          "summary": "Раньше остальных распродажа стартует в «М.Видео» — 12 ноября, сразу после завершения акции «11.11».",
+          "categories": [
+            "DeliveryEcom",
+            "Retail",
+            "TechnologyAI"
+          ],
+          "primary_category": "DeliveryEcom",
+          "topics": [
+            "Рынок и продажи",
+            "Digital и технологии"
+          ],
+          "brands": [],
+          "score": 3.4,
+          "strategic_relevance_score": 90,
+          "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
+          "market_scope": "Russia",
+          "metrics": [],
+          "image_url": "",
+          "source_quality": 4.3,
+          "content_type": "news",
+          "future_signal": false,
+          "future_horizon": [],
+          "publisher_id": "retailer.ru",
+          "verification_status": "ok",
+          "editorial_version": "editorial-v1",
+          "strategic_components": {
+            "impact": 32,
+            "scale": 18,
+            "novelty": 18,
+            "utility": 15,
+            "evidence": 7
+          },
+          "eligible": true,
+          "exclusion_reason": "",
+          "strategic_theme": "commerce",
+          "interpretation": "Проверить приоритет каналов продаж и доставки, ассортимент и экономику привлечения клиента в выбранной категории.",
+          "interpretation_basis": "Редакционный вопрос по типу события",
+          "fact": "Раньше остальных распродажа стартует в «М.Видео» — 12 ноября, сразу после завершения акции «11.11».",
+          "evidence_label": "Публикация СМИ",
+          "independence": "unreviewed",
+          "member_ids": [
+            "e3d66902479af8ef07"
+          ],
+          "sources": [
+            {
+              "id": "e3d66902479af8ef07",
+              "url": "https://retailer.ru/marketplejsy-zapustjat-chernuju-pjatnicu-s-12-nojabrja",
+              "source": "Retailer.ru",
+              "platform": null,
+              "publisher_id": "retailer.ru",
+              "published_at": "2026-10-28T08:49:59+00:00"
+            }
+          ],
+          "last_signal_at": "2026-10-28T08:49:59+00:00",
+          "platforms": [],
+          "videos": []
+        },
+        {
+          "id": "event-fbd04b6f51cff433",
+          "title": "Wildberries открыл самовывоз из магазинов продавцов для всех покупателей",
+          "url": "https://retail.ru/news/wildberries-otkryla-samovyvoz-iz-magazinov-prodavtsov-dlya-vsekh-pokupateley-28-oktyabrya-2026-283779",
+          "source": "Retail.ru — новости",
+          "published_at": "2026-10-28T07:50:53+00:00",
+          "summary": "",
+          "categories": [
+            "Retail",
+            "DeliveryEcom",
+            "Consumer"
+          ],
+          "primary_category": "Retail",
+          "topics": [
+            "Потребитель",
+            "Доставка",
+            "Форматы и экспансия"
+          ],
+          "brands": [
+            "Wildberries"
+          ],
+          "score": 2.5,
+          "strategic_relevance_score": 90,
+          "relevance_reasons": [
+            "потребитель",
+            "доставка",
+            "крупный игрок"
+          ],
+          "why_it_matters": "Показывает изменение в бизнесе ритейла: формате, продажах, ценах, ассортименте или конкурентной динамике. В фокусе: Wildberries. Отобрано как: потребитель, доставка, крупный игрок.",
+          "client_matches": {},
+          "market_scope": "Russia",
+          "future_horizon": [],
+          "future_signal": false,
+          "content_type": "news",
+          "metrics": [],
+          "source_quality": 4.5,
+          "publisher_id": "retail.ru",
+          "verification_status": "feed",
+          "editorial_version": "editorial-v1",
+          "strategic_components": {
+            "impact": 32,
+            "scale": 18,
+            "novelty": 18,
+            "utility": 15,
+            "evidence": 7
+          },
+          "eligible": true,
+          "exclusion_reason": "",
+          "strategic_theme": "consumer",
+          "interpretation": "Сопоставить результаты с аудиторией бренда и критериями выбора. Не переносить данные отдельной площадки на весь рынок.",
+          "interpretation_basis": "Редакционный вопрос по типу события",
+          "fact": "Wildberries открыл самовывоз из магазинов продавцов для всех покупателей",
+          "evidence_label": "Публикация СМИ",
+          "independence": "unreviewed",
+          "member_ids": [
+            "ccc8c27ced1077798a"
+          ],
+          "sources": [
+            {
+              "id": "ccc8c27ced1077798a",
+              "url": "https://retail.ru/news/wildberries-otkryla-samovyvoz-iz-magazinov-prodavtsov-dlya-vsekh-pokupateley-28-oktyabrya-2026-283779",
+              "source": "Retail.ru — новости",
+              "platform": null,
+              "publisher_id": "retail.ru",
+              "published_at": "2026-10-28T07:50:53+00:00"
+            }
+          ],
+          "last_signal_at": "2026-10-28T07:50:53+00:00",
+          "platforms": [],
+          "image_url": "",
+          "videos": []
+        },
+        {
+          "id": "event-ecc2c2f80deba8b4",
+          "title": "«Ромир»: доля покупателей готовых завтраков выросла на 32%",
+          "url": "https://retail.ru/news/romir-dolya-pokupateley-gotovykh-zavtrakov-vyrosla-na-32--28-oktyabrya-2026-283810",
+          "source": "Retail.ru — новости",
+          "published_at": "2026-10-28T12:47:50+00:00",
+          "summary": "",
+          "categories": [
+            "Consumer"
+          ],
+          "primary_category": "Consumer",
+          "topics": [
+            "Потребитель"
+          ],
+          "brands": [],
+          "score": 2.0,
+          "strategic_relevance_score": 90,
+          "relevance_reasons": [
+            "потребитель",
+            "есть данные"
+          ],
+          "why_it_matters": "Материал влияет на рыночный или конкурентный контекст. Отобрано как: потребитель, есть данные.",
+          "client_matches": {},
+          "market_scope": "Russia",
+          "future_horizon": [],
+          "future_signal": false,
+          "content_type": "news",
+          "metrics": [
+            {
+              "type": "Спрос",
+              "value": "32%",
+              "context": "«Ромир»: доля покупателей готовых завтраков выросла на 32%."
+            }
+          ],
+          "source_quality": 4.5,
+          "publisher_id": "retail.ru",
+          "verification_status": "feed",
+          "editorial_version": "editorial-v1",
+          "strategic_components": {
+            "impact": 32,
+            "scale": 18,
+            "novelty": 18,
+            "utility": 15,
+            "evidence": 7
+          },
+          "eligible": true,
+          "exclusion_reason": "",
+          "strategic_theme": "consumer",
+          "interpretation": "Сопоставить результаты с аудиторией бренда и критериями выбора. Не переносить данные отдельной площадки на весь рынок.",
+          "interpretation_basis": "Редакционный вопрос по типу события",
+          "fact": "«Ромир»: доля покупателей готовых завтраков выросла на 32%",
+          "evidence_label": "Публикация СМИ",
+          "independence": "unreviewed",
+          "member_ids": [
+            "5e08ca139b59ebb900"
+          ],
+          "sources": [
+            {
+              "id": "5e08ca139b59ebb900",
+              "url": "https://retail.ru/news/romir-dolya-pokupateley-gotovykh-zavtrakov-vyrosla-na-32--28-oktyabrya-2026-283810",
+              "source": "Retail.ru — новости",
+              "platform": null,
+              "publisher_id": "retail.ru",
+              "published_at": "2026-10-28T12:47:50+00:00"
+            }
+          ],
+          "last_signal_at": "2026-10-28T12:47:50+00:00",
+          "platforms": [],
+          "image_url": "",
+          "videos": []
+        },
+        {
+          "id": "event-2b4af6ec6474f9d5",
+          "title": "Wildberries запускает сервис самовывоза из магазинов для всех покупателей",
+          "url": "https://cnews.ru/news/line/2026-10-28_wildberries_zapuskaet_servis_samovyvoza_1",
+          "source": "CNews — бизнес и технологии",
+          "published_at": "2026-10-28T10:18:00+00:00",
+          "summary": "Wildberries (входит в группу RWB) объявил о полноценном запуске Click&Collect — сервиса самовывоза товаров из магазинов продавцов....",
+          "categories": [
+            "Retail",
+            "DeliveryEcom",
+            "Consumer"
+          ],
+          "primary_category": "Retail",
+          "topics": [
+            "Потребитель",
+            "Доставка",
+            "Запуск продукта/сервиса"
+          ],
+          "brands": [
+            "Wildberries"
+          ],
+          "score": 1.8,
+          "strategic_relevance_score": 90,
+          "relevance_reasons": [
+            "потребитель",
+            "доставка",
+            "крупный игрок"
+          ],
+          "why_it_matters": "Показывает изменение в бизнесе ритейла: формате, продажах, ценах, ассортименте или конкурентной динамике. В фокусе: Wildberries. Отобрано как: потребитель, доставка, крупный игрок.",
+          "client_matches": {},
+          "market_scope": "Russia",
+          "future_horizon": [],
+          "future_signal": false,
+          "content_type": "news",
+          "metrics": [],
+          "source_quality": 4.1,
+          "publisher_id": "cnews.ru",
+          "verification_status": "feed",
+          "editorial_version": "editorial-v1",
+          "strategic_components": {
+            "impact": 32,
+            "scale": 18,
+            "novelty": 18,
+            "utility": 15,
+            "evidence": 7
+          },
+          "eligible": true,
+          "exclusion_reason": "",
+          "strategic_theme": "consumer",
+          "interpretation": "Сопоставить результаты с аудиторией бренда и критериями выбора. Не переносить данные отдельной площадки на весь рынок.",
+          "interpretation_basis": "Редакционный вопрос по типу события",
+          "fact": "Wildberries (входит в группу RWB) объявил о полноценном запуске Click&Collect — сервиса самовывоза товаров из магазинов продавцов....",
+          "evidence_label": "Публикация СМИ",
+          "independence": "unreviewed",
+          "member_ids": [
+            "055910d585a199944c"
+          ],
+          "sources": [
+            {
+              "id": "055910d585a199944c",
+              "url": "https://cnews.ru/news/line/2026-10-28_wildberries_zapuskaet_servis_samovyvoza_1",
+              "source": "CNews — бизнес и технологии",
+              "platform": null,
+              "publisher_id": "cnews.ru",
+              "published_at": "2026-10-28T10:18:00+00:00"
+            }
+          ],
+          "last_signal_at": "2026-10-28T10:18:00+00:00",
+          "platforms": [],
+          "image_url": "",
+          "videos": []
+        },
+        {
+          "id": "event-f4fcfa97930dcc22",
+          "title": "T2 внедрил предсказывающие модели для более точного SMS-таргетинга",
+          "url": "https://cnews.ru/news/line/2026-10-28_t2_vnedril_predskazyvayushchie",
+          "source": "CNews — бизнес и технологии",
+          "published_at": "2026-10-28T10:12:00+00:00",
+          "summary": "T2, российский оператор мобильной связи, обновил алгоритмы подбора аудитории для рекламных SMS-рассылок. Оператор...",
+          "categories": [
+            "MediaAdvertising",
+            "Telecom"
+          ],
+          "primary_category": "MediaAdvertising",
+          "topics": [
+            "Потребитель",
+            "Маркетинг и медиа"
+          ],
+          "brands": [
+            "T2"
+          ],
+          "score": 1.6,
+          "strategic_relevance_score": 90,
+          "relevance_reasons": [
+            "потребитель",
+            "маркетинг",
+            "крупный игрок"
+          ],
+          "why_it_matters": "Материал влияет на рыночный или конкурентный контекст. В фокусе: T2. Отобрано как: потребитель, маркетинг, крупный игрок.",
+          "client_matches": {},
+          "market_scope": "Russia",
+          "future_horizon": [],
+          "future_signal": false,
+          "content_type": "news",
+          "metrics": [],
+          "source_quality": 4.1,
+          "publisher_id": "cnews.ru",
+          "verification_status": "feed",
+          "editorial_version": "editorial-v1",
+          "strategic_components": {
+            "impact": 32,
+            "scale": 18,
+            "novelty": 18,
+            "utility": 15,
+            "evidence": 7
+          },
+          "eligible": true,
+          "exclusion_reason": "",
+          "strategic_theme": "ad_market",
+          "interpretation": "Проверить, меняет ли событие выбор каналов, медиабюджет или требования к измерению рекламного результата.",
+          "interpretation_basis": "Редакционный вопрос по типу события",
+          "fact": "T2, российский оператор мобильной связи, обновил алгоритмы подбора аудитории для рекламных SMS-рассылок. Оператор...",
+          "evidence_label": "Публикация СМИ",
+          "independence": "unreviewed",
+          "member_ids": [
+            "320ff4d3f535091a98"
+          ],
+          "sources": [
+            {
+              "id": "320ff4d3f535091a98",
+              "url": "https://cnews.ru/news/line/2026-10-28_t2_vnedril_predskazyvayushchie",
+              "source": "CNews — бизнес и технологии",
+              "platform": null,
+              "publisher_id": "cnews.ru",
+              "published_at": "2026-10-28T10:12:00+00:00"
+            }
+          ],
+          "last_signal_at": "2026-10-28T10:12:00+00:00",
+          "platforms": [],
+          "image_url": "",
+          "videos": []
+        },
+        {
+          "id": "event-4605b490454ed2d1",
+          "title": "«М.Видео»: за 9 месяцев спрос на восстановленные смартфоны вырос на 4% год к году",
+          "url": "https://cnews.ru/news/line/2026-10-28_mvideo_za_9_mesyatsev_spros",
+          "source": "CNews — бизнес и технологии",
+          "published_at": "2026-10-28T09:46:00+00:00",
+          "summary": "ПАО «М.Видео», российская компания в сфере электронной коммерции и розничной торговли электроникой и бытовой...",
+          "categories": [
+            "Retail"
+          ],
+          "primary_category": "Retail",
+          "topics": [
+            "Потребитель"
+          ],
+          "brands": [],
+          "score": 1.5,
+          "strategic_relevance_score": 90,
+          "relevance_reasons": [
+            "потребитель",
+            "есть данные"
+          ],
+          "why_it_matters": "Показывает изменение в бизнесе ритейла: формате, продажах, ценах, ассортименте или конкурентной динамике. Отобрано как: потребитель, есть данные.",
+          "client_matches": {},
+          "market_scope": "Russia",
+          "future_horizon": [],
+          "future_signal": false,
+          "content_type": "news",
+          "metrics": [
+            {
+              "type": "Спрос",
+              "value": "4%",
+              "context": "Видео»: за 9 месяцев спрос на восстановленные смартфоны вырос на 4% год к году."
+            }
+          ],
+          "source_quality": 4.1,
+          "publisher_id": "cnews.ru",
+          "verification_status": "feed",
+          "editorial_version": "editorial-v1",
+          "strategic_components": {
+            "impact": 32,
+            "scale": 18,
+            "novelty": 18,
+            "utility": 15,
+            "evidence": 7
+          },
+          "eligible": true,
+          "exclusion_reason": "",
+          "strategic_theme": "consumer",
+          "interpretation": "Сопоставить результаты с аудиторией бренда и критериями выбора. Не переносить данные отдельной площадки на весь рынок.",
+          "interpretation_basis": "Редакционный вопрос по типу события",
+          "fact": "ПАО «М.Видео», российская компания в сфере электронной коммерции и розничной торговли электроникой и бытовой...",
+          "evidence_label": "Публикация СМИ",
+          "independence": "unreviewed",
+          "member_ids": [
+            "824523bb8103b8631a"
+          ],
+          "sources": [
+            {
+              "id": "824523bb8103b8631a",
+              "url": "https://cnews.ru/news/line/2026-10-28_mvideo_za_9_mesyatsev_spros",
+              "source": "CNews — бизнес и технологии",
+              "platform": null,
+              "publisher_id": "cnews.ru",
+              "published_at": "2026-10-28T09:46:00+00:00"
+            }
+          ],
+          "last_signal_at": "2026-10-28T09:46:00+00:00",
+          "platforms": [],
+          "image_url": "",
+          "videos": []
+        },
+        {
+          "id": "event-401aad174f6e12ec",
+          "title": "«Сбер» повысил прогноз по инфляции и скорректировал прогноз по ВВП",
+          "url": "https://rbc.ru/economics/24/09/2026/6ab5200edb0b6c27fdd870a4",
+          "source": "РБК — бизнес и экономика",
+          "published_at": "2026-10-28T10:49:17+00:00",
+          "summary": "Сбербанк ожидает, что по итогам 2026 года рост ВВП составит 0,5–1%, а инфляция достигнет 6,5–7,5%. При этом финдиректор банка Скворцов отметил замедление потребительской активности на фоне более медленного роста доходов населения",
+          "categories": [
+            "FinanceEconomy",
+            "BanksFintech",
+            "Consumer"
+          ],
+          "primary_category": "FinanceEconomy",
+          "topics": [
+            "Потребитель",
+            "Цены и промо",
+            "Исследования и прогнозы"
+          ],
+          "brands": [
+            "Сбер"
+          ],
+          "score": 4.3,
+          "strategic_relevance_score": 86,
+          "relevance_reasons": [
+            "потребитель",
+            "крупный игрок",
+            "будущий горизонт",
+            "есть данные"
+          ],
+          "why_it_matters": "Может менять банковские офферы, финтех-сервисы, клиентское поведение и коммуникационную конкуренцию. В фокусе: Сбер. Горизонт: future. Отобрано как: потребитель, крупный игрок, будущий горизонт.",
+          "client_matches": {},
+          "market_scope": "Russia",
+          "future_horizon": [
+            "future"
+          ],
+          "future_signal": true,
+          "content_type": "forecast",
+          "metrics": [
+            {
+              "type": "Спрос",
+              "value": "1%",
+              "context": "Сбербанк ожидает, что по итогам 2026 года рост ВВП составит 0,5–1%, а инфляция достигнет 6,5–7,5%."
+            },
+            {
+              "type": "Выручка / оборот",
+              "value": "7,5%",
+              "context": "Сбербанк ожидает, что по итогам 2026 года рост ВВП составит 0,5–1%, а инфляция достигнет 6,5–7,5%."
+            }
+          ],
+          "source_quality": 4.5,
+          "publisher_id": "rbc.ru",
+          "verification_status": "error",
+          "editorial_version": "editorial-v1",
+          "strategic_components": {
+            "impact": 32,
+            "scale": 18,
+            "novelty": 18,
+            "utility": 11,
+            "evidence": 7
+          },
+          "eligible": true,
+          "exclusion_reason": "",
+          "strategic_theme": "rates",
+          "interpretation": "Проверить предпосылки платежеспособного спроса и чувствительность аудитории к цене; учитывать период данных.",
+          "interpretation_basis": "Редакционный вопрос по типу события",
+          "fact": "Сбербанк ожидает, что по итогам 2026 года рост ВВП составит 0,5–1%, а инфляция достигнет 6,5–7,5%. При этом финдиректор банка Скворцов отметил замедление потребительской активности на фоне более медленного роста доходов населения",
+          "evidence_label": "Публикация СМИ",
+          "independence": "unreviewed",
+          "member_ids": [
+            "7c2d6b33aa0007cb3a"
+          ],
+          "sources": [
+            {
+              "id": "7c2d6b33aa0007cb3a",
+              "url": "https://rbc.ru/economics/24/09/2026/6ab5200edb0b6c27fdd870a4",
+              "source": "РБК — бизнес и экономика",
+              "platform": null,
+              "publisher_id": "rbc.ru",
+              "published_at": "2026-10-28T10:49:17+00:00"
+            }
+          ],
+          "last_signal_at": "2026-10-28T10:49:17+00:00",
+          "platforms": [],
+          "image_url": "",
+          "videos": []
+        },
+        {
+          "id": "event-e95af4a3b9cf685d",
+          "title": "Продажи витаминных комплексов за 9 месяцев выросли на 25,6% | New Retail",
+          "url": "https://new-retail.ru/novosti/retail/prodazhi_vitaminnykh_kompleksov_za_9_mesyatsev_vyrosli_na_25_6",
+          "source": "New Retail — отраслевые новости",
+          "published_at": "2026-10-28T21:00:00+00:00",
+          "summary": "За январь — сентябрь 2026 года россияне приобрели 43,8 миллиона упаковок витаминных и минеральных комплексов в формате БАДов — это на 25,6% превышает показатель аналогичного периода прошлого года.",
+          "categories": [
+            "Retail"
+          ],
+          "primary_category": "Retail",
+          "topics": [
+            "Рынок и продажи"
+          ],
+          "brands": [],
+          "score": 3.3,
+          "strategic_relevance_score": 86,
+          "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
+          "market_scope": "Russia",
+          "metrics": [
+            {
+              "type": "Продажи",
+              "value": "25,6%",
+              "context": "Продажи витаминных комплексов за 9 месяцев выросли на 25,6% | New Retail. За январь — сентябрь 2026 года россияне приобрели 43,8 миллиона упаковок витаминных и минеральн"
+            }
+          ],
+          "image_url": "https://new-retail.ru/upload/iblock/cc1/babmgad3kpk62pvw74qrx7mj2gu6rrcl.jpg",
+          "source_quality": 4.2,
+          "content_type": "news",
+          "future_signal": false,
+          "future_horizon": [],
+          "pdf_urls": [],
+          "research_primary": false,
+          "publisher_id": "new-retail.ru",
+          "verification_status": "ok",
+          "editorial_version": "editorial-v1",
+          "strategic_components": {
+            "impact": 32,
+            "scale": 18,
+            "novelty": 18,
+            "utility": 11,
+            "evidence": 7
+          },
+          "eligible": true,
+          "exclusion_reason": "",
+          "strategic_theme": "retail",
+          "interpretation": "Сопоставить формат и позиционирование игроков с покупательской миссией, ценой и доступностью предложения.",
+          "interpretation_basis": "Редакционный вопрос по типу события",
+          "fact": "За январь — сентябрь 2026 года россияне приобрели 43,8 миллиона упаковок витаминных и минеральных комплексов в формате БАДов — это на 25,6% превышает показатель аналогичного периода прошлого года.",
+          "evidence_label": "Публикация СМИ",
+          "independence": "unreviewed",
+          "member_ids": [
+            "54eb822c98b3810d37"
+          ],
+          "sources": [
+            {
+              "id": "54eb822c98b3810d37",
+              "url": "https://new-retail.ru/novosti/retail/prodazhi_vitaminnykh_kompleksov_za_9_mesyatsev_vyrosli_na_25_6",
+              "source": "New Retail — отраслевые новости",
+              "platform": null,
+              "publisher_id": "new-retail.ru",
+              "published_at": "2026-10-28T21:00:00+00:00"
+            }
+          ],
+          "last_signal_at": "2026-10-28T21:00:00+00:00",
+          "platforms": [],
+          "videos": []
+        },
+        {
+          "id": "event-0d9e29634342eca3",
+          "title": "В III квартале 2026 года петербуржцы продолжают обгонять москвичей по расходам на квартирный ремонт, считают в INFOLine",
+          "url": "https://infoline.spb.ru/news?news=309727",
+          "source": "INFOLine",
+          "published_at": "2026-10-28T00:00:00+00:00",
+          "summary": "В июле–сентябре 2026 года цены на квартирный ремонт в Санкт-Петербурге год к году выросли на 7,2% до 11 688 руб./кв., рассчитали авторы исследования INFOLine «Индекс российского ремонта», включенного в обзор «Строительная отрасль РФ: жилищное, гражданское, инфраструктурное строительство». ",
+          "categories": [
+            "RealEstate",
+            "Retail"
+          ],
+          "primary_category": "RealEstate",
+          "topics": [
+            "Исследования и прогнозы"
+          ],
+          "brands": [],
+          "score": 4.0,
+          "strategic_relevance_score": 82,
+          "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы. Есть исследовательская или прогнозная база.",
+          "market_scope": "Russia",
+          "metrics": [
+            {
+              "type": "Рыночная метрика",
+              "value": "7,2%",
+              "context": "юле–сентябре 2026 года цены на квартирный ремонт в Санкт-Петербурге год к году выросли на 7,2% до 11 688 руб./кв., рассчитали авторы исследования INFOLine «Индекс российского ремонта», включ"
+            }
+          ],
+          "image_url": "",
+          "source_quality": 4.8,
+          "content_type": "research",
+          "future_signal": false,
+          "future_horizon": [],
+          "pdf_urls": [],
+          "research_primary": true,
+          "publisher_id": "infoline.spb.ru",
+          "verification_status": "ok",
+          "editorial_version": "editorial-v1",
+          "strategic_components": {
+            "impact": 29,
+            "scale": 18,
+            "novelty": 15,
+            "utility": 11,
+            "evidence": 9
+          },
+          "eligible": true,
+          "exclusion_reason": "",
+          "strategic_theme": "mortgage",
+          "interpretation": "Пересмотреть доступность предложения для целевой аудитории и аргументы покупки с учетом условий финансирования.",
+          "interpretation_basis": "Редакционный вопрос по типу события",
+          "fact": "В июле–сентябре 2026 года цены на квартирный ремонт в Санкт-Петербурге год к году выросли на 7,2% до 11 688 руб./кв., рассчитали авторы исследования INFOLine «Индекс российского ремонта», включенного в обзор «Строительная отрасль РФ: жилищное, гражданское, инфраструктурное строительство». ",
+          "evidence_label": "Первичные данные",
+          "independence": "unreviewed",
+          "member_ids": [
+            "28be8cf0da8e77a65c"
+          ],
+          "sources": [
+            {
+              "id": "28be8cf0da8e77a65c",
+              "url": "https://infoline.spb.ru/news?news=309727",
+              "source": "INFOLine",
+              "platform": null,
+              "publisher_id": "infoline.spb.ru",
+              "published_at": "2026-10-28T00:00:00+00:00"
+            }
+          ],
+          "last_signal_at": "2026-10-28T00:00:00+00:00",
+          "platforms": [],
+          "videos": []
+        },
+        {
+          "id": "event-27f3fcb0298294d8",
+          "title": "Недельная инфляция в России составила 0,08% против 0,05% неделей ранее",
+          "url": "https://finam.ru/publications/item/nedelnaya-inflyatsiya-v-rossii-sostavila-008-protiv-005-nedeley-ranee-20261028-1908?news_to_finamb=new_compaigns",
+          "source": "Finam — компании и рынки",
+          "published_at": "2026-10-28T16:08:28+00:00",
+          "summary": "По данным Минэкономразвития, инфляция в России на 26 октября составила 7,11% в годовом выражении...",
+          "categories": [
+            "FinanceEconomy"
+          ],
+          "primary_category": "FinanceEconomy",
+          "topics": [
+            "Цены и промо",
+            "Исследования и прогнозы"
+          ],
+          "brands": [],
+          "score": 2.1,
+          "strategic_relevance_score": 82,
+          "relevance_reasons": [
+            "есть данные"
+          ],
+          "why_it_matters": "Задает макроконтекст для спроса, потребительских расходов и бизнес-планирования. Отобрано как: есть данные.",
+          "client_matches": {},
+          "market_scope": "Russia",
+          "future_horizon": [],
+          "future_signal": false,
+          "content_type": "news",
+          "metrics": [
+            {
+              "type": "Цены",
+              "value": "0,08%",
+              "context": "Недельная инфляция в России составила 0,08% против 0,05% неделей ранее."
+            },
+            {
+              "type": "Цены",
+              "value": "0,05%",
+              "context": "Недельная инфляция в России составила 0,08% против 0,05% неделей ранее."
+            },
+            {
+              "type": "Цены",
+              "value": "7,11%",
+              "context": "По данным Минэкономразвития, инфляция в России на 26 октября составила 7,11% в годовом выражении."
+            }
+          ],
+          "source_quality": 4.0,
+          "publisher_id": "finam.ru",
+          "verification_status": "feed",
+          "editorial_version": "editorial-v1",
+          "strategic_components": {
+            "impact": 29,
+            "scale": 18,
+            "novelty": 15,
+            "utility": 11,
+            "evidence": 9
+          },
+          "eligible": true,
+          "exclusion_reason": "",
+          "strategic_theme": "rates",
+          "interpretation": "Проверить предпосылки платежеспособного спроса и чувствительность аудитории к цене; учитывать период данных.",
+          "interpretation_basis": "Редакционный вопрос по типу события",
+          "fact": "По данным Минэкономразвития, инфляция в России на 26 октября составила 7,11% в годовом выражении...",
+          "evidence_label": "Публикация СМИ",
+          "independence": "unreviewed",
+          "member_ids": [
+            "73b94d2efb70a1c674"
+          ],
+          "sources": [
+            {
+              "id": "73b94d2efb70a1c674",
+              "url": "https://finam.ru/publications/item/nedelnaya-inflyatsiya-v-rossii-sostavila-008-protiv-005-nedeley-ranee-20261028-1908?news_to_finamb=new_compaigns",
+              "source": "Finam — компании и рынки",
+              "platform": null,
+              "publisher_id": "finam.ru",
+              "published_at": "2026-10-28T16:08:28+00:00"
+            }
+          ],
+          "last_signal_at": "2026-10-28T16:08:28+00:00",
+          "platforms": [],
+          "image_url": "",
+          "videos": []
+        },
+        {
+          "id": "event-103b2d005cca9190",
+          "title": "Fix Price подвёл финансовые итоги — выручка выросла на 9,1% | New Retail",
+          "url": "https://new-retail.ru/novosti/retail/fix_price_podvyel_finansovye_itogi_vyruchka_vyrosla_na_9_1",
+          "source": "New Retail — отраслевые новости",
+          "published_at": "2026-10-28T21:00:00+00:00",
+          "summary": "ПАО «Фикс Прайс» представило операционные и финансовые итоги за третий квартал и девять месяцев 2026 года.",
+          "categories": [
+            "Retail",
+            "FinanceEconomy"
+          ],
+          "primary_category": "Retail",
+          "topics": [
+            "Рынок и продажи",
+            "Цены и промо"
+          ],
+          "brands": [],
+          "score": 3.4,
+          "strategic_relevance_score": 80,
+          "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
+          "market_scope": "Russia",
+          "metrics": [
+            {
+              "type": "Выручка / оборот",
+              "value": "9,1%",
+              "context": "Fix Price подвёл финансовые итоги — выручка выросла на 9,1% | New Retail. ПАО «Фикс Прайс» представило операционные и финансовые итоги за третий квартал и девять месяцев"
+            }
+          ],
+          "image_url": "https://new-retail.ru/upload/iblock/da7/u7g8m8txk1gf2r0w7xe3bj00df8u4qvh.jpg",
+          "source_quality": 4.2,
+          "content_type": "news",
+          "future_signal": false,
+          "future_horizon": [],
+          "pdf_urls": [],
+          "research_primary": false,
+          "publisher_id": "new-retail.ru",
+          "verification_status": "ok",
+          "editorial_version": "editorial-v1",
+          "strategic_components": {
+            "impact": 32,
+            "scale": 12,
+            "novelty": 18,
+            "utility": 11,
+            "evidence": 7
+          },
+          "eligible": true,
+          "exclusion_reason": "",
+          "strategic_theme": "retail",
+          "interpretation": "Сопоставить формат и позиционирование игроков с покупательской миссией, ценой и доступностью предложения.",
+          "interpretation_basis": "Редакционный вопрос по типу события",
+          "fact": "ПАО «Фикс Прайс» представило операционные и финансовые итоги за третий квартал и девять месяцев 2026 года.",
+          "evidence_label": "Публикация СМИ",
+          "independence": "unreviewed",
+          "member_ids": [
+            "66ae8af79f67a55846"
+          ],
+          "sources": [
+            {
+              "id": "66ae8af79f67a55846",
+              "url": "https://new-retail.ru/novosti/retail/fix_price_podvyel_finansovye_itogi_vyruchka_vyrosla_na_9_1",
+              "source": "New Retail — отраслевые новости",
+              "platform": null,
+              "publisher_id": "new-retail.ru",
+              "published_at": "2026-10-28T21:00:00+00:00"
+            }
+          ],
+          "last_signal_at": "2026-10-28T21:00:00+00:00",
+          "platforms": [],
+          "videos": []
+        },
+        {
+          "id": "event-a4a963eb8ccd7e96",
+          "title": "«Ростелеком» в Югре и администрация Когалыма договорились о цифровизации городской системы безопасности",
+          "url": "https://cnews.ru/news/line/2026-10-28_rostelekom_v_yugre_i_administratsiya",
+          "source": "CNews — бизнес и технологии",
+          "published_at": "2026-10-28T06:14:00+00:00",
+          "summary": "«Ростелеком» и администрация Когалыма подписали соглашение о развитии цифровой инфраструктуры и систем безопасности....",
+          "categories": [
+            "Telecom"
+          ],
+          "primary_category": "Telecom",
+          "topics": [
+            "Digital и технологии"
+          ],
+          "brands": [
+            "Ростелеком"
+          ],
+          "score": 1.5,
+          "strategic_relevance_score": 80,
+          "relevance_reasons": [
+            "крупный игрок"
+          ],
+          "why_it_matters": "Материал влияет на рыночный или конкурентный контекст. В фокусе: Ростелеком. Отобрано как: крупный игрок.",
+          "client_matches": {},
+          "market_scope": "Russia",
+          "future_horizon": [],
+          "future_signal": false,
+          "content_type": "news",
+          "metrics": [],
+          "source_quality": 4.1,
+          "publisher_id": "cnews.ru",
+          "verification_status": "feed",
+          "editorial_version": "editorial-v1",
+          "strategic_components": {
+            "impact": 32,
+            "scale": 12,
+            "novelty": 18,
+            "utility": 11,
+            "evidence": 7
+          },
+          "eligible": true,
+          "exclusion_reason": "",
+          "strategic_theme": "telecom",
+          "interpretation": "Проверить, какие новые сценарии сервиса становятся доступны аудитории и меняют конкурентное предложение.",
+          "interpretation_basis": "Редакционный вопрос по типу события",
+          "fact": "«Ростелеком» и администрация Когалыма подписали соглашение о развитии цифровой инфраструктуры и систем безопасности....",
+          "evidence_label": "Публикация СМИ",
+          "independence": "unreviewed",
+          "member_ids": [
+            "3a29979a1ca3a28d15"
+          ],
+          "sources": [
+            {
+              "id": "3a29979a1ca3a28d15",
+              "url": "https://cnews.ru/news/line/2026-10-28_rostelekom_v_yugre_i_administratsiya",
+              "source": "CNews — бизнес и технологии",
+              "platform": null,
+              "publisher_id": "cnews.ru",
+              "published_at": "2026-10-28T06:14:00+00:00"
+            }
+          ],
+          "last_signal_at": "2026-10-28T06:14:00+00:00",
+          "platforms": [],
+          "image_url": "",
+          "videos": []
+        },
+        {
+          "id": "event-2ee7d746d55b84d8",
+          "title": "Реальные потребительские расходы выросли в сентябре на 2,9–4,3% год к году",
+          "url": "https://kommersant.ru/doc/9062345",
+          "source": "Коммерсантъ — новости",
+          "published_at": "2026-10-27T23:16:22+00:00",
+          "summary": "Потребительские расходы в сентябре выросли на 2,9–4,3% год к годуВ сентябре реальные потребительские расходы в годовом выражении выросли на 2,9% — по оценке Альфа-банка, и на 4,3% — по данным «СберИндекса» (траты по картам «Сбера»). Аналитики Альфа-банка отмечают постепенное замедление роста спроса на непродовольственные товары при сохранении наращивания трат в продовольственном сегменте темпом выше средних за последние годы. Рост расходов на услуги и общепит, напротив, заметно уступал среднегодовым показателям за 2021–2026 годы.При этом поддержка потребления кредитами в сентябре сохранялась. По расчетам Райффайзенбанка, сделанным на основе д",
+          "categories": [
+            "BanksFintech",
+            "FinanceEconomy",
+            "Consumer"
+          ],
+          "primary_category": "BanksFintech",
+          "topics": [
+            "Потребитель",
+            "Исследования и прогнозы"
+          ],
+          "brands": [
+            "Альфа-Банк"
+          ],
+          "score": 3.8,
+          "strategic_relevance_score": 92,
+          "relevance_reasons": [
+            "потребитель",
+            "клиент",
+            "крупный игрок",
+            "есть данные"
+          ],
+          "why_it_matters": "Может менять банковские офферы, финтех-сервисы, клиентское поведение и коммуникационную конкуренцию. В фокусе: Альфа-Банк. Отобрано как: потребитель, клиент, крупный игрок.",
+          "client_matches": {
+            "alfa-bank": {
+              "name": "Альфа-Банк",
+              "score": 3.8,
+              "matches": [
+                "Альфа-Банк",
+                "Альфа"
+              ]
+            }
+          },
+          "market_scope": "Russia",
+          "future_horizon": [],
+          "future_signal": false,
+          "content_type": "news",
+          "metrics": [
+            {
+              "type": "Спрос",
+              "value": "4,3%",
+              "context": "Реальные потребительские расходы выросли в сентябре на 2,9–4,3% год к году."
+            },
+            {
+              "type": "Спрос",
+              "value": "2,9%",
+              "context": "Потребительские расходы в сентябре выросли на 2,9–4,3% год к году В сентябре реальные потребительские расходы в годовом выражении выросли на 2,9% — по оценке Альфа-банка, и на 4,3% — по д…"
+            }
+          ],
+          "source_quality": 4.6,
+          "publisher_id": "kommersant.ru",
+          "image_url": "https://im2.kommersant.ru/SocialPics/9062345_49_0_873203524",
+          "verification_status": "ok",
+          "editorial_version": "editorial-v1",
+          "strategic_components": {
+            "impact": 32,
+            "scale": 18,
+            "novelty": 18,
+            "utility": 15,
+            "evidence": 9
+          },
+          "eligible": true,
+          "exclusion_reason": "",
+          "strategic_theme": "consumer",
+          "interpretation": "Сопоставить результаты с аудиторией бренда и критериями выбора. Не переносить данные отдельной площадки на весь рынок.",
+          "interpretation_basis": "Редакционный вопрос по типу события",
+          "fact": "Потребительские расходы в сентябре выросли на 2,9–4,3% год к годуВ сентябре реальные потребительские расходы в годовом выражении выросли на 2,9% — по оценке Альфа-банка, и на 4,3% — по данным «СберИндекса» (траты по картам «Сбера»). Аналитики Альфа-банка отмечают постепенное замедление роста спроса на непродовольственные товары при сохранении наращивания тра",
+          "evidence_label": "Публикация СМИ",
+          "independence": "unreviewed",
+          "member_ids": [
+            "3b84eda2064017ace4"
+          ],
+          "sources": [
+            {
+              "id": "3b84eda2064017ace4",
+              "url": "https://kommersant.ru/doc/9062345",
+              "source": "Коммерсантъ — новости",
+              "platform": null,
+              "publisher_id": "kommersant.ru",
+              "published_at": "2026-10-27T23:16:22+00:00"
+            }
+          ],
+          "last_signal_at": "2026-10-27T23:16:22+00:00",
+          "platforms": [],
+          "videos": []
+        },
+        {
+          "id": "event-376a3def4fb1b9e1",
+          "title": "На российском рынке вырос спрос на ностальгические игрушки | New Retail",
+          "url": "https://new-retail.ru/novosti/retail/na_rossiyskom_rynke_vyros_spros_na_nostalgicheskie_igrushki",
+          "source": "New Retail — отраслевые новости",
+          "published_at": "2026-10-27T21:00:00+00:00",
+          "summary": "Спрос на ретро‑игрушки в России заметно вырос: в период с января по сентябрь продажи культовых гаджетов продемонстрировали существенный прирост в годовом выражении.",
+          "categories": [
+            "Retail",
+            "TechnologyAI"
+          ],
+          "primary_category": "Retail",
+          "topics": [
+            "Рынок и продажи",
+            "Потребитель",
+            "Digital и технологии"
+          ],
+          "brands": [],
+          "score": 3.6,
+          "strategic_relevance_score": 90,
+          "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
+          "market_scope": "Russia",
+          "metrics": [],
+          "image_url": "https://new-retail.ru/upload/iblock/4d1/v1u5llprnezdq2mq7zftbymwc97e9n9c.jpg",
+          "source_quality": 4.2,
+          "content_type": "news",
+          "future_signal": false,
+          "future_horizon": [],
+          "pdf_urls": [],
+          "research_primary": false,
+          "publisher_id": "new-retail.ru",
+          "verification_status": "ok",
+          "editorial_version": "editorial-v1",
+          "strategic_components": {
+            "impact": 32,
+            "scale": 18,
+            "novelty": 18,
+            "utility": 15,
+            "evidence": 7
+          },
+          "eligible": true,
+          "exclusion_reason": "",
+          "strategic_theme": "consumer",
+          "interpretation": "Сопоставить результаты с аудиторией бренда и критериями выбора. Не переносить данные отдельной площадки на весь рынок.",
+          "interpretation_basis": "Редакционный вопрос по типу события",
+          "fact": "Спрос на ретро‑игрушки в России заметно вырос: в период с января по сентябрь продажи культовых гаджетов продемонстрировали существенный прирост в годовом выражении.",
+          "evidence_label": "Публикация СМИ",
+          "independence": "unreviewed",
+          "member_ids": [
+            "20b39e79cbb7e7bfa2"
+          ],
+          "sources": [
+            {
+              "id": "20b39e79cbb7e7bfa2",
+              "url": "https://new-retail.ru/novosti/retail/na_rossiyskom_rynke_vyros_spros_na_nostalgicheskie_igrushki",
+              "source": "New Retail — отраслевые новости",
+              "platform": null,
+              "publisher_id": "new-retail.ru",
+              "published_at": "2026-10-27T21:00:00+00:00"
+            }
+          ],
+          "last_signal_at": "2026-10-27T21:00:00+00:00",
+          "platforms": [],
+          "videos": []
+        },
+        {
+          "id": "event-198e5b1effb8050e",
+          "title": "Спрос на готовые завтраки вырос — исследование | New Retail",
+          "url": "https://new-retail.ru/novosti/retail/rossiyane_stali_chashche_pokupat_gotovye_zavtraki",
+          "source": "New Retail — отраслевые новости",
+          "published_at": "2026-10-27T21:00:00+00:00",
+          "summary": "Российский рынок готовых завтраков расширяется. Преимущественно за счёт привлечения новых покупателей, а не увеличения частоты потребления.",
+          "categories": [
+            "Retail",
+            "Consumer"
+          ],
+          "primary_category": "Retail",
+          "topics": [
+            "Рынок и продажи",
+            "Потребитель",
+            "Форматы и экспансия",
+            "Исследования и прогнозы"
+          ],
+          "brands": [],
+          "score": 3.4,
+          "strategic_relevance_score": 90,
+          "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы. Есть исследовательская или прогнозная база.",
+          "market_scope": "Russia",
+          "metrics": [],
+          "image_url": "https://new-retail.ru/upload/iblock/e7b/17llsgcptj8u773zfi8zv4g9pkx65aae.jpg",
+          "source_quality": 4.2,
+          "content_type": "research",
+          "future_signal": false,
+          "future_horizon": [],
+          "pdf_urls": [],
+          "research_primary": false,
+          "publisher_id": "new-retail.ru",
+          "verification_status": "ok",
+          "editorial_version": "editorial-v1",
+          "strategic_components": {
+            "impact": 32,
+            "scale": 18,
+            "novelty": 18,
+            "utility": 15,
+            "evidence": 7
+          },
+          "eligible": true,
+          "exclusion_reason": "",
+          "strategic_theme": "consumer",
+          "interpretation": "Сопоставить результаты с аудиторией бренда и критериями выбора. Не переносить данные отдельной площадки на весь рынок.",
+          "interpretation_basis": "Редакционный вопрос по типу события",
+          "fact": "Российский рынок готовых завтраков расширяется. Преимущественно за счёт привлечения новых покупателей, а не увеличения частоты потребления.",
+          "evidence_label": "Публикация СМИ",
+          "independence": "unreviewed",
+          "member_ids": [
+            "8c90ffab4505538c99"
+          ],
+          "sources": [
+            {
+              "id": "8c90ffab4505538c99",
+              "url": "https://new-retail.ru/novosti/retail/rossiyane_stali_chashche_pokupat_gotovye_zavtraki",
+              "source": "New Retail — отраслевые новости",
+              "platform": null,
+              "publisher_id": "new-retail.ru",
+              "published_at": "2026-10-27T21:00:00+00:00"
+            }
+          ],
+          "last_signal_at": "2026-10-27T21:00:00+00:00",
+          "platforms": [],
+          "videos": []
+        },
+        {
+          "id": "event-56c6d8aabb41be3e",
+          "title": "Расходы китайских компаний на рекламу в «Яндексе» выросли в 2,4 раза | New Retail",
+          "url": "https://new-retail.ru/novosti/retail/raskhody_kitayskikh_kompaniy_na_reklamu_v_yandekse_vyrosli_v_2_4_raza",
+          "source": "New Retail — отраслевые новости",
+          "published_at": "2026-10-27T21:00:00+00:00",
+          "summary": "Китайские компании за январь — сентябрь 2026 года увеличили расходы на рекламу в «Яндексе» в 2,4 раза по сравнению с аналогичным периодом прошлого года.",
+          "categories": [
+            "MediaAdvertising",
+            "Retail",
+            "TechnologyAI"
+          ],
+          "primary_category": "MediaAdvertising",
+          "topics": [
+            "Маркетинг и медиа",
+            "Digital и технологии"
+          ],
+          "brands": [],
+          "score": 3.4,
+          "strategic_relevance_score": 84,
+          "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
+          "market_scope": "Russia",
+          "metrics": [],
+          "image_url": "https://new-retail.ru/upload/iblock/557/dsrt2fe4zv9d3eucr3w30vh8n9f2s55j.jpg",
+          "source_quality": 4.2,
+          "content_type": "news",
+          "future_signal": false,
+          "future_horizon": [],
+          "pdf_urls": [],
+          "research_primary": false,
+          "publisher_id": "new-retail.ru",
+          "verification_status": "ok",
+          "editorial_version": "editorial-v1",
+          "strategic_components": {
+            "impact": 32,
+            "scale": 12,
+            "novelty": 18,
+            "utility": 15,
+            "evidence": 7
+          },
+          "eligible": true,
+          "exclusion_reason": "",
+          "strategic_theme": "ad_market",
+          "interpretation": "Проверить, меняет ли событие выбор каналов, медиабюджет или требования к измерению рекламного результата.",
+          "interpretation_basis": "Редакционный вопрос по типу события",
+          "fact": "Китайские компании за январь — сентябрь 2026 года увеличили расходы на рекламу в «Яндексе» в 2,4 раза по сравнению с аналогичным периодом прошлого года.",
+          "evidence_label": "Публикация СМИ",
+          "independence": "unreviewed",
+          "member_ids": [
+            "f4ca155449b2e4b87c"
+          ],
+          "sources": [
+            {
+              "id": "f4ca155449b2e4b87c",
+              "url": "https://new-retail.ru/novosti/retail/raskhody_kitayskikh_kompaniy_na_reklamu_v_yandekse_vyrosli_v_2_4_raza",
+              "source": "New Retail — отраслевые новости",
+              "platform": null,
+              "publisher_id": "new-retail.ru",
+              "published_at": "2026-10-27T21:00:00+00:00"
+            }
+          ],
+          "last_signal_at": "2026-10-27T21:00:00+00:00",
+          "platforms": [],
+          "videos": []
+        }
+      ],
+      "lead_ids": [
+        "event-2ee7d746d55b84d8",
+        "event-a594838adc210e2a",
+        "event-71b829dd1ae159c5"
+      ],
+      "insight": {
+        "title": "Реальные потребительские расходы выросли в сентябре на 2,9–4,3% год к году",
+        "text": "Сопоставить результаты с аудиторией бренда и критериями выбора. Не переносить данные отдельной площадки на весь рынок.",
+        "kind": "Главное событие выпуска",
+        "event_ids": [
+          "event-2ee7d746d55b84d8"
+        ]
+      },
+      "method_version": "editorial-v1",
+      "coverage": {
+        "source_errors": 7,
+        "note": "Часть источников недоступна"
+      }
+    },
+    {
       "id": "2026-10-28",
       "scheduled_for": "2026-10-28T09:00:00+03:00",
       "generated_at": "2026-10-28T11:30:08.413981+00:00",
