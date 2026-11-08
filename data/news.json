@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-07T11:50:07.125985+00:00",
+  "updated_at": "2026-11-08T12:02:19.986742+00:00",
   "source_count": 43,
-  "item_count": 2611,
+  "item_count": 2616,
   "retention_days": 365,
   "categories": [
     {
@@ -74,7 +74,7 @@
   "source_stats": [
     {
       "source": "Retail.ru — новости",
-      "added": 2
+      "added": 1
     },
     {
       "source": "Retail.ru — статьи",
@@ -86,11 +86,11 @@
     },
     {
       "source": "РБК — бизнес и экономика",
-      "added": 1
+      "added": 0
     },
     {
       "source": "Коммерсантъ — новости",
-      "added": 0
+      "added": 2
     },
     {
       "source": "Ведомости — новости",
@@ -102,23 +102,23 @@
     },
     {
       "source": "CNews — бизнес и технологии",
-      "added": 2
+      "added": 1
     },
     {
       "source": "ТАСС — экономика и компании",
-      "added": 2
+      "added": 1
     },
     {
       "source": "Finam — компании и рынки",
-      "added": 3
+      "added": 1
     },
     {
       "source": "АВТОСТАТ — авторынок",
-      "added": 3
+      "added": 2
     },
     {
       "source": "РБК Недвижимость — рынок недвижимости",
-      "added": 4
+      "added": 3
     },
     {
       "source": "Банк России — новости",
@@ -142,7 +142,7 @@
     },
     {
       "source": "TechCrunch",
-      "added": 4,
+      "added": 3,
       "status": "ok"
     },
     {
@@ -197,8 +197,8 @@
     },
     {
       "source": "РБК Тренды",
-      "added": 0,
-      "status": "no_dated_items"
+      "added": 1,
+      "status": "ok"
     },
     {
       "source": "ФармМедПром",
@@ -263,7 +263,7 @@
     {
       "source": "PROfashion",
       "added": 0,
-      "status": "error"
+      "status": "no_dated_items"
     },
     {
       "source": "Fashion Consulting Group — Telegram",
@@ -277,10 +277,6 @@
     }
   ],
   "errors": [
-    {
-      "source": "Коммерсантъ — новости",
-      "error": "The read operation timed out"
-    },
     {
       "source": "Росстат — новости статистики",
       "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1011)>"
@@ -300,10 +296,6 @@
     {
       "source": "DSM Group",
       "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: EE certificate key too weak (_ssl.c:1011)>"
-    },
-    {
-      "source": "PROfashion",
-      "error": "<urlopen error timed out>"
     }
   ],
   "items": [
@@ -42407,10 +42399,10 @@
       "published_at": "2026-11-06T11:40:54+00:00",
       "summary": "Профильный проект РБК 🏠: главные новости рынка недвижимости в Москве, России и за рубежом. Статьи о покупке квартиры, новостройках, продаже и аренде вторичного жилья, загородных домов, земельных участков, коммерческой недвижимости, офисов. Новости ипотеки и аналитика экспертов.",
       "categories": [
-        "RealEstate",
-        "BanksFintech"
+        "BanksFintech",
+        "RealEstate"
       ],
-      "primary_category": "RealEstate",
+      "primary_category": "BanksFintech",
       "topics": [
         "Рынок и продажи",
         "Исследования и прогнозы"
@@ -42422,7 +42414,7 @@
         "рынок / бизнес",
         "есть данные"
       ],
-      "why_it_matters": "Отражает динамику спроса, цен, ипотеки, девелопмента и коммерческой недвижимости. Отобрано как: рынок / бизнес, есть данные.",
+      "why_it_matters": "Может менять банковские офферы, финтех-сервисы, клиентское поведение и коммуникационную конкуренцию. Отобрано как: рынок / бизнес, есть данные.",
       "client_matches": {},
       "market_scope": "Russia",
       "future_horizon": [],
@@ -50132,6 +50124,43 @@
       "content_type": "news",
       "source_quality": 4.0,
       "publisher_id": "retail.ru"
+    },
+    {
+      "id": "4d1bd4d5f3b26f4b12",
+      "title": "Дистрибутор VVP Group купил офис недалеко от «Москва-Сити»",
+      "url": "https://kommersant.ru/doc/9092156",
+      "source": "Коммерсантъ — новости",
+      "published_at": "2026-11-08T11:54:58+00:00",
+      "summary": "Один из крупнейших в России дистрибуторов электроники — VVP Group — выкупил у девелопера Forma 4 тыс. кв. м офисных площадей в бизнес-центре «Порта», недалеко от «Москва-Сити». Сумма сделки могла составить 2–2,4 млрд руб.",
+      "categories": [
+        "RealEstate"
+      ],
+      "primary_category": "RealEstate",
+      "topics": [
+        "M&A и инвестиции"
+      ],
+      "brands": [],
+      "score": 2.4,
+      "strategic_relevance_score": 48,
+      "relevance_reasons": [
+        "инвестиции / M&A",
+        "есть данные"
+      ],
+      "why_it_matters": "Отражает динамику спроса, цен, ипотеки, девелопмента и коммерческой недвижимости. Отобрано как: инвестиции / M&A, есть данные.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [
+        {
+          "type": "Сеть / точки",
+          "value": "2,4 млрд руб.",
+          "context": "Сумма сделки могла составить 2–2,4 млрд руб."
+        }
+      ],
+      "source_quality": 4.6,
+      "publisher_id": "kommersant.ru"
     },
     {
       "id": "993805ae5f3023397c",
@@ -66171,6 +66200,37 @@
       "publisher_id": "retail.ru"
     },
     {
+      "id": "4fa2162135bad8bfb3",
+      "title": "Глава Бурятии призвал прекратить розничную продажу вейпов",
+      "url": "https://tass.ru/obschestvo/28296159",
+      "source": "ТАСС — экономика и компании",
+      "published_at": "2026-11-08T11:15:18+00:00",
+      "summary": "Алексей Цыденов пообещал проработать этот вопрос с депутатами",
+      "categories": [
+        "Retail"
+      ],
+      "primary_category": "Retail",
+      "topics": [
+        "Рынок и продажи",
+        "Исследования и прогнозы"
+      ],
+      "brands": [],
+      "score": 1.9,
+      "strategic_relevance_score": 38,
+      "relevance_reasons": [
+        "рынок / бизнес"
+      ],
+      "why_it_matters": "Показывает изменение в бизнесе ритейла: формате, продажах, ценах, ассортименте или конкурентной динамике. Отобрано как: рынок / бизнес.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [],
+      "source_quality": 4.5,
+      "publisher_id": "tass.ru"
+    },
+    {
       "id": "d1ca703a5daecee916",
       "title": "Им все мало. Домашний интернет в России вот-вот подорожает из-за жадных управляющих компаний. Опрос",
       "url": "https://cnews.ru/news/top/2026-11-06_im_vse_malodomashnij_internet",
@@ -69958,6 +70018,39 @@
       "content_type": "forecast",
       "source_quality": 4.0,
       "publisher_id": "finam.ru"
+    },
+    {
+      "id": "4331bc4aaf5b0238d8",
+      "title": "Chery отзовет почти 54 тыс. машин в Китае из-за опасного дефекта",
+      "url": "https://kommersant.ru/doc/9091936",
+      "source": "Коммерсантъ — новости",
+      "published_at": "2026-11-07T12:02:29+00:00",
+      "summary": "Китайская автокомпания Chery объявила об отзыве 53,8 тыс. автомобилей на домашнем рынке из-за дефекта, способного привести к аварии. Решение принято Государственным управлением по регулированию рынка Китая (SAMR).",
+      "categories": [
+        "Automotive"
+      ],
+      "primary_category": "Automotive",
+      "topics": [
+        "Регулирование"
+      ],
+      "brands": [
+        "Chery"
+      ],
+      "score": 1.8,
+      "strategic_relevance_score": 36,
+      "relevance_reasons": [
+        "регулирование",
+        "крупный игрок"
+      ],
+      "why_it_matters": "Важен для понимания продаж, цен, модельного ряда, дилерской сети и конкурентной динамики авторынка. В фокусе: Chery. Отобрано как: регулирование, крупный игрок.",
+      "client_matches": {},
+      "market_scope": "Global",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [],
+      "source_quality": 4.6,
+      "publisher_id": "kommersant.ru"
     },
     {
       "id": "b192747c2b4c58274f",
@@ -76888,6 +76981,40 @@
       "content_type": "news",
       "source_quality": 4.0,
       "publisher_id": "sostav.ru"
+    },
+    {
+      "id": "a42d7e4502729568d3",
+      "title": "Дайджест 02.11-08.11: Fix Price ушел из Монголии, Хакеры «размораживают» европейские супермаркеты, Курьерам запретят ездить по тротуарам",
+      "url": "https://retail.ru/news/daydzhest-02-11-08-11--8-noyabrya-2026-284135",
+      "source": "Retail.ru — новости",
+      "published_at": "2026-11-08T07:25:00+00:00",
+      "summary": "",
+      "categories": [
+        "Retail",
+        "DeliveryEcom"
+      ],
+      "primary_category": "Retail",
+      "topics": [
+        "Доставка"
+      ],
+      "brands": [
+        "Fix Price"
+      ],
+      "score": 1.6,
+      "strategic_relevance_score": 32,
+      "relevance_reasons": [
+        "доставка",
+        "крупный игрок"
+      ],
+      "why_it_matters": "Показывает изменение в бизнесе ритейла: формате, продажах, ценах, ассортименте или конкурентной динамике. В фокусе: Fix Price. Отобрано как: доставка, крупный игрок.",
+      "client_matches": {},
+      "market_scope": "Global",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [],
+      "source_quality": 4.5,
+      "publisher_id": "retail.ru"
     },
     {
       "id": "d4b31a10a53e3cdced",
@@ -89212,6 +89339,38 @@
       "why_it_matters": "Помогает отслеживать рынок e-commerce и доставки: модели сервиса, игроков, логистику и поведение покупателей. В фокусе: Ozon. Отобрано как: рынок / бизнес, крупный игрок.",
       "client_matches": {},
       "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [],
+      "source_quality": 4.0,
+      "publisher_id": "finam.ru"
+    },
+    {
+      "id": "7f1ce0f9b414d65bfe",
+      "title": "\"Газпром\" сообщил о росте в ноябре поставок трубопроводного газа в Турцию",
+      "url": "https://finam.ru/publications/item/gazprom-soobshchil-o-roste-v-noyabre-postavok-truboprovodnogo-gaza-v-turtsiyu-20261107-1728?news_to_finamb=new_compaigns",
+      "source": "Finam — компании и рынки",
+      "published_at": "2026-11-07T14:28:20+00:00",
+      "summary": "За первые пять дней ноября объем газа, поставленного турецким потребителям, почти в 4 раза превысил значения за аналогичный период октября и сентября...",
+      "categories": [
+        "Consumer"
+      ],
+      "primary_category": "Consumer",
+      "topics": [
+        "Потребитель",
+        "Регулирование"
+      ],
+      "brands": [],
+      "score": 1.1,
+      "strategic_relevance_score": 22,
+      "relevance_reasons": [
+        "потребитель",
+        "регулирование"
+      ],
+      "why_it_matters": "Материал влияет на рыночный или конкурентный контекст. Отобрано как: потребитель, регулирование.",
+      "client_matches": {},
+      "market_scope": "Global",
       "future_horizon": [],
       "future_signal": false,
       "content_type": "news",
