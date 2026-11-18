@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-18T14:08:00.688294+00:00",
+  "updated_at": "2026-11-18T15:06:20.954055+00:00",
   "source_count": 43,
-  "item_count": 3229,
+  "item_count": 3232,
   "retention_days": 365,
   "categories": [
     {
@@ -74,7 +74,7 @@
   "source_stats": [
     {
       "source": "Retail.ru — новости",
-      "added": 5
+      "added": 0
     },
     {
       "source": "Retail.ru — статьи",
@@ -86,31 +86,31 @@
     },
     {
       "source": "РБК — бизнес и экономика",
-      "added": 4
+      "added": 0
     },
     {
       "source": "Коммерсантъ — новости",
-      "added": 6
+      "added": 2
     },
     {
       "source": "Ведомости — новости",
-      "added": 4
+      "added": 0
     },
     {
       "source": "Sostav — маркетинг и бренды",
-      "added": 4
+      "added": 0
     },
     {
       "source": "CNews — бизнес и технологии",
-      "added": 11
+      "added": 0
     },
     {
       "source": "ТАСС — экономика и компании",
-      "added": 3
+      "added": 0
     },
     {
       "source": "Finam — компании и рынки",
-      "added": 5
+      "added": 0
     },
     {
       "source": "АВТОСТАТ — авторынок",
@@ -118,7 +118,7 @@
     },
     {
       "source": "РБК Недвижимость — рынок недвижимости",
-      "added": 7
+      "added": 3
     },
     {
       "source": "Банк России — новости",
@@ -222,7 +222,7 @@
     },
     {
       "source": "Retailer.ru",
-      "added": 3,
+      "added": 1,
       "status": "ok"
     },
     {
@@ -242,7 +242,7 @@
     },
     {
       "source": "ИРН",
-      "added": 9,
+      "added": 7,
       "status": "ok"
     },
     {
@@ -263,7 +263,7 @@
     {
       "source": "PROfashion",
       "added": 0,
-      "status": "error"
+      "status": "no_dated_items"
     },
     {
       "source": "Fashion Consulting Group — Telegram",
@@ -292,10 +292,6 @@
     {
       "source": "ВЦИОМ",
       "error": "HTTP Error 403: Forbidden"
-    },
-    {
-      "source": "PROfashion",
-      "error": "<urlopen error timed out>"
     }
   ],
   "items": [
@@ -10888,6 +10884,52 @@
       "pdf_urls": [],
       "research_primary": false,
       "publisher_id": "akarussia.ru"
+    },
+    {
+      "id": "114877e4d40042b908",
+      "title": "FDA одобрило первый в мире ингибитор ALK четвертого поколения",
+      "url": "https://pharmvestnik.ru/content/news/fda-odobrilo-pervyi-v-mire-ingibitor-alk-chetvertogo-pokoleniya.html",
+      "source": "Фармацевтический вестник",
+      "published_at": "2026-11-18T14:09:13+00:00",
+      "summary": "GSK зарегистрировала в США второй онкопрепарат из портфеля Nuvalent, купленного за 10,6 млрд долл. Аналитики прогнозируют продажи неладалкиба свыше 1 млрд долл. к 2032 году.",
+      "categories": [
+        "Pharma"
+      ],
+      "primary_category": "Pharma",
+      "topics": [
+        "Рынок и продажи",
+        "Исследования и прогнозы"
+      ],
+      "brands": [],
+      "score": 3.7,
+      "strategic_relevance_score": 74,
+      "why_it_matters": "Международный сигнал, который может повлиять на маркетинг, потребление или бизнес-модели и быть релевантен российскому рынку. Есть исследовательская или прогнозная база.",
+      "market_scope": "Global",
+      "metrics": [
+        {
+          "type": "Продажи",
+          "value": "10,6 млрд долл.",
+          "context": "ления. GSK зарегистрировала в США второй онкопрепарат из портфеля Nuvalent, купленного за 10,6 млрд долл. Аналитики прогнозируют продажи неладалкиба свыше 1 млрд долл. к 2032 году."
+        },
+        {
+          "type": "Продажи",
+          "value": "1 млрд долл.",
+          "context": "Nuvalent, купленного за 10,6 млрд долл. Аналитики прогнозируют продажи неладалкиба свыше 1 млрд долл. к 2032 году."
+        }
+      ],
+      "image_url": "",
+      "source_quality": 4.5,
+      "content_type": "forecast",
+      "future_signal": true,
+      "future_horizon": [
+        "future"
+      ],
+      "pdf_urls": [
+        "https://pharmvestnik.ru/apps/fv/assets/uploads/subs/redaktsionnaya_politika/rp2024new.pdf",
+        "https://pharmvestnik.ru/apps/fv/assets/uploads/fv_mkit_noprices_2026_01.pdf"
+      ],
+      "research_primary": false,
+      "publisher_id": "pharmvestnik.ru"
     },
     {
       "id": "280473cdefb52c6852",
@@ -51145,6 +51187,41 @@
       "publisher_id": "rbc.ru"
     },
     {
+      "id": "a221b23fa8095ec0c1",
+      "title": "Госдума поддержала штрафы за показ кино с дискредитацией традиционных ценностей",
+      "url": "https://kommersant.ru/doc/9112853",
+      "source": "Коммерсантъ — новости",
+      "published_at": "2026-11-18T14:28:01+00:00",
+      "summary": "Депутаты Государственной думы приняли в первом чтении законопроект о штрафах за распространение материалов, противоречащих традиционным ценностям, а также за отказ их удалять. В случае принятия закона он вступит в силу с 1 марта 2027 года.",
+      "categories": [
+        "BanksFintech"
+      ],
+      "primary_category": "BanksFintech",
+      "topics": [
+        "Потребитель",
+        "Регулирование"
+      ],
+      "brands": [],
+      "score": 2.9,
+      "strategic_relevance_score": 58,
+      "relevance_reasons": [
+        "потребитель",
+        "регулирование",
+        "будущий горизонт"
+      ],
+      "why_it_matters": "Может менять банковские офферы, финтех-сервисы, клиентское поведение и коммуникационную конкуренцию. Горизонт: 2027. Отобрано как: потребитель, регулирование, будущий горизонт.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [
+        "2027"
+      ],
+      "future_signal": true,
+      "content_type": "news",
+      "metrics": [],
+      "source_quality": 4.6,
+      "publisher_id": "kommersant.ru"
+    },
+    {
       "id": "99792543f6994e099d",
       "title": "Спрос на ипотеку в Москве вырос за месяц на 47%, по данным Росреестра",
       "url": "https://realty.rbc.ru/news/6afcd42b88182c95b2bf9ea4",
@@ -51152,10 +51229,10 @@
       "published_at": "2026-11-18T09:17:44+00:00",
       "summary": "Число ипотечных сделок на первичном и вторичном рынках жилья Москвы в октябре 2026 года оказалось на 2,2% больше, чем годом ранее, а месячный рост составил 46,7%",
       "categories": [
-        "RealEstate",
-        "BanksFintech"
+        "BanksFintech",
+        "RealEstate"
       ],
-      "primary_category": "RealEstate",
+      "primary_category": "BanksFintech",
       "topics": [
         "Потребитель",
         "Исследования и прогнозы"
@@ -51167,7 +51244,7 @@
         "потребитель",
         "есть данные"
       ],
-      "why_it_matters": "Отражает динамику спроса, цен, ипотеки, девелопмента и коммерческой недвижимости. Отобрано как: потребитель, есть данные.",
+      "why_it_matters": "Может менять банковские офферы, финтех-сервисы, клиентское поведение и коммуникационную конкуренцию. Отобрано как: потребитель, есть данные.",
       "client_matches": {},
       "market_scope": "Russia",
       "future_horizon": [],
@@ -61267,10 +61344,10 @@
       "published_at": "2026-11-18T11:11:06+00:00",
       "summary": "Семьи с четырьмя и более детьми в 90% случаев направляют льготный кредит на новостройки, тогда как заемщики с одним-двумя детьми чаще выбирают загородные дома",
       "categories": [
-        "RealEstate",
-        "BanksFintech"
+        "BanksFintech",
+        "RealEstate"
       ],
-      "primary_category": "RealEstate",
+      "primary_category": "BanksFintech",
       "topics": [
         "Бизнес-изменения"
       ],
@@ -61280,7 +61357,7 @@
       "relevance_reasons": [
         "есть данные"
       ],
-      "why_it_matters": "Отражает динамику спроса, цен, ипотеки, девелопмента и коммерческой недвижимости. Отобрано как: есть данные.",
+      "why_it_matters": "Может менять банковские офферы, финтех-сервисы, клиентское поведение и коммуникационную конкуренцию. Отобрано как: есть данные.",
       "client_matches": {},
       "market_scope": "Global",
       "future_horizon": [],
@@ -71084,6 +71161,42 @@
       "publisher_id": "sostav.ru"
     },
     {
+      "id": "07680792b035cf3688",
+      "title": "Wildberries запустит в Грузии сеть такси и построит новые склады",
+      "url": "https://kommersant.ru/doc/9112804",
+      "source": "Коммерсантъ — новости",
+      "published_at": "2026-11-18T14:18:24+00:00",
+      "summary": "Грузинский оператор Wildberries — компания «Транском Групп» (ТКГ) приобрела государственные участки земли и готовится запустить сервис WB Taxi в Тбилиси. Об этом сообщает Центр исследований экономической политики (EPRC).",
+      "categories": [
+        "DeliveryEcom"
+      ],
+      "primary_category": "DeliveryEcom",
+      "topics": [
+        "M&A и инвестиции",
+        "Исследования и прогнозы"
+      ],
+      "brands": [
+        "Wildberries"
+      ],
+      "score": 2.1,
+      "strategic_relevance_score": 42,
+      "relevance_reasons": [
+        "инвестиции / M&A",
+        "крупный игрок"
+      ],
+      "why_it_matters": "Помогает отслеживать рынок e-commerce и доставки: модели сервиса, игроков, логистику и поведение покупателей. В фокусе: Wildberries. Отобрано как: инвестиции / M&A, крупный игрок.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [
+        "future"
+      ],
+      "future_signal": true,
+      "content_type": "company_plan",
+      "metrics": [],
+      "source_quality": 4.6,
+      "publisher_id": "kommersant.ru"
+    },
+    {
       "id": "d5cfe03e453767dc4a",
       "title": "ЦБ осенью 2027 года протестирует офлайн-платежи в цифровых рублях",
       "url": "https://tass.ru/ekonomika/28331263",
@@ -71157,10 +71270,10 @@
       "published_at": "2026-11-17T15:16:21+00:00",
       "summary": "В октябре темпы роста цен на первичное жилье замедлились вдвое после сентябрьского скачка. Такая динамика стала ответом рынка на изменение программы семейной ипотеки и снижение спроса",
       "categories": [
-        "RealEstate",
-        "BanksFintech"
+        "BanksFintech",
+        "RealEstate"
       ],
-      "primary_category": "RealEstate",
+      "primary_category": "BanksFintech",
       "topics": [
         "Потребитель"
       ],
@@ -71170,7 +71283,7 @@
       "relevance_reasons": [
         "потребитель"
       ],
-      "why_it_matters": "Отражает динамику спроса, цен, ипотеки, девелопмента и коммерческой недвижимости. Отобрано как: потребитель.",
+      "why_it_matters": "Может менять банковские офферы, финтех-сервисы, клиентское поведение и коммуникационную конкуренцию. Отобрано как: потребитель.",
       "client_matches": {},
       "market_scope": "Russia",
       "future_horizon": [],
@@ -75284,10 +75397,9 @@
       "published_at": "2026-11-18T07:00:00+00:00",
       "summary": "На примере района у метро «Динамо» разбираемся, как Москва органично вплетает прежде закрытые участки в живую городскую ткань и превращает белые пятна на карте в новые точки притяжения",
       "categories": [
-        "RealEstate",
         "Automotive"
       ],
-      "primary_category": "RealEstate",
+      "primary_category": "Automotive",
       "topics": [
         "Форматы и экспансия"
       ],
@@ -75299,7 +75411,7 @@
       "relevance_reasons": [
         "крупный игрок"
       ],
-      "why_it_matters": "Отражает динамику спроса, цен, ипотеки, девелопмента и коммерческой недвижимости. В фокусе: Москвич. Отобрано как: крупный игрок.",
+      "why_it_matters": "Важен для понимания продаж, цен, модельного ряда, дилерской сети и конкурентной динамики авторынка. В фокусе: Москвич. Отобрано как: крупный игрок.",
       "client_matches": {},
       "market_scope": "Russia",
       "future_horizon": [],
