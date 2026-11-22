@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-21T13:33:38.031352+00:00",
+  "updated_at": "2026-11-22T13:27:58.203921+00:00",
   "source_count": 43,
-  "item_count": 3406,
+  "item_count": 3416,
   "retention_days": 365,
   "categories": [
     {
@@ -90,7 +90,7 @@
     },
     {
       "source": "Коммерсантъ — новости",
-      "added": 3
+      "added": 4
     },
     {
       "source": "Ведомости — новости",
@@ -98,15 +98,15 @@
     },
     {
       "source": "Sostav — маркетинг и бренды",
-      "added": 1
+      "added": 0
     },
     {
       "source": "CNews — бизнес и технологии",
-      "added": 3
+      "added": 0
     },
     {
       "source": "ТАСС — экономика и компании",
-      "added": 1
+      "added": 0
     },
     {
       "source": "Finam — компании и рынки",
@@ -114,11 +114,11 @@
     },
     {
       "source": "АВТОСТАТ — авторынок",
-      "added": 0
+      "added": 1
     },
     {
       "source": "РБК Недвижимость — рынок недвижимости",
-      "added": 0
+      "added": 2
     },
     {
       "source": "Банк России — новости",
@@ -127,7 +127,7 @@
     },
     {
       "source": "Банк России — пресс-релизы",
-      "added": 8,
+      "added": 7,
       "status": "ok"
     },
     {
@@ -142,8 +142,8 @@
     },
     {
       "source": "TechCrunch",
-      "added": 1,
-      "status": "ok"
+      "added": 0,
+      "status": "no_dated_items"
     },
     {
       "source": "Modern Retail",
@@ -193,12 +193,12 @@
     {
       "source": "Mediascope — исследования",
       "added": 0,
-      "status": "error"
+      "status": "no_dated_items"
     },
     {
       "source": "РБК Тренды",
-      "added": 0,
-      "status": "error"
+      "added": 2,
+      "status": "ok"
     },
     {
       "source": "ФармМедПром",
@@ -217,8 +217,8 @@
     },
     {
       "source": "РБК Исследования рынков",
-      "added": 0,
-      "status": "error"
+      "added": 5,
+      "status": "ok"
     },
     {
       "source": "Retailer.ru",
@@ -278,18 +278,6 @@
   ],
   "errors": [
     {
-      "source": "РБК — бизнес и экономика",
-      "error": "The read operation timed out"
-    },
-    {
-      "source": "АВТОСТАТ — авторынок",
-      "error": "The read operation timed out"
-    },
-    {
-      "source": "РБК Недвижимость — рынок недвижимости",
-      "error": "<urlopen error _ssl.c:994: The handshake operation timed out>"
-    },
-    {
       "source": "Росстат — новости статистики",
       "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1011)>"
     },
@@ -300,18 +288,6 @@
     {
       "source": "ФАС России — новости",
       "error": "<urlopen error timed out>"
-    },
-    {
-      "source": "Mediascope — исследования",
-      "error": "The read operation timed out"
-    },
-    {
-      "source": "РБК Тренды",
-      "error": "The read operation timed out"
-    },
-    {
-      "source": "РБК Исследования рынков",
-      "error": "The read operation timed out"
     },
     {
       "source": "ВЦИОМ",
@@ -18553,6 +18529,35 @@
       "future_signal": false,
       "future_horizon": [],
       "publisher_id": "retaildive.com"
+    },
+    {
+      "id": "e69c016ddfd5553cea",
+      "title": "Объем пожертвований смещается в сторону клиентов с большим капиталом - Frank RG",
+      "url": "https://frankrg.com/news/obem-pozhertvovanij-smeshhaetsya-v-storonu-klientov-s-bolshim-kapitalom",
+      "source": "Frank RG",
+      "published_at": "2026-11-18T00:00:00+00:00",
+      "summary": "Frank RG представила результаты бенчмарк-исследования объема «белой» благотворительности клиентов банков - Frank RG",
+      "categories": [
+        "BanksFintech"
+      ],
+      "primary_category": "BanksFintech",
+      "topics": [
+        "Исследования и прогнозы"
+      ],
+      "brands": [],
+      "score": 3.6,
+      "strategic_relevance_score": 72,
+      "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы. Есть исследовательская или прогнозная база.",
+      "market_scope": "Russia",
+      "metrics": [],
+      "image_url": "",
+      "source_quality": 4.8,
+      "content_type": "research",
+      "future_signal": false,
+      "future_horizon": [],
+      "pdf_urls": [],
+      "research_primary": true,
+      "publisher_id": "frankrg.com"
     },
     {
       "id": "ae1754f5ec1d3cd417",
@@ -61285,6 +61290,41 @@
       "publisher_id": "sostav.ru"
     },
     {
+      "id": "c11219b66e9c8e639f",
+      "title": "Дайджест 16.11-22.11: «Магнит» и «Пятёрочку» обвинили в дискриминации производителей сладостей, Общепит и бытовые услуги могут обложить торговым сбором, Законопроект о дистанционной продаже вина отложили",
+      "url": "https://retail.ru/news/daydzhest-16-11-22-11--22-noyabrya-2026-284775",
+      "source": "Retail.ru — новости",
+      "published_at": "2026-11-22T07:25:00+00:00",
+      "summary": "",
+      "categories": [
+        "Retail"
+      ],
+      "primary_category": "Retail",
+      "topics": [
+        "Рынок и продажи",
+        "Регулирование"
+      ],
+      "brands": [
+        "Магнит"
+      ],
+      "score": 2.5,
+      "strategic_relevance_score": 50,
+      "relevance_reasons": [
+        "рынок / бизнес",
+        "регулирование",
+        "крупный игрок"
+      ],
+      "why_it_matters": "Показывает изменение в бизнесе ритейла: формате, продажах, ценах, ассортименте или конкурентной динамике. В фокусе: Магнит. Отобрано как: рынок / бизнес, регулирование, крупный игрок.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [],
+      "source_quality": 4.5,
+      "publisher_id": "retail.ru"
+    },
+    {
       "id": "be22155050b0807f9c",
       "title": "Настоящая одежда, ненастоящие модели: как ИИ меняет моду",
       "url": "https://rbc.ru/radio/20/11/2026/6b0046f6e4f6282a6b388d8a",
@@ -61901,6 +61941,39 @@
       "metrics": [],
       "source_quality": 4.1,
       "publisher_id": "cnews.ru"
+    },
+    {
+      "id": "53d4d97c23a88d7c3a",
+      "title": "Аналитики спрогнозировали дальнейшее снижение цен на аренду жилья Эксклюзив",
+      "url": "https://realty.rbc.ru/news/6af4417277427173ff8a9472",
+      "source": "РБК Недвижимость — рынок недвижимости",
+      "published_at": "2026-11-12T07:15:00+00:00",
+      "summary": "Снижение арендных ставок на жилье продолжится в тех мегаполисах, где аренда уже дешевеет. А те города, где ставки пока растут, ожидает стагнация цен. Причина — в сильном профиците предложения, которого не наблюдалось как минимум шесть предыдущих лет",
+      "categories": [
+        "RealEstate"
+      ],
+      "primary_category": "RealEstate",
+      "topics": [
+        "Цены и промо",
+        "Исследования и прогнозы"
+      ],
+      "brands": [],
+      "score": 2.5,
+      "strategic_relevance_score": 50,
+      "relevance_reasons": [
+        "будущий горизонт"
+      ],
+      "why_it_matters": "Отражает динамику спроса, цен, ипотеки, девелопмента и коммерческой недвижимости. Горизонт: future. Отобрано как: будущий горизонт.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [
+        "future"
+      ],
+      "future_signal": true,
+      "content_type": "forecast",
+      "metrics": [],
+      "source_quality": 4.5,
+      "publisher_id": "rbc.ru"
     },
     {
       "id": "d7e4f1a8f8625e2600",
@@ -64177,6 +64250,48 @@
       "content_type": "news",
       "source_quality": 4.0,
       "publisher_id": "retail.ru"
+    },
+    {
+      "id": "0c3810f1108d58128b",
+      "title": "Китай снизит требования к обеспечению при покупке акций в кредит",
+      "url": "https://kommersant.ru/doc/9127358",
+      "source": "Коммерсантъ — новости",
+      "published_at": "2026-11-22T11:53:45+00:00",
+      "summary": "Китайские фондовые биржи с 30 ноября снизят минимальный размер обеспечения при покупке ценных бумаг на заемные средства со 100% до 80%. Решение одобрено Комиссией по регулированию рынка ценных бумаг КНР, сообщила Шанхайская фондовая биржа.",
+      "categories": [
+        "BanksFintech"
+      ],
+      "primary_category": "BanksFintech",
+      "topics": [
+        "Регулирование"
+      ],
+      "brands": [],
+      "score": 2.4,
+      "strategic_relevance_score": 48,
+      "relevance_reasons": [
+        "регулирование",
+        "есть данные"
+      ],
+      "why_it_matters": "Может менять банковские офферы, финтех-сервисы, клиентское поведение и коммуникационную конкуренцию. Отобрано как: регулирование, есть данные.",
+      "client_matches": {},
+      "market_scope": "Global",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [
+        {
+          "type": "Рыночная метрика",
+          "value": "100%",
+          "context": "Китайские фондовые биржи с 30 ноября снизят минимальный размер обеспечения при покупке ценных бумаг на заемные средства со 100% до 80%."
+        },
+        {
+          "type": "Рыночная метрика",
+          "value": "80%",
+          "context": "Китайские фондовые биржи с 30 ноября снизят минимальный размер обеспечения при покупке ценных бумаг на заемные средства со 100% до 80%."
+        }
+      ],
+      "source_quality": 4.6,
+      "publisher_id": "kommersant.ru"
     },
     {
       "id": "85110cddd864553155",
@@ -69861,6 +69976,39 @@
       "publisher_id": "tass.ru"
     },
     {
+      "id": "dd87887bd011314c69",
+      "title": "Фицо: Словакия не будет участвовать в новом кредите ЕС для Украины",
+      "url": "https://kommersant.ru/doc/9127223",
+      "source": "Коммерсантъ — новости",
+      "published_at": "2026-11-22T01:20:38+00:00",
+      "summary": "Словакия намерена отказаться от участия в новом кредите Украине на €45 млрд, заявил премьер-министр страны Роберт Фицо. Выделить эти средства в 2027 году 18 ноября предложила Еврокомиссия — сумма должна дополнить уже согласованный заем на €90 млрд.",
+      "categories": [
+        "BanksFintech"
+      ],
+      "primary_category": "BanksFintech",
+      "topics": [
+        "Бизнес-изменения"
+      ],
+      "brands": [],
+      "score": 2.2,
+      "strategic_relevance_score": 44,
+      "relevance_reasons": [
+        "будущий горизонт",
+        "есть данные"
+      ],
+      "why_it_matters": "Может менять банковские офферы, финтех-сервисы, клиентское поведение и коммуникационную конкуренцию. Горизонт: 2027. Отобрано как: будущий горизонт, есть данные.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [
+        "2027"
+      ],
+      "future_signal": true,
+      "content_type": "company_plan",
+      "metrics": [],
+      "source_quality": 4.6,
+      "publisher_id": "kommersant.ru"
+    },
+    {
       "id": "0ce27a8f9115474eb2",
       "title": "От совета нейросети до оплаты: где интернет-магазины теряют покупателей",
       "url": "https://sostav.ru/publication/ot-soveta-nejroseti-do-oplaty-gde-internet-magaziny-teryayut-pokupatelej-88754.html",
@@ -74741,6 +74889,41 @@
       "publisher_id": "sostav.ru"
     },
     {
+      "id": "a59a3df81a8571a5f9",
+      "title": "Минтранс получил более 1,6 тыс. поправок к ПДД для электросамокатов",
+      "url": "https://kommersant.ru/doc/9127306",
+      "source": "Коммерсантъ — новости",
+      "published_at": "2026-11-22T09:10:13+00:00",
+      "summary": "Будущее регулирование средств индивидуальной мобильности (СИМ) обсуждалось в рамках профильной сессий «Транспортной недели». Среди основных нововведений — запреты для курьеров ездить по тротуарам и обычным гражданам кататься на электросамокате вдвоем, новые дорожные знаки, обязанность парковать СИМ только на специальных местах, запрет подросткам младше 16 ле…",
+      "categories": [
+        "DeliveryEcom"
+      ],
+      "primary_category": "DeliveryEcom",
+      "topics": [
+        "Доставка",
+        "Регулирование"
+      ],
+      "brands": [
+        "Самокат"
+      ],
+      "score": 2.1,
+      "strategic_relevance_score": 42,
+      "relevance_reasons": [
+        "доставка",
+        "регулирование",
+        "крупный игрок"
+      ],
+      "why_it_matters": "Помогает отслеживать рынок e-commerce и доставки: модели сервиса, игроков, логистику и поведение покупателей. В фокусе: Самокат. Отобрано как: доставка, регулирование, крупный игрок.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [],
+      "source_quality": 4.6,
+      "publisher_id": "kommersant.ru"
+    },
+    {
       "id": "76f8748b05c962ad17",
       "title": "Беглов подписал закон о запрете розничной продажи вейпов в Петербурге",
       "url": "https://kommersant.ru/doc/9126679",
@@ -79360,6 +79543,74 @@
       "publisher_id": "retail.ru"
     },
     {
+      "id": "166f5a213e941f2c41",
+      "title": "Глобальные инвесторы вывели из фондов облигаций $7,5 млрд за минувшую неделю",
+      "url": "https://kommersant.ru/doc/9127371",
+      "source": "Коммерсантъ — новости",
+      "published_at": "2026-11-22T12:15:27+00:00",
+      "summary": "О том, что международные инвесторы активно продают фонды облигаций, свидетельствуют данные Emerging Portfolio Fund Research (EPFR). По оценке “Ъ”, основанной на данных отчета Bank of America (BofA), который учитывает сведения EPFR, клиенты таких фондов вывели за неделю, закончившуюся 18 ноября, $7,5 млрд.",
+      "categories": [
+        "FinanceEconomy"
+      ],
+      "primary_category": "FinanceEconomy",
+      "topics": [
+        "Регулирование"
+      ],
+      "brands": [],
+      "score": 2.0,
+      "strategic_relevance_score": 40,
+      "relevance_reasons": [
+        "регулирование",
+        "есть данные"
+      ],
+      "why_it_matters": "Задает макроконтекст для спроса, потребительских расходов и бизнес-планирования. Отобрано как: регулирование, есть данные.",
+      "client_matches": {},
+      "market_scope": "Global",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "research",
+      "metrics": [],
+      "source_quality": 4.6,
+      "publisher_id": "kommersant.ru"
+    },
+    {
+      "id": "ca5e77da69a19f253f",
+      "title": "«Авито Работа» и «ВсеИнструменты.ру»: спрос на монолитчиков увеличился на 69% на фоне роста строительного ритейла",
+      "url": "https://retail.ru/news/avito-rabota-i-vseinstrumenty-ru-spros-na-monolitchikov-uvelichilsya-na-69-na-fo-22-noyabrya-2026-284781",
+      "source": "Retail.ru — новости",
+      "published_at": "2026-11-22T08:00:53+00:00",
+      "summary": "",
+      "categories": [
+        "Retail"
+      ],
+      "primary_category": "Retail",
+      "topics": [
+        "Потребитель"
+      ],
+      "brands": [],
+      "score": 2.0,
+      "strategic_relevance_score": 40,
+      "relevance_reasons": [
+        "потребитель",
+        "есть данные"
+      ],
+      "why_it_matters": "Показывает изменение в бизнесе ритейла: формате, продажах, ценах, ассортименте или конкурентной динамике. Отобрано как: потребитель, есть данные.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [
+        {
+          "type": "Спрос",
+          "value": "69%",
+          "context": "ру»: спрос на монолитчиков увеличился на 69% на фоне роста строительного ритейла."
+        }
+      ],
+      "source_quality": 4.5,
+      "publisher_id": "retail.ru"
+    },
+    {
       "id": "8e6a8d2c513b568d92",
       "title": "Рынок новых люксовых автомобилей в России сократился на 27% в октябре 2026 года",
       "url": "https://retail.ru/news/rynok-novykh-lyuksovykh-avtomobiley-v-rossii-sokratilsya-na-27-v-oktyabre-2026-g-21-noyabrya-2026-284778",
@@ -79650,6 +79901,43 @@
       ],
       "source_quality": 4.0,
       "publisher_id": "finam.ru"
+    },
+    {
+      "id": "8d05c7f844258dd227",
+      "title": "Российский рынок новых пикапов снизился впервые за полгода",
+      "url": "https://autostat.ru/news/63519",
+      "source": "АВТОСТАТ — авторынок",
+      "published_at": "2026-11-19T00:00:00+00:00",
+      "summary": "По итогам октября 2026 года в РФ было продано 2 191 новый пикап, что на 6,4% меньше, чем в том же месяце прошлого года. Таким образом, этот сегмент авторынка ушел &laq...",
+      "categories": [
+        "Automotive"
+      ],
+      "primary_category": "Automotive",
+      "topics": [
+        "Рынок и продажи"
+      ],
+      "brands": [],
+      "score": 2.0,
+      "strategic_relevance_score": 40,
+      "relevance_reasons": [
+        "рынок / бизнес",
+        "есть данные"
+      ],
+      "why_it_matters": "Важен для понимания продаж, цен, модельного ряда, дилерской сети и конкурентной динамики авторынка. Отобрано как: рынок / бизнес, есть данные.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [
+        {
+          "type": "Продажи",
+          "value": "6,4%",
+          "context": "По итогам октября 2026 года в РФ было продано 2 191 новый пикап, что на 6,4% меньше, чем в том же месяце прошлого года."
+        }
+      ],
+      "source_quality": 4.8,
+      "publisher_id": "autostat.ru"
     },
     {
       "id": "d66a0a6b326d82127f",
@@ -97171,6 +97459,36 @@
       "metrics": [],
       "source_quality": 4.1,
       "publisher_id": "cnews.ru"
+    },
+    {
+      "id": "71f7e23b1acaef0521",
+      "title": "Снижение цен на жилье охватило половину городов Золотого кольца Эксклюзив",
+      "url": "https://realty.rbc.ru/news/6af49041dc31063657bd8e33",
+      "source": "РБК Недвижимость — рынок недвижимости",
+      "published_at": "2026-11-17T06:35:00+00:00",
+      "summary": "В октябре 2026-го в городах Золотого кольца стали активнее снижаться цены на вторичное жилье. В августе и сентябре было лишь по одному городу, где цены снижались, а теперь жилье подешевело ровно в половине городов Золотого кольца, исследованных ИИ",
+      "categories": [
+        "RealEstate"
+      ],
+      "primary_category": "RealEstate",
+      "topics": [
+        "Цены и промо",
+        "Digital и технологии",
+        "Исследования и прогнозы"
+      ],
+      "brands": [],
+      "score": 1.7,
+      "strategic_relevance_score": 34,
+      "relevance_reasons": [],
+      "why_it_matters": "Отражает динамику спроса, цен, ипотеки, девелопмента и коммерческой недвижимости.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "research",
+      "metrics": [],
+      "source_quality": 4.5,
+      "publisher_id": "rbc.ru"
     },
     {
       "id": "b65faf44f2fd8fcd29",
