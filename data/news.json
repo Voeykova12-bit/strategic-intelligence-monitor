@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-25T15:43:15.583790+00:00",
+  "updated_at": "2026-11-25T16:48:28.102782+00:00",
   "source_count": 43,
-  "item_count": 3617,
+  "item_count": 3638,
   "retention_days": 365,
   "categories": [
     {
@@ -74,7 +74,7 @@
   "source_stats": [
     {
       "source": "Retail.ru — новости",
-      "added": 3
+      "added": 0
     },
     {
       "source": "Retail.ru — статьи",
@@ -86,39 +86,39 @@
     },
     {
       "source": "РБК — бизнес и экономика",
-      "added": 2
+      "added": 4
     },
     {
       "source": "Коммерсантъ — новости",
-      "added": 3
+      "added": 1
     },
     {
       "source": "Ведомости — новости",
-      "added": 3
+      "added": 1
     },
     {
       "source": "Sostav — маркетинг и бренды",
-      "added": 9
+      "added": 1
     },
     {
       "source": "CNews — бизнес и технологии",
-      "added": 14
+      "added": 1
     },
     {
       "source": "ТАСС — экономика и компании",
-      "added": 2
+      "added": 6
     },
     {
       "source": "Finam — компании и рынки",
-      "added": 5
+      "added": 2
     },
     {
       "source": "АВТОСТАТ — авторынок",
-      "added": 0
+      "added": 4
     },
     {
       "source": "РБК Недвижимость — рынок недвижимости",
-      "added": 5
+      "added": 3
     },
     {
       "source": "Банк России — новости",
@@ -137,7 +137,7 @@
     },
     {
       "source": "Retail Dive",
-      "added": 3,
+      "added": 4,
       "status": "ok"
     },
     {
@@ -162,7 +162,7 @@
     },
     {
       "source": "AdIndex — реклама и медиа",
-      "added": 9,
+      "added": 8,
       "status": "ok"
     },
     {
@@ -197,8 +197,8 @@
     },
     {
       "source": "РБК Тренды",
-      "added": 0,
-      "status": "no_dated_items"
+      "added": 1,
+      "status": "ok"
     },
     {
       "source": "ФармМедПром",
@@ -277,10 +277,6 @@
     }
   ],
   "errors": [
-    {
-      "source": "АВТОСТАТ — авторынок",
-      "error": "HTTP Error 403: Forbidden"
-    },
     {
       "source": "Росстат — новости статистики",
       "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1011)>"
@@ -22923,6 +22919,40 @@
       "publisher_id": "romir.ru"
     },
     {
+      "id": "80bb231777e82f223d",
+      "title": "Медицина будущего: какой будет, перспективы, применение ИИ, прогнозы ученых | РБК Тренды",
+      "url": "https://trends.rbc.ru/trends/innovation/cmrm/6af728ec4958432250befce0",
+      "source": "РБК Тренды",
+      "published_at": "2026-11-25T15:30:00+00:00",
+      "summary": "Можно ли создать лекарство для конкретного пациента, как продлить жизнь до 120 лет и когда мы наконец победим рак? Ученые обсудили главные вызовы современной медицины и роль искусственного интеллекта в ее развитии",
+      "categories": [
+        "Consumer",
+        "Pharma",
+        "TechnologyAI"
+      ],
+      "primary_category": "Consumer",
+      "topics": [
+        "Digital и технологии",
+        "Исследования и прогнозы"
+      ],
+      "brands": [],
+      "score": 3.5,
+      "strategic_relevance_score": 70,
+      "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы. Есть исследовательская или прогнозная база.",
+      "market_scope": "Russia",
+      "metrics": [],
+      "image_url": "",
+      "source_quality": 4.5,
+      "content_type": "forecast",
+      "future_signal": true,
+      "future_horizon": [
+        "future"
+      ],
+      "pdf_urls": [],
+      "research_primary": false,
+      "publisher_id": "rbc.ru"
+    },
+    {
       "id": "b3c9792771f18ca813",
       "title": "Средний чек на распродажах снизился на 5% — аналитика | New Retail",
       "url": "https://new-retail.ru/novosti/retail/sredniy_chek_na_rasprodazhakh_snizilsya_na_5_analitika",
@@ -40377,6 +40407,64 @@
       "image_url": "",
       "source_quality": 4.2,
       "content_type": "research",
+      "future_signal": false,
+      "future_horizon": [],
+      "pdf_urls": [],
+      "research_primary": false,
+      "publisher_id": "new-retail.ru"
+    },
+    {
+      "id": "7d9de4804d11dd8146",
+      "title": "Депутаты Псковской области одобрили запрет продажи вейпов | New Retail",
+      "url": "https://new-retail.ru/novosti/retail/deputaty_pskovskoy_oblasti_odobrili_zapret_prodazhi_veypov",
+      "source": "New Retail — отраслевые новости",
+      "published_at": "2026-11-24T21:00:00+00:00",
+      "summary": "Депутаты Законодательного собрания Псковской области 25 ноября единогласно поддержали закон, устанавливающий полный запрет розничной продажи вейпов и жидкостей для них в регионе.",
+      "categories": [
+        "Retail"
+      ],
+      "primary_category": "Retail",
+      "topics": [
+        "Рынок и продажи"
+      ],
+      "brands": [],
+      "score": 3.3,
+      "strategic_relevance_score": 66,
+      "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
+      "market_scope": "Russia",
+      "metrics": [],
+      "image_url": "",
+      "source_quality": 4.2,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": [],
+      "pdf_urls": [],
+      "research_primary": false,
+      "publisher_id": "new-retail.ru"
+    },
+    {
+      "id": "9f967bcdfcf5be5929",
+      "title": "«Лента PRO» выявила ключевые тренды офисных закупок за девять месяцев | New Retail",
+      "url": "https://new-retail.ru/novosti/retail/lenta_pro_vyyavila_klyuchevye_trendy_ofisnykh_zakupok_za_devyat_mesyatsev",
+      "source": "New Retail — отраслевые новости",
+      "published_at": "2026-11-24T21:00:00+00:00",
+      "summary": "«Лента PRO» подвела итоги анализа закупок корпоративных клиентов за девять месяцев 2026 года и обозначила ключевые тренды в структуре офисного спроса.",
+      "categories": [
+        "Retail"
+      ],
+      "primary_category": "Retail",
+      "topics": [
+        "Потребитель"
+      ],
+      "brands": [],
+      "score": 3.3,
+      "strategic_relevance_score": 66,
+      "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
+      "market_scope": "Russia",
+      "metrics": [],
+      "image_url": "",
+      "source_quality": 4.2,
+      "content_type": "news",
       "future_signal": false,
       "future_horizon": [],
       "pdf_urls": [],
@@ -60397,6 +60485,130 @@
       "publisher_id": "rbc.ru"
     },
     {
+      "id": "73b5c42a014021dfeb",
+      "title": "В России инфляция с 17 по 23 ноября составила 0,3%",
+      "url": "https://tass.ru/ekonomika/28355103",
+      "source": "ТАСС — экономика и компании",
+      "published_at": "2026-11-25T16:00:51+00:00",
+      "summary": "С начала ноября потребительские цены выросли на 0,6%",
+      "categories": [
+        "FinanceEconomy",
+        "Consumer"
+      ],
+      "primary_category": "FinanceEconomy",
+      "topics": [
+        "Потребитель",
+        "Цены и промо"
+      ],
+      "brands": [],
+      "score": 2.7,
+      "strategic_relevance_score": 54,
+      "relevance_reasons": [
+        "потребитель",
+        "есть данные"
+      ],
+      "why_it_matters": "Задает макроконтекст для спроса, потребительских расходов и бизнес-планирования. Отобрано как: потребитель, есть данные.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [
+        {
+          "type": "Спрос",
+          "value": "0,3%",
+          "context": "В России инфляция с 17 по 23 ноября составила 0,3%."
+        },
+        {
+          "type": "Спрос",
+          "value": "0,6%",
+          "context": "С начала ноября потребительские цены выросли на 0,6%"
+        }
+      ],
+      "source_quality": 4.5,
+      "publisher_id": "tass.ru"
+    },
+    {
+      "id": "253da43c41eeaa5096",
+      "title": "В России годовая инфляция в октябре составила 6,87%",
+      "url": "https://tass.ru/ekonomika/28355101",
+      "source": "ТАСС — экономика и компании",
+      "published_at": "2026-11-25T16:00:38+00:00",
+      "summary": "В месячном выражении потребительские цены выросли на 0,99%",
+      "categories": [
+        "FinanceEconomy",
+        "Consumer"
+      ],
+      "primary_category": "FinanceEconomy",
+      "topics": [
+        "Потребитель",
+        "Цены и промо"
+      ],
+      "brands": [],
+      "score": 2.7,
+      "strategic_relevance_score": 54,
+      "relevance_reasons": [
+        "потребитель",
+        "есть данные"
+      ],
+      "why_it_matters": "Задает макроконтекст для спроса, потребительских расходов и бизнес-планирования. Отобрано как: потребитель, есть данные.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [
+        {
+          "type": "Спрос",
+          "value": "6,87%",
+          "context": "В России годовая инфляция в октябре составила 6,87%."
+        },
+        {
+          "type": "Спрос",
+          "value": "0,99%",
+          "context": "В месячном выражении потребительские цены выросли на 0,99%"
+        }
+      ],
+      "source_quality": 4.5,
+      "publisher_id": "tass.ru"
+    },
+    {
+      "id": "6ed7b16a942ff9b345",
+      "title": "Где в России не будут продавать вейпы с 2027 года. Карта",
+      "url": "https://rbc.ru/rbcfreenews/6b00988a1d72e10990872cf8",
+      "source": "РБК — бизнес и экономика",
+      "published_at": "2026-11-25T15:45:01+00:00",
+      "summary": "В России уже 39 регионов приняли закон о запрете розничной продажи вейпов и жидкостей для них. Ограничения вступят в силу с 1 марта 2027 года. Где запрет одобрили — на карте РБК",
+      "categories": [
+        "Retail",
+        "BanksFintech"
+      ],
+      "primary_category": "Retail",
+      "topics": [
+        "Рынок и продажи",
+        "Регулирование"
+      ],
+      "brands": [],
+      "score": 2.7,
+      "strategic_relevance_score": 54,
+      "relevance_reasons": [
+        "рынок / бизнес",
+        "регулирование",
+        "будущий горизонт"
+      ],
+      "why_it_matters": "Показывает изменение в бизнесе ритейла: формате, продажах, ценах, ассортименте или конкурентной динамике. Горизонт: 2027. Отобрано как: рынок / бизнес, регулирование, будущий горизонт.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [
+        "2027"
+      ],
+      "future_signal": true,
+      "content_type": "news",
+      "metrics": [],
+      "source_quality": 4.5,
+      "publisher_id": "rbc.ru"
+    },
+    {
       "id": "c901cc7f1a2cb9e151",
       "title": "Сеть «Дикси» нарастила оборот СТМ на 29% за 10 месяцев 2026 года",
       "url": "https://retail.ru/news/set-diksi-narastila-oborot-stm-na-29-za-10-mesyatsev-2026-goda-25-noyabrya-2026-284908",
@@ -64766,6 +64978,49 @@
       "publisher_id": "sostav.ru"
     },
     {
+      "id": "b03904170efadcc375",
+      "title": "Предпочтительный для ФРС показатель инфляции в США в октябре увеличился до 3,8%",
+      "url": "https://tass.ru/ekonomika/28355157",
+      "source": "ТАСС — экономика и компании",
+      "published_at": "2026-11-25T16:25:48+00:00",
+      "summary": "Это почти вдвое превышает целевой показатель в 2% Федеральной резервной системы, выполняющей функции центрального банка страны",
+      "categories": [
+        "FinanceEconomy"
+      ],
+      "primary_category": "FinanceEconomy",
+      "topics": [
+        "Потребитель",
+        "Цены и промо"
+      ],
+      "brands": [],
+      "score": 2.5,
+      "strategic_relevance_score": 50,
+      "relevance_reasons": [
+        "потребитель",
+        "есть данные"
+      ],
+      "why_it_matters": "Задает макроконтекст для спроса, потребительских расходов и бизнес-планирования. Отобрано как: потребитель, есть данные.",
+      "client_matches": {},
+      "market_scope": "Global",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [
+        {
+          "type": "Цены",
+          "value": "3,8%",
+          "context": "Предпочтительный для ФРС показатель инфляции в США в октябре увеличился до 3,8%."
+        },
+        {
+          "type": "Цены",
+          "value": "2%",
+          "context": "Это почти вдвое превышает целевой показатель в 2% Федеральной резервной системы, выполняющей функции центрального банка страны"
+        }
+      ],
+      "source_quality": 4.5,
+      "publisher_id": "tass.ru"
+    },
+    {
       "id": "950b7c16ff921bfaa3",
       "title": "Рынок управления данными в России в 2026 г. достигнет почти 165 млрд руб.",
       "url": "https://cnews.ru/news/line/2026-11-25_rynok_upravleniya_dannymi",
@@ -64805,6 +65060,88 @@
       ],
       "source_quality": 4.1,
       "publisher_id": "cnews.ru"
+    },
+    {
+      "id": "4168cb73e7bf3bd4f4",
+      "title": "Кроссовер TENET T4L с полным приводом будет стоить от 2,5 млн рублей",
+      "url": "https://autostat.ru/news/63557",
+      "source": "АВТОСТАТ — авторынок",
+      "published_at": "2026-11-25T00:00:00+00:00",
+      "summary": "Российский бренд TENET объявил стоимость и комплектации кроссовера T4L в полноприводной версии. Автомобиль предложат в версиях «Актив» и «Прайм»...",
+      "categories": [
+        "Automotive"
+      ],
+      "primary_category": "Automotive",
+      "topics": [
+        "Маркетинг и медиа"
+      ],
+      "brands": [
+        "TENET"
+      ],
+      "score": 2.5,
+      "strategic_relevance_score": 50,
+      "relevance_reasons": [
+        "маркетинг",
+        "крупный игрок",
+        "есть данные"
+      ],
+      "why_it_matters": "Важен для понимания продаж, цен, модельного ряда, дилерской сети и конкурентной динамики авторынка. В фокусе: TENET. Отобрано как: маркетинг, крупный игрок, есть данные.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [
+        {
+          "type": "Рыночная метрика",
+          "value": "2,5 млн рублей",
+          "context": "Кроссовер TENET T4L с полным приводом будет стоить от 2,5 млн рублей."
+        }
+      ],
+      "source_quality": 4.8,
+      "publisher_id": "autostat.ru"
+    },
+    {
+      "id": "b85b26b18776bd26c4",
+      "title": "Мировой авторынок в октябре снизился на 8%",
+      "url": "https://autostat.ru/news/63552",
+      "source": "АВТОСТАТ — авторынок",
+      "published_at": "2026-11-25T00:00:00+00:00",
+      "summary": "Продажи легковых и легких коммерческих машин во всем мире по итогам октября 2026 года составили 7 615 382 единицы, что на 7,8% меньше, чем в том же месяце прошлого год...",
+      "categories": [
+        "Automotive"
+      ],
+      "primary_category": "Automotive",
+      "topics": [
+        "Рынок и продажи"
+      ],
+      "brands": [],
+      "score": 2.5,
+      "strategic_relevance_score": 50,
+      "relevance_reasons": [
+        "рынок / бизнес",
+        "есть данные"
+      ],
+      "why_it_matters": "Важен для понимания продаж, цен, модельного ряда, дилерской сети и конкурентной динамики авторынка. Отобрано как: рынок / бизнес, есть данные.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [
+        {
+          "type": "Продажи",
+          "value": "8%",
+          "context": "Мировой авторынок в октябре снизился на 8%."
+        },
+        {
+          "type": "Рыночная метрика",
+          "value": "7,8%",
+          "context": "Продажи легковых и легких коммерческих машин во всем мире по итогам октября 2026 года составили 7 615 382 единицы, что на 7,8% меньше, чем в том же месяце прошлого год."
+        }
+      ],
+      "source_quality": 4.8,
+      "publisher_id": "autostat.ru"
     },
     {
       "id": "2e631e735eeb812d83",
@@ -68095,6 +68432,50 @@
       "content_type": "news",
       "source_quality": 4.0,
       "publisher_id": "retail.ru"
+    },
+    {
+      "id": "8edfa23ab9b4f6b4c4",
+      "title": "Потребительская инфляция в России в октябре составила 0,99% из-за индексации ЖКУ",
+      "url": "https://finam.ru/publications/item/potrebitelskaya-inflyatsiya-v-oktyabre-sostavila-099-iz-za-indeksatsii-zhku-20261125-1928?news_to_finamb=new_compaigns",
+      "source": "Finam — компании и рынки",
+      "published_at": "2026-11-25T16:28:04+00:00",
+      "summary": "Без учета этого фактора рост цен был умеренным - 0,28%...",
+      "categories": [
+        "FinanceEconomy",
+        "Consumer"
+      ],
+      "primary_category": "FinanceEconomy",
+      "topics": [
+        "Потребитель",
+        "Цены и промо"
+      ],
+      "brands": [],
+      "score": 2.4,
+      "strategic_relevance_score": 48,
+      "relevance_reasons": [
+        "потребитель",
+        "есть данные"
+      ],
+      "why_it_matters": "Задает макроконтекст для спроса, потребительских расходов и бизнес-планирования. Отобрано как: потребитель, есть данные.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [
+        {
+          "type": "Спрос",
+          "value": "0,99%",
+          "context": "Потребительская инфляция в России в октябре составила 0,99% из-за индексации ЖКУ."
+        },
+        {
+          "type": "Рыночная метрика",
+          "value": "0,28%",
+          "context": "Без учета этого фактора рост цен был умеренным - 0,28%."
+        }
+      ],
+      "source_quality": 4.0,
+      "publisher_id": "finam.ru"
     },
     {
       "id": "b47037a0aeb955851b",
@@ -74152,10 +74533,9 @@
       "published_at": "2026-11-24T04:00:56+00:00",
       "summary": "В Московской области доля морально устаревших элитных домов в ноябре составляет от 40 до 60%. За год она немного снизилась, но все равно остается внушительной. В основном такие объекты находятся на Рублево-Успенском шоссе, а покупатели их нередко сносят",
       "categories": [
-        "RealEstate",
         "Consumer"
       ],
-      "primary_category": "RealEstate",
+      "primary_category": "Consumer",
       "topics": [
         "Потребитель"
       ],
@@ -74166,7 +74546,7 @@
         "потребитель",
         "есть данные"
       ],
-      "why_it_matters": "Отражает динамику спроса, цен, ипотеки, девелопмента и коммерческой недвижимости. Отобрано как: потребитель, есть данные.",
+      "why_it_matters": "Материал влияет на рыночный или конкурентный контекст. Отобрано как: потребитель, есть данные.",
       "client_matches": {},
       "market_scope": "Russia",
       "future_horizon": [],
@@ -79288,6 +79668,40 @@
       "publisher_id": "sostav.ru"
     },
     {
+      "id": "ceeea83fc97de605d0",
+      "title": "ЦБ сообщил о планах изменить методику расчета официальных курсов валют",
+      "url": "https://rbc.ru/quote/25/11/2026/6b06fe337d9b695c68eade47",
+      "source": "РБК — бизнес и экономика",
+      "published_at": "2026-11-25T15:59:10+00:00",
+      "summary": "ЦБ хочет расширить базу для определения официальных курсов любых иностранных валют, включив в нее больше данных. Регулятор планирует синхронизировать начало сбора данных с началом торговых сессий на биржах",
+      "categories": [
+        "FinanceEconomy"
+      ],
+      "primary_category": "FinanceEconomy",
+      "topics": [
+        "Форматы и экспансия",
+        "Регулирование"
+      ],
+      "brands": [],
+      "score": 2.1,
+      "strategic_relevance_score": 42,
+      "relevance_reasons": [
+        "регулирование",
+        "будущий горизонт"
+      ],
+      "why_it_matters": "Задает макроконтекст для спроса, потребительских расходов и бизнес-планирования. Горизонт: future. Отобрано как: регулирование, будущий горизонт.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [
+        "future"
+      ],
+      "future_signal": true,
+      "content_type": "company_plan",
+      "metrics": [],
+      "source_quality": 4.5,
+      "publisher_id": "rbc.ru"
+    },
+    {
       "id": "e61359e4fed76177fd",
       "title": "RW+: 30% российских пользователей ИИ совершали финансовое действие по совету нейросети",
       "url": "https://cnews.ru/news/line/2026-11-25_rw_30_rossijskih_polzovatelej",
@@ -84044,6 +84458,105 @@
       "publisher_id": "retail.ru"
     },
     {
+      "id": "1e698ec34d68cc32ab",
+      "title": "Росстат раскрыл, как подорожала красная икра в октябре",
+      "url": "https://rbc.ru/rbcfreenews/6ada4e054cfa59f75ac10257",
+      "source": "РБК — бизнес и экономика",
+      "published_at": "2026-11-25T16:01:56+00:00",
+      "summary": "Кроме красной икры, за месяц заметно подорожали в том числе яйца (7,6%) и помидоры (21,8%). Общая инфляция в октябре составила 0,99%, а с 17 по 23 ноября цены выросли еще на 0,3%, следует из данных Росстата",
+      "categories": [
+        "FinanceEconomy"
+      ],
+      "primary_category": "FinanceEconomy",
+      "topics": [
+        "Цены и промо"
+      ],
+      "brands": [],
+      "score": 2.0,
+      "strategic_relevance_score": 40,
+      "relevance_reasons": [
+        "есть данные"
+      ],
+      "why_it_matters": "Задает макроконтекст для спроса, потребительских расходов и бизнес-планирования. Отобрано как: есть данные.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [
+        {
+          "type": "Цены",
+          "value": "7,6%",
+          "context": "Кроме красной икры, за месяц заметно подорожали в том числе яйца (7,6%) и помидоры (21,8%)."
+        },
+        {
+          "type": "Цены",
+          "value": "21,8%",
+          "context": "Кроме красной икры, за месяц заметно подорожали в том числе яйца (7,6%) и помидоры (21,8%)."
+        },
+        {
+          "type": "Цены",
+          "value": "0,99%",
+          "context": "Общая инфляция в октябре составила 0,99%, а с 17 по 23 ноября цены выросли еще на 0,3%, следует из данных Росстата"
+        },
+        {
+          "type": "Цены",
+          "value": "0,3%",
+          "context": "Общая инфляция в октябре составила 0,99%, а с 17 по 23 ноября цены выросли еще на 0,3%, следует из данных Росстата"
+        }
+      ],
+      "source_quality": 4.5,
+      "publisher_id": "rbc.ru"
+    },
+    {
+      "id": "822c7a1b300fd9e931",
+      "title": "Чистая прибыль банковского сектора в РФ в октябре составила 311 млрд рублей",
+      "url": "https://tass.ru/ekonomika/28355027",
+      "source": "ТАСС — экономика и компании",
+      "published_at": "2026-11-25T15:40:17+00:00",
+      "summary": "По данным ЦБ, основная прибыль сократилась до 390 млрд рублей из-за роста отчислений в резервы до 221 млрд рублей",
+      "categories": [
+        "BanksFintech"
+      ],
+      "primary_category": "BanksFintech",
+      "topics": [
+        "Финрезультаты",
+        "Исследования и прогнозы"
+      ],
+      "brands": [],
+      "score": 2.0,
+      "strategic_relevance_score": 40,
+      "relevance_reasons": [
+        "рынок / бизнес",
+        "есть данные"
+      ],
+      "why_it_matters": "Может менять банковские офферы, финтех-сервисы, клиентское поведение и коммуникационную конкуренцию. Отобрано как: рынок / бизнес, есть данные.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [
+        {
+          "type": "Рыночная метрика",
+          "value": "311 млрд рублей",
+          "context": "Чистая прибыль банковского сектора в РФ в октябре составила 311 млрд рублей."
+        },
+        {
+          "type": "Рыночная метрика",
+          "value": "390 млрд рублей",
+          "context": "По данным ЦБ, основная прибыль сократилась до 390 млрд рублей из-за роста отчислений в резервы до 221 млрд рублей"
+        },
+        {
+          "type": "Рыночная метрика",
+          "value": "221 млрд рублей",
+          "context": "По данным ЦБ, основная прибыль сократилась до 390 млрд рублей из-за роста отчислений в резервы до 221 млрд рублей"
+        }
+      ],
+      "source_quality": 4.5,
+      "publisher_id": "tass.ru"
+    },
+    {
       "id": "f2fc975df2402c15df",
       "title": "Как установить «ВТБ Онлайн» на iPhone: все рабочие способы",
       "url": "https://rbc.ru/quote/25/11/2026/6b06915764dabb8c26692f4f",
@@ -84209,6 +84722,43 @@
       "metrics": [],
       "source_quality": 4.2,
       "publisher_id": "sostav.ru"
+    },
+    {
+      "id": "f8c6914b692a8f688c",
+      "title": "Вторичный рынок мотоциклов в РФ растет шесть месяцев подряд",
+      "url": "https://autostat.ru/news/63553",
+      "source": "АВТОСТАТ — авторынок",
+      "published_at": "2026-11-25T00:00:00+00:00",
+      "summary": "Согласно данным агентства «АВТОСТАТ», в октябре нынешнего года россияне купили 9,3 тыс. мотоциклов с пробегом. Это на 10% больше, чем в том же месяце 2025-го.",
+      "categories": [
+        "Automotive"
+      ],
+      "primary_category": "Automotive",
+      "topics": [
+        "Рынок и продажи"
+      ],
+      "brands": [],
+      "score": 2.0,
+      "strategic_relevance_score": 40,
+      "relevance_reasons": [
+        "рынок / бизнес",
+        "есть данные"
+      ],
+      "why_it_matters": "Важен для понимания продаж, цен, модельного ряда, дилерской сети и конкурентной динамики авторынка. Отобрано как: рынок / бизнес, есть данные.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [
+        {
+          "type": "Рыночная метрика",
+          "value": "10%",
+          "context": "Это на 10% больше, чем в том же месяце 2025-го."
+        }
+      ],
+      "source_quality": 4.8,
+      "publisher_id": "autostat.ru"
     },
     {
       "id": "47d3a5b9df1ad2c82a",
@@ -91075,6 +91625,37 @@
       "publisher_id": "retail.ru"
     },
     {
+      "id": "177248875fe9163fec",
+      "title": "Reuters: во время «черной пятницы» ритейлерам грозят кибератаки с помощью ИИ",
+      "url": "https://kommersant.ru/doc/9130631",
+      "source": "Коммерсантъ — новости",
+      "published_at": "2026-11-25T16:18:17+00:00",
+      "summary": "В преддверии сезона распродаж в «черную пятницу» и в целом в предпраздничный период ритейлеры сталкиваются с растущей угрозой кибератак, в том числе с использованием искусственного интеллекта (ИИ), пишет Reuters.…",
+      "categories": [
+        "Retail"
+      ],
+      "primary_category": "Retail",
+      "topics": [
+        "Рынок и продажи",
+        "Digital и технологии"
+      ],
+      "brands": [],
+      "score": 1.9,
+      "strategic_relevance_score": 38,
+      "relevance_reasons": [
+        "рынок / бизнес"
+      ],
+      "why_it_matters": "Показывает изменение в бизнесе ритейла: формате, продажах, ценах, ассортименте или конкурентной динамике. Отобрано как: рынок / бизнес.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [],
+      "source_quality": 4.6,
+      "publisher_id": "kommersant.ru"
+    },
+    {
       "id": "c76881580f1215f7fd",
       "title": "Исследование T2: бизнес на юге увеличил использование SMS-таргетинга на 30%",
       "url": "https://cnews.ru/news/line/2026-11-25_issledovanie_t2_biznes_na",
@@ -91317,6 +91898,39 @@
       "metrics": [],
       "source_quality": 4.5,
       "publisher_id": "retail.ru"
+    },
+    {
+      "id": "16b1f8b1edb0402209",
+      "title": "Стали известны перспективы новой топ-версии кроссовера Haval H7",
+      "url": "https://autostat.ru/news/63549",
+      "source": "АВТОСТАТ — авторынок",
+      "published_at": "2026-11-25T00:00:00+00:00",
+      "summary": "Появление новой топовой комплектации «Космо», которая недавно поступила в продажу, определенно повысит интерес к кроссоверу Haval H7. Такое мнение агентств...",
+      "categories": [
+        "Automotive"
+      ],
+      "primary_category": "Automotive",
+      "topics": [
+        "Рынок и продажи"
+      ],
+      "brands": [
+        "Haval"
+      ],
+      "score": 1.9,
+      "strategic_relevance_score": 38,
+      "relevance_reasons": [
+        "рынок / бизнес",
+        "крупный игрок"
+      ],
+      "why_it_matters": "Важен для понимания продаж, цен, модельного ряда, дилерской сети и конкурентной динамики авторынка. В фокусе: Haval. Отобрано как: рынок / бизнес, крупный игрок.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [],
+      "source_quality": 4.8,
+      "publisher_id": "autostat.ru"
     },
     {
       "id": "f1f254ee3a62319041",
@@ -96678,6 +97292,130 @@
       "content_type": "forecast",
       "source_quality": 4.0,
       "publisher_id": "finam.ru"
+    },
+    {
+      "id": "77383ae7ce1b8580af",
+      "title": "Недельная инфляция в России ускорилась до 0,3%",
+      "url": "https://vedomosti.ru/economics/news/2026/11/25/1415378-nedelnaya-inflyatsiya",
+      "source": "Ведомости — новости",
+      "published_at": "2026-11-25T16:34:42+00:00",
+      "summary": "",
+      "categories": [
+        "FinanceEconomy"
+      ],
+      "primary_category": "FinanceEconomy",
+      "topics": [
+        "Цены и промо"
+      ],
+      "brands": [],
+      "score": 1.8,
+      "strategic_relevance_score": 36,
+      "relevance_reasons": [
+        "есть данные"
+      ],
+      "why_it_matters": "Задает макроконтекст для спроса, потребительских расходов и бизнес-планирования. Отобрано как: есть данные.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [
+        {
+          "type": "Цены",
+          "value": "0,3%",
+          "context": "Недельная инфляция в России ускорилась до 0,3%."
+        }
+      ],
+      "source_quality": 4.5,
+      "publisher_id": "vedomosti.ru"
+    },
+    {
+      "id": "be2768a7b447a7978d",
+      "title": "Объем портфеля корпоративных кредитов вырос в октябре на 2,3% к сентябрю",
+      "url": "https://tass.ru/ekonomika/28355165",
+      "source": "ТАСС — экономика и компании",
+      "published_at": "2026-11-25T16:22:19+00:00",
+      "summary": "При этом объем требований к юрлицам увеличился на 2,7 трлн рублей, прибавив 2,4%",
+      "categories": [
+        "BanksFintech"
+      ],
+      "primary_category": "BanksFintech",
+      "topics": [
+        "Регулирование"
+      ],
+      "brands": [],
+      "score": 1.8,
+      "strategic_relevance_score": 36,
+      "relevance_reasons": [
+        "регулирование",
+        "есть данные"
+      ],
+      "why_it_matters": "Может менять банковские офферы, финтех-сервисы, клиентское поведение и коммуникационную конкуренцию. Отобрано как: регулирование, есть данные.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [
+        {
+          "type": "Кредитование",
+          "value": "2,3%",
+          "context": "Объем портфеля корпоративных кредитов вырос в октябре на 2,3% к сентябрю."
+        },
+        {
+          "type": "Рыночная метрика",
+          "value": "2,4%",
+          "context": "При этом объем требований к юрлицам увеличился на 2,7 трлн рублей, прибавив 2,4%"
+        },
+        {
+          "type": "Кредитование",
+          "value": "2,7 трлн рублей",
+          "context": "При этом объем требований к юрлицам увеличился на 2,7 трлн рублей, прибавив 2,4%"
+        }
+      ],
+      "source_quality": 4.5,
+      "publisher_id": "tass.ru"
+    },
+    {
+      "id": "7d842ced9df123cbde",
+      "title": "МЭР: годовая инфляция в РФ с 17 по 23 ноября составила 7,17%",
+      "url": "https://tass.ru/ekonomika/28355159",
+      "source": "ТАСС — экономика и компании",
+      "published_at": "2026-11-25T16:20:58+00:00",
+      "summary": "На продовольственные товары цены изменились на 0,38%",
+      "categories": [
+        "FinanceEconomy"
+      ],
+      "primary_category": "FinanceEconomy",
+      "topics": [
+        "Цены и промо"
+      ],
+      "brands": [],
+      "score": 1.8,
+      "strategic_relevance_score": 36,
+      "relevance_reasons": [
+        "есть данные"
+      ],
+      "why_it_matters": "Задает макроконтекст для спроса, потребительских расходов и бизнес-планирования. Отобрано как: есть данные.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [
+        {
+          "type": "Цены",
+          "value": "7,17%",
+          "context": "МЭР: годовая инфляция в РФ с 17 по 23 ноября составила 7,17%."
+        },
+        {
+          "type": "Цены",
+          "value": "0,38%",
+          "context": "На продовольственные товары цены изменились на 0,38%"
+        }
+      ],
+      "source_quality": 4.5,
+      "publisher_id": "tass.ru"
     },
     {
       "id": "de27182b2373af87e0",
@@ -105915,6 +106653,34 @@
       "publisher_id": "sostav.ru"
     },
     {
+      "id": "1db681f030d8631a8e",
+      "title": "Как и за счет чего вырастет потребление российских станков",
+      "url": "https://rbc.ru/economics/23/11/2026/6afedd823bcf696184fe9cdb",
+      "source": "РБК — бизнес и экономика",
+      "published_at": "2026-11-25T16:21:31+00:00",
+      "summary": "Российское станкостроение — один из элементов долгосрочной трансформации промышленности. Отрасль наращивает выпуск и осваивает новые технологии при поддержке нацпроекта «Средства производства и автоматизации»",
+      "categories": [
+        "TechnologyAI"
+      ],
+      "primary_category": "TechnologyAI",
+      "topics": [
+        "Digital и технологии"
+      ],
+      "brands": [],
+      "score": 1.6,
+      "strategic_relevance_score": 32,
+      "relevance_reasons": [],
+      "why_it_matters": "Материал влияет на рыночный или конкурентный контекст.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [],
+      "source_quality": 4.5,
+      "publisher_id": "rbc.ru"
+    },
+    {
       "id": "1449709d579a5ea357",
       "title": "Цифровые инструменты и постаматы в частном секторе снижают затраты на «последнюю милю» до пяти раз",
       "url": "https://cnews.ru/news/line/2026-11-25_tsifrovye_instrumenty_i_postamaty",
@@ -113249,6 +114015,48 @@
       "content_type": "news",
       "source_quality": 4.0,
       "publisher_id": "cnews.ru"
+    },
+    {
+      "id": "e9c196886d216aead1",
+      "title": "Прибыль банковского сектора России в октябре упала на 24,7%",
+      "url": "https://finam.ru/publications/item/pribyl-bankovskogo-sektora-v-oktyabre-upala-na-247-20261125-1851?news_to_finamb=new_compaigns",
+      "source": "Finam — компании и рынки",
+      "published_at": "2026-11-25T15:51:43+00:00",
+      "summary": "Показатель составил 311 млрд рублей...",
+      "categories": [
+        "BanksFintech"
+      ],
+      "primary_category": "BanksFintech",
+      "topics": [
+        "Финрезультаты"
+      ],
+      "brands": [],
+      "score": 1.4,
+      "strategic_relevance_score": 28,
+      "relevance_reasons": [
+        "рынок / бизнес",
+        "есть данные"
+      ],
+      "why_it_matters": "Может менять банковские офферы, финтех-сервисы, клиентское поведение и коммуникационную конкуренцию. Отобрано как: рынок / бизнес, есть данные.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [
+        {
+          "type": "Рыночная метрика",
+          "value": "24,7%",
+          "context": "Прибыль банковского сектора России в октябре упала на 24,7%."
+        },
+        {
+          "type": "Рыночная метрика",
+          "value": "311 млрд рублей",
+          "context": "Показатель составил 311 млрд рублей."
+        }
+      ],
+      "source_quality": 4.0,
+      "publisher_id": "finam.ru"
     },
     {
       "id": "910f015cf038f131c2",
