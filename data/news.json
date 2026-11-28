@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-27T15:13:38.485977+00:00",
+  "updated_at": "2026-11-28T14:19:39.244796+00:00",
   "source_count": 43,
-  "item_count": 3775,
+  "item_count": 3790,
   "retention_days": 365,
   "categories": [
     {
@@ -90,35 +90,35 @@
     },
     {
       "source": "Коммерсантъ — новости",
-      "added": 4
-    },
-    {
-      "source": "Ведомости — новости",
-      "added": 4
-    },
-    {
-      "source": "Sostav — маркетинг и бренды",
-      "added": 5
-    },
-    {
-      "source": "CNews — бизнес и технологии",
-      "added": 20
-    },
-    {
-      "source": "ТАСС — экономика и компании",
-      "added": 1
-    },
-    {
-      "source": "Finam — компании и рынки",
       "added": 2
     },
     {
-      "source": "АВТОСТАТ — авторынок",
+      "source": "Ведомости — новости",
       "added": 0
     },
     {
+      "source": "Sostav — маркетинг и бренды",
+      "added": 0
+    },
+    {
+      "source": "CNews — бизнес и технологии",
+      "added": 0
+    },
+    {
+      "source": "ТАСС — экономика и компании",
+      "added": 0
+    },
+    {
+      "source": "Finam — компании и рынки",
+      "added": 1
+    },
+    {
+      "source": "АВТОСТАТ — авторынок",
+      "added": 6
+    },
+    {
       "source": "РБК Недвижимость — рынок недвижимости",
-      "added": 5
+      "added": 2
     },
     {
       "source": "Банк России — новости",
@@ -162,7 +162,7 @@
     },
     {
       "source": "AdIndex — реклама и медиа",
-      "added": 10,
+      "added": 9,
       "status": "ok"
     },
     {
@@ -207,8 +207,8 @@
     },
     {
       "source": "Фармацевтический вестник",
-      "added": 0,
-      "status": "no_dated_items"
+      "added": 1,
+      "status": "ok"
     },
     {
       "source": "DSM Group",
@@ -262,8 +262,8 @@
     },
     {
       "source": "PROfashion",
-      "added": 0,
-      "status": "error"
+      "added": 2,
+      "status": "ok"
     },
     {
       "source": "Fashion Consulting Group — Telegram",
@@ -277,10 +277,6 @@
     }
   ],
   "errors": [
-    {
-      "source": "АВТОСТАТ — авторынок",
-      "error": "HTTP Error 403: Forbidden"
-    },
     {
       "source": "Росстат — новости статистики",
       "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1011)>"
@@ -296,10 +292,6 @@
     {
       "source": "ВЦИОМ",
       "error": "HTTP Error 403: Forbidden"
-    },
-    {
-      "source": "PROfashion",
-      "error": "<urlopen error timed out>"
     }
   ],
   "items": [
@@ -785,45 +777,6 @@
           "type": "Доля рынка",
           "value": "78%",
           "context": "Доля программ господдержки в выдачах ИЖК."
-        }
-      ],
-      "curated_backfill": true,
-      "publisher_id": "cbr.ru"
-    },
-    {
-      "id": "bf-cbr-mortgage-202510",
-      "title": "Обзор рынка ипотечного жилищного кредитования: октябрь 2025",
-      "url": "https://cbr.ru/statistics/bank_sector/mortgage/Indicator_mortgage/1025",
-      "source": "Банк России — статистика",
-      "published_at": "2025-11-28T10:00:00+00:00",
-      "summary": "В октябре 2025 года объем выдач ИЖК составил 489,6 млрд руб., портфель — 21,1 трлн руб.; активность ипотечного рынка повысилась.",
-      "categories": [
-        "RealEstate",
-        "BanksFintech",
-        "FinanceEconomy"
-      ],
-      "primary_category": "RealEstate",
-      "topics": [
-        "Рынок и продажи",
-        "Исследования и прогнозы"
-      ],
-      "score": 5,
-      "strategic_relevance_score": 100,
-      "market_scope": "Russia",
-      "future_signal": false,
-      "future_horizon": [],
-      "content_type": "research",
-      "source_quality": 5,
-      "metrics": [
-        {
-          "type": "Кредитование",
-          "value": "489,6 млрд руб.",
-          "context": "Объем выдач ИЖК в октябре 2025 года."
-        },
-        {
-          "type": "Кредитование",
-          "value": "21,1 трлн руб.",
-          "context": "Портфель ИЖК на 01.11.2025."
         }
       ],
       "curated_backfill": true,
@@ -29728,6 +29681,39 @@
       "publisher_id": "romir.ru"
     },
     {
+      "id": "6d05ca49032adfd162",
+      "title": "НМИЦ гематологии получил лицензию на производство клеточных препаратов",
+      "url": "https://pharmvestnik.ru/content/news/nmic-gematologii-poluchil-licenziu-na-proizvodstvo-kletochnyh-preparatov.html",
+      "source": "Фармацевтический вестник",
+      "published_at": "2026-11-27T15:01:20+00:00",
+      "summary": "CAR-T-препарат «Утжефра» теперь можно применять не только в НМИЦ гематологии. Как новая лицензия Минпромторга меняет доступ к терапии и какие планы у центра на 2027 год.",
+      "categories": [
+        "Pharma",
+        "TechnologyAI"
+      ],
+      "primary_category": "Pharma",
+      "topics": [
+        "Digital и технологии"
+      ],
+      "brands": [],
+      "score": 3.4,
+      "strategic_relevance_score": 68,
+      "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
+      "market_scope": "Russia",
+      "metrics": [],
+      "image_url": "",
+      "source_quality": 4.5,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": [],
+      "pdf_urls": [
+        "https://pharmvestnik.ru/apps/fv/assets/uploads/subs/redaktsionnaya_politika/rp2024new.pdf",
+        "https://pharmvestnik.ru/apps/fv/assets/uploads/fv_mkit_noprices_2026_01.pdf"
+      ],
+      "research_primary": false,
+      "publisher_id": "pharmvestnik.ru"
+    },
+    {
       "id": "85a5299a49531879a9",
       "title": "Рекламная активность в «Максе» выросла более чем в два раза за три месяца",
       "url": "https://adindex.ru/news/ad_budjet/2026/11/27/351677.phtml",
@@ -29755,6 +29741,66 @@
       "pdf_urls": [],
       "research_primary": false,
       "publisher_id": "adindex.ru"
+    },
+    {
+      "id": "4f4e34e72ba57887cb",
+      "title": "Лучшие статьи PROfashion в ноябре 2026",
+      "url": "https://profashion.ru/business/marketing/luchshie-stati-profashion-v-noyabre-2026",
+      "source": "PROfashion",
+      "published_at": "2026-11-27T11:37:00+00:00",
+      "summary": "История черной пятницы, прогноз текстильных трендов и семь шагов к созданию собственного модного бренда. - новости PROfashion/журнал PROfashion",
+      "categories": [
+        "Fashion"
+      ],
+      "primary_category": "Fashion",
+      "topics": [
+        "Исследования и прогнозы"
+      ],
+      "brands": [],
+      "score": 3.4,
+      "strategic_relevance_score": 68,
+      "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы. Есть исследовательская или прогнозная база.",
+      "market_scope": "Russia",
+      "metrics": [],
+      "image_url": "",
+      "source_quality": 4.4,
+      "content_type": "forecast",
+      "future_signal": true,
+      "future_horizon": [
+        "future"
+      ],
+      "pdf_urls": [],
+      "research_primary": false,
+      "publisher_id": "profashion.ru"
+    },
+    {
+      "id": "0a617df7e4bd2caf99",
+      "title": "История черной пятницы: как появилась распродажа и почему она так называется",
+      "url": "https://profashion.ru/business/marketing/istoriya-chernoy-pyatnitsy-kak-poyavilas-rasprodazha-i-pochemu-ona-tak-nazyvaetsya",
+      "source": "PROfashion",
+      "published_at": "2026-11-27T10:42:00+00:00",
+      "summary": "Как появилась черная пятница, почему она так называется, в чем суть распродажи, когда она пришла в Россию и какого числа пройдет в 2026 году.",
+      "categories": [
+        "Fashion"
+      ],
+      "primary_category": "Fashion",
+      "topics": [
+        "Рынок и продажи"
+      ],
+      "brands": [],
+      "score": 3.4,
+      "strategic_relevance_score": 68,
+      "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы.",
+      "market_scope": "Russia",
+      "metrics": [],
+      "image_url": "",
+      "source_quality": 4.4,
+      "content_type": "news",
+      "future_signal": false,
+      "future_horizon": [],
+      "pdf_urls": [],
+      "research_primary": false,
+      "publisher_id": "profashion.ru"
     },
     {
       "id": "45bdc694ae82d6eec8",
@@ -41459,6 +41505,36 @@
       "publisher_id": "rbc.ru"
     },
     {
+      "id": "135de17a2ae32abb1f",
+      "title": "Рост рекламного бюджета не гарантирует повышение знания о бренде",
+      "url": "https://adindex.ru/news/researches/2026/11/27/351685.phtml",
+      "source": "AdIndex — реклама и медиа",
+      "published_at": "2026-11-27T15:44:48+00:00",
+      "summary": "Новости Бизнес СМИ AdIndex из рубрики Исследования — Рост рекламного бюджета не гарантирует повышение знания о бренде — Дополнительные вложения в уже насыщенный рекламный канал могут давать меньший эффект, тогда как накопленное знание бренда усиливает поисковый интерес",
+      "categories": [
+        "MediaAdvertising"
+      ],
+      "primary_category": "MediaAdvertising",
+      "topics": [
+        "Маркетинг и медиа",
+        "Исследования и прогнозы"
+      ],
+      "brands": [],
+      "score": 3.3,
+      "strategic_relevance_score": 66,
+      "why_it_matters": "Сигнал влияет на рыночный, потребительский или коммуникационный контекст и может быть полезен для стратегической работы. Есть исследовательская или прогнозная база.",
+      "market_scope": "Russia",
+      "metrics": [],
+      "image_url": "",
+      "source_quality": 4.5,
+      "content_type": "research",
+      "future_signal": false,
+      "future_horizon": [],
+      "pdf_urls": [],
+      "research_primary": false,
+      "publisher_id": "adindex.ru"
+    },
+    {
       "id": "c2f4c368ede533564e",
       "title": "«Яндекс Фабрика» разработала собственный интернет-магазин",
       "url": "https://adindex.ru/news/tendencies/2026/11/27/351656.phtml",
@@ -41527,10 +41603,10 @@
       "published_at": "2026-11-27T06:00:43+00:00",
       "summary": "С дисконтами в новостройках Новой Москвы сейчас предлагается почти 65% квартир, а медианная скидка за год выросла на 70%. На традиционный период предновогодних скидок наложилась необходимость стимулировать спрос из-за ужесточения семейной ипотеки",
       "categories": [
-        "RealEstate",
-        "BanksFintech"
+        "BanksFintech",
+        "RealEstate"
       ],
-      "primary_category": "RealEstate",
+      "primary_category": "BanksFintech",
       "topics": [
         "Потребитель",
         "Цены и промо"
@@ -41542,7 +41618,7 @@
         "потребитель",
         "есть данные"
       ],
-      "why_it_matters": "Отражает динамику спроса, цен, ипотеки, девелопмента и коммерческой недвижимости. Отобрано как: потребитель, есть данные.",
+      "why_it_matters": "Может менять банковские офферы, финтех-сервисы, клиентское поведение и коммуникационную конкуренцию. Отобрано как: потребитель, есть данные.",
       "client_matches": {},
       "market_scope": "Russia",
       "future_horizon": [],
@@ -56666,6 +56742,41 @@
       "publisher_id": "retail.ru"
     },
     {
+      "id": "952b020c030e18c47f",
+      "title": "«Москвич» и Сбер подписали соглашение о создании цифрового пространства для водителей и дилеров",
+      "url": "https://autostat.ru/news/63574",
+      "source": "АВТОСТАТ — авторынок",
+      "published_at": "2026-11-27T00:00:00+00:00",
+      "summary": "Сбербанк и автозавод «Москвич» подписали соглашение сроком на 3 года о стратегическом сотрудничестве в области искусственного интеллекта и технологий. Как ...",
+      "categories": [
+        "Automotive",
+        "BanksFintech",
+        "TechnologyAI"
+      ],
+      "primary_category": "Automotive",
+      "topics": [
+        "Digital и технологии"
+      ],
+      "brands": [
+        "Сбер",
+        "Москвич"
+      ],
+      "score": 3.1,
+      "strategic_relevance_score": 62,
+      "relevance_reasons": [
+        "крупный игрок"
+      ],
+      "why_it_matters": "Важен для понимания продаж, цен, модельного ряда, дилерской сети и конкурентной динамики авторынка. В фокусе: Сбер, Москвич. Отобрано как: крупный игрок.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [],
+      "source_quality": 4.8,
+      "publisher_id": "autostat.ru"
+    },
+    {
       "id": "f0203ce5424c9829ce",
       "title": "Силуанов спрогнозировал дефицит госбюджета по итогам 2026 года ниже планового",
       "url": "https://kommersant.ru/doc/9129346",
@@ -67167,6 +67278,40 @@
       "publisher_id": "sostav.ru"
     },
     {
+      "id": "742e69b757177d11fe",
+      "title": "Власти Москвы рассказали о способах мошенников красть аккаунты на маркетплейсах",
+      "url": "https://kommersant.ru/doc/9144963",
+      "source": "Коммерсантъ — новости",
+      "published_at": "2026-11-28T07:42:37+00:00",
+      "summary": "Мошенники пытаются завладеть аккаунтами москвичей на маркетплейсах, используя письма о блокировке и звонки от имени службы доставки. О двух распространенных схемах обмана рассказали специалисты проекта «Перезвони сам» на сайте мэра и правительства Москвы.",
+      "categories": [
+        "DeliveryEcom",
+        "Automotive"
+      ],
+      "primary_category": "DeliveryEcom",
+      "topics": [
+        "Потребитель"
+      ],
+      "brands": [
+        "Москвич"
+      ],
+      "score": 2.5,
+      "strategic_relevance_score": 50,
+      "relevance_reasons": [
+        "потребитель",
+        "крупный игрок"
+      ],
+      "why_it_matters": "Помогает отслеживать рынок e-commerce и доставки: модели сервиса, игроков, логистику и поведение покупателей. В фокусе: Москвич. Отобрано как: потребитель, крупный игрок.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [],
+      "source_quality": 4.6,
+      "publisher_id": "kommersant.ru"
+    },
+    {
       "id": "4cfbce5dd7c5cfa6de",
       "title": "АКРА присвоило статус «под наблюдением» кредитному рейтингу «Делимобиля»",
       "url": "https://rbc.ru/quote/27/11/2026/6b098d2cc5e29433457b3ec8",
@@ -67232,6 +67377,46 @@
       "metrics": [],
       "source_quality": 4.5,
       "publisher_id": "vedomosti.ru"
+    },
+    {
+      "id": "b9fd0de9807a7da972",
+      "title": "Рынок подержанных люксовых автомобилей падает пять месяцев подряд",
+      "url": "https://autostat.ru/news/63567",
+      "source": "АВТОСТАТ — авторынок",
+      "published_at": "2026-11-27T00:00:00+00:00",
+      "summary": "По данным агентства «АВТОСТАТ», в октябре нынешнего года жители РФ приобрели 225 подержанных автомобилей сегмента Luxury. Это на 11% меньше, чем в том же м...",
+      "categories": [
+        "Automotive"
+      ],
+      "primary_category": "Automotive",
+      "topics": [
+        "Рынок и продажи",
+        "M&A и инвестиции",
+        "Исследования и прогнозы"
+      ],
+      "brands": [],
+      "score": 2.5,
+      "strategic_relevance_score": 50,
+      "relevance_reasons": [
+        "рынок / бизнес",
+        "инвестиции / M&A",
+        "есть данные"
+      ],
+      "why_it_matters": "Важен для понимания продаж, цен, модельного ряда, дилерской сети и конкурентной динамики авторынка. Отобрано как: рынок / бизнес, инвестиции / M&A, есть данные.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [
+        {
+          "type": "Рыночная метрика",
+          "value": "11%",
+          "context": "Это на 11% меньше, чем в том же м."
+        }
+      ],
+      "source_quality": 4.8,
+      "publisher_id": "autostat.ru"
     },
     {
       "id": "74af4bcac7308ca90c",
@@ -67313,6 +67498,41 @@
       "metrics": [],
       "source_quality": 4.2,
       "publisher_id": "sostav.ru"
+    },
+    {
+      "id": "52db8978cc44db94d2",
+      "title": "В России стартовали продажи кроссовера Tenet Plus L6 с полным приводом",
+      "url": "https://autostat.ru/news/63564",
+      "source": "АВТОСТАТ — авторынок",
+      "published_at": "2026-11-26T00:00:00+00:00",
+      "summary": "Отечественный бренд Tenet Plus объявил о начале продаж полноприводной версии кроссовера L6. Новинка представлена в максимальной комплектации «Ультра» по це...",
+      "categories": [
+        "Automotive"
+      ],
+      "primary_category": "Automotive",
+      "topics": [
+        "Рынок и продажи",
+        "Маркетинг и медиа"
+      ],
+      "brands": [
+        "TENET"
+      ],
+      "score": 2.5,
+      "strategic_relevance_score": 50,
+      "relevance_reasons": [
+        "рынок / бизнес",
+        "маркетинг",
+        "крупный игрок"
+      ],
+      "why_it_matters": "Важен для понимания продаж, цен, модельного ряда, дилерской сети и конкурентной динамики авторынка. В фокусе: TENET. Отобрано как: рынок / бизнес, маркетинг, крупный игрок.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [],
+      "source_quality": 4.8,
+      "publisher_id": "autostat.ru"
     },
     {
       "id": "b03904170efadcc375",
@@ -75251,6 +75471,37 @@
       "publisher_id": "sostav.ru"
     },
     {
+      "id": "d804fdfd13249b5586",
+      "title": "«Роскосмос» рассказал о применении ИИ на МКС и в проектировании",
+      "url": "https://rbc.ru/politics/28/10/2026/6ae1f6ec891614ddb86259ce",
+      "source": "РБК — бизнес и экономика",
+      "published_at": "2026-11-28T12:54:57+00:00",
+      "summary": "«Роскосмос» расширит перечень операций, которые на Международной космической станции выполняют с помощью нейросети GigaChat, и применяет искусственный интеллект при создании новой техники.",
+      "categories": [
+        "TechnologyAI"
+      ],
+      "primary_category": "TechnologyAI",
+      "topics": [
+        "Форматы и экспансия",
+        "Digital и технологии"
+      ],
+      "brands": [],
+      "score": 2.3,
+      "strategic_relevance_score": 46,
+      "relevance_reasons": [],
+      "why_it_matters": "Материал влияет на рыночный или конкурентный контекст.",
+      "client_matches": {},
+      "market_scope": "Global",
+      "future_horizon": [
+        "future"
+      ],
+      "future_signal": true,
+      "content_type": "company_plan",
+      "metrics": [],
+      "source_quality": 4.5,
+      "publisher_id": "rbc.ru"
+    },
+    {
       "id": "e6068501fc2704deae",
       "title": "Матвиенко предложила ввести платеж по ОМС для «якобы неработающих»",
       "url": "https://kommersant.ru/doc/9144303",
@@ -82395,6 +82646,38 @@
       "publisher_id": "sostav.ru"
     },
     {
+      "id": "bc3b6641d187d50b11",
+      "title": "Володин рассказал, какие законы начнут действовать в декабре",
+      "url": "https://kommersant.ru/doc/9144953",
+      "source": "Коммерсантъ — новости",
+      "published_at": "2026-11-28T07:13:38+00:00",
+      "summary": "В декабре в России изменятся правила контроля за доходами иноагентов, трудоустройства иностранцев и передачи сведений о потребительских займах. О новых законах рассказал председатель Госдумы Вячеслав Володин в Telegram.",
+      "categories": [
+        "Consumer"
+      ],
+      "primary_category": "Consumer",
+      "topics": [
+        "Потребитель",
+        "Регулирование"
+      ],
+      "brands": [],
+      "score": 2.1,
+      "strategic_relevance_score": 42,
+      "relevance_reasons": [
+        "потребитель",
+        "регулирование"
+      ],
+      "why_it_matters": "Материал влияет на рыночный или конкурентный контекст. Отобрано как: потребитель, регулирование.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [],
+      "source_quality": 4.6,
+      "publisher_id": "kommersant.ru"
+    },
+    {
       "id": "f6e5f1883b175e03e8",
       "title": "Эксперты оценили, как нейросети меняют кино и работу сценаристов",
       "url": "https://rbc.ru/radio/26/11/2026/6b084748d3271e67b3063028",
@@ -87419,6 +87702,65 @@
       ],
       "source_quality": 4.5,
       "publisher_id": "rbc.ru"
+    },
+    {
+      "id": "90d4c979e6cf431cc3",
+      "title": "Электромобиль АМБЕРАВТО А5 прошел сертификацию и снова появится в продаже",
+      "url": "https://autostat.ru/news/63576",
+      "source": "АВТОСТАТ — авторынок",
+      "published_at": "2026-11-27T00:00:00+00:00",
+      "summary": "Электрокар АМБЕРАВТО А5 получил Одобрение типа транспортного средства (ОТТС) и уже в декабре снова начнет поступать в дилерские центры. Об этом сообщает директор агент...",
+      "categories": [
+        "Automotive"
+      ],
+      "primary_category": "Automotive",
+      "topics": [
+        "Рынок и продажи"
+      ],
+      "brands": [],
+      "score": 2.0,
+      "strategic_relevance_score": 40,
+      "relevance_reasons": [
+        "рынок / бизнес"
+      ],
+      "why_it_matters": "Важен для понимания продаж, цен, модельного ряда, дилерской сети и конкурентной динамики авторынка. Отобрано как: рынок / бизнес.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [],
+      "source_quality": 4.8,
+      "publisher_id": "autostat.ru"
+    },
+    {
+      "id": "b7f9d7d269264a58c5",
+      "title": "Стали известны спикеры форума автобизнеса «AI-революция – 2026»",
+      "url": "https://autostat.ru/news/63566",
+      "source": "АВТОСТАТ — авторынок",
+      "published_at": "2026-11-27T00:00:00+00:00",
+      "summary": "Несмотря на то, что искусственный интеллект (AI) может ответить на любой вопрос, экспертности ему все же порой не хватает. А найти ее представители автобизнеса смогут ...",
+      "categories": [
+        "Automotive"
+      ],
+      "primary_category": "Automotive",
+      "topics": [
+        "Digital и технологии",
+        "Исследования и прогнозы"
+      ],
+      "brands": [],
+      "score": 2.0,
+      "strategic_relevance_score": 40,
+      "relevance_reasons": [],
+      "why_it_matters": "Важен для понимания продаж, цен, модельного ряда, дилерской сети и конкурентной динамики авторынка.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [],
+      "source_quality": 4.8,
+      "publisher_id": "autostat.ru"
     },
     {
       "id": "33d9958a0c482fe47d",
@@ -94658,6 +95000,46 @@
       "publisher_id": "retail.ru"
     },
     {
+      "id": "b7076f681f9b526361",
+      "title": "Чистая прибыль МКБ по МСФО за 9 месяцев снизилась на 23%",
+      "url": "https://finam.ru/publications/item/chistaya-pribyl-mkb-po-msfo-za-9-mesyatsev-snizilas-na-23-20261127-2202?news_to_finamb=new_compaigns",
+      "source": "Finam — компании и рынки",
+      "published_at": "2026-11-27T19:02:33+00:00",
+      "summary": "За 3 квартал прибыль упала в 3,3 раза...",
+      "categories": [
+        "BanksFintech"
+      ],
+      "primary_category": "BanksFintech",
+      "topics": [
+        "Финрезультаты"
+      ],
+      "brands": [
+        "МКБ"
+      ],
+      "score": 1.9,
+      "strategic_relevance_score": 38,
+      "relevance_reasons": [
+        "рынок / бизнес",
+        "крупный игрок",
+        "есть данные"
+      ],
+      "why_it_matters": "Может менять банковские офферы, финтех-сервисы, клиентское поведение и коммуникационную конкуренцию. В фокусе: МКБ. Отобрано как: рынок / бизнес, крупный игрок, есть данные.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [
+        {
+          "type": "Рыночная метрика",
+          "value": "23%",
+          "context": "Чистая прибыль МКБ по МСФО за 9 месяцев снизилась на 23%."
+        }
+      ],
+      "source_quality": 4.0,
+      "publisher_id": "finam.ru"
+    },
+    {
       "id": "12ef743fc169b8415f",
       "title": "Добавить в корзину: на российском рынке БАД появятся новые производители",
       "url": "https://rbc.ru/radio/27/11/2026/6b09897f9e82f28fc09de69a",
@@ -100693,6 +101075,37 @@
       "metrics": [],
       "source_quality": 4.1,
       "publisher_id": "cnews.ru"
+    },
+    {
+      "id": "3e5ea3696401f53f5b",
+      "title": "Кроссовер EXEED RX стал дешевле на 460 – 510 тысяч рублей",
+      "url": "https://autostat.ru/news/63571",
+      "source": "АВТОСТАТ — авторынок",
+      "published_at": "2026-11-27T00:00:00+00:00",
+      "summary": "Китайский премиум-бренд EXEED снизил цены у кроссовера RX, сообщают эксперты агентства «АВТОСТАТ» по итогам проведенного мониторинга сайтов дистрибьюторов,...",
+      "categories": [
+        "Automotive"
+      ],
+      "primary_category": "Automotive",
+      "topics": [
+        "Цены и промо",
+        "Маркетинг и медиа"
+      ],
+      "brands": [],
+      "score": 1.8,
+      "strategic_relevance_score": 36,
+      "relevance_reasons": [
+        "маркетинг"
+      ],
+      "why_it_matters": "Важен для понимания продаж, цен, модельного ряда, дилерской сети и конкурентной динамики авторынка. Отобрано как: маркетинг.",
+      "client_matches": {},
+      "market_scope": "Global",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [],
+      "source_quality": 4.8,
+      "publisher_id": "autostat.ru"
     },
     {
       "id": "6dcbe16c36f465a5f9",
@@ -106936,6 +107349,38 @@
       "publisher_id": "sostav.ru"
     },
     {
+      "id": "ab1d1756ae3d49aaec",
+      "title": "Глава КТК заявил, что покупатели называют российскую нефть «вкусной»",
+      "url": "https://rbc.ru/politics/18/08/2026/6a8466a89a7947a2e7fd33f5",
+      "source": "РБК — бизнес и экономика",
+      "published_at": "2026-11-28T12:44:59+00:00",
+      "summary": "Гендиректор КТК заявил, что российская нефть является «супердобавкой» на нефтеперерабатывающих заводах и поэтому имеет определенную стоимость, намного выше аналогов",
+      "categories": [
+        "Consumer"
+      ],
+      "primary_category": "Consumer",
+      "topics": [
+        "Потребитель",
+        "Регулирование"
+      ],
+      "brands": [],
+      "score": 1.7,
+      "strategic_relevance_score": 34,
+      "relevance_reasons": [
+        "потребитель",
+        "регулирование"
+      ],
+      "why_it_matters": "Материал влияет на рыночный или конкурентный контекст. Отобрано как: потребитель, регулирование.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [],
+      "source_quality": 4.5,
+      "publisher_id": "rbc.ru"
+    },
+    {
       "id": "ff83c123d5c8302060",
       "title": "Нам люди больше не нужны. В SAP грядет колоссальная волна увольнений – десять тысяч сотрудников заменят нейросетями",
       "url": "https://cnews.ru/news/top/2026-11-27_lyudi_nam_bolshe_ne_nuzhny",
@@ -110290,6 +110735,34 @@
       "content_type": "news",
       "source_quality": 4.0,
       "publisher_id": "sostav.ru"
+    },
+    {
+      "id": "7551ec4406fcd12a84",
+      "title": "The Guardian узнал об угрозе безопасности банкам из-за ИИ",
+      "url": "https://rbc.ru/base/27/11/2026/6b05bd564013b4ebf3bc5946",
+      "source": "РБК — бизнес и экономика",
+      "published_at": "2026-11-28T12:17:59+00:00",
+      "summary": "Компании, занимающиеся искусственным интеллектом, скрывают «сенсационные» открытия, которые могут в кратчайшие сроки подорвать основы безопасности банков и правительств, считают ведущие эксперты.",
+      "categories": [
+        "BanksFintech"
+      ],
+      "primary_category": "BanksFintech",
+      "topics": [
+        "Digital и технологии"
+      ],
+      "brands": [],
+      "score": 1.6,
+      "strategic_relevance_score": 32,
+      "relevance_reasons": [],
+      "why_it_matters": "Может менять банковские офферы, финтех-сервисы, клиентское поведение и коммуникационную конкуренцию.",
+      "client_matches": {},
+      "market_scope": "Russia",
+      "future_horizon": [],
+      "future_signal": false,
+      "content_type": "news",
+      "metrics": [],
+      "source_quality": 4.5,
+      "publisher_id": "rbc.ru"
     },
     {
       "id": "869993c55464fa0130",
